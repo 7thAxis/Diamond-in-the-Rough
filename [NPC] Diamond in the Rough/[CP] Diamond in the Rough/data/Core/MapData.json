@@ -3,7 +3,7 @@
         //Map Loads
         {
 			"Action": "Load",
-			"Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+			"Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
 			"FromFile": "assets/Maps/EveHouseInterior.tmx"
 		},
         {
@@ -28,10 +28,11 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"Entries": {
-				"7thAxis.DitR.Maps.EveHouseInterior": {
+				"{{ModID}}.Maps.EveHouseInterior": {
+                    "MusicIsTownTheme": true,
 					"DisplayName": "{{i18n:Core.Locations.EveHouse}}",
 					"DefaultArrivalTile": { "X": 6, "Y": 10 },
-					"CreateOnLoad": { "MapPath": "Maps/7thAxis.DitR.Maps.EveHouseInterior" },
+					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.EveHouseInterior" },
 					"FormerLocationNames": [ "7thAxis.LotV.EveHouseInterior" ]
 				}
 			}
@@ -39,7 +40,7 @@
         //Warps
         {
             "Action": "EditMap",
-            "Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+            "Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
             "AddWarps": [
                "6 11 Custom_EastScarpe 80 94"
             ]
@@ -68,7 +69,7 @@
                  },
                  "Layer": "Buildings",
                  "SetProperties": {
-                     "Action": "Warp 6 9 7thAxis.DitR.Maps.EveHouseInterior"
+                     "Action": "Warp 6 9 {{ModID}}.Maps.EveHouseInterior"
                  }
              }
          ]
@@ -104,17 +105,17 @@
     // MEEP images and text
      {
         "Action": "Load",
-        "Target": "Mods/7thAxis.DitR.Images/DrawerPhoto.1",
+        "Target": "Mods/{{ModID}}.Images/DrawerPhoto.1",
         "FromFile": "assets/Images/DrawerPhoto.1.png"
     },
     {
         "Action": "Load",
-        "Target": "Mods/7thAxis.DitR.Images/DrawerPhoto.2",
+        "Target": "Mods/{{ModID}}.Images/DrawerPhoto.2",
         "FromFile": "assets/Images/DrawerPhoto.2.png"
     },
     {
         "Action": "EditMap",
-        "Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+        "Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
         "MapTiles": [
             {
                 "Position": {
@@ -123,7 +124,7 @@
                 },
                 "Layer": "Back",
                 "SetProperties": {
-                    "MEEP_CloseupInteraction_Image": "Mods/7thAxis.DitR.Images/DrawerPhoto.1",
+                    "MEEP_CloseupInteraction_Image": "Mods/{{ModID}}.Images/DrawerPhoto.1",
                     "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
                 }
             }

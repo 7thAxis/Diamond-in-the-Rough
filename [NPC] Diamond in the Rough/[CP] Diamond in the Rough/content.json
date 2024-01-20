@@ -1,6 +1,7 @@
 {
     "Format": "2.0.0",
     //Config
+    
     "ConfigSchema": {
         "Shadow Stat Changes": {
             "AllowValues": "true, false",
@@ -170,7 +171,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
             "FromFile": "data/blank.json"
         },
         //All
@@ -183,6 +184,21 @@
             "Action": "Include",
             "FromFile": "data/Dialogue/EveDialogue.json, data/Schedules/EveSchedule.json, data/Festivals/EveFestivalLocations.json, data/Movies/EveMovieData.json, data/Events/Eve/Event0.json, data/Events/Eve/Event2.json"
         },
+        //Trace
+        {
+            "Action": "Include",
+            "FromFile": "data/Dialogue/TraceDialogue.json, data/Schedules/TraceSchedule.json"
+        },
+        //Sen
+		{
+			"Action": "Include",
+			"FromFile": "data/Dialogue/SenDialogue.json, data/Dialogue/SenDialogue_Partner.json, data/Schedules/SenSchedule.json, data/Festivals/SenFestivalLocations.json, data/Movies/SenMovieData.json,data/Events/Sen/Event0.json, data/Events/Sen/Event2.json,data/Events/Sen/Event4.json, data/Events/Sen/Event6.json,data/Events/Sen/Event8.json, data/Events/Sen/Event10.json, data/Events/Sen/Event14.json, data/Events/Sen/ReactToDeath.json"
+		},
+        {
+			"Action": "Include",
+			"FromFile": "data/Schedules/SenSchedule.json",
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
+		},
         //Waffle
         {
             "Action": "Include",
@@ -193,16 +209,6 @@
             "Action": "Include",
             "FromFile": "data/Dialogue/PipoDialogue.json, data/Schedules/PipoSchedule.json, data/Festivals/PipoFestivalLocations.json, data/Movies/PipoMovieData.json"
         },
-        //Sen
-		{
-			"Action": "Include",
-			"FromFile": "data/Dialogue/SenDialogue.json, data/Dialogue/SenDialogue_Partner.json, data/Schedules/SenSchedule.json, data/Festivals/SenFestivalLocations.json, data/Movies/SenMovieData.json,data/Events/Sen/Event0.json, data/Events/Sen/Event2.json,data/Events/Sen/Event4.json, data/Events/Sen/Event6.json,data/Events/Sen/Event8.json, data/Events/Sen/Event10.json, data/Events/Sen/Event14.json, data/Events/Sen/ReactToDeath.json"
-		},
-        {
-			"Action": "Include",
-			"FromFile": "data/Schedules/SenSchedule.json",
-            "When":{ "HasSeenEvent: |contains=7thAxis.DitR.Events.SenS.0h": true }
-		},
         //loads based on mod compat
         {
             "Action": "EditData",

@@ -3,12 +3,7 @@
        //---------------------------- Eve ------------------------------------------
        {
         "Action": "Load",
-        "Target": "Characters/EveT, Portraits/EveT",
-        "FromFile": "assets/{{TargetPathOnly}}/Eve/Eve.png"
-    },
-    {
-        "Action": "Load",
-        "Target": "Characters/EveT_Default, Portraits/EveT_Default",
+        "Target": "Characters/EveT, Portraits/EveT, Characters/EveT_Default, Portraits/EveT_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Eve/Eve.png"
     },
     {
@@ -21,6 +16,23 @@
             "eve_sit": "19/19/19",
             "eve_kickfeet": "17/17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18/18",
             "eve_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
+        }
+    },
+    //---------------------------- Eve ------------------------------------------
+       {
+        "Action": "Load",
+        "Target": "Characters/TraceV, Portraits/TraceV, Characters/TraceV_Default, Portraits/TraceV_Default",
+        "FromFile": "assets/{{TargetPathOnly}}/Trace/Trace.png"
+    },
+    {
+        "LogName": "Trace Animations",
+        "Action": "EditData",
+        "Target": "Data/animationdescriptions",
+        "Entries": {
+            "trace_sleep": "4/4/4", //temp
+            "trace_jam": "16/16 16 16 16 17 17 17 17 18 18 18 18 19 19 19 19/19",
+            "trace_art": "20/20 20 20 20 21 21 21 21 22 22 22 22 23 23 23 23 24 24 24 24/24",
+            "trace_giggle": "31/31 31 31 31 31 32 32 32 32/32"
         }
     },
        //---------------------------- Waffle ------------------------------------------
@@ -48,13 +60,8 @@
        //---------------------------- Pipo ------------------------------------------
        {
         "Action": "Load",
-        "Target": "Characters/PipoP, Portraits/PipoP",
+        "Target": "Characters/PipoP, Portraits/PipoP, Characters/PipoP_Default, Portraits/PipoP_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png"
-    },
-    {
-        "Action": "Load",
-        "Target": "Characters/PipoP_Default, Portraits/PipoP_Default",
-        "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png"       
     },
     {
         "LogName": "Pipo Animations",
@@ -71,18 +78,13 @@
     //---------------------------- Sen ------------------------------------------
     {
         "Action": "Load",
-        "Target": "Characters/SenS, Portraits/SenS",
+        "Target": "Characters/SenS, Portraits/SenS, Portraits/SenS_Default, Characters/SenS_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Sen/sen.png"
     },
     {
         "Action": "Load",
         "Target": "Characters/SenS_Kid, Portraits/SenS_Kid",
         "FromFile": "assets/{{TargetPathOnly}}/Sen/SenFlashback.png"
-    },
-    {
-        "Action": "Load",
-        "Target": "Portraits/SenS_Default, Characters/SenS_Default",
-        "FromFile": "assets/{{TargetPathOnly}}/Sen/sen.png"
     },
     {
         "LogName": "Sen Animations",

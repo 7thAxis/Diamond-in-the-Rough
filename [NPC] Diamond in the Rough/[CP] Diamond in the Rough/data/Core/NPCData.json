@@ -23,17 +23,14 @@
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,  
-                    "CanVisitIslandCondition": false,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
-                    "FriendsAndFamily": {
-                        "Pipo": "Pet",
-                        "Waffle": "Pet"
-                    },
                     "SpawnIfMissing": true,
                     "Breather": true,
                     "Home": [
                         {
-                            "Location": "7thAxis.DitR.Maps.EveHouseInterior",
+                            "Location": "{{ModID}}.Maps.EveHouseInterior",
                             "Tile": {
                                 "X": 12,
                                 "Y": 5
@@ -65,104 +62,44 @@
             }
         },
         {
-            "LogName": "Waffle Dispositions",
+            "LogName": "Trace Dispositions",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "WaffleW": {
-                    "DisplayName": "{{i18n:Core.WaffleW.Name}}",
+                "TraceV": {
+                    "DisplayName": "{{i18n:Core.TraceV.Name}}",
                     "BirthSeason": "fall",
-                    "BirthDay": 15,
-                    "HomeRegion": "Other",
-                    "Gender": "Female",
+                    "BirthDay": 8,
+                    "HomeRegion": "Town",
+                    "Gender": "Undefined",
                     "Age": "Adult",
                     "Manner": "Neutral",
                     "SocialAnxiety": "Outgoing",
-                    "Optimism": "Positive",
+                    "Optimism": "Negative",
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "CanGreetNearbyCharacters": false,
+                    "ShakePortraits": [],
                     "ExcludeFromIntroductionsQuest": false,
                     "ExcludeFromPerfectionScore": false,
-                    "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": 5,
-                    "DumpsterDiveEmote": 56,            
-                    "CanVisitIslandCondition": false,
+                    "DumpsterDiveEmote": 20,  
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
-                    "FriendsAndFamily": {
-                        "Eve": "Caregiver",
-                        "Pipo": "Friend"
-                    },
                     "SpawnIfMissing": true,
-                    "Breather": false,
-                    "Home": [
-                        {
-                            "Location": "7thAxis.DitR.Maps.EveHouseInterior",
-                            "Tile": {
-                                "X": 7,
-                                "Y": 4
-                            },
-                            "Direction": "down"
-                        }
-                    ],
-                    "SocialTabIconSourceRect": {
-                        "X": 0,
-                        "Y": 9,
-                        "Width": 16,
-                        "Height": 24
-                    }
-                }
-            }
-        },
-        {
-            "LogName": "Pipo Dispositions",
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "Entries": {
-                "PipoP": {
-                    "DisplayName": "{{i18n:Core.PipoP.Name}}",
-                    "BirthSeason": "fall",
-                    "BirthDay": 2,
-                    "HomeRegion": "Other",
-                    "Gender": "Undefined",
-                    "Age": "Adult",
-                    "Manner": "Rude",
-                    "SocialAnxiety": "Outgoing",
-                    "Optimism": "Positive",
-                    "CanBeRomanced": false,
-                    "LoveInterest": "YourMom",
-                    "SocialTab": "UnknownUntilMet",
-                    "CanGreetNearbyCharacters": false,
-                    "ExcludeFromIntroductionsQuest": false,
-                    "ExcludeFromPerfectionScore": false,
-                    "WinterStarParticipant": false,
-                    "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 40,     
-                    "CanVisitIslandCondition": false,
-                    "EndSlideShow": "TrailingGroup",
-                    "FriendsAndFamily": {
-                        "Eve": "Caregiver",
-                        "Waffle": "Friend"
-                    },
-                    "SpawnIfMissing": true,
-                    "Breather": false,
+                    "Breather": true,
                     "Home": [
                         {
                             "Location": "Custom_EastScarpe",
                             "Tile": {
-                                "X": 77,
+                                "X": 78,
                                 "Y": 94
                             },
                             "Direction": "left"
                         }
                     ],
-                    "SocialTabIconSourceRect": {
-                        "X": 0,
-                        "Y": 9,
-                        "Width": 16,
-                        "Height": 24
-                    }
+                    "Appearance": [ ]
                 }
             }
         },
@@ -192,11 +129,9 @@
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,  
-                    "CanVisitIslandCondition": false,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
-                    "FriendsAndFamily": {
-                        "Krobus": "{{i18n:Core.SenS.Friend}}"
-                    },
                     "SpawnIfMissing": true,
                     "Breather": false,
                     "Appearance": [
@@ -288,7 +223,7 @@
                     }
                 ]
             },
-            "When": { "HasSeenEvent: |contains=7thAxis.DitR.Events.SenS.0h": false }
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false }
         },
         {
             "Action": "EditData",
@@ -306,7 +241,7 @@
                     }
                 ]
             },
-            "When": { "HasSeenEvent: |contains=7thAxis.DitR.Events.SenS.0h": true }
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
         },
         {
             "Action": "EditData",
@@ -316,8 +251,8 @@
                 "CanBeRomanced": true
             },
             "When": {
-                "HasSeenEvent:currentPlayer |contains=7thAxis.DitR.Events.SenS.0h": true,
-                "HasSeenEvent:currentPlayer |contains=7thAxis.DitR.Events.SenS.10h.P3": true,
+                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
+                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
                 "HasFlag:currentPlayer |contains=DitR_M_Romantic": true
             }
         },
@@ -330,9 +265,105 @@
                 }
             },
             "When": {
-                "HasSeenEvent:currentPlayer |contains=7thAxis.DitR.Events.SenS.0h": true,
-                "HasSeenEvent:currentPlayer |contains=7thAxis.DitR.Events.SenS.10h.P3": true,
+                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
+                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
                 "HasFlag:currentPlayer |contains=DitR_M_Romantic": false
+            }
+        },
+        {
+            "LogName": "Waffle Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "WaffleW": {
+                    "DisplayName": "{{i18n:Core.WaffleW.Name}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 15,
+                    "HomeRegion": "Other",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+                    "SocialTab": "UnknownUntilMet",
+                    "CanGreetNearbyCharacters": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 5,
+                    "DumpsterDiveEmote": 56,            
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Location": "{{ModID}}.Maps.EveHouseInterior",
+                            "Tile": {
+                                "X": 7,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "SocialTabIconSourceRect": {
+                        "X": 0,
+                        "Y": 9,
+                        "Width": 16,
+                        "Height": 24
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "Pipo Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "PipoP": {
+                    "DisplayName": "{{i18n:Core.PipoP.Name}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 2,
+                    "HomeRegion": "Other",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "YourMom",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanGreetNearbyCharacters": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 40,     
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Location": "Custom_EastScarpe",
+                            "Tile": {
+                                "X": 77,
+                                "Y": 94
+                            },
+                            "Direction": "left"
+                        }
+                    ],
+                    "SocialTabIconSourceRect": {
+                        "X": 0,
+                        "Y": 9,
+                        "Width": 16,
+                        "Height": 24
+                    }
+                }
             }
         },
         {
