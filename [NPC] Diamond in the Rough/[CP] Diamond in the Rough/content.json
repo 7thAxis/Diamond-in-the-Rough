@@ -122,37 +122,37 @@
         {
             "Name": "WeekDay",
             "Value": "Mon",
-            "When": { "DayOfWeek |contains=Monday": true }
+            "When": { "DayOfWeek": "Monday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Tue",
-            "When": { "DayOfWeek |contains=Tuesday": true }
+            "When": { "DayOfWeek": "Tuesday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Wed",
-            "When": { "DayOfWeek |contains=Wednesday": true }
+            "When": { "DayOfWeek": "Wednesday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Thu",
-            "When": { "DayOfWeek |contains=Thursday": true }
+            "When": { "DayOfWeek": "Thursday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Fri",
-            "When": { "DayOfWeek |contains=Friday": true }
+            "When": { "DayOfWeek": "Friday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Sat",
-            "When": { "DayOfWeek |contains=Saturday": true }
+            "When": { "DayOfWeek": "Saturday" }
         },
         {
             "Name": "WeekDay",
             "Value": "Sun",
-            "When": { "DayOfWeek |contains=Sunday": true }
+            "When": { "DayOfWeek": "Sunday" }
         },
         //PASS-IN TOKENS
             //GOD AXELL WHY, GOD WHY GOD WHY WHHHHYYYY
