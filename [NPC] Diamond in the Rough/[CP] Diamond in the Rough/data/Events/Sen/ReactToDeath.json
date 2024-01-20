@@ -1,0 +1,26 @@
+{
+    "Changes": [
+            {
+                "LogName": "Player Death - Mines",
+                "Action": "EditData",
+                "Target": "Data/Events/Mine",
+                "Entries": {
+                    "PlayerKilled": "none/-100 -100/farmer 19 10 2 SenS 18 10 1/pause 1500/showFrame 5/message \"{{i18n:Events.SenS.ReactToDeathMine.1}}\"/pause 1000/message \"{{i18n:Events.SenS.ReactToDeathMine.2}}\"/viewport 19 10 true/pause 1000/speak SenS \"{{i18n:Events.SenS.ReactToDeathMine.3}}\"/pause 1000/emote farmer 28/minedeath/end"
+                },
+                "When": { 
+                    "Query: '{{Relationship:SenS}}' IN ('Married', 'Dating', 'Engaged') OR '{{Roommate}}' = 'SenS'": true
+                 }
+              },
+              {
+                "LogName": "Player Death - Skull Cave",
+                "Action": "EditData",
+                "Target": "Data/Events/Hospital",
+                "Entries": {
+                    "PlayerKilled": "none/-100 -100/farmer 20 12 2 Harvey 21 12 3 SenS 22 8 2/pause 1500/showFrame 5/message \"{{i18n:Events.SenS.ReactToDeathSkullCavern.1}}\"/pause 1000/message \"{{i18n:Events.SenS.ReactToDeathSkullCavern.2}}\"/viewport 20 12 true/pause 1000/speak Harvey \"{{i18n:Events.SenS.ReactToDeathSkullCavern.3}}\"/speed SenS 5/move SenS 0 3 2/textAboveHead SenS \"!!!\"/move SenS -1 0 2/faceDirection farmer 1/move Harvey 1 0 3/move SenS 0 1 3/speak SenS \"{{i18n:Events.SenS.ReactToDeathSkullCavern.4}}\"/emote farmer 60/pause 500/speak SenS \"{{i18n:Events.SenS.ReactToDeathSkullCavern.5}}\"/emote SenS 40/pause 1500/emote farmer 28/pause 500/pause 500/speak Harvey \"{{i18n:Events.SenS.ReactToDeathSkullCavern.6}}\"/pause 500/speak Harvey \"{{i18n:Events.SenS.ReactToDeathSkullCavern.7}}\"/pause 500/move Harvey 0 -4 0/move Harvey -8 0 0 true/pause 500/faceDirection SenS 3/speak SenS \"{{i18n:Events.SenS.ReactToDeathSkullCavern.8}}\"/faceDirection farmer 2/pause 1000/emote farmer 28/hospitaldeath/end"
+                },
+                "When": { 
+                    "Query: '{{Relationship:SenS}}' IN ('Married', 'Dating', 'Engaged') OR '{{Roommate}}' = 'SenS'": true 
+                }
+              }
+    ]
+}

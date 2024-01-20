@@ -1,0 +1,27 @@
+{
+	"Name": "Diamond in the Rough",
+	"Author": "7thAxis",
+	"Version": "0.0.1",
+	"Description": "Adds new NPCs to East Scarp!",
+	"UniqueID": "7thAxis.DitR.CP",
+	"UpdateKeys": [""],
+	"MinimumApiVersion": "2.11.0",
+	"MinimumGameVersion": "1.6",
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"Dependencies": [
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"MinimumVersion": "2.3.6",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "aedenthorn.CustomFixedDialogue",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "spacechase0.SpaceCore",
+			"MinimumVersion": "1.13.0",
+			"IsRequired": true
+		}
+	]
+}

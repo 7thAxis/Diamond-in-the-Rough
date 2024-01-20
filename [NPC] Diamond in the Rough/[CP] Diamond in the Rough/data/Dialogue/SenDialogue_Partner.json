@@ -1,0 +1,349 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "SenS_Engaged": "{{i18n:Relationship.SenS.Engaged.{{SenPartnershipType}}}}",
+                "SenS_AfterWedding": "{{i18n:Relationship.SenS.AfterWedding.{{SenPartnershipType}}}}"
+            }
+        },
+        {
+            "LogName": "Sen Romance Main Dialogue Keys",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+
+                //Memory Wipe
+                "WipedMemory": "",
+
+                //Stardrop
+                "SpouseStardrop": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipType}}}}",
+                
+                //Situational
+                "SpouseFarmhouseClutter": "{{i18n:Relationship.SenS.KitchenBlocked.{{Random:{{Range: 1, 2}}}}}}",
+                "Spouse_MonstersInHouse": "{{i18n:Relationship.SenS.MonstersInHouse.{{Random:{{Range: 1, 2}}}}}}",
+                "SpouseGiftJealous": "{{i18n:Relationship.SenS.JealousyOveride}}",
+
+                //Bouquet
+                "RejectBouquet_Divorced": "{{i18n:Relationship.SenS.Rejection.Divorced}}",
+                "RejectBouquet": "{{i18n:Relationship.SenS.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",
+                "AcceptBouquet": "{{i18n:Relationship.SenS.BouquetAccept.{{Random:{{Range: 1, 2}}}}}}",
+
+                //Reject Pendant
+                "RejectMermaidPendant_Divorced": "{{i18n:Relationship.SenS.Rejection.Divorced}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:Relationship.SenS.PendantRejection.NeedHouseUpgrade}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:Relationship.SenS.PendantRejection.NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:Relationship.SenS.PendantRejection.PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:Relationship.SenS.PendantRejection.1}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:Relationship.SenS.PendantRejection.2}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:Relationship.SenS.PendantPester.{{Random:{{Range: 1, 2}}}}}}",
+                "RejectMermaidPendant": "{{i18n:Relationship.SenS.PendantRejection.{{Random:{{Range: 1, 2}}}}}}",
+
+                //Flower Dance
+                "FlowerDance_Accept_Spouse": "{{i18n:Relationship.SenS.DanceAccept.Spouse}}",
+                "FlowerDance_Accept_Roommate": "{{i18n:Relationship.SenS.DanceAccept.Roommate}}",
+                "FlowerDance_Accept": "{{i18n:Relationship.SenS.DanceAccept}}",
+                "FlowerDance_Decline": "{{i18n:Relationship.SenS.DanceRejection}}",
+                "divorced": "{{i18n:Relationship.SenS.Divorced}}",
+                "breakUp": "{{i18n:Relationship.SenS.BreakUp}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5367": "{{i18n:Relationship.SenS.MarriageEvent.1}}", //Wedding speech M
+                "Utility.cs.5369": "{{i18n:Relationship.SenS.MarriageEvent.1}}", //Wedding speech F
+                "Utility.cs.5371": "{{i18n:Relationship.SenS.MarriageEvent.2}}", //Pronounce u partners
+                "Utility.cs.5373": "{{i18n:Relationship.SenS.MarriageEvent.2}}", //Pronounce u partners
+                "Utility.cs.5375": "{{i18n:Relationship.SenS.MarriageEvent.2}}", //Pronounce u partners
+                "Utility.cs.5377": "{{i18n:Relationship.SenS.MarriageEvent.2}}" //Pronounce u partners
+            },
+            "When": {
+                "Relationship:SenS": "Engaged"
+            }
+        },
+        {
+            "LogName": "Relationship Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "Entries": {
+                //Location
+                "patio_SenS": "{{i18n:Relationship.SenS.Patio.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
+                "spouseRoom_SenS": "{{i18n:Relationship.SenS.SpouseRoom.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
+                "funLeave_SenS": "{{i18n:Relationship.SenS.FunLeave.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
+                "funReturn_SenS": "{{i18n:Relationship.SenS.FunReturn.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
+
+                //GENERIC DIALOGUE
+                "Rainy_Day_SenS": "{{i18n:Relationship.SenS.RainyDay.1}}",
+                "Rainy_Day_0": "{{i18n:Relationship.SenS.RainyDay.2}}",
+                "Rainy_Day_1": "{{i18n:Relationship.SenS.RainyDay.3}}",
+                "Rainy_Day_2": "{{i18n:Relationship.SenS.RainyDay.4}}",
+                "Rainy_Day_3": "{{i18n:Relationship.SenS.RainyDay.5}}",
+                "Rainy_Day_4": "{{i18n:Relationship.SenS.RainyDay.6.{{SenPartnershipType}}}}",
+                "Rainy_Day_5": "{{i18n:Relationship.SenS.RainyDay.7.{{SenPartnershipType}}}}",
+
+                "Rainy_Night_SenS": "{{i18n:Relationship.SenS.RainyNight.1.Opening}}{{i18n:Core.SenS.Book.AP.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj3.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.1.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
+                "Rainy_Night_0": "{{i18n:Relationship.SenS.RainyNight.2.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.2.Closing}}",
+                "Rainy_Night_1": "{{i18n:Relationship.SenS.RainyNight.3.Opening}}{{i18n:Relationship.SenS.RainyNight.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.3.Closing}}",
+                "Rainy_Night_2": "{{i18n:Relationship.SenS.RainyNight.4}}",
+                "Rainy_Night_3": "{{i18n:Relationship.SenS.RainyNight.5}}",
+                "Rainy_Night_4": "{{i18n:Relationship.SenS.RainyNight.6.{{SenPartnershipType}}}}",
+                "Rainy_Night_5": "{{i18n:Relationship.SenS.RainyNight.7.{{SenPartnershipType}}}}",
+
+                "Indoor_Day_SenS": "{{i18n:Relationship.SenS.IndoorDay.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipType}}}}",
+                "Indoor_Day_0": "{{i18n:Relationship.SenS.IndoorDay.2}}",
+                "Indoor_Day_1": "{{i18n:Relationship.SenS.IndoorDay.3}}{{i18n:Relationship.SenS.IndoorDay.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.IndoorDay.3.Closing}}",
+                "Indoor_Day_2": "{{i18n:Relationship.SenS.IndoorDay.4}}",
+                "Indoor_Day_3": "{{i18n:Relationship.SenS.IndoorDay.5}}",
+                "Indoor_Day_4": "{{i18n:Relationship.SenS.IndoorDay.6.{{SenPartnershipType}}}}",
+                "Indoor_Day_5": "{{i18n:Relationship.SenS.IndoorDay.7.{{SenPartnershipType}}}}",
+
+                "Indoor_Night_SenS": "{{i18n:Relationship.SenS.IndoorNight.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipType}}}}",
+                "Indoor_Night_0": "{{i18n:Relationship.SenS.IndoorNight.2}}",
+                "Indoor_Night_1": "{{i18n:Relationship.SenS.IndoorNight.3}}",
+                "Indoor_Night_2": "{{i18n:Relationship.SenS.IndoorNight.4}}",
+                "Indoor_Night_3": "{{i18n:Relationship.SenS.IndoorNight.5}}",
+                "Indoor_Night_4": "{{i18n:Relationship.SenS.IndoorNight.6.{{SenPartnershipType}}}}",
+                "Indoor_Night_5": "{{i18n:Relationship.SenS.IndoorNight.7.{{SenPartnershipType}}}}",
+
+                "Outdoor_SenS": "{{i18n:Relationship.SenS.Outdoor.1}}",
+                "Outdoor_0": "{{i18n:Relationship.SenS.Outdoor.2}}",
+                "Outdoor_1": "{{i18n:Relationship.SenS.Outdoor.3}}{{i18n:Relationship.SenS.Outdoor.3.Bird.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "Outdoor_2": "{{i18n:Relationship.SenS.Outdoor.4}}",
+                "Outdoor_3": "{{i18n:Relationship.SenS.Outdoor.5.{{SenPartnershipType}}}}",
+                "Outdoor_4": "{{i18n:Relationship.SenS.Outdoor.6.{{SenPartnershipType}}}}",
+
+                "OneKid_0": "{{i18n:Relationship.SenS.OneKid.1}}",
+                "OneKid_1": "{{i18n:Relationship.SenS.OneKid.2}}",
+                "OneKid_2": "{{i18n:Relationship.SenS.OneKid.3}}",
+                "OneKid_3": "{{i18n:Relationship.SenS.OneKid.4}}",
+                "OneKid_4": "{{i18n:Relationship.SenS.OneKid.5}}",
+
+                "TwoKids_0": "{{i18n:Relationship.SenS.TwoKid.1}}",
+                "TwoKids_1": "{{i18n:Relationship.SenS.TwoKid.2}}",
+                "TwoKids_2": "{{i18n:Relationship.SenS.TwoKid.3}}",
+                "TwoKids_3": "{{i18n:Relationship.SenS.TwoKid.4}}{{i18n:Relationship.SenS.TwoKidAction.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "TwoKids_4": "{{i18n:Relationship.SenS.TwoKid.5.{{SenPartnershipType}}}}",
+
+                //AFFECTION DIALOGUE
+                "Good_0": "{{i18n:Relationship.SenS.Positive.1.{{SenPartnershipType}}}}",
+                "Good_1": "{{i18n:Relationship.SenS.Positive.2.{{SenPartnershipType}}}}",
+                "Good_2": "{{i18n:Relationship.SenS.Positive.3.{{SenPartnershipType}}}}",
+                "Good_3": "{{i18n:Relationship.SenS.Positive.4.{{SenPartnershipType}}}}",
+                "Good_4": "{{i18n:Relationship.SenS.Positive.5.{{SenPartnershipType}}}}",
+                "Good_5": "{{i18n:Relationship.SenS.Positive.6.{{SenPartnershipType}}}}",
+                "Good_6": "{{i18n:Relationship.SenS.Positive.7.{{SenPartnershipType}}}}",
+                "Good_7": "{{i18n:Relationship.SenS.Positive.8.{{SenPartnershipType}}}}",
+                "Good_8": "{{i18n:Relationship.SenS.Positive.9.{{SenPartnershipType}}}}",
+                "Good_9": "{{i18n:Relationship.SenS.Positive.10.{{SenPartnershipType}}}}",
+
+                "Neutral_0": "{{i18n:Relationship.SenS.Neutral.1}}",
+                "Neutral_1": "{{i18n:Relationship.SenS.Neutral.2}}",
+                "Neutral_2": "{{i18n:Relationship.SenS.Neutral.3}}",
+                "Neutral_3": "{{i18n:Relationship.SenS.Neutral.4}}",
+                "Neutral_4": "{{i18n:Relationship.SenS.Neutral.5}}",
+                "Neutral_5": "{{i18n:Relationship.SenS.Neutral.6}}",
+                "Neutral_6": "{{i18n:Relationship.SenS.Neutral.7}}",
+                "Neutral_7": "{{i18n:Relationship.SenS.Neutral.8}}",
+                "Neutral_8": "{{i18n:Relationship.SenS.Neutral.9}}",
+                "Neutral_9": "{{i18n:Relationship.SenS.Neutral.10}}",
+
+                "Bad_0": "{{i18n:Relationship.SenS.Negative.1}}",
+                "Bad_1": "{{i18n:Relationship.SenS.Negative.2}}",
+                "Bad_2": "{{i18n:Relationship.SenS.Negative.3}}",
+                "Bad_3": "{{i18n:Relationship.SenS.Negative.4}}",
+                "Bad_4": "{{i18n:Relationship.SenS.Negative.5}}",
+                "Bad_5": "{{i18n:Relationship.SenS.Negative.6}}",
+                "Bad_6": "{{i18n:Relationship.SenS.Negative.7}}",
+                "Bad_7": "{{i18n:Relationship.SenS.Negative.8}}",
+                "Bad_8": "{{i18n:Relationship.SenS.Negative.9}}",
+                "Bad_9": "{{i18n:Relationship.SenS.Negative.10}}",
+
+                //SPECIAL DATES   
+                "spring_SenS": "{{i18n:Relationship.SenS.Spring}}",
+                "spring_12": "{{i18n:Relationship.SenS.Spring.d12}}", //Day before Egg festival
+                "spring_13": "{{i18n:Relationship.SenS.Spring.d13}}", // Egg festival
+                "spring_20": "{{i18n:Relationship.SenS.Spring.d20}}",
+                "spring_23": "{{i18n:Relationship.SenS.Spring.d23}}", // Day Before Flower Dance
+                "spring_24": "{{i18n:Relationship.SenS.Spring.d24.{{SenPartnershipType}}}}", //Flower Dance
+
+                "summer_SenS": "{{i18n:Relationship.SenS.Summer}}",
+                "summer_10": "{{i18n:Relationship.SenS.Summer.d10}}", // Day before Luau
+                "summer_11": "{{i18n:Relationship.SenS.Summer.d11}}", // Luau
+                "summer_27": "{{i18n:Relationship.SenS.Summer.d27}}", //Day before Moonlight Jelly
+                "summer_28": "{{i18n:Relationship.SenS.Summer.d28}}", //Moonlight Jelly
+
+                "fall_SenS": "{{i18n:Relationship.SenS.Fall}}",
+                "fall_15": "{{i18n:Relationship.SenS.Fall.d15.{{SenPartnershipType}}}}", //Day before stardew fair
+                "fall_16": "{{i18n:Relationship.SenS.Fall.d16.{{SenPartnershipType}}}}", //Stardew Fair
+                "fall_26": "{{i18n:Relationship.SenS.Fall.d26}}", //Day before Spirits Eve
+                "fall_27": "{{i18n:Relationship.SenS.Fall.d27}}", //Spirits Eve
+
+                "winter_SenS": "{{i18n:Relationship.SenS.Winter}}",
+                "winter_7": "{{i18n:Relationship.SenS.Winter.d7}}", //day before ice festival
+                "winter_8": "{{i18n:Relationship.SenS.Winter.d8}}", //ice festival
+                "winter_25": "{{i18n:Relationship.SenS.Winter.d25.{{SenPartnershipType}}}}", //Winter Star
+                "winter_28": "{{i18n:Relationship.SenS.Winter.d28.{{SenPartnershipType}}}}" //Day before new year
+            }
+        },
+        {
+            "LogName": "Dialogue changes post-partners",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                "NoBed_0": "{{i18n:Relationship.SenS.NoBed.1}}",
+                "NoBed_1": "{{i18n:Relationship.SenS.NoBed.2}}",
+                "NoBed_2": "{{i18n:Relationship.SenS.NoBed.3}}",
+                "NoBed_3": "{{i18n:Relationship.SenS.NoBed.4}}",
+                "AcceptGift_(O)808": "{{i18n:Gifts.SenS.VoidPendant.Relationship}}",
+                "AcceptGift_(O)874": "{{i18n:Gifts.SenS.BugSteak.Relationship}}",
+                "AcceptBirthdayGift_(O)769": "{{i18n:Gifts.SenS.VoidPendant.Birthday.Relationship}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}", //pos Birthday
+                "AcceptBirthdayGift_Neutral": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}" //neutral Birthday
+            },
+            "When": {
+                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
+            }           
+        },
+        {
+            "LogName": "Summit scene",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Intro_Spouse": "{{i18n:Relationship.SenS.SummitEvent.1}}",
+                "SummitEvent_Intro2_Spouse": "{{i18n:Relationship.SenS.SummitEvent.2}}",
+                "SummitEvent_Intro2_Spouse_Gruff": "{{i18n:Relationship.SenS.SummitEvent.2}}",
+                "SummitEvent_Dialogue1_Spouse": "{{i18n:Relationship.SenS.SummitEvent.3}}",
+                "SummitEvent_Dialogue2_Spouse": "{{i18n:Relationship.SenS.SummitEvent.4}}",
+                "SummitEvent_Dialogue3_SenS": "{{i18n:Relationship.SenS.SummitEvent.5}}"
+            },
+            "When": {
+                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
+            }
+        },
+        {
+            "LogName": "Extra dialogue",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "Spouse_KitchenBlocked": "{{i18n:Relationship.SenS.KitchenBlocked.{{Random:1++2|inputSeparator=++}}}}",
+                "Spouse_MonstersInHouse": "{{i18n:Relationship.SenS.MonstersInHouse.{{Random:1++2|inputSeparator=++}}}}",
+                "NewChild_FirstChild": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
+                "NewChild_SecondChild1": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
+                "NewChild_SecondChild2": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
+                "NewChild_Adoption": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}"
+            },
+            "When": {
+                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
+            }
+        },
+        {
+            "LogName": "Relationship Context Fixes",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS",
+            "Entries": {
+                "spring_Thu8": "{{i18n:Core.SenS.Spring.Thursday.8h.Relationship}}",
+                "summer_Mon8": "{{i18n:Core.SenS.Summer.Monday.8h.Relationship}}",   
+                "fall_Wed8": "{{i18n:Core.SenS.Fall.Wednesday.8h.Relationship}}",
+                "spring_Wed10": "{{i18n:Core.SenS.Spring.Wednesday.10h.Relationship}}",
+                "summer_Tue10": "{{i18n:Core.SenS.Summer.Tuesday.10h.Relationship}}",         
+                "fall_Sun10": "{{i18n:Core.SenS.Fall.Sunday.10h.Relationship}}",
+                "winter_Sat10": "{{i18n:Core.SenS.Winter.Saturday.10h.Relationship}}"                                             
+            },
+            "When":{
+                "Relationship:SenS": "Married, Dating, Engaged"
+            }
+        },
+        {
+            "LogName": "Have Shadow Kids Dialogue False",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4448": "{{i18n:Relationship.SenS.AdoptionRemark}}", //Pregnancy adoption edit
+                "NPC.cs.4440": "{{i18n:Relationship.SenS.AdoptionRemark}}", //Adoption 1 
+                "NPC.cs.4441": "{{i18n:Relationship.SenS.AdoptionRemark}}" //Adoption 2
+            },
+            "When":{
+                "Spouse": "SenS",
+                "Have Shadow Kids":false 
+            }
+        },
+        {
+            "LogName": "Have Shadow Kids Dialogue False 2",
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+                "HaveBabyQuestion": "{{i18n:Relationship.SenS.AdoptionQuestion}}",
+                "BirthMessage_PlayerMother": "{{i18n:Relationship.SenS.AdoptionMessage}}"
+            },
+            "When":{
+                "Spouse": "SenS",
+                "Have Shadow Kids":false
+            }
+        },
+        {
+            "LogName": "Have Shadow Kids Dialogue True",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "NPC.cs.4448": "{{i18n:Relationship.SenS.BabyRemark}}",
+                "NPC.cs.4440": "{{i18n:Relationship.SenS.BabyRemark}}", 
+                "NPC.cs.4441": "{{i18n:Relationship.SenS.BabyRemark}}" //Gonna have a baby 2
+            },
+            "When":{
+                "Spouse": "SenS",
+                "Have Shadow Kids":true 
+            }
+        },
+        {
+            "LogName": "Have Shadow Kids Dialogue True 2",
+            "Action": "EditData",
+            "Target": "Strings/Events",
+            "Entries": {
+                "HaveBabyQuestion": "{{i18n:Relationship.SenS.BabyQuestion}}",
+                "BirthMessage_PlayerMother": "{{i18n:Relationship.SenS.BabyMessage}}"
+            },
+            "When":{
+                "Spouse": "SenS",
+                "Have Shadow Kids":true
+            }
+        },
+        {
+			"LogName": "Sen UCR compatibility",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/SenS",
+			"Entries": {
+				"give_flowersA": "{{i18n:Relationship.SenS.BouquetAccept.1}}",
+				"give_flowersB": "{{i18n:Relationship.SenS.BouquetAccept.2}}",
+				"give_pendant": "{{i18n:Relationship.SenS.EngagementAccept}}",
+				"stardrop_gift": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipType}}}}",
+				"rejectNPCA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
+				"rejectNPCB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
+				"reject_two_heartA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
+				"reject_two_heartB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
+				"reject_four_heartA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
+				"reject_four_heartB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
+				"engageA": "{{i18n:Relationshipre.SenS.PendantRejection.1}}",
+				"engageB": "{{i18n:Relationship.SenS.PendantRejection.1}}",
+				"marriedA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
+				"marriedB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
+				"refusal_knownA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
+				"refusal_knownB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
+				"refusal_botherA": "{{i18n:Relationship.SenS.PendantPester.1}}",
+				"refusal_botherB": "{{i18n:Relationship.SenS.PendantPester.2}}",
+				"refusal_no_heartsA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
+				"refusal_no_heartsB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
+				"birthdayLoveA": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}",
+				"birthdayLoveB": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}",
+				"birthdayLikeA": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}",
+				"birthdayLikeB": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}",
+				"birthdayDislikeA": "{{i18n:Core.SenS.BirthdayGift.Negative.1}}",
+				"birthdayDislikeB": "{{i18n:Core.SenS.BirthdayGift.Negative.1}}",
+				"birthdayNeutralA": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}",
+				"birthdayNeutralB": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}"
+			}
+		}
+    ]
+}

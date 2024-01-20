@@ -1,0 +1,368 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "BusStop", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Backwoods", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Mountain", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Forest", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Woods", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_EastScarpe", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ForestWest", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_Garden", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ESDeepMountains", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ESOrchard", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "1.0"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.05"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "BusStop", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Backwoods", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Mountain", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Forest", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Woods", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_EastScarpe", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ForestWest", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true},
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_Garden", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ESDeepMountains", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ESOrchard", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        }
+    ]
+}

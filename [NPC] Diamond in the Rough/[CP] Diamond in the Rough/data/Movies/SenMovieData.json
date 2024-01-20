@@ -1,0 +1,229 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "SenS": {
+                    "Name": "SenS", 
+                    "LovedTags": [
+                        "Sour Slimes", 
+                        "Ice Cream Sandwich",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Sweet"
+                    ],
+                    "DislikedTags": [
+                        "Black Licorice",
+                        "Jawbreaker"
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "SenS": {
+                    "NPCName": "SenS",
+                    "Reactions": [
+                        {
+                            "Tag": "spring_movie_0", //Brave Little Sapling
+                            "Response": "like", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.BraveLittleSapling.1}}"
+                                },
+                                "DuringMovie": { 
+                                    "ResponsePoint": "sprout_leave",
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.BraveLittleSapling.2}}"
+                                },
+                                "AfterMovie": { 
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.BraveLittleSapling.3}}"
+                                }
+                            },
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "spring_movie_1", //Natural Wonders
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": { 
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.NaturalWonders.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.NaturalWonders.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.NaturalWonders.3}}"
+                                }
+                            },
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "summer_movie_0", //Prairie King
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.PrairieKing.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "PK_villain",
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.PrairieKing.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.PrairieKing.3}}"
+                                } 
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_1", //Wumbus
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.Wumbus.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.Wumbus.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.Wumbus.3}}" 
+                                }
+
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0", //Mysterium
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.Mysterium.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": "mysterium_shadow",
+                                    "Script": "/message \"{{i18n:Movies.SenS.Mysterium.2}}\"",
+                                    "Text": null
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.Mysterium.3}}"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "fall_movie_1", //It Howls In The Rain
+                            "Response": "like", 
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "{{i18n:Movies.SenS.ItHowlsInTheRain.1}}"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.ItHowlsInTheRain.2}}"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.ItHowlsInTheRain.3}}"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "winter_movie_0", //Miracle At Coldstar Ranch
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": null,
+                                    "Text": "{{i18n:Movies.SenS.MiracleAtColdstarRanch.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.SenS.MiracleAtColdstarRanch.2}}"
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.SenS.MiracleAtColdstarRanch.3}}"
+                            }
+                        },
+                        "ID": "reaction_6"
+                    },
+                    {
+                        "Tag": "winter_movie_1", //Zuzu City Express
+                        "Response": "like",
+                        "Whitelist": [],
+                        "SpecialResponses": {
+                            "BeforeMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.SenS.ZuzuExpress.1}}"
+                            },
+                            "DuringMovie": {
+                                "ResponsePoint": "zuzucityexpress_mind_heart",
+                                "Script": null,
+                                "Text": "{{i18n:Movies.SenS.ZuzuExpress.2}}"
+                            },
+                            "AfterMovie": {
+                                "ResponsePoint": null,
+                                "Script": null,
+                                "Text": "{{i18n:Movies.SenS.ZuzuExpress.3}}"
+                            }
+                        }
+                    }
+                    ]
+                }
+            }
+        }
+        ]
+    }
+    
+                //spring_movie_0 Brave Little Sapling - family, comedy
+                //spring_movie_1 NAtural Wonders - documentary, family
+                //summer_movie_0 Prairie King - action
+                //summer_movie_1 Wumbus - sci-fi, comedy, family
+                //fall_movie_0 Mysterium - horror, art
+                //fall_movie_1 Howls in the rain - horror
+                //winter_movie_0 Miracle at Coldstar Ranch - family, romance
+                //winter_movie_1 Zuzu City Express - classic, romance

@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        {
+            "LogName": "Eve Theme",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}.EveTheme": {
+                    "ID": "{{ModID}}.EveTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/The_World_is_Ours.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                }
+            }
+        },
+        {
+            "LogName": "Waffle Bark",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}.WaffleBark": {
+                    "ID": "{{ModID}}.WaffleBark",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "Pipo Meow",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModID}}.PipoMeow": {
+                    "ID": "{{ModID}}.PipoMeow",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        }
+     ]
+
+}

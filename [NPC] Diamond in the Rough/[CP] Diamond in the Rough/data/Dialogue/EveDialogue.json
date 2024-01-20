@@ -1,0 +1,305 @@
+{
+    "Changes": [
+        {
+            "LogName": "Dialogue - 0-4",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 20}}}}}}"
+            },
+            "When": {
+                "Hearts:EveT": "{{Range: 0, 10}}" 
+             }
+        },
+        {
+            "LogName": "Eve Seasonal Override",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EveT",
+            "Priority": "Late",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.EveT.Season.{{season}}.{{Random:{{Range: 1, 5}}}}}}"
+            },
+            "When": {
+                "Query: {{Random: {{Range: 1, 15}}|key=DitRESD}} = 1": true
+             }
+        },
+        {
+            "LogName": "Eve ED Commentary",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EveT",
+            "Priority": "Late",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.EveT.EDComment.{{Random:{{Range: 1, 3}}}}}}"
+            },
+            "When": {
+                "HasMod: |contains=TenebrousNova.EliDylan.CP": true, 
+                "Query: {{Random: {{Range: 1, 40}}|key=EDD}} = 1": true
+             }
+        },
+        {
+            "LogName": "Eve BOES Commentary",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EveT",
+            "Priority": "Late",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.EveT.BOESComment.{{Random:{{Range: 1, 3}}}}}}"
+            },
+            "When": {
+                "HasMod: |contains=KingMadapples.BOES.CP": true, 
+                "Query: {{Random: {{Range: 1, 40}}|key=BOES}} = 1": true
+             }
+        },
+        { 
+        "LogName": "Dialogue",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries":{
+        //Specific Days
+        "spring_1": "{{i18n:Core.EveT.Spring.d1}}",
+        "spring_12": "{{i18n:Core.EveT.Spring.d12}}",
+        "spring_23": "{{i18n:Core.EveT.Spring.d23}}",
+        "spring_28": "{{i18n:Core.EveT.Spring.d28}}",
+        "summer_1": "{{i18n:Core.EveT.Summer.d1}}",
+        "summer_10": "{{i18n:Core.EveT.Summer.d10}}",
+        "summer_27": "{{i18n:Core.EveT.Summer.d27}}",
+        "summer_28": "{{i18n:Core.EveT.Summer.d28}}",
+        "fall_1": "{{i18n:Core.EveT.Fall.d1}}",
+        "fall_15": "{{i18n:Core.EveT.Fall.d15}}",
+        "fall_26": "{{i18n:Core.EveT.Fall.d26}}",
+        "fall_28": "{{i18n:Core.EveT.Fall.d28}}",
+        "winter_1": "{{i18n:Core.EveT.Winter.d1}}",
+        "winter_7": "{{i18n:Core.EveT.Winter.d7}}",
+        "winter_24": "{{i18n:Core.EveT.Winter.d24}}",
+        "winter_28": "{{i18n:Core.EveT.Winter.d28}}",
+        
+        //Conversation Topics
+        "Introduction": "{{i18n:Core.EveT.Introduction}}",
+        "DitR_CT_SenMet": "{{i18n:Core.EveT.SenMet}}",
+        "DitR_CT_DreamReveal": "{{i18n:Core.EveT.DreamReveal}}",
+        "DitR_CT_ShadowPlay": "{{i18n:Core.EveT.ShadowPlay}}",
+        "DitR_CT_GardenWaitTime": "{{i18n:Core.EveT.GardenWaitTime}}",
+        "DitR_CT_GardenCompleted": "{{i18n:Core.EveT.GardenCompleted}}",
+        "DitR_CT_FamilyFlashback": "{{i18n:Core.EveT.FamilyFlashback}}",
+        "DitR_CT_MineFlashback": "{{i18n:Core.EveT.MineFlashback}}",
+        "DitR_CT_TheConfrontation": "{{i18n:Core.EveT.TheConfrontation}}",
+        "DitR_CT_SkrellEpilogue": "{{i18n:Core.EveT.SkrellEpilogue}}",
+        "DitR_CT_SensFlowers": "{{i18n:Core.EveT.SensFlowers}}",
+        "joja_Begin": "{{i18n:Core.EveT.JojaBegin}}",
+        "cc_Begin": "{{i18n:Core.EveT.ccBegin}}",
+        "cc_Bus": "{{i18n:Core.EveT.ccBus}}",
+        "cc_Bridge":"{{i18n:Core.EveT.ccBridge}}",
+        "cc_Boulder": "{{i18n:Core.EveT.ccBoulder}}",
+        "cc_Greenhouse": "{{i18n:Core.EveT.ccGreenhouse}}",
+        "cc_Minecart": "{{i18n:Core.EveT.ccMinecart}}",
+        "cc_Complete": "{{i18n:Core.EveT.ccComplete}}",
+        "movieTheater": "{{i18n:Core.EveT.MovieTheater}}",
+        "JasperGone2": "{{i18n:Core.EveT.JasperGone2}}",
+        "JasperHomeA": "{{i18n:Core.EveT.JasperHomeA}}",
+        "keahi_prank": "{{i18n:Core.EveT.KeahiStink}}",
+        "pumpkin_spice_madness": "{{i18n:Core.EveT.PumpkinSpice}}",
+        "LavrilUnlocked": "{{i18n:Core.EveT.LavrilUnlocked}}",
+        "LucikielArrives": "{{i18n:Core.EveT.LucikielArrives}}",
+        "ReputationIncreased":"{{i18n:Core.EveT.LucikielRepIncrease}}",
+        "JulietGremlin": "{{i18n:Core.EveT.JulietGremlin}}",
+
+        //Dumpster
+        "DumpsterDiveComment": "{{i18n:Core.EveT.Dumpster}}",
+
+        //Romance
+        "RejectBouquet_NotDatable": "{{i18n:Core.EveT.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",        
+
+        //Slingshot
+        "HitBySlingshot": "{{i18n:Core.EveT.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
+
+        //Birthday
+        "AcceptBirthdayGift_Loved": "{{i18n:Core.EveT.BirthdayGift.Love}}", //pos
+        "AcceptBirthdayGift_Liked": "{{i18n:Core.EveT.BirthdayGift.Like}}", //pos
+        "AcceptBirthdayGift_Disliked": "{{i18n:Core.EveT.BirthdayGift.Dislike}}",
+        "AcceptBirthdayGift_Hated": "{{i18n:Core.EveT.BirthdayGift.Negative}}", //neg
+        "AcceptBirthdayGift_Neutral": "{{i18n:Core.EveT.BirthdayGift.Neutral}}", //neutral
+
+        //Gifts
+        //Loved
+        "AcceptGift_(O)72": "{{i18n:Gifts.EveT.Diamond}}",
+        "AcceptGift_(O)90": "{{i18n:Gifts.EveT.CactusFruit}}",
+        "AcceptGift_(O)103": "{{i18n:Gifts.EveT.Doll}}",
+        "AcceptGift_(O)126": "{{i18n:Gifts.EveT.Doll}}",
+        "AcceptGift_(O)127": "{{i18n:Gifts.EveT.Doll}}",
+        "AcceptGift_(O)104": "{{i18n:Gifts.EveT.ElvishJewelry}}",
+        "AcceptGift_(O)106": "{{i18n:Gifts.EveT.OrnamentalFan}}",
+        "AcceptGift_(O)275": "{{i18n:Gifts.EveT.ArtifactTrove}}",
+        "AcceptGift_(O)441": "{{i18n:Gifts.EveT.ExplosiveAmmo}}",
+        "AcceptGift_(O)286": "{{i18n:Gifts.EveT.CherryBomb}}",
+        "AcceptGift_(O)287": "{{i18n:Gifts.EveT.Bomb}}",
+        "AcceptGift_(O)288": "{{i18n:Gifts.EveT.MegaBomb}}",
+        "AcceptGift_(O)349": "{{i18n:Gifts.EveT.HealthItem}}",
+        "AcceptGift_(O)773": "{{i18n:Gifts.EveT.HealthItem}}",
+        "AcceptGift_(O)402": "{{i18n:Gifts.EveT.SweetPea}}",
+        "AcceptGift_(O)560": "{{i18n:Gifts.EveT.OceanStone}}",
+        "AcceptGift_(O)577": "{{i18n:Gifts.EveT.Fairy}}",
+        "AcceptGift_(O)595": "{{i18n:Gifts.EveT.Fairy}}",
+        "AcceptGift_(O)872": "{{i18n:Gifts.EveT.Fairy}}",
+        "AcceptGift_(O)614": "{{i18n:Gifts.EveT.GreenTea}}",
+        "AcceptGift_(O)903": "{{i18n:Gifts.EveT.GingerAle}}",
+        "AcceptGift_(O)216": "{{i18n:Gifts.EveT.Bread}}",
+        "AcceptGift_(O)618": "{{i18n:Gifts.EveT.Bruschetta}}",
+        "AcceptGift_(O){{ModID}}.Items.ValleyLily": "{{i18n:Gifts.EveT.ValleyLily}}",
+
+        //Liked
+        "AcceptGift_category_flowers": "{{i18n:Gifts.EveT.Flowers}}", //Flowers
+        "AcceptGift_(O)60": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)70": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)538": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)546": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)548": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)552": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)557": "{{i18n:Gifts.EveT.GreenGem}}",
+        "AcceptGift_(O)96": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)97": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)98": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)99": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)121": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)122": "{{i18n:Gifts.EveT.DwarfItem}}",
+        "AcceptGift_(O)108": "{{i18n:Gifts.EveT.RareDisc}}",
+        "AcceptGift_(O)100": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)101": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)109": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)111": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)112": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)113": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)114": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)115": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)116": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)117": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)118": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)120": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)123": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)124": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)125": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)586": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)587": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)588": "{{i18n:Gifts.EveT.Artifact}}",
+        "AcceptGift_(O)589": "{{i18n:Gifts.EveT.Artifact}}",
+
+        //Disliked
+        "RejectItem_category_milk": "{{i18n:Gifts.EveT.Milk}}",    //Milk
+        "RejectItem_category_fish": "{{i18n:Gifts.EveT.Fish}}",     //Fish
+        "RejectItem_category_meat": "{{i18n:Gifts.EveT.Meat}}",    //Meat
+        "RejectItem_(O)105": "{{i18n:Gifts.EveT.ChewingStick}}",    
+        "RejectItem_(O)110": "{{i18n:Gifts.EveT.RustySpoon}}",    
+        "RejectItem_(O)198": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)203": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)212": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)730": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)213": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)214": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)219": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)225": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)226": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)227": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)228": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)242": "{{i18n:Gifts.EveT.FishMeal}}",   
+        "RejectItem_(O)727": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)728": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)732": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)733": "{{i18n:Gifts.EveT.FishMeal}}",    
+        "RejectItem_(O)395": "{{i18n:Gifts.EveT.Coffee}}",    
+
+        //Hated
+        "RejectItem_category_egg": "{{i18n:Gifts.EveT.Egg}}",    //Egg
+        "RejectItem_category_junk": "{{i18n:Gifts.EveT.Trash}}",
+        "RejectItem_(O)119": "{{i18n:Gifts.EveT.Bone}}",   
+        "RejectItem_(O)579": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)580": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)581": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)582": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)583": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)584": "{{i18n:Gifts.EveT.Bone}}",    
+        "RejectItem_(O)585": "{{i18n:Gifts.EveT.Bone}}",   
+        "RejectItem_(O)881": "{{i18n:Gifts.EveT.Bone}}",   
+        "RejectItem_(O)306": "{{i18n:Gifts.EveT.Mayonnaise}}",    
+        "RejectItem_(O)307": "{{i18n:Gifts.EveT.Mayonnaise}}",
+        "RejectItem_(O)308": "{{i18n:Gifts.EveT.Mayonnaise}}",    
+        "RejectItem_(O)807": "{{i18n:Gifts.EveT.Mayonnaise}}",    
+        "RejectItem_(O)445": "{{i18n:Gifts.EveT.FishEggs}}",
+        "RejectItem_(O)Roe": "{{i18n:Gifts.EveT.FishEggs}}",   
+        "RejectItem_(O)447": "{{i18n:Gifts.EveT.FishEggs}}" ,
+        "RejectItem_(O)812": "{{i18n:Gifts.EveT.AlgaeSoup}}",    
+        "RejectItem_(O)729": "{{i18n:Gifts.EveT.Escargot}}",    
+        "RejectItem_(O)921": "{{i18n:Gifts.EveT.SquidInkRavioli}}",
+        "RejectItem_(O)789": "{{i18n:Gifts.EveT.PurpleShorts}}",    
+         
+        "RejectItem_(O)809": "{{i18n:Movies.EveT.RejectMovieTicket}}" 
+        }
+    },
+    {
+        "LogName": "Dialogue - Ridgeside Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "fall_19": "{{i18n:Core.EveT.Fall.d19}}",
+            "winter_27": "{{i18n:Core.EveT.Winter.d27}}"
+        },
+        "When": {
+            "HasMod: |contains=Rafseazz.RSVCP": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Surfing Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "summer_4": "{{i18n:Core.EveT.Summer.d4}}"
+        },
+        "When": {
+            "HasMod: |contains=spacechase0.SurfingFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fashion Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "spring_18": "{{i18n:Core.EveT.Spring.d18}}"
+        },
+        "When": {
+            "HasMod: |contains=UNA.FF.CP": true,
+            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
+            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Love Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "winter_12": "{{i18n:Core.EveT.Winter.d12}}"
+        },
+        "When": {
+            "HasMod: |contains=AvalonMFX.LoveFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Marketpalooza",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "fall_2": "{{i18n:Core.EveT.Fall.d2}}"
+        },
+        "When": {
+            "HasMod: |contains=Fellowclown.Nikolai": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fireworks Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/EveT",
+        "Entries": 	{ 
+            "summer_19": "{{i18n:Core.EveT.Summer.d19}}"
+        },
+        "When": {
+            "HasMod: |contains=violetlizabet.FireworksFestival": true
+         }
+    }
+        ]
+}

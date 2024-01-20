@@ -1,0 +1,207 @@
+{
+    "Changes": [
+        //Map Loads
+        {
+			"Action": "Load",
+			"Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+			"FromFile": "assets/Maps/EveHouseInterior.tmx"
+		},
+        {
+            "Action": "Load",
+            "Target": "Maps/SenOceanCG",
+            "FromFile": "assets/Maps/SenOceanCG.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/7thAxis_SenS_SpouseRoom",
+            "FromFile": "assets/maps/SenRoom.tmx"
+        },
+        //Temp Maps
+        {
+            "Action": "Load",
+            "Target": "Maps/SenFlashback",
+            "FromFile": "assets/Maps/SenFlashback.tmx"
+        },
+        //Location Data
+        {
+			"LogName": "Location Data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"7thAxis.DitR.Maps.EveHouseInterior": {
+					"DisplayName": "{{i18n:Core.Locations.EveHouse}}",
+					"DefaultArrivalTile": { "X": 6, "Y": 10 },
+					"CreateOnLoad": { "MapPath": "Maps/7thAxis.DitR.Maps.EveHouseInterior" },
+					"FormerLocationNames": [ "7thAxis.LotV.EveHouseInterior" ]
+				}
+			}
+		},
+        //Warps
+        {
+            "Action": "EditMap",
+            "Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+            "AddWarps": [
+               "6 11 Custom_EastScarpe 80 94"
+            ]
+         },
+         //Map Patches
+         {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "FromFile": "assets/Maps/EveHouseExterior.tmx",
+            "ToArea": {
+                "X": 75,
+                "Y": 87,
+                "Width": 10,
+                "Height": 10
+            },
+            "PatchMode": "Replace"
+        },
+        {
+         "Action": "EditMap",
+         "Target": "Maps/Custom_EastScarpe",
+         "MapTiles": [
+             {
+                 "Position": {
+                     "X": 80,
+                     "Y": 93
+                 },
+                 "Layer": "Buildings",
+                 "SetProperties": {
+                     "Action": "Warp 6 9 7thAxis.DitR.Maps.EveHouseInterior"
+                 }
+             }
+         ]
+     },
+     {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_ESDeepDark",
+        "FromFile": "assets/Maps/UndergroundSenPatch.tmx",
+        "ToArea": {
+            "X": 15,
+            "Y": 12,
+            "Width": 16,
+            "Height": 16
+        },
+        "PatchMode": "Replace"
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_ESDeepDark",
+        "FromFile": "assets/Maps/UndergroundSenPatchGarden.tmx",
+        "ToArea": {
+            "X": 15,
+            "Y": 12,
+            "Width": 16,
+            "Height": 34
+        },
+        "PatchMode": "Replace",
+        "When": {
+            "HasFlag: |contains=DitR_M_SenGardenTrigger": true,
+            "HasConversationTopic: |contains=DitR_CT_GardenWaitTime": false
+        }
+    },
+    // MEEP images and text
+     {
+        "Action": "Load",
+        "Target": "Mods/7thAxis.DitR.Images/DrawerPhoto.1",
+        "FromFile": "assets/Images/DrawerPhoto.1.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Mods/7thAxis.DitR.Images/DrawerPhoto.2",
+        "FromFile": "assets/Images/DrawerPhoto.2.png"
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/7thAxis.DitR.Maps.EveHouseInterior",
+        "MapTiles": [
+            {
+                "Position": {
+                    "X": 10,
+                    "Y": 4
+                },
+                "Layer": "Back",
+                "SetProperties": {
+                    "MEEP_CloseupInteraction_Image": "Mods/7thAxis.DitR.Images/DrawerPhoto.1",
+                    "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
+                }
+            }
+        ]
+    },
+    //Map Strings
+         {
+            "LogName": "Eve Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
+                "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
+                "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
+                "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
+                "EveTMegaBomb": "{{i18n:Maps.EveT.EveTMegaBomb}}",
+                "EveTHDogBowl": "{{i18n:Maps.EveT.EveTHDogBowl}}",
+                "EveTHPainting": "{{i18n:Maps.EveT.EveTHPainting}}",
+                "EveTHDogBed": "{{i18n:Maps.EveT.EveTHDogBed}}",
+                "EveTHPlant": "{{i18n:Maps.EveT.EveTHPlant}}",
+                "EveTHCherryBomb": "{{i18n:Maps.EveT.EveTHCherryBomb}}",
+                "EveTHBed": "{{i18n:Maps.EveT.EveTHBed}}",
+                "EveTHBomb": "{{i18n:Maps.EveT.EveTHBomb}}",
+                "EveTHFlower": "{{i18n:Maps.EveT.EveTHFlower}}",
+                "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
+                "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
+                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}",
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}"
+            }
+        },
+        {
+            "LogName": "Sen Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
+                //deep dark room
+                "SenDDGlobe": "{{i18n:Maps.SenS.SenDDGlobe}}",
+                "SenDDBasket": "{{i18n:Maps.SenS.SenDDBasket}}",
+                "SenDDMap": "{{i18n:Maps.SenS.SenDDMap}}",
+                "SenDDSpiderWeb": "{{i18n:Maps.SenS.SenDDSpiderWeb}}",
+                "SenDDBookStack1": "{{i18n:Maps.SenS.SenDDBookStack1}}",
+                "SenDDBookStack2": "{{i18n:Maps.SenS.SenDDBookStack2}}",
+                "SenDDCandles": "{{i18n:Maps.SenS.SenDDCandles}}",
+                "SenDDClutter": "{{i18n:Maps.SenS.SenDDClutter}}",
+                "SenDDWorkBench": "{{i18n:Maps.SenS.SenDDWorkBench}}",
+                "SenDDLoom": "{{i18n:Maps.SenS.SenDDLoom}}",
+                "SenDDCloth": "{{i18n:Maps.SenS.SenDDCloth}}",
+                "SenDDRedBook": "{{i18n:Maps.SenS.SenDDRedBook}}",
+                "SenDDBlueBook": "{{i18n:Maps.SenS.SenDDBlueBook}}",
+                "SenDDMushrooms": "{{i18n:Maps.SenS.SenDDMushrooms}}",
+                "SenDDBed": "{{i18n:Maps.SenS.SenDDBed}}",
+                "SenDDVines": "{{i18n:Maps.SenS.SenDDVines}}",
+                "SenDDBear": "{{i18n:Maps.SenS.SenDDBear}}",
+                "SenDDTrash": "{{i18n:Maps.SenS.SenDDTrash}}",
+                "SenDDBarrel": "{{i18n:Maps.SenS.SenDDBarrel}}",
+                "SenDDCrocus": "{{i18n:Maps.SenS.SenDDCrocus}}",
+                "SenDDFlowers": "{{i18n:Maps.SenS.SenDDFlowers}}",
+                
+                //deep dark garden
+                "SenDDGardenShrooms": "{{i18n:Maps.SenS.SenDDGardenShrooms}}",
+                "SenDDGardenWater": "{{i18n:Maps.SenS.SenDDGardenWater}}",
+                "SenDDGardenPumpkin": "{{i18n:Maps.SenS.SenDDGardenPumpkin}}",
+                "SenDDGardenBigPumpkin": "{{i18n:Maps.SenS.SenDDGardenBigPumpkin}}",
+                "SenDDGardenBerryBush": "{{i18n:Maps.SenS.SenDDGardenBerryBush}}",
+                "SenDDGardenBerryBasket": "{{i18n:Maps.SenS.SenDDGardenBerryBasket}}",
+                "SenDDGardenGrassRocks": "{{i18n:Maps.SenS.SenDDGardenGrassRocks}}",
+                "SenDDGardenSecretJunimo": "{{i18n:Maps.SenS.SenDDGardenSecretJunimo}}",
+
+                //spouse room
+                "SenRoomCrocus": "{{i18n:Maps.SenS.SenRoomCrocus}}",
+                "SenRoomBook": "{{i18n:Maps.SenS.SenRoomBook}}",
+                "SenRoomDeskFlowers": "{{i18n:Maps.SenS.SenRoomDeskFlowers}}",
+                "SenRoomCoffeeCup": "{{i18n:Maps.SenS.SenRoomCoffeeCup}}",
+                "SenRoomBookCase": "{{i18n:Maps.SenS.SenRoomBookCase}}",
+                "SenRoomLatch": "{{i18n:Maps.SenS.SenRoomLatch}}",
+                "SenRoomCloth": "{{i18n:Maps.SenS.SenRoomCloth}}",
+                "SenRoomNotes": "{{i18n:Maps.SenS.SenRoomNotes}}",
+                "SenRoomBlueFlowers": "{{i18n:Maps.SenS.SenRoomBlueFlowers}}"
+            }
+        } 
+    ]
+ }

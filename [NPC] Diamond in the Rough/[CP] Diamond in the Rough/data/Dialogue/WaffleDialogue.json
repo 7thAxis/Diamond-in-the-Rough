@@ -1,0 +1,174 @@
+{
+    "Changes": [
+        {
+            "LogName": "Waffle Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW",
+            "Entries": {
+                "{{WeekDay}}": "{{i18n:Core.WaffleW.{{AnimalBehavior}}.{{Random:{{Range: 1, 20}}}}}}"
+            }
+        },
+        { 
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW",
+            "Entries": {
+        
+            //Dumpster
+            "DumpsterDiveComment": "{{i18n:Core.PipoP.Dumpster}}",
+
+            //Romance
+            "RejectBouquet_NotDatable": "{{i18n:Core.WaffleW.BouquetRejection}}",
+
+            //Slingshot
+            "HitBySlingshot": "{{i18n:Core.WaffleW.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
+
+            //Birthday
+            "AcceptBirthdayGift_Loved": "{{i18n:Core.WaffleW.BirthdayGift.Love}}", //pos
+            "AcceptBirthdayGift_Liked": "{{i18n:Core.WaffleW.BirthdayGift.Like}}", //pos
+            "AcceptBirthdayGift_Disliked": "{{i18n:Core.WaffleW.BirthdayGift.Dislike}}",
+            "AcceptBirthdayGift_Hated": "{{i18n:Core.WaffleW.BirthdayGift.Negative}}", //neg
+            "AcceptBirthdayGift_Neutral": "{{i18n:Core.WaffleW.BirthdayGift.Neutral}}", //neutral
+
+            //Gifts
+            "AcceptGift_category_fish": "{{i18n:Gifts.WaffleW.Fish}}",
+            "AcceptGift_category_milk": "{{i18n:Gifts.WaffleW.Milk}}",
+            "AcceptGift_category_meat": "{{i18n:Gifts.WaffleW.Meat}}",
+            "AcceptGift_category_junk": "{{i18n:Gifts.WaffleW.Trash}}",
+            "AcceptGift_(O)Ancient_Doll": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)103": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)126": "{{i18n:Gifts.WaffleW.Doll}}",
+            "AcceptGift_(O)127": "{{i18n:Gifts.WaffleW.ChewingStick}}",
+            "AcceptGift_(O)223": "{{i18n:Gifts.WaffleW.Cookie}}",
+            "AcceptGift_(O)169": "{{i18n:Gifts.WaffleW.Driftwood}}",
+            "AcceptGift_(O)306": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)307": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)308": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)807": "{{i18n:Gifts.WaffleW.Mayonnaise}}",
+            "AcceptGift_(O)119": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)579": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)580": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)581": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)582": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)583": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)584": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)S585": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)881": "{{i18n:Gifts.WaffleW.Bone}}",
+            "AcceptGift_(O)769": "{{i18n:Gifts.WaffleW.VoidEssence}}",
+            "AcceptGift_(O)305": "{{i18n:Gifts.WaffleW.VoidEgg}}",
+            "RejectItem_(O)220": "{{i18n:Gifts.WaffleW.ChocolateCake}}",
+            "RejectItem_(O)795": "{{i18n:Gifts.WaffleW.VoidSalmon}}",
+            "RejectItem_(O)436": "{{i18n:Gifts.WaffleW.GoatMilk}}",
+            "RejectItem_(O)438": "{{i18n:Gifts.WaffleW.GoatMilk}}",
+            "RejectItem_(O)768": "{{i18n:Gifts.WaffleW.SolarEssence}}",
+            "AcceptGift_(O)192": "{{i18n:Gifts.WaffleW.Potato}}",
+            "AcceptGift_(O)789": "{{i18n:Gifts.WaffleW.PurpleShorts}}",
+
+            "RejectItem_(O)809": "{{i18n:Movies.WaffleW.RejectMovieTicket}}" 
+        }
+    },
+    {
+        "LogName": "dumpster comment",
+        "Action": "EditData",
+        "Target": "Data/ExtraDialogue",
+        "Entries": {
+            "Town_DumpsterDiveComment_WaffleW": "{{i18n:Core.WaffleW.Dumpster}}"
+        }
+    },
+    {
+        "LogName": "Dialogue - Specific Days Waffle",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "spring_1": "{{i18n:Core.WaffleW.Spring.d1}}",
+            "spring_12": "{{i18n:Core.WaffleW.Spring.d12}}",
+            "spring_23": "{{i18n:Core.WaffleW.Spring.d23}}",
+            "spring_28": "{{i18n:Core.WaffleW.Spring.d28}}",
+
+            "summer_1": "{{i18n:Core.WaffleW.Summer.d1}}",
+            "summer_10": "{{i18n:Core.WaffleW.Summer.d10}}",
+            "summer_27": "{{i18n:Core.WaffleW.Summer.d27}}",
+            "summer_28": "{{i18n:Core.WaffleW.Summer.d28}}",
+
+            "fall_1": "{{i18n:Core.WaffleW.Fall.d1}}",
+            "fall_15": "{{i18n:Core.WaffleW.Fall.d15}}",
+            "fall_26": "{{i18n:Core.WaffleW.Fall.d26}}",
+            "fall_28": "{{i18n:Core.WaffleW.Fall.d28}}",
+
+            "winter_1": "{{i18n:Core.WaffleW.Winter.d1}}",
+            "winter_7": "{{i18n:Core.WaffleW.Winter.d7}}",
+            "winter_24": "{{i18n:Core.WaffleW.Winter.d24}}",
+            "winter_28": "{{i18n:Core.WaffleW.Winter.d28}}"
+        }
+    },
+    {
+        "LogName": "Dialogue - Ridgeside Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "fall_19": "{{i18n:Core.WaffleW.Fall.d19}}",
+            "winter_27": "{{i18n:Core.WaffleW.Winter.d27}}"
+        },
+        "When": {
+            "HasMod: |contains=Rafseazz.RSVCP": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Surfing Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "summer_4": "{{i18n:Core.WaffleW.Summer.d4}}"
+        },
+        "When": {
+            "HasMod: |contains=spacechase0.SurfingFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fashion Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "spring_18": "{{i18n:Core.WaffleW.Spring.d18}}"
+        },
+        "When": {
+            "HasMod: |contains=UNA.FF.CP": true,
+            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
+            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Love Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "winter_12": "{{i18n:Core.WaffleW.Winter.d12}}"
+        },
+        "When": {
+            "HasMod: |contains=AvalonMFX.LoveFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Marketpalooza",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "fall_2": "{{i18n:Core.WaffleW.Fall.d2}}"
+        },
+        "When": {
+            "HasMod: |contains=Fellowclown.Nikolai": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fireworks Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/WaffleW",
+        "Entries": 	{ 
+            "summer_19": "{{i18n:Core.WaffleW.Summer.d19}}"
+        },
+        "When": {
+            "HasMod: |contains=violetlizabet.FireworksFestival": true
+         }
+    }
+        ]
+}

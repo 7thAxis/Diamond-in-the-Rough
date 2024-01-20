@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Eve 0 Heart",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_EastScarpe",
+            "Entries": {
+                "{{ModID}}.Events.Eve.0h/t 800 1800/w sunny/j 5": "{{ModID}}.EveTheme/28 59/farmer 23 57 1 EveT 34 57 3 WaffleW 34 58 3/addConversationTopic DitR_CT_EveMeet 3/skippable/ignoreCollisions EveT/ignoreCollisions WaffleW/ignoreCollisions farmer/advancedMove EveT false -4 0 3 200/advancedMove WaffleW false -3 0 3 200/advancedMove farmer false 3 0 1 200/pause 2300/playSound {{ModID}}.WaffleBark/jump WaffleW/speed WaffleW 3/pause 500/advancedMove WaffleW false -2 0 0 -1 -2 0 3 200/pause 1800/playSound {{ModID}}.WaffleBark/emote WaffleW 56 true/jump WaffleW/pause 300/emote farmer 16/pause 1000/advancedMove EveT false -1 0 3 200/pause 500/speak EveT \"{{i18n:Events.EveT.0h.1}}\"/pause 200/faceDirection WaffleW 1/pause 100/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 500/advancedMove WaffleW false 1 0 0 1 1 0 3 200/pause 500/faceDirection EveT 2/pause 300/speak EveT \"{{i18n:Events.EveT.0h.2}}\"/pause 200/emote WaffleW 56 true/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 1500/faceDirection EveT 3/pause 300/emote farmer 40/pause 100/quickQuestion {{i18n:Events.EveT.0h.3}}(break)speak EveT \"{{i18n:Events.EveT.0h.4}}\"(break)speak EveT \"{{i18n:Events.EveT.0h.5}}\"/pause 500/speak EveT \"{{i18n:Events.EveT.0h.6}}\"/emote farmer 40/pause 100/quickQuestion {{i18n:Events.EveT.0h.7}}(break)speak EveT \"{{i18n:Events.EveT.0h.8}}\"(break)speak EveT \"{{i18n:Events.EveT.0h.9}}\"/emote EveT 56/speak EveT \"{{i18n:Events.EveT.0h.10}}\"/pause 200/speak EveT \"{{i18n:Events.EveT.0h.11}}\"/faceDirection EveT 2/speak EveT \"{{i18n:Events.EveT.0h.12}}\"/pause 100/faceDirection WaffleW 0/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 1000/advancedMove EveT false -1 0 0 1 -4 0 1 200/pause 1000/speed WaffleW 2/advancedMove WaffleW false -3 0 4 200/pause 300/faceDirection farmer 2/pause 1000/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 1500/speed WaffleW 3/emote WaffleW 56 true/advancedMove WaffleW false 1 0 0 -2 -2 0 0 2 1 0 4 200/pause 200/faceDirection farmer 1/pause 200/faceDirection farmer 0/pause 200/faceDirection farmer 3/pause 200/faceDirection farmer 2/pause 500/emote WaffleW 56 true/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 500/speak EveT \"{{i18n:Events.EveT.0h.13}}\"/pause 300/faceDirection WaffleW 3/pause 100/jump WaffleW/playSound {{ModID}}.WaffleBark/pause 500/advancedMove EveT false -10 0 4 200/faceDirection farmer 3/speed WaffleW 3/pause 500/advancedMove WaffleW false -10 0 4 200/pause 500/end/" 
+            }
+        }
+    ]
+}
+// 1 right, 2 down, 3 left, 4 up  - advanced move
+// 0 up, 1 right, 2 down, 3 left - face direction

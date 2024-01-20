@@ -1,0 +1,367 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13", //egg festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 48 70 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 27 60 3",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24", //flower dance
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 10 38 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 5 36 1",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11", //luau
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 55 22 1",
+                    "Delimiter": "/"
+                  },
+                     {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 43 13 3",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28", //moonlight jelly
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 89 24 1",
+                    "Delimiter": "/"
+                  }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 29 37 3",
+                    "Delimiter": "/"
+                    }
+            ],
+            "When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 30 25 1",
+                    "Delimiter": "/"
+                    }
+            ],
+            "When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 35 63 2",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 32 64 1",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "IsOddYear": false
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 35 63 2",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "IsOddYear": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 68 30 1",
+                    "Delimiter": "/"
+                 }
+
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25", //feast of the winter star
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP -1000 -1000 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20", //Ridgeside Gathering
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 75 48 3",
+                    "Delimiter": "/"
+                 },    
+                 {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 61 36 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+				"HasMod: |contains=Rafseazz.RSVCP": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28", //Ridgeside Ember
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 32 28 3",
+                    "Delimiter": "/"
+                 },      
+                 {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 37 30 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+				"HasMod: |contains=Rafseazz.RSVCP": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer5", //Surfing Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 35 4 3",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=spacechase0.SurfingFestival": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring19", //Fashion Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 71 23 3",
+                    "Delimiter": "/"
+                 },     
+                 {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "PipoP 30 20 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": {
+				"HasMod: |contains=UNA.FF.CP": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter13", //Love Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 29 60 1",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=AvalonMFX.LoveFestival": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3", //Marketpalooza
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 22 23 1",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=Fellowclown.Nikolai": true
+			}
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20", //Fireworks Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "PipoP 43 22 3",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": {
+				"HasMod: |contains=violetlizabet.FireworksFestival": true
+			}
+        }
+    ]
+}

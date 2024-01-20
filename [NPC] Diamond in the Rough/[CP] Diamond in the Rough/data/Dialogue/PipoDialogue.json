@@ -1,0 +1,180 @@
+{
+    "Changes": [
+        {
+            "LogName": "Pipo Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/PipoP",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.PipoP.{{AnimalBehavior}}.{{Random:{{Range: 1, 20}}}}}}"
+            }
+        },
+        { 
+            "LogName": "Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/PipoP",
+            "Entries":{
+
+            //Dumpster
+            "DumpsterDiveComment": "{{i18n:Core.PipoP.Dumpster}}",
+
+            //Romance
+            "RejectBouquet_NotDatable": "{{i18n:Core.PipoP.BouquetRejection}}",
+
+            //Slingshot
+            "HitBySlingshot": "{{i18n:Core.PipoP.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
+
+            //Birthday
+            "AcceptBirthdayGift_Loved": "{{i18n:Core.PipoP.BirthdayGift.Love}}", //pos
+            "AcceptBirthdayGift_Liked": "{{i18n:Core.PipoP.BirthdayGift.Like}}", //pos
+            "AcceptBirthdayGift_Disliked": "{{i18n:Core.PipoP.BirthdayGift.Dislike}}",
+            "AcceptBirthdayGift_Hated": "{{i18n:Core.PipoP.BirthdayGift.Negative}}", //neg
+            "AcceptBirthdayGift_Neutral": "{{i18n:Core.PipoP.BirthdayGift.Neutral}}", //neutral
+
+            //Gifts
+            "AcceptGift_category_milk": "{{i18n:Gifts.PipoP.Milk}}", //Milk
+            "AcceptGift_(O)139": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)212": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)795": "{{i18n:Gifts.PipoP.Salmon}}",
+            "AcceptGift_(O)130": "{{i18n:Gifts.PipoP.Tuna}}",
+            "AcceptGift_(O)444": "{{i18n:Gifts.PipoP.DuckFeather}}",
+            "AcceptGift_(O)728": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)727": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)219": "{{i18n:Gifts.PipoP.FishSoup}}",
+            "AcceptGift_(O)769": "{{i18n:Gifts.PipoP.VoidEssence}}",
+            "AcceptGift_(O)422": "{{i18n:Gifts.PipoP.PurpleMushroom}}",
+            "AcceptGift_(O)216": "{{i18n:Gifts.PipoP.Bread}}",
+            "AcceptGift_(O)618": "{{i18n:Gifts.PipoP.Bread}}",
+            "AcceptGift_(O)22": "{{i18n:Gifts.PipoP.Dandelion}}",
+
+            "AcceptGift_category_meat": "{{i18n:Gifts.PipoP.Meat}}", //Meat
+            "AcceptGift_category_fish": "{{i18n:Gifts.PipoP.Fish}}", //Fish
+            "AcceptGift_category_egg": "{{i18n:Gifts.PipoP.Egg}}", //Egg
+            "AcceptGift_(O)198": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)203": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)213": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)214": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)225": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)227": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)228": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)732": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)733": "{{i18n:Gifts.PipoP.FishMeal}}",
+            "AcceptGift_(O)812": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)447": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)445": "{{i18n:Gifts.PipoP.FishEggs}}",
+            "AcceptGift_(O)771": "{{i18n:Gifts.PipoP.Fiber}}",
+
+            "RejectItem_category_vegetable": "{{i18n:Gifts.PipoP.Vegetables}}", //Vegetable
+            "RejectItem_category_greens": "{{i18n:Gifts.PipoP.Forage}}", //Forage
+
+            "RejectItem_(O)768": "{{i18n:Gifts.PipoP.SolarEssence}}",
+            "RejectItem_(O)248": "{{i18n:Gifts.PipoP.Garlic}}",
+            "RejectItem_(O)772": "{{i18n:Gifts.PipoP.Garlic}}",
+            "RejectItem_(O)220": "{{i18n:Gifts.PipoP.ChocolateCake}}",
+            "RejectItem_(O)69": "{{i18n:Gifts.PipoP.Banana}}",
+            "RejectItem_(O)226": "{{i18n:Gifts.PipoP.SpicyEel}}",
+            "RejectItem_(O)420": "{{i18n:Gifts.PipoP.RedMushroom}}",
+            
+            "AcceptGift_category_junk": "{{i18n:Gifts.PipoP.Trash}}",
+            "AcceptGift_(O)16": "{{i18n:Gifts.PipoP.WildHorseRadish}}",
+            "AcceptGift_(O)789": "{{i18n:Gifts.PipoP.PurpleShorts}}",
+
+            "RejectItem_(O)809": "{{i18n:Movies.PipoP.RejectMovieTicket}}" 
+        }
+    },
+    {
+        "LogName": "Dialogue - Specific Days Waffle",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "spring_1": "{{i18n:Core.PipoP.Spring.d1}}",
+            "spring_12": "{{i18n:Core.PipoP.Spring.d12}}",
+            "spring_23": "{{i18n:Core.PipoP.Spring.d23}}",
+            "spring_28": "{{i18n:Core.PipoP.Spring.d28}}",
+
+            "summer_1": "{{i18n:Core.PipoP.Summer.d1}}",
+            "summer_10": "{{i18n:Core.PipoP.Summer.d10}}",
+            "summer_27": "{{i18n:Core.PipoP.Summer.d27}}",
+            "summer_28": "{{i18n:Core.PipoP.Summer.d28}}",
+
+            "fall_1": "{{i18n:Core.PipoP.Fall.d1}}",
+            "fall_15": "{{i18n:Core.PipoP.Fall.d15}}",
+            "fall_26": "{{i18n:Core.PipoP.Fall.d26}}",
+            "fall_28": "{{i18n:Core.PipoP.Fall.d28}}",
+
+            "winter_1": "{{i18n:Core.PipoP.Winter.d1}}",
+            "winter_7": "{{i18n:Core.PipoP.Winter.d7}}",
+            "winter_24": "{{i18n:Core.PipoP.Winter.d24}}",
+            "winter_28": "{{i18n:Core.PipoP.Winter.d28}}"
+        }
+    },
+    {
+        "LogName": "Dialogue - Ridgeside Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "fall_19": "{{i18n:Core.PipoP.Fall.d19}}",
+            "winter_27": "{{i18n:Core.PipoP.Winter.d27}}"
+        },
+        "When": {
+            "HasMod: |contains=Rafseazz.RSVCP": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Surfing Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "summer_4": "{{i18n:Core.PipoP.Summer.d4}}"
+        },
+        "When": {
+            "HasMod: |contains=spacechase0.SurfingFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fashion Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "spring_18": "{{i18n:Core.PipoP.Spring.d18}}"
+        },
+        "When": {
+            "HasMod: |contains=UNA.FF.CP": true,
+            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
+            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Love Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "winter_12": "{{i18n:Core.PipoP.Winter.d12}}"
+        },
+        "When": {
+            "HasMod: |contains=AvalonMFX.LoveFestival": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Marketpalooza",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "fall_2": "{{i18n:Core.PipoP.Fall.d2}}"
+        },
+        "When": {
+            "HasMod: |contains=Fellowclown.Nikolai": true
+         }
+    },
+    {
+        "LogName": "Dialogue - Fireworks Festival",
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/PipoP",
+        "Entries": 	{ 
+            "summer_19": "{{i18n:Core.PipoP.Summer.d19}}"
+        },
+        "When": {
+            "HasMod: |contains=violetlizabet.FireworksFestival": true
+         }
+    }
+        ]
+}
