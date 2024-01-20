@@ -18,7 +18,7 @@
             "eve_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
         }
     },
-    //---------------------------- Eve ------------------------------------------
+    //---------------------------- Trace ------------------------------------------
        {
         "Action": "Load",
         "Target": "Characters/TraceV, Portraits/TraceV, Characters/TraceV_Default, Portraits/TraceV_Default",

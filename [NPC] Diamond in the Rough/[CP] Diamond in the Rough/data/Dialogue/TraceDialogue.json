@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Dialogue - 0-4",
+            "LogName": "Dialogue - 0-5",
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
@@ -12,7 +12,7 @@
              }
         },
         {
-            "LogName": "Dialogue - 0-4",
+            "LogName": "Dialogue - 5-10",
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 

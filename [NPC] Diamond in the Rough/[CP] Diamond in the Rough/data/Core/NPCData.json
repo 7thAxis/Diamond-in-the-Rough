@@ -253,7 +253,7 @@
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
-                "HasFlag:currentPlayer |contains=DitR_M_Romantic": true
+                "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": true
             }
         },
        {
@@ -267,7 +267,7 @@
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
-                "HasFlag:currentPlayer |contains=DitR_M_Romantic": false
+                "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": false
             }
         },
         {
