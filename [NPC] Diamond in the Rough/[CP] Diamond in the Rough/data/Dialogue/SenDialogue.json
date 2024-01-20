@@ -7,9 +7,7 @@
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.EarlyHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
             },
-            "When": {
-                "Hearts:SenS": "{{Range: 0, 5}}"
-            }
+            "When": { "Hearts:SenS": "{{Range: 0, 5}}" }
         },
         {
             "LogName": "Sen Dialogue - 6-10",
@@ -18,9 +16,7 @@
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.LateHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
             },
-            "When": {
-                "Hearts:SenS": "{{Range: 6, 10}}"
-            }
+            "When": { "Hearts:SenS": "{{Range: 6, 10}}" }
         },
         {
             "LogName": "Sen Seasonal Override",
@@ -30,9 +26,7 @@
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.SenS.Season.{{season}}.{{Random:{{Range: 1, 10}}}}{{SenRandTokens}}}}"
             },
-            "When": {
-                "Query: {{Random: {{Range: 1, 15}}|key=DitRSSD}} = 1": true
-             }
+            "When": { "Query: {{Random: {{Range: 1, 15}}|key=DitRSSD}} = 1": true }
         },
         {
             "LogName": "Sen Relationship Dialogue Override",
@@ -299,9 +293,7 @@
                 "fall_19": "{{i18n:Core.SenS.Fall.d19}}",
                 "winter_27": "{{i18n:Core.SenS.Winter.d27}}"
             },
-            "When": {
-                "HasMod: |contains=Rafseazz.RSVCP": true
-            }
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
         },
         {
             "LogName": "Dialogue - Surfing Festival",
@@ -310,9 +302,7 @@
             "Entries": {
                 "summer_4": "{{i18n:Core.SenS.Summer.d4.Event}}"
             },
-            "When": {
-                "HasMod: |contains=spacechase0.SurfingFestival": true
-            }
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
         },
         {
             "LogName": "Dialogue - Fashion Festival",
@@ -334,9 +324,7 @@
             "Entries": {
                 "winter_12": "{{i18n:Core.SenS.Winter.d12}}"
             },
-            "When": {
-                "HasMod: |contains=AvalonMFX.LoveFestival": true
-            }
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
         },
         {
             "LogName": "Dialogue - Marketpalooza",
@@ -345,9 +333,7 @@
             "Entries": {
                 "fall_2": "{{i18n:Core.SenS.Fall.d2.Event}}"
             },
-            "When": {
-                "HasMod: |contains=Fellowclown.Nikolai": true
-            }
+            "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
         },
         {
             "LogName": "Dialogue - Fireworks Festival",
@@ -356,9 +342,7 @@
             "Entries": {
                 "summer_19": "{{i18n:Core.SenS.Summer.d19.Event}}"
             },
-            "When": {
-                "HasMod: |contains=violetlizabet.FireworksFestival": true
-            }
+            "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "Changes": [
-       //---------------------------- Eve ------------------------------------------
+       //---------------------------- Eve ------------------------------------------//
        {
         "Action": "Load",
         "Target": "Characters/EveT, Portraits/EveT, Characters/EveT_Default, Portraits/EveT_Default",
@@ -18,7 +18,7 @@
             "eve_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
         }
     },
-    //---------------------------- Trace ------------------------------------------
+    //---------------------------- Trace ------------------------------------------//
        {
         "Action": "Load",
         "Target": "Characters/TraceV, Portraits/TraceV, Characters/TraceV_Default, Portraits/TraceV_Default",
@@ -35,7 +35,7 @@
             "trace_giggle": "31/31 31 31 31 31 32 32 32 32/32"
         }
     },
-       //---------------------------- Waffle ------------------------------------------
+       //---------------------------- Waffle ------------------------------------------//
     {
         "Action": "Load",
         "Target": "Characters/WaffleW, Portraits/WaffleW",
@@ -57,7 +57,7 @@
             "waffle_sitleft": "23/23 23 23 23 23 23 23 23 23 23 23 23 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 23 23 23 23 23 23 22 22 23 23 23 23 23 23 23/23"
         }
     },
-       //---------------------------- Pipo ------------------------------------------
+       //---------------------------- Pipo ------------------------------------------//
        {
         "Action": "Load",
         "Target": "Characters/PipoP, Portraits/PipoP, Characters/PipoP_Default, Portraits/PipoP_Default",
@@ -75,7 +75,7 @@
 
         }
     },
-    //---------------------------- Sen ------------------------------------------
+    //---------------------------- Sen ------------------------------------------//
     {
         "Action": "Load",
         "Target": "Characters/SenS, Portraits/SenS, Portraits/SenS_Default, Characters/SenS_Default",
@@ -133,20 +133,19 @@
             "IsOutdoors": "false"
         }
     },
-    //---------------------------- Skrell ------------------------------------------
+    //---------------------------- Skrell ------------------------------------------//
     {
         "Action": "Load",
         "Target": "Characters/Skrell, Portraits/Skrell",
         "FromFile": "assets/{{TargetPathOnly}}/Skrell/Skrell.png"
     },
-    //---------------------------- Ebb ------------------------------------------
+    //---------------------------- Ebb ------------------------------------------//
     {
         "Action": "Load",
         "Target": "Characters/Ebb, Portraits/Ebb",
         "FromFile": "assets/{{TargetPathOnly}}/Ebb/Ebb.png"
     },  
-    //---------------------------- Other ------------------------------------------
-     //Babies
+    //---------------------------- Babies ------------------------------------------//
      {           
         "Action": "Load",
         "Target": "Characters/Baby, Characters/Baby_dark",
@@ -177,7 +176,7 @@
             "Have Shadow Kids":true
         }
     },
-    //RESHADE
+   //---------------------------- Reshade ------------------------------------------//
     {           
         "Action": "Load",
         "Target": "Characters/Krobus, Characters/SeaMonsterKrobus, Characters/Monsters/Shadow Brute, Characters/Monsters/Shadow Brute_dangerous, Characters/Monsters/Shadow Shaman, Characters/Monsters/Shadow Sniper",

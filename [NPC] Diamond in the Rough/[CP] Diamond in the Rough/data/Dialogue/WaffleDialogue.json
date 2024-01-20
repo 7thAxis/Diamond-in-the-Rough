@@ -15,7 +15,7 @@
             "Entries": {
         
             //Dumpster
-            "DumpsterDiveComment": "{{i18n:Core.PipoP.Dumpster}}",
+            "DumpsterDiveComment": "{{i18n:Core.WaffleW.Dumpster}}",
 
             //Romance
             "RejectBouquet_NotDatable": "{{i18n:Core.WaffleW.BouquetRejection}}",
@@ -109,9 +109,7 @@
             "fall_19": "{{i18n:Core.WaffleW.Fall.d19}}",
             "winter_27": "{{i18n:Core.WaffleW.Winter.d27}}"
         },
-        "When": {
-            "HasMod: |contains=Rafseazz.RSVCP": true
-         }
+        "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
     },
     {
         "LogName": "Dialogue - Surfing Festival",
@@ -120,9 +118,7 @@
         "Entries": 	{ 
             "summer_4": "{{i18n:Core.WaffleW.Summer.d4}}"
         },
-        "When": {
-            "HasMod: |contains=spacechase0.SurfingFestival": true
-         }
+        "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
     },
     {
         "LogName": "Dialogue - Fashion Festival",
@@ -144,9 +140,7 @@
         "Entries": 	{ 
             "winter_12": "{{i18n:Core.WaffleW.Winter.d12}}"
         },
-        "When": {
-            "HasMod: |contains=AvalonMFX.LoveFestival": true
-         }
+        "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
     },
     {
         "LogName": "Dialogue - Marketpalooza",
@@ -155,9 +149,7 @@
         "Entries": 	{ 
             "fall_2": "{{i18n:Core.WaffleW.Fall.d2}}"
         },
-        "When": {
-            "HasMod: |contains=Fellowclown.Nikolai": true
-         }
+        "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
     },
     {
         "LogName": "Dialogue - Fireworks Festival",
@@ -166,9 +158,7 @@
         "Entries": 	{ 
             "summer_19": "{{i18n:Core.WaffleW.Summer.d19}}"
         },
-        "When": {
-            "HasMod: |contains=violetlizabet.FireworksFestival": true
-         }
+        "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }
         ]
 }

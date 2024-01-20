@@ -28,9 +28,7 @@
 				"Thu":"0 {{ModID}}.Maps.EveHouseInterior 7 4/610 7 4 waffle_lay/700 6 4 waffle_sitleft/800 Town 74 38 waffle_lay/1400 Town 69 12 waffle_sitright/1600 Mountain 42 16 waffle_sitright/1800 65 14 waffle_sitleft/2000 Mine 15 10 waffle_sitright",
 				"Sun":"0 {{ModID}}.Maps.EveHouseInterior 7 4/610 7 4 waffle_lay/700 6 4 waffle_sitleft/900 SeedShop 16 20 waffle_sitleft/1400 6 19 waffle_sitleft/1500 Town 99 61 waffle_lay/1700 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/2100 7 4 waffle_sleep"
 			},
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
-			}
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
 		{
 			"LogName": "Waffle Beach Hangout",

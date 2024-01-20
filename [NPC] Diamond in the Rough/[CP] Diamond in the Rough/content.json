@@ -88,44 +88,32 @@
         {
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusUnknown}}",
-            "When": {
-                "Relationship:Krobus": "Unmet"
-            }
+            "When": { "Relationship:Krobus": "Unmet" }
         },
         {
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusKnown}}",
-            "When": {
-                "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced"
-            }
+            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced" }
         },
         {
             "Name": "DwarfSpeech",
             "Value": "Dwarvish",
-            "When": {
-                "HasWalletItem |contains=DwarvishTranslationGuide": false
-            }
+            "When": { "HasWalletItem |contains=DwarvishTranslationGuide": false }
         },
         {
             "Name": "DwarfSpeech",
             "Value": "Translated",
-            "When": {
-                "HasWalletItem |contains=DwarvishTranslationGuide": true
-            }
+            "When": { "HasWalletItem |contains=DwarvishTranslationGuide": true }
         },
         {
             "Name": "AnimalBehavior",
             "Value": "Sound",
-            "When": {
-                "BasicRandomizer": "1"
-            }
+            "When": { "BasicRandomizer": "1" }
         },
         {
             "Name": "AnimalBehavior",
             "Value": "Action",
-            "When": {
-                "BasicRandomizer": "2"
-            }
+            "When": { "BasicRandomizer": "2" }
         },
 
         //ABBREVIATED DAY OF WEEK CHECK 
@@ -134,51 +122,37 @@
         {
             "Name": "WeekDay",
             "Value": "Mon",
-            "When": {
-                "DayOfWeek |contains=Monday": true
-            }
+            "When": { "DayOfWeek |contains=Monday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Tue",
-            "When": {
-                "DayOfWeek |contains=Tuesday": true
-            }
+            "When": { "DayOfWeek |contains=Tuesday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Wed",
-            "When": {
-                "DayOfWeek |contains=Wednesday": true
-            }
+            "When": { "DayOfWeek |contains=Wednesday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Thu",
-            "When": {
-                "DayOfWeek |contains=Thursday": true
-            }
+            "When": { "DayOfWeek |contains=Thursday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Fri",
-            "When": {
-                "DayOfWeek |contains=Friday": true
-            }
+            "When": { "DayOfWeek |contains=Friday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Sat",
-            "When": {
-                "DayOfWeek |contains=Saturday": true
-            }
+            "When": { "DayOfWeek |contains=Saturday": true }
         },
         {
             "Name": "WeekDay",
             "Value": "Sun",
-            "When": {
-                "DayOfWeek |contains=Sunday": true
-            }
+            "When": { "DayOfWeek |contains=Sunday": true }
         },
         //PASS-IN TOKENS
             //GOD AXELL WHY, GOD WHY GOD WHY WHHHHYYYY
@@ -221,7 +195,7 @@
         {
 			"Action": "Include",
 			"FromFile": "data/Schedules/SenSchedule.json",
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
 		},
         //Waffle
         {
@@ -238,25 +212,13 @@
             "Action": "EditData",
             "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
             "Entries": {
-                "WaffleW": {
-                    "MarkerCropOffset": 15
-                },
-                "PipoP": {
-                    "MarkerCropOffset": 15
-                },
-                "EveT": {
-                    "MarkerCropOffset": 4
-                },
-                "TraceV": {
-                    "MarkerCropOffset": 4
-                },
-                "SenS": { 
-                    "MarkerCropOffset": 5 
-                },
-                "When": {
-                    "HasMod: |contains=Bouhm.NPCMapLocations": true
-                }
-            }
+                "WaffleW": { "MarkerCropOffset": 15 },
+                "PipoP":   { "MarkerCropOffset": 15 },
+                "EveT":    { "MarkerCropOffset": 4 },
+                "TraceV":  { "MarkerCropOffset": 4 },
+                "SenS":    { "MarkerCropOffset": 5 }
+            },
+            "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
         }
     ]
 }

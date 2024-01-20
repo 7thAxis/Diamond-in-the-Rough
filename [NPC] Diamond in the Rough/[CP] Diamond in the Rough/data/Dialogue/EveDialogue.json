@@ -7,9 +7,7 @@
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 20}}}}}}"
             },
-            "When": {
-                "Hearts:EveT": "{{Range: 0, 10}}" 
-             }
+            "When": { "Hearts:EveT": "{{Range: 0, 10}}" }
         },
         {
             "LogName": "Eve Seasonal Override",
@@ -19,9 +17,7 @@
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.EveT.Season.{{season}}.{{Random:{{Range: 1, 5}}}}}}"
             },
-            "When": {
-                "Query: {{Random: {{Range: 1, 15}}|key=DitRESD}} = 1": true
-             }
+            "When": { "Query: {{Random: {{Range: 1, 15}}|key=DitRESD}} = 1": true }
         },
         {
             "LogName": "Eve ED Commentary",
@@ -240,9 +236,7 @@
             "fall_19": "{{i18n:Core.EveT.Fall.d19}}",
             "winter_27": "{{i18n:Core.EveT.Winter.d27}}"
         },
-        "When": {
-            "HasMod: |contains=Rafseazz.RSVCP": true
-         }
+        "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
     },
     {
         "LogName": "Dialogue - Surfing Festival",
@@ -251,9 +245,7 @@
         "Entries": 	{ 
             "summer_4": "{{i18n:Core.EveT.Summer.d4}}"
         },
-        "When": {
-            "HasMod: |contains=spacechase0.SurfingFestival": true
-         }
+        "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
     },
     {
         "LogName": "Dialogue - Fashion Festival",
@@ -275,9 +267,7 @@
         "Entries": 	{ 
             "winter_12": "{{i18n:Core.EveT.Winter.d12}}"
         },
-        "When": {
-            "HasMod: |contains=AvalonMFX.LoveFestival": true
-         }
+        "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
     },
     {
         "LogName": "Dialogue - Marketpalooza",
@@ -286,9 +276,7 @@
         "Entries": 	{ 
             "fall_2": "{{i18n:Core.EveT.Fall.d2}}"
         },
-        "When": {
-            "HasMod: |contains=Fellowclown.Nikolai": true
-         }
+        "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
     },
     {
         "LogName": "Dialogue - Fireworks Festival",
@@ -297,9 +285,7 @@
         "Entries": 	{ 
             "summer_19": "{{i18n:Core.EveT.Summer.d19}}"
         },
-        "When": {
-            "HasMod: |contains=violetlizabet.FireworksFestival": true
-         }
+        "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }
         ]
 }

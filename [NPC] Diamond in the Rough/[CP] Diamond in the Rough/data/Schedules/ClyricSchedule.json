@@ -28,9 +28,7 @@
 				"Thu":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/800 Town 75 38 2/1400 Town 70 11 eve_kickfeet/1600 Mountain 42 15 1/1800 64 14 2/2000 Mine 16 10 3",
 				"Sun":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/900 SeedShop 15 20 0/1400 5 19 0/1500 Town 101 61 eve_kickfeet/1700 {{ModID}}.Maps.EveHouseInterior 1 5 0/2030 3 5 0/2100 12 5 eve_sleep"
 			},
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
-			}
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
         {
 			"LogName": "Eve Beach Hangout",
