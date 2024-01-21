@@ -5,7 +5,64 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_EastScarpe",
             "Entries": {
-                "{{ModID}}.Events.SenS.14h/t 2000 2600/w sunny/f SenS 3500": "night_market/71 121/farmer 68 116 2 SenS 72 120 2/changePortrait SenS Default/changeSprite SenS Default/ignoreCollisions SenS/ignoreCollisions farmer/addConversationTopic DitR_CT_SensFlowers 3/addLantern 737 70 121 2/skippable/speed farmer 2/advancedMove farmer false 0 3 2 0 1 200/pause 2800/faceDirection SenS 3 false/emote SenS 32/pause 200/speak SenS \"{{i18n:Events.SenS.Event14.1}}\"/pause 100/emote farmer 32/advancedMove farmer false 1 0 0 1 2 200/faceDirection SenS 2/pause 500/speak SenS \"{{i18n:Events.SenS.Event14.2}}\"/pause 100/emote SenS 40/speak SenS \"{{i18n:Events.SenS.Event14.3}}\"/pause 100/emote SenS 40/speak SenS \"{{i18n:Events.SenS.Event14.4}}\"/pause 700/speak SenS \"{{i18n:Events.SenS.Event14.5}}\"/pause 500/faceDirection farmer 1/pause 200/emote farmer 32/pause 200/showFrame SenS 27/pause 50/showFrame SenS 33/pause 500/shake SenS 1000/pause 1000/faceDirection farmer 2/pause 500/playSound cast/showFrame SenS 27/pause 1000/showFrame SenS 0/pause 800/emote SenS 32/pause 700/fade/viewport -1000 -1000/speak SenS \"{{i18n:Events.SenS.Event14.6}}\"/end"
+                "{{ModID}}.Events.SenS.14h/t 2000 2600/w sunny/f SenS 3500": "
+
+                night_market/
+                71 121/
+                farmer 68 116 2 SenS 72 120 2/
+                changePortrait SenS Default/
+                changeSprite SenS Default/
+                ignoreCollisions SenS/
+                ignoreCollisions farmer/
+                addConversationTopic DitR_CT_SensFlowers 3/
+                addLantern 737 70 121 2/
+                skippable/
+
+                    speed farmer 2/
+                    advancedMove farmer false 0 3 2 0 1 200/
+                    pause 2800/
+                    faceDirection SenS 3 false/
+                    emote SenS 32/
+                    pause 200/
+                speak SenS \"{{i18n:Events.SenS.Event14.1}}\"/
+                    pause 100/
+                    emote farmer 32/
+                    advancedMove farmer false 1 0 0 1 2 200/
+                    faceDirection SenS 2/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event14.2}}\"/
+                    pause 100/
+                    emote SenS 40/
+                speak SenS \"{{i18n:Events.SenS.Event14.3}}\"/
+                    pause 100/
+                    emote SenS 40/
+                speak SenS \"{{i18n:Events.SenS.Event14.4}}\"/
+                    pause 700/
+                speak SenS \"{{i18n:Events.SenS.Event14.5}}\"/
+                    pause 500/
+                    faceDirection farmer 1/
+                    pause 200/
+                    emote farmer 32/
+                    pause 200/
+                    showFrame SenS 27/
+                    pause 50/
+                    showFrame SenS 33/
+                    pause 500/
+                    shake SenS 1000/
+                    pause 1000/
+                    faceDirection farmer 2/
+                    pause 500/
+                    playSound cast/
+                    showFrame SenS 27/
+                    pause 1000/
+                    showFrame SenS 0/
+                    pause 800/
+                    emote SenS 32/
+                    pause 700/
+                    fade/
+                    viewport -1000 -1000/
+                speak SenS \"{{i18n:Events.SenS.Event14.6}}\"/
+                end"
             }
         }
     ]

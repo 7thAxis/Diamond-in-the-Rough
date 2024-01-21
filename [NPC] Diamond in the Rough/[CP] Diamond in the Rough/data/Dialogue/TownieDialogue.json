@@ -35,35 +35,18 @@
         {
             "LogName": "Sen Dialogue for Dwarf",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Dwarf",
+            "Target": "Characters/Dialogue/Dwarf, Characters/Dialogue/Wizard",
             "Entries": {
-                "DitR_CT_SenMet": "{{i18n:Townie.Dwarf.SenMet.{{DwarfSpeech}}}}",
-                "DitR_CT_DreamReveal": "{{i18n:Townie.Dwarf.DreamReveal.{{DwarfSpeech}}}}",
-                "DitR_CT_ShadowPlay": "{{i18n:Townie.Dwarf.ShadowPlay.{{DwarfSpeech}}}}",
-                "DitR_CT_GardenWaitTime": "{{i18n:Townie.Dwarf.GardenWaitTime.{{DwarfSpeech}}}}",
-                "DitR_CT_GardenCompleted": "{{i18n:Townie.Dwarf.GardenCompleted.{{DwarfSpeech}}}}",
-                "DitR_CT_FamilyFlashback": "{{i18n:Townie.Dwarf.FamilyFlashback.{{DwarfSpeech}}}}",
-                "DitR_CT_MineFlashback": "{{i18n:Townie.Dwarf.MineFlashback.{{DwarfSpeech}}}}",
-                "DitR_CT_TheConfrontation": "{{i18n:Townie.Dwarf.TheConfrontation.{{DwarfSpeech}}}}",
-                "DitR_CT_SkrellEpilogue": "{{i18n:Townie.Dwarf.SkrellEpilogue.{{DwarfSpeech}}}}",
-                "DitR_CT_SensFlowers": "{{i18n:Townie.Dwarf.SensFlowers.{{DwarfSpeech}}}}"
-            } 
-        },
-        {
-            "LogName": "Sen Dialogue for Wizard",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Wizard",
-            "Entries": {
-                "DitR_CT_SenMet": "{{i18n:Townie.Wizard.SenMet}}",
-                "DitR_CT_DreamReveal": "{{i18n:Townie.Wizard.DreamReveal}}",
-                "DitR_CT_ShadowPlay": "{{i18n:Townie.Wizard.ShadowPlay}}",
-                "DitR_CT_GardenWaitTime": "{{i18n:Townie.Wizard.GardenWaitTime}}",
-                "DitR_CT_GardenCompleted": "{{i18n:Townie.Wizard.GardenCompleted}}",
-                "DitR_CT_FamilyFlashback": "{{i18n:Townie.Wizard.FamilyFlashback}}",
-                "DitR_CT_MineFlashback": "{{i18n:Townie.Wizard.MineFlashback}}",
-                "DitR_CT_TheConfrontation": "{{i18n:Townie.Wizard.TheConfrontation}}",
-                "DitR_CT_SkrellEpilogue": "{{i18n:Townie.Wizard.SkrellEpilogue}}",
-                "DitR_CT_SensFlowers": "{{i18n:Townie.Wizard.SensFlowers}}"
+                "DitR_CT_SenMet": "{{i18n:Townie.{{TargetWithoutPath}}.SenMet}}",
+                "DitR_CT_DreamReveal": "{{i18n:Townie.{{TargetWithoutPath}}.DreamReveal}}",
+                "DitR_CT_ShadowPlay": "{{i18n:Townie.{{TargetWithoutPath}}.ShadowPlay}}",
+                "DitR_CT_GardenWaitTime": "{{i18n:Townie.{{TargetWithoutPath}}.GardenWaitTime}}",
+                "DitR_CT_GardenCompleted": "{{i18n:Townie.{{TargetWithoutPath}}.GardenCompleted}}",
+                "DitR_CT_FamilyFlashback": "{{i18n:Townie.{{TargetWithoutPath}}.FamilyFlashback}}",
+                "DitR_CT_MineFlashback": "{{i18n:Townie.{{TargetWithoutPath}}.MineFlashback}}",
+                "DitR_CT_TheConfrontation": "{{i18n:Townie.{{TargetWithoutPath}}.TheConfrontation}}",
+                "DitR_CT_SkrellEpilogue": "{{i18n:Townie.{{TargetWithoutPath}}.SkrellEpilogue}}",
+                "DitR_CT_SensFlowers": "{{i18n:Townie.{{TargetWithoutPath}}.SensFlowers}}"
             } 
         },
         {

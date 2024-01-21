@@ -5,10 +5,143 @@
             "Action": "EditData",
             "Target": "Data/Events/Mine",
             "Entries": {
-                "{{ModID}}.Events.SenS.0h/e 100162": "Upper_Ambient/21 9/farmer 23 10 0 SenS -100 -100 0/changePortrait SenS Default/changeSprite SenS Default/ignoreCollisions SenS/ignoreCollisions farmer/addConversationTopic DitR_CT_SenMet 3/skippable/speed farmer 4/pause 1000/move farmer -5 0 2/move farmer 0 1 2/pause 500/playSound stairsdown/warp SenS 23 8/pause 500/faceDirection farmer 0/move SenS 0 -1 3/move SenS -3 0 1/pause 100/speak SenS \"{{i18n:Events.SenS.Event0.1}}\"/move SenS -2 0 2/pause 100/playSound shadowpeep/jump SenS 8/pause 500/speed SenS 6/move SenS 0 -1 2/shake SenS 500/speak SenS \"{{i18n:Events.SenS.Event0.2}}\"/speed SenS 6/move SenS 5 0 2/speed SenS 6/move SenS 0 2 2/pause 100/emote farmer 16 true/move farmer 0 -3 1/question fork0 \"{{i18n:Events.SenS.Event0.3}}\"/fork SenFriendlyApproach/move farmer 3 0 1/pause 100/faceDirection SenS 3/pause 100/playSound shadowpeep/jump SenS 8/pause 100/shake SenS 500/pause 300/speed SenS 4/move SenS 0 1 2/pause 100/playSound stairsdown/warp SenS -100 -100/pause 500/fade/viewport -1000 -1000/message \"{{i18n:Events.SenS.Event0.End}}\"/end",
-                "SenFriendlyApproach":"resetVariable/faceDirection SenS 3/pause 100/playSound shadowpeep/jump SenS 8/pause 200/shake SenS 800/pause 500/speak SenS \"{{i18n:Events.SenS.Event0.SenFriendlyApproach.1}}\"/move SenS -1 0 3/shake SenS 800/pause 500/speak SenS \"{{i18n:Events.SenS.Event0.SenFriendlyApproach.2}}\"/switchEvent SenChoice2",
-                "SenChoice2":"resetVariable/emote farmer 40/pause 500/question fork0 \"{{i18n:Events.SenS.Event0.SenChoice2.1}}\"/fork SenWhoAreYou/move farmer 2 0 1/pause 200/playSound shadowpeep/jump SenS 8/move SenS 1 0 3/speak SenS \"{{i18n:Events.SenS.Event0.SenChoice2.2}}\"/speed SenS 6/move SenS 0 1 2/pause 100/playSound stairsdown/warp SenS -100 -100/pause 800/fade/viewport -1000 -1000/message \"{{i18n:Events.SenS.Event0.End}}\"/end",
-                "SenWhoAreYou":"resetVariable/pause 100/playMusic junimoKart_mushroomMusic/pause 400/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.1}}\"/pause 100/move SenS -1 0 3/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.2}}\"/pause 100/move SenS 1 0 1/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.3}}\"/pause 100/faceDirection SenS 3/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.4}}\"/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.5}}\"/pause 100/emote farmer 40/quickQuestion {{i18n:Events.SenS.Event0.SenWhoAreYou.6}}(break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.7}}\"(break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.8}}\"(break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.9}}\"/move SenS -2 0 3/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.10}}\"/move SenS 0 3 2/faceDirection farmer 2 true/move SenS -2 0 0/pause 100/speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.11}}\"/emote SenS 56 true/move SenS 0 4 2/warp SenS -100 -100/fade/viewport -1000 -1000/message \"{{i18n:Events.SenS.Event0.End}}\"/end"
+                "{{ModID}}.Events.SenS.0h/e 100162": "
+
+                Upper_Ambient/
+                21 9/
+                farmer 23 10 0 SenS -100 -100 0/
+                changePortrait SenS Default/
+                changeSprite SenS Default/
+                ignoreCollisions SenS/
+                ignoreCollisions farmer/
+                addConversationTopic DitR_CT_SenMet 3/
+                skippable/
+                speed farmer 4/
+                pause 1000/     
+                       
+                    move farmer -5 0 2/
+                    move farmer 0 1 2/
+                    pause 500/
+                    playSound stairsdown/
+                    warp SenS 23 8/
+                    pause 500/
+                    faceDirection farmer 0/
+                    move SenS 0 -1 3/
+                    move SenS -3 0 1/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event0.1}}\"/
+                    move SenS -2 0 2/
+                    pause 100/
+                    playSound shadowpeep/
+                    jump SenS 8/
+                    pause 500/
+                    speed SenS 6/
+                    move SenS 0 -1 2/
+                    shake SenS 500/
+                speak SenS \"{{i18n:Events.SenS.Event0.2}}\"/
+                    speed SenS 6/
+                    move SenS 5 0 2/
+                    speed SenS 6/
+                    move SenS 0 2 2/
+                    pause 100/
+                    emote farmer 16 true/
+                    move farmer 0 -3 1/
+                question fork0 \"{{i18n:Events.SenS.Event0.3}}\"/
+                    fork SenFriendlyApproach/
+                    move farmer 3 0 1/
+                    pause 100/
+                    faceDirection SenS 3/
+                    pause 100/
+                    playSound shadowpeep/
+                    jump SenS 8/
+                    pause 100/
+                    shake SenS 500/
+                    pause 300/
+                    speed SenS 4/
+                    move SenS 0 1 2/
+                    pause 100/
+                    playSound stairsdown/
+                    warp SenS -100 -100/
+                    pause 500/
+                    fade/
+                    viewport -1000 -1000/
+                message \"{{i18n:Events.SenS.Event0.End}}\"/
+                end",
+
+                "SenFriendlyApproach":"
+                resetVariable/
+                    faceDirection SenS 3/
+                    pause 100/
+                    playSound shadowpeep/
+                    jump SenS 8/
+                    pause 200/
+                    shake SenS 800/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenFriendlyApproach.1}}\"/
+                    move SenS -1 0 3/
+                    shake SenS 800/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenFriendlyApproach.2}}\"/
+                    switchEvent SenChoice2",
+
+                "SenChoice2":"
+                resetVariable/
+                    emote farmer 40/
+                    pause 500/
+                question fork0 \"{{i18n:Events.SenS.Event0.SenChoice2.1}}\"/
+                    fork SenWhoAreYou/
+                    move farmer 2 0 1/
+                    pause 200/
+                    playSound shadowpeep/
+                    jump SenS 8/
+                    move SenS 1 0 3/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenChoice2.2}}\"/
+                    speed SenS 6/
+                    move SenS 0 1 2/
+                    pause 100/
+                    playSound stairsdown/
+                    warp SenS -100 -100/
+                    pause 800/
+                    fade/
+                    viewport -1000 -1000/
+                message \"{{i18n:Events.SenS.Event0.End}}\"/
+                end",
+
+                "SenWhoAreYou":"
+                resetVariable/
+                    pause 100/
+                    playMusic junimoKart_mushroomMusic/
+                    pause 400/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.1}}\"/
+                    pause 100/
+                    move SenS -1 0 3/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.2}}\"/
+                    pause 100/
+                    move SenS 1 0 1/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.3}}\"/
+                    pause 100/
+                    faceDirection SenS 3/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.4}}\"/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.5}}\"/
+                    pause 100/
+                    emote farmer 40/
+                quickQuestion {{i18n:Events.SenS.Event0.SenWhoAreYou.6}}(break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.7}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.8}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.9}}\"
+                    /move SenS -2 0 3/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.10}}\"/
+                    move SenS 0 3 2/
+                    faceDirection farmer 2 true/
+                    move SenS -2 0 0/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event0.SenWhoAreYou.11}}\"
+                    /emote SenS 56 true/
+                    move SenS 0 4 2/
+                    warp SenS -100 -100/
+                    fade/
+                    viewport -1000 -1000/
+                message \"{{i18n:Events.SenS.Event0.End}}\"/
+                end"
             }
         }
     ]

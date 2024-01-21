@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.EveTheme": {
-                    "ID": "{{ModID}}.EveTheme",
+                "{{ModID}}.Music.EveTheme": {
+                    "ID": "{{ModID}}.Music.EveTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/The_World_is_Ours.ogg}}" ],
                     "StreamedVorbis": true,
@@ -19,8 +19,8 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.WaffleBark": {
-                    "ID": "{{ModID}}.WaffleBark",
+                "{{ModID}}.SFX.WaffleBark": {
+                    "ID": "{{ModID}}.SFX.WaffleBark",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
                     "StreamedVorbis": false,
@@ -33,8 +33,8 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.PipoMeow": {
-                    "ID": "{{ModID}}.PipoMeow",
+                "{{ModID}}.SFX.PipoMeow": {
+                    "ID": "{{ModID}}.SFX.PipoMeow",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
                     "StreamedVorbis": false,

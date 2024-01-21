@@ -5,8 +5,170 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_EastScarpe",
             "Entries": {
-                "{{ModID}}.Events.SenS.2h/e {{ModID}}.Events.SenS.0h/t 2000 2600/w sunny/f SenS 500/A DitR_CT_SenMet": "ocean/22 118/farmer 18 115 2 SenS 22 119 2/changePortrait SenS Default/changeSprite SenS Default/ignoreCollisions SenS/ignoreCollisions farmer/addConversationTopic DitR_CT_DreamReveal 3/skippable/addLantern 737 21 118 2/move farmer 0 4 2/pause 500/faceDirection farmer 1/pause 500/move farmer 2 0 1/pause 500/faceDirection farmer 2/pause 500/faceDirection SenS 3/shake SenS 200/pause 200/faceDirection SenS 3/emote SenS 16 true/playSound shadowpeep/jump SenS/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/positionOffset SenS 4 0/pause 2/warp SenS 23 119/shake SenS 500/pause 100/faceDirection farmer 1/emote farmer 8/pause 200/speak SenS \"{{i18n:Events.SenS.Event2.1}}\"/pause 500/emote farmer 28/pause 500/quickQuestion {{i18n:Events.SenS.Event2.2}}(break)speak SenS \"{{i18n:Events.SenS.Event2.3}}\"(break)speak SenS \"{{i18n:Events.SenS.Event2.4}}\"/pause 500/faceDirection SenS 2/pause 500/faceDirection farmer 2/pause 500/emote SenS 40/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.5}}\"/pause 500/faceDirection farmer 1/emote farmer 8/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.6}}\"/pause 500/emote SenS 40/pause 200/faceDirection SenS 3/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.7}}\"/question fork0 \"{{i18n:Events.SenS.Event2.8}}\"/fork SenTellMeMore/friendship SenS -250/emote farmer 12/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.9}}\"/pause 500/faceDirection SenS 2/pause 500/showFrame SenS 27/pause 200/emote SenS 40/pause 1000/showFrame SenS 0/pause 1000/faceDirection SenS 3/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.10}}\"/pause 200/globalFade 0.007 true/move SenS 4 0 1/viewport -1000 -1000/end" ,
-                "SenTellMeMore":"resetVariable/pause 100/playMusic junimoKart_mushroomMusic/emote farmer 32 true/jump farmer/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.1}}\"/move SenS -1 0 3/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.2}}\"/pause 500/faceDirection SenS 2/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.3}}\"/pause 500/faceDirection farmer 2/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.4}}\"/pause 500/faceDirection SenS 3/pause 500/faceDirection farmer 1/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.5}}\"/pause 500/emote farmer 40/pause 500/quickQuestion {{i18n:Events.SenS.Event2.TellMeMore.6}}(break)speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.7}}\"(break)speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.8}}\"/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.9}}\"/pause 500/faceDirection SenS 2/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.10}}\"/pause 500/faceDirection SenS 3/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.11}}\"/pause 500/move SenS 2 0 3/pause 500/speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.12}}\"/pause 200/globalFade 0.007 true/move SenS 0 -4 0/viewport -1000 -1000/end"
+                "{{ModID}}.Events.SenS.2h/e {{ModID}}.Events.SenS.0h/t 2000 2600/w sunny/f SenS 500/A DitR_CT_SenMet": "
+                
+                ocean/
+                22 118/
+                farmer 18 115 2 SenS 22 119 2/
+                changePortrait SenS Default/
+                changeSprite SenS Default/
+                ignoreCollisions SenS/
+                ignoreCollisions farmer/
+                addConversationTopic DitR_CT_DreamReveal 3/
+                skippable/
+                addLantern 737 21 118 2/
+
+                    move farmer 0 4 2/
+                    pause 500/
+                    faceDirection farmer 1/
+                    pause 500/
+                    move farmer 2 0 1/
+                    pause 500/
+                    faceDirection farmer 2/
+                    pause 500/
+                    faceDirection SenS 3/
+                    shake SenS 200/
+                    pause 200/
+                    faceDirection SenS 3/
+                    emote SenS 16 true/
+                    playSound shadowpeep/
+                    jump SenS/
+
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+                        pause 2/
+                        positionOffset SenS 4 0/
+
+                    pause 2/
+                    warp SenS 23 119/
+                    shake SenS 500/
+                    pause 100/
+                    faceDirection farmer 1/
+                    emote farmer 8/
+                    pause 200/
+                speak SenS \"{{i18n:Events.SenS.Event2.1}}\"/
+                    pause 500/
+                    emote farmer 28/
+                    pause 500/
+                quickQuestion {{i18n:Events.SenS.Event2.2}}(break)speak SenS \"{{i18n:Events.SenS.Event2.3}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event2.4}}\"/
+                    pause 500/
+                    faceDirection SenS 2/
+                    pause 500/
+                    faceDirection farmer 2/
+                    pause 500/
+                    emote SenS 40/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.5}}\"/
+                    pause 500/
+                    faceDirection farmer 1/
+                    emote farmer 8/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.6}}\"/
+                    pause 500/
+                    emote SenS 40/
+                    pause 200/
+                    faceDirection SenS 3/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.7}}\"/
+                question fork0 \"{{i18n:Events.SenS.Event2.8}}\"/
+                    fork SenTellMeMore/
+                    friendship SenS -250/
+                    emote farmer 12/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.9}}\"/
+                    pause 500/
+                    faceDirection SenS 2/
+                    pause 500/
+                    showFrame SenS 27/
+                    pause 200/
+                    emote SenS 40/
+                    pause 1000/
+                    showFrame SenS 0/
+                    pause 1000/
+                    faceDirection SenS 3/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.10}}\"/
+                    pause 200/
+                    globalFade 0.007 true/
+                    move SenS 4 0 1/
+                    viewport -1000 -1000/
+                end" ,
+
+                "SenTellMeMore":"
+                resetVariable/
+                pause 100/
+                playMusic junimoKart_mushroomMusic/
+                    emote farmer 32 true/
+                    jump farmer/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.1}}\"/
+                    move SenS -1 0 3/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.2}}\"/
+                    pause 500/
+                    faceDirection SenS 2/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.3}}\"/
+                    pause 500/
+                faceDirection farmer 2/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.4}}\"/
+                    pause 500/
+                faceDirection SenS 3/
+                    pause 500/
+                    faceDirection farmer 1/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.5}}\"/
+                    pause 500/
+                    emote farmer 40/
+                    pause 500/
+                quickQuestion {{i18n:Events.SenS.Event2.TellMeMore.6}}(break)speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.7}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.8}}\"/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.9}}\"/
+                    pause 500/
+                    faceDirection SenS 2/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.10}}\"/
+                    pause 500/
+                    faceDirection SenS 3/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.11}}\"/
+                    pause 500/
+                    move SenS 2 0 3/
+                    pause 500/
+                speak SenS \"{{i18n:Events.SenS.Event2.TellMeMore.12}}\"/
+                    pause 200/
+                    globalFade 0.007 true/
+                    move SenS 0 -4 0/
+                    viewport -1000 -1000/
+                end"
             }
         }
     ]

@@ -56,34 +56,22 @@
         {
             "Name": "SenPartnershipType",
             "Value": "Romantic",
-            "When": {
-                "HasFlag: |contains=DitR_M_SenS_Romantic": true,
-                "Relationship:SenS": "Married, Dating, Engaged"
-            }
+            "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": true }
         },
         {
             "Name": "SenPartnershipType",
             "Value": "Platonic",
-            "When": {
-                "HasFlag: |contains=DitR_M_SenS_Romantic": false,
-                "Relationship:SenS": "Unmet, Friendly, Divorced"
-            }
+            "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": false }
         },
         {
-            "Name": "TracePartnershipType",
-            "Value": "Romantic",
-            "When": {
-                "HasFlag: |contains=DitR_M_TraceV_Romantic": true,
-                "Relationship:TraceV": "Married, Dating, Engaged"
-            }
+            "Name": "SenTermSwitcher",
+            "Value": "Partner",
+            "When": { "Relationship:SenS": "Married, Dating, Engaged" }
         },
         {
-            "Name": "TracePartnershipType",
-            "Value": "Platonic",
-            "When": {
-                "HasFlag: |contains=DitR_M_TraceV_Romantic": false,
-                "Relationship:TraceV": "Unmet, Friendly, Divorced"
-            }
+            "Name": "SenTermSwitcher",
+            "Value": "BestFriend",
+            "When": { "Relationship:SenS": "Unmet, Friendly, Divorced" }
         },
         {
             "Name": "SenKrobusReference",
@@ -94,16 +82,6 @@
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusKnown}}",
             "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced" }
-        },
-        {
-            "Name": "DwarfSpeech",
-            "Value": "Dwarvish",
-            "When": { "HasWalletItem |contains=DwarvishTranslationGuide": false }
-        },
-        {
-            "Name": "DwarfSpeech",
-            "Value": "Translated",
-            "When": { "HasWalletItem |contains=DwarvishTranslationGuide": true }
         },
         {
             "Name": "AnimalBehavior",
@@ -162,7 +140,7 @@
         },
         {
             "Name": "RelationshipTokens",
-            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{SenPartnershipType}}}} |SenKrobusReference={{SenKrobusReference}}"
+            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{SenTermSwitcher}}}} |SenKrobusReference={{SenKrobusReference}}"
         }
     ],
     //Files
@@ -190,7 +168,7 @@
         //Sen
 		{
 			"Action": "Include",
-			"FromFile": "data/Dialogue/SenDialogue.json, data/Dialogue/SenDialogue_Partner.json, data/Schedules/SenSchedule.json, data/Festivals/SenFestivalLocations.json, data/Movies/SenMovieData.json,data/Events/Sen/Event0.json, data/Events/Sen/Event2.json,data/Events/Sen/Event4.json, data/Events/Sen/Event6.json,data/Events/Sen/Event8.json, data/Events/Sen/Event10.json, data/Events/Sen/Event14.json, data/Events/Sen/ReactToDeath.json"
+			"FromFile": "data/Dialogue/SenDialogue.json, data/Dialogue/SenDialogue_Partner.json, data/Festivals/SenFestivalLocations.json, data/Movies/SenMovieData.json,data/Events/Sen/Event0.json, data/Events/Sen/Event2.json,data/Events/Sen/Event4.json, data/Events/Sen/Event6.json,data/Events/Sen/Event8.json, data/Events/Sen/Event10.json, data/Events/Sen/Event14.json, data/Events/Sen/ReactToDeath.json"
 		},
         {
 			"Action": "Include",

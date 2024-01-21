@@ -5,7 +5,136 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_ESDeepDark",
             "Entries": {
-                "{{ModID}}.Events.SenS.6h.P1/e {{ModID}}.Events.SenS.4h/f SenS 1500/A DitR_CT_ShadowPlay": "movie_wumbus/21 37/farmer 23 31 0 SenS 22 36 2/changePortrait SenS Default/changeSprite SenS Default/addQuest {{ModID}}.Quests.AGardenForSen/ignoreCollisions SenS/ignoreCollisions farmer/skippable/addLantern 735 18 36 2/pause 1000/move SenS -2 0 3/pause 50/move SenS 2 0 1/pause 50/move SenS -2 0 3/pause 100/faceDirection SenS 2/pause 300/showFrame SenS 27/pause 100/emote SenS 12/pause 200/speak SenS \"{{i18n:Events.SenS.Event6.1}}\"/pause 400/move farmer -2 0 3/pause 200/faceDirection farmer 2/showFrame SenS 0/pause 300/emote SenS 8/faceDirection SenS 0/pause 200/emote SenS 16 true/jump SenS/pause 300/speak SenS \"{{i18n:Events.SenS.Event6.2}}\"/pause 200/emote farmer 32 true/pause 200/move farmer 0 4 2/move farmer 1 0 1/faceDirection SenS 1 true/move farmer 0 1 2/pause 200/faceDirection farmer 3/speak SenS \"{{i18n:Events.SenS.Event6.3}}\"/pause 100/emote farmer 56/pause 800/faceDirection SenS 2/pause 100/emote SenS 40/pause 100/faceDirection farmer 2/pause 100/emote farmer 40/pause 100/quickQuestion {{i18n:Events.SenS.Event6.4}}(break)speak SenS \"{{i18n:Events.SenS.Event6.5}}\"(break)speak SenS \"{{i18n:Events.SenS.Event6.6}}\"/pause 100/emote SenS 28/pause 100/speak SenS \"{{i18n:Events.SenS.Event6.7}}\"/pause 100/faceDirection SenS 1/pause 100/speak SenS \"{{i18n:Events.SenS.Event6.8}}\"/pause 100/faceDirection farmer 3/emote farmer 40/pause 100/quickQuestion {{i18n:Events.SenS.Event6.9}}(break)speak SenS \"{{i18n:Events.SenS.Event6.10}}\"(break)speak SenS \"{{i18n:Events.SenS.Event6.11}}\"/pause 100/faceDirection SenS 2/pause 100/emote SenS 40/pause 100/jump SenS/pause 100/speak SenS \"{{i18n:Events.SenS.Event6.12}}\"/pause 100/faceDirection SenS 1/pause 100/emote farmer 8/pause 100/speak SenS \"{{i18n:Events.SenS.Event6.13}}\"/pause 100/emote farmer 40/pause 100/quickQuestion {{i18n:Events.SenS.Event6.14}}(break)speak SenS \"{{i18n:Events.SenS.Event6.15}}\"(break)speak SenS \"{{i18n:Events.SenS.Event6.16}}\"/speak SenS \"{{i18n:Events.SenS.Event6.17}}\"/pause 100/faceDirection SenS 2/pause 100/faceDirection farmer 2/pause 200/speak SenS \"{{i18n:Events.SenS.Event6.18}}\"/pause 100/jump SenS/speak SenS \"{{i18n:Events.SenS.Event6.19}}\"/speed SenS 4/move SenS 1 0 0/speed SenS 4/move SenS 0 -3 2/faceDirection farmer 0 true/emote farmer 8 true/pause 500/jump SenS/pause 500/jump SenS/speak SenS \"{{i18n:Events.SenS.Event6.20}}\"/pause 100/speed SenS 4/move SenS 0 -4 2/pause 100/emote farmer 32 true/speed farmer 4/move farmer -1 0 3/speed farmer 4/move farmer 0 -5 0 true/pause 200/fade/viewport -2000 -2000/pause 450/end/"
+                "{{ModID}}.Events.SenS.6h.P1/e {{ModID}}.Events.SenS.4h/f SenS 1500/A DitR_CT_ShadowPlay": "
+                movie_wumbus/
+                21 37/
+                farmer 23 31 0 SenS 22 36 2/
+                changePortrait SenS Default/
+                changeSprite SenS Default/
+                addQuest {{ModID}}.Quests.AGardenForSen/
+                ignoreCollisions SenS/
+                ignoreCollisions farmer/
+                skippable/
+                addLantern 735 18 36 2/
+                pause 1000/
+                    move SenS -2 0 3/
+                    pause 50/
+                    move SenS 2 0 1/
+                    pause 50/
+                    move SenS -2 0 3/
+                    pause 100/
+                    faceDirection SenS 2/
+                    pause 300/
+                    showFrame SenS 27/
+                    pause 100/
+                    emote SenS 12/
+                    pause 200/
+                speak SenS \"{{i18n:Events.SenS.Event6.1}}\"/
+                    pause 400/
+                    move farmer -2 0 3/
+                    pause 200/
+                    faceDirection farmer 2/
+                    showFrame SenS 0/
+                    pause 300/
+                    emote SenS 8/
+                    faceDirection SenS 0/
+                    pause 200/
+                    emote SenS 16 true/
+                    jump SenS/
+                    pause 300/
+                speak SenS \"{{i18n:Events.SenS.Event6.2}}\"/
+                    pause 200/
+                    emote farmer 32 true/
+                    pause 200/
+                    move farmer 0 4 2/
+                    move farmer 1 0 1/
+                    faceDirection SenS 1 true/
+                    move farmer 0 1 2/
+                    pause 200/
+                    faceDirection farmer 3/
+                speak SenS \"{{i18n:Events.SenS.Event6.3}}\"/
+                    pause 100/
+                    emote farmer 56/
+                    pause 800/
+                    faceDirection SenS 2/
+                    pause 100/
+                    emote SenS 40/
+                    pause 100/
+                    faceDirection farmer 2/
+                    pause 100/
+                    emote farmer 40/
+                    pause 100/
+                quickQuestion {{i18n:Events.SenS.Event6.4}}(break)speak SenS \"{{i18n:Events.SenS.Event6.5}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event6.6}}\"/
+                    pause 100/
+                    emote SenS 28/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event6.7}}\"/
+                    pause 100/
+                    faceDirection SenS 1/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event6.8}}\"/
+                    pause 100/
+                    faceDirection farmer 3/
+                    emote farmer 40/
+                    pause 100/
+                quickQuestion {{i18n:Events.SenS.Event6.9}}(break)speak SenS \"{{i18n:Events.SenS.Event6.10}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event6.11}}\"/
+                    pause 100/
+                    faceDirection SenS 2/
+                    pause 100/
+                    emote SenS 40/
+                    pause 100/
+                    jump SenS/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event6.12}}\"/
+                    pause 100/
+                    faceDirection SenS 1/
+                    pause 100/
+                    emote farmer 8/
+                    pause 100/
+                speak SenS \"{{i18n:Events.SenS.Event6.13}}\"/
+                    pause 100/
+                    emote farmer 40/
+                    pause 100/
+                quickQuestion {{i18n:Events.SenS.Event6.14}}(break)speak SenS \"{{i18n:Events.SenS.Event6.15}}\"
+                 (break)speak SenS \"{{i18n:Events.SenS.Event6.16}}\"/
+                speak SenS \"{{i18n:Events.SenS.Event6.17}}\"/
+                    pause 100/
+                    faceDirection SenS 2/
+                    pause 100/
+                    faceDirection farmer 2/
+                    pause 200/
+                speak SenS \"{{i18n:Events.SenS.Event6.18}}\"/
+                    pause 100/
+                    jump SenS/
+                speak SenS \"{{i18n:Events.SenS.Event6.19}}\"/
+                    speed SenS 4/
+                    move SenS 1 0 0/
+                    speed SenS 4/
+                    move SenS 0 -3 2/
+                    faceDirection farmer 0 true/
+                    emote farmer 8 true/
+                    pause 500/
+                    jump SenS/
+                    pause 500/
+                    jump SenS/
+                speak SenS \"{{i18n:Events.SenS.Event6.20}}\"/
+                    pause 100/
+                    speed SenS 4/
+                    move SenS 0 -4 2/
+                    pause 100/
+                    emote farmer 32 true/
+                    speed farmer 4/
+                    move farmer -1 0 3/
+                    speed farmer 4/
+                    move farmer 0 -5 0 true/
+                    pause 200/
+                    fade/
+                    viewport -2000 -2000/
+                    pause 450/
+                end/
+                "
             }
         },
         {
@@ -29,7 +158,85 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_ESDeepDark",
             "Entries": {
-                "{{ModID}}.Events.SenS.6h.P2/e {{ModID}}.Events.SenS.6h.P1/A DitR_CT_GardenWaitTime": "kindadumbautumn/23 39/farmer 21 32 2 SenS 22 38 2/changePortrait SenS Default/changeSprite SenS Default/ignoreCollisions SenS/ignoreCollisions farmer/addConversationTopic DitR_CT_GardenCompleted 3/skippable/pause 1000/emote SenS 56 true/jump SenS/pause 800/move farmer 0 4 2/pause 200/faceDirection SenS 3/pause 200/faceDirection SenS 0/pause 500/emote SenS 56 true/jump SenS/pause 500/jump SenS/pause 500/jump SenS/pause 100/move SenS 1 0 3/pause 100/emote farmer 32/pause 100/move farmer 0 1 2/move farmer 1 0 1/move farmer 0 1 1/pause 800/faceDirection SenS 2/pause 200/faceDirection farmer 2/pause 200/jump farmer 7/pause 500/emote farmer 56/pause 300/emote SenS 56 true/jump SenS/pause 500/jump SenS/pause 500/faceDirection SenS 3/faceDirection SenS 0/faceDirection SenS 1/faceDirection SenS 2/emote SenS 56 true/faceDirection SenS 3/faceDirection SenS 0/faceDirection SenS 1/faceDirection SenS 2/pause 800/shake SenS 500/pause 500/faceDirection farmer 1/emote farmer 8/pause 100/emote SenS 28 true/shake SenS 500/pause 1000/shake SenS 500/pause 1500/fade/viewport -1000 -1000/speak SenS \"{{i18n:Events.SenS.Event6.P2.1}}\"/pause 2000/end"
+                "{{ModID}}.Events.SenS.6h.P2/e {{ModID}}.Events.SenS.6h.P1/A DitR_CT_GardenWaitTime": "
+
+                kindadumbautumn/
+                23 39/
+                farmer 21 32 2 SenS 22 38 2/
+                changePortrait SenS Default/
+                changeSprite SenS Default/
+                ignoreCollisions SenS/
+                ignoreCollisions farmer/
+                addConversationTopic DitR_CT_GardenCompleted 3/
+                skippable/
+
+                    pause 1000/
+                    emote SenS 56 true/
+                    jump SenS/
+                    pause 800/
+                    move farmer 0 4 2/
+                    pause 200/
+                    faceDirection SenS 3/
+                    pause 200/
+                    faceDirection SenS 0/
+                    pause 500/
+                    emote SenS 56 true/
+                    jump SenS/
+                    pause 500/
+                    jump SenS/
+                    pause 500/
+                    jump SenS/
+                    pause 100/
+                    move SenS 1 0 3/
+                    pause 100/
+                    emote farmer 32/
+                    pause 100/
+                    move farmer 0 1 2/
+                    move farmer 1 0 1/
+                    move farmer 0 1 1/
+                    pause 800/
+                    faceDirection SenS 2/
+                    pause 200/
+                    faceDirection farmer 2/
+                    pause 200/
+                    jump farmer 7/
+                    pause 500/
+                    emote farmer 56/
+                    pause 300/
+                    emote SenS 56 true/
+                    jump SenS/
+                    pause 500/
+                    jump SenS/
+                    pause 500/
+
+                        faceDirection SenS 3/
+                        faceDirection SenS 0/
+                        faceDirection SenS 1/
+                        faceDirection SenS 2/
+
+                    emote SenS 56 true/
+
+                        faceDirection SenS 3/
+                        faceDirection SenS 0/
+                        faceDirection SenS 1/
+                        faceDirection SenS 2/
+                        
+                    pause 800/
+                    shake SenS 500/
+                    pause 500/
+                    faceDirection farmer 1/
+                    emote farmer 8/
+                    pause 100/
+                    emote SenS 28 true/
+                    shake SenS 500/
+                    pause 1000/
+                    shake SenS 500/
+                    pause 1500/
+                    fade/
+                    viewport -1000 -1000/
+                speak SenS \"{{i18n:Events.SenS.Event6.P2.1}}\"/
+                    pause 2000/
+                end"
             },
             "When": {
                 "HasFlag: |contains=DitR_M_SenGardenTrigger": true
