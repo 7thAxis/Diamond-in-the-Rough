@@ -12,7 +12,6 @@
 ╚██████╗╚██████╔╝██║  ██║███████╗
  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
 */
-
 //Configs
 "Config.section.Gameplay.name": "Gameplay",
 "Config.section.Graphics.name": "Graphics",
