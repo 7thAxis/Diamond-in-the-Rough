@@ -1,7 +1,14 @@
 {
     "Changes": [
         {
-			
+			"LogName": "Trace Placeholder Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "spring":"
+                0 Custom_EastScarpe 78 94/
+                610 78 94 2",
+            }
 		}
     ]
 }
