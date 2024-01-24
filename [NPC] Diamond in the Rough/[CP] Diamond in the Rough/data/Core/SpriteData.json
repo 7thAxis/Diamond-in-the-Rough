@@ -3,7 +3,7 @@
        //---------------------------- Eve ------------------------------------------//
        {
         "Action": "Load",
-        "Target": "Characters/EveT, Portraits/EveT, Characters/EveT_Default, Portraits/EveT_Default",
+        "Target": "Characters/EveningT, Portraits/EveningT, Characters/EveningT_Default, Portraits/EveningT_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Eve/Eve.png"
     },
     {

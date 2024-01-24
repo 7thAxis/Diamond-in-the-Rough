@@ -3,7 +3,7 @@
         {
 			"LogName": "Eve Schedule",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"spring": "GOTO Mon",
 
@@ -108,7 +108,7 @@
         {
 			"LogName": "Eve SVE Schedule Tweaks",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"Thu":"
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
@@ -136,7 +136,7 @@
         {
 			"LogName": "Eve Beach Hangout",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"Sat":"
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
