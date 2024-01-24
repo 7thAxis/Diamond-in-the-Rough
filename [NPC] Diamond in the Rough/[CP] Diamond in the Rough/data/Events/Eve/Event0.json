@@ -5,18 +5,18 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_EastScarpe",
             "Entries": {
-                "{{ModID}}.Events.EveningT.0h/t 800 1800/w sunny/j 5": "
+                "{{ModID}}.Events.EveT.0h/t 800 1800/w sunny/j 5": "
 
-                {{ModID}}.Music.EveningTheme/
+                {{ModID}}.Music.EveTheme/
                 28 59/
-                farmer 23 57 1 EveningT 34 57 3 WaffleW 34 58 3/
+                farmer 23 57 1 EveT 34 57 3 WaffleW 34 58 3/
                 addConversationTopic DitR_CT_EveMeet 3/
                 skippable/
-                ignoreCollisions EveningT/
+                ignoreCollisions EveT/
                 ignoreCollisions WaffleW/
                 ignoreCollisions farmer/
 
-                    advancedMove EveningT false -4 0 3 200/
+                    advancedMove EveT false -4 0 3 200/
                     advancedMove WaffleW false -3 0 3 200/
                     advancedMove farmer false 3 0 1 200/
                     pause 2300/
@@ -32,9 +32,9 @@
                     pause 300/
                     emote farmer 16/
                     pause 1000/
-                    advancedMove EveningT false -1 0 3 200/
+                    advancedMove EveT false -1 0 3 200/
                     pause 500/
-                speak EveningT \"{{i18n:Events.EveningT.0h.1}}\"/
+                speak EveT \"{{i18n:Events.EveT.0h.1}}\"/
                     pause 200/
                     faceDirection WaffleW 1/
                     pause 100/
@@ -43,38 +43,38 @@
                     pause 500/
                     advancedMove WaffleW false 1 0 0 1 1 0 3 200/
                     pause 500/
-                    faceDirection EveningT 2/
+                    faceDirection EveT 2/
                     pause 300/
-                speak EveningT \"{{i18n:Events.EveningT.0h.2}}\"/
+                speak EveT \"{{i18n:Events.EveT.0h.2}}\"/
                     pause 200/
                     emote WaffleW 56 true/
                     jump WaffleW/
                     playSound {{ModID}}.SFX.WaffleBark/
                     pause 1500/
-                    faceDirection EveningT 3/
+                    faceDirection EveT 3/
                     pause 300/
                     emote farmer 40/
                     pause 100/
-                quickQuestion {{i18n:Events.EveningT.0h.3}}(break)speak EveningT \"{{i18n:Events.EveningT.0h.4}}\"
-                 (break)speak EveningT \"{{i18n:Events.EveningT.0h.5}}\"/
+                quickQuestion {{i18n:Events.EveT.0h.3}}(break)speak EveT \"{{i18n:Events.EveT.0h.4}}\"
+                 (break)speak EveT \"{{i18n:Events.EveT.0h.5}}\"/
                     pause 500/
-                    speak EveningT \"{{i18n:Events.EveningT.0h.6}}\"/
+                    speak EveT \"{{i18n:Events.EveT.0h.6}}\"/
                     emote farmer 40/
                     pause 100/
-                quickQuestion {{i18n:Events.EveningT.0h.7}}(break)speak EveningT \"{{i18n:Events.EveningT.0h.8}}\"
-                 (break)speak EveningT \"{{i18n:Events.EveningT.0h.9}}\"/
-                    emote EveningT 56/
-                    speak EveningT \"{{i18n:Events.EveningT.0h.10}}\"/
+                quickQuestion {{i18n:Events.EveT.0h.7}}(break)speak EveT \"{{i18n:Events.EveT.0h.8}}\"
+                 (break)speak EveT \"{{i18n:Events.EveT.0h.9}}\"/
+                    emote EveT 56/
+                    speak EveT \"{{i18n:Events.EveT.0h.10}}\"/
                     pause 200/
-                    speak EveningT \"{{i18n:Events.EveningT.0h.11}}\"/
-                    faceDirection EveningT 2/
-                    speak EveningT \"{{i18n:Events.EveningT.0h.12}}\"/
+                    speak EveT \"{{i18n:Events.EveT.0h.11}}\"/
+                    faceDirection EveT 2/
+                    speak EveT \"{{i18n:Events.EveT.0h.12}}\"/
                     pause 100/
                     faceDirection WaffleW 0/
                     jump WaffleW/
                     playSound {{ModID}}.SFX.WaffleBark/
                     pause 1000/
-                    advancedMove EveningT false -1 0 0 1 -4 0 1 200/
+                    advancedMove EveT false -1 0 0 1 -4 0 1 200/
                     pause 1000/
                     speed WaffleW 2/
                     advancedMove WaffleW false -3 0 4 200/
@@ -100,14 +100,14 @@
                     jump WaffleW/
                     playSound {{ModID}}.SFX.WaffleBark/
                     pause 500/
-                speak EveningT \"{{i18n:Events.EveningT.0h.13}}\"/
+                speak EveT \"{{i18n:Events.EveT.0h.13}}\"/
                     pause 300/
                     faceDirection WaffleW 3/
                     pause 100/
                     jump WaffleW/
                     playSound {{ModID}}.SFX.WaffleBark/
                     pause 500/
-                    advancedMove EveningT false -10 0 4 200/
+                    advancedMove EveT false -10 0 4 200/
                     faceDirection farmer 3/
                     speed WaffleW 3/
                     pause 500/

@@ -85,87 +85,87 @@
  <objectgroup id="4" name="Buildings">
   <object id="1" name="TileData" x="16" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHSink&quot;"/>
+    <property name="Action" value="Message &quot;EveTHSink&quot;"/>
    </properties>
   </object>
   <object id="2" name="TileData" x="32" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHFridge&quot;"/>
+    <property name="Action" value="Message &quot;EveTHFridge&quot;"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="48" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHStove&quot;"/>
+    <property name="Action" value="Message &quot;EveTHStove&quot;"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="64" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTMegaBomb&quot;"/>
+    <property name="Action" value="Message &quot;EveTMegaBomb&quot;"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="80" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHDogBowl&quot;"/>
+    <property name="Action" value="Message &quot;EveTHDogBowl&quot;"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="112" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHDogBed&quot;"/>
+    <property name="Action" value="Message &quot;EveTHDogBed&quot;"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="128" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHPlant&quot;"/>
+    <property name="Action" value="Message &quot;EveTHPlant&quot;"/>
    </properties>
   </object>
   <object id="8" name="TileData" x="144" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHCherryBomb&quot;"/>
+    <property name="Action" value="Message &quot;EveTHCherryBomb&quot;"/>
    </properties>
   </object>
   <object id="10" name="TileData" x="16" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHBomb&quot;"/>
+    <property name="Action" value="Message &quot;EveTHBomb&quot;"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="112" y="144" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHFlower&quot;"/>
+    <property name="Action" value="Message &quot;EveTHFlower&quot;"/>
    </properties>
   </object>
   <object id="12" name="TileData" x="32" y="112" width="16" height="32">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHCactus&quot;"/>
+    <property name="Action" value="Message &quot;EveTHCactus&quot;"/>
    </properties>
   </object>
   <object id="13" name="TileData" x="48" y="112" width="16" height="32">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHTable&quot;"/>
+    <property name="Action" value="Message &quot;EveTHTable&quot;"/>
    </properties>
   </object>
   <object id="14" name="TileData" x="96" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHPainting&quot;"/>
+    <property name="Action" value="Message &quot;EveTHPainting&quot;"/>
    </properties>
   </object>
   <object id="16" name="TileData" x="208" y="64" width="16" height="32">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHBed&quot;"/>
+    <property name="Action" value="Message &quot;EveTHBed&quot;"/>
    </properties>
   </object>
   <object id="17" name="TileData" x="128" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHPlant&quot;"/>
+    <property name="Action" value="Message &quot;EveTHPlant&quot;"/>
    </properties>
   </object>
   <object id="18" name="TileData" x="192" y="112" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHGems&quot;"/>
+    <property name="Action" value="Message &quot;EveTHGems&quot;"/>
    </properties>
   </object>
   <object id="95" name="TileData" x="192" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;EveningTHBed&quot;"/>
+    <property name="Action" value="Message &quot;EveTHBed&quot;"/>
    </properties>
   </object>
  </objectgroup>
