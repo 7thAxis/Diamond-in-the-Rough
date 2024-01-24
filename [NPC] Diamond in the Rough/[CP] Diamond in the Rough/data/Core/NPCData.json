@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "EveT": {
-                    "DisplayName": "{{i18n:Core.EveT.Name}}",
+                "EveningT": {
+                    "DisplayName": "{{i18n:Core.EveningT.Name}}",
                     "BirthSeason": "spring",
                     "BirthDay": 12,
                     "HomeRegion": "Town",
@@ -371,7 +371,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "EveT": "{{i18n:Gifts.EveT.Love}}/72 90 103 104 106 126 127 216 275 286 287 288 349 402 441 560 577 595 614 618 773 872 903/{{i18n:Gifts.EveT.Like}}/-80 60 70 96 97 98 99 100 101 108 109 111 112 113 114 115 116 117 118 120 121 122 123 124 125 538 546 548 552 557 586 587 588 589/{{i18n:Gifts.EveT.Dislike}}/-14 -6 -4 105 110 198 203 212 213 214 219 225 226 227 228 242 395 727 728 730 732 733/{{i18n:Gifts.EveT.Hate}}/-20 -5 119 306 307 308 445 447 456 579 580 581 582 583 584 585 729 789 807 812 881 921/{{i18n:Gifts.EveT.Neutral}}/849/",
+                "EveningT": "{{i18n:Gifts.EveningT.Love}}/72 90 103 104 106 126 127 216 275 286 287 288 349 402 441 560 577 595 614 618 773 872 903/{{i18n:Gifts.EveningT.Like}}/-80 60 70 96 97 98 99 100 101 108 109 111 112 113 114 115 116 117 118 120 121 122 123 124 125 538 546 548 552 557 586 587 588 589/{{i18n:Gifts.EveningT.Dislike}}/-14 -6 -4 105 110 198 203 212 213 214 219 225 226 227 228 242 395 727 728 730 732 733/{{i18n:Gifts.EveningT.Hate}}/-20 -5 119 306 307 308 445 447 456 579 580 581 582 583 584 585 729 789 807 812 881 921/{{i18n:Gifts.EveningT.Neutral}}/849/",
 
                 "TraceV": "{{i18n:Gifts.TraceV.Love}}/64 206 212 242 305 308 348 376 410 445 447 577 578 595 611 649 721 730 733 769 795 872/{{i18n:Gifts.TraceV.Like}}/-80 -6 -5 -4 -2 119 139 167 198 209 213 214 227 228 259 272 395 488 618 618 638 709 732 812/{{i18n:Gifts.TraceV.Dislike}}/148 225 226/{{i18n:Gifts.TraceV.Hate}}/103 126 127 129 131 265 346 457 637 729 827 828 921/{{i18n:Gifts.TraceV.Neutral}}/-20 771/",
 

@@ -5,34 +5,34 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_EastScarpe",
             "Entries": {
-                "{{ModID}}.Events.EveT.2h/e {{ModID}}.Events.EveT.0h/t 800 1800/w sunny/f EveT 500/A DitR_CT_EveMeet": "
+                "{{ModID}}.Events.EveningT.2h/e {{ModID}}.Events.EveningT.0h/t 800 1800/w sunny/f EveningT 500/A DitR_CT_EveMeet": "
                 
                 playful/
                 79 97/
-                farmer -2000 -2000 1 EveT 80 94 2 WaffleW -2000 -2000 2 PipoP 80 96 0/
+                farmer -2000 -2000 1 EveningT 80 94 2 WaffleW -2000 -2000 2 PipoP 80 96 0/
                 addConversationTopic DitR_CT_BeachChaos 3/
                 skippable/
-                ignoreCollisions EveT/
+                ignoreCollisions EveningT/
                 ignoreCollisions WaffleW/
                 ignoreCollisions PipoP/
                 ignoreCollisions farmer/
                 pause 600/
 
-                    advancedMove EveT false 0 1 2 200/
-                speak EveT \"{{i18n:Events.EveT.2h.1}}\"/
+                    advancedMove EveningT false 0 1 2 200/
+                speak EveningT \"{{i18n:Events.EveningT.2h.1}}\"/
                     pause 300/
                     playSound {{ModID}}.SFX.PipoMeow/
                     emote PipoP 20 true/
                     jump PipoP/
                     pause 1000/
-                    advancedMove EveT false -2 0 0 -2 4 200/
+                    advancedMove EveningT false -2 0 0 -2 4 200/
                     pause 500/
                     advancedMove PipoP false 0 -2 -2 0 4 200/
                     pause 1500/
-                    emote EveT 8/
-                    faceDirection EveT 2/
+                    emote EveningT 8/
+                    faceDirection EveningT 2/
                     pause 300/
-                speak EveT \"{{i18n:Events.EveT.2h.2}}\"/
+                speak EveningT \"{{i18n:Events.EveningT.2h.2}}\"/
                     pause 300/
                     playSound {{ModID}}.SFX.PipoMeow/
                     jump PipoP/
@@ -55,15 +55,15 @@
                     pause 300/
                     speed WaffleW 3/
                     speed PipoP 3/
-                    speed EveT 3/
+                    speed EveningT 3/
                     advancedMove WaffleW false -7 0 0 -5 4 200/
                     pause 200/
                     advancedMove PipoP false -5 0 0 -5 4 200/
                     pause 800/
-                    jump EveT/
-                textAboveHead EveT \"{{i18n:Events.EveT.2h.3}}\"/
+                    jump EveningT/
+                textAboveHead EveningT \"{{i18n:Events.EveningT.2h.3}}\"/
                     pause 600/
-                    advancedMove EveT false -5 0 0 -5 4 200/
+                    advancedMove EveningT false -5 0 0 -5 4 200/
                     pause 1000/
                     fade/
                     viewport -999 -999/
@@ -74,8 +74,8 @@
                     faceDirection PipoP 1/
                     warp farmer 57 112/
                     faceDirection farmer 2/
-                    warp EveT 62 102/
-                    advancedMove EveT false 0 8 -1 0 0 1 2 100/
+                    warp EveningT 62 102/
+                    advancedMove EveningT false 0 8 -1 0 0 1 2 100/
                     fade false/
                     viewport 61 113/
                     pause 1500/
@@ -89,7 +89,7 @@
                     pause 400/
                     faceDirection farmer 1/
                     emote farmer 8/
-                    speak EveT \"{{i18n:Events.EveT.2h.4}}\"/
+                    speak EveningT \"{{i18n:Events.EveningT.2h.4}}\"/
                     faceDirection WaffleW 0/
                     pause 100/
                     faceDirection PipoP 0/
@@ -101,17 +101,17 @@
                     playSound {{ModID}}.SFX.PipoMeow/
                     jump PipoP/
                     pause 300/
-                speak EveT \"{{i18n:Events.EveT.2h.5}}\"/
+                speak EveningT \"{{i18n:Events.EveningT.2h.5}}\"/
                     pause 200/
-                    emote EveT 40/
-                    faceDirection EveT 3/
-                    emote EveT 16/
+                    emote EveningT 40/
+                    faceDirection EveningT 3/
+                    emote EveningT 16/
                     pause 200/
-                speak EveT \"{{i18n:Events.EveT.2h.6}}\"/
+                speak EveningT \"{{i18n:Events.EveningT.2h.6}}\"/
                     pause 100/
                     emote farmer 28/
-                quickQuestion {{i18n:Events.EveT.2h.7}}(break)speak EveT \"{{i18n:Events.EveT.2h.8}}\"
-                 (break)speak EveT \"{{i18n:Events.EveT.2h.9}}\"/
+                quickQuestion {{i18n:Events.EveningT.2h.7}}(break)speak EveningT \"{{i18n:Events.EveningT.2h.8}}\"
+                 (break)speak EveningT \"{{i18n:Events.EveningT.2h.9}}\"/
                     pause 200/
                     speed PipoP 2/
                     faceDirection WaffleW 3/
@@ -121,19 +121,19 @@
                     emote PipoP 56 true/
                     jump PipoP/
                     pause 1000/
-                quickQuestion {{i18n:Events.EveT.2h.10}}(break)speak EveT \"{{i18n:Events.EveT.2h.11}}\"
-                 (break)speak EveT \"{{i18n:Events.EveT.2h.12}}\"/
-                speak EveT \"{{i18n:Events.EveT.2h.13}}\"/
+                quickQuestion {{i18n:Events.EveningT.2h.10}}(break)speak EveningT \"{{i18n:Events.EveningT.2h.11}}\"
+                 (break)speak EveningT \"{{i18n:Events.EveningT.2h.12}}\"/
+                speak EveningT \"{{i18n:Events.EveningT.2h.13}}\"/
                     emote farmer 40/
-                quickQuestion {{i18n:Events.EveT.2h.14}}(break)speak EveT \"{{i18n:Events.EveT.2h.15}}\"
-                 (break)speak EveT \"{{i18n:Events.EveT.2h.16}}\"/
-                    speed EveT 2/
+                quickQuestion {{i18n:Events.EveningT.2h.14}}(break)speak EveningT \"{{i18n:Events.EveningT.2h.15}}\"
+                 (break)speak EveningT \"{{i18n:Events.EveningT.2h.16}}\"/
+                    speed EveningT 2/
                     speed WaffleW 2/
-                    advancedMove EveT false -3 0 2 200/
+                    advancedMove EveningT false -3 0 2 200/
                     pause 400/
                     advancedMove WaffleW false -3 0 3 200/
-                speak EveT \"{{i18n:Events.EveT.2h.17}}\"/
-                    advancedMove EveT false 5 0 0 -5 4 200/
+                speak EveningT \"{{i18n:Events.EveningT.2h.17}}\"/
+                    advancedMove EveningT false 5 0 0 -5 4 200/
                     pause 200/
                     advancedMove WaffleW false 4 0 0 -5 4 200/
                     pause 200/

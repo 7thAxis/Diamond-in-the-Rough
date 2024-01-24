@@ -3,7 +3,7 @@
         {
 			"LogName": "Eve Schedule",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"spring": "GOTO Mon",
 				"rain":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/800 11 7 eve_gempolish/1100 Custom_EastScarpeInn 28 26 eve_sit/1400 25 11 eve_sit/1600 Custom_EastScarpe 23 63 eve_kickfeet/1800 {{ModID}}.Maps.EveHouseInterior 1 5 0/2030 3 5 0/2100 12 5 eve_sleep",
@@ -23,7 +23,7 @@
         {
 			"LogName": "Eve SVE Schedule Tweaks",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"Thu":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/800 Town 75 38 2/1400 Town 70 11 eve_kickfeet/1600 Mountain 42 15 1/1800 64 14 2/2000 Mine 16 10 3",
 				"Sun":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/900 SeedShop 15 20 0/1400 5 19 0/1500 Town 101 61 eve_kickfeet/1700 {{ModID}}.Maps.EveHouseInterior 1 5 0/2030 3 5 0/2100 12 5 eve_sleep"
@@ -33,7 +33,7 @@
         {
 			"LogName": "Eve Beach Hangout",
 			"Action": "EditData",
-			"Target": "Characters/schedules/EveT",
+			"Target": "Characters/schedules/EveningT",
 			"Entries": {
 				"Sat":"0 {{ModID}}.Maps.EveHouseInterior 12 5/610 12 5 eve_lay/700 {{ModID}}.Maps.EveHouseInterior 3 5 0/800 Custom_EastScarpe 31 100 2/1100 Blacksmith 3 15 0/1400 Town 86 103 2/1530 Custom_EastScarpe 35 107 1/2300 {{ModID}}.Maps.EveHouseInterior 1 5 0/2430 3 5 0/2500 12 5 eve_sleep"
 			},

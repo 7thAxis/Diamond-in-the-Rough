@@ -4,8 +4,8 @@
             "Action": "EditData",
             "Target": "Data/ConcessionTastes",
             "Entries": {
-                "EveT": {
-                    "Name": "EveT", 
+                "EveningT": {
+                    "Name": "EveningT", 
                     "LovedTags": [
                         "Sour Slimes", 
                         "Ice Cream Sandwich",
@@ -25,8 +25,8 @@
             "Action": "EditData",
             "Target": "Data/MoviesReactions",
             "Entries": {
-                "EveT": {
-                    "NPCName": "EveT",
+                "EveningT": {
+                    "NPCName": "EveningT",
                     "Reactions": [
                         {
                             "Tag": "spring_movie_0", //Brave Little Sapling
@@ -36,17 +36,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.BraveLittleSapling.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.BraveLittleSapling.1}}"
                                 },
                                 "DuringMovie": { 
                                     "ResponsePoint": "sprout_leave",
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.BraveLittleSapling.2}}"
+                                    "Text": "{{i18n:Movies.EveningT.BraveLittleSapling.2}}"
                                 },
                                 "AfterMovie": { 
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.BraveLittleSapling.3}}"
+                                    "Text": "{{i18n:Movies.EveningT.BraveLittleSapling.3}}"
                                 }
                             },
                             "ID": "reaction_0"
@@ -59,17 +59,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.NaturalWonders.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.NaturalWonders.1}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.NaturalWonders.2}}"
+                                    "Text": "{{i18n:Movies.EveningT.NaturalWonders.2}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.NaturalWonders.3}}"
+                                    "Text": "{{i18n:Movies.EveningT.NaturalWonders.3}}"
                                 }
                             },
                             "ID": "reaction_1"
@@ -82,17 +82,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.PrairieKing.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.PrairieKing.1}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": "PK_villain",
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.PrairieKing.2}}"
+                                    "Text": "{{i18n:Movies.EveningT.PrairieKing.2}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.PrairieKing.3}}"
+                                    "Text": "{{i18n:Movies.EveningT.PrairieKing.3}}"
                                 } 
                             },
                             "ID": "reaction_2"
@@ -105,17 +105,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.Wumbus.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.Wumbus.1}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.Wumbus.2}}"
+                                    "Text": "{{i18n:Movies.EveningT.Wumbus.2}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.Wumbus.3}}" 
+                                    "Text": "{{i18n:Movies.EveningT.Wumbus.3}}" 
                                 }
 
                             },
@@ -129,17 +129,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.Mysterium.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.Mysterium.1}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": "mysterium_shadow",
-                                    "Script": "/message \"{{i18n:Movies.EveT.Mysterium.2}}\"",
+                                    "Script": "/message \"{{i18n:Movies.EveningT.Mysterium.2}}\"",
                                     "Text": null
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.Mysterium.3}}"
+                                    "Text": "{{i18n:Movies.EveningT.Mysterium.3}}"
                                 }
                             },
                             "ID": "reaction_4"
@@ -152,17 +152,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": "",
-                                    "Text": "{{i18n:Movies.EveT.ItHowlsInTheRain.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.ItHowlsInTheRain.1}}"
                                 },
                                 "DuringMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.ItHowlsInTheRain.2}}"
+                                    "Text": "{{i18n:Movies.EveningT.ItHowlsInTheRain.2}}"
                                 },
                                 "AfterMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.ItHowlsInTheRain.3}}"
+                                    "Text": "{{i18n:Movies.EveningT.ItHowlsInTheRain.3}}"
                                 }
                             },
                             "ID": "reaction_5"
@@ -175,17 +175,17 @@
                                 "BeforeMovie": {
                                     "ResponsePoint": null,
                                     "Script": null,
-                                    "Text": "{{i18n:Movies.EveT.MiracleAtColdstarRanch.1}}"
+                                    "Text": "{{i18n:Movies.EveningT.MiracleAtColdstarRanch.1}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.EveT.MiracleAtColdstarRanch.2}}"
+                                "Text": "{{i18n:Movies.EveningT.MiracleAtColdstarRanch.2}}"
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.EveT.MiracleAtColdstarRanch.3}}"
+                                "Text": "{{i18n:Movies.EveningT.MiracleAtColdstarRanch.3}}"
                             }
                         },
                         "ID": "reaction_6"
@@ -198,17 +198,17 @@
                             "BeforeMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.EveT.ZuzuExpress.1}}"
+                                "Text": "{{i18n:Movies.EveningT.ZuzuExpress.1}}"
                             },
                             "DuringMovie": {
                                 "ResponsePoint": "zuzucityexpress_mind_heart",
                                 "Script": null,
-                                "Text": "{{i18n:Movies.EveT.ZuzuExpress.2}}"
+                                "Text": "{{i18n:Movies.EveningT.ZuzuExpress.2}}"
                             },
                             "AfterMovie": {
                                 "ResponsePoint": null,
                                 "Script": null,
-                                "Text": "{{i18n:Movies.EveT.ZuzuExpress.3}}"
+                                "Text": "{{i18n:Movies.EveningT.ZuzuExpress.3}}"
                             }
                         }
                     }

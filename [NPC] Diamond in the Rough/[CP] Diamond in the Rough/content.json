@@ -147,7 +147,7 @@
     "Changes": [
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
+            "Target": "Characters/Dialogue/EveningT, Characters/schedules/EveningT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
             "FromFile": "data/blank.json"
         },
         //All
@@ -192,7 +192,7 @@
             "Entries": {
                 "WaffleW": { "MarkerCropOffset": 15 },
                 "PipoP":   { "MarkerCropOffset": 15 },
-                "EveT":    { "MarkerCropOffset": 4 },
+                "EveningT":    { "MarkerCropOffset": 4 },
                 "TraceV":  { "MarkerCropOffset": 4 },
                 "SenS":    { "MarkerCropOffset": 5 }
             },

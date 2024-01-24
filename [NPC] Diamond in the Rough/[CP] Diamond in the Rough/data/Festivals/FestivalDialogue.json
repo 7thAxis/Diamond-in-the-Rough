@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter8, Data/Festivals/winter25/, Data/Festivals/fall20, Data/Festivals/winter28, Data/Festivals/winter28, Data/Festivals/summer5, Data/Festivals/spring19, Data/Festivals/winter13, Data/Festivals/fall3, Data/Festivals/summer20",
             "Entries": {
-                "EveT": "{{i18n:Festivals.EveT.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
+                "EveningT": "{{i18n:Festivals.EveningT.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
                 "SenS": "{{i18n:Festivals.SenS.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
                 "PipoP": "{{i18n:Festivals.PipoP.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
                 "WaffleW": "{{i18n:Festivals.WaffleW.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}"
@@ -24,11 +24,11 @@
         {
             "LogName": "Eve - Night Market",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/EveT",
+            "Target": "Characters/Dialogue/EveningT",
             "Entries": 	{ 
-                "winter_15": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_16": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_17": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
+                "winter_15": "{{i18n:Festivals.EveningT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
+                "winter_16": "{{i18n:Festivals.EveningT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
+                "winter_17": "{{i18n:Festivals.EveningT.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
             }
         },
         {
