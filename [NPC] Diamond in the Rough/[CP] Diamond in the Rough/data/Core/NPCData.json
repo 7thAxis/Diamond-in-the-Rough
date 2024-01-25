@@ -367,6 +367,35 @@
                 }
             }
         },
+        //JEREMY!
+        {
+            "LogName": "Jeremy Spawn",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+              {
+                "Position": {
+                  "X": "74",
+                  "Y": "99"
+                },
+                "Layer": "Back",
+                "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
+              }
+            ]
+          },
+          {
+            "LogName": "Jeremy Name",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
+            "TargetField": "Companion",
+            "Entries": {
+                "Companion": {
+                    "InspectionDialogue": "Hello. I am Jeremy T. Snail. I know things about this world best left untold.#$b#Please, don't ask questions. I don't want to break you.",
+                    "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" }
+                }
+            }
+        },
         {
             "LogName": "Gift Taste",
             "Action": "EditData",

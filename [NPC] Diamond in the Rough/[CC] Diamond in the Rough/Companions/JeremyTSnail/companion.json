@@ -1,0 +1,86 @@
+{
+    "Name": "JeremyTSnail",
+    "Type": "Walking",
+    "EnableFarmerCollision": true,
+    "EnableShadow": false,
+    "TravelSpeed": 1,
+    "SpawnDirection": 1,
+    "SpawnOffsetX": 0,
+    "SpawnOffsetY": 0,
+    "MaxIdleDistance": -1,
+    "MaxDistanceBeforeTeleport": -1,
+    "Portrait": {
+        "FrameSizeWidth": 64,
+        "FrameSizeHeight": 64
+    },
+    "IdleBehavior": "Wander",
+    "FrameSizeWidth": 32,
+    "FrameSizeHeight": 32,
+    // This plays when the companion travels upwards
+    "UpAnimation": {
+        "StartingFrame": 8,
+        "NumberOfFrames": 4,
+        "Duration": 100,
+        "IdleAnimation": {
+            "StartingFrame": 8,
+            "NumberOfFrames": 1,
+            "Duration": 500
+        }
+    },
+    // This plays when the companion travels downwards
+    "DownAnimation": {
+        "StartingFrame": 0,
+        "NumberOfFrames": 4,
+        "Duration": 100,
+        "IdleAnimation": {
+            "StartingFrame": 0,
+            "NumberOfFrames": 1,
+            "Duration": 500
+        }
+    },
+    // This plays when the companion travels left
+    "LeftAnimation": {
+        "ManualFrames": [
+            {
+                "Frame": 7,
+                "Duration": 100,
+                "Flip": true
+            },
+            {
+                "Frame": 6,
+                "Duration": 100,
+                "Flip": true
+            },
+            {
+                "Frame": 5,
+                "Duration": 100,
+                "Flip": true
+            },
+            {
+                "Frame": 4,
+                "Duration": 100,
+                "Flip": true
+            }
+        ],
+        "IdleAnimation": {
+            "ManualFrames": [
+                {
+                    "Frame": 4,
+                    "Duration": 100,
+                    "Flip": true
+                }
+            ]
+        }
+    },
+    // This plays when the companion travels right
+    "RightAnimation": {
+        "StartingFrame": 4,
+        "NumberOfFrames": 4,
+        "Duration": 100,
+        "IdleAnimation": {
+            "StartingFrame": 4,
+            "NumberOfFrames": 1,
+            "Duration": 500
+        }
+    }
+}

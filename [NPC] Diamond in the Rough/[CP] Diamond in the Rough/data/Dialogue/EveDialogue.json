@@ -6,8 +6,7 @@
             "Target": "Characters/Dialogue/EveT",
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 20}}}}}}"
-            },
-            "When": { "Hearts:EveT": "{{Range: 0, 10}}" }
+            }
         },
         {
             "LogName": "Eve Seasonal Override",

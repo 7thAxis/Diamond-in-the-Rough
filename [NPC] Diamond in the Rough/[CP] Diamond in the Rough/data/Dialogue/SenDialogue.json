@@ -6,8 +6,7 @@
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.EarlyHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
-            },
-            "When": { "Hearts:SenS": "{{Range: 0, 5}}" }
+            }
         },
         {
             "LogName": "Sen Dialogue - 6-10",

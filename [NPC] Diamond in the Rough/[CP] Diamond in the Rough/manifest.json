@@ -15,8 +15,12 @@
 			"IsRequired": true
 		},
 		{
-			"UniqueID": "aedenthorn.CustomFixedDialogue",
-			"IsRequired": false
+			"UniqueID": "PeacefulEnd.CustomCompanions",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
+			"IsRequired": true
 		},
 		{
 			"UniqueID": "spacechase0.SpaceCore",

@@ -4,8 +4,8 @@
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
             "Entries": {
-                "SenS_Engaged": "{{i18n:Relationship.SenS.Engaged.{{SenPartnershipType}}}}",
-                "SenS_AfterWedding": "{{i18n:Relationship.SenS.AfterWedding.{{SenPartnershipType}}}}"
+                "SenS_Engaged": "{{i18n:Relationship.SenS.Engaged.{{SenPartnershipRoute}}}}",
+                "SenS_AfterWedding": "{{i18n:Relationship.SenS.AfterWedding.{{SenPartnershipRoute}}}}"
             }
         },
         {
@@ -18,7 +18,7 @@
                 "WipedMemory": "",
 
                 //Stardrop
-                "SpouseStardrop": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipType}}}}",
+                "SpouseStardrop": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipRoute}}}}",
                 
                 //Situational
                 "SpouseFarmhouseClutter": "{{i18n:Relationship.SenS.KitchenBlocked.{{Random:{{Range: 1, 2}}}}}}",
@@ -70,10 +70,10 @@
             "Target": "Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
             "Entries": {
                 //Location
-                "patio_SenS": "{{i18n:Relationship.SenS.Patio.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
-                "spouseRoom_SenS": "{{i18n:Relationship.SenS.SpouseRoom.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
-                "funLeave_SenS": "{{i18n:Relationship.SenS.FunLeave.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
-                "funReturn_SenS": "{{i18n:Relationship.SenS.FunReturn.{{SenPartnershipType}}.{{Random:{{Range: 1, 4}}}}}}",
+                "patio_SenS": "{{i18n:Relationship.SenS.Patio.{{SenPartnershipRoute}}.{{Random:{{Range: 1, 4}}}}}}",
+                "spouseRoom_SenS": "{{i18n:Relationship.SenS.SpouseRoom.{{SenPartnershipRoute}}.{{Random:{{Range: 1, 4}}}}}}",
+                "funLeave_SenS": "{{i18n:Relationship.SenS.FunLeave.{{SenPartnershipRoute}}.{{Random:{{Range: 1, 4}}}}}}",
+                "funReturn_SenS": "{{i18n:Relationship.SenS.FunReturn.{{SenPartnershipRoute}}.{{Random:{{Range: 1, 4}}}}}}",
 
                 //GENERIC DIALOGUE
                 "Rainy_Day_SenS": "{{i18n:Relationship.SenS.RainyDay.1}}",
@@ -81,39 +81,39 @@
                 "Rainy_Day_1": "{{i18n:Relationship.SenS.RainyDay.3}}",
                 "Rainy_Day_2": "{{i18n:Relationship.SenS.RainyDay.4}}",
                 "Rainy_Day_3": "{{i18n:Relationship.SenS.RainyDay.5}}",
-                "Rainy_Day_4": "{{i18n:Relationship.SenS.RainyDay.6.{{SenPartnershipType}}}}",
-                "Rainy_Day_5": "{{i18n:Relationship.SenS.RainyDay.7.{{SenPartnershipType}}}}",
+                "Rainy_Day_4": "{{i18n:Relationship.SenS.RainyDay.6.{{SenPartnershipRoute}}}}",
+                "Rainy_Day_5": "{{i18n:Relationship.SenS.RainyDay.7.{{SenPartnershipRoute}}}}",
 
                 "Rainy_Night_SenS": "{{i18n:Relationship.SenS.RainyNight.1.Opening}}{{i18n:Core.SenS.Book.AP.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj3.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.1.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
                 "Rainy_Night_0": "{{i18n:Relationship.SenS.RainyNight.2.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.2.Closing}}",
                 "Rainy_Night_1": "{{i18n:Relationship.SenS.RainyNight.3.Opening}}{{i18n:Relationship.SenS.RainyNight.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.3.Closing}}",
                 "Rainy_Night_2": "{{i18n:Relationship.SenS.RainyNight.4}}",
                 "Rainy_Night_3": "{{i18n:Relationship.SenS.RainyNight.5}}",
-                "Rainy_Night_4": "{{i18n:Relationship.SenS.RainyNight.6.{{SenPartnershipType}}}}",
-                "Rainy_Night_5": "{{i18n:Relationship.SenS.RainyNight.7.{{SenPartnershipType}}}}",
+                "Rainy_Night_4": "{{i18n:Relationship.SenS.RainyNight.6.{{SenPartnershipRoute}}}}",
+                "Rainy_Night_5": "{{i18n:Relationship.SenS.RainyNight.7.{{SenPartnershipRoute}}}}",
 
-                "Indoor_Day_SenS": "{{i18n:Relationship.SenS.IndoorDay.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipType}}}}",
+                "Indoor_Day_SenS": "{{i18n:Relationship.SenS.IndoorDay.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipRoute}}}}",
                 "Indoor_Day_0": "{{i18n:Relationship.SenS.IndoorDay.2}}",
                 "Indoor_Day_1": "{{i18n:Relationship.SenS.IndoorDay.3}}{{i18n:Relationship.SenS.IndoorDay.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.IndoorDay.3.Closing}}",
                 "Indoor_Day_2": "{{i18n:Relationship.SenS.IndoorDay.4}}",
                 "Indoor_Day_3": "{{i18n:Relationship.SenS.IndoorDay.5}}",
-                "Indoor_Day_4": "{{i18n:Relationship.SenS.IndoorDay.6.{{SenPartnershipType}}}}",
-                "Indoor_Day_5": "{{i18n:Relationship.SenS.IndoorDay.7.{{SenPartnershipType}}}}",
+                "Indoor_Day_4": "{{i18n:Relationship.SenS.IndoorDay.6.{{SenPartnershipRoute}}}}",
+                "Indoor_Day_5": "{{i18n:Relationship.SenS.IndoorDay.7.{{SenPartnershipRoute}}}}",
 
-                "Indoor_Night_SenS": "{{i18n:Relationship.SenS.IndoorNight.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipType}}}}",
+                "Indoor_Night_SenS": "{{i18n:Relationship.SenS.IndoorNight.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipRoute}}}}",
                 "Indoor_Night_0": "{{i18n:Relationship.SenS.IndoorNight.2}}",
                 "Indoor_Night_1": "{{i18n:Relationship.SenS.IndoorNight.3}}",
                 "Indoor_Night_2": "{{i18n:Relationship.SenS.IndoorNight.4}}",
                 "Indoor_Night_3": "{{i18n:Relationship.SenS.IndoorNight.5}}",
-                "Indoor_Night_4": "{{i18n:Relationship.SenS.IndoorNight.6.{{SenPartnershipType}}}}",
-                "Indoor_Night_5": "{{i18n:Relationship.SenS.IndoorNight.7.{{SenPartnershipType}}}}",
+                "Indoor_Night_4": "{{i18n:Relationship.SenS.IndoorNight.6.{{SenPartnershipRoute}}}}",
+                "Indoor_Night_5": "{{i18n:Relationship.SenS.IndoorNight.7.{{SenPartnershipRoute}}}}",
 
                 "Outdoor_SenS": "{{i18n:Relationship.SenS.Outdoor.1}}",
                 "Outdoor_0": "{{i18n:Relationship.SenS.Outdoor.2}}",
                 "Outdoor_1": "{{i18n:Relationship.SenS.Outdoor.3}}{{i18n:Relationship.SenS.Outdoor.3.Bird.{{Random:1++2++3++4|inputSeparator=++}}}}",
                 "Outdoor_2": "{{i18n:Relationship.SenS.Outdoor.4}}",
-                "Outdoor_3": "{{i18n:Relationship.SenS.Outdoor.5.{{SenPartnershipType}}}}",
-                "Outdoor_4": "{{i18n:Relationship.SenS.Outdoor.6.{{SenPartnershipType}}}}",
+                "Outdoor_3": "{{i18n:Relationship.SenS.Outdoor.5.{{SenPartnershipRoute}}}}",
+                "Outdoor_4": "{{i18n:Relationship.SenS.Outdoor.6.{{SenPartnershipRoute}}}}",
 
                 "OneKid_0": "{{i18n:Relationship.SenS.OneKid.1}}",
                 "OneKid_1": "{{i18n:Relationship.SenS.OneKid.2}}",
@@ -125,19 +125,19 @@
                 "TwoKids_1": "{{i18n:Relationship.SenS.TwoKid.2}}",
                 "TwoKids_2": "{{i18n:Relationship.SenS.TwoKid.3}}",
                 "TwoKids_3": "{{i18n:Relationship.SenS.TwoKid.4}}{{i18n:Relationship.SenS.TwoKidAction.{{Random:1++2++3++4|inputSeparator=++}}}}",
-                "TwoKids_4": "{{i18n:Relationship.SenS.TwoKid.5.{{SenPartnershipType}}}}",
+                "TwoKids_4": "{{i18n:Relationship.SenS.TwoKid.5.{{SenPartnershipRoute}}}}",
 
                 //AFFECTION DIALOGUE
-                "Good_0": "{{i18n:Relationship.SenS.Positive.1.{{SenPartnershipType}}}}",
-                "Good_1": "{{i18n:Relationship.SenS.Positive.2.{{SenPartnershipType}}}}",
-                "Good_2": "{{i18n:Relationship.SenS.Positive.3.{{SenPartnershipType}}}}",
-                "Good_3": "{{i18n:Relationship.SenS.Positive.4.{{SenPartnershipType}}}}",
-                "Good_4": "{{i18n:Relationship.SenS.Positive.5.{{SenPartnershipType}}}}",
-                "Good_5": "{{i18n:Relationship.SenS.Positive.6.{{SenPartnershipType}}}}",
-                "Good_6": "{{i18n:Relationship.SenS.Positive.7.{{SenPartnershipType}}}}",
-                "Good_7": "{{i18n:Relationship.SenS.Positive.8.{{SenPartnershipType}}}}",
-                "Good_8": "{{i18n:Relationship.SenS.Positive.9.{{SenPartnershipType}}}}",
-                "Good_9": "{{i18n:Relationship.SenS.Positive.10.{{SenPartnershipType}}}}",
+                "Good_0": "{{i18n:Relationship.SenS.Positive.1.{{SenPartnershipRoute}}}}",
+                "Good_1": "{{i18n:Relationship.SenS.Positive.2.{{SenPartnershipRoute}}}}",
+                "Good_2": "{{i18n:Relationship.SenS.Positive.3.{{SenPartnershipRoute}}}}",
+                "Good_3": "{{i18n:Relationship.SenS.Positive.4.{{SenPartnershipRoute}}}}",
+                "Good_4": "{{i18n:Relationship.SenS.Positive.5.{{SenPartnershipRoute}}}}",
+                "Good_5": "{{i18n:Relationship.SenS.Positive.6.{{SenPartnershipRoute}}}}",
+                "Good_6": "{{i18n:Relationship.SenS.Positive.7.{{SenPartnershipRoute}}}}",
+                "Good_7": "{{i18n:Relationship.SenS.Positive.8.{{SenPartnershipRoute}}}}",
+                "Good_8": "{{i18n:Relationship.SenS.Positive.9.{{SenPartnershipRoute}}}}",
+                "Good_9": "{{i18n:Relationship.SenS.Positive.10.{{SenPartnershipRoute}}}}",
 
                 "Neutral_0": "{{i18n:Relationship.SenS.Neutral.1}}",
                 "Neutral_1": "{{i18n:Relationship.SenS.Neutral.2}}",
@@ -167,7 +167,7 @@
                 "spring_13": "{{i18n:Relationship.SenS.Spring.d13}}", // Egg festival
                 "spring_20": "{{i18n:Relationship.SenS.Spring.d20}}",
                 "spring_23": "{{i18n:Relationship.SenS.Spring.d23}}", // Day Before Flower Dance
-                "spring_24": "{{i18n:Relationship.SenS.Spring.d24.{{SenPartnershipType}}}}", //Flower Dance
+                "spring_24": "{{i18n:Relationship.SenS.Spring.d24.{{SenPartnershipRoute}}}}", //Flower Dance
 
                 "summer_SenS": "{{i18n:Relationship.SenS.Summer}}",
                 "summer_10": "{{i18n:Relationship.SenS.Summer.d10}}", // Day before Luau
@@ -176,16 +176,16 @@
                 "summer_28": "{{i18n:Relationship.SenS.Summer.d28}}", //Moonlight Jelly
 
                 "fall_SenS": "{{i18n:Relationship.SenS.Fall}}",
-                "fall_15": "{{i18n:Relationship.SenS.Fall.d15.{{SenPartnershipType}}}}", //Day before stardew fair
-                "fall_16": "{{i18n:Relationship.SenS.Fall.d16.{{SenPartnershipType}}}}", //Stardew Fair
+                "fall_15": "{{i18n:Relationship.SenS.Fall.d15.{{SenPartnershipRoute}}}}", //Day before stardew fair
+                "fall_16": "{{i18n:Relationship.SenS.Fall.d16.{{SenPartnershipRoute}}}}", //Stardew Fair
                 "fall_26": "{{i18n:Relationship.SenS.Fall.d26}}", //Day before Spirits Eve
                 "fall_27": "{{i18n:Relationship.SenS.Fall.d27}}", //Spirits Eve
 
                 "winter_SenS": "{{i18n:Relationship.SenS.Winter}}",
                 "winter_7": "{{i18n:Relationship.SenS.Winter.d7}}", //day before ice festival
                 "winter_8": "{{i18n:Relationship.SenS.Winter.d8}}", //ice festival
-                "winter_25": "{{i18n:Relationship.SenS.Winter.d25.{{SenPartnershipType}}}}", //Winter Star
-                "winter_28": "{{i18n:Relationship.SenS.Winter.d28.{{SenPartnershipType}}}}" //Day before new year
+                "winter_25": "{{i18n:Relationship.SenS.Winter.d25.{{SenPartnershipRoute}}}}", //Winter Star
+                "winter_28": "{{i18n:Relationship.SenS.Winter.d28.{{SenPartnershipRoute}}}}" //Day before new year
             }
         },
         {
@@ -318,7 +318,7 @@
 				"give_flowersA": "{{i18n:Relationship.SenS.BouquetAccept.1}}",
 				"give_flowersB": "{{i18n:Relationship.SenS.BouquetAccept.2}}",
 				"give_pendant": "{{i18n:Relationship.SenS.EngagementAccept}}",
-				"stardrop_gift": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipType}}}}",
+				"stardrop_gift": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipRoute}}}}",
 				"rejectNPCA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
 				"rejectNPCB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
 				"reject_two_heartA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",

@@ -43,7 +43,7 @@
 "Core.WaffleW.Name": "Waffle",
 "Core.PipoP.Name": "Pipo",
 "Core.CowT.Name": "Cow",
-"Core.JeremyT.Name": "Jeremy",
+"Core.JeremyTS.Name": "Jeremy T. Snail",
 
 "Core.SenS.Friend": "friend",
 "Core.SenS.Name.Skrell": "Skrell",
@@ -2246,7 +2246,7 @@
 */
 //Terms
 "Core.SenS.RelationshipTerm.Partner": "partner",
-"Core.SenS.RelationshipTerm.BestFriend": "best friend",
+"Core.SenS.RelationshipTerm.Friend": "best friend",
 
 // Relationship
 "Relationship.SenS.DanceAccept": "O-oh! You'd like to dance, @?$14#$b#I'm a little nervous, but I think it'd be okay.$14",

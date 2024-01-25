@@ -1,0 +1,11 @@
+{
+    "Name": "Custom Companions for Diamond in the Rough",
+    "Author": "7thAxis",
+    "Description": "Loads Jeremy T. Snail.",
+    "Version": "1.0.0",
+    "UniqueID": "7thAxis.DitR.CC",
+    "ContentPackFor": {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "2.5.0"
+    }
+}   
