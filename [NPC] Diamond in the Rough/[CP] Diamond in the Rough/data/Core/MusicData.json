@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.Music.EveningTheme": {
-                    "ID": "{{ModID}}.Music.EveningTheme",
+                "{{ModID}}.Music.EveTheme": {
+                    "ID": "{{ModID}}.Music.EveTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/The_World_is_Ours.ogg}}" ],
                     "StreamedVorbis": true,

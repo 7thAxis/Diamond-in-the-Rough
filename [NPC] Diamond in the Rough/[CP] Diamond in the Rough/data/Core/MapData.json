@@ -125,7 +125,7 @@
                 "Layer": "Back",
                 "SetProperties": {
                     "MEEP_CloseupInteraction_Image": "Mods/{{ModID}}.Images/DrawerPhoto.1",
-                    "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveningT.EveningTHDrawer}}"
+                    "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
                 }
             }
         ]
@@ -136,22 +136,22 @@
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
-                "EveningTHSink": "{{i18n:Maps.EveningT.EveningTHSink}}",
-                "EveningTHFridge": "{{i18n:Maps.EveningT.EveningTHFridge}}",
-                "EveningTHStove": "{{i18n:Maps.EveningT.EveningTHStove}}",
-                "EveningTMegaBomb": "{{i18n:Maps.EveningT.EveningTMegaBomb}}",
-                "EveningTHDogBowl": "{{i18n:Maps.EveningT.EveningTHDogBowl}}",
-                "EveningTHPainting": "{{i18n:Maps.EveningT.EveningTHPainting}}",
-                "EveningTHDogBed": "{{i18n:Maps.EveningT.EveningTHDogBed}}",
-                "EveningTHPlant": "{{i18n:Maps.EveningT.EveningTHPlant}}",
-                "EveningTHCherryBomb": "{{i18n:Maps.EveningT.EveningTHCherryBomb}}",
-                "EveningTHBed": "{{i18n:Maps.EveningT.EveningTHBed}}",
-                "EveningTHBomb": "{{i18n:Maps.EveningT.EveningTHBomb}}",
-                "EveningTHFlower": "{{i18n:Maps.EveningT.EveningTHFlower}}",
-                "EveningTHTable": "{{i18n:Maps.EveningT.EveningTHTable}}",
-                "EveningTHCactus": "{{i18n:Maps.EveningT.EveningTHCactus}}",
-                "EveningTHGems": "{{i18n:Maps.EveningT.EveningTHGems}}",
-                "EveningTHPipoFood": "{{i18n:Maps.EveningT.EveningTHPipoFood}}"
+                "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
+                "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
+                "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
+                "EveTMegaBomb": "{{i18n:Maps.EveT.EveTMegaBomb}}",
+                "EveTHDogBowl": "{{i18n:Maps.EveT.EveTHDogBowl}}",
+                "EveTHPainting": "{{i18n:Maps.EveT.EveTHPainting}}",
+                "EveTHDogBed": "{{i18n:Maps.EveT.EveTHDogBed}}",
+                "EveTHPlant": "{{i18n:Maps.EveT.EveTHPlant}}",
+                "EveTHCherryBomb": "{{i18n:Maps.EveT.EveTHCherryBomb}}",
+                "EveTHBed": "{{i18n:Maps.EveT.EveTHBed}}",
+                "EveTHBomb": "{{i18n:Maps.EveT.EveTHBomb}}",
+                "EveTHFlower": "{{i18n:Maps.EveT.EveTHFlower}}",
+                "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
+                "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
+                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}",
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}"
             }
         },
         {
