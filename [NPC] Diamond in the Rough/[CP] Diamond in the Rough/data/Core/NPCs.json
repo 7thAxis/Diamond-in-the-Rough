@@ -1,5 +1,20 @@
 {
     "Changes": [
+        //Gift tastes
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "EveT": "{{i18n:Gifts.EveT.Love}}/72 90 103 104 106 126 127 216 275 286 287 288 349 402 441 560 577 595 614 618 773 872 903/{{i18n:Gifts.EveT.Like}}/-80 60 70 96 97 98 99 100 101 108 109 111 112 113 114 115 116 117 118 120 121 122 123 124 125 538 546 548 552 557 586 587 588 589/{{i18n:Gifts.EveT.Dislike}}/-14 -6 -4 105 110 198 203 212 213 214 219 225 226 227 228 242 395 727 728 730 732 733/{{i18n:Gifts.EveT.Hate}}/-20 -5 119 306 307 308 445 447 456 579 580 581 582 583 584 585 729 789 807 812 881 921/{{i18n:Gifts.EveT.Neutral}}/849/",
+                "TraceV": "{{i18n:Gifts.TraceV.Love}}/64 206 212 242 305 308 348 376 410 445 447 577 578 595 611 649 721 730 733 769 795 872/{{i18n:Gifts.TraceV.Like}}/-80 -6 -5 -4 -2 119 139 167 198 209 213 214 227 228 259 272 395 488 618 618 638 709 732 812/{{i18n:Gifts.TraceV.Dislike}}/148 225 226/{{i18n:Gifts.TraceV.Hate}}/103 126 127 129 131 265 346 457 637 729 827 828 921/{{i18n:Gifts.TraceV.Neutral}}/-20 771/",
+                "SenS": "{{i18n:Gifts.SenS.Love}}/72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 789 874/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873/",
+                "WaffleW": "{{i18n:Gifts.WaffleW.Love}}/-14 103 105 119 126 127 169 223 306 307 308 308 579 580 581 582 583 584 585 769 789 807 881/{{i18n:Gifts.WaffleW.Like}}/food_sweet -20 305/{{i18n:Gifts.WaffleW.Dislike}}/-6 -4/{{i18n:Gifts.WaffleW.Hate}}/220 795 768/{{i18n:Gifts.WaffleW.Neutral}}/192/",
+                "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
+            }
+        },
+        //NPC Dispositions
+        //---------------------EVE-------------------------------//
         {
             "LogName": "Eve Dispositions",
             "Action": "EditData",
@@ -7,7 +22,9 @@
             "Entries": {
                 "EveT": {
                     "DisplayName": "{{i18n:Core.EveT.Name}}",
-                    "FormerCharacterNames": [ "EveningT" ],
+                    "FormerCharacterNames": [
+                        "EveningT"
+                    ],
                     "BirthSeason": "spring",
                     "BirthDay": 12,
                     "HomeRegion": "Town",
@@ -19,11 +36,13 @@
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "ShakePortraits": [3],
+                    "ShakePortraits": [
+                        3
+                    ],
                     "ExcludeFromIntroductionsQuest": false,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 16,  
+                    "DumpsterDiveEmote": 16,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -62,6 +81,7 @@
                 }
             }
         },
+        //---------------------TRACE-------------------------------//
         {
             "LogName": "Trace Dispositions",
             "Action": "EditData",
@@ -84,7 +104,7 @@
                     "ExcludeFromIntroductionsQuest": false,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 5,
-                    "DumpsterDiveEmote": 20,  
+                    "DumpsterDiveEmote": 20,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -100,16 +120,17 @@
                             "Direction": "left"
                         }
                     ],
-                    "Appearance": [ ]
+                    "Appearance": []
                 }
             }
         },
+        //---------------------SEN-------------------------------//
         {
             "LogName": "Sen Dispositions",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "SenS": {   
+                "SenS": {
                     "DisplayName": "{{i18n:Core.SenS.Name}}",
                     "BirthSeason": "winter",
                     "BirthDay": 13,
@@ -122,14 +143,17 @@
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "ShakePortraits": [9, 10],
+                    "ShakePortraits": [
+                        9,
+                        10
+                    ],
                     "SpouseRoom": {
                         "MapAsset": "7thAxis_SenS_SpouseRoom"
                     },
                     "ExcludeFromIntroductionsQuest": true,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 16,  
+                    "DumpsterDiveEmote": 16,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -151,52 +175,52 @@
                         {
                             "ID": "Egg Festival",
                             "Condition": "Event_ID festival_spring13",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenEggFestival.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_EggFestival.png}}"
                         },
                         {
                             "ID": "Flower Dance",
                             "Condition": "Event_ID festival_spring24",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenFlowerDance.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_FlowerDance.png}}"
                         },
                         {
                             "ID": "Luau",
                             "Condition": "Event_ID festival_summer11",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenLuau.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Luau.png}}"
                         },
                         {
                             "ID": "Moonlight Jelly",
                             "Condition": "Event_ID festival_summer28",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenMoonlightJelly.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_MoonlightJelly.png}}"
                         },
                         {
                             "ID": "SDV Fair",
                             "Condition": "Event_ID festival_fall16",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenStardewFair.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_StardewFair.png}}"
                         },
                         {
                             "ID": "Spirits Eve",
                             "Condition": "Event_ID festival_fall27",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenSpiritsEve.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_SpiritsEve.png}}"
                         },
                         {
                             "ID": "Holiday",
                             "Condition": "Any \"EVENT_ID festival_winter8\" \"EVENT_ID festival_winter25\"",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenHoliday.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Holiday.png}}"
                         },
                         {
                             "ID": "Love Festival",
                             "Condition": "EVENT_ID festival_winter13",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenLoveFestival.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_LoveFestival.png}}"
                         },
                         {
                             "ID": "Surfing Festival",
                             "Condition": "EVENT_ID festival_summer5",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenSurfingFestival.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_SurfingFestival.png}}"
                         },
                         {
                             "ID": "Fashion Festival",
                             "Condition": "EVENT_ID festival_spring19",
-                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/SenFashionFestival.png}}"
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_FashionFestival.png}}"
                         },
                         {
                             "ID": "Other Festivals",
@@ -211,7 +235,9 @@
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [ "SenS" ],
+            "TargetField": [
+                "SenS"
+            ],
             "Entries": {
                 "Home": [
                     {
@@ -224,12 +250,16 @@
                     }
                 ]
             },
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false }
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false
+            }
         },
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [ "SenS" ],
+            "TargetField": [
+                "SenS"
+            ],
             "Entries": {
                 "Home": [
                     {
@@ -242,12 +272,16 @@
                     }
                 ]
             },
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true
+            }
         },
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [ "SenS" ],
+            "TargetField": [
+                "SenS"
+            ],
             "Entries": {
                 "CanBeRomanced": true
             },
@@ -257,12 +291,15 @@
                 "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": true
             }
         },
-       {
+        {
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
                 "808": {
-                    "ContextTags": [ "propose_roommate_krobus", "propose_roommate_sens" ]
+                    "ContextTags": [
+                        "propose_roommate_krobus",
+                        "propose_roommate_sens"
+                    ]
                 }
             },
             "When": {
@@ -271,6 +308,7 @@
                 "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": false
             }
         },
+        //---------------------WAFFLE-------------------------------//
         {
             "LogName": "Waffle Dispositions",
             "Action": "EditData",
@@ -294,7 +332,7 @@
                     "ExcludeFromPerfectionScore": false,
                     "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": 5,
-                    "DumpsterDiveEmote": 56,            
+                    "DumpsterDiveEmote": 56,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -319,6 +357,7 @@
                 }
             }
         },
+        //---------------------PIPO-------------------------------//
         {
             "LogName": "Pipo Dispositions",
             "Action": "EditData",
@@ -342,7 +381,7 @@
                     "ExcludeFromPerfectionScore": false,
                     "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 40,     
+                    "DumpsterDiveEmote": 40,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -367,49 +406,36 @@
                 }
             }
         },
-        //JEREMY!
+        //---------------------JEREMY-------------------------------//
         {
             "LogName": "Jeremy Spawn",
             "Action": "EditMap",
             "Target": "Maps/Custom_EastScarpe",
             "Update": "OnLocationChange",
             "MapTiles": [
-              {
-                "Position": {
-                  "X": "74",
-                  "Y": "99"
-                },
-                "Layer": "Back",
-                "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
-              }
+                {
+                    "Position": {
+                        "X": "74",
+                        "Y": "99"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail"
+                    }
+                }
             ]
-          },
-          {
-            "LogName": "Jeremy Name",
+        },
+        {
+            "LogName": "Jeremy Display Name",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
             "TargetField": "Companion",
             "Entries": {
                 "Companion": {
-                    "InspectionDialogue": "Hello. I am Jeremy T. Snail. I know things about this world best left untold.#$b#Please, don't ask questions. I don't want to break you.",
-                    "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" }
+                    "Portrait": {
+                        "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}"
+                    }
                 }
-            }
-        },
-        {
-            "LogName": "Gift Taste",
-            "Action": "EditData",
-            "Target": "Data/NPCGiftTastes",
-            "Entries": {
-                "EveT": "{{i18n:Gifts.EveT.Love}}/72 90 103 104 106 126 127 216 275 286 287 288 349 402 441 560 577 595 614 618 773 872 903/{{i18n:Gifts.EveT.Like}}/-80 60 70 96 97 98 99 100 101 108 109 111 112 113 114 115 116 117 118 120 121 122 123 124 125 538 546 548 552 557 586 587 588 589/{{i18n:Gifts.EveT.Dislike}}/-14 -6 -4 105 110 198 203 212 213 214 219 225 226 227 228 242 395 727 728 730 732 733/{{i18n:Gifts.EveT.Hate}}/-20 -5 119 306 307 308 445 447 456 579 580 581 582 583 584 585 729 789 807 812 881 921/{{i18n:Gifts.EveT.Neutral}}/849/",
-
-                "TraceV": "{{i18n:Gifts.TraceV.Love}}/64 206 212 242 305 308 348 376 410 445 447 577 578 595 611 649 721 730 733 769 795 872/{{i18n:Gifts.TraceV.Like}}/-80 -6 -5 -4 -2 119 139 167 198 209 213 214 227 228 259 272 395 488 618 618 638 709 732 812/{{i18n:Gifts.TraceV.Dislike}}/148 225 226/{{i18n:Gifts.TraceV.Hate}}/103 126 127 129 131 265 346 457 637 729 827 828 921/{{i18n:Gifts.TraceV.Neutral}}/-20 771/",
-
-                "SenS": "{{i18n:Gifts.SenS.Love}}/72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 789 874/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873/",
-
-                "WaffleW": "{{i18n:Gifts.WaffleW.Love}}/-14 103 105 119 126 127 169 223 306 307 308 308 579 580 581 582 583 584 585 769 789 807 881/{{i18n:Gifts.WaffleW.Like}}/food_sweet -20 305/{{i18n:Gifts.WaffleW.Dislike}}/-6 -4/{{i18n:Gifts.WaffleW.Hate}}/220 795 768/{{i18n:Gifts.WaffleW.Neutral}}/192/",
-                
-                "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
             }
         }
     ]

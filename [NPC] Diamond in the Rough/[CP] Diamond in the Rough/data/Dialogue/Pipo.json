@@ -86,25 +86,25 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "spring_1": "{{i18n:Core.PipoP.Spring.d1}}",
-            "spring_12": "{{i18n:Core.PipoP.Spring.d12}}",
-            "spring_23": "{{i18n:Core.PipoP.Spring.d23}}",
-            "spring_28": "{{i18n:Core.PipoP.Spring.d28}}",
+            "spring_1": "{{i18n:Core.PipoP.Spring.Day.1}}",
+            "spring_12": "{{i18n:Core.PipoP.Spring.Day.12}}",
+            "spring_23": "{{i18n:Core.PipoP.Spring.Day.23}}",
+            "spring_28": "{{i18n:Core.PipoP.Spring.Day.28}}",
 
-            "summer_1": "{{i18n:Core.PipoP.Summer.d1}}",
-            "summer_10": "{{i18n:Core.PipoP.Summer.d10}}",
-            "summer_27": "{{i18n:Core.PipoP.Summer.d27}}",
-            "summer_28": "{{i18n:Core.PipoP.Summer.d28}}",
+            "summer_1": "{{i18n:Core.PipoP.Summer.Day.1}}",
+            "summer_10": "{{i18n:Core.PipoP.Summer.Day.10}}",
+            "summer_27": "{{i18n:Core.PipoP.Summer.Day.27}}",
+            "summer_28": "{{i18n:Core.PipoP.Summer.Day.28}}",
 
-            "fall_1": "{{i18n:Core.PipoP.Fall.d1}}",
-            "fall_15": "{{i18n:Core.PipoP.Fall.d15}}",
-            "fall_26": "{{i18n:Core.PipoP.Fall.d26}}",
-            "fall_28": "{{i18n:Core.PipoP.Fall.d28}}",
+            "fall_1": "{{i18n:Core.PipoP.Fall.Day.1}}",
+            "fall_15": "{{i18n:Core.PipoP.Fall.Day.15}}",
+            "fall_26": "{{i18n:Core.PipoP.Fall.Day.26}}",
+            "fall_28": "{{i18n:Core.PipoP.Fall.Day.28}}",
 
-            "winter_1": "{{i18n:Core.PipoP.Winter.d1}}",
-            "winter_7": "{{i18n:Core.PipoP.Winter.d7}}",
-            "winter_24": "{{i18n:Core.PipoP.Winter.d24}}",
-            "winter_28": "{{i18n:Core.PipoP.Winter.d28}}"
+            "winter_1": "{{i18n:Core.PipoP.Winter.Day.1}}",
+            "winter_7": "{{i18n:Core.PipoP.Winter.Day.7}}",
+            "winter_24": "{{i18n:Core.PipoP.Winter.Day.24}}",
+            "winter_28": "{{i18n:Core.PipoP.Winter.Day.28}}"
         }
     },
     {
@@ -112,8 +112,8 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "fall_19": "{{i18n:Core.PipoP.Fall.d19}}",
-            "winter_27": "{{i18n:Core.PipoP.Winter.d27}}"
+            "fall_19": "{{i18n:Core.PipoP.Fall.Day.19}}",
+            "winter_27": "{{i18n:Core.PipoP.Winter.Day.27}}"
         },
         "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
     },
@@ -122,7 +122,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "summer_4": "{{i18n:Core.PipoP.Summer.d4}}"
+            "summer_4": "{{i18n:Core.PipoP.Summer.Day.4}}"
         },
         "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
     },
@@ -131,7 +131,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "spring_18": "{{i18n:Core.PipoP.Spring.d18}}"
+            "spring_18": "{{i18n:Core.PipoP.Spring.Day.18}}"
         },
         "When": {
             "HasMod: |contains=UNA.FF.CP": true,
@@ -144,7 +144,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "winter_12": "{{i18n:Core.PipoP.Winter.d12}}"
+            "winter_12": "{{i18n:Core.PipoP.Winter.Day.12}}"
         },
         "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
     },
@@ -153,7 +153,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "fall_2": "{{i18n:Core.PipoP.Fall.d2}}"
+            "fall_2": "{{i18n:Core.PipoP.Fall.Day.2}}"
         },
         "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
     },
@@ -162,7 +162,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/PipoP",
         "Entries": 	{ 
-            "summer_19": "{{i18n:Core.PipoP.Summer.d19}}"
+            "summer_19": "{{i18n:Core.PipoP.Summer.Day.19}}"
         },
         "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }

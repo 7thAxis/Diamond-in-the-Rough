@@ -84,7 +84,7 @@
     {
         "Action": "Load",
         "Target": "Characters/SenS_Kid, Portraits/SenS_Kid",
-        "FromFile": "assets/{{TargetPathOnly}}/Sen/SenFlashback.png"
+        "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Flashback.png"
     },
     {
         "LogName": "Sen Animations",
@@ -108,7 +108,7 @@
             "IsOutdoors": "true",
             "Weather": "Sun, Wind, Snow",
             "Time": "{{Range: 1700, 1930}}",
-             "Query: '{{Season}}'  = 'winter' AND ({{Day}} = 15 OR {{Day}} = 16 OR {{Day}} = 17)": false
+            "Query: '{{Season}}' = 'winter' AND {{Day}} IN (15, 16, 17)": false
         }
     },
     {

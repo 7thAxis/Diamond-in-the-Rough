@@ -32,6 +32,8 @@
 //Locations
 "Core.Locations.EveHouse": "Eve's House",
 
+"Core.System.SomethingWentWrong": "Hmm. It seems something has gone wrong... Please tell my creator 7thAxis for me. I am having a existential crisis.$s",
+
 //Names
 "Core.EveT.Name": "Eve",
 "Core.SenS.Name": "Sen",
@@ -122,32 +124,32 @@
 "Core.EveT.Season.winter.4": "Uhg, shoveling snow out of my doorway is such a pain.$a#$b#I gotta imagine it's way worse for you, though.$6",
 "Core.EveT.Season.winter.5": "I hope you got a good pair of snow boots on ya, the snow has got to be a foot deep!$s",
 
-"Core.EveT.Spring.d1": "Goodbye snow, hello flower blossoms and honey bees!$h#$b#Spring is hands down the best season of the year.$7",
-"Core.EveT.Spring.d12": "Ready for the Egg Festival tomorrow, @?#$b#I fully anticipate Abigail is gonna win the egg hunt AGAIN.$6#$e#Like dang girl, give the kids a chance.$8", // Day before the Egg Festival
-"Core.EveT.Spring.d18": "You planning on attending the Fashion Festival tomorrow, @?#$b#I'm hoping I'll find a new pretty pink gown to add to my wardrobe.$7", // Day before Fashion Festival
-"Core.EveT.Spring.d23": "Tomorrow's the Flower Dance!$h#$b#It's by far my favorite event of the year, but you'll never catch me dancing.#$b#No way, no how. I'd totally embarrass myself.$h", // Day before the Flower Dance
-"Core.EveT.Spring.d28": "Seems like spring is almost up, huh?#$b#I can already feel the heat hazing in.$s#$e#Not looking forward to it. I can't staaaand the summer.$s",
+"Core.EveT.Spring.Day.1": "Goodbye snow, hello flower blossoms and honey bees!$h#$b#Spring is hands down the best season of the year.$7",
+"Core.EveT.Spring.Day.12": "Ready for the Egg Festival tomorrow, @?#$b#I fully anticipate Abigail is gonna win the egg hunt AGAIN.$6#$e#Like dang girl, give the kids a chance.$8", // Day before the Egg Festival
+"Core.EveT.Spring.Day.18": "You planning on attending the Fashion Festival tomorrow, @?#$b#I'm hoping I'll find a new pretty pink gown to add to my wardrobe.$7", // Day before Fashion Festival
+"Core.EveT.Spring.Day.23": "Tomorrow's the Flower Dance!$h#$b#It's by far my favorite event of the year, but you'll never catch me dancing.#$b#No way, no how. I'd totally embarrass myself.$h", // Day before the Flower Dance
+"Core.EveT.Spring.Day.28": "Seems like spring is almost up, huh?#$b#I can already feel the heat hazing in.$s#$e#Not looking forward to it. I can't staaaand the summer.$s",
 
-"Core.EveT.Summer.d1": "Uhg, summer's here.$a#$b#Now I love me the comfy glow of a campfire, but I can't stand the humidity one bit.$s",
-"Core.EveT.Summer.d4": "Planning on hitting up the Surfing Festival tomorrow, @?#$b#I've never surfed before, but I'm down to give it a try.$h", // Day before Surfing Festival
-"Core.EveT.Summer.d10": "Have you picked out something to put in the soup tomorrow?#$b#I'm planning on tossing in a cherry bomb.$9#$e#May Yoba help the soul that gets that ladle full.", // Day before the Luau
-"Core.EveT.Summer.d19": "Heh heh heh.$9#$b#The Fireworks Festival is my favorite festival of the year, even more than the Flower Dance.$h#$e#Why?#$b#'Cause of the explosives, of course.$9", // Day before Fireworks Festival
-"Core.EveT.Summer.d27": "Gonna go see the Moonlight Jellies tomorrow night, @?#$b#It's always such a pretty event. Haven't missed it once since coming back to the Valley.$h", // Day before Moonlight Jellies
-"Core.EveT.Summer.d28": "Thank goodness summer is almost out of here.$7#$b#Dang season has overstayed its welcome, thank you very much.$a", 
+"Core.EveT.Summer.Day.1": "Uhg, summer's here.$a#$b#Now I love me the comfy glow of a campfire, but I can't stand the humidity one bit.$s",
+"Core.EveT.Summer.Day.4": "Planning on hitting up the Surfing Festival tomorrow, @?#$b#I've never surfed before, but I'm down to give it a try.$h", // Day before Surfing Festival
+"Core.EveT.Summer.Day.10": "Have you picked out something to put in the soup tomorrow?#$b#I'm planning on tossing in a cherry bomb.$9#$e#May Yoba help the soul that gets that ladle full.", // Day before the Luau
+"Core.EveT.Summer.Day.19": "Heh heh heh.$9#$b#The Fireworks Festival is my favorite festival of the year, even more than the Flower Dance.$h#$e#Why?#$b#'Cause of the explosives, of course.$9", // Day before Fireworks Festival
+"Core.EveT.Summer.Day.27": "Gonna go see the Moonlight Jellies tomorrow night, @?#$b#It's always such a pretty event. Haven't missed it once since coming back to the Valley.$h", // Day before Moonlight Jellies
+"Core.EveT.Summer.Day.28": "Thank goodness summer is almost out of here.$7#$b#Dang season has overstayed its welcome, thank you very much.$a", 
 
-"Core.EveT.Fall.d1": "Fall oh fall, my second most favorite season of the year.$h#$b#A great time to kick back with a nice pumpkin spice latte and watch the leaves drift by.$7", 
-"Core.EveT.Fall.d2": "You gonna hit up Marketpalooza tomorrow, @?#$b#I'm looking forwards to some sweet deals.$8#$e#Maybe I'll find a baker's dozen of cherry bombs for cheap!$8", // Day before Marketpalooza
-"Core.EveT.Fall.d15": "I'm looking forward to the fair tomorrow! I love the balloon popping game and am quite good at it if I do say so myself.", // Day before the Stardew Fair
-"Core.EveT.Fall.d19": "You going to the Ridgeside Gathering tomorrow?#$b#That event is always so chaotic.$6#$e#I'm not interested in the gender wars, but they do sell cool stuff some years.$h",  // Day before Gathering
-"Core.EveT.Fall.d26": "Boo!$8#$b#Did I scare you, @?$h#$b#Yeah nah, didn't think so.#$e#Keep your eye out though, I might get ya during Spirits Eve.$h", // Day before Spirit's Eve
-"Core.EveT.Fall.d28": "Aw man, fall is just about on the way out and winter is around the bend.$s#$b#Winter sucks - plowing snow, getting your feed stuck, the bitter cold and all that.$s",
+"Core.EveT.Fall.Day.1": "Fall oh fall, my second most favorite season of the year.$h#$b#A great time to kick back with a nice pumpkin spice latte and watch the leaves drift by.$7", 
+"Core.EveT.Fall.Day.2": "You gonna hit up Marketpalooza tomorrow, @?#$b#I'm looking forwards to some sweet deals.$8#$e#Maybe I'll find a baker's dozen of cherry bombs for cheap!$8", // Day before Marketpalooza
+"Core.EveT.Fall.Day.15": "I'm looking forward to the fair tomorrow! I love the balloon popping game and am quite good at it if I do say so myself.", // Day before the Stardew Fair
+"Core.EveT.Fall.Day.19": "You going to the Ridgeside Gathering tomorrow?#$b#That event is always so chaotic.$6#$e#I'm not interested in the gender wars, but they do sell cool stuff some years.$h",  // Day before Gathering
+"Core.EveT.Fall.Day.26": "Boo!$8#$b#Did I scare you, @?$h#$b#Yeah nah, didn't think so.#$e#Keep your eye out though, I might get ya during Spirits Eve.$h", // Day before Spirit's Eve
+"Core.EveT.Fall.Day.28": "Aw man, fall is just about on the way out and winter is around the bend.$s#$b#Winter sucks - plowing snow, getting your feed stuck, the bitter cold and all that.$s",
 
-"Core.EveT.Winter.d1": "Welp, winter's here.$a#$b#Ain't that just dandy.$a", 
-"Core.EveT.Winter.d7": "Tomorrow's the Ice Festival... If I wasn't so invested in the town, I'd sit this one out.$s#$b#I can't stand the smell of fish.$s", // Day before the Ice Festival
-"Core.EveT.Winter.d12": "Hehehe, tomorrow's the Love Festival.$h#$b#Do you think you'll get a letter from anybody, @?$7#$b#I'm used to not getting anything.$s", // Day before Love Festival
-"Core.EveT.Winter.d24": "Who'd you get for your secret friend for Winter Star, @?#$b#Wait... You're probably not supposed to tell me that, never mind.$6", // Day before Winter Star
-"Core.EveT.Winter.d27": "Oh my gosh I am SO excited for the Ember of Resolutions tomorrow.$h#$b#The giant bonfire... I wish I could just grab a stick and light fire to the whole village!$h#$b#...What do you mean that's illegal and arson?$s", // Day before Ember
-"Core.EveT.Winter.d28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h",
+"Core.EveT.Winter.Day.1": "Welp, winter's here.$a#$b#Ain't that just dandy.$a", 
+"Core.EveT.Winter.Day.7": "Tomorrow's the Ice Festival... If I wasn't so invested in the town, I'd sit this one out.$s#$b#I can't stand the smell of fish.$s", // Day before the Ice Festival
+"Core.EveT.Winter.Day.12": "Hehehe, tomorrow's the Love Festival.$h#$b#Do you think you'll get a letter from anybody, @?$7#$b#I'm used to not getting anything.$s", // Day before Love Festival
+"Core.EveT.Winter.Day.24": "Who'd you get for your secret friend for Winter Star, @?#$b#Wait... You're probably not supposed to tell me that, never mind.$6", // Day before Winter Star
+"Core.EveT.Winter.Day.27": "Oh my gosh I am SO excited for the Ember of Resolutions tomorrow.$h#$b#The giant bonfire... I wish I could just grab a stick and light fire to the whole village!$h#$b#...What do you mean that's illegal and arson?$s", // Day before Ember
+"Core.EveT.Winter.Day.28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h",
 
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
@@ -229,32 +231,32 @@
 "Core.WaffleW.Action.19": "%Waffle is devising a plan of action against the squirrel menace.",
 "Core.WaffleW.Action.20": "%Waffle is wagging her tail so hard it's making a whipping sound.",
 
-"Core.WaffleW.Spring.d1": "%Waffle is enjoying the spring air.",
-"Core.WaffleW.Spring.d12": "%Waffle is thinking about eggs.", // Day before the Egg Festival
-"Core.WaffleW.Spring.d18": "%Waffle wishes to lay on a bed of stolen clothes.", // Day before Fashion Festival
-"Core.WaffleW.Spring.d23": "%Waffle is plotting the downfall of someone’s flower garden.", // Day before the Flower Dance
-"Core.WaffleW.Spring.d28": "%Waffle notices a hot change in the air temperature.",
+"Core.WaffleW.Spring.Day.1": "%Waffle is enjoying the spring air.",
+"Core.WaffleW.Spring.Day.12": "%Waffle is thinking about eggs.", // Day before the Egg Festival
+"Core.WaffleW.Spring.Day.18": "%Waffle wishes to lay on a bed of stolen clothes.", // Day before Fashion Festival
+"Core.WaffleW.Spring.Day.23": "%Waffle is plotting the downfall of someone’s flower garden.", // Day before the Flower Dance
+"Core.WaffleW.Spring.Day.28": "%Waffle notices a hot change in the air temperature.",
 
-"Core.WaffleW.Summer.d1": "%Waffle pants from the summer heat.",
-"Core.WaffleW.Summer.d4": "%Waffle wants to hang sixteen on a surfboard.", // Day before Surfing Festival
-"Core.WaffleW.Summer.d10": "%Waffle is drooling over the thought of the soup.", // Day before the Luau
-"Core.WaffleW.Summer.d19": "%Waffle is mortified about tomorrow.", // Day before Fireworks Festival
-"Core.WaffleW.Summer.d27": "%Waffle wants to float with the jellyfish. Someone should keep an eye on her.", // Day before Moonlight Jellies
-"Core.WaffleW.Summer.d28": "%Waffle notices the air is becoming cooler. She seems relieved.", 
+"Core.WaffleW.Summer.Day.1": "%Waffle pants from the summer heat.",
+"Core.WaffleW.Summer.Day.4": "%Waffle wants to hang sixteen on a surfboard.", // Day before Surfing Festival
+"Core.WaffleW.Summer.Day.10": "%Waffle is drooling over the thought of the soup.", // Day before the Luau
+"Core.WaffleW.Summer.Day.19": "%Waffle is mortified about tomorrow.", // Day before Fireworks Festival
+"Core.WaffleW.Summer.Day.27": "%Waffle wants to float with the jellyfish. Someone should keep an eye on her.", // Day before Moonlight Jellies
+"Core.WaffleW.Summer.Day.28": "%Waffle notices the air is becoming cooler. She seems relieved.", 
 
-"Core.WaffleW.Fall.d1": "%Waffle relaxes in the crisp fall air.", 
-"Core.WaffleW.Fall.d2": "%Waffle considers shoplifting chew toys.", // Day before Marketpalooza
-"Core.WaffleW.Fall.d15": "%Waffle chews on the thought of biting a pumpkin..", // Day before the Stardew Fair
-"Core.WaffleW.Fall.d19": "%Waffle is thinking about getting lots of pets.",  // Day before Gathering
-"Core.WaffleW.Fall.d26": "%Waffle is sulking at the thought of candy.", // Day before Spirit's Eve
-"Core.WaffleW.Fall.d28": "%Waffle is excited about leaping into snow piles.",
+"Core.WaffleW.Fall.Day.1": "%Waffle relaxes in the crisp fall air.", 
+"Core.WaffleW.Fall.Day.2": "%Waffle considers shoplifting chew toys.", // Day before Marketpalooza
+"Core.WaffleW.Fall.Day.15": "%Waffle chews on the thought of biting a pumpkin..", // Day before the Stardew Fair
+"Core.WaffleW.Fall.Day.19": "%Waffle is thinking about getting lots of pets.",  // Day before Gathering
+"Core.WaffleW.Fall.Day.26": "%Waffle is sulking at the thought of candy.", // Day before Spirit's Eve
+"Core.WaffleW.Fall.Day.28": "%Waffle is excited about leaping into snow piles.",
 
-"Core.WaffleW.Winter.d1": "%Waffle shivers from the cold air. She then shudders at the thought of wearing a doggy sweater.", 
-"Core.WaffleW.Winter.d7": "%Waffle thinks about making a figure eight while wearing doggy ice skates.", // Day before the Ice Festival
-"Core.WaffleW.Winter.d12": "%Waffle is daydreaming about puppy love.", // Day before Love Festival
-"Core.WaffleW.Winter.d24": "%Waffle wonders if she'll get coal for Winter Star.", // Day before Winter Star
-"Core.WaffleW.Winter.d27": "%Waffle wishes someone will give her a stick to chew.", // Day before Ember
-"Core.WaffleW.Winter.d28": "%Waffle dashes back and forth with zoomies thinking about Spring.",
+"Core.WaffleW.Winter.Day.1": "%Waffle shivers from the cold air. She then shudders at the thought of wearing a doggy sweater.", 
+"Core.WaffleW.Winter.Day.7": "%Waffle thinks about making a figure eight while wearing doggy ice skates.", // Day before the Ice Festival
+"Core.WaffleW.Winter.Day.12": "%Waffle is daydreaming about puppy love.", // Day before Love Festival
+"Core.WaffleW.Winter.Day.24": "%Waffle wonders if she'll get coal for Winter Star.", // Day before Winter Star
+"Core.WaffleW.Winter.Day.27": "%Waffle wishes someone will give her a stick to chew.", // Day before Ember
+"Core.WaffleW.Winter.Day.28": "%Waffle dashes back and forth with zoomies thinking about Spring.",
 
 //CFD
 "Core.WaffleW.Slingshot.1": "Arff..! Arf!$s",
@@ -305,32 +307,32 @@
 "Core.PipoP.Action.19": "%Pipo debates on leaving mice at the doorstep of everyone in Pelican Town.",
 "Core.PipoP.Action.20": "%Pipo devises ways of banishing water from the universe.",
 
-"Core.PipoP.Spring.d1": "%Pipo thinks about hunting birds. Eloise pops into their mind mid-thought, scolding Pipo.",
-"Core.PipoP.Spring.d12": "%Pipo muses about eating scrambled eggs.", // Day before the Egg Festival
-"Core.PipoP.Spring.d18": "%Pipo has intrusive thoughts about shredding fabric.", // Day before Fashion Festival
-"Core.PipoP.Spring.d23": "%Pipo deliberates on the pros and cons of eating a flower.", // Day before the Flower Dance
-"Core.PipoP.Spring.d28": "%You pet Pipo… Only to become one with the fuzz...",
+"Core.PipoP.Spring.Day.1": "%Pipo thinks about hunting birds. Eloise pops into their mind mid-thought, scolding Pipo.",
+"Core.PipoP.Spring.Day.12": "%Pipo muses about eating scrambled eggs.", // Day before the Egg Festival
+"Core.PipoP.Spring.Day.18": "%Pipo has intrusive thoughts about shredding fabric.", // Day before Fashion Festival
+"Core.PipoP.Spring.Day.23": "%Pipo deliberates on the pros and cons of eating a flower.", // Day before the Flower Dance
+"Core.PipoP.Spring.Day.28": "%You pet Pipo… Only to become one with the fuzz...",
 
-"Core.PipoP.Summer.d1": "%Pipo stares up at the sky. What are they thinking about?",
-"Core.PipoP.Summer.d4": "%Pipo thinks about rolling around in beach sand.", // Day before Surfing Festival
-"Core.PipoP.Summer.d10": "%Pipo wishes to add cat hair and mouse-arella to the soup tomorrow.", // Day before the Luau
-"Core.PipoP.Summer.d19": "%Pipo's derpy gaze extends a thousand yards behind you in dread of tomorrow.", // Day before Fireworks Festival
-"Core.PipoP.Summer.d27": "%Pipo contemplates the existence of jellyfish.", // Day before Moonlight Jellies
-"Core.PipoP.Summer.d28": "%Pipo hacks up a fur ball at your feet. Charming.", 
+"Core.PipoP.Summer.Day.1": "%Pipo stares up at the sky. What are they thinking about?",
+"Core.PipoP.Summer.Day.4": "%Pipo thinks about rolling around in beach sand.", // Day before Surfing Festival
+"Core.PipoP.Summer.Day.10": "%Pipo wishes to add cat hair and mouse-arella to the soup tomorrow.", // Day before the Luau
+"Core.PipoP.Summer.Day.19": "%Pipo's derpy gaze extends a thousand yards behind you in dread of tomorrow.", // Day before Fireworks Festival
+"Core.PipoP.Summer.Day.27": "%Pipo contemplates the existence of jellyfish.", // Day before Moonlight Jellies
+"Core.PipoP.Summer.Day.28": "%Pipo hacks up a fur ball at your feet. Charming.", 
 
-"Core.PipoP.Fall.d1": "%Pipo grooms themself. They can't quite seem to reach the back of their neck.", 
-"Core.PipoP.Fall.d2": "%Pipo thinks about committing tax fraud.", // Day before Marketpalooza
-"Core.PipoP.Fall.d15": "%Pipo hatches a plot to steal fish from the fishing game at tomorrow's Fair.", // Day before the Stardew Fair
-"Core.PipoP.Fall.d19": "%Pipo is lost in thought, thinking about all the chin scritches they will receive tomorrow from the crowd.",  // Day before Gathering
-"Core.PipoP.Fall.d26": "%Pipo thinks about cat costumes. A fate worse than death itself.", // Day before Spirit's Eve
-"Core.PipoP.Fall.d28": "%Pipo's new coat has grown in. Winter is coming.",
+"Core.PipoP.Fall.Day.1": "%Pipo grooms themself. They can't quite seem to reach the back of their neck.", 
+"Core.PipoP.Fall.Day.2": "%Pipo thinks about committing tax fraud.", // Day before Marketpalooza
+"Core.PipoP.Fall.Day.15": "%Pipo hatches a plot to steal fish from the fishing game at tomorrow's Fair.", // Day before the Stardew Fair
+"Core.PipoP.Fall.Day.19": "%Pipo is lost in thought, thinking about all the chin scritches they will receive tomorrow from the crowd.",  // Day before Gathering
+"Core.PipoP.Fall.Day.26": "%Pipo thinks about cat costumes. A fate worse than death itself.", // Day before Spirit's Eve
+"Core.PipoP.Fall.Day.28": "%Pipo's new coat has grown in. Winter is coming.",
 
-"Core.PipoP.Winter.d1": "%Pipo has snow stuck between their toes.", 
-"Core.PipoP.Winter.d7": "%Pipo is scheming to steal fish from the Ice Festival tomorrow.", // Day before the Ice Festival
-"Core.PipoP.Winter.d12": "%Pipo wonders if they'll ever find a purrtner in crime.", // Day before Love Festival
-"Core.PipoP.Winter.d24": "%Pipo has a piece of coal in their mouth. Who's it for?", // Day before Winter Star
-"Core.PipoP.Winter.d27": "Pipo contemplates their new years resolution. Do cats even have those?", // Day before Ember
-"Core.PipoP.Winter.d28": "%Pipo chirps in excitement that winter is almost over.",
+"Core.PipoP.Winter.Day.1": "%Pipo has snow stuck between their toes.", 
+"Core.PipoP.Winter.Day.7": "%Pipo is scheming to steal fish from the Ice Festival tomorrow.", // Day before the Ice Festival
+"Core.PipoP.Winter.Day.12": "%Pipo wonders if they'll ever find a purrtner in crime.", // Day before Love Festival
+"Core.PipoP.Winter.Day.24": "%Pipo has a piece of coal in their mouth. Who's it for?", // Day before Winter Star
+"Core.PipoP.Winter.Day.27": "Pipo contemplates their new years resolution. Do cats even have those?", // Day before Ember
+"Core.PipoP.Winter.Day.28": "%Pipo chirps in excitement that winter is almost over.",
 
 //CFD
 "Core.PipoP.Slingshot.1": "Pipoooopopip!",
@@ -561,42 +563,42 @@
 "Core.SenS.Season.winter.10": "I'm getting a little hungry... It's really hard to find bugs in the winter.$s#$b#I'll probably have to go into the mines later to stock up.#$e#Or I could sneak into that fisherman's shop and get grab some bait, I guess.$6",
 
 //SPECIFIC DAYS - SPRING
-"Core.SenS.Spring.d1": "Ahh.. the spring. There's nothing quite like it down in the mines.$h#$b#The fresh air, the lush grass you can sink into...$l#$b#Oh, and the plethora of bugs! Yum!$l#$b#Wanna try some?$h#$e#[721] Huh, what's that look for?$6",
-"Core.SenS.Spring.d12": "I really need to finish patching up my egg costume for tomorrow.#$b#A couple of the spots are falling off.$8#$e#I guess that's what I get for using random trash as my materials.$8",
-"Core.SenS.Spring.d18": "The store near the river really gave me the creeps.$6#$b#When I poked my head in the door, it looked so sterile and ominous.$s#$e#How could anyone be comfortable in a place like that?$s",
-"Core.SenS.Spring.d20": "I really need to find some new sewing needles.#$b#The Flower Dance is only a couple days away and my costume is in dire need of repair!$u#$e#Thankfully, the blue-haired lady seems to throw quite a few away.$h",
-"Core.SenS.Spring.d23": "Ohhh the Flower Dance sounds so exciting! I really want to try dancing.$h#$b#I made an outfit for it and everything.$l#$e#Unfortunately, I'm too scared to go out in front of anyone.$8#$b#My face will be covered with a hood, but...$s",
+"Core.SenS.Spring.Day.1": "Ahh.. the spring. There's nothing quite like it down in the mines.$h#$b#The fresh air, the lush grass you can sink into...$l#$b#Oh, and the plethora of bugs! Yum!$l#$b#Wanna try some?$h#$e#[721] Huh, what's that look for?$6",
+"Core.SenS.Spring.Day.12": "I really need to finish patching up my egg costume for tomorrow.#$b#A couple of the spots are falling off.$8#$e#I guess that's what I get for using random trash as my materials.$8",
+"Core.SenS.Spring.Day.18": "The store near the river really gave me the creeps.$6#$b#When I poked my head in the door, it looked so sterile and ominous.$s#$e#How could anyone be comfortable in a place like that?$s",
+"Core.SenS.Spring.Day.20": "I really need to find some new sewing needles.#$b#The Flower Dance is only a couple days away and my costume is in dire need of repair!$u#$e#Thankfully, the blue-haired lady seems to throw quite a few away.$h",
+"Core.SenS.Spring.Day.23": "Ohhh the Flower Dance sounds so exciting! I really want to try dancing.$h#$b#I made an outfit for it and everything.$l#$e#Unfortunately, I'm too scared to go out in front of anyone.$8#$b#My face will be covered with a hood, but...$s",
 
 //SPECIFIC DAYS - SUMMER
-"Core.SenS.Summer.d1": "Goodness gracious, the summer is so brutal.$s#$b#While I was perusing an atlas in the library, I read about the Calico Desert. Apparently it's even hotter there.#$e#My first thought was \"No thank you, I never want to go there!\".$u",
-"Core.SenS.Summer.d10": "My costume tomorrow is going to be sooo uncomfortable.$s#$b#It's actually just a hat and I will be burying my body in the sand.$8#$e#Please, don't take my hat off or draw attention to me.$s#$e#Huh, why am I burying myself in the sand?$6#$b#Because the sun's out, duh.$6#$e#I guess I could stand under a tree, but then I'd be far away from everyone.$s#$e#Huh? Why don't I make a full body costume?$6#$b#You know, you ask a lot of questions, @.$a",
-"Core.SenS.Summer.d19.Opening": "Oh hello, @!$h#$b#",
-    "Core.SenS.Summer.d19.Statement.1": "I hope things on %farm are going swell! It sounds like they are, based on the newspaper I found.$h",
-    "Core.SenS.Summer.d19.Statement.2": "The land on %farm is absolutely beautiful! I snuck a peek last night.$l",
-    "Core.SenS.Summer.d19.Statement.3": "I'm thinking of snooping around your farm tonight. I hope you don't mind.$8#$b#The crops growing on your farm look delicious!$l#$e#If any are missing in the morning, I'm sorry in advance.$8",
-"Core.SenS.Summer.d27": "I've made a costume of a moonlight jelly for tomorrow.#h#$b#I'm gonna be pretty uncomfy because I'll need to curl up in a ball to fit inside.$8#$e#I hope no one thinks I'm a real jelly and tries to remove my disguise.$u",
+"Core.SenS.Summer.Day.1": "Goodness gracious, the summer is so brutal.$s#$b#While I was perusing an atlas in the library, I read about the Calico Desert. Apparently it's even hotter there.#$e#My first thought was \"No thank you, I never want to go there!\".$u",
+"Core.SenS.Summer.Day.10": "My costume tomorrow is going to be sooo uncomfortable.$s#$b#It's actually just a hat and I will be burying my body in the sand.$8#$e#Please, don't take my hat off or draw attention to me.$s#$e#Huh, why am I burying myself in the sand?$6#$b#Because the sun's out, duh.$6#$e#I guess I could stand under a tree, but then I'd be far away from everyone.$s#$e#Huh? Why don't I make a full body costume?$6#$b#You know, you ask a lot of questions, @.$a",
+"Core.SenS.Summer.Day.19.Opening": "Oh hello, @!$h#$b#",
+    "Core.SenS.Summer.Day.19.Statement.1": "I hope things on %farm are going swell! It sounds like they are, based on the newspaper I found.$h",
+    "Core.SenS.Summer.Day.19.Statement.2": "The land on %farm is absolutely beautiful! I snuck a peek last night.$l",
+    "Core.SenS.Summer.Day.19.Statement.3": "I'm thinking of snooping around your farm tonight. I hope you don't mind.$8#$b#The crops growing on your farm look delicious!$l#$e#If any are missing in the morning, I'm sorry in advance.$8",
+"Core.SenS.Summer.Day.27": "I've made a costume of a moonlight jelly for tomorrow.#h#$b#I'm gonna be pretty uncomfy because I'll need to curl up in a ball to fit inside.$8#$e#I hope no one thinks I'm a real jelly and tries to remove my disguise.$u",
 
 //SPECIFIC DAYS - FALL
-"Core.SenS.Fall.d1": "Fall... This season is so, so beautiful.$l#$b#The colors are so vibrant, like nothing I've ever seen before.$l#$e#The sun is less intense, and the air is cool, but not freezing.$l#$b#I'll probably be able to go outside more often!$h#$b#Granted I take an umbrella, of course.$h",
-"Core.SenS.Fall.d5": "I saw this strange pudgy man who had the neatest bow-tie.$6#$b#I kinda want a bow-tie now, but I'm not sure how exactly I'd wear it.$8#$e#Hmmm.. Usually you clip them on, right? I could clip it to my necklace!$h",
-"Core.SenS.Fall.d15": "Oooh, I'm so excited for the Stardew Fair tomorrow!$h#$b#I wish I could play the games, but people would probably be confused why there was a random guy walking around in a pumpkin costume.$8#$e#I guess I'll hang off to the sidelines... as I usually do at these events.$s#$e#Sigh... Do you think humans and Shadows can ever coexist..?$s",
-"Core.SenS.Fall.d26": "Aw, heck yeah! Spirit's Eve is the one event I can go to where I don't have to wear a costume.$h#$b#All I gotta do is glue an old jacket zipper to my back and tell everyone I'm wearing a monster costume.#$e#Genius, right?$h",
+"Core.SenS.Fall.Day.1": "Fall... This season is so, so beautiful.$l#$b#The colors are so vibrant, like nothing I've ever seen before.$l#$e#The sun is less intense, and the air is cool, but not freezing.$l#$b#I'll probably be able to go outside more often!$h#$b#Granted I take an umbrella, of course.$h",
+"Core.SenS.Fall.Day.5": "I saw this strange pudgy man who had the neatest bow-tie.$6#$b#I kinda want a bow-tie now, but I'm not sure how exactly I'd wear it.$8#$e#Hmmm.. Usually you clip them on, right? I could clip it to my necklace!$h",
+"Core.SenS.Fall.Day.15": "Oooh, I'm so excited for the Stardew Fair tomorrow!$h#$b#I wish I could play the games, but people would probably be confused why there was a random guy walking around in a pumpkin costume.$8#$e#I guess I'll hang off to the sidelines... as I usually do at these events.$s#$e#Sigh... Do you think humans and Shadows can ever coexist..?$s",
+"Core.SenS.Fall.Day.26": "Aw, heck yeah! Spirit's Eve is the one event I can go to where I don't have to wear a costume.$h#$b#All I gotta do is glue an old jacket zipper to my back and tell everyone I'm wearing a monster costume.#$e#Genius, right?$h",
 
 //SPECIFIC DAYS - WINTER
-"Core.SenS.Winter.d1": "Winter gives me a swirl of mixed emotions...$s#$b#It is very quiet, the trees are bare and the animals are few...$s#$e#Do I feel at peace, or lonely?$6#$b#Maybe a little of both?$6#$e#Oh, sorry for the melancholy ramble!$8#$b#I guess I'm feeling a bit contemplative today.$8",
-"Core.SenS.Winter.d7": "I found a festive costume in the garbage some time ago.#$b#I patched it up a little and I'm going to wear it to the Ice Festival.$h#$e#Unfortunately, the costume is a little small on me.$8#$b#I think it's meant to be worn by a human child.$8#$e#But hey, I made it work.$h",
-"Core.SenS.Winter.d13": "Hm hm hm~ Hm hm hm~#$b#Oh hello, @! I'm just humming myself little birthday tune.$h#$e#That's one thing us shadows and humans share, celebrating the day we came into the world.$h",
-"Core.SenS.Winter.d24": "O-oh, hello @! I'm going to wear my costume from the Ice Festival again tomorrow. $8#$e#I hope I don't get mistaken for a lost child again.$a",
-"Core.SenS.Winter.d26": "I kind of want to try a snowball fight sometime. It sounds fun!$7#$b#Potentially painful also, if the snow was too hard!$u#$e#You'd take it easy if we played together, right @?$8",
+"Core.SenS.Winter.Day.1": "Winter gives me a swirl of mixed emotions...$s#$b#It is very quiet, the trees are bare and the animals are few...$s#$e#Do I feel at peace, or lonely?$6#$b#Maybe a little of both?$6#$e#Oh, sorry for the melancholy ramble!$8#$b#I guess I'm feeling a bit contemplative today.$8",
+"Core.SenS.Winter.Day.7": "I found a festive costume in the garbage some time ago.#$b#I patched it up a little and I'm going to wear it to the Ice Festival.$h#$e#Unfortunately, the costume is a little small on me.$8#$b#I think it's meant to be worn by a human child.$8#$e#But hey, I made it work.$h",
+"Core.SenS.Winter.Day.13": "Hm hm hm~ Hm hm hm~#$b#Oh hello, @! I'm just humming myself little birthday tune.$h#$e#That's one thing us shadows and humans share, celebrating the day we came into the world.$h",
+"Core.SenS.Winter.Day.24": "O-oh, hello @! I'm going to wear my costume from the Ice Festival again tomorrow. $8#$e#I hope I don't get mistaken for a lost child again.$a",
+"Core.SenS.Winter.Day.26": "I kind of want to try a snowball fight sometime. It sounds fun!$7#$b#Potentially painful also, if the snow was too hard!$u#$e#You'd take it easy if we played together, right @?$8",
 
 //SPECIFIC DAY - DAY BEFORE MOD FESTIVALS
-"Core.SenS.Spring.d18.Event": "Oh @! Are you coming to the fashion festival tomorrow?$h#$b#I know I sure am!$7#$e#I'm looking forward to getting inspired by all the amazing designs.$h", //Fashion
-"Core.SenS.Summer.d4.Event": "So your kind rides water waves on boards for fun?$6#$b#That sounds quite dangerous!$u#$e#Though... I suppose it's no more dangerous than me attending tomorrow.$8", //Surfing
-"Core.SenS.Summer.d19.Event": "Are you excited to see the fireworks tomorrow, @?$h#$b#I'm quite nervous about loud noises, but I can't resist seeing such a colorful spectacle.$8", //Fireworks
-"Core.SenS.Fall.d2.Event": "Tomorrow's the Marketpalooza! Are you excited?$h#$b#I better get my cloak together so I don't miss out on any great deals.$h", //Marketpalooza
-"Core.SenS.Fall.d19": "There will be a massive gathering up on the Ridge tomorrow.#$b#I seldom go up there, but I'm going to make the treck to see what it's all about.$h", //Gathering
-"Core.SenS.Winter.d12": "Tomorrow's the love festival! Your kind has such extravagant ways of displaying your affection.$h#$b#It's quite endearing and has really rubbed off on me.$h", //Love
-"Core.SenS.Winter.d27": "Tomorrow's the event with the massive bonfire.#$b#I'll have to be careful not to get too close or I might burn up on the spot!$u", //Ember
+"Core.SenS.Spring.Day.18.Event": "Oh @! Are you coming to the fashion festival tomorrow?$h#$b#I know I sure am!$7#$e#I'm looking forward to getting inspired by all the amazing designs.$h", //Fashion
+"Core.SenS.Summer.Day.4.Event": "So your kind rides water waves on boards for fun?$6#$b#That sounds quite dangerous!$u#$e#Though... I suppose it's no more dangerous than me attending tomorrow.$8", //Surfing
+"Core.SenS.Summer.Day.19.Event": "Are you excited to see the fireworks tomorrow, @?$h#$b#I'm quite nervous about loud noises, but I can't resist seeing such a colorful spectacle.$8", //Fireworks
+"Core.SenS.Fall.Day.2.Event": "Tomorrow's the Marketpalooza! Are you excited?$h#$b#I better get my cloak together so I don't miss out on any great deals.$h", //Marketpalooza
+"Core.SenS.Fall.Day.19": "There will be a massive gathering up on the Ridge tomorrow.#$b#I seldom go up there, but I'm going to make the treck to see what it's all about.$h", //Gathering
+"Core.SenS.Winter.Day.12": "Tomorrow's the love festival! Your kind has such extravagant ways of displaying your affection.$h#$b#It's quite endearing and has really rubbed off on me.$h", //Love
+"Core.SenS.Winter.Day.27": "Tomorrow's the event with the massive bonfire.#$b#I'll have to be careful not to get too close or I might burn up on the spot!$u", //Ember
 
 //CFD
 "Core.SenS.Dumpster": "Hey! That was my trash can!$u",
@@ -1161,6 +1163,34 @@
 "Core.ClyricT.Dialogue.18": "",
 "Core.ClyricT.Dialogue.19": "",
 "Core.ClyricT.Dialogue.20": "",
+
+//Jeremy
+
+"Core.JeremyTS.PreForestMagic.1": "%Jeremy eyes you with curiosity. There is more to this snail than meets the eye...",
+
+"Core.JeremyTS.DailyDialogue.1": "Hello. I am Jeremy T. Snail. I know things about this world best left untold.#$b#Please, don't ask questions. I don't want to break you.",
+
+"Core.JeremyTS.RainyDay.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
+
+"Core.JeremyTS.Spring.Day.1": "sd1",
+"Core.JeremyTS.Spring.Day.12": "sd12", // Day before the Egg Festival
+"Core.JeremyTS.Spring.Day.23": "sd23", // Day before the Flower Dance
+"Core.JeremyTS.Spring.Day.28": "sd28",
+
+"Core.JeremyTS.Summer.Day.1": "sud1",
+"Core.JeremyTS.Summer.Day.10": "sud10", // Day before the Luau
+"Core.JeremyTS.Summer.Day.27": "sud27", // Day before Moonlight Jellies
+"Core.JeremyTS.Summer.Day.28": "sud28", 
+
+"Core.JeremyTS.Fall.Day.1": "fd1", 
+"Core.JeremyTS.Fall.Day.15": "fd15", // Day before the Stardew Fair
+"Core.JeremyTS.Fall.Day.26": "fd26", // Day before Spirit's Eve
+"Core.JeremyTS.Fall.Day.28": "fd28",
+
+"Core.JeremyTS.Winter.Day.1": "wd1", 
+"Core.JeremyTS.Winter.Day.7": "wd7", // Day before the Ice Festival
+"Core.JeremyTS.Winter.Day.24": "wd24", // Day before Winter Star
+"Core.JeremyTS.Winter.Day.28": "wd28",
 
 /*
  ██████╗ ██╗███████╗████████╗███████╗
@@ -2473,38 +2503,38 @@
 
 //Spring Specific Day
 "Relationship.SenS.Spring": "Don't you just love the spring, @?$h#$b#The birds are chriping, the flowers are blooming...I can't get enough of it!$h",
-"Relationship.SenS.Spring.d12": "Oh dear, the egg festival is tomorrow.#$b#I better go iron out my costume...$s#$e#Goodness, I can't stand wearing that thing!$8",
-"Relationship.SenS.Spring.d13": "Are we going to go to the egg festival today?#$b#I'm avoiding putting on that Yoba forsaken costume until you say you're ready to go.$8",
-"Relationship.SenS.Spring.d20": "I really need to get some new sewing needles.#$b#The Flower Dance is just a couple days away and my costume is in dire need of repair!$u#$e#Wait, do we happen to have any around the house?$h",
-"Relationship.SenS.Spring.d23": "Tomorrow is the Flower Dance...#$b#Perhaps I will actually try to dance tomorrow?$8#$e#No, no. Not a chance!$u#$b#I have two left feet.$8",
-"Relationship.SenS.Spring.d24.Platonic": "Today's the flower dance, @.#$b#Have you thought of someone to dance with?$h#$e#I'm sure anyone you ask would say yes!$h#$b#You are an amazing fellow!$h",
-"Relationship.SenS.Spring.d24.Romantic": "Today's the flower dance, @.#$b#I have my guise all ready to go if you'd like to dance with me.$h#$e#Be warned though, I have two left feet.$8",
+"Relationship.SenS.Spring.Day.12": "Oh dear, the egg festival is tomorrow.#$b#I better go iron out my costume...$s#$e#Goodness, I can't stand wearing that thing!$8",
+"Relationship.SenS.Spring.Day.13": "Are we going to go to the egg festival today?#$b#I'm avoiding putting on that Yoba forsaken costume until you say you're ready to go.$8",
+"Relationship.SenS.Spring.Day.20": "I really need to get some new sewing needles.#$b#The Flower Dance is just a couple days away and my costume is in dire need of repair!$u#$e#Wait, do we happen to have any around the house?$h",
+"Relationship.SenS.Spring.Day.23": "Tomorrow is the Flower Dance...#$b#Perhaps I will actually try to dance tomorrow?$8#$e#No, no. Not a chance!$u#$b#I have two left feet.$8",
+"Relationship.SenS.Spring.Day.24.Platonic": "Today's the flower dance, @.#$b#Have you thought of someone to dance with?$h#$e#I'm sure anyone you ask would say yes!$h#$b#You are an amazing fellow!$h",
+"Relationship.SenS.Spring.Day.24.Romantic": "Today's the flower dance, @.#$b#I have my guise all ready to go if you'd like to dance with me.$h#$e#Be warned though, I have two left feet.$8",
 
 //Summer Specific Day
 "Relationship.SenS.Summer": "Uhg, the broiling heat of summer...#$b#Can't the sun go away or something?#$e#That would probably spell doom for the planet, so I'll begrudgingly accept the sun's existence.$a",
-"Relationship.SenS.Summer.d10": "Time to get out the sand castle costume for tomorrow.$12#$b#Fun fact, it's still full of sand from last year.$8",
-"Relationship.SenS.Summer.d11": "I'm getting my sand castle disguise ready...$h#$b#Remember not to draw too much attention to me!$8#$e#I will be buried in the sand, so I'd be at the mercy of anyone who lifts the cloth!$u",
-"Relationship.SenS.Summer.d27": "Hey @, have you seen my jelly costume?$8#$b#If I don't find it by tomorrow evening, I won't be able to get a good spot to see the moonlight jellies!$u",
-"Relationship.SenS.Summer.d28": "Whew, I sure am glad I found my costume.$h#$b#I thought for sure I was gonna miss out on seeing those cute little jellyfish this year!$8",
+"Relationship.SenS.Summer.Day.10": "Time to get out the sand castle costume for tomorrow.$12#$b#Fun fact, it's still full of sand from last year.$8",
+"Relationship.SenS.Summer.Day.11": "I'm getting my sand castle disguise ready...$h#$b#Remember not to draw too much attention to me!$8#$e#I will be buried in the sand, so I'd be at the mercy of anyone who lifts the cloth!$u",
+"Relationship.SenS.Summer.Day.27": "Hey @, have you seen my jelly costume?$8#$b#If I don't find it by tomorrow evening, I won't be able to get a good spot to see the moonlight jellies!$u",
+"Relationship.SenS.Summer.Day.28": "Whew, I sure am glad I found my costume.$h#$b#I thought for sure I was gonna miss out on seeing those cute little jellyfish this year!$8",
 
 //Fall Specific Day
 "Relationship.SenS.Fall": "The weather is cooling down, the leaves are changing color, it's soothing to the soul...$l#$e#All the reasons why it's the best season.$h",
-"Relationship.SenS.Fall.d15.Platonic": "Oh, the fair is in town tomorrow! Can you sneak me in to play some of the games?$7#$e#I'll be in a pumpkin suit, so you can say I'm one of your human \"nephews\" or something like that.$12",
-"Relationship.SenS.Fall.d15.Romantic": "Oh, the fair is in town tomorrow! Will you sneak me in to play some of the games?$7#$e#I'll be in a pumpkin suit, so you can say I'm one of your human friends or something like that.$12",
-"Relationship.SenS.Fall.d16.Platonic": "Remember, we've got a deal! You sneak me into some of those games today, and I'll...$h#$b#I'll...$h#$b#Hm...$8#$b#I'll give you the best treasure I find in the post-event trash tonight!$12",
-"Relationship.SenS.Fall.d16.Romantic": "Ohh I'm so excited for the fair today!$h#$b#Don't forget to sneak me in, okay?$12",
-"Relationship.SenS.Fall.d26": "Sooo, @... Do we have enough candy prepared for Spirits Eve tomorrow?#$b#$y 'Do ya?_Definitely!_Well I wouldn't be so sure. I maaaay have ate it all before you woke up.$8_Nope._You noticed I got into it last night, didn't you?$8'",
-"Relationship.SenS.Fall.d27": "I won't be going to Spirits Eve in any costume, so don't give me away, okay?$h#$b#Just tell everybody my costume is really convincing.$12",
+"Relationship.SenS.Fall.Day.15.Platonic": "Oh, the fair is in town tomorrow! Can you sneak me in to play some of the games?$7#$e#I'll be in a pumpkin suit, so you can say I'm one of your human \"nephews\" or something like that.$12",
+"Relationship.SenS.Fall.Day.15.Romantic": "Oh, the fair is in town tomorrow! Will you sneak me in to play some of the games?$7#$e#I'll be in a pumpkin suit, so you can say I'm one of your human friends or something like that.$12",
+"Relationship.SenS.Fall.Day.16.Platonic": "Remember, we've got a deal! You sneak me into some of those games today, and I'll...$h#$b#I'll...$h#$b#Hm...$8#$b#I'll give you the best treasure I find in the post-event trash tonight!$12",
+"Relationship.SenS.Fall.Day.16.Romantic": "Ohh I'm so excited for the fair today!$h#$b#Don't forget to sneak me in, okay?$12",
+"Relationship.SenS.Fall.Day.26": "Sooo, @... Do we have enough candy prepared for Spirits Eve tomorrow?#$b#$y 'Do ya?_Definitely!_Well I wouldn't be so sure. I maaaay have ate it all before you woke up.$8_Nope._You noticed I got into it last night, didn't you?$8'",
+"Relationship.SenS.Fall.Day.27": "I won't be going to Spirits Eve in any costume, so don't give me away, okay?$h#$b#Just tell everybody my costume is really convincing.$12",
 
 //Winter Specific Day
 "Relationship.SenS.Winter": "Brrr it's so chilly. I swear all that snow appears overnight!#$b#I'm serious, did we somehow miss a blizzard?$u",
-"Relationship.SenS.Winter.d7": "Tomorrow is the Ice Festival! Prepare your nose for the ultimate stink-fest.$12#$b#Not that the smell bothers me. Most smells humans find repulsive, Shadows find quite fragrant.$h",
-"Relationship.SenS.Winter.d8": "Ready for the Ice Festival? I need to get dressed up, then I'm going to head out.$h#$e#Hopefully no one notices Santa walk off your lawn...$8",
-"Relationship.SenS.Winter.d24": "The Feast of the Winter Star is tomorrow, yeah?#$b#I won't be joining in the public festivities, but I'll be enjoying the cozy atmosphere from afar.$h",
-"Relationship.SenS.Winter.d25.Platonic": "I was feeling a bit down that I can't participate in today's festivities, so here's a little gift for you.$l[268 454 417]#$e#That was real hard to get my claws on. I hope you enjoy it, @!$h",
-"Relationship.SenS.Winter.d25.Romantic": "Here's a little gift for you, my starshine.$l#$b#I hope you enjoy it.$l[268 454 417]",
-"Relationship.SenS.Winter.d28.Platonic": "So that's it, huh? It's the last day of another year.#$b#It feels like just yesterday I came to the surface...$u#$e#Things change so fast, don't they, @?$h#$b#Here's to another year of friendship between us!$l",
-"Relationship.SenS.Winter.d28.Romantic": "So that's it, huh? It's the last day of another year.#$b#It feels like just yesterday I came to the surface...$u#$e#Things change so fast, don't they, @?$h#$b#Here's to another year of love between us!$l",
+"Relationship.SenS.Winter.Day.7": "Tomorrow is the Ice Festival! Prepare your nose for the ultimate stink-fest.$12#$b#Not that the smell bothers me. Most smells humans find repulsive, Shadows find quite fragrant.$h",
+"Relationship.SenS.Winter.Day.8": "Ready for the Ice Festival? I need to get dressed up, then I'm going to head out.$h#$e#Hopefully no one notices Santa walk off your lawn...$8",
+"Relationship.SenS.Winter.Day.24": "The Feast of the Winter Star is tomorrow, yeah?#$b#I won't be joining in the public festivities, but I'll be enjoying the cozy atmosphere from afar.$h",
+"Relationship.SenS.Winter.Day.25.Platonic": "I was feeling a bit down that I can't participate in today's festivities, so here's a little gift for you.$l[268 454 417]#$e#That was real hard to get my claws on. I hope you enjoy it, @!$h",
+"Relationship.SenS.Winter.Day.25.Romantic": "Here's a little gift for you, my starshine.$l#$b#I hope you enjoy it.$l[268 454 417]",
+"Relationship.SenS.Winter.Day.28.Platonic": "So that's it, huh? It's the last day of another year.#$b#It feels like just yesterday I came to the surface...$u#$e#Things change so fast, don't they, @?$h#$b#Here's to another year of friendship between us!$l",
+"Relationship.SenS.Winter.Day.28.Romantic": "So that's it, huh? It's the last day of another year.#$b#It feels like just yesterday I came to the surface...$u#$e#Things change so fast, don't they, @?$h#$b#Here's to another year of love between us!$l",
 
 //Misc
 "Relationship.SenS.KitchenBlocked.1": "Umm... It's a little hard to cook with the kitchen blocked, @.$8",

@@ -50,22 +50,22 @@
         "Target": "Characters/Dialogue/EveT",
         "Entries":{
         //Specific Days
-        "spring_1": "{{i18n:Core.EveT.Spring.d1}}",
-        "spring_12": "{{i18n:Core.EveT.Spring.d12}}",
-        "spring_23": "{{i18n:Core.EveT.Spring.d23}}",
-        "spring_28": "{{i18n:Core.EveT.Spring.d28}}",
-        "summer_1": "{{i18n:Core.EveT.Summer.d1}}",
-        "summer_10": "{{i18n:Core.EveT.Summer.d10}}",
-        "summer_27": "{{i18n:Core.EveT.Summer.d27}}",
-        "summer_28": "{{i18n:Core.EveT.Summer.d28}}",
-        "fall_1": "{{i18n:Core.EveT.Fall.d1}}",
-        "fall_15": "{{i18n:Core.EveT.Fall.d15}}",
-        "fall_26": "{{i18n:Core.EveT.Fall.d26}}",
-        "fall_28": "{{i18n:Core.EveT.Fall.d28}}",
-        "winter_1": "{{i18n:Core.EveT.Winter.d1}}",
-        "winter_7": "{{i18n:Core.EveT.Winter.d7}}",
-        "winter_24": "{{i18n:Core.EveT.Winter.d24}}",
-        "winter_28": "{{i18n:Core.EveT.Winter.d28}}",
+        "spring_1": "{{i18n:Core.EveT.Spring.Day.1}}",
+        "spring_12": "{{i18n:Core.EveT.Spring.Day.12}}",
+        "spring_23": "{{i18n:Core.EveT.Spring.Day.23}}",
+        "spring_28": "{{i18n:Core.EveT.Spring.Day.28}}",
+        "summer_1": "{{i18n:Core.EveT.Summer.Day.1}}",
+        "summer_10": "{{i18n:Core.EveT.Summer.Day.10}}",
+        "summer_27": "{{i18n:Core.EveT.Summer.Day.27}}",
+        "summer_28": "{{i18n:Core.EveT.Summer.Day.28}}",
+        "fall_1": "{{i18n:Core.EveT.Fall.Day.1}}",
+        "fall_15": "{{i18n:Core.EveT.Fall.Day.15}}",
+        "fall_26": "{{i18n:Core.EveT.Fall.Day.26}}",
+        "fall_28": "{{i18n:Core.EveT.Fall.Day.28}}",
+        "winter_1": "{{i18n:Core.EveT.Winter.Day.1}}",
+        "winter_7": "{{i18n:Core.EveT.Winter.Day.7}}",
+        "winter_24": "{{i18n:Core.EveT.Winter.Day.24}}",
+        "winter_28": "{{i18n:Core.EveT.Winter.Day.28}}",
         
         //Conversation Topics
         "Introduction": "{{i18n:Core.EveT.Introduction}}",
@@ -232,8 +232,8 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "fall_19": "{{i18n:Core.EveT.Fall.d19}}",
-            "winter_27": "{{i18n:Core.EveT.Winter.d27}}"
+            "fall_19": "{{i18n:Core.EveT.Fall.Day.19}}",
+            "winter_27": "{{i18n:Core.EveT.Winter.Day.27}}"
         },
         "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
     },
@@ -242,7 +242,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "summer_4": "{{i18n:Core.EveT.Summer.d4}}"
+            "summer_4": "{{i18n:Core.EveT.Summer.Day.4}}"
         },
         "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
     },
@@ -251,7 +251,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "spring_18": "{{i18n:Core.EveT.Spring.d18}}"
+            "spring_18": "{{i18n:Core.EveT.Spring.Day.18}}"
         },
         "When": {
             "HasMod: |contains=UNA.FF.CP": true,
@@ -264,7 +264,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "winter_12": "{{i18n:Core.EveT.Winter.d12}}"
+            "winter_12": "{{i18n:Core.EveT.Winter.Day.12}}"
         },
         "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
     },
@@ -273,7 +273,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "fall_2": "{{i18n:Core.EveT.Fall.d2}}"
+            "fall_2": "{{i18n:Core.EveT.Fall.Day.2}}"
         },
         "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
     },
@@ -282,7 +282,7 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries": 	{ 
-            "summer_19": "{{i18n:Core.EveT.Summer.d19}}"
+            "summer_19": "{{i18n:Core.EveT.Summer.Day.19}}"
         },
         "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }

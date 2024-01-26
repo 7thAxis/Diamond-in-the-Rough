@@ -1,0 +1,28 @@
+{
+    "Changes": [
+        {
+            "LogName": "Jeremy Default Dialogue",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
+            "TargetField": "Companion",
+            "Entries": {
+                "Companion": {
+                    "InspectionDialogue": "{{i18n:Core.JeremyTS.PreForestMagic.1|default={{i18n:Core.System.SomethingWentWrong}}}}"
+                }
+            },
+            "When": { "HasSeenEvent: |contains=112": false }       
+        },
+        {
+            "LogName": "Jeremy Specific Day Dialogue",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
+            "TargetField": "Companion",
+            "Entries": {
+                "Companion": {
+                    "InspectionDialogue":"{{i18n:Core.JeremyTS.{{Season}}.Day.{{Day}}|default={{i18n:Core.JeremyTS.{{WeatherGroup}}.1|default={{i18n:Core.JeremyTS.DailyDialogue.1|default={{i18n:Core.System.SomethingWentWrong}}}}}}}}"
+                }
+            },
+            "When": { "HasSeenEvent: |contains=112": true }            
+        }
+    ]
+}

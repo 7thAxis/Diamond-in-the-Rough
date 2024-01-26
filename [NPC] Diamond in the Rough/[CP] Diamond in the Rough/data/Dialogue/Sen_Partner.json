@@ -163,29 +163,29 @@
 
                 //SPECIAL DATES   
                 "spring_SenS": "{{i18n:Relationship.SenS.Spring}}",
-                "spring_12": "{{i18n:Relationship.SenS.Spring.d12}}", //Day before Egg festival
-                "spring_13": "{{i18n:Relationship.SenS.Spring.d13}}", // Egg festival
-                "spring_20": "{{i18n:Relationship.SenS.Spring.d20}}",
-                "spring_23": "{{i18n:Relationship.SenS.Spring.d23}}", // Day Before Flower Dance
-                "spring_24": "{{i18n:Relationship.SenS.Spring.d24.{{SenPartnershipRoute}}}}", //Flower Dance
+                "spring_12": "{{i18n:Relationship.SenS.Spring.Day.12}}", //Day before Egg festival
+                "spring_13": "{{i18n:Relationship.SenS.Spring.Day.13}}", // Egg festival
+                "spring_20": "{{i18n:Relationship.SenS.Spring.Day.20}}",
+                "spring_23": "{{i18n:Relationship.SenS.Spring.Day.23}}", // Day Before Flower Dance
+                "spring_24": "{{i18n:Relationship.SenS.Spring.Day.24.{{SenPartnershipRoute}}}}", //Flower Dance
 
                 "summer_SenS": "{{i18n:Relationship.SenS.Summer}}",
-                "summer_10": "{{i18n:Relationship.SenS.Summer.d10}}", // Day before Luau
-                "summer_11": "{{i18n:Relationship.SenS.Summer.d11}}", // Luau
-                "summer_27": "{{i18n:Relationship.SenS.Summer.d27}}", //Day before Moonlight Jelly
-                "summer_28": "{{i18n:Relationship.SenS.Summer.d28}}", //Moonlight Jelly
+                "summer_10": "{{i18n:Relationship.SenS.Summer.Day.10}}", // Day before Luau
+                "summer_11": "{{i18n:Relationship.SenS.Summer.Day.11}}", // Luau
+                "summer_27": "{{i18n:Relationship.SenS.Summer.Day.27}}", //Day before Moonlight Jelly
+                "summer_28": "{{i18n:Relationship.SenS.Summer.Day.28}}", //Moonlight Jelly
 
                 "fall_SenS": "{{i18n:Relationship.SenS.Fall}}",
-                "fall_15": "{{i18n:Relationship.SenS.Fall.d15.{{SenPartnershipRoute}}}}", //Day before stardew fair
-                "fall_16": "{{i18n:Relationship.SenS.Fall.d16.{{SenPartnershipRoute}}}}", //Stardew Fair
-                "fall_26": "{{i18n:Relationship.SenS.Fall.d26}}", //Day before Spirits Eve
-                "fall_27": "{{i18n:Relationship.SenS.Fall.d27}}", //Spirits Eve
+                "fall_15": "{{i18n:Relationship.SenS.Fall.Day.15.{{SenPartnershipRoute}}}}", //Day before stardew fair
+                "fall_16": "{{i18n:Relationship.SenS.Fall.Day.16.{{SenPartnershipRoute}}}}", //Stardew Fair
+                "fall_26": "{{i18n:Relationship.SenS.Fall.Day.26}}", //Day before Spirits Eve
+                "fall_27": "{{i18n:Relationship.SenS.Fall.Day.27}}", //Spirits Eve
 
                 "winter_SenS": "{{i18n:Relationship.SenS.Winter}}",
-                "winter_7": "{{i18n:Relationship.SenS.Winter.d7}}", //day before ice festival
-                "winter_8": "{{i18n:Relationship.SenS.Winter.d8}}", //ice festival
-                "winter_25": "{{i18n:Relationship.SenS.Winter.d25.{{SenPartnershipRoute}}}}", //Winter Star
-                "winter_28": "{{i18n:Relationship.SenS.Winter.d28.{{SenPartnershipRoute}}}}" //Day before new year
+                "winter_7": "{{i18n:Relationship.SenS.Winter.Day.7}}", //day before ice festival
+                "winter_8": "{{i18n:Relationship.SenS.Winter.Day.8}}", //ice festival
+                "winter_25": "{{i18n:Relationship.SenS.Winter.Day.25.{{SenPartnershipRoute}}}}", //Winter Star
+                "winter_28": "{{i18n:Relationship.SenS.Winter.Day.28.{{SenPartnershipRoute}}}}" //Day before new year
             }
         },
         {
