@@ -84,23 +84,23 @@
                 "Rainy_Day_4": "{{i18n:Relationship.SenS.RainyDay.6.{{SenPartnershipRoute}}}}",
                 "Rainy_Day_5": "{{i18n:Relationship.SenS.RainyDay.7.{{SenPartnershipRoute}}}}",
 
-                "Rainy_Night_SenS": "{{i18n:Relationship.SenS.RainyNight.1.Opening}}{{i18n:Core.SenS.Book.AP.{{Random:1++2++3++4++5++6++7|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Obj3.{{Random:1++2++3++4++5++6|inputSeparator=++}}}}{{i18n:Core.SenS.Book.Subj.{{Random:1++2++3++4++5++6++7++8++9++10|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.1.Closing.{{Random:1++2++3|inputSeparator=++}}}}",
-                "Rainy_Night_0": "{{i18n:Relationship.SenS.RainyNight.2.Opening}}{{i18n:Core.SenS.Flavor.{{Random:1++2++3++4|inputSeparator=++}}}}{{i18n:Core.SenS.Food.{{Random:1++2++3++4++5|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.2.Closing}}",
-                "Rainy_Night_1": "{{i18n:Relationship.SenS.RainyNight.3.Opening}}{{i18n:Relationship.SenS.RainyNight.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.RainyNight.3.Closing}}",
+                "Rainy_Night_SenS": "{{i18n:Relationship.SenS.RainyNight.1{{SenRandTokens}}}}",
+                "Rainy_Night_0": "{{i18n:Relationship.SenS.RainyNight.2{{SenRandTokens}}}}",
+                "Rainy_Night_1": "{{i18n:Relationship.SenS.RainyNight.3{{SenRandTokens}}}}",
                 "Rainy_Night_2": "{{i18n:Relationship.SenS.RainyNight.4}}",
                 "Rainy_Night_3": "{{i18n:Relationship.SenS.RainyNight.5}}",
                 "Rainy_Night_4": "{{i18n:Relationship.SenS.RainyNight.6.{{SenPartnershipRoute}}}}",
                 "Rainy_Night_5": "{{i18n:Relationship.SenS.RainyNight.7.{{SenPartnershipRoute}}}}",
 
-                "Indoor_Day_SenS": "{{i18n:Relationship.SenS.IndoorDay.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipRoute}}}}",
+                "Indoor_Day_SenS": "{{i18n:Relationship.SenS.IndoorDay.1.{{Random:{{Range: 1, 5}}}}.{{SenPartnershipRoute}}}}",
                 "Indoor_Day_0": "{{i18n:Relationship.SenS.IndoorDay.2}}",
-                "Indoor_Day_1": "{{i18n:Relationship.SenS.IndoorDay.3}}{{i18n:Relationship.SenS.IndoorDay.3.Joke.{{Random:1++2++3|inputSeparator=++}}}}{{i18n:Relationship.SenS.IndoorDay.3.Closing}}",
+                "Indoor_Day_1": "{{i18n:Relationship.SenS.IndoorDay.3{{SenRandTokens}}}}",
                 "Indoor_Day_2": "{{i18n:Relationship.SenS.IndoorDay.4}}",
                 "Indoor_Day_3": "{{i18n:Relationship.SenS.IndoorDay.5}}",
                 "Indoor_Day_4": "{{i18n:Relationship.SenS.IndoorDay.6.{{SenPartnershipRoute}}}}",
                 "Indoor_Day_5": "{{i18n:Relationship.SenS.IndoorDay.7.{{SenPartnershipRoute}}}}",
 
-                "Indoor_Night_SenS": "{{i18n:Relationship.SenS.IndoorNight.1.{{Random:1++2++3++4++5|inputSeparator=++}}.{{SenPartnershipRoute}}}}",
+                "Indoor_Night_SenS": "{{i18n:Relationship.SenS.IndoorNight.1.{{Random:{{Range: 1, 5}}}}.{{SenPartnershipRoute}}}}",
                 "Indoor_Night_0": "{{i18n:Relationship.SenS.IndoorNight.2}}",
                 "Indoor_Night_1": "{{i18n:Relationship.SenS.IndoorNight.3}}",
                 "Indoor_Night_2": "{{i18n:Relationship.SenS.IndoorNight.4}}",
@@ -203,12 +203,10 @@
                 "AcceptBirthdayGift_Liked": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}", //pos Birthday
                 "AcceptBirthdayGift_Neutral": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}" //neutral Birthday
             },
-            "When": {
-                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
-            }           
+            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }           
         },
         {
-            "LogName": "Summit scene",
+            "LogName": "Extra Dialogue",
             "Action": "EditData",
             "Target": "Data/ExtraDialogue",
             "Entries": {
@@ -217,44 +215,14 @@
                 "SummitEvent_Intro2_Spouse_Gruff": "{{i18n:Relationship.SenS.SummitEvent.2}}",
                 "SummitEvent_Dialogue1_Spouse": "{{i18n:Relationship.SenS.SummitEvent.3}}",
                 "SummitEvent_Dialogue2_Spouse": "{{i18n:Relationship.SenS.SummitEvent.4}}",
-                "SummitEvent_Dialogue3_SenS": "{{i18n:Relationship.SenS.SummitEvent.5}}"
-            },
-            "When": {
-                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
-            }
-        },
-        {
-            "LogName": "Extra dialogue",
-            "Action": "EditData",
-            "Target": "Data/ExtraDialogue",
-            "Entries": {
-                "Spouse_KitchenBlocked": "{{i18n:Relationship.SenS.KitchenBlocked.{{Random:1++2|inputSeparator=++}}}}",
-                "Spouse_MonstersInHouse": "{{i18n:Relationship.SenS.MonstersInHouse.{{Random:1++2|inputSeparator=++}}}}",
+                "SummitEvent_Dialogue3_SenS": "{{i18n:Relationship.SenS.SummitEvent.5}}",
+
                 "NewChild_FirstChild": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
                 "NewChild_SecondChild1": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
                 "NewChild_SecondChild2": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
                 "NewChild_Adoption": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}"
             },
-            "When": {
-                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
-            }
-        },
-        {
-            "LogName": "Relationship Context Fixes",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "spring_Thu8": "{{i18n:Core.SenS.Spring.Thursday.8h.Relationship}}",
-                "summer_Mon8": "{{i18n:Core.SenS.Summer.Monday.8h.Relationship}}",   
-                "fall_Wed8": "{{i18n:Core.SenS.Fall.Wednesday.8h.Relationship}}",
-                "spring_Wed10": "{{i18n:Core.SenS.Spring.Wednesday.10h.Relationship}}",
-                "summer_Tue10": "{{i18n:Core.SenS.Summer.Tuesday.10h.Relationship}}",         
-                "fall_Sun10": "{{i18n:Core.SenS.Fall.Sunday.10h.Relationship}}",
-                "winter_Sat10": "{{i18n:Core.SenS.Winter.Saturday.10h.Relationship}}"                                             
-            },
-            "When":{
-                "Relationship:SenS": "Married, Dating, Engaged"
-            }
+            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }    
         },
         {
             "LogName": "Have Shadow Kids Dialogue False",

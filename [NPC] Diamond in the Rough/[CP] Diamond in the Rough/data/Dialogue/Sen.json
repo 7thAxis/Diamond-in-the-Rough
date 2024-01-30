@@ -61,29 +61,29 @@
             "Entries": {
 
                 // SPECIFIC DAY SPRING
-                "spring_1": "{{i18n:Core.SenS.Spring.d1}}",
-                "spring_12": "{{i18n:Core.SenS.Spring.d12}}", // Day before the Egg Festival
-                "spring_20": "{{i18n:Core.SenS.Spring.d20}}",
-                "spring_23": "{{i18n:Core.SenS.Spring.d23}}", // Day before the Flower Dance
+                "spring_1": "{{i18n:Core.SenS.Spring.Day.1}}",
+                "spring_12": "{{i18n:Core.SenS.Spring.Day.12}}", // Day before the Egg Festival
+                "spring_20": "{{i18n:Core.SenS.Spring.Day.20}}",
+                "spring_23": "{{i18n:Core.SenS.Spring.Day.23}}", // Day before the Flower Dance
 
                 // SPECIFIC DAY SUMMER
-                "summer_1": "{{i18n:Core.SenS.Summer.d1}}",
-                "summer_10": "{{i18n:Core.SenS.Summer.d10}}", // Day before the Luau
-                "summer_19": "{{i18n:Core.SenS.Summer.d19.Opening}}{{i18n:Core.SenS.Summer.d19.Statement.{{Random:1++2++3|inputSeparator=++}}}}",
-                "summer_27": "{{i18n:Core.SenS.Summer.d27}}", // Day before the Midnight Jellies
+                "summer_1": "{{i18n:Core.SenS.Summer.Day.1}}",
+                "summer_10": "{{i18n:Core.SenS.Summer.Day.10}}", // Day before the Luau
+                "summer_19": "{{i18n:Core.SenS.Summer.Day.19{{SenRandTokens}}}}",
+                "summer_27": "{{i18n:Core.SenS.Summer.Day.27}}", // Day before the Midnight Jellies
 
                 // SPECIFIC DAY FALL
-                "fall_1": "{{i18n:Core.SenS.Fall.d1}}",
-                "fall_5": "{{i18n:Core.SenS.Fall.d5}}",
-                "fall_15": "{{i18n:Core.SenS.Fall.d15}}", // Day before the Stardew Fair
-                "fall_26": "{{i18n:Core.SenS.Fall.d26}}", // Day before Spirit's Eve
+                "fall_1": "{{i18n:Core.SenS.Fall.Day.1}}",
+                "fall_5": "{{i18n:Core.SenS.Fall.Day.5}}",
+                "fall_15": "{{i18n:Core.SenS.Fall.Day.15}}", // Day before the Stardew Fair
+                "fall_26": "{{i18n:Core.SenS.Fall.Day.26}}", // Day before Spirit's Eve
 
                 // SPECIFIC DAY WINTER
-                "winter_1": "{{i18n:Core.SenS.Winter.d1}}",
-                "winter_7": "{{i18n:Core.SenS.Winter.d7}}", // Day before the Ice Festival
-                "winter_13": "{{i18n:Core.SenS.Winter.d13}}",
-                "winter_24": "{{i18n:Core.SenS.Winter.d24}}", // Day before Winter Star
-                "winter_26": "{{i18n:Core.SenS.Winter.d26}}"
+                "winter_1": "{{i18n:Core.SenS.Winter.Day.1}}",
+                "winter_7": "{{i18n:Core.SenS.Winter.Day.7}}", // Day before the Ice Festival
+                "winter_13": "{{i18n:Core.SenS.Winter.Day.13}}",
+                "winter_24": "{{i18n:Core.SenS.Winter.Day.24}}", // Day before Winter Star
+                "winter_26": "{{i18n:Core.SenS.Winter.Day.26}}"
             }
         },
         {
@@ -270,7 +270,7 @@
                 //Conversation Topics, remove reference to Junimos
                 "cc_Boulder": "{{i18n:Core.SenS.ccBoulder.Joja}}",
                 "cc_Greenhouse": "{{i18n:Core.SenS.ccGreenhouse.Joja}}",
-                "spring_18": "{{i18n:Core.SenS.Spring.d18}}"
+                "spring_18": "{{i18n:Core.SenS.Spring.Day.18}}"
             },
             "When": {
                 "HasFlag: |contains=jojaMember": true
@@ -289,8 +289,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "fall_19": "{{i18n:Core.SenS.Fall.d19}}",
-                "winter_27": "{{i18n:Core.SenS.Winter.d27}}"
+                "fall_19": "{{i18n:Core.SenS.Fall.Day.19}}",
+                "winter_27": "{{i18n:Core.SenS.Winter.Day.27}}"
             },
             "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
         },
@@ -299,7 +299,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "summer_4": "{{i18n:Core.SenS.Summer.d4.Event}}"
+                "summer_4": "{{i18n:Core.SenS.Summer.Day.4.Event}}"
             },
             "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
         },
@@ -308,7 +308,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "spring_18": "{{i18n:Core.SenS.Spring.d18.Event}}"
+                "spring_18": "{{i18n:Core.SenS.Spring.Day.18.Event}}"
             },
             "When": {
                 "HasMod: |contains=UNA.FF.CP": true,
@@ -321,7 +321,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "winter_12": "{{i18n:Core.SenS.Winter.d12}}"
+                "winter_12": "{{i18n:Core.SenS.Winter.Day.12}}"
             },
             "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
         },
@@ -330,7 +330,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "fall_2": "{{i18n:Core.SenS.Fall.d2.Event}}"
+                "fall_2": "{{i18n:Core.SenS.Fall.Day.2.Event}}"
             },
             "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
         },
@@ -339,7 +339,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
-                "summer_19": "{{i18n:Core.SenS.Summer.d19.Event}}"
+                "summer_19": "{{i18n:Core.SenS.Summer.Day.19.Event}}"
             },
             "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
         }
