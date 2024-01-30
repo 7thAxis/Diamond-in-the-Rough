@@ -38,13 +38,8 @@
        //---------------------------- Waffle ------------------------------------------//
     {
         "Action": "Load",
-        "Target": "Characters/WaffleW, Portraits/WaffleW",
+        "Target": "Characters/WaffleW, Portraits/WaffleW, Characters/WaffleW_Default, Portraits/WaffleW_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Waffle/Waffle.png"
-    },
-    {
-        "Action": "Load",
-        "Target": "Characters/WaffleW_Default, Portraits/WaffleW_Default",
-        "FromFile": "assets/{{TargetPathOnly}}/Waffle/Waffle.png"       
     },
     {
         "LogName": "Waffle Animations",
@@ -79,7 +74,7 @@
     {
         "Action": "Load",
         "Target": "Characters/SenS, Portraits/SenS, Portraits/SenS_Default, Characters/SenS_Default",
-        "FromFile": "assets/{{TargetPathOnly}}/Sen/sen.png"
+        "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen.png"
     },
     {
         "Action": "Load",
@@ -182,9 +177,7 @@
         "Target": "Characters/Krobus, Characters/SeaMonsterKrobus, Characters/Monsters/Shadow Brute, Characters/Monsters/Shadow Brute_dangerous, Characters/Monsters/Shadow Shaman, Characters/Monsters/Shadow Sniper",
         "FromFile": "assets/Reshade/{{TargetWithoutPath}}.png",
         "When": 
-        {
-            "Reshade Existing Shadows":true
-        }
+        { "Reshade Existing Shadows":true }
     }
 ]
 }

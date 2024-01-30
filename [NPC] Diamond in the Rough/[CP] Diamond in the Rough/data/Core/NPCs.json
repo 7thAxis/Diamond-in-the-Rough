@@ -22,9 +22,7 @@
             "Entries": {
                 "EveT": {
                     "DisplayName": "{{i18n:Core.EveT.Name}}",
-                    "FormerCharacterNames": [
-                        "EveningT"
-                    ],
+                    "FormerCharacterNames": [ "EveningT" ],
                     "BirthSeason": "spring",
                     "BirthDay": 12,
                     "HomeRegion": "Town",
@@ -36,9 +34,7 @@
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "ShakePortraits": [
-                        3
-                    ],
+                    "ShakePortraits": [ 3 ],
                     "ExcludeFromIntroductionsQuest": false,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
@@ -51,10 +47,7 @@
                     "Home": [
                         {
                             "Location": "{{ModID}}.Maps.EveHouseInterior",
-                            "Tile": {
-                                "X": 12,
-                                "Y": 5
-                            },
+                            "Tile": { "X": 12, "Y": 5 },
                             "Direction": "down"
                         }
                     ],
@@ -113,10 +106,7 @@
                     "Home": [
                         {
                             "Location": "Custom_EastScarpe",
-                            "Tile": {
-                                "X": 78,
-                                "Y": 94
-                            },
+                            "Tile": { "X": 78, "Y": 94 },
                             "Direction": "left"
                         }
                     ],
@@ -143,13 +133,15 @@
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "ShakePortraits": [
-                        9,
-                        10
+                    "ShakePortraits": [ 9, 10 ],
+                    "SpouseRoom": { "MapAsset": "7thAxis_SenS_SpouseRoom" },
+                    "Home": [
+                        { 
+                            "Location": "Custom_ESDeepDark",
+                            "Tile": { "X": 25, "Y": 17 },
+                            "Direction": "down"
+                        }
                     ],
-                    "SpouseRoom": {
-                        "MapAsset": "7thAxis_SenS_SpouseRoom"
-                    },
                     "ExcludeFromIntroductionsQuest": true,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
@@ -235,56 +227,23 @@
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [
-                "SenS"
-            ],
+            "TargetField": [ "SenS" ],
             "Entries": {
                 "Home": [
                     {
                         "Location": "Custom_ES_TNPCWaitingWarpRoom",
-                        "Tile": {
-                            "X": 7,
-                            "Y": 7
-                        },
+                        "Tile": { "X": 7, "Y": 7 },
                         "Direction": "down"
                     }
                 ]
             },
-            "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false
-            }
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false }
         },
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [
-                "SenS"
-            ],
-            "Entries": {
-                "Home": [
-                    {
-                        "Location": "Custom_ESDeepDark",
-                        "Tile": {
-                            "X": 25,
-                            "Y": 17
-                        },
-                        "Direction": "down"
-                    }
-                ]
-            },
-            "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": [
-                "SenS"
-            ],
-            "Entries": {
-                "CanBeRomanced": true
-            },
+            "TargetField": [ "SenS" ],
+            "Entries": { "CanBeRomanced": true },
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
@@ -295,12 +254,7 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
-                "808": {
-                    "ContextTags": [
-                        "propose_roommate_krobus",
-                        "propose_roommate_sens"
-                    ]
-                }
+                "808": { "ContextTags": [ "propose_roommate_krobus", "propose_roommate_sens" ] }
             },
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
@@ -341,19 +295,11 @@
                     "Home": [
                         {
                             "Location": "{{ModID}}.Maps.EveHouseInterior",
-                            "Tile": {
-                                "X": 7,
-                                "Y": 4
-                            },
+                            "Tile": { "X": 7, "Y": 4 },
                             "Direction": "down"
                         }
                     ],
-                    "SocialTabIconSourceRect": {
-                        "X": 0,
-                        "Y": 9,
-                        "Width": 16,
-                        "Height": 24
-                    }
+                    "SocialTabIconSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
                 }
             }
         },
@@ -390,19 +336,11 @@
                     "Home": [
                         {
                             "Location": "Custom_EastScarpe",
-                            "Tile": {
-                                "X": 77,
-                                "Y": 94
-                            },
+                            "Tile": { "X": 77, "Y": 94 },
                             "Direction": "left"
                         }
                     ],
-                    "SocialTabIconSourceRect": {
-                        "X": 0,
-                        "Y": 9,
-                        "Width": 16,
-                        "Height": 24
-                    }
+                    "SocialTabIconSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
                 }
             }
         },
@@ -414,14 +352,9 @@
             "Update": "OnLocationChange",
             "MapTiles": [
                 {
-                    "Position": {
-                        "X": "74",
-                        "Y": "99"
-                    },
+                    "Position": { "X": "74", "Y": "99" },
                     "Layer": "Back",
-                    "SetProperties": {
-                        "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail"
-                    }
+                    "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
                 }
             ]
         },
@@ -431,11 +364,7 @@
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
             "TargetField": "Companion",
             "Entries": {
-                "Companion": {
-                    "Portrait": {
-                        "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}"
-                    }
-                }
+                "Companion": { "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" } }
             }
         }
     ]
