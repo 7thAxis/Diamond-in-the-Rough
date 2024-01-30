@@ -26,13 +26,14 @@
 "Config.Reshade Existing Shadows.name": "Reshade Existing Shadows",
 "Config.Reshade Existing Shadows.description": "Recolors existing Shadowfolk overworld sprites to match DitR's style.",
 
+//System
+"Core.System.SomethingWentWrong": "Hmm. It seems something has gone wrong... Please tell my creator 7thAxis for me. I am having a existential crisis.$s",
+
 //Monster Eradication
 "Core.Monsters.GolemEradication": "Golems",
 
 //Locations
 "Core.Locations.EveHouse": "Eve's House",
-
-"Core.System.SomethingWentWrong": "Hmm. It seems something has gone wrong... Please tell my creator 7thAxis for me. I am having a existential crisis.$s",
 
 //Names
 "Core.EveT.Name": "Eve",

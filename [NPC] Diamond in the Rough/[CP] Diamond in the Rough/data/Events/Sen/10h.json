@@ -63,7 +63,7 @@
                 speak SenS \"{{i18n:Events.SenS.Event10.7}}\"/
                     pause 100/
                     globalFade 0.012/
-                    viewport -2000 -2000/
+                    viewport -1000 -1000/
                     warp farmer -1000 -1000/
                     warp SenS 18 10/
                     faceDirection SenS 0/
@@ -225,7 +225,7 @@
 
                 warp SenS -1000 -1000/
                 globalFade 0.012/
-                viewport -2000 -2000/
+                viewport -1000 -1000/
                 warp farmer 24 37/
                 warp SenS 25 37/
                 faceDirection SenS 3/

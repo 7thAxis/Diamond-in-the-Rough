@@ -248,7 +248,7 @@
                     emote farmer 60/
                     pause 800/
                     fade/
-                    viewport -2000 -2000/
+                    viewport -1000 -1000/
                 end/
                 " 
             }

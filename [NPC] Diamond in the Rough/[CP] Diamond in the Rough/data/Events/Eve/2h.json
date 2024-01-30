@@ -66,7 +66,7 @@
                     advancedMove EveT false -5 0 0 -5 4 200/
                     pause 1000/
                     fade/
-                    viewport -999 -999/
+                    viewport -1000 -1000/
                     pause 300/
                     warp WaffleW 62 112/
                     warp PipoP 60 112/

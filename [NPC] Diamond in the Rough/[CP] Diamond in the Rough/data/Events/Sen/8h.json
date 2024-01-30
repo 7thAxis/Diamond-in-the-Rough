@@ -32,7 +32,7 @@
                     faceDirection SenS 2/
                     pause 900/
                     globalFade 0.012/
-                    viewport 999 999/
+                    viewport -1000 -1000/
                     globalFadeToClear 0.012 true/
                     changeToTemporaryMap SenOceanCG/
                     viewport 10 12 clamp/
@@ -47,7 +47,7 @@
                 speak SenS \"{{i18n:Events.SenS.Event8.7}}\"/
                     pause 500/
                     globalFade 0.012/
-                    viewport 999 999/
+                    viewport -1000 -1000/
                     globalFadeToClear 0.012 true/
                     changeToTemporaryMap Custom_EastScarpe/
                     viewport 71 121 clamp/
@@ -70,7 +70,7 @@
                     faceDirection farmer 2/
                 speak SenS \"{{i18n:Events.SenS.Event8.13}}\"/
                     globalFade 0.015/
-                    viewport 999 999/
+                    viewport -1000 -1000/
 
                 playMusic Upper_Ambient/
                 speak SenS \"{{i18n:Events.SenS.Event8.14}}\"/

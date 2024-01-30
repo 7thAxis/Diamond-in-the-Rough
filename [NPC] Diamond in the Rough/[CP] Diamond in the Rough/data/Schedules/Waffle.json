@@ -67,7 +67,7 @@
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
 					800 Custom_EastScarpe 32 100 waffle_sitleft/
-					1100 Blacksmith 4 15 waffle_sitleft/
+					1100 Blacksmith 5 15 waffle_sitleft/
 					1500 Town 85 103 waffle_lay/
 					1700 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/
 					2100 7 4 waffle_sleep",
@@ -134,7 +134,7 @@
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
 					800 Custom_EastScarpe 32 100 waffle_sitleft/
-					1100 Blacksmith 4 15 waffle_sitleft/
+					1100 Blacksmith 5 15 waffle_sitleft/
 					1400 Town 85 103 waffle_lay/
 					1530 Custom_EastScarpe 35 108 waffle_sitright/
 					2300 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/

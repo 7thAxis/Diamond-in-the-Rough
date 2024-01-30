@@ -72,7 +72,7 @@
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
 					800 Custom_EastScarpe 31 100 2/
-					1100 Blacksmith 3 15 0/
+					1100 Blacksmith 4 15 0/
 					1500 Town 86 103 2/
 					1700 {{ModID}}.Maps.EveHouseInterior 1 5 0/
 					2030 3 5 0/
@@ -143,7 +143,7 @@
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
 					800 Custom_EastScarpe 31 100 2/
-					1100 Blacksmith 3 15 0/
+					1100 Blacksmith 4 15 0/
 					1400 Town 86 103 2/
 					1530 Custom_EastScarpe 35 107 1/
 					2300 {{ModID}}.Maps.EveHouseInterior 1 5 0/
