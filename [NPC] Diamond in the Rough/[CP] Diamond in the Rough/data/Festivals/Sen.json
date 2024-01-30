@@ -1,109 +1,88 @@
 {
     "Changes": [
+//----------------EGG FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/spring13", //egg festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 37 96 2",
                     "Delimiter": "/"
                 },
                      {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 37 96 2",
                     "Delimiter": "/"
                 }
             ]
         },
+//----------------FLOWER DANCE------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/spring24", //flower dance
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 47 38 2",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 21 33 0",
                     "Delimiter": "/"
                 }
             ]
         },
+//----------------LUAU------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/summer11", //luau
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 53 21 2",
                     "Delimiter": "/"
                   },
                      {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 41 22 2",
                     "Delimiter": "/"
                 }
             ]
         },
+//----------------MOONLIGHT JELLY------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/summer28", //moonlight jelly
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 46 24 2",
                     "Delimiter": "/"
                   }
             ]
         },
+//----------------SDV FAIR------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/fall16", //fair
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 56 52 2",
                     "Delimiter": "/"
                     }
             ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			}
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
         {
             "Action": "EditData",
@@ -111,35 +90,26 @@
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 49 32 2",
                     "Delimiter": "/"
                     }
             ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
-			}
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
+//----------------SPIRITS EVE------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/fall27", //spirits eve
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 33 15 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			}
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
         {
             "Action": "EditData",
@@ -147,10 +117,7 @@
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 62 17 2",
                     "Delimiter": "/"
                  }
@@ -166,10 +133,7 @@
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 73 4 2",
                     "Delimiter": "/"
                  }
@@ -179,190 +143,150 @@
                 "IsOddYear": false
 			}
         },
+//----------------ICE FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter8", //ice festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 57 19 2",
                     "Delimiter": "/"
                  }
 
             ]
         },
+//----------------WINTER STAR------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter25", //feast of the winter star
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 47 71 2",
                     "Delimiter": "/"
                 }
             ]
         },
+//----------------RSV GATHERING------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/fall20", //Ridgeside Gathering
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 127 35 2",
                     "Delimiter": "/"
                  },    
                  {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 76 49 0",
                     "Delimiter": "/"
                 }
             ],
-            "When": {
-				"HasMod: |contains=Rafseazz.RSVCP": true
-			}
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
         },
+//----------------RSV EMBER OF RESOLUTIONS------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter28", //Ridgeside Ember
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 40 25 2",
                     "Delimiter": "/"
                  },      
                  {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 25 47 1",
                     "Delimiter": "/"
                 }
             ],
-            "When": {
-				"HasMod: |contains=Rafseazz.RSVCP": true
-			}
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
         },
+//----------------SURFING FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/summer5", //Surfing Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 28 4 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": {
-				"HasMod: |contains=spacechase0.SurfingFestival": true
-			}
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
         },
+//----------------FASHION FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/spring19", //Fashion Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 63 16 2",
                     "Delimiter": "/"
                  },     
                  {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "MainEvent_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "SenS 47 33 0",
                     "Delimiter": "/"
                 }
             ],
-            "When": {
-				"HasMod: |contains=UNA.FF.CP": true
-			}
+            "When": { "HasMod: |contains=UNA.FF.CP": true }
         },
+//----------------LOVE FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/winter13", //Love Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 48 70 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": {
-				"HasMod: |contains=AvalonMFX.LoveFestival": true
-			}
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
         },
+//----------------MARKETPAOOLZA------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/fall3", //Marketpalooza
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 32 5 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": {
-				"HasMod: |contains=Fellowclown.Nikolai": true
-			}
+            "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
         },
+//----------------FIREWORKS FESTIVAL------------------//
         {
             "Action": "EditData",
             "Target": "Data/Festivals/summer20", //Fireworks Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
-                    "Target": [
-                        "Entries",
-                        "Set-Up_additionalCharacters"
-                    ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "SenS 22 24 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": {
-				"HasMod: |contains=violetlizabet.FireworksFestival": true
-			}
+            "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
         },
+//----------------FESTIVAL OF THE MUNDANE------------------//
 		{
 			"LogName": "Sen Schedule Mundane Festival",
 			"Action": "EditData",
