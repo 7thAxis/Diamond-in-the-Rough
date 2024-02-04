@@ -19,7 +19,7 @@
             "TargetField": "Companion",
             "Entries": {
                 "Companion": {
-                    "InspectionDialogue":"{{i18n:Core.JeremyTS.{{Season}}.Day.{{Day}}|default={{i18n:Core.JeremyTS.{{WeatherGroup}}.1|default={{i18n:Core.JeremyTS.DailyDialogue.1|default={{i18n:Core.System.SomethingWentWrong}}}}}}}}"
+                    "InspectionDialogue":"{{i18n:Core.JeremyTS.{{Season}}.Day.{{Day}}|default={{i18n:Core.JeremyTS.{{IsTodayRainy}}.1|default={{i18n:Core.JeremyTS.DailyDialogue.1|default={{i18n:Core.System.SomethingWentWrong}}}}}}}}"
                 }
             },
             "When": { "HasSeenEvent: |contains=112": true }            
