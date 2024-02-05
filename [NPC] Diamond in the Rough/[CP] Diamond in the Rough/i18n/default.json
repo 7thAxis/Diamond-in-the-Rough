@@ -25,6 +25,18 @@
 "Config.Have Shadow Kids.description": "Determines if you have Shadow children when you are married to Sen and changes dialogue accordingly. (Sen must be set as the primary spouse if Free Love is installed for this to take effect.",
 "Config.Reshade Existing Shadows.name": "Reshade Existing Shadows",
 "Config.Reshade Existing Shadows.description": "Recolors existing Shadowfolk overworld sprites to match DitR's style.",
+"Config.Alpha Pipo Portrait.name": "Alpha Pipo Portrait",
+"Config.Alpha Pipo Portrait.description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
+"Config.Player Pronouns 1.name": "Player Pronouns 1",
+"Config.Player Pronouns 1.description": "Sets the player's desired pronouns. Enter in lower case. (Example: they)",
+"Config.Player Pronouns 2.name": "Player Pronouns 2",
+"Config.Player Pronouns 2.description": "Sets the player's desired pronouns. Enter in lower case. (Example: them)",
+"Config.Player Pronouns 3.name": "Player Pronouns 3",
+"Config.Player Pronouns 3.description": "Sets the player's desired pronouns. Enter in lower case. (Example: theirs)",
+"Config.Player Pronouns 4.name": "Player Pronouns 4",
+"Config.Player Pronouns 4.description": "Sets the player's desired pronouns. Enter in lower case. (Example: themself)",
+"Config.Player Pronouns Identifier.name": "Player Pronouns Identifier",
+"Config.Player Pronouns Identifier.description": "Should usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
 
 //System
 "Core.System.SomethingWentWrong": "Hmm. It seems something has gone wrong... Please tell my creator 7thAxis for me. I am having a existential crisis.$s",

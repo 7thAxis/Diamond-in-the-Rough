@@ -53,10 +53,22 @@
         }
     },
        //---------------------------- Pipo ------------------------------------------//
-       {
+    {
         "Action": "Load",
-        "Target": "Characters/PipoP, Portraits/PipoP, Characters/PipoP_Default, Portraits/PipoP_Default",
+        "Target": "Characters/PipoP, Characters/PipoP_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png"
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/PipoP, Characters/PipoP_Default",
+        "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png",
+        "When": { "Alpha Pipo Portrait": false }
+    },
+    {
+        "Action": "Load",
+        "Target": "Portraits/PipoP, Characters/PipoP_Default",
+        "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo_Alpha.png",
+        "When": { "Alpha Pipo Portrait": true }
     },
     {
         "LogName": "Pipo Animations",

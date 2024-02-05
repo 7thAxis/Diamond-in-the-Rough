@@ -57,6 +57,13 @@ CREDITS
             "Description": "Recolors existing Shadowfolk overworld sprites to match DitR's style.",
             "Section": "Graphics"
         },
+        "Alpha Pipo Portrait": {
+            "AllowValues": "true, false",
+            "Default": false,
+            "AllowBlank": false,
+            "Description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
+            "Section": "Graphics"
+        },
         "Player Pronouns 1": {
             "Default": "they",
             "AllowBlank": false,
