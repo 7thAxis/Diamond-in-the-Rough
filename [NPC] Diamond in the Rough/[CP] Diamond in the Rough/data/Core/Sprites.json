@@ -60,13 +60,13 @@
     },
     {
         "Action": "Load",
-        "Target": "Portraits/PipoP, Characters/PipoP_Default",
+        "Target": "Portraits/PipoP, Portraits/PipoP_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png",
         "When": { "Alpha Pipo Portrait": false }
     },
     {
         "Action": "Load",
-        "Target": "Portraits/PipoP, Characters/PipoP_Default",
+        "Target": "Portraits/PipoP, Portraits/PipoP_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo_Alpha.png",
         "When": { "Alpha Pipo Portrait": true }
     },

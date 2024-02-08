@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Eve Theme",
+            "LogName": "DitR Music",
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
@@ -15,7 +15,7 @@
             }
         },
         {
-            "LogName": "Waffle Bark",
+            "LogName": "DitR Sound Effects",
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
@@ -25,14 +25,8 @@
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
                     "StreamedVorbis": false,
                     "Looped": false
-                }
-            }
-        },
-        {
-            "LogName": "Pipo Meow",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
+                },
+
                 "{{ModID}}.SFX.PipoMeow": {
                     "ID": "{{ModID}}.SFX.PipoMeow",
                     "Category": "Sound",

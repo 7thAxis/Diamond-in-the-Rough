@@ -123,7 +123,6 @@ CREDITS
             "Name": "BasicRandomizer", 
             "Value": "{{Random:{{Range: 1, 2}}}}"
         },
-
         //DIALOGUE SWITCHERS
             /* SenPartnershipRoute - Checks the relationship route for Sen the player is currently on. 
                SenTermSwitcher - Used in i18n calls to change how Sen references the player based on relationship status

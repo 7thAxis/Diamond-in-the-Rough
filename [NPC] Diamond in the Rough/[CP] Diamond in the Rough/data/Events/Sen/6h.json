@@ -238,9 +238,7 @@
                     pause 2000/
                 end"
             },
-            "When": {
-                "HasFlag: |contains=DitR_M_SenGardenTrigger": true
-            }
+            "When": { "HasFlag: |contains=DitR_M_SenGardenTrigger": true }
         }
     ]
 }
