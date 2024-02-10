@@ -55,13 +55,11 @@
                         {
                             "ID": "Spring/Summer",
                             "Condition": "ANY \"SEASON Spring\" \"SEASON Summer\"",
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/Eve/Eve.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Eve/Eve.png}}"
                         },
                         {
                             "ID": "Fall/Winter",
                             "Condition": "ANY \"SEASON Winter\" \"SEASON Fall\"",
-                            "Portrait": "{{InternalAssetKey: Assets/Portraits/Eve/Eve_Cold.png}}",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Eve/Eve_Cold.png}}"
                         },
                         {
@@ -136,10 +134,19 @@
                     "ShakePortraits": [ 9, 10 ],
                     "SpouseRoom": { "MapAsset": "7thAxis_SenS_SpouseRoom" },
                     "Home": [
+                        {
+                            "Id": "Sen Waiting Room",
+                            "Location": "Custom_ES_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 7, "Y": 7 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
+                        },
                         { 
+                            "Id": "Sen Default Home",
                             "Location": "Custom_ESDeepDark",
                             "Tile": { "X": 25, "Y": 17 },
-                            "Direction": "down"
+                            "Direction": "down",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
                         }
                     ],
                     "ExcludeFromIntroductionsQuest": true,
@@ -225,30 +232,11 @@
             }
         },
         {
-            "Action": "EditData",
-            "Target": "Data/Characters",
-            "TargetField": [ "SenS" ],
-            "Entries": {
-                "Home": [
-                    {
-                        "Location": "Custom_ES_TNPCWaitingWarpRoom",
-                        "Tile": { "X": 7, "Y": 7 },
-                        "Direction": "down"
-                    }
-                ]
-            },
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": false }
-        },
-        {
-            "Action": "EditData",
+            "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
             "Target": "Data/Characters",
             "TargetField": [ "SenS" ],
             "Entries": { "CanBeRomanced": true },
-            "When": {
-                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
-                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
-                "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": true
-            }
+            "When": { "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": true }
         },
         {
             "Action": "EditData",
@@ -257,7 +245,6 @@
                 "808": { "ContextTags": [ "propose_roommate_krobus", "propose_roommate_sens" ] }
             },
             "When": {
-                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.0h": true,
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
                 "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": false
             }
