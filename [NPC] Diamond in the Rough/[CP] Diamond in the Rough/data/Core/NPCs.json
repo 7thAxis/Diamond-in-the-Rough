@@ -34,7 +34,7 @@
                     "CanBeRomanced": false,
                     "LoveInterest": null,
                     "SocialTab": "UnknownUntilMet",
-                    "ShakePortraits": [ 3 ],
+                    "ShakePortraits": [ 3, 11 ],
                     "ExcludeFromIntroductionsQuest": false,
                     "ExcludeFromPerfectionScore": false,
                     "DumpsterDiveFriendshipEffect": 0,
