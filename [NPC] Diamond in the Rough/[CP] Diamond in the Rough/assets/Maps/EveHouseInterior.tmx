@@ -29,8 +29,8 @@
  <tileset firstgid="7387" name="springobjects" tilewidth="16" tileheight="16" tilecount="936" columns="24">
   <image source="springobjects.png" width="384" height="624"/>
  </tileset>
- <tileset firstgid="8323" name="DitRTilesheet" tilewidth="16" tileheight="16" tilecount="25" columns="5">
-  <image source="DitRTilesheet.png" width="80" height="80"/>
+ <tileset firstgid="8323" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="25" columns="5">
+  <image source="spring_DitRTilesheet.png" width="80" height="80"/>
  </tileset>
  <layer id="1" name="Back" width="14" height="11">
   <data encoding="csv">

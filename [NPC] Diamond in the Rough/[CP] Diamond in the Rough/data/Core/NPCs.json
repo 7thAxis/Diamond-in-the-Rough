@@ -104,7 +104,7 @@
                     "Home": [
                         {
                             "Location": "Custom_EastScarpe",
-                            "Tile": { "X": 78, "Y": 94 },
+                            "Tile": { "X": 4, "Y": 85 },
                             "Direction": "left"
                         }
                     ],
@@ -339,7 +339,7 @@
             "Update": "OnLocationChange",
             "MapTiles": [
                 {
-                    "Position": { "X": "74", "Y": "99" },
+                    "Position": { "X": "14", "Y": "81" },
                     "Layer": "Back",
                     "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
                 }

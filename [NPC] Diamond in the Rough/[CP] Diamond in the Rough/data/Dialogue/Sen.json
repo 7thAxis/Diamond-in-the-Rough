@@ -18,41 +18,14 @@
             "When": { "Hearts:SenS": "{{Range: 6, 10}}" }
         },
         {
-            "LogName": "Sen Seasonal Override",
+            "LogName": "Sen Dialogue Overrides",
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Priority": "Late",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.SenS.Season.{{season}}.{{Random:{{Range: 1, 10}}}}{{SenRandTokens}}}}"
+                "{{WeekDay}}": "{{SenOverrideDialogue}}"
             },
-            "When": { "Query: {{Random: {{Range: 1, 15}}|key=DitRSSD}} = 1": true }
-        },
-        {
-            "LogName": "Sen Relationship Dialogue Override",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Priority": "Late + 1",
-            "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.SenS.RelationshipOverride.{{Random:{{Range: 1, 10}}}}{{RelationshipTokens}}}}"
-            },
-            "When": {
-                "Query: {{Random: {{Range: 1, 15}}|key=DitRSPD}} = 1": true,
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true,
-                "Hearts:SenS": "{{Range: 8, 10}}"
-             }
-        },
-        {
-            "LogName": "Sen Commentary about Krobus",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Priority": "Late",
-            "Entries":     { 
-                "{{WeekDay}}": "{{i18n:Core.SenS.KrobusCommentary.{{Random:{{Range: 1, 4}}}}}}"
-            },
-            "When": {
-                "Query: {{Random: {{Range: 1, 15}}|key=SKD}} = 1": true,
-                "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced"
-             }
+            "When": { "Query: {{Random: {{Range: 1, 15}}|key=SSDO}} = 1": true }
         },
         {
             "LogName": "Dialogue",

@@ -184,6 +184,70 @@ CREDITS
         {
             "Name": "PlayerPNTokens",
             "Value": "|PPN1={{Player Pronouns 1}} |PPN2={{Player Pronouns 2}}|PPN3={{Player Pronouns 3}}  |PPN4={{Player Pronouns 4}} |PPNI={{Player Pronoun Identifier}}"
+        },
+
+         //Situational Override Dialogue Generator 
+            //Generates conditional dialogue that will randomly override daily dialogue. 
+            //Hideous DTs but prevents me from running 500 Randomized Query checks that can overlap.
+            //Set up to remove dialogue from the pool if conditions aren't correct.
+            //Blank values are unfortunately needed or the entire override DT explodes
+            //Must be done per NPC as {{TargetWithoutPath}} will not parse correctly in a DT.
+
+        //--EVE OVERRIDE DIALOGUE GENERATION--
+
+        { "Name": "ETHasED", "Value": "" },  
+        { "Name": "ETHasBOES", "Value": "" },
+        { "Name": "ETHasTEST", "Value": "" }, 
+
+        {
+            "Name": "ETSD",
+            "Value": "{{i18n:Core.EveT.Season.{{season}}.{{Random:{{Range: 1, 5}}}}}}"
+        },         
+        {
+            "Name": "ETHasED",
+            "Value": "{{i18n:Core.EveT.EDComment.{{Random:{{Range: 1, 3}}}}}}++",
+            "When": { "HasMod: |contains=TenebrousNova.EliDylan.CP": true }
+        },      
+        {
+            "Name": "ETHasBOES", 
+            "Value": "{{i18n:Core.EveT.BOESComment.{{Random:{{Range: 1, 3}}}}}}++",
+            "When": { "HasMod: |contains=KingMadapples.BOES.CP": true }
+        },
+        {
+            "Name": "ETHasTEST",
+            "Value": "TEST++",
+            "When": { "HasMod: |contains=TEST": true }
+        },   
+        {
+            "Name": "EveOverrideDialogue",
+            "Value": "{{Random:{{ETHasED}} {{ETHasBOES}} {{ETHasTEST}} {{ETSD}}|inputSeparator=++}}"
+        },
+
+        //--SEN OVERRIDE DIALOGUE GENERATION--
+
+        { "Name": "SSRD",  "Value": "" },
+        { "Name": "SSKD", "Value": "" },
+
+        {
+            "Name": "SSSD",
+            "Value": "{{i18n:Core.SenS.Season.{{season}}.{{Random:{{Range: 1, 10}}}}{{SenRandTokens}}}}"
+        },
+        {
+            "Name": "SSRD",
+            "Value": "{{i18n:Core.SenS.RelationshipOverride.{{Random:{{Range: 1, 10}}}}{{RelationshipTokens}}}}++",
+            "When": {
+                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true,
+                "Hearts:SenS": "{{Range: 8, 10}}"
+            }
+        },    
+        {
+            "Name": "SSKD",
+            "Value": "{{i18n:Core.SenS.KrobusCommentary.{{Random:{{Range: 1, 4}}}}}}++",
+            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced" }
+        },
+        {
+            "Name": "SenOverrideDialogue",
+            "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|inputSeparator=++}}"
         }
     ],
     //Files

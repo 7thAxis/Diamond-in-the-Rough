@@ -3,5 +3,11 @@
   "Pacifist Mode": "true",
   "Golem Eradication Substitute": "true",
   "Have Shadow Kids": "true",
-  "Reshade Existing Shadows": "true"
+  "Reshade Existing Shadows": "true",
+  "Alpha Pipo Portrait": "false",
+  "Player Pronouns 1": "they",
+  "Player Pronouns 2": "them",
+  "Player Pronouns 3": "theirs",
+  "Player Pronouns 4": "themself",
+  "Player Pronoun Identifier": "are"
 }

@@ -46,56 +46,47 @@
             ]
          },
          //Map Patches
-         {
-            "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
-            "FromFile": "assets/Maps/EveHouseExterior.tmx",
-            "ToArea": {
-                "X": 75,
-                "Y": 87,
-                "Width": 10,
-                "Height": 10
-            },
-            "PatchMode": "Replace"
-        },
+            //EVE HOUSE
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "FromFile": "assets/Maps/EveHouseExterior.tmx",
+        "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
+        "PatchMode": "Replace"
+    },
         {
          "Action": "EditMap",
          "Target": "Maps/Custom_EastScarpe",
          "MapTiles": [
              {
-                 "Position": {
-                     "X": 80,
-                     "Y": 93
-                 },
+                 "Position": { "X": 80, "Y": 93 },
                  "Layer": "Buildings",
-                 "SetProperties": {
-                     "Action": "Warp 6 9 {{ModID}}.Maps.EveHouseInterior"
-                 }
+                 "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.EveHouseInterior" }
              }
          ]
-     },
+        },
+
+        //TRACE HOUSE
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "FromFile": "assets/Maps/TraceHouseExterior.tmx",
+        "ToArea": { "X": 0, "Y": 73, "Width": 13, "Height": 16 },
+        "PatchMode": "Replace"
+    },
+        //SEN MAP
      {
         "Action": "EditMap",
         "Target": "Maps/Custom_ESDeepDark",
         "FromFile": "assets/Maps/UndergroundSenPatch.tmx",
-        "ToArea": {
-            "X": 15,
-            "Y": 12,
-            "Width": 16,
-            "Height": 16
-        },
+        "ToArea": { "X": 15, "Y": 12, "Width": 16, "Height": 16 },
         "PatchMode": "Replace"
     },
     {
         "Action": "EditMap",
         "Target": "Maps/Custom_ESDeepDark",
         "FromFile": "assets/Maps/UndergroundSenPatchGarden.tmx",
-        "ToArea": {
-            "X": 15,
-            "Y": 12,
-            "Width": 16,
-            "Height": 34
-        },
+        "ToArea": { "X": 15, "Y": 12, "Width": 16, "Height": 34 },
         "PatchMode": "Replace",
         "When": {
             "HasFlag: |contains=DitR_M_SenGardenTrigger": true,
