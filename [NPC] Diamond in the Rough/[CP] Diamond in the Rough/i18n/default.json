@@ -46,6 +46,7 @@
 
 //Locations
 "Core.Locations.EveHouse": "Eve's House",
+"Core.Locations.TraceHouse": "Trace's House",
 
 //Names
 "Core.EveT.Name": "Eve",
@@ -236,7 +237,7 @@
 "Core.WaffleW.Action.11": "%Waffle stretches and yawns. She must be tired.",
 "Core.WaffleW.Action.12": "%You give Waffle belly rubs and she kicks her leg.",
 "Core.WaffleW.Action.13": "%Waffle looks like she wants to play fetch.",
-"Core.WaffleW.Action.14": "%Waffle has intrusive thoughts  about eating from the trash.",
+"Core.WaffleW.Action.14": "%Waffle has intrusive thoughts about eating from the trash.",
 "Core.WaffleW.Action.15": "%Waffle looks at you with her odd eyes. There’s something strange about her.",
 "Core.WaffleW.Action.16": "%Waffle rolls around on the ground. She leaves waffle imprints in her wake.",
 "Core.WaffleW.Action.17": "%Waffle sniffs your leg, searching you for hidden pocket treats for the fifth time today.",
@@ -1958,10 +1959,19 @@
 ╚██████╔╝╚██████╔╝███████╗███████║   ██║   ███████║
  ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚══════╝
 */
+
+//Sen's Garden
 "Quests.DitR.AGardenForSen.Title": "A Garden for Sen",
 "Quests.DitR.AGardenForSen.Description": "Sen needs mixed seeds so he can start a garden!",
 "Quests.DitR.AGardenForSen.Task": "Bring 30 mixed seeds to Sen.",
 "Quests.DitR.AGardenForSen.FollowUp": "...!$7#$b#With both of our seed collecting efforts combined, we should have plenty now.$h#$b#Thank you so much, @. Come visit my home in a few days, alright?$h#$action AddMail Current DitR_M_AGardenForSenComplete received",
+
+//Snail Monsense
+"Quests.DitR.LavaSnailRoundUp.Title": "Lava Snail Round-Up!",
+"Quests.DitR.LavaSnailRoundUp.Description": "There are many Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
+"Quests.DitR.LavaSnailRoundUp.Task": "Bring 10 Lava Snails to Pipo for Jeremy.",
+"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current M_DitR_LavaSnailQuestActive#$action AddFriendshipPoints PipoP -250",
+"Quests.DitR.LavaSnailRoundUp.QuestActive": "You've already accepted the quest!",
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
 ██╔════╝██║   ██║██╔════╝████╗  ██║╚══██╔══╝██╔════╝

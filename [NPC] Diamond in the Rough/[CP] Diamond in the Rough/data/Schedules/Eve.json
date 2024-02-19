@@ -101,7 +101,8 @@
 					2200 12 5 eve_sleep",
 
 				"winter_16":"GOTO winter_15",
-				"winter_17":"GOTO winter_15"
+				"winter_17":"GOTO winter_15",
+				"spring_12": "GOTO Mon"
 			}
 		},
 		

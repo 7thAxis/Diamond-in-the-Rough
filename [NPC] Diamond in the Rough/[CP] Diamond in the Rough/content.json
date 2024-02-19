@@ -9,6 +9,7 @@ CREDITS
     LemurKat - For being an amazing modmom and giving my babies a home!
     KittyCatCasey - For adding amazing features to SpaceCore that let me do fancy things!
     TheFrenchDodo - For the rendition of Barbie Girl for Trace. I promise I'll use this.
+    Concerned Ape - For creating SDV and giving me a creative outlet!
     Zane Little - Eve's theme from FMA. (https://freemusicarchive.org/music/zane-little/a-bag-of-chips/the-world-is-ours/)
 
     Also a special thanks to all my friends offering feedback and creative support:
@@ -292,10 +293,10 @@ CREDITS
             "Action": "Include",
             "FromFile": "data/Dialogue/Pipo.json, data/Schedules/Pipo.json, data/Festivals/Pipo.json, data/Movies/Pipo.json"
         },
-        //Pipo
+        //Jeremy
         {
             "Action": "Include",
-            "FromFile": "data/Dialogue/Jeremy.json"
+            "FromFile": "data/Dialogue/Jeremy.json, data/Events/Jeremy/QuestActivation.json"
         },
         //loads based on mod compat
         {

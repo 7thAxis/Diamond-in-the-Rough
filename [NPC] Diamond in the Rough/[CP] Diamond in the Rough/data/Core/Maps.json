@@ -1,28 +1,28 @@
+//Note: Put map patches before warps or they won't work!
 {
     "Changes": [
-        //Map Loads
-        {
-			"Action": "Load",
-			"Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
-			"FromFile": "assets/Maps/EveHouseInterior.tmx"
-		},
+    //CGs
+
         {
             "Action": "Load",
             "Target": "Maps/SenOceanCG",
             "FromFile": "assets/Maps/SenOceanCG.tmx"
         },
-        {
-            "Action": "Load",
-            "Target": "Maps/7thAxis_SenS_SpouseRoom",
-            "FromFile": "assets/maps/SenRoom.tmx"
-        },
-        //Temp Maps
+    //Temp Maps
         {
             "Action": "Load",
             "Target": "Maps/SenFlashback",
             "FromFile": "assets/Maps/SenFlashback.tmx"
         },
-        //Location Data
+
+    //LOCATIONS
+//----------------
+    //Location Data EVE HOUSE
+        {
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
+			"FromFile": "assets/Maps/EveHouseInterior.tmx"
+		},
         {
 			"LogName": "Location Data",
 			"Action": "EditData",
@@ -37,36 +37,52 @@
 				}
 			}
 		},
+        //Map Patches
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "FromFile": "assets/Maps/EveHouseExterior.tmx",
+            "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
+            "PatchMode": "Replace"
+        },
         //Warps
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
-            "AddWarps": [
-               "6 11 Custom_EastScarpe 80 94"
-            ]
-         },
-         //Map Patches
-            //EVE HOUSE
-    {
-        "Action": "EditMap",
-        "Target": "Maps/Custom_EastScarpe",
-        "FromFile": "assets/Maps/EveHouseExterior.tmx",
-        "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
-        "PatchMode": "Replace"
-    },
-        {
-         "Action": "EditMap",
-         "Target": "Maps/Custom_EastScarpe",
-         "MapTiles": [
-             {
-                 "Position": { "X": 80, "Y": 93 },
-                 "Layer": "Buildings",
-                 "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.EveHouseInterior" }
-             }
-         ]
+            "AddWarps": [ "6 11 Custom_EastScarpe 80 94" ]
         },
-
-        //TRACE HOUSE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EastScarpe",
+            "MapTiles": [
+                {
+                    "Position": { "X": 80, "Y": 93 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.EveHouseInterior" }
+                }
+            ]
+           },        
+//----------------
+    //Location Data TRACE HOUSE
+    {
+        "Action": "Load",
+        "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
+        "FromFile": "assets/Maps/TraceHouseInterior.tmx"
+    },
+    {
+        "LogName": "Location Data",
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+            "{{ModID}}.Maps.TraceHouseInterior": {
+                "MusicIsTownTheme": true,
+                "DisplayName": "{{i18n:Core.Locations.TraceHouse}}",
+                "DefaultArrivalTile": { "X": 16, "Y": 23 },
+                "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.TraceHouseInterior" }
+            }
+        }
+    },
+    //Map Patches
     {
         "Action": "EditMap",
         "Target": "Maps/Custom_EastScarpe",
@@ -74,6 +90,38 @@
         "ToArea": { "X": 0, "Y": 73, "Width": 13, "Height": 16 },
         "PatchMode": "Replace"
     },
+    //Warps
+    {
+        "Action": "EditMap",
+        "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
+        "AddWarps": [ 
+            "15 24 Custom_EastScarpe 6 83",
+            "16 24 Custom_EastScarpe 6 83" 
+        ]
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "MapTiles": [
+            {
+                "Position": { "X": 6, "Y": 82 },
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "Warp 16 23 {{ModID}}.Maps.TraceHouseInterior" }
+            }
+        ]
+       }, 
+    {
+        "Action": "EditMap",
+        "Target": "Maps/Custom_EastScarpe",
+        "MapTiles": [
+            {
+                "Position": { "X": 2, "Y": 83 },
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.LavaSnailRoundUp.QuestActive}}" }
+            }
+        ]
+    },
+//----------------
         //SEN MAP
      {
         "Action": "EditMap",
@@ -93,7 +141,13 @@
             "HasConversationTopic: |contains=DitR_CT_GardenWaitTime": false
         }
     },
-    // MEEP images and text
+    //Sen Spouse Room
+    {
+        "Action": "Load",
+        "Target": "Maps/7thAxis_SenS_SpouseRoom",
+        "FromFile": "assets/maps/SenRoom.tmx"
+    },
+// MEEP images and text
      {
         "Action": "Load",
         "Target": "Mods/{{ModID}}.Images/DrawerPhoto.1",
@@ -121,7 +175,7 @@
             }
         ]
     },
-    //Map Strings
+//Map Strings
          {
             "LogName": "Eve Map Strings",
             "Action": "EditData",
