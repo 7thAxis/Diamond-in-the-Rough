@@ -47,6 +47,7 @@
 //Locations
 "Core.Locations.EveHouse": "Eve's House",
 "Core.Locations.TraceHouse": "Trace's House",
+"Core.Locations.TraceHouse.ClosedDoors": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
 
 //Names
 "Core.EveT.Name": "Eve",
@@ -1108,7 +1109,7 @@
 "Core.TraceV.LateHeart.2": "Uhg, you ever have days where your mind races with every single cruddy thing you've done in your life?#$b#They're the worst.#$e#Oh uh, sorry to dump that on you. I'm sure I'll sleep it off overnight.",
 "Core.TraceV.LateHeart.3": "%Trace would nervously fidget with their hands.#$e#Huh? Oh, I'm alright. I'm having one of those days is all.#$b#Thanks for checking on me, @. I appreciate it.",
 "Core.TraceV.LateHeart.4": "The sheer number of weird ways in which I've gotten lost in my life is kinda frustrating.#$b#Sometimes I feel like I can't make it anywhere without tripping up.#$e#I try to look at it this way - it at least makes for a ton of funny stories.",
-"Core.TraceV.LateHeart.5": "Do you believe in magic, @? Just between you and me, I think it does.#$b#I feel like I've always had a cloud of bad luck hanging over my head.#$b#That fortune teller show has never been wrong for me.",
+"Core.TraceV.LateHeart.5": "Do you believe in magic, @? Just between you and me, I think it exists.#$b#I feel like I've always had a cloud of bad luck hanging over my head.#$b#That fortune teller show has never been wrong for me.",
 "Core.TraceV.LateHeart.6": "Beware the bear, @.#$b#They're out there and they want maple syrup.#$e#Keep an eye on your trashcan.#$b#They'll do anything to get their grubby little paws on the stuff.#$e#No, this ain't a cover-up for anything.",
 "Core.TraceV.LateHeart.7": "Tomatoes are vegetables! No one can convince me otherwise.#$b#They may be classified as fruits scientifically, but in the culinary world, they're used like veggies!#$e#Yeah, I have this debate with random townsfolk on a weekly basis.",
 "Core.TraceV.LateHeart.8": "You've heard of a snowman... but have you heard of a snowsam?#$b#The only difference is that you give it giant icicle spikes for hair.#$e#Don't let him know I said that, I'll probably never hear the end of it.",

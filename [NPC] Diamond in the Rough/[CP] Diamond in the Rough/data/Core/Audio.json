@@ -11,6 +11,13 @@
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/The_World_is_Ours.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
+                },
+                "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
+                    "ID": "{{ModID}}.Music.BarbieGirl",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/Barbie_Girl.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
                 }
             }
         },

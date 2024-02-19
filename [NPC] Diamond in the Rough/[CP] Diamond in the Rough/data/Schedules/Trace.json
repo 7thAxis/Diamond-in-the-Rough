@@ -6,8 +6,8 @@
 			"Target": "Characters/schedules/TraceV",
 			"Entries": {
                 "spring":"
-                0 Custom_EastScarpe 4 85/
-                610 4 85 2",
+                0 {{ModID}}.Maps.TraceHouseInterior 13 7/
+                630 13 14 2",
             }
 		}
     ]
