@@ -44,11 +44,6 @@
 //Monster Eradication
 "Core.Monsters.GolemEradication": "Golems",
 
-//Locations
-"Core.Locations.EveHouse": "Eve's House",
-"Core.Locations.TraceHouse": "Trace's House",
-"Core.Locations.TraceHouse.ClosedDoors": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
-
 //Names
 "Core.EveT.Name": "Eve",
 "Core.SenS.Name": "Sen",
@@ -1893,6 +1888,9 @@
 ██║ ╚═╝ ██║██║  ██║██║         ███████║   ██║   ██║  ██║██║██║ ╚████║╚██████╔╝███████║
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝         ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 */
+//Location names
+"Maps.EveT.EveHouse": "Eve's House",
+"Maps.TraceV.TraceHouse": "Trace's House",
 
 //Eve
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
@@ -1952,6 +1950,9 @@
 "Maps.SenS.SenRoomCloth": "It's scrap of cloth from Sen's most recent costume design.",
 "Maps.SenS.SenRoomNotes": "You can't read the language on this paper.#You can tell the handwriting is bad, however.",
 "Maps.SenS.SenRoomBlueFlowers": "These are flowers from Sen's garden back in East Scarp.",
+
+//TRACE
+"Maps.TraceV.TraceHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
 /*
  ██████╗ ██╗   ██╗███████╗███████╗████████╗███████╗
 ██╔═══██╗██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝

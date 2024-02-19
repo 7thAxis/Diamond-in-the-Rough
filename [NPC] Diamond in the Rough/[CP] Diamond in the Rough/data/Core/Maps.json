@@ -30,7 +30,7 @@
 			"Entries": {
 				"{{ModID}}.Maps.EveHouseInterior": {
                     "MusicIsTownTheme": true,
-					"DisplayName": "{{i18n:Core.Locations.EveHouse}}",
+					"DisplayName": "{{i18n:Maps.EveT.EveHouse}}",
 					"DefaultArrivalTile": { "X": 6, "Y": 10 },
 					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.EveHouseInterior" },
 					"FormerLocationNames": [ "7thAxis.LotV.EveHouseInterior" ]
@@ -83,7 +83,7 @@
                     }
                   ],
                 "MusicDefault": null,
-                "DisplayName": "{{i18n:Core.Locations.TraceHouse}}",
+                "DisplayName": "{{i18n:Maps.TraceV.TraceHouse}}",
                 "DefaultArrivalTile": { "X": 16, "Y": 23 },
                 "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.TraceHouseInterior" }
             }
@@ -141,25 +141,6 @@
             }
         ],
         "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
-    },
-        //Closed doors in Trace's house
-    {
-        "Action": "EditMap",
-        "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
-        "Update": "OnLocationChange",
-        "MapTiles": [
-            {
-                "Position": { "X": 13, "Y": 12 },
-                "Layer": "Buildings",
-                "SetProperties": { "Action": "Dialogue {{i18n:Core.Locations.TraceHouse.ClosedDoors |TraceHearts={{Hearts:TraceV}}}}" }
-            },
-            {
-                "Position": { "X": 6, "Y": 12 },
-                "Layer": "Buildings",
-                "SetProperties": { "Action": "Dialogue {{i18n:Core.Locations.TraceHouse.ClosedDoors |TraceHearts={{Hearts:TraceV}}}}" }
-            }
-        ],
-        "When": { "Hearts:TraceV": "{{Range: 0, 7}}" }
     },
         //Open doors in Trace's House
         {
@@ -272,10 +253,7 @@
         "Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
         "MapTiles": [
             {
-                "Position": {
-                    "X": 10,
-                    "Y": 4
-                },
+                "Position": { "X": 10, "Y": 4 },
                 "Layer": "Back",
                 "SetProperties": {
                     "MEEP_CloseupInteraction_Image": "Mods/{{ModID}}.Images/DrawerPhoto.1",
@@ -286,10 +264,12 @@
     },
 //Map Strings
          {
-            "LogName": "Eve Map Strings",
+            "LogName": "DitR Map Strings",
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
+                
+            //EVE STRINGS
                 "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
                 "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
                 "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
@@ -305,15 +285,9 @@
                 "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
                 "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
                 "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}",
-                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}"
-            }
-        },
-        {
-            "LogName": "Sen Map Strings",
-            "Action": "EditData",
-            "Target": "strings/StringsFromMaps",
-            "Entries": {
-                //deep dark room
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}",
+
+            //SEN STRINGS
                 "SenDDGlobe": "{{i18n:Maps.SenS.SenDDGlobe}}",
                 "SenDDBasket": "{{i18n:Maps.SenS.SenDDBasket}}",
                 "SenDDMap": "{{i18n:Maps.SenS.SenDDMap}}",
@@ -355,8 +329,11 @@
                 "SenRoomLatch": "{{i18n:Maps.SenS.SenRoomLatch}}",
                 "SenRoomCloth": "{{i18n:Maps.SenS.SenRoomCloth}}",
                 "SenRoomNotes": "{{i18n:Maps.SenS.SenRoomNotes}}",
-                "SenRoomBlueFlowers": "{{i18n:Maps.SenS.SenRoomBlueFlowers}}"
+                "SenRoomBlueFlowers": "{{i18n:Maps.SenS.SenRoomBlueFlowers}}",
+
+            //TRACE STRINGS
+                "TraceHClosedDoor": "{{i18n:Maps.TraceV.TraceHClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
             }
-        } 
+        }
     ]
  }

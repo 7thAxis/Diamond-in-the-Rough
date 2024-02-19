@@ -1,5 +1,6 @@
 {
     "Changes": [
+        //Valley Lily
         {
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -208,6 +209,7 @@
                 }
             }
         },
+        //Sen's Crocus
         {
             "Action": "EditData",
             "Target": "Data/Locations",
