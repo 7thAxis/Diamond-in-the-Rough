@@ -66,33 +66,33 @@ CREDITS
             "Section": "Graphics"
         },
         "Player Pronouns 1": {
-            "Default": "they",
+            "Default": "They",
             "AllowBlank": false,
-            "Description": "Sets the player's desired pronouns. Enter in lower case. (Example: they)",
+            "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: They, She)",
             "Section": "Pronouns"
         }, 
         "Player Pronouns 2": {
-            "Default": "them",
+            "Default": "Them",
             "AllowBlank": false,
-            "Description": "Sets the player's desired pronouns. Enter in lower case. (Example: them)",
+            "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Them, Her)",
             "Section": "Pronouns"
         },
         "Player Pronouns 3": {
-            "Default": "theirs",
+            "Default": "Theirs",
             "AllowBlank": false,
-            "Description": "Sets the player's desired pronouns. Enter in lower case. (Example: theirs)",
+            "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Theirs, Hers)",
             "Section": "Pronouns"
         },
         "Player Pronouns 4": {
-            "Default": "themself",
+            "Default": "Themself",
             "AllowBlank": false,
-            "Description": "Sets the player's desired pronouns. Enter in lower case. (Example: themself)",
+            "Description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Themself, Herself)",
             "Section": "Pronouns"
         },
         "Player Pronoun Identifier": {
             "Default": "are",
             "AllowBlank": false,
-            "Description": "Should usually be \"is\" or \"are\", depending on context. Example: She IS so cool! VS. They ARE so cool!",
+            "Description": "Would usually be \"is\" or \"are\", depending on context. (She IS so cool! VS. They ARE so cool!) You can enter multiple sets for randomized selection each day separated by ','. (Example: are, is)",
             "Section": "Pronouns"
         }             
     },
@@ -161,13 +161,7 @@ CREDITS
         },
         {
             "Name": "AnimalBehavior",
-            "Value": "Sound",
-            "When": { "BasicRandomizer": "1" }
-        },
-        {
-            "Name": "AnimalBehavior",
-            "Value": "Action",
-            "When": { "BasicRandomizer": "2" }
+            "Value": "{{Random:Sound, Action}}"
         },
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 
@@ -184,7 +178,7 @@ CREDITS
         },
         {
             "Name": "PlayerPNTokens",
-            "Value": "|PPN1={{Player Pronouns 1}} |PPN2={{Player Pronouns 2}}|PPN3={{Player Pronouns 3}}  |PPN4={{Player Pronouns 4}} |PPNI={{Player Pronoun Identifier}}"
+            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |PPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |PPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}}"
         },
 
          //Situational Override Dialogue Generator 

@@ -286,7 +286,7 @@
                             "Direction": "down"
                         }
                     ],
-                    "SocialTabIconSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
+                    "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
                 }
             }
         },
@@ -327,7 +327,7 @@
                             "Direction": "left"
                         }
                     ],
-                    "SocialTabIconSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
+                    "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
                 }
             }
         },
