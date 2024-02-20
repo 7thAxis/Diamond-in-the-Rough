@@ -1,10 +1,41 @@
 {
     "Changes": [
-        //Lily of the Vally
+        //LAVA SNAIL
         {
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+                "{{ModID}}.Items.LavaSnail": {
+                    "Name": "{{ModID}}.Items.LavaSnail",
+                    "DisplayName": "{{i18n:Items.LavaSnail.Title}}",
+                    "Description": "{{i18n:Items.LavaSnail.Description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 50,
+                    "Edibility": -50,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "ContextTags": [ "color_red", "color_black", "fish_lava_snail", "forage_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 6
+                },
+
+                //VALLEY LILY
                 "{{ModID}}.Items.ValleyLily": {
                     "Name": "{{ModID}}.Items.ValleyLily",
                     "DisplayName": "{{i18n:Items.ValleyLily.Title}}",
@@ -30,15 +61,11 @@
                             "Attack": 0
                         }
                     },
+                    "ContextTags": [ "color_white", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 0
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+                },
+
                 "{{ModID}}.Items.ValleyLilySeeds": {
                     "Name": "{{ModID}}.Items.ValleyLilySeeds",
                     "DisplayName": "{{i18n:Items.ValleyLilySeeds.Title}}",
@@ -65,30 +92,9 @@
                     },
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Crops",
-            "Entries": {
-                "{{ModID}}.Items.ValleyLilySeeds": {
-                    "Seasons": [ "spring", "summer" ],
-                    "DaysInPhase": [1,1,1,1],
-                    "HarvestItemId": "{{ModID}}.Items.ValleyLily",
-                    "RegrowDays": "0",
-                    "IsRaised": false,
-                    "HarvestMaxIncreasePerFarmingLevel": "0",
-                    "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
-                    "SpriteIndex": 0
-                }
-            }
-        },
-        //Golden Valley Lily
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+                },
+
+                //GOLDEN VALLEY LILY
                 "{{ModID}}.Items.GoldenValleyLily": {
                     "Name": "{{ModID}}.Items.GoldenValleyLily",
                     "DisplayName": "{{i18n:Items.GoldenValleyLily.Title}}",
@@ -114,26 +120,11 @@
                             "Attack": 0
                         }
                     },
+                    "ContextTags": [ "color_gold", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 2
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": {
-              "{{ModID}}.Items.GoldenValleyLily": { // The object ID
-                "EatenHealthRestoredOverride": -99,
-                "EatenStaminaRestoredOverride": -269
+                },
 
-              }
-            }
-          },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
                 "{{ModID}}.Items.GoldenValleyLilySeeds": {
                     "Name": "{{ModID}}.Items.GoldenValleyLilySeeds",
                     "DisplayName": "{{i18n:Items.GoldenValleyLilySeeds.Title}}",
@@ -160,29 +151,9 @@
                     },
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 3
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Crops",
-            "Entries": {
-                "{{ModID}}.Items.GoldenValleyLilySeeds": {
-                    "Seasons": [ "spring", "summer" ],
-                    "DaysInPhase": [1,4,4,4],
-                    "HarvestItemId": "{{ModID}}.Items.GoldenValleyLily",
-                    "RegrowDays": "0",
-                    "IsRaised": false,
-                    "HarvestMaxIncreasePerFarmingLevel": "0",
-                    "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
-                    "SpriteIndex": 1
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+                },
+
+                //SEN'S CROCUS
                 "{{ModID}}.Items.SensCrocus": {
                     "Name": "{{ModID}}.Items.SensCrocus",
                     "DisplayName": "{{i18n:Items.SensCrocus.Title}}",
@@ -209,15 +180,11 @@
                             "Attack": 0
                         }
                     },
+                    "ContextTags": [ "color_purple", "season_spring", "season_summer", "season_fall", "season_winter", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 5
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+                },
+
                 "{{ModID}}.Items.SensCrocusSeeds": {
                     "Name": "{{ModID}}.Items.SensCrocusSeeds",
                     "DisplayName": "{{i18n:Items.SensCrocusSeeds.Title}}",
@@ -252,15 +219,47 @@
             "Action": "EditData",
             "Target": "Data/Crops",
             "Entries": {
+                "{{ModID}}.Items.ValleyLilySeeds": {
+                    "Seasons": [ "spring", "summer" ],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],
+                    "HarvestItemId": "{{ModID}}.Items.ValleyLily",
+                    "RegrowDays": "0",
+                    "IsRaised": false,
+                    "HarvestMaxIncreasePerFarmingLevel": "0",
+                    "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
+                    "SpriteIndex": 0
+                },
+
+                "{{ModID}}.Items.GoldenValleyLilySeeds": {
+                    "Seasons": [ "spring", "summer" ],
+                    "DaysInPhase": [ 1, 4, 4, 4 ], 
+                    "HarvestItemId": "{{ModID}}.Items.GoldenValleyLily",
+                    "RegrowDays": "0",
+                    "IsRaised": false,
+                    "HarvestMaxIncreasePerFarmingLevel": "0",
+                    "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
+                    "SpriteIndex": 1
+                },
+
                 "{{ModID}}.Items.SensCrocusSeeds": {
                     "Seasons": [ "spring", "summer", "fall", "winter" ],
-                    "DaysInPhase": [1,1,1,1],
+                    "DaysInPhase": [ 1, 1, 1, 1 ],                    
                     "HarvestItemId": "{{ModID}}.Items.SensCrocus",
                     "RegrowDays": "0",
                     "IsRaised": false,
                     "HarvestMaxIncreasePerFarmingLevel": "0",
                     "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
                     "SpriteIndex": 2
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModID}}.Items.GoldenValleyLily": { // The object ID
+                    "EatenHealthRestoredOverride": -99,
+                    "EatenStaminaRestoredOverride": -269
                 }
             }
         }

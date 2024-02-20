@@ -1,7 +1,15 @@
 {
     "Changes": [
-       //---------------------------- Eve ------------------------------------------//
-       {
+    //---------------------------- Aquarium Fish ------------------------------------------//
+    {
+        "LogName": "DitR Aquarium Sprites",
+        "Action": "Load",
+        "Target": "Mods/{{ModID}}/AquariumFish",
+        "FromFile": "assets/Items/AquariumFish.png"
+    },
+
+    //---------------------------- Eve ------------------------------------------//
+    {
         "Action": "Load",
         "Target": "Characters/EveT, Portraits/EveT, Characters/EveT_Default, Portraits/EveT_Default",
         "FromFile": "assets/{{TargetPathOnly}}/Eve/Eve.png"

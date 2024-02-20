@@ -1,0 +1,20 @@
+{
+    "Changes": [        
+        {
+            "LogName": "DitR Fishing Data",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "{{ModID}}.Items.LavaSnail": "Lava Snail/trap/.15//freshwater/12/24/false"
+            }
+        },
+        {
+            "LogName": "DitR Aquarium Data",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "{{ModID}}.Items.LavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\AquariumFish/16 8"
+            }
+        }
+    ]
+}
