@@ -14,8 +14,10 @@
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
                 ignoreCollisions farmer/
-                addTemporaryActor {{i18n:Core.SenS.Name.Skrell}} 16 32 -999 -999 2 true character/
-                addTemporaryActor {{i18n:Core.SenS.Name.Ebb}} 16 32 -999 -999 2 true character/
+                addTemporaryActor Skrell 16 32 -2000 -2000 2 true character/
+                addTemporaryActor Ebb 16 32 -2000 -2000 2 true character/
+                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
+                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 addConversationTopic DitR_CT_MineFlashback 3/
                 skippable/
                 pause 800/
@@ -64,7 +66,7 @@
                     pause 100/
                     globalFade 0.012/
                     viewport -1000 -1000/
-                    warp farmer -1000 -1000/
+                    warp farmer -2000 -2000/
                     warp SenS 18 10/
                     faceDirection SenS 0/
                     warp Skrell 18 7/
@@ -223,15 +225,15 @@
                     advancedMove Ebb false 0 3 2 100/
                     pause 300/
 
-                warp SenS -1000 -1000/
+                warp SenS -2000 -2000/
                 globalFade 0.012/
                 viewport -1000 -1000/
                 warp farmer 24 37/
                 warp SenS 25 37/
                 faceDirection SenS 3/
                 faceDirection farmer 1/
-                warp Skrell -1000 -1000/
-                warp Ebb -1000 -1000/
+                warp Skrell -2000 -2000/
+                warp Ebb -2000 -2000/
                 globalFadeToClear 0.012 true/
                 changeLocation Custom_ESDeepDark/
                 viewport 21 37 clamp/
@@ -293,8 +295,10 @@
                 addConversationTopic DitR_CT_TheConfrontation 3/
                 skippable/
                 addLantern 737 32 110 3/
-                addTemporaryActor {{i18n:Core.SenS.Name.Skrell}} 16 32 37 113 3 true character/
-                addTemporaryActor {{i18n:Core.SenS.Name.Ebb}} 16 32 36 112 2 true character/
+                addTemporaryActor Skrell 16 32 37 113 3 true character/
+                addTemporaryActor Ebb 16 32 36 112 2 true character/
+                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
+                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 pause 500/
 
                     advancedMove farmer false 0 2 1 0 2 600/
@@ -644,7 +648,8 @@
                 ignoreCollisions farmer/
                 addConversationTopic DitR_CT_SkrellEpilogue 3/
                 skippable/
-                addTemporaryActor {{i18n:Core.SenS.Name.Skrell}} 16 32 8 19 2 true character/
+                addTemporaryActor Skrell 16 32 8 19 2 true character/
+                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
 
                     advancedMove farmer false 6 0 1 100/
                     pause 3200/

@@ -76,9 +76,11 @@
                 speak SenS \"{{i18n:Events.SenS.Event8.14}}\"/
                 changePortrait SenS Kid/
                 changeSprite SenS Kid/
-                addTemporaryActor {{i18n:Core.SenS.Name.Skrell}} 16 32 -999 -999 2 true character/
-                addTemporaryActor {{i18n:Core.SenS.Name.Ebb}} 16 32 -999 -999 2 true character/
-                warp SenS -999 -999/
+                addTemporaryActor Skrell 16 32 -2000 -2000 2 true character/
+                addTemporaryActor Ebb 16 32 -2000 -2000 2 true character/
+                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
+                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
+                warp SenS -2000 -2000/
                 globalFadeToClear 0.012 true/
                 changeToTemporaryMap SenFlashback/
                 viewport 10 12 clamp/
