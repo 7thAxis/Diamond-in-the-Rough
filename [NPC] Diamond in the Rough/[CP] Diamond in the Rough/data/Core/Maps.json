@@ -40,7 +40,7 @@
         //Map Patches
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "FromFile": "assets/Maps/EveHouseExterior.tmx",
             "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
             "PatchMode": "Replace"
@@ -49,11 +49,11 @@
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.EveHouseInterior",
-            "AddWarps": [ "6 11 Custom_EastScarpe 80 94" ]
+            "AddWarps": [ "6 11 EastScarp_Village 80 94" ]
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "MapTiles": [
                 {
                     "Position": { "X": 80, "Y": 93 },
@@ -92,7 +92,7 @@
     //Map Patches
     {
         "Action": "EditMap",
-        "Target": "Maps/Custom_EastScarpe",
+        "Target": "Maps/EastScarp_Village",
         "FromFile": "assets/Maps/TraceHouseExterior.tmx",
         "ToArea": { "X": 0, "Y": 73, "Width": 13, "Height": 16 },
         "PatchMode": "Replace"
@@ -102,13 +102,13 @@
         "Action": "EditMap",
         "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
         "AddWarps": [ 
-            "15 24 Custom_EastScarpe 6 83",
-            "16 24 Custom_EastScarpe 6 83" 
+            "15 24 EastScarp_Village 6 83",
+            "16 24 EastScarp_Village 6 83" 
         ]
     },
     {
         "Action": "EditMap",
-        "Target": "Maps/Custom_EastScarpe",
+        "Target": "Maps/EastScarp_Village",
         "MapTiles": [
             {
                 "Position": { "X": 6, "Y": 82 },
@@ -202,7 +202,7 @@
     //Other 
     {
         "Action": "EditMap",
-        "Target": "Maps/Custom_EastScarpe",
+        "Target": "Maps/EastScarp_Village",
         "MapTiles": [
             {
                 "Position": { "X": 2, "Y": 83 },
@@ -215,14 +215,14 @@
         //SEN MAP
      {
         "Action": "EditMap",
-        "Target": "Maps/Custom_ESDeepDark",
+        "Target": "Maps/EastScarp_DeepDark",
         "FromFile": "assets/Maps/UndergroundSenPatch.tmx",
         "ToArea": { "X": 15, "Y": 12, "Width": 16, "Height": 16 },
         "PatchMode": "Replace"
     },
     {
         "Action": "EditMap",
-        "Target": "Maps/Custom_ESDeepDark",
+        "Target": "Maps/EastScarp_DeepDark",
         "FromFile": "assets/Maps/UndergroundSenPatchGarden.tmx",
         "ToArea": { "X": 15, "Y": 12, "Width": 16, "Height": 34 },
         "PatchMode": "Replace",

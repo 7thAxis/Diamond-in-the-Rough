@@ -3,7 +3,7 @@
         {
             "LogName": "Eve 0 Heart",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_EastScarpe",
+            "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "{{ModID}}.Events.EveT.0h/t 800 1800/w sunny/j 5": "
 

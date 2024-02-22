@@ -255,7 +255,7 @@ CREDITS
         //All
         {
             "Action": "Include",
-            "FromFile": "data/Core/Sprites.json, data/Core/NPCs.json, data/Core/Maps.json, data/Core/Audio.json, data/Core/Items.json, data/Core/Quests.json, data/Core/Fish.json, data/Festivals/Festival_Dialogue.json, data/Core/Monsters.json, data/Core/Forage.json, data/Dialogue/Townie.json"
+            "FromFile": "data/Core/Sprites.json, data/Core/NPCs.json, data/Core/Maps.json, data/Core/Audio.json, data/Core/Items.json, data/Core/Quests.json, data/Core/Fish.json, data/Core/Migration.json, data/Festivals/Festival_Dialogue.json, data/Core/Monsters.json, data/Core/Forage.json, data/Dialogue/Townie.json"
         },
         //Eve
         {

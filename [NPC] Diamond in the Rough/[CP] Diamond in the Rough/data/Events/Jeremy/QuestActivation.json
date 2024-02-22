@@ -3,7 +3,7 @@
         {
             "LogName": "Snail Test",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_EastScarpe",
+            "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "SnailTest/l M_DitR_LavaSnailQuestActive": "
                 

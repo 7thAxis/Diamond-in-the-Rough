@@ -12,9 +12,9 @@
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
 					800 11 7 eve_gempolish/
-					1100 Custom_EastScarpeInn 28 26 eve_sit/
+					1100 EastScarp_VillageInn 28 26 eve_sit/
 					1400 25 11 eve_sit/
-					1600 Custom_EastScarpe 23 63 eve_kickfeet/
+					1600 EastScarp_Village 23 63 eve_kickfeet/
 					1800 {{ModID}}.Maps.EveHouseInterior 1 5 0/
 					2030 3 5 0/
 					2100 12 5 eve_sleep",
@@ -23,7 +23,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
-					800 Custom_EastScarpe 77 98 eve_kickfeet/
+					800 EastScarp_Village 77 98 eve_kickfeet/
 					1000 62 112 3/
 					1200 80 78 eve_kickfeet/
 					1400 24 62/
@@ -36,7 +36,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
-					800 Custom_EastScarpe 80 78 eve_kickfeet/
+					800 EastScarp_Village 80 78 eve_kickfeet/
 					1100 ArchaeologyHouse 17 5 0/
 					1500 Town 77 83 3/
 					1700 {{ModID}}.Maps.EveHouseInterior 1 5 0/2030 3 5 0/
@@ -71,7 +71,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
-					800 Custom_EastScarpe 31 100 2/
+					800 EastScarp_Village 31 100 2/
 					1100 Blacksmith 4 15 0/
 					1500 Town 86 103 2/
 					1700 {{ModID}}.Maps.EveHouseInterior 1 5 0/
@@ -92,7 +92,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
-					800 Custom_EastScarpe 31 100 2/
+					800 EastScarp_Village 31 100 2/
 					1100 Town 86 103 2/
 					1500 Beach 41 5 2/
 					1700 11 25 1/
@@ -143,10 +143,10 @@
 					0 {{ModID}}.Maps.EveHouseInterior 12 5/
 					610 12 5 eve_lay/
 					700 {{ModID}}.Maps.EveHouseInterior 3 5 0/
-					800 Custom_EastScarpe 31 100 2/
+					800 EastScarp_Village 31 100 2/
 					1100 Blacksmith 4 15 0/
 					1400 Town 86 103 2/
-					1530 Custom_EastScarpe 35 107 1/
+					1530 EastScarp_Village 35 107 1/
 					2300 {{ModID}}.Maps.EveHouseInterior 1 5 0/
 					2430 3 5 0/
 					2500 12 5 eve_sleep"

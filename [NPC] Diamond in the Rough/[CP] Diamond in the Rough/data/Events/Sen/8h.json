@@ -3,7 +3,7 @@
         {
             "LogName": "Sen Eight Heart",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_EastScarpe",
+            "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "{{ModID}}.Events.SenS.8h/e {{ModID}}.Events.SenS.6h.P2/t 2000 2600/w sunny/f SenS 2000/A DitR_CT_GardenCompleted": "
 
@@ -49,7 +49,7 @@
                     globalFade 0.012/
                     viewport -1000 -1000/
                     globalFadeToClear 0.012 true/
-                    changeToTemporaryMap Custom_EastScarpe/
+                    changeToTemporaryMap EastScarp_Village/
                     viewport 71 121 clamp/
                     addLantern 737 70 121 2/
                 speak SenS \"{{i18n:Events.SenS.Event8.8}}\"/
@@ -301,7 +301,7 @@
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 globalFadeToClear 0.012 true/
-                changeLocation Custom_EastScarpe/
+                changeLocation EastScarp_Village/
                 viewport 71 121 clamp/
                 playMusic ocean/
                 addLantern 737 70 121 2/

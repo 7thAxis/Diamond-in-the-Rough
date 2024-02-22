@@ -3,7 +3,7 @@
         {
             "LogName": "Sen 14 Heart",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_EastScarpe",
+            "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "{{ModID}}.Events.SenS.14h/t 2000 2600/w sunny/f SenS 3500": "
 

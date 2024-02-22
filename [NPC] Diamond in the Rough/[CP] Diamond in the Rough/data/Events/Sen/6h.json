@@ -3,7 +3,7 @@
         {
             "LogName": "Sen Six Heart P1",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_ESDeepDark",
+            "Target": "Data/Events/EastScarp_DeepDark",
             "Entries": {
                 "{{ModID}}.Events.SenS.6h.P1/e {{ModID}}.Events.SenS.4h/f SenS 1500/A DitR_CT_ShadowPlay": "
                 movie_wumbus/
@@ -156,7 +156,7 @@
         {
             "LogName": "Sen Six Heart P2",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_ESDeepDark",
+            "Target": "Data/Events/EastScarp_DeepDark",
             "Entries": {
                 "{{ModID}}.Events.SenS.6h.P2/e {{ModID}}.Events.SenS.6h.P1/A DitR_CT_GardenWaitTime": "
 

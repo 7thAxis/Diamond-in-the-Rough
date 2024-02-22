@@ -103,7 +103,7 @@
                     "Breather": true,
                     "Home": [
                         {
-                            "Location": "Custom_EastScarpe",
+                            "Location": "EastScarp_Village",
                             "Tile": { "X": 4, "Y": 85 },
                             "Direction": "left"
                         }
@@ -136,14 +136,14 @@
                     "Home": [
                         {
                             "Id": "Sen Waiting Room",
-                            "Location": "Custom_ES_TNPCWaitingWarpRoom",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
                             "Tile": { "X": 7, "Y": 7 },
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
                         },
                         { 
                             "Id": "Sen Default Home",
-                            "Location": "Custom_ESDeepDark",
+                            "Location": "EastScarp_DeepDark",
                             "Tile": { "X": 25, "Y": 17 },
                             "Direction": "down",
                             "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
@@ -322,7 +322,7 @@
                     "Breather": false,
                     "Home": [
                         {
-                            "Location": "Custom_EastScarpe",
+                            "Location": "EastScarp_Village",
                             "Tile": { "X": 77, "Y": 94 },
                             "Direction": "left"
                         }
@@ -335,7 +335,7 @@
         {
             "LogName": "Jeremy Spawn",
             "Action": "EditMap",
-            "Target": "Maps/Custom_EastScarpe",
+            "Target": "Maps/EastScarp_Village",
             "Update": "OnLocationChange",
             "MapTiles": [
                 {

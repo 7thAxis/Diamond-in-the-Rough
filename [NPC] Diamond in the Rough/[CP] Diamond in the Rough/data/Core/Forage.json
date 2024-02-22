@@ -84,7 +84,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_EastScarpe", "Forage" ],
+            "TargetField": [ "EastScarp_Village", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
@@ -180,7 +180,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_ESDeepMountains", "Forage" ],
+            "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
@@ -196,7 +196,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_ESOrchard", "Forage" ],
+            "TargetField": [ "EastScarp_Orchard", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
@@ -273,7 +273,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_EastScarpe", "Forage" ],
+            "TargetField": [ "EastScarp_Village", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
@@ -345,7 +345,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_ESDeepMountains", "Forage" ],
+            "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
@@ -357,7 +357,7 @@
         {
             "Action": "EditData",
             "Target": "Data/Locations",
-            "TargetField": [ "Custom_ESOrchard", "Forage" ],
+            "TargetField": [ "EastScarp_Orchard", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {

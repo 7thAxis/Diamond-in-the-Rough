@@ -3,7 +3,7 @@
         {
             "LogName": "Sen Ten Heart P1",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_ESDeepDark",
+            "Target": "Data/Events/EastScarp_DeepDark",
             "Entries": {
                 "{{ModID}}.Events.SenS.10h.P1/e {{ModID}}.Events.SenS.8h/f SenS 2500/A DitR_CT_FamilyFlashback": "
                 
@@ -235,7 +235,7 @@
                 warp Skrell -2000 -2000/
                 warp Ebb -2000 -2000/
                 globalFadeToClear 0.012 true/
-                changeLocation Custom_ESDeepDark/
+                changeLocation EastScarp_DeepDark/
                 viewport 21 37 clamp/
                 playMusic desolate/
                 pause 600/
@@ -281,7 +281,7 @@
         {
             "LogName": "Sen Ten Heart P2",
             "Action": "EditData",
-            "Target": "Data/Events/Custom_EastScarpe",
+            "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "{{ModID}}.Events.SenS.10h.P2/e {{ModID}}.Events.SenS.10h.P1/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_MineFlashback": "
                 

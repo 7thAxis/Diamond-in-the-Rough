@@ -6,19 +6,19 @@
 			"Target": "Characters/schedules/PipoP",
 			"Entries": {
 				"spring": "
-					0 Custom_EastScarpe 77 93/
+					0 EastScarp_Village 77 93/
 					610 77 93 pipo_sitleft/
 					1300 77 93 pipo_groom/
 					2000 77 94 pipo_sleep",
 
 				"rain":"
-					0 Custom_EastScarpe 77 93/
+					0 EastScarp_Village 77 93/
 					610 77 93 pipo_sitleft/
 					1300 77 93 pipo_groom/
 					2000 77 94 pipo_sleep",
 
 				"Mon":"
-					0 Custom_EastScarpe 35 27/
+					0 EastScarp_Village 35 27/
 					610 35 27 pipo_sitleft/
 					800 8 42 1/
 					1000 20 79 pipo_groom/
@@ -34,7 +34,7 @@
 					800 66 63 3/
 					1000 77 68 pipo_sitleft/
 					1300 42 102 pipo_groom/
-					1500 Custom_EastScarpe 77 94 pipo_groom/
+					1500 EastScarp_Village 77 94 pipo_groom/
 					2000 77 94 pipo_sleep",
 				"Wed":"
 					0 Town 30 56/
@@ -42,11 +42,11 @@
 					800 19 90 0/
 					1000 32 89 pipo_sitleft/
 					1300 47 71 pipo_sitleft/
-					1500 Custom_EastScarpe 77 94 pipo_groom/
+					1500 EastScarp_Village 77 94 pipo_groom/
 					2000 77 94 pipo_sleep",
 
 				"Thu":"
-					0 Custom_EastScarpe 24 62/
+					0 EastScarp_Village 24 62/
 					610 24 62 pipo_sitleft/
 					800 21 83 3/
 					1000 43 81 pipo_groom/
@@ -62,11 +62,11 @@
 					800 37 96 pipo_groom/
 					1000 Beach 34 4 pipo_groom/
 					1300 27 34 pipo_sitright/
-					1500 Custom_EastScarpe 77 94 pipo_groom/
+					1500 EastScarp_Village 77 94 pipo_groom/
 					2000 77 94 pipo_sleep",
 
 				"Sat":"
-					0 Custom_EastScarpe 23 60/
+					0 EastScarp_Village 23 60/
 					610 23 60 pipo_sitleft/
 					800 28 46 0/
 					1000 19 29 0/
@@ -77,7 +77,7 @@
 					2000 77 94 pipo_sleep",
 
 				"Sun":"
-					0 Custom_EastScarpe 75 118/
+					0 EastScarp_Village 75 118/
 					610 75 118 pipo_sitleft/
 					800 71 91 pipo_groom/
 					1000 58 109 3/
@@ -94,7 +94,7 @@
 			"Target": "Characters/schedules/PipoP",
 			"Entries": {
 				"Sat":"
-					0 Custom_EastScarpe 23 60/
+					0 EastScarp_Village 23 60/
 					610 23 60 pipo_sitleft/
 					800 28 46 0/
 					1000 19 29 0/

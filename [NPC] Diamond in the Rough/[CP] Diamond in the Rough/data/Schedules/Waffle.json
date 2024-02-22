@@ -11,16 +11,16 @@
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
-					1100 Custom_EastScarpeInn 27 27 waffle_lay/
+					1100 EastScarp_VillageInn 27 27 waffle_lay/
 					1400 23 12 waffle_sitright/
-					1600 Custom_EastScarpe 24 62 waffle_sitleft/
+					1600 EastScarp_Village 24 62 waffle_sitleft/
 					1800 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/
 					2100 7 4 waffle_sleep",
 
 				"Mon":"
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/700 6 4 waffle_sitleft/
-					800 Custom_EastScarpe 76 99 waffle_sitright/
+					800 EastScarp_Village 76 99 waffle_sitright/
 					1000 61 112 waffle_sitright/
 					1200 79 79 waffle_sitright/
 					1400 23 62 waffle_lay/
@@ -32,7 +32,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
-					800 Custom_EastScarpe 79 79 waffle_lay/
+					800 EastScarp_Village 79 79 waffle_lay/
 					1100 ArchaeologyHouse 16 5 waffle_lay/
 					1500 Town 77 84 waffle_sitleft/
 					1700 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/
@@ -66,7 +66,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
-					800 Custom_EastScarpe 32 100 waffle_sitleft/
+					800 EastScarp_Village 32 100 waffle_sitleft/
 					1100 Blacksmith 5 15 waffle_sitleft/
 					1500 Town 85 103 waffle_lay/
 					1700 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/
@@ -86,7 +86,7 @@
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
-					800 Custom_EastScarpe 32 100 waffle_sitleft/
+					800 EastScarp_Village 32 100 waffle_sitleft/
 					1100 Town 87 103 waffle_sitleft/
 					1500 Beach 42 5 waffle_sitleft/
 					1700 11 26 waffle_sitright/
@@ -133,10 +133,10 @@
 					0 {{ModID}}.Maps.EveHouseInterior 7 4/
 					610 7 4 waffle_lay/
 					700 6 4 waffle_sitleft/
-					800 Custom_EastScarpe 32 100 waffle_sitleft/
+					800 EastScarp_Village 32 100 waffle_sitleft/
 					1100 Blacksmith 5 15 waffle_sitleft/
 					1400 Town 85 103 waffle_lay/
-					1530 Custom_EastScarpe 35 108 waffle_sitright/
+					1530 EastScarp_Village 35 108 waffle_sitright/
 					2300 {{ModID}}.Maps.EveHouseInterior 6 4 waffle_sitleft/
 					2500 7 4 waffle_sleep"
 			},
