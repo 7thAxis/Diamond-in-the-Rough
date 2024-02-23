@@ -63,7 +63,7 @@
             ]
            },        
 //----------------
-    //Location Data TRACE HOUSE
+    //Location Data TRACE HOUSE UPSTAIRS
     {
         "Action": "Load",
         "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
@@ -103,7 +103,9 @@
         "Target": "Maps/{{ModID}}.Maps.TraceHouseInterior",
         "AddWarps": [ 
             "15 24 EastScarp_Village 6 83",
-            "16 24 EastScarp_Village 6 83" 
+            "16 24 EastScarp_Village 6 83",
+            "11 24 {{ModID}}.Maps.TraceHouseBasement 10 6",
+            "12 24 {{ModID}}.Maps.TraceHouseBasement 11 6"
         ]
     },
     {
@@ -199,13 +201,47 @@
             ],
             "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
+
+//----------------
+    //Location Data TRACE HOUSE BASEMENT
+    {
+        "Action": "Load",
+        "Target": "Maps/{{ModID}}.Maps.TraceHouseBasement",
+        "FromFile": "assets/Maps/TraceHouseBasement.tmx"
+    },
+    {
+        "LogName": "Location Data",
+        "Action": "EditData",
+        "Target": "Data/Locations",
+        "Entries": {
+            "{{ModID}}.Maps.TraceHouseBasement": {
+                "MusicDefault": "WizardSong",
+                "DisplayName": "{{i18n:Maps.TraceV.TraceHouseBasement}}",
+                "DefaultArrivalTile": { "X": 10, "Y": 6 },
+                "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.TraceHouseBasement" }
+            }
+        }
+    },
+    {
+        "Action": "EditMap",
+        "Target": "Maps/{{ModID}}.Maps.TraceHouseBasement",
+        "AddWarps": [ 
+            "10 4 {{ModID}}.Maps.TraceHouseInterior 11 22",
+            "11 4 {{ModID}}.Maps.TraceHouseInterior 12 22" 
+        ]
+    },
     //Other 
     {
         "Action": "EditMap",
-        "Target": "Maps/EastScarp_Village",
+        "Target": "Maps/{{ModID}}.Maps.TraceHouseBasement",
         "MapTiles": [
             {
-                "Position": { "X": 2, "Y": 83 },
+                "Position": { "X": 4, "Y": 6 },
+                "Layer": "Buildings",
+                "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.LavaSnailRoundUp.QuestActive}}" }
+            },
+            {
+                "Position": { "X": 5, "Y": 6 },
                 "Layer": "Buildings",
                 "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.LavaSnailRoundUp.QuestActive}}" }
             }

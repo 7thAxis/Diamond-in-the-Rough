@@ -335,11 +335,11 @@
         {
             "LogName": "Jeremy Spawn",
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_Village",
+            "Target": "Maps/{{ModID}}.Maps.TraceHouseBasement",
             "Update": "OnLocationChange",
             "MapTiles": [
                 {
-                    "Position": { "X": "14", "Y": "81" },
+                    "Position": { "X": "5", "Y": "11" },
                     "Layer": "Back",
                     "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
                 }

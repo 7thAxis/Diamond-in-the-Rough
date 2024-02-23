@@ -1,6 +1,19 @@
 {
     "Changes": [
         {
+            "LogName": "Prevent Snail Quest from Autoplaying",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+    
+                "{{ModID}}.TriggerActions.PreventSnailQuestAutoPlay": {
+                    "Trigger": "DayStarted",
+                    "Id": "{{ModID}}.TriggerActions.PreventSnailQuestAutoPlay",
+                    "Actions": [ "MarkEventSeen Current SnailTest" ]
+                }
+            }
+        },
+        {
             "LogName": "Snail Test",
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_Village",

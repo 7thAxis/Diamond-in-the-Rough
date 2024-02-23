@@ -8,14 +8,21 @@
                 "{{ModID}}.Music.EveTheme": {
                     "ID": "{{ModID}}.Music.EveTheme",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/The_World_is_Ours.ogg}}" ],
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_The_World_is_Ours.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "{{ModID}}.Music.SkrellTheme": {
+                    "ID": "{{ModID}}.Music.SkrellTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_Sinister_Abode.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
                 "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
                     "ID": "{{ModID}}.Music.BarbieGirl",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/Barbie_Girl.ogg}}" ],
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Barbie_Girl.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 }

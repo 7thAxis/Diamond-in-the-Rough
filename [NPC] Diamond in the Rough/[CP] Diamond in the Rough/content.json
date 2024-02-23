@@ -34,7 +34,7 @@ CREDITS
             "AllowValues": "true, false",
             "Default": false,
             "AllowBlank": false,
-            "Description": "Shadows will be invincible to player attacks. (Shadow Stat Changes must be set to true for this to take effect.)",
+            "Description": "Shadows will be invincible to player attacks. Players still take damage until a certain point in the story. (Shadow Stat Changes must be set to true for this to take effect.)",
             "Section": "Gameplay"
         },
         "Golem Eradication Substitute": {
