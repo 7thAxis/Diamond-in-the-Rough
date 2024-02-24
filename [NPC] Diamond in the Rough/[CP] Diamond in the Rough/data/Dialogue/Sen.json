@@ -23,9 +23,9 @@
             "Target": "Characters/Dialogue/SenS",
             "Priority": "Late",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{SenOverrideDialogue}}"
+                "{{WeekDay}}": "{{i18n:Core.SenS.OverrideDialogue{{SenOverrideDialogue}}}}#$action AddMail Current DitR_M_SenS_OverrideSeenToday received"
             },
-            "When": { "Query: {{Random: {{Range: 1, 15}}|key=SSDO}} = 1": true }
+            "When": { "SenOverrideConditions": "Active" }
         },
         {
             "LogName": "Dialogue",
@@ -315,6 +315,33 @@
                 "summer_19": "{{i18n:Core.SenS.Summer.Day.19.Event}}"
             },
             "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
+        },
+        {
+            "LogName": "Sen Override Seen Today Quirk Fix", //Removes the flag that stops the NPC from continuing to talk on time update
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+    
+                "{{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.1": {
+                    "Id": "{{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any",
+                    "Actions": [
+                        "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
+                        "MarkActionApplied Current {{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.2 false"
+                    ]
+                },
+    
+                "{{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.2": {
+                    "Id": "{{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.2",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any",
+                    "Actions": [
+                        "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
+                        "MarkActionApplied Current {{ModId}}.TriggerActions.SenS.OverrideSeenToday.Removal.1 false"
+                    ]
+                }
+            }
         }
     ]
 }

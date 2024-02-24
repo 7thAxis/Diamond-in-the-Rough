@@ -187,62 +187,89 @@ CREDITS
             //Set up to remove dialogue from the pool if conditions aren't correct.
             //Blank values are unfortunately needed or the entire override DT explodes
             //Must be done per NPC as {{TargetWithoutPath}} will not parse correctly in a DT.
+            //Done with Pass-in tokens and {{Time}} to force more robust randomization (was experiencing a lot of repeat dialogue)
 
         //--EVE OVERRIDE DIALOGUE GENERATION--
 
-        { "Name": "ETHasED", "Value": "" },  
-        { "Name": "ETHasBOES", "Value": "" },
-        { "Name": "ETHasTEST", "Value": "" }, 
+        { "Name": "EveOverrideDialogue", "Value": "" }, 
+        { "Name": "EveOverrideConditions", "Value": "Inactive" },
+        { "Name": "ETSD", "Value": "Empty" }, //Empty keeps EveOverrideDialogue from screaming abt being empty on disabled days
+        { "Name": "ETHasED", "Value": "" },
+        { "Name": "ETHasBOES", "Value": "" }, 
 
         {
+            "Name": "EveOverrideDayNumber",
+            "Value": "{{Random: {{Range: 1, 10}}|key=ETDO}}"
+        },
+        {
+            "Name": "EveOverrideDay",
+            "Value": "{{Query: {{EveOverrideDayNumber}} = 1 }}"
+        },
+        {
+            "Name": "EveOverrideConditions",
+            "Value": "Active",
+            "When": { "EveOverrideDay": true , "HasFlag: |contains=DitR_M_EveT_OverrideSeenToday": false }
+        },        
+        {
             "Name": "ETSD",
-            "Value": "{{i18n:Core.EveT.Season.{{season}}.{{Random:{{Range: 1, 5}}}}}}"
+            "Value": "{{i18n:Core.EveT.Season.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}",
+            "When": { "EveOverrideConditions": "Active" }
         },         
         {
             "Name": "ETHasED",
-            "Value": "{{i18n:Core.EveT.EDComment.{{Random:{{Range: 1, 3}}}}}}++",
-            "When": { "HasMod: |contains=TenebrousNova.EliDylan.CP": true }
+            "Value": "{{i18n:Core.EveT.EDComment.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}++",
+            "When": { "HasMod: |contains=TenebrousNova.EliDylan.CP": true, "EveOverrideConditions": "Active" }
         },      
         {
             "Name": "ETHasBOES", 
-            "Value": "{{i18n:Core.EveT.BOESComment.{{Random:{{Range: 1, 3}}}}}}++",
-            "When": { "HasMod: |contains=KingMadapples.BOES.CP": true }
-        },
-        {
-            "Name": "ETHasTEST",
-            "Value": "TEST++",
-            "When": { "HasMod: |contains=TEST": true }
-        },   
+            "Value": "{{i18n:Core.EveT.BOESComment.{{Random:{{Range: 1, 3}}|key={{Time}}}}}}++",
+            "When": { "HasMod: |contains=KingMadapples.BOES.CP": true, "EveOverrideConditions": "Active" }
+        },  
         {
             "Name": "EveOverrideDialogue",
-            "Value": "{{Random:{{ETHasED}} {{ETHasBOES}} {{ETHasTEST}} {{ETSD}}|inputSeparator=++}}"
+            "Value": "|EOD={{Random:{{ETHasED}} {{ETHasBOES}} {{ETSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}",
+            "When": { "EveOverrideConditions": "Active" }
         },
 
         //--SEN OVERRIDE DIALOGUE GENERATION--
 
+        { "Name": "SenOverrideDialogue", "Value": "" }, 
+        { "Name": "SenOverrideConditions", "Value": "Inactive" },
+        { "Name": "SSSD", "Value": "Empty" }, //Empty keeps SenOverrideDialogue from screaming abt being empty on disabled days
         { "Name": "SSRD",  "Value": "" },
         { "Name": "SSKD", "Value": "" },
 
         {
+            "Name": "SenOverrideDayNumber",
+            "Value": "{{Random: {{Range: 1, 10}}|key=SSDO}}"
+        },
+        {
+            "Name": "SenOverrideDay",
+            "Value": "{{Query: {{SenOverrideDayNumber}} = 1 }}"
+        },
+        {
+            "Name": "SenOverrideConditions",
+            "Value": "Active",
+            "When": { "SenOverrideDay": true , "HasFlag: |contains=DitR_M_SenS_OverrideSeenToday": false }
+        },   
+        {
             "Name": "SSSD",
-            "Value": "{{i18n:Core.SenS.Season.{{season}}.{{Random:{{Range: 1, 10}}}}{{SenRandTokens}}}}"
+            "Value": "{{i18n:Core.SenS.Season.{{season}}.{{Random:{{Range: 1, 10}}|key={{Time}}}}{{SenRandTokens}}}}",
+            "When": { "SenOverrideConditions": "Active" }
         },
         {
             "Name": "SSRD",
-            "Value": "{{i18n:Core.SenS.RelationshipOverride.{{Random:{{Range: 1, 10}}}}{{RelationshipTokens}}}}++",
-            "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true,
-                "Hearts:SenS": "{{Range: 8, 10}}"
-            }
+            "Value": "{{i18n:Core.SenS.RelationshipOverride.{{Random:{{Range: 1, 10}}|key={{Time}}}}{{RelationshipTokens}}}}++",
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true, "Hearts:SenS": "{{Range: 8, 10}}", "SenOverrideConditions": "Active" }
         },    
         {
             "Name": "SSKD",
-            "Value": "{{i18n:Core.SenS.KrobusCommentary.{{Random:{{Range: 1, 4}}}}}}++",
-            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced" }
+            "Value": "{{i18n:Core.SenS.KrobusCommentary.{{Random:{{Range: 1, 4}}|key={{Time}}}}}}++",
+            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced", "SenOverrideConditions": "Active"  }
         },
         {
             "Name": "SenOverrideDialogue",
-            "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|inputSeparator=++}}"
+            "Value": "|SOD={{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
         }
     ],
     //Files

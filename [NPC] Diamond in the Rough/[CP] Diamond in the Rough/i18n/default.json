@@ -83,6 +83,8 @@
 "Core.EveT.EarlyHeart.19": "It's nice living so close to the beach.#$b#The breeze is so relaxing and there's plenty of space to let Waffle run freely to her heart's content.$h",
 "Core.EveT.EarlyHeart.20": "What's it like running a farm, farmer?$h#$b#Sometimes I think it would be a pretty relaxing job, but then I remember the manual labor part.$6",
 
+"Core.EveT.OverrideDialogue": "{{EOD}}",
+
 "Core.EveT.LateHeart.1": "",
 "Core.EveT.LateHeart.2": "",
 "Core.EveT.LateHeart.3": "",
@@ -104,14 +106,13 @@
 "Core.EveT.LateHeart.19": "",
 "Core.EveT.LateHeart.20": "",
 
-"Core.EveT.EDComment.1": "Eli and Dylan are NERDS.",
-"Core.EveT.EDComment.2": "Eli and Dylan are NERDS.",
-"Core.EveT.EDComment.3": "Eli and Dylan are NERDS.",
+"Core.EveT.EDComment.1": "ELI A",
+"Core.EveT.EDComment.2": "ELI B",
+"Core.EveT.EDComment.3": "ELI C",
 
-"Core.EveT.BOESComment.1": "Cute bat is dumb.",
-"Core.EveT.BOESComment.2": "Cute bat is dumb.",
-"Core.EveT.BOESComment.3": "Cute bat is dumb.",
-
+"Core.EveT.BOESComment.1": "BAT A",
+"Core.EveT.BOESComment.2": "BAT B",
+"Core.EveT.BOESComment.3": "BAT C",
 
 "Core.EveT.Season.spring.1": "I love this time of year.$h#$b#The birds are singing, the flowers are blooming...$l#$b#Can't get enough of it!$h",
 "Core.EveT.Season.spring.2": "AaAaachooo!$u#$b#Uh, sorry - the pollen in the air is getting to me.$s",
@@ -515,6 +516,8 @@
 "Core.SenS.LateHeart.58": "@, I was hoping to see you today! Let's play a little game.$h#$b#$y 'Quick, pick a card!_Purple card_{{GameResult1}}_Orange card_{{GameResult2}}",
 "Core.SenS.LateHeart.59": "Another day, another item to crochet!$l#$b#Last night I made {{CrocItem}} with {{CrocColor}} yarn!$h#$e#I gave it to {{SenKrobusReference}} as a gift, he seemed to really enjoy it!$h#$b#Gift giving makes my heart feel all warm and fuzzy.$l",
 "Core.SenS.LateHeart.60": "%revealtasteSenS418 I've been keeping crocuses pressed in books in my cave. Would you like one?$h[418]#$e#I was reading that the crocus symbolizes {{Symbolism}}.#$b#Isn't that beautiful? Crocuses are so lovely.$l",
+
+"Core.SenS.OverrideDialogue": "{{SOD}}",
 
 "Core.SenS.RelationshipOverride.1": "Your {{SenRelationshipTerm}} deserves a flower sometimes, don't you think?$h[22 18 597 591]#$e#I've started bringing my people flowers from the surface.$h#$b#They've been quite enthralled by them. It's heartwarming to see.$l",
 "Core.SenS.RelationshipOverride.2": "You're a very special person, @.$l#$b#The junimos only reveal themselves to those that have an affinity for nature.$h#$e#Your peaceful nature only shows how true that is.$l#$b#Never change, @.$h",

@@ -12,11 +12,12 @@
             "LogName": "Eve Dialogue Overrides",
             "Action": "EditData",
             "Target": "Characters/Dialogue/EveT",
+            "Update": "OnLocationChange",
             "Priority": "Late",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{EveOverrideDialogue}}"
+                "{{WeekDay}}": "{{i18n:Core.EveT.OverrideDialogue{{EveOverrideDialogue}}}}#$action AddMail Current DitR_M_EveT_OverrideSeenToday received"
             },
-            "When": { "Query: {{Random: {{Range: 1, 15}}|key=ETDO}} = 1": true }
+            "When": { "EveOverrideConditions": "Active" }
         },
         { 
         "LogName": "Dialogue",
@@ -259,6 +260,33 @@
             "summer_19": "{{i18n:Core.EveT.Summer.Day.19}}"
         },
         "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
+    },
+    {
+        "LogName": "Eve Override Seen Today Quirk Fix", //Removes the flag that stops the NPC from continuing to talk on time update
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+
+            "{{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.1": {
+                "Id": "{{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.1",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current DitR_M_EveT_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.2 false"
+                ]
+            },
+
+            "{{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.2": {
+                "Id": "{{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.2",
+                "Trigger": "DayStarted",
+                "Condition": "PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any",
+                "Actions": [
+                    "RemoveMail Current DitR_M_EveT_OverrideSeenToday",
+                    "MarkActionApplied Current {{ModId}}.TriggerActions.EveT.OverrideSeenToday.Removal.1 false"
+                ]
+            }
+        }
     }
-        ]
+]
 }
