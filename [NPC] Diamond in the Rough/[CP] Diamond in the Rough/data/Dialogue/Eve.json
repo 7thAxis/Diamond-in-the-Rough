@@ -15,7 +15,7 @@
             "Update": "OnLocationChange",
             "Priority": "Late",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.EveT.OverrideDialogue{{EveOverrideDialogue}}}}#$action AddMail Current DitR_M_EveT_OverrideSeenToday received"
+                "{{WeekDay}}": "{{EveOverrideDialogue}}#$action AddMail Current DitR_M_EveT_OverrideSeenToday received"
             },
             "When": { "EveOverrideConditions": "Active" }
         },

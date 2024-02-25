@@ -20,10 +20,11 @@
         {
             "LogName": "Sen Dialogue Overrides",
             "Action": "EditData",
+            "Update": "OnLocationChange",
             "Target": "Characters/Dialogue/SenS",
             "Priority": "Late",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.SenS.OverrideDialogue{{SenOverrideDialogue}}}}#$action AddMail Current DitR_M_SenS_OverrideSeenToday received"
+                "{{WeekDay}}": "{{SenOverrideDialogue}}#$action AddMail Current DitR_M_SenS_OverrideSeenToday received"
             },
             "When": { "SenOverrideConditions": "Active" }
         },

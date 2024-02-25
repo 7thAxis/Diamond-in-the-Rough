@@ -187,7 +187,7 @@ CREDITS
             //Set up to remove dialogue from the pool if conditions aren't correct.
             //Blank values are unfortunately needed or the entire override DT explodes
             //Must be done per NPC as {{TargetWithoutPath}} will not parse correctly in a DT.
-            //Done with Pass-in tokens and {{Time}} to force more robust randomization (was experiencing a lot of repeat dialogue)
+            //Done key={{Time}} to force more robust randomization (was experiencing a lot of repeat dialogue)
 
         //--EVE OVERRIDE DIALOGUE GENERATION--
 
@@ -227,7 +227,7 @@ CREDITS
         },  
         {
             "Name": "EveOverrideDialogue",
-            "Value": "|EOD={{Random:{{ETHasED}} {{ETHasBOES}} {{ETSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}",
+            "Value": "{{Random:{{ETHasED}} {{ETHasBOES}} {{ETSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}",
             "When": { "EveOverrideConditions": "Active" }
         },
 
@@ -241,7 +241,7 @@ CREDITS
 
         {
             "Name": "SenOverrideDayNumber",
-            "Value": "{{Random: {{Range: 1, 10}}|key=SSDO}}"
+            "Value": "{{Random: {{Range: 1, 1}}|key=SSDO}}"
         },
         {
             "Name": "SenOverrideDay",
@@ -269,7 +269,7 @@ CREDITS
         },
         {
             "Name": "SenOverrideDialogue",
-            "Value": "|SOD={{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
+            "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
         }
     ],
     //Files
