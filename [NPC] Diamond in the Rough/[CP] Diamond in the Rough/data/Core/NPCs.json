@@ -151,6 +151,7 @@
                     ],
                     "ExcludeFromIntroductionsQuest": true,
                     "ExcludeFromPerfectionScore": false,
+                    "SpouseGiftJealousyFriendshipChange": 0,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,
                     "CanVisitIsland": false,

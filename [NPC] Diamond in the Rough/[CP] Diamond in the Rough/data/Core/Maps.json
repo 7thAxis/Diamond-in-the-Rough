@@ -82,7 +82,7 @@
                       "Condition": "RANDOM 0.05 @addDailyLuck"
                     }
                   ],
-                "MusicDefault": null,
+                "MusicDefault": "{{ModID}}.Music.TraceHouse",
                 "DisplayName": "{{i18n:Maps.TraceV.TraceHouse}}",
                 "DefaultArrivalTile": { "X": 16, "Y": 23 },
                 "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.TraceHouseInterior" }
@@ -215,7 +215,7 @@
         "Target": "Data/Locations",
         "Entries": {
             "{{ModID}}.Maps.TraceHouseBasement": {
-                "MusicDefault": "WizardSong",
+                "MusicDefault": "{{ModID}}.Music.JeremyTheme",
                 "DisplayName": "{{i18n:Maps.TraceV.TraceHouseBasement}}",
                 "DefaultArrivalTile": { "X": 10, "Y": 6 },
                 "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.TraceHouseBasement" }

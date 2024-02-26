@@ -19,7 +19,21 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-                "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
+                "{{ModID}}.Music.JeremyTheme": {
+                    "ID": "{{ModID}}.Music.JeremyTheme",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Weird_Science.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
+                "{{ModID}}.Music.TraceHouse": {
+                "ID": "{{ModID}}.Music.TraceHouse",
+                "Category": "Music",
+                "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Happy.ogg}}" ],
+                "StreamedVorbis": true,
+                "Looped": true
+            },
+            "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
                     "ID": "{{ModID}}.Music.BarbieGirl",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Barbie_Girl.ogg}}" ],
@@ -27,7 +41,7 @@
                     "Looped": true
                 }
             }
-        },
+        },      
         {
             "LogName": "DitR Sound Effects",
             "Action": "EditData",

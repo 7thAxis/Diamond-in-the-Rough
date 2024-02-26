@@ -695,9 +695,7 @@
                 speak Skrell \"{{i18n:Events.SenS.Event10.p3.7}}\"/
                     faceDirection Skrell 1/
                 question fork0 \"{{i18n:Events.SenS.Event10.p3.8}}\"/
-
                     fork SenRomance/
-                    
                 speak Skrell \"{{i18n:Events.SenS.Event10.p3.9}}\"/
                 speak Skrell \"{{i18n:Events.SenS.Event10.p3.10}}\"/
                     pause 100/

@@ -241,7 +241,7 @@ CREDITS
 
         {
             "Name": "SenOverrideDayNumber",
-            "Value": "{{Random: {{Range: 1, 1}}|key=SSDO}}"
+            "Value": "{{Random: {{Range: 1, 10}}|key=SSDO}}"
         },
         {
             "Name": "SenOverrideDay",

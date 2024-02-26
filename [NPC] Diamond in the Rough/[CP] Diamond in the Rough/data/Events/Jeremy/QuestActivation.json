@@ -16,7 +16,7 @@
         {
             "LogName": "Snail Test",
             "Action": "EditData",
-            "Target": "Data/Events/EastScarp_Village",
+            "Target": "Data/Events/{{ModID}}.Maps.TraceHouseBasement",
             "Entries": {
                 "SnailTest/l M_DitR_LavaSnailQuestActive": "
                 
