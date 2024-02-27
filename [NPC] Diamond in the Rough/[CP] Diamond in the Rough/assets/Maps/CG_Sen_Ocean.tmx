@@ -3,8 +3,8 @@
  <properties>
   <property name="Outdoors" value="T"/>
  </properties>
- <tileset firstgid="1" name="CG_SenOcean.png" tilewidth="16" tileheight="16" tilecount="1032" columns="43">
-  <image source="CG_SenOcean.png" width="688" height="384"/>
+ <tileset firstgid="1" name="CG_Sen_Ocean.png" tilewidth="16" tileheight="16" tilecount="1032" columns="43">
+  <image source="CG_Sen_Ocean.png" width="688" height="384"/>
  </tileset>
  <layer id="1" name="Back" width="43" height="24">
   <data encoding="csv">
