@@ -92,7 +92,19 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Town", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "0.8"
                 }
             }
         },
@@ -104,7 +116,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -116,7 +128,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -128,7 +140,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -140,7 +152,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -152,7 +164,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -164,7 +176,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -176,7 +188,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -188,7 +200,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -200,7 +212,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -212,7 +224,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -224,7 +236,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         },
@@ -236,7 +248,7 @@
             "Entries": {
                 "(O){{ModID}}.Items.SensCrocus": {
                     "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 }
             }
         }

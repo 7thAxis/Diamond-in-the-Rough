@@ -172,11 +172,27 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Town", "Forage" ],
+            "When": { "Season": "spring, summer" },
+            "Entries": {
+                "(O){{ModID}}.Items.ValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
+                    "Chance": "0.8"
+                },
+                "(O){{ModID}}.Items.GoldenValleyLily": {
+                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
+                    "Chance": "0.01"
                 }
             }
         },
@@ -188,11 +204,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -208,7 +224,7 @@
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -220,11 +236,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -236,11 +252,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -252,11 +268,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -268,11 +284,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -284,11 +300,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -300,11 +316,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -316,11 +332,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -332,11 +348,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -352,7 +368,7 @@
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         },
@@ -364,11 +380,11 @@
             "Entries": {
                 "(O){{ModID}}.Items.ValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
+                    "Chance": "0.8"
                 },
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.05"
+                    "Chance": "0.01"
                 }
             }
         }
