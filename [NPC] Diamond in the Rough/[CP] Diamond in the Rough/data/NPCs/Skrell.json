@@ -1,0 +1,10 @@
+{
+    "Changes": [
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/Skrell, Portraits/Skrell",
+            "FromFile": "assets/{{TargetPathOnly}}/Skrell/Skrell.png"
+        }
+     ]
+}

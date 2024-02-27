@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModID}}.Quests.AGardenForSen": "ItemDelivery/{{i18n:Quests.DitR.AGardenForSen.Title}}/{{i18n:Quests.DitR.AGardenForSen.Description}}/{{i18n:Quests.DitR.AGardenForSen.Task}}/SenS 770 30/-1/0/-1/false/{{i18n:Quests.DitR.AGardenForSen.FollowUp}}"
+            }
+        }
+    ]
+}

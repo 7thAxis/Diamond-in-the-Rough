@@ -6,7 +6,7 @@
 			"Target": "Characters/schedules/TraceV",
 			"Entries": {
                 "spring":"
-                0 {{ModID}}.Maps.TraceHouseInterior 13 7/
+                0 {{ModID}}.Maps.Trace_House_Interior 13 7/
                 630 13 14 2",
             }
 		}

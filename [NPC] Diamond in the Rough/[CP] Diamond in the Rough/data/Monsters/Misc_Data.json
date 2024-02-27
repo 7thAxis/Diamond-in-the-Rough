@@ -1,0 +1,40 @@
+{
+    "Changes": [
+
+        //TRIGGER ACTIONS RECORDING MONSTER DEATH
+        {
+            "LogName": "Trigger Action - Shadow Death Commentary",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "DitR.TriggerAction.ShadowDeathCommentary": {
+                    "Trigger": "DayEnding",
+                    "Id": "DitR.TriggerAction.ShadowDeathCommentary",
+                    "Condition": "PLAYER_KILLED_MONSTERS Current \"Shadow Brute\" \"Shadow Shaman\" \"Shadow Sniper\" \"Shadow Guy\" 150",
+                    "Actions": [
+                        "AddMail Current DitR_M_ShadowDeathCommentary",
+                        "AddConversationTopic DitR_CT_ShadowDeathCommentary 3"
+                    ]
+                }
+            }
+        },
+        
+        //MONSTER ERADICATION GOAL CHANGE
+        {
+            "Action": "EditData",
+            "Target": "Data/MonsterSlayerQuests",
+            "Fields": {
+                "Shadows": {
+                    "DisplayName": "{{i18n:Core.Monsters.GolemEradication}}",
+                    "Targets": [
+                        "Stone Golem",
+                        "Wilderness Golem",
+                        "Metal Head",
+                        "Dwarvish Sentry"
+                    ]
+                }
+            },
+            "When": { "Golem Eradication Substitute": true }
+        }
+    ]
+}

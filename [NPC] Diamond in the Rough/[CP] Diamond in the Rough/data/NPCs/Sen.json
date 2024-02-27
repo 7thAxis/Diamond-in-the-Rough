@@ -1,0 +1,212 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Sen Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "SenS": {
+                    "DisplayName": "{{i18n:Core.SenS.Name}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 13,
+                    "HomeRegion": "Other",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+                    "SocialTab": "UnknownUntilMet",
+                    "ShakePortraits": [ 9, 10 ],
+                    "SpouseRoom": { "MapAsset": "7thAxis_SenS_SpouseRoom" },
+                    "Home": [
+                        {
+                            "Id": "Sen Waiting Room",
+                            "Location": "EastScarp_TNPCWaitingWarpRoom",
+                            "Tile": { "X": 7, "Y": 7 },
+                            "Direction": "down",
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
+                        },
+                        { 
+                            "Id": "Sen Default Home",
+                            "Location": "EastScarp_DeepDark",
+                            "Tile": { "X": 25, "Y": 17 },
+                            "Direction": "down",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
+                        }
+                    ],
+                    "ExcludeFromIntroductionsQuest": true,
+                    "ExcludeFromPerfectionScore": false,
+                    "SpouseGiftJealousyFriendshipChange": 0,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 16,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Appearance": [
+                        {
+                            "ID": "Birthday",
+                            "Condition": "SEASON_DAY winter 13, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"! PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
+                            "Portrait": "{{InternalAssetKey: assets/Portraits/Sen/Sen_Bow.png}}",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Bow.png}}"
+                        },
+                        {
+                            "ID": "Night Market",
+                            "Condition": "SEASON_DAY winter 15 winter 16 winter 17, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"! PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
+                            "Portrait": "{{InternalAssetKey: assets/Portraits/Sen/Sen_Cloak.png}}",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Cloak.png}}"
+                        },
+                        {
+                            "ID": "Egg Festival",
+                            "Condition": "Event_ID festival_spring13",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_EggFestival.png}}"
+                        },
+                        {
+                            "ID": "Flower Dance",
+                            "Condition": "Event_ID festival_spring24",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_FlowerDance.png}}"
+                        },
+                        {
+                            "ID": "Luau",
+                            "Condition": "Event_ID festival_summer11",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Luau.png}}"
+                        },
+                        {
+                            "ID": "Moonlight Jelly",
+                            "Condition": "Event_ID festival_summer28",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_MoonlightJelly.png}}"
+                        },
+                        {
+                            "ID": "SDV Fair",
+                            "Condition": "Event_ID festival_fall16",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_StardewFair.png}}"
+                        },
+                        {
+                            "ID": "Spirits Eve",
+                            "Condition": "Event_ID festival_fall27",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_SpiritsEve.png}}"
+                        },
+                        {
+                            "ID": "Holiday",
+                            "Condition": "Any \"EVENT_ID festival_winter8\" \"EVENT_ID festival_winter25\"",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Holiday.png}}"
+                        },
+                        {
+                            "ID": "Love Festival",
+                            "Condition": "EVENT_ID festival_winter13",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_LoveFestival.png}}"
+                        },
+                        {
+                            "ID": "Surfing Festival",
+                            "Condition": "EVENT_ID festival_summer5",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_SurfingFestival.png}}"
+                        },
+                        {
+                            "ID": "Fashion Festival",
+                            "Condition": "EVENT_ID festival_spring19",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_FashionFestival.png}}"
+                        },
+                        {
+                            "ID": "Other Festivals",
+                            "Condition": "ANY \"EVENT_ID festival_winter28\" \"EVENT_ID festival_fall20\" \"EVENT_ID festival_summer20\"",
+                            "Portrait": "{{InternalAssetKey: assets/Portraits/Sen/Sen_Cloak.png}}",
+                            "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Cloak.png}}"
+                        }
+                    ]
+                }
+            }
+        },
+//---------------------------- RELATIONSHIP CONDITIONS ------------------------------------------//
+        {
+            "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
+            "Target": "Data/Characters",
+            "TargetField": [ "SenS" ],
+            "Entries": { "CanBeRomanced": true },
+            "When": { "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": true }
+        },
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "808": { "ContextTags": [ "propose_roommate_krobus", "propose_roommate_sens" ] }
+            },
+            "When": {
+                "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
+                "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": false
+            }
+        },
+//---------------------------- GIFT TASTES ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "SenS": "{{i18n:Gifts.SenS.Love}}/72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 789 874/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/SenS, Portraits/SenS, Portraits/SenS_Default, Characters/SenS_Default",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/SenS_Kid, Portraits/SenS_Kid",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Flashback.png"
+        },
+        {
+            "LogName": "Sen Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "sen_read": "16/16 17 18 19 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
+                "sen_wigglesit": "20/20 21 21 22 22 23 23 20/20",
+                "sen_map": "24/24 24 24 24 24 24 25 26 25 26 25 24 24 24 24 24 24 24 24 24/24",
+                "sen_crochet": "29/29 30 30 30 30 30 29 29 29 29 29/29",
+                "sen_sit": "20/20 20 20/20"
+            }
+        },
+        {
+            "LogName": "Senbrella Overworld", 
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Characters/Sen/Senbrella.png",
+            "Update": "OnTimeChange, OnLocationChange",
+            "When": {
+                "IsOutdoors": "true",
+                "Weather": "Sun, Wind, Snow",
+                "Time": "{{Range: 1700, 1930}}",
+                "Query: '{{Season}}' = 'winter' AND {{Day}} IN (15, 16, 17)": false
+            }
+        },
+        {
+            "LogName": "Senbrella Overworld farm", //PLAYER_LOCATION_NAME Current Farm
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Characters/Sen/Senbrella.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "Farm",
+                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
+            }
+        },
+        {
+            "LogName": "Misc Cloak Sprites",
+            "Action": "EditImage",
+            "Target": "Portraits/SenS, Characters/SenS",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Cloak.png",
+            "Update": "OnLocationChange",
+            "When": {
+                "LocationName": "MovieTheater, Temp, Hospital",
+                "IsOutdoors": "false"
+            }
+        }
+     ]
+
+}

@@ -34,7 +34,7 @@
                     globalFade 0.012/
                     viewport -1000 -1000/
                     globalFadeToClear 0.012 true/
-                    changeToTemporaryMap SenOceanCG/
+                    changeToTemporaryMap CG_Sen_Ocean/
                     viewport 10 12 clamp/
                     bgColor 0 0 0/
                     ambientLight 0 0 0/
@@ -82,7 +82,7 @@
                 changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 warp SenS -2000 -2000/
                 globalFadeToClear 0.012 true/
-                changeToTemporaryMap SenFlashback/
+                changeToTemporaryMap Sen_Flashback/
                 viewport 10 12 clamp/
                 ambientLight 20 20 20/
                 pause 1500/      

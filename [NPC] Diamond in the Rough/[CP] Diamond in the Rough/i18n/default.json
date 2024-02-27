@@ -1972,8 +1972,9 @@
 "Quests.DitR.LavaSnailRoundUp.Title": "Lava Snail Round-Up!",
 "Quests.DitR.LavaSnailRoundUp.Description": "There are many Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
 "Quests.DitR.LavaSnailRoundUp.Task": "Bring 10 Lava Snails to Pipo for Jeremy.",
-"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current M_DitR_LavaSnailQuestActive#$action AddFriendshipPoints PipoP -250",
-"Quests.DitR.LavaSnailRoundUp.QuestActive": "You've already accepted the quest!",
+"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current M_DitR_LavaSnailQuestActive",
+"Quests.DitR.LavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
+
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
 ██╔════╝██║   ██║██╔════╝████╗  ██║╚══██╔══╝██╔════╝

@@ -1,0 +1,157 @@
+{
+    "Changes": [  
+
+    //Exterior
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "FromFile": "assets/Maps/Trace_House_Exterior.tmx",
+            "ToArea": { "X": 0, "Y": 73, "Width": 13, "Height": 16 },
+            "PatchMode": "Replace"
+        },      
+    //Interior
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "FromFile": "assets/Maps/Trace_House_Interior.tmx"
+        },
+        {
+            "LogName": "Location Data",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModID}}.Maps.Trace_House_Interior": {
+                    "Music": [
+                        {
+                          "Id": "TraceHouseBarbieGirl",
+                          "Track": "{{ModID}}.Music.BarbieGirl",
+                          "Condition": "RANDOM 0.05 @addDailyLuck"
+                        }
+                      ],
+                    "MusicDefault": "{{ModID}}.Music.TraceHouse",
+                    "DisplayName": "{{i18n:Maps.TraceV.TraceHouse}}",
+                    "DefaultArrivalTile": { "X": 16, "Y": 23 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Trace_House_Interior" }
+                }
+            }
+        },
+        //Warps
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "AddWarps": [ 
+                "15 24 EastScarp_Village 6 83",
+                "16 24 EastScarp_Village 6 83",
+                "11 24 {{ModID}}.Maps.Jeremy_Room 10 6",
+                "12 24 {{ModID}}.Maps.Jeremy_Room 11 6"
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 82 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "Action": "Warp 16 23 {{ModID}}.Maps.Trace_House_Interior" }
+                }
+            ]
+        },
+
+    //Conditional map tiles
+            //Pipo tiles pre-adoption
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 20 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 1, "Y": 21 },
+                    "Layer": "Buildings",
+                    "Remove": true
+                },
+                {
+                    "Position": { "X": 11, "Y": 5 },
+                    "Layer": "Back3",
+                    "Remove": true
+                }
+            ],
+            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
+        },
+            //Open doors in Trace's House
+            {
+                "Action": "EditMap",
+                "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+                "Update": "OnLocationChange",
+                "MapTiles": [
+                    {
+                        "Position": { "X": 13, "Y": 12 },
+                        "Layer": "Buildings",
+                        "Remove": true
+                    },
+                    {
+                        "Position": { "X": 6, "Y": 12 },
+                        "Layer": "Buildings",
+                        "Remove": true
+                    },
+                    //Trace's Bedroom
+                    {
+                        "Position": { "X": 13, "Y": 12 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "370"
+                    },
+                    {
+                        "Position": { "X": 13, "Y": 11 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "354"
+                    },
+                    {
+                        "Position": { "X": 13, "Y": 10 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "338"
+                    },
+                    //Trace's Art Room
+                    {
+                        "Position": { "X": 6, "Y": 12 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "370"
+                    },
+                    {
+                        "Position": { "X": 6, "Y": 11 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "354"
+                    },
+                    {
+                        "Position": { "X": 6, "Y": 10 },
+                        "Layer": "Front",
+                        "SetTileSheet": "spring_DitRTilesheet",
+                        "SetIndex": "338"
+                    }
+                ],
+                "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
+            },
+
+            //Strings
+            {
+                "LogName": "Trace Map Strings",
+                "Action": "EditData",
+                "Target": "strings/StringsFromMaps",
+                "Entries": {
+
+                    //TRACE STRINGS
+                    "TraceHClosedDoor": "{{i18n:Maps.TraceV.TraceHClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
+
+                }
+            }
+    ]
+}

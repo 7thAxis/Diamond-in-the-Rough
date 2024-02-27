@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.8" tiledversion="1.8.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="22">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="22">
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
@@ -9,13 +9,13 @@
  <tileset firstgid="4801" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="2550" columns="25">
   <image source="lumi_towninterior.png" width="400" height="1632"/>
  </tileset>
- <tileset firstgid="7351" name="BaseRug" tilewidth="16" tileheight="16" tilecount="12" columns="4">
-  <image source="BaseRug.png" width="64" height="48"/>
+ <tileset firstgid="7351" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
+  <image source="spring_DitRTilesheet.png" width="256" height="480"/>
  </tileset>
  <layer id="1" name="Back" width="6" height="9">
   <data encoding="csv">
-7356,7357,7356,7357,7356,7357,
-7357,7356,7357,7356,7357,7356,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
 113,113,113,113,113,113,
 2120,2120,2120,2120,2120,2120,
 2120,2120,2120,2120,2120,2120,
@@ -27,14 +27,14 @@
  </layer>
  <layer id="14" name="Back2" width="6" height="9">
   <data encoding="csv">
+7372,7373,7372,7373,7372,7373,
+7372,7373,7372,7373,7372,7373,
 0,0,0,0,0,0,
-0,0,0,81,81,0,
 0,0,0,0,0,0,
-0,0,0,0,0,0,
-0,7351,7352,7353,7354,0,
 0,7355,7356,7357,7358,0,
-0,7355,7357,7356,7358,0,
-0,7359,7360,7361,7362,0,
+0,7371,7356,7357,7374,0,
+0,7371,7372,7373,7374,0,
+0,7387,7388,7389,7390,0,
 0,0,0,0,0,0
 </data>
  </layer>

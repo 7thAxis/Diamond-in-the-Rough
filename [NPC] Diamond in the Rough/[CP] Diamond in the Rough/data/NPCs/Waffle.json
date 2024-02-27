@@ -1,0 +1,72 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Waffle Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "WaffleW": {
+                    "DisplayName": "{{i18n:Core.WaffleW.Name}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 15,
+                    "HomeRegion": "Other",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": null,
+                    "SocialTab": "UnknownUntilMet",
+                    "CanGreetNearbyCharacters": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 5,
+                    "DumpsterDiveEmote": 56,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Location": "{{ModID}}.Maps.Eve_House_Interior",
+                            "Tile": { "X": 7, "Y": 4 },
+                            "Direction": "down"
+                        }
+                    ],
+                    "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
+                }
+            }
+        },
+//---------------------------- GIFT TASTES ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "WaffleW": "{{i18n:Gifts.WaffleW.Love}}/-14 103 105 119 126 127 169 223 306 307 308 308 579 580 581 582 583 584 585 769 789 807 881/{{i18n:Gifts.WaffleW.Like}}/food_sweet -20 305/{{i18n:Gifts.WaffleW.Dislike}}/-6 -4/{{i18n:Gifts.WaffleW.Hate}}/220 795 768/{{i18n:Gifts.WaffleW.Neutral}}/192/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/WaffleW, Portraits/WaffleW, Characters/WaffleW_Default, Portraits/WaffleW_Default",
+            "FromFile": "assets/{{TargetPathOnly}}/Waffle/Waffle.png"
+        },
+        {
+            "LogName": "Waffle Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "waffle_sleep": "18/16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17/18",
+                "waffle_lay": "18/20 20 20 20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21/18",
+                "waffle_sitright": "18/18 18 18 18 18 18 18 18 18 18 18 18 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 19 19 18 18 18 18 18 18 19 19 18 18 18 18 18 18 18/18",
+                "waffle_sitleft": "23/23 23 23 23 23 23 23 23 23 23 23 23 22 22 23 23 23 23 23 23 23 23 23 23 23 23 23 22 22 23 23 23 23 23 23 22 22 23 23 23 23 23 23 23/23"
+            }
+        }
+     ]
+
+}

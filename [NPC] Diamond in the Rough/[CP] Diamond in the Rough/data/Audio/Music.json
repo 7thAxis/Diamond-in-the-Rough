@@ -41,28 +41,6 @@
                     "Looped": true
                 }
             }
-        },      
-        {
-            "LogName": "DitR Sound Effects",
-            "Action": "EditData",
-            "Target": "Data/AudioChanges",
-            "Entries": {
-                "{{ModID}}.SFX.WaffleBark": {
-                    "ID": "{{ModID}}.SFX.WaffleBark",
-                    "Category": "Sound",
-                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": false
-                },
-
-                "{{ModID}}.SFX.PipoMeow": {
-                    "ID": "{{ModID}}.SFX.PipoMeow",
-                    "Category": "Sound",
-                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
-                    "StreamedVorbis": false,
-                    "Looped": false
-                }
-            }
         }
      ]
 

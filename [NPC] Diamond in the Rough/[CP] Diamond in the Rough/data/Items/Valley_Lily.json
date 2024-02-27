@@ -1,6 +1,169 @@
 {
-    "Changes": [
-        //Valley Lily
+    "Changes": [  
+     //---------------------------- ITEM DATA ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.ValleyLily": {
+                    "Name": "{{ModID}}.Items.ValleyLily",
+                    "DisplayName": "{{i18n:Items.ValleyLily.Title}}",
+                    "Description": "{{i18n:Items.ValleyLily.Description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 50,
+                    "Edibility": -50,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "ContextTags": [ "color_white", "season_spring", "season_summer", "forage_item", "flower_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 0
+                },
+
+                "{{ModID}}.Items.ValleyLilySeeds": {
+                    "Name": "{{ModID}}.Items.ValleyLilySeeds",
+                    "DisplayName": "{{i18n:Items.ValleyLilySeeds.Title}}",
+                    "Description": "{{i18n:Items.ValleyLilySeeds.Description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 30,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 1
+                },
+
+                //GOLDEN VALLEY LILY
+                "{{ModID}}.Items.GoldenValleyLily": {
+                    "Name": "{{ModID}}.Items.GoldenValleyLily",
+                    "DisplayName": "{{i18n:Items.GoldenValleyLily.Title}}",
+                    "Description": "{{i18n:Items.GoldenValleyLily.Description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 275,
+                    "Edibility": 1,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 300,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 4,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "ContextTags": [ "color_gold", "season_spring", "season_summer", "forage_item", "flower_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 2
+                },
+
+                "{{ModID}}.Items.GoldenValleyLilySeeds": {
+                    "Name": "{{ModID}}.Items.GoldenValleyLilySeeds",
+                    "DisplayName": "{{i18n:Items.GoldenValleyLilySeeds.Title}}",
+                    "Description": "{{i18n:Items.GoldenValleyLilySeeds.Description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 100,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 3
+                }
+            }
+        },
+
+    //---------------------------- SPACECORE DATA ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModID}}.Items.GoldenValleyLily": { // The object ID
+                    "EatenHealthRestoredOverride": -99,
+                    "EatenStaminaRestoredOverride": -269
+                }
+            }
+        },
+    //---------------------------- CROP DATA ------------------------------------------//
+    {
+        "Action": "EditData",
+        "Target": "Data/Crops",
+        "Entries": {
+            "{{ModID}}.Items.ValleyLilySeeds": {
+                "Seasons": [ "spring", "summer" ],
+                "DaysInPhase": [ 1, 1, 1, 1 ],
+                "HarvestItemId": "{{ModID}}.Items.ValleyLily",
+                "RegrowDays": "0",
+                "IsRaised": false,
+                "HarvestMaxIncreasePerFarmingLevel": "0",
+                "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
+                "SpriteIndex": 0
+            },
+
+            "{{ModID}}.Items.GoldenValleyLilySeeds": {
+                "Seasons": [ "spring", "summer" ],
+                "DaysInPhase": [ 1, 4, 4, 4 ], 
+                "HarvestItemId": "{{ModID}}.Items.GoldenValleyLily",
+                "RegrowDays": "0",
+                "IsRaised": false,
+                "HarvestMaxIncreasePerFarmingLevel": "0",
+                "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
+                "SpriteIndex": 1
+            }
+        }
+    },
+    //---------------------------- FORAGE DATA ------------------------------------------//   
         {
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -206,163 +369,6 @@
                 "(O){{ModID}}.Items.GoldenValleyLily": {
                     "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
                     "Chance": "0.05"
-                }
-            }
-        },
-        //Sen's Crocus
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "BusStop", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Backwoods", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Mountain", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Forest", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Woods", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "EastScarp_Village", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Custom_ForestWest", "Forage" ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true},
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Custom_Garden", "Forage" ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
-                }
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "EastScarp_Orchard", "Forage" ],
-            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "1.0"
                 }
             }
         }

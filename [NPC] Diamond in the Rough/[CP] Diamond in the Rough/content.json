@@ -20,8 +20,7 @@ CREDITS
 */
 {
     "Format": "2.0.0",
-
-    //Config    
+//---------------------------- CONFIGURATION ------------------------------------------//
     "ConfigSchema": {
         "Shadow Stat Changes": {
             "AllowValues": "true, false",
@@ -96,7 +95,7 @@ CREDITS
             "Section": "Pronouns"
         }             
     },
-    //DTs
+ //---------------------------- DYNAMIC TOKENS ------------------------------------------//
     "DynamicTokens": [    
         //WORLD STATE
             /* IsOddYear - Checks if the year is odd for SVE Spirits Eve festival placement.
@@ -181,13 +180,13 @@ CREDITS
             "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |PPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |PPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}}"
         },
 
-         //Situational Override Dialogue Generator 
-            //Generates conditional dialogue that will randomly override daily dialogue. 
-            //Hideous DTs but prevents me from running 500 Randomized Query checks that can overlap.
-            //Set up to remove dialogue from the pool if conditions aren't correct.
-            //Blank values are unfortunately needed or the entire override DT explodes
-            //Must be done per NPC as {{TargetWithoutPath}} will not parse correctly in a DT.
-            //Done key={{Time}} to force more robust randomization (was experiencing a lot of repeat dialogue)
+    //Situational Override Dialogue Generator 
+        //Generates conditional dialogue that will randomly override daily dialogue. 
+        //Hideous DTs but prevents me from running 500 Randomized Query checks that can overlap.
+        //Set up to remove dialogue from the pool if conditions aren't correct.
+        //Blank values are unfortunately needed or the entire override DT explodes
+        //Must be done per NPC as {{TargetWithoutPath}} will not parse correctly in a DT.
+        //Done key={{Time}} to force more robust randomization (was experiencing a lot of repeat dialogue)
 
         //--EVE OVERRIDE DIALOGUE GENERATION--
 
@@ -272,65 +271,11 @@ CREDITS
             "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
         }
     ],
-    //Files
+//---------------------------- FILE LOADER ------------------------------------------//
     "Changes": [
         {
-            "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate",
-            "FromFile": "data/blank.json"
-        },
-        //All
-        {
             "Action": "Include",
-            "FromFile": "data/Core/Sprites.json, data/Core/NPCs.json, data/Core/Maps.json, data/Core/Audio.json, data/Core/Items.json, data/Core/Quests.json, data/Core/Fish.json, data/Core/Migration.json, data/Festivals/Festival_Dialogue.json, data/Core/Monsters.json, data/Core/Forage.json, data/Dialogue/Townie.json"
-        },
-        //Eve
-        {
-            "Action": "Include",
-            "FromFile": "data/Dialogue/Eve.json, data/Schedules/Eve.json, data/Festivals/Eve.json, data/Movies/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
-        },
-        //Trace
-        {
-            "Action": "Include",
-            "FromFile": "data/Dialogue/Trace.json, data/Schedules/Trace.json"
-        },
-        //Sen
-		{
-			"Action": "Include",
-			"FromFile": "data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Festivals/Sen.json, data/Movies/Sen.json,data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/ReactToDeath.json"
-		},
-        {
-			"Action": "Include",
-			"FromFile": "data/Schedules/Sen.json",
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
-		},
-        //Waffle
-        {
-            "Action": "Include",
-            "FromFile": "data/Dialogue/Waffle.json, data/Schedules/Waffle.json, data/Festivals/Waffle.json, data/Movies/Waffle.json"
-        },
-        //Pipo
-        {
-            "Action": "Include",
-            "FromFile": "data/Dialogue/Pipo.json, data/Schedules/Pipo.json, data/Festivals/Pipo.json, data/Movies/Pipo.json"
-        },
-        //Jeremy
-        {
-            "Action": "Include",
-            "FromFile": "data/Dialogue/Jeremy.json, data/Events/Jeremy/QuestActivation.json"
-        },
-        //loads based on mod compat
-        {
-            "Action": "EditData",
-            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
-            "Entries": {
-                "WaffleW": { "MarkerCropOffset": 15 },
-                "PipoP":   { "MarkerCropOffset": 15 },
-                "EveT":    { "MarkerCropOffset": 4 },
-                "TraceV":  { "MarkerCropOffset": 4 },
-                "SenS":    { "MarkerCropOffset": 5 }
-            },
-            "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
+            "FromFile": "data/FileLoader.json"
         }
     ]
 }

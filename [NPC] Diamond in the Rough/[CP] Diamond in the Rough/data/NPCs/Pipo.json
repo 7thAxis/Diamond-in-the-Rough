@@ -1,0 +1,86 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Pipo Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "PipoP": {
+                    "DisplayName": "{{i18n:Core.PipoP.Name}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 2,
+                    "HomeRegion": "Other",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "YourMom",
+                    "SocialTab": "UnknownUntilMet",
+                    "CanGreetNearbyCharacters": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 40,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Home": [
+                        {
+                            "Location": "EastScarp_Village",
+                            "Tile": { "X": 77, "Y": 94 },
+                            "Direction": "left"
+                        }
+                    ],
+                    "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 }
+                }
+            }
+        },
+//---------------------------- GIFT TASTES ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "WaffleW": "{{i18n:Gifts.WaffleW.Love}}/-14 103 105 119 126 127 169 223 306 307 308 308 579 580 581 582 583 584 585 769 789 807 881/{{i18n:Gifts.WaffleW.Like}}/food_sweet -20 305/{{i18n:Gifts.WaffleW.Dislike}}/-6 -4/{{i18n:Gifts.WaffleW.Hate}}/220 795 768/{{i18n:Gifts.WaffleW.Neutral}}/192/",
+                "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/PipoP, Characters/PipoP_Default",
+            "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/PipoP, Portraits/PipoP_Default",
+            "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png",
+            "When": { "Alpha Pipo Portrait": false }
+        },
+        {
+            "Action": "Load",
+            "Target": "Portraits/PipoP, Portraits/PipoP_Default",
+            "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo_Alpha.png",
+            "When": { "Alpha Pipo Portrait": true }
+        },
+        {
+            "LogName": "Pipo Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "pipo_sleep": "23/16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17/23",
+                "pipo_sitleft": "23/23 23 23 23 23 23 23 24 24 24 24 24 24 24/23",
+                "pipo_sitright": "18/18 18 18 18 18 18 18 19 19 19 19 19 19 19/23",
+                "pipo_groom": "18/18 18 19 19 20 20 21 21 22 22 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18"
+    
+            }
+        }
+     ]
+
+}

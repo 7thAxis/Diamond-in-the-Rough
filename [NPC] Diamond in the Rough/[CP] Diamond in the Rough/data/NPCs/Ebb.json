@@ -1,0 +1,10 @@
+{
+    "Changes": [
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/Ebb, Portraits/Ebb",
+            "FromFile": "assets/{{TargetPathOnly}}/Ebb/Ebb.png"
+        }
+     ]
+}

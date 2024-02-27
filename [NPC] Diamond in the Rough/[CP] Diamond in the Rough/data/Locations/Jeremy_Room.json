@@ -1,0 +1,236 @@
+{
+    "Changes": [        
+        {
+            "Action": "Load",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "FromFile": "assets/Maps/Jeremy_Room.tmx"
+        },
+        {
+            "LogName": "Location Data",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModID}}.Maps.Jeremy_Room": {
+                    "MusicDefault": "{{ModID}}.Music.JeremyTheme",
+                    "DisplayName": "{{i18n:Maps.TraceV.Jeremy_Room}}",
+                    "DefaultArrivalTile": { "X": 10, "Y": 6 },
+                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Jeremy_Room" }
+                }
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "AddWarps": [ 
+                "10 4 {{ModID}}.Maps.Trace_House_Interior 11 22",
+                "11 4 {{ModID}}.Maps.Trace_House_Interior 12 22" 
+            ]
+        },
+
+        //Conditional tiles 
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 6 }, "Layer": "Buildings",
+                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.LavaSnailRoundUp.QuestActive}}" }
+                },
+                {
+                    "Position": { "X": 5, "Y": 6 }, "Layer": "Buildings",
+                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.LavaSnailRoundUp.QuestActive}}" }
+                }
+            ]
+        },
+
+//SNAIL PATCHES
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                //Single snails around map
+                { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "Remove": true },
+
+                //Tilted snails
+                { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings", "Remove": true },
+
+                //Sign snail
+                { "Position": { "X": 5, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 5, "Y": 4 }, "Layer": "Buildings3", "Remove": true },
+                
+                //Snail clusters
+                { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 8 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 16, "Y": 8 }, "Layer": "Front", "Remove": true }
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase1": false }
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                //Single snails around map
+                { "Position": { "X": 9, "Y": 13 }, "Layer": "Buildings", "Remove": true },
+
+                //Snail clusters
+                { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 7 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 3, "Y": 7 }, "Layer": "Front", "Remove": true },  
+
+                //Bucket snail
+                { "Position": { "X": 18, "Y": 6 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 18, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+
+                //Water snails
+                { "Position": { "X": 7, "Y": 15 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings", "Remove": true }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase2": false }
+        },
+
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                //Water snails
+                { "Position": { "X": 15, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 17 }, "Layer": "Buildings", "Remove": true },
+
+                //Tilted snails
+                { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 8 }, "Layer": "Front", "Remove": true },
+
+                //Snail clusters
+                { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 3, "Y": 13 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 4, "Y": 13 }, "Layer": "Front", "Remove": true },  
+
+                //Bush snails
+                { "Position": { "X": 8, "Y": 10 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 4, "Y": 4 }, "Layer": "Buildings3", "Remove": true }
+
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase3": false }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                //Bush snails
+                { "Position": { "X": 13, "Y": 9 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 15, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+
+                //OTP snails
+                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+
+                //Single snails around map
+                { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "Remove": true }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase4": false }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+
+                //Single snails around map
+                { "Position": { "X": 19, "Y": 15 }, "Layer": "Buildings", "Remove": true },
+
+                //Bush snails
+                { "Position": { "X": 18, "Y": 3 }, "Layer": "Buildings3", "Remove": true },
+
+                //Snail Clusters
+
+                { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 18, "Y": 13 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 19, "Y": 13 }, "Layer": "Front", "Remove": true }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase5": false }
+        }
+    ]
+}
+
+/*
+OG SNAIL LIST
+                //Single snails around map
+                { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 9, "Y": 13 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 15 }, "Layer": "Buildings", "Remove": true },
+
+                //OTP snails
+                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+
+                //Water snails
+                { "Position": { "X": 7, "Y": 15 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+
+                { "Position": { "X": 15, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 17 }, "Layer": "Buildings", "Remove": true },
+
+                //Bucket Snail
+                { "Position": { "X": 18, "Y": 6 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 18, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+
+                //Bush snails
+                { "Position": { "X": 8, "Y": 10 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 4, "Y": 4 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 13, "Y": 9 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 15, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 18, "Y": 3 }, "Layer": "Buildings3", "Remove": true },
+
+                //Tilted snails
+                { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings3", "Remove": true },
+
+                { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 8 }, "Layer": "Front", "Remove": true },
+
+                //Sign Snail
+                { "Position": { "X": 5, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
+                { "Position": { "X": 5, "Y": 4 }, "Layer": "Buildings3", "Remove": true },
+                
+                //Snail Clusters
+                { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 7 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 3, "Y": 7 }, "Layer": "Front", "Remove": true },  
+
+                { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 3, "Y": 13 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 4, "Y": 13 }, "Layer": "Front", "Remove": true },  
+
+                { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 18, "Y": 13 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 19, "Y": 13 }, "Layer": "Front", "Remove": true },  
+
+                { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 8 }, "Layer": "Front", "Remove": true },
+                { "Position": { "X": 16, "Y": 8 }, "Layer": "Front", "Remove": true }
+*/

@@ -1,0 +1,87 @@
+{
+    "Changes": [
+
+//EXTERIOR
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "FromFile": "assets/Maps/Eve_House_Exterior.tmx",
+            "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
+            "PatchMode": "Replace"
+        },
+
+//INTERIOR        
+        {
+			"Action": "Load",
+			"Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+			"FromFile": "assets/Maps/Eve_House_Interior.tmx"
+		},
+        {
+			"LogName": "Location Data",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"Entries": {
+				"{{ModID}}.Maps.Eve_House_Interior": {
+                    "MusicIsTownTheme": true,
+					"DisplayName": "{{i18n:Maps.EveT.EveHouse}}",
+					"DefaultArrivalTile": { "X": 6, "Y": 10 },
+					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Eve_House_Interior" },
+					"FormerLocationNames": [ "7thAxis.LotV.Eve_House_Interior" ]
+				}
+			}
+		},
+    //Warps
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+            "AddWarps": [ "6 11 EastScarp_Village 80 94" ],
+            "MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 4 },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "MEEP_CloseupInteraction_Image": "Mods/{{ModID}}.Images/Drawer_Photo.1",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
+                    }
+                }
+            ]
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "MapTiles": [
+                {
+                    "Position": { "X": 80, "Y": 93 },
+                    "Layer": "Buildings",
+                    "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.Eve_House_Interior" }
+                }
+            ]
+        },
+        {
+            "LogName": "Eve Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
+
+                //EVE STRINGS
+                "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
+                "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
+                "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
+                "EveTMegaBomb": "{{i18n:Maps.EveT.EveTMegaBomb}}",
+                "EveTHDogBowl": "{{i18n:Maps.EveT.EveTHDogBowl}}",
+                "EveTHPainting": "{{i18n:Maps.EveT.EveTHPainting}}",
+                "EveTHDogBed": "{{i18n:Maps.EveT.EveTHDogBed}}",
+                "EveTHPlant": "{{i18n:Maps.EveT.EveTHPlant}}",
+                "EveTHCherryBomb": "{{i18n:Maps.EveT.EveTHCherryBomb}}",
+                "EveTHBed": "{{i18n:Maps.EveT.EveTHBed}}",
+                "EveTHBomb": "{{i18n:Maps.EveT.EveTHBomb}}",
+                "EveTHFlower": "{{i18n:Maps.EveT.EveTHFlower}}",
+                "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
+                "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
+                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}",
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}"
+
+            }
+        }
+    ]
+}

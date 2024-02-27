@@ -1,0 +1,244 @@
+{
+    "Changes": [   
+    //---------------------------- ITEM DATA ------------------------------------------//  
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.SensCrocus": {
+                    "Name": "{{ModID}}.Items.SensCrocus",
+                    "DisplayName": "{{i18n:Items.SensCrocus.Title}}",
+                    "Description": "{{i18n:Items.SensCrocus.Description}}",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 50,
+                    "Edibility": 18,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "ContextTags": [ "color_purple", "season_spring", "season_summer", "season_fall", "season_winter", "forage_item", "flower_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 5
+                },
+
+                "{{ModID}}.Items.SensCrocusSeeds": {
+                    "Name": "{{ModID}}.Items.SensCrocusSeeds",
+                    "DisplayName": "{{i18n:Items.SensCrocusSeeds.Title}}",
+                    "Description": "{{i18n:Items.SensCrocusSeeds.Description}}",
+                    "Type": "Seeds",
+                    "Category": -74,
+                    "Price": 30,
+                    "IsDrink": false,
+                    "ExcludeFromPerfectionShipping": true,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 4
+                }
+            }
+        },
+    //---------------------------- CROP DATA ------------------------------------------//
+    {
+        "Action": "EditData",
+        "Target": "Data/Crops",
+        "Entries": {
+            "{{ModID}}.Items.SensCrocusSeeds": {
+                "Seasons": [ "spring", "summer", "fall", "winter" ],
+                "DaysInPhase": [ 1, 1, 1, 1 ],                    
+                "HarvestItemId": "{{ModID}}.Items.SensCrocus",
+                "RegrowDays": "0",
+                "IsRaised": false,
+                "HarvestMaxIncreasePerFarmingLevel": "0",
+                "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
+                "SpriteIndex": 2
+            }
+        }
+    },
+    //---------------------------- FORAGE DATA ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "BusStop", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Backwoods", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Mountain", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Forest", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Woods", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "EastScarp_Village", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ForestWest", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true},
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_Garden", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "EastScarp_Orchard", "Forage" ],
+            "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
+            "Entries": {
+                "(O){{ModID}}.Items.SensCrocus": {
+                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
+                    "Chance": "1.0"
+                }
+            }
+        }
+    ]
+}

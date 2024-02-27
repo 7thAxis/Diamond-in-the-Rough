@@ -1,0 +1,33 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "Jeremy Spawn",
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+                {
+                    "Position": { "X": "5", "Y": "11" },
+                    "Layer": "Back",
+                    "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
+                }
+            ]
+        },
+        {
+            "LogName": "Jeremy Display Name",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
+            "TargetField": "Companion",
+            "Entries": {
+                "Companion": { "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" } }
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/JeremyTSnail, Portraits/JeremyTSnail",
+            "FromFile": "assets/{{TargetPathOnly}}/Jeremy/Jeremy.png"
+        }
+     ]
+}

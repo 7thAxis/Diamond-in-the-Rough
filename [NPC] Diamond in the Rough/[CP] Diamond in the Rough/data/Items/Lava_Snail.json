@@ -1,0 +1,56 @@
+{
+    "Changes": [   
+    //Item Data     
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.LavaSnail": {
+                    "Name": "{{ModID}}.Items.LavaSnail",
+                    "DisplayName": "{{i18n:Items.LavaSnail.Title}}",
+                    "Description": "{{i18n:Items.LavaSnail.Description}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 50,
+                    "Edibility": -50,
+                    "IsDrink": false,
+                    "Buff": {
+                        "BuffId": null,
+                        "Duration": 0,
+                        "CustomAttributes": {
+                            "FarmingLevel": 0,
+                            "FishingLevel": 0,
+                            "MiningLevel": 0,
+                            "LuckLevel": 0,
+                            "ForagingLevel": 0,
+                            "MaxStamina": 0,
+                            "MagneticRadius": 0,
+                            "Speed": 0,
+                            "Defense": 0,
+                            "Attack": 0
+                        }
+                    },
+                    "ContextTags": [ "color_red", "color_black", "fish_lava_snail", "forage_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 6
+                }               
+            }
+        },
+        {
+            "LogName": "Lava Snail Fishing Data",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "{{ModID}}.Items.LavaSnail": "Lava Snail/trap/.15//freshwater/12/24/false"
+            }
+        },
+        {
+            "LogName": "Lava Snail Aquarium Data",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "{{ModID}}.Items.LavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
+            }
+        }
+    ]
+}
