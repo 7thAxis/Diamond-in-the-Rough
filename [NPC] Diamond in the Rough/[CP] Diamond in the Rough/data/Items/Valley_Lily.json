@@ -14,22 +14,7 @@
                     "Price": 50,
                     "Edibility": -50,
                     "IsDrink": false,
-                    "Buff": {
-                        "BuffId": null,
-                        "Duration": 0,
-                        "CustomAttributes": {
-                            "FarmingLevel": 0,
-                            "FishingLevel": 0,
-                            "MiningLevel": 0,
-                            "LuckLevel": 0,
-                            "ForagingLevel": 0,
-                            "MaxStamina": 0,
-                            "MagneticRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
-                        }
-                    },
+                    "Buff": null,
                     "ContextTags": [ "color_white", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 0
@@ -43,22 +28,7 @@
                     "Category": -74,
                     "Price": 30,
                     "IsDrink": false,
-                    "Buff": {
-                        "BuffId": null,
-                        "Duration": 0,
-                        "CustomAttributes": {
-                            "FarmingLevel": 0,
-                            "FishingLevel": 0,
-                            "MiningLevel": 0,
-                            "LuckLevel": 0,
-                            "ForagingLevel": 0,
-                            "MaxStamina": 0,
-                            "MagneticRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
-                        }
-                    },
+                    "Buff": null,
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 1
                 },
@@ -73,22 +43,7 @@
                     "Price": 275,
                     "Edibility": 1,
                     "IsDrink": false,
-                    "Buff": {
-                        "BuffId": null,
-                        "Duration": 300,
-                        "CustomAttributes": {
-                            "FarmingLevel": 0,
-                            "FishingLevel": 0,
-                            "MiningLevel": 0,
-                            "LuckLevel": 4,
-                            "ForagingLevel": 0,
-                            "MaxStamina": 0,
-                            "MagneticRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
-                        }
-                    },
+                    "Buff": { "Duration": 300, "CustomAttributes": { "LuckLevel": 4 } },
                     "ContextTags": [ "color_gold", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 2
@@ -102,22 +57,7 @@
                     "Category": -74,
                     "Price": 100,
                     "IsDrink": false,
-                    "Buff": {
-                        "BuffId": null,
-                        "Duration": 0,
-                        "CustomAttributes": {
-                            "FarmingLevel": 0,
-                            "FishingLevel": 0,
-                            "MiningLevel": 0,
-                            "LuckLevel": 0,
-                            "ForagingLevel": 0,
-                            "MaxStamina": 0,
-                            "MagneticRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
-                        }
-                    },
+                    "Buff": null,
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 3
                 }

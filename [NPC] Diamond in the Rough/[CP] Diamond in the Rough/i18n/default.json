@@ -2463,7 +2463,7 @@
 "Relationship.SenS.OneKid.1": "The pitterpatter of small feet around the house is so endearing.$h#$b#$kid1 seems to have a boundless amount of energy! Where does it come from?$h",
 "Relationship.SenS.OneKid.2": "Children are such a handful and destructive too!$u#$b#I caught %kid1 drawing on the walls!$u#$e#I got it all cleaned up though, so don't worry.$8",
 "Relationship.SenS.OneKid.3": "I do wonder how this living arrangement will impact %kid1 growing up...$6#$b#When will we inform the little one that this life must be kept a secret?$s#$e#How does one even begin to breach that subject with a child?$s#$b#There is still plently of time before that's necessary, but...$s#$e#%Sen shakes his head.#$b#I'm worrying about this too much. Things are going to work out in the end, I'm sure of it.$h",
-"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger$u#$b#Human children are truely something else.$8",
+"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger$u#$b#Children are truely something else.$8",
 "Relationship.SenS.OneKid.5": "%kid1 has far too much energy. It's hard to keep up with the destructive warpath of flying toys and crayons.$u#$b#Maybe I should make myself a suit of armor.$8",
 
 //Two Kid
@@ -2594,16 +2594,25 @@
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
 "Items.LavaSnail.Title": "Lava Snail",
 "Items.LavaSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
+
+"Items.LavaSnailBuddy.Title": "Lava Snail Buddy",
+"Items.LavaSnailBuddy.Description": "This little Lava Snail seems quite affectionate for you!",
+
 "Items.ValleyLily.Title": "Lily of the Valley",
 "Items.ValleyLily.Description": "A gentle flower that blooms in the spring and summer.",
+
 "Items.ValleyLilySeeds.Title": "Lily of the Valley Seeds",
 "Items.ValleyLilySeeds.Description": "Grows during the spring and summer. Takes 4 days to produce a white flower.",
+
 "Items.GoldenValleyLily.Title": "Golden Lily of the Valley",
 "Items.GoldenValleyLily.Description": "A rare golden flower rumored to grant great luck at the cost of one's own health and stamina.",
+
 "Items.GoldenValleyLilySeeds.Title": "Golden Lily of the Valley Seeds",
 "Items.GoldenValleyLilySeeds.Description": "Grows during the spring and summer. Takes 13 days to produce a golden flower.",
+
 "Items.SensCrocus.Title": "Sen's Crocus",
 "Items.SensCrocus.Description": "A flower born from the seeds Sen threw to the wind.",
+
 "Items.SensCrocusSeeds.Title": "Sen's Crocus Seeds",
 "Items.SensCrocusSeeds.Description": "Grows year round. Takes 4 days to produce a purple flower."
 

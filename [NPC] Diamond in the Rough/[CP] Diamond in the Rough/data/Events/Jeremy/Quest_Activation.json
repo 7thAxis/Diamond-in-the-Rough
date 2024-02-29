@@ -20,7 +20,7 @@
             "Entries": {
                 "SnailTest/l M_DitR_LavaSnailQuestActive/l M_DitR_AcceptedLavaSnailQuestToday": "
                 
-                ocean/
+                {{ModID}}.Music.JeremyTheme/
                 -1000 -1000/
                 farmer -1000 -1000 2/
                 ignoreCollisions farmer/

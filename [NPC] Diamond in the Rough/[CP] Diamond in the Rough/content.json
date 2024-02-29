@@ -8,7 +8,7 @@ CREDITS
     Pooh - Advanced code help. I've learned so so so so much from her!!
     LemurKat - For being an amazing modmom and giving my babies a home!
     KittyCatCasey - For adding amazing features to SpaceCore that let me do fancy things!
-    TheFrenchDodo - For the rendition of Barbie Girl for Trace. I promise I'll use this.
+    TheFrenchDodo - For the secret rendition of Barbie Girl that can play in Trace's room.
     Concerned Ape - For creating SDV and giving me a creative outlet!
     Zane Little - Eve's theme from FMA. (https://freemusicarchive.org/music/zane-little/a-bag-of-chips/the-world-is-ours/)
 
@@ -190,11 +190,11 @@ CREDITS
 
         //--EVE OVERRIDE DIALOGUE GENERATION--
 
-        { "Name": "EveOverrideDialogue", "Value": "" }, 
-        { "Name": "EveOverrideConditions", "Value": "Inactive" },
-        { "Name": "ETSD", "Value": "Empty" }, //Empty keeps EveOverrideDialogue from screaming abt being empty on disabled days
-        { "Name": "ETHasED", "Value": "" },
-        { "Name": "ETHasBOES", "Value": "" }, 
+            { "Name": "EveOverrideDialogue", "Value": "" }, 
+            { "Name": "EveOverrideConditions", "Value": "Inactive" },
+            { "Name": "ETSD", "Value": "Empty" }, //Empty keeps EveOverrideDialogue from screaming abt being empty on disabled days
+            { "Name": "ETHasED", "Value": "" },
+            { "Name": "ETHasBOES", "Value": "" }, 
 
         {
             "Name": "EveOverrideDayNumber",
@@ -232,11 +232,11 @@ CREDITS
 
         //--SEN OVERRIDE DIALOGUE GENERATION--
 
-        { "Name": "SenOverrideDialogue", "Value": "" }, 
-        { "Name": "SenOverrideConditions", "Value": "Inactive" },
-        { "Name": "SSSD", "Value": "Empty" }, //Empty keeps SenOverrideDialogue from screaming abt being empty on disabled days
-        { "Name": "SSRD",  "Value": "" },
-        { "Name": "SSKD", "Value": "" },
+            { "Name": "SenOverrideDialogue", "Value": "" }, 
+            { "Name": "SenOverrideConditions", "Value": "Inactive" },
+            { "Name": "SSSD", "Value": "Empty" }, //Empty keeps SenOverrideDialogue from screaming abt being empty on disabled days
+            { "Name": "SSRD",  "Value": "" },
+            { "Name": "SSKD", "Value": "" },
 
         {
             "Name": "SenOverrideDayNumber",

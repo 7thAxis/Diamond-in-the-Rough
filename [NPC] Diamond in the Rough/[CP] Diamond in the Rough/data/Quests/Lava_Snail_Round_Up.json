@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Quests",
             "Entries": {
-                "{{ModID}}.Quests.LavaSnailRoundUp": "ItemDelivery/{{i18n:Quests.DitR.LavaSnailRoundUp.Title}}/{{i18n:Quests.DitR.LavaSnailRoundUp.Description}}/{{i18n:Quests.DitR.LavaSnailRoundUp.Task}}/PipoP (O){{ModID}}.Items.LavaSnail 10/-1/1000/-1/false/{{i18n:Quests.DitR.LavaSnailRoundUp.FollowUp}}"
+                "{{ModID}}.Quests.LavaSnailRoundUp": "ItemDelivery/{{i18n:Quests.DitR.LavaSnailRoundUp.Title}}/{{i18n:Quests.DitR.LavaSnailRoundUp.Description}}/{{i18n:Quests.DitR.LavaSnailRoundUp.Task}}/PipoP (O){{ModID}}.Items.LavaSnail 10/-1/0/-1/false/{{i18n:Quests.DitR.LavaSnailRoundUp.FollowUp}}"
             }
         },
     //TRIGGER ACTIONS

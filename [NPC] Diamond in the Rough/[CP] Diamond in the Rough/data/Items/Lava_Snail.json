@@ -1,6 +1,6 @@
 {
     "Changes": [   
-    //Item Data     
+ //---------------------------- ITEM DATA ------------------------------------------// 
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -12,30 +12,16 @@
                     "Type": "Fish",
                     "Category": -4,
                     "Price": 50,
-                    "Edibility": -50,
+                    "Edibility": -300,
+                    "Buff": null,
                     "IsDrink": false,
-                    "Buff": {
-                        "BuffId": null,
-                        "Duration": 0,
-                        "CustomAttributes": {
-                            "FarmingLevel": 0,
-                            "FishingLevel": 0,
-                            "MiningLevel": 0,
-                            "LuckLevel": 0,
-                            "ForagingLevel": 0,
-                            "MaxStamina": 0,
-                            "MagneticRadius": 0,
-                            "Speed": 0,
-                            "Defense": 0,
-                            "Attack": 0
-                        }
-                    },
                     "ContextTags": [ "color_red", "color_black", "fish_lava_snail", "forage_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 6
                 }               
             }
         },
+ //---------------------------- FISHING DATA ------------------------------------------//
         {
             "LogName": "Lava Snail Fishing Data",
             "Action": "EditData",
@@ -44,6 +30,7 @@
                 "{{ModID}}.Items.LavaSnail": "Lava Snail/trap/.15//freshwater/12/24/false"
             }
         },
+ //---------------------------- AQUARIUM DATA ------------------------------------------//
         {
             "LogName": "Lava Snail Aquarium Data",
             "Action": "EditData",
@@ -52,6 +39,61 @@
                 "{{ModID}}.Items.LavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
             }
         },
+ //---------------------------- FISH POND DATA ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+            "{{ModID}}.FishPond.LavaSnail": {
+                "ID": "{{ModID}}.FishPond.LavaSnail",
+                "RequiredTags": [ "fish_lava_snail" ], 
+                "Precedence": 0,
+                "SpawnTime": -1,
+                "ProducedItems": [
+                {
+                    "RequiredPopulation": 10, 
+                    "Chance": 0.01, "ItemID": "(H){{ModID}}.Hats.LavaSnailBuddy", //Lava Snail Hat
+                    "MinQuantity": 1, "MaxQuantity": 1 
+                },
+                {
+                    "RequiredPopulation": 10, 
+                    "Chance": 0.02, "ItemID": "(O)729", //Escargot lmao
+                    "MinQuantity": 1, "MaxQuantity": 1 
+                },
+                {
+                    "RequiredPopulation": 8,
+                    "Chance": 0.05, "ItemID": "(O)64", //Ruby
+                    "MinQuantity": 1, "MaxQuantity": 2
+                },
+                {
+                    "RequiredPopulation": 5,
+                    "Chance": 0.2, "ItemID": "(O)82", //Fire quartz
+                    "MinQuantity": 1, "MaxQuantity": 3
+                },
+                {
+                    "RequiredPopulation": 2,
+                    "Chance": 0.1, "ItemID": "(O){{ModID}}.Items.LavaSnail", //...Lava Snail
+                    "MinQuantity": 1, "MaxQuantity": 1
+                },
+                {
+                    "RequiredPopulation": 1,
+                    "Chance": 0.5, "ItemID": "(O)766", //Slime
+                    "MinQuantity": 5, "MaxQuantity": 10
+                },
+                {
+                    "RequiredPopulation": 0,
+                    "Chance": 1.0, "ItemID": "(O)812", //roe
+                    "MinQuantity": 1, "MaxQuantity": 1
+                }
+                ],
+                "PopulationGates": {    
+                "3": [ "(O){{ModID}}.Items.LavaSnail 3", "(O)153 3", "(O)560 3"  ], //Lava Snail, Algae, White Algae
+                "5": [ "(O){{ModID}}.Items.LavaSnail 5", "(O)153 5", "(O)560 5"  ], //Lava Snail, Algae, White Algae
+                "8": [ "(O){{ModID}}.Items.LavaSnail 10", "(O)153 10", "(O)560 10" ] //Lava Snail, Algae, White Algae
+                }
+            }
+        }
+    },
  //---------------------------- FORAGE DATA ------------------------------------------//
         {
             "Action": "EditData",

@@ -65,21 +65,9 @@
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "Update": "OnLocationChange",
             "MapTiles": [
-                {
-                    "Position": { "X": 2, "Y": 20 },
-                    "Layer": "Buildings",
-                    "Remove": true
-                },
-                {
-                    "Position": { "X": 1, "Y": 21 },
-                    "Layer": "Buildings",
-                    "Remove": true
-                },
-                {
-                    "Position": { "X": 11, "Y": 5 },
-                    "Layer": "Back3",
-                    "Remove": true
-                }
+                { "Position": { "X": 2, "Y": 20 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 1, "Y": 21 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 11, "Y": 5 }, "Layer": "Back3", "Remove": true }
             ],
             "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
         },

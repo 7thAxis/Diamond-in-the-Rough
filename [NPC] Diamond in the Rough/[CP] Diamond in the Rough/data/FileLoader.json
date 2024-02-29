@@ -12,6 +12,13 @@
             "Target": "maps/spring_DitRTilesheet, maps/summer_DitRTilesheet, maps/fall_DitRTilesheet, maps/winter_DitRTilesheet, maps/CG_Sen_Ocean, maps/Dark_Mine, maps/Desert_Mine",
             "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
+//---------------------------- ITEM TILESHEETS ------------------------------------------//
+        {
+            "LogName": "DitR Aquarium Sprites",
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/Aquarium_Fish, Mods/{{ModID}}/Hats",
+            "FromFile": "assets/Items/{{TargetWithoutPath}}.png"
+        },
 //---------------------------- GENERAL FILES ------------------------------------------//
         {
             "Action": "Include",
@@ -30,7 +37,7 @@
 //---------------------------- ITEM FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Lava_Snail.json"
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Lava_Snail.json, data/Items/Lava_Snail_Buddy.json"
         },
 //---------------------------- MONSTER FILES ------------------------------------------//
         {
@@ -42,7 +49,7 @@
         //Eve
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/Eve.json, data/Festivals/Eve.json, data/Movies/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
+            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/Eve.json, data/Festivals/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
         },
         //Trace
         {
@@ -52,7 +59,7 @@
         //Sen
 		{
 			"Action": "Include",
-			"FromFile": "data/NPCs/Sen.json, data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Festivals/Sen.json, data/Movies/Sen.json,data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/React_To_Death.json"
+			"FromFile": "data/NPCs/Sen.json, data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Festivals/Sen.json, data/Movies/Sen.json, data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/React_To_Death.json"
 		},
         {
 			"Action": "Include",
@@ -62,12 +69,12 @@
         //Waffle
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Waffle.json,, data/Dialogue/Waffle.json, data/Schedules/Waffle.json, data/Festivals/Waffle.json, data/Movies/Waffle.json"
+            "FromFile": "data/NPCs/Waffle.json,, data/Dialogue/Waffle.json, data/Schedules/Waffle.json, data/Festivals/Waffle.json"
         },
         //Pipo
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/Pipo.json, data/Festivals/Pipo.json, data/Movies/Pipo.json"
+            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/Pipo.json, data/Festivals/Pipo.json"
         },
         //Jeremy
         {
@@ -91,43 +98,27 @@
             "Target": "Mods/{{ModID}}.Images/Drawer_Photo.1, Mods/{{ModID}}.Images/Drawer_Photo.2",
             "FromFile": "assets/Images/{{TargetWithoutPath}}.png"
         },
-    //---------------------------- AQUARIUM FILES ------------------------------------------//
-        {
-            "LogName": "DitR Aquarium Sprites",
-            "Action": "Load",
-            "Target": "Mods/{{ModID}}/Aquarium_Fish",
-            "FromFile": "assets/Items/Aquarium_Fish.png"
-        },
     //---------------------------- SHADOW BABY FILES ------------------------------------------//
         {           
             "Action": "Load",
             "Target": "Characters/Baby, Characters/Baby_dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/The_Baby.png",
             "When": 
-            {
-                "Spouse": "SenS",
-                "Have Shadow Kids":true
-            }
+            { "Spouse": "SenS", "Have Shadow Kids":true }
         },
         {           
             "Action": "Load",
             "Target": "Characters/Toddler_girl, Characters/Toddler_girl_Dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Freya.png",
             "When": 
-            {
-                "Spouse": "SenS",
-                "Have Shadow Kids":true
-            }
+            { "Spouse": "SenS", "Have Shadow Kids":true }
         },
         {           
             "Action": "Load",
             "Target": "Characters/Toddler, Characters/Toddler_Dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Loki.png",
             "When": 
-            {
-                "Spouse": "SenS",
-                "Have Shadow Kids":true
-            }
+            { "Spouse": "SenS", "Have Shadow Kids":true }
         },
    //---------------------------- RESHADE FILES ------------------------------------------//
         {           

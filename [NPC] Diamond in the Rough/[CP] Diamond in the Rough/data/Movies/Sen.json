@@ -6,18 +6,9 @@
             "Entries": {
                 "SenS": {
                     "Name": "SenS", 
-                    "LovedTags": [
-                        "Sour Slimes", 
-                        "Ice Cream Sandwich",
-                        "Stardrop Sorbet"
-                    ],
-                    "LikedTags": [
-                        "Sweet"
-                    ],
-                    "DislikedTags": [
-                        "Black Licorice",
-                        "Jawbreaker"
-                    ]
+                    "LikedTags": [ "Sweet" ],
+                    "DislikedTags": [ "Black Licorice", "Jawbreaker" ],
+                    "LovedTags": [ "Sour Slimes", "Ice Cream Sandwich", "Stardrop Sorbet" ]
                 }
             }
         },

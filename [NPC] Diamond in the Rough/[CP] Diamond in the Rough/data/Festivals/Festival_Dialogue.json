@@ -12,43 +12,13 @@
         },
         //NIGHT MARKET
         {
-            "LogName": "Sen - Night Market",
+            "LogName": "Night Market Dialogue",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
+            "Target": "Characters/Dialogue/SenS, Characters/Dialogue/EveT, Characters/Dialogue/PipoP, Characters/Dialogue/WaffleW",
             "Entries": 	{ 
-                "winter_15": "{{i18n:Festivals.SenS.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_16": "{{i18n:Festivals.SenS.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_17": "{{i18n:Festivals.SenS.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
-            }
-        },
-        {
-            "LogName": "Eve - Night Market",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/EveT",
-            "Entries": 	{ 
-                "winter_15": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_16": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_17": "{{i18n:Festivals.EveT.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
-            }
-        },
-        {
-            "LogName": "Pipo - Night Market",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/PipoP",
-            "Entries": 	{ 
-                "winter_15": "{{i18n:Festivals.PipoP.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_16": "{{i18n:Festivals.PipoP.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_17": "{{i18n:Festivals.PipoP.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
-            }
-        },
-        {
-            "LogName": "Waffle - Night Market",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/WaffleW",
-            "Entries": 	{ 
-                "winter_15": "{{i18n:Festivals.WaffleW.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_16": "{{i18n:Festivals.WaffleW.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
-                "winter_17": "{{i18n:Festivals.WaffleW.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
+                "winter_15": "{{i18n:Festivals.{{TargetWithoutPath}}.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
+                "winter_16": "{{i18n:Festivals.{{TargetWithoutPath}}.NightMarket.{{Random:{{Range: 1, 3}}}}}}",
+                "winter_17": "{{i18n:Festivals.{{TargetWithoutPath}}.NightMarket.{{Random:{{Range: 1, 3}}}}}}"
             }
         },
         //OTHER
