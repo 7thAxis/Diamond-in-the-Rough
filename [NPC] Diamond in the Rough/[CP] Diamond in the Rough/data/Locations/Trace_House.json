@@ -89,54 +89,18 @@
                 "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
                 "Update": "OnLocationChange",
                 "MapTiles": [
-                    {
-                        "Position": { "X": 13, "Y": 12 },
-                        "Layer": "Buildings",
-                        "Remove": true
-                    },
-                    {
-                        "Position": { "X": 6, "Y": 12 },
-                        "Layer": "Buildings",
-                        "Remove": true
-                    },
+
                     //Trace's Bedroom
-                    {
-                        "Position": { "X": 13, "Y": 12 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "370"
-                    },
-                    {
-                        "Position": { "X": 13, "Y": 11 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "354"
-                    },
-                    {
-                        "Position": { "X": 13, "Y": 10 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "338"
-                    },
+                    { "Position": { "X": 13, "Y": 12 }, "Layer": "Buildings", "Remove": true },
+                    { "Position": { "X": 13, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
+                    { "Position": { "X": 13, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
+                    { "Position": { "X": 13, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" },
+
                     //Trace's Art Room
-                    {
-                        "Position": { "X": 6, "Y": 12 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "370"
-                    },
-                    {
-                        "Position": { "X": 6, "Y": 11 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "354"
-                    },
-                    {
-                        "Position": { "X": 6, "Y": 10 },
-                        "Layer": "Front",
-                        "SetTileSheet": "spring_DitRTilesheet",
-                        "SetIndex": "338"
-                    }
+                    { "Position": { "X": 6, "Y": 12 }, "Layer": "Buildings", "Remove": true },
+                    { "Position": { "X": 6, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
+                    { "Position": { "X": 6, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
+                    { "Position": { "X": 6, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" }
                 ],
                 "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
             },
@@ -149,7 +113,7 @@
                 "Entries": {
 
                     //TRACE STRINGS
-                    "TraceHClosedDoor": "{{i18n:Maps.TraceV.TraceHClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
+                    "TraceVClosedDoor": "{{i18n:Maps.TraceV.TraceVClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
 
                 }
             }

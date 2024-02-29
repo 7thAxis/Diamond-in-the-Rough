@@ -144,13 +144,13 @@
  <objectgroup id="7" name="Buildings">
   <object id="6" name="TileData" x="208" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;TraceHClosedDoor&quot;"/>
+    <property name="Action" value="Message &quot;TraceVClosedDoor&quot;"/>
     <property name="NPCPassable" value="T"/>
    </properties>
   </object>
   <object id="12" name="TileData" x="96" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;TraceHClosedDoor&quot;"/>
+    <property name="Action" value="Message &quot;TraceVClosedDoor&quot;"/>
     <property name="NPCPassable" value="T"/>
    </properties>
   </object>

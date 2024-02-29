@@ -1890,7 +1890,7 @@
 //Location names
 "Maps.EveT.EveHouse": "Eve's House",
 "Maps.TraceV.TraceHouse": "Trace's House",
-"Maps.TraceV.TraceHouseBasement": "Jeremy's Room",
+"Maps.JeremyTSnail.JeremyRoom": "Jeremy's Room",
 
 //Eve
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
@@ -1952,7 +1952,7 @@
 "Maps.SenS.SenRoomBlueFlowers": "These are flowers from Sen's garden back in East Scarp.",
 
 //TRACE
-"Maps.TraceV.TraceHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
+"Maps.TraceV.TraceVClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
 /*
  ██████╗ ██╗   ██╗███████╗███████╗████████╗███████╗
 ██╔═══██╗██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝

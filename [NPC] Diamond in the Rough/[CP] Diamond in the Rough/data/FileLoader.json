@@ -9,7 +9,7 @@
 //---------------------------- TILESHEET LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "maps/{{Season}}_DitRTilesheet, maps/CG_Sen_Ocean, maps/Dark_Mine, maps/Desert_Mine",
+            "Target": "maps/spring_DitRTilesheet, maps/summer_DitRTilesheet, maps/fall_DitRTilesheet, maps/winter_DitRTilesheet, maps/CG_Sen_Ocean, maps/Dark_Mine, maps/Desert_Mine",
             "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
         },
 //---------------------------- GENERAL FILES ------------------------------------------//

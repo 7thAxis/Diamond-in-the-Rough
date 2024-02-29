@@ -12,7 +12,7 @@
             "Entries": {
                 "{{ModID}}.Maps.Jeremy_Room": {
                     "MusicDefault": "{{ModID}}.Music.JeremyTheme",
-                    "DisplayName": "{{i18n:Maps.TraceV.Jeremy_Room}}",
+                    "DisplayName": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}",
                     "DefaultArrivalTile": { "X": 10, "Y": 6 },
                     "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Jeremy_Room" }
                 }
@@ -159,7 +159,6 @@
                 { "Position": { "X": 18, "Y": 3 }, "Layer": "Buildings3", "Remove": true },
 
                 //Snail Clusters
-
                 { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 18, "Y": 13 }, "Layer": "Front", "Remove": true },
