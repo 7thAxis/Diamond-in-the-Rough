@@ -1,7 +1,7 @@
 {
     "Changes": [  
 
-    //Exterior
+//---------------------------- EXTERIOR LOAD ------------------------------------------// 
         {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",
@@ -9,7 +9,7 @@
             "ToArea": { "X": 0, "Y": 73, "Width": 13, "Height": 16 },
             "PatchMode": "Replace"
         },      
-    //Interior
+//---------------------------- INTERIOR LOAD ------------------------------------------// 
         {
             "Action": "Load",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
@@ -25,7 +25,7 @@
                         {
                           "Id": "TraceHouseBarbieGirl",
                           "Track": "{{ModID}}.Music.BarbieGirl",
-                          "Condition": "RANDOM 0.05 @addDailyLuck"
+                          "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05 @addDailyLuck"
                         }
                       ],
                     "MusicDefault": "{{ModID}}.Music.TraceHouse",
@@ -35,7 +35,33 @@
                 }
             }
         },
-        //Warps
+        {
+            "LogName": "Barbie Girl Flag Check", //What am I doing....
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+
+                "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.1": {
+                    "Trigger": "DayStarted",
+                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.1",
+                    "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05 @addDailyLuck",
+                    "Actions": [ 
+                         "AddMail Current DitR_M_TraceBarbieGirl",
+                         "MarkActionApplied Current {{ModID}}.TriggerActions.TraceBarbieGirlFlag.2 false"
+                         ]
+                },
+                "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.2": {
+                    "Trigger": "DayEnding",
+                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.2",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_TraceBarbieGirl Any",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_TraceBarbieGirl",
+                         "MarkActionApplied Current {{ModID}}.TriggerActions.TraceBarbieGirlFlag.1 false"
+                         ]
+                }
+        }
+    },
+//---------------------------- WARPS ------------------------------------------// 
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
@@ -57,53 +83,142 @@
                 }
             ]
         },
+//---------------------------- Trace Garbage ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "{{ModId}}.Garbage.TraceCoffee": {
+                    "BaseChance": 1.0,
+                    "Items": [
+                        { "ID": "{{ModId}}.Garbage.TraceCoffee", "ItemID": "(O)395" }
+                    ]
+                }
+            }
+        },
+//---------------------------- CONDITIONAL MAP TILES ------------------------------------------// 
+    //Pipo tiles pre-adoption
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "MapTiles": [
+                { "Position": { "X": 2, "Y": 20 }, "Layer": "Buildings", "Remove": true }, //Food
+                { "Position": { "X": 1, "Y": 21 }, "Layer": "Buildings", "Remove": true }, //Water
+                { "Position": { "X": 11, "Y": 5 }, "Layer": "Back3", "Remove": true }, //Bed
 
-    //Conditional map tiles
-            //Pipo tiles pre-adoption
+                //Cat grass
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 4, "Y": 8 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 15, "Y": 8 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 17, "Y": 8 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 12, "Y": 3 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 3, "Y": 12 }, "Layer": "Front2", "Remove": true },
+                { "Position": { "X": 13, "Y": 21 }, "Layer": "Front2", "Remove": true }
+            ],
+            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
+        },
+
+    //Pipo tiles post-adoption
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "MapTiles": [
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
+                { "Position": { "X": 4, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
+                { "Position": { "X": 15, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
+                { "Position": { "X": 17, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
+                { "Position": { "X": 12, "Y": 4 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
+                { "Position": { "X": 3, "Y": 13 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
+                { "Position": { "X": 13, "Y": 21 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } }
+            ],
+            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": true }
+        },
+
+    //Open doors in Trace's House
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "Update": "OnLocationChange",
             "MapTiles": [
-                { "Position": { "X": 2, "Y": 20 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 1, "Y": 21 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 11, "Y": 5 }, "Layer": "Back3", "Remove": true }
+
+                //Trace's Bedroom
+                { "Position": { "X": 13, "Y": 12 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 13, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
+                { "Position": { "X": 13, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
+                { "Position": { "X": 13, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" },
+
+                //Trace's Art Room
+                { "Position": { "X": 6, "Y": 12 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 6, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
+                { "Position": { "X": 6, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
+                { "Position": { "X": 6, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" }
             ],
-            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
+            "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
-            //Open doors in Trace's House
-            {
-                "Action": "EditMap",
-                "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
-                "Update": "OnLocationChange",
-                "MapTiles": [
 
-                    //Trace's Bedroom
-                    { "Position": { "X": 13, "Y": 12 }, "Layer": "Buildings", "Remove": true },
-                    { "Position": { "X": 13, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
-                    { "Position": { "X": 13, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
-                    { "Position": { "X": 13, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" },
+//---------------------------- MAP STRINGS ------------------------------------------// 
+        {
+            "LogName": "Trace Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
 
-                    //Trace's Art Room
-                    { "Position": { "X": 6, "Y": 12 }, "Layer": "Buildings", "Remove": true },
-                    { "Position": { "X": 6, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
-                    { "Position": { "X": 6, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
-                    { "Position": { "X": 6, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" }
-                ],
-                "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
-            },
+            //TRACE STRINGS
 
-            //Strings
-            {
-                "LogName": "Trace Map Strings",
-                "Action": "EditData",
-                "Target": "strings/StringsFromMaps",
-                "Entries": {
+                //Bedroom
+                "TraceVHNailPolish": "{{i18n:Maps.TraceV.TraceVHNailPolish}}",
+                "TraceVHGuitar": "{{i18n:Maps.TraceV.TraceVHGuitar}}",
+                "TraceVHTelevision": "{{i18n:Maps.TraceV.TraceVHTelevision{{TraceRoomTokens}}}}",
+                "TraceVHRadio": "{{i18n:Maps.TraceV.TraceVHRadio.{{TraceBarbieGirlDay}}}}",
+                
+                //Art room
+                "TraceVHTinyBooks": "{{i18n:Maps.TraceV.TraceVHTinyBooks{{TraceRoomTokens}}}}",
+                "TraceVHTinyMoonPainting": "{{i18n:Maps.TraceV.TraceVHTinyMoonPainting}}",
+                "TraceVHMoonPainting1": "{{i18n:Maps.TraceV.TraceVHMoonPainting1}}",
+                "TraceVHMoonPainting2": "{{i18n:Maps.TraceV.TraceVHMoonPainting2}}",
+                "TraceVHMoonPaintingStack": "{{i18n:Maps.TraceV.TraceVHMoonPaintingStack}}",
+                "TraceVHCamera": "{{i18n:Maps.TraceV.TraceVHCamera}}",
+                "TraceVHPhotos": "{{i18n:Maps.TraceV.TraceVHPhotos}}",
+                "TraceVHBook1": "{{i18n:Maps.TraceV.TraceVHBook1{{TraceRoomTokens}}}}",
+                "TraceVHBook2": "{{i18n:Maps.TraceV.TraceVHBook2{{TraceRoomTokens}}}}",
 
-                    //TRACE STRINGS
-                    "TraceVClosedDoor": "{{i18n:Maps.TraceV.TraceVClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
+                //Hallway
+                "TraceVHBook3": "{{i18n:Maps.TraceV.TraceVHBook3{{TraceRoomTokens}}}}",
+                "TraceVHBook4": "{{i18n:Maps.TraceV.TraceVHBook4{{TraceRoomTokens}}}}",
+                "TraceVHLocationNote": "{{i18n:Maps.TraceV.TraceVHLocationNote}}",
+                "TraceVHCouchArmLeft": "{{i18n:Maps.TraceV.TraceVHCouchArmLeft}}",
+                "TraceVHCouchArmRight": "{{i18n:Maps.TraceV.TraceVHCouchArmRight}}",
+                "TraceVHSeat": "{{i18n:Maps.TraceV.TraceVHSeat}}",
 
-                }
+                //Kitchen
+                "TraceVHBlackberryCobbler": "{{i18n:Maps.TraceV.TraceVHBlackberryCobbler}}",
+                "TraceVHStove": "{{i18n:Maps.TraceV.TraceVHStove}}",
+                "TraceVHSink": "{{i18n:Maps.TraceV.TraceVHSink}}",
+                "TraceVHFridge": "{{i18n:Maps.TraceV.TraceVHFridge}}",
+                "TraceVHCoffeeMaker": "{{i18n:Maps.TraceV.TraceVHCoffeeMaker}}",
+                "TraceVHCoffeeCup": "{{i18n:Maps.TraceV.TraceVHCoffeeCup}}",
+                "TraceVHPipoWater": "{{i18n:Maps.TraceV.TraceVHPipoWater}}",
+                "TraceVHPipoFood": "{{i18n:Maps.TraceV.TraceVHPipoFood}}",
+                "TraceVHCenterFlowers": "{{i18n:Maps.TraceV.TraceVHCenterFlowers}}",
+                "TraceVHTablecloth": "{{i18n:Maps.TraceV.TraceVHTablecloth}}",
+                "TraceVHElectricalSocket": "{{i18n:Maps.TraceV.TraceVHElectricalSocket}}",
+
+                //Plants
+                "TraceVHCatGrass1": "{{i18n:Maps.TraceV.TraceVHCatGrass1}}",
+                "TraceVHCatGrass2": "{{i18n:Maps.TraceV.TraceVHCatGrass2}}",
+                "TraceVHPlant1": "{{i18n:Maps.TraceV.TraceVHPlant1}}", // Default basic
+                "TraceVHPlant2": "{{i18n:Maps.TraceV.TraceVHPlant2}}", // Default tropical
+                "TraceVHPlant3": "{{i18n:Maps.TraceV.TraceVHPlant3}}", // Art room corner
+                "TraceVHPlant4": "{{i18n:Maps.TraceV.TraceVHPlant4}}", // Hallway
+                "TraceVHPlant5": "{{i18n:Maps.TraceV.TraceVHPlant5}}", // Behind bowls
+                "TraceVHPlantLeft": "{{i18n:Maps.TraceV.TraceVHPlantLeft}}", // Guards!
+                "TraceVHPlantRight": "{{i18n:Maps.TraceV.TraceVHPlantRight}}", // Guards!
+
+                //Doors
+                "TraceVHClosedDoor": "{{i18n:Maps.TraceV.TraceVHClosedDoor |TraceHearts={{Hearts:TraceV}}}}"
+
             }
+        }
     ]
 }

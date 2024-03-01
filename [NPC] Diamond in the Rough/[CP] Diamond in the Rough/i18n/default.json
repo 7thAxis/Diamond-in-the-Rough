@@ -4,14 +4,12 @@
 
 { 
 /*
-/*
- ██████╗ ██████╗ ██████╗ ███████╗
-██╔════╝██╔═══██╗██╔══██╗██╔════╝
-██║     ██║   ██║██████╔╝█████╗  
-██║     ██║   ██║██╔══██╗██╔══╝  
-╚██████╗╚██████╔╝██║  ██║███████╗
- ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝
-*/
+ ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗ 
+██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝ 
+██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗
+██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║
+╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝  */
 //Configs
 "Config.section.Gameplay.name": "Gameplay",
 "Config.section.Graphics.name": "Graphics",
@@ -37,6 +35,274 @@
 "Config.Player Pronouns 4.description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: Themself, Herself)",
 "Config.Player Pronouns Identifier.name": "Player Pronouns Identifier",
 "Config.Player Pronouns Identifier.description": "Would usually be \"is\" or \"are\", depending on context. (She IS so cool! VS. They ARE so cool!) You can enter multiple sets for randomized selection each day separated by ','. (Example: are, is)",
+
+/*
+ ██████╗██╗   ██╗███████╗████████╗ ██████╗ ███╗   ███╗    ██████╗  █████╗ ███╗   ██╗██████╗  ██████╗ ███╗   ███╗    ███████╗███████╗████████╗███████╗
+██╔════╝██║   ██║██╔════╝╚══██╔══╝██╔═══██╗████╗ ████║    ██╔══██╗██╔══██╗████╗  ██║██╔══██╗██╔═══██╗████╗ ████║    ██╔════╝██╔════╝╚══██╔══╝██╔════╝
+██║     ██║   ██║███████╗   ██║   ██║   ██║██╔████╔██║    ██████╔╝███████║██╔██╗ ██║██║  ██║██║   ██║██╔████╔██║    ███████╗█████╗     ██║   ███████╗
+██║     ██║   ██║╚════██║   ██║   ██║   ██║██║╚██╔╝██║    ██╔══██╗██╔══██║██║╚██╗██║██║  ██║██║   ██║██║╚██╔╝██║    ╚════██║██╔══╝     ██║   ╚════██║
+╚██████╗╚██████╔╝███████║   ██║   ╚██████╔╝██║ ╚═╝ ██║    ██║  ██║██║  ██║██║ ╚████║██████╔╝╚██████╔╝██║ ╚═╝ ██║    ███████║███████╗   ██║   ███████║
+ ╚═════╝ ╚═════╝ ╚══════╝   ╚═╝    ╚═════╝ ╚═╝     ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝  ╚═════╝ ╚═╝     ╚═╝    ╚══════╝╚══════╝   ╚═╝   ╚══════╝*/
+
+    //---Sen---//
+//Articles and Pronouns
+"Rand.SenS.Book.AP.1": "A",
+"Rand.SenS.Book.AP.2": "The",
+"Rand.SenS.Book.AP.3": "Her",
+"Rand.SenS.Book.AP.4": "His",
+"Rand.SenS.Book.AP.5": "Their",
+"Rand.SenS.Book.AP.6": "Your",
+"Rand.SenS.Book.AP.7": "You're a",
+
+//Book Type
+"Rand.SenS.Book.Type.1": "A Guidebook to",
+"Rand.SenS.Book.Type.2": "The Encyclopedia of",
+"Rand.SenS.Book.Type.3": "The Lost Files of",
+"Rand.SenS.Book.Type.4": "A History of",
+
+//Subjects 1 (Plural)
+"Rand.SenS.Book.Subj.1": "Mermaids",
+"Rand.SenS.Book.Subj.2": "Horses",
+"Rand.SenS.Book.Subj.3": "Crochet",
+"Rand.SenS.Book.Subj.4": "Seaweed",
+"Rand.SenS.Book.Subj.5": "Fairies",
+"Rand.SenS.Book.Subj.6": "Dragons",
+"Rand.SenS.Book.Subj.7": "Pizza",
+"Rand.SenS.Book.Subj.8": "Goblins",
+"Rand.SenS.Book.Subj.9": "Rain",
+"Rand.SenS.Book.Subj.10": "Light Bulbs",
+"Rand.SenS.Book.Subj.11": "Llamas",
+"Rand.SenS.Book.Subj.12": "Computer Science",
+"Rand.SenS.Book.Subj.13": "Snails",
+"Rand.SenS.Book.Subj.14": "World Hunger",
+
+//Subjects 2 (Mostly Singular)
+"Rand.SenS.Book.Subj2.1": "City",
+"Rand.SenS.Book.Subj2.2": "Men",
+"Rand.SenS.Book.Subj2.3": "Mistress",
+"Rand.SenS.Book.Subj2.4": "Monster",
+"Rand.SenS.Book.Subj2.5": "Lone Wolf",
+"Rand.SenS.Book.Subj2.6": "Trashcan",
+"Rand.SenS.Book.Subj2.7": "Cactus",
+
+//Descriptor 1
+"Rand.SenS.Book.Obj.1": "for Fools",
+"Rand.SenS.Book.Obj.2": "for Geniuses",
+"Rand.SenS.Book.Obj.3": "for the Birthday Boy",
+"Rand.SenS.Book.Obj.4": "for the Morally Confused",
+"Rand.SenS.Book.Obj.5": "for the Spineless",
+"Rand.SenS.Book.Obj.6": "for the Careless",
+
+//Descriptor 2
+"Rand.SenS.Book.Obj2.1": "on the Island",
+"Rand.SenS.Book.Obj2.2": "on a Rollercoaster",
+"Rand.SenS.Book.Obj2.3": "on My House",
+"Rand.SenS.Book.Obj2.4": "on a Railroad",
+"Rand.SenS.Book.Obj2.5": "on Monday",
+"Rand.SenS.Book.Obj2.6": "on a Pumpkin",
+
+//Descriptor 3
+"Rand.SenS.Book.Obj3.1": "Red",
+"Rand.SenS.Book.Obj3.2": "Blue",
+"Rand.SenS.Book.Obj3.3": "Cold",
+"Rand.SenS.Book.Obj3.4": "Lost",
+"Rand.SenS.Book.Obj3.5": "Strange",
+"Rand.SenS.Book.Obj3.6": "Adventurous",
+
+//Descriptor 4
+"Rand.SenS.Book.Obj4.1": "Lost",
+"Rand.SenS.Book.Obj4.2": "Beloved",
+"Rand.SenS.Book.Obj4.3": "Strange",
+"Rand.SenS.Book.Obj4.4": "Fickle",
+"Rand.SenS.Book.Obj4.5": "Tsundere",
+"Rand.SenS.Book.Obj4.6": "I Love My",
+
+//Descriptor 5
+"Rand.SenS.Book.Obj5.1": "Secret Romance",
+"Rand.SenS.Book.Obj5.2": "Grand Adventure",
+"Rand.SenS.Book.Obj5.3": "Dwarf King",
+"Rand.SenS.Book.Obj5.4": "Untold Secret",
+"Rand.SenS.Book.Obj5.5": "Mystery of Life",
+
+//People
+"Rand.SenS.Book.People.1": "Sonic",
+"Rand.SenS.Book.People.2": "Shane",
+"Rand.SenS.Book.People.3": "Lewis",
+"Rand.SenS.Book.People.4": "Linus",
+"Rand.SenS.Book.People.5": "M. Jasper",
+"Rand.SenS.Book.People.6": "Sebastian",
+"Rand.SenS.Book.People.7": "M. Rasmodius",
+"Rand.SenS.Book.People.8": "Pam",
+"Rand.SenS.Book.People.9": "Dobson",
+
+//Authors
+"Rand.SenS.Book.Author.1": "It's by that Elliot guy",
+"Rand.SenS.Book.Author.2": "It's by M. Jasper",
+"Rand.SenS.Book.Author.3": "It's by Clyric Tourmaline",
+"Rand.SenS.Book.Author.4": "It's by M. Rasmodius",
+"Rand.SenS.Book.Author.5": "It's by Two-Time Award Winning Author, Rodney O'Brien",
+"Rand.SenS.Book.Author.6": "It's by Dusty the Dog",
+"Rand.SenS.Book.Author.7": "It's by Dobson Buss",
+"Rand.SenS.Book.Author.8": "It's by the Joja Corporation",
+
+//Authors 2
+"Rand.SenS.Book.Author2.1": "The author, Dest T.",
+"Rand.SenS.Book.Author2.2": "The author, Ark N.",
+"Rand.SenS.Book.Author2.3": "The author, L. Kat",
+"Rand.SenS.Book.Author2.4": "The author, PS. Child",
+"Rand.SenS.Book.Author2.5": "The author, F. Shifter",
+
+//Crochet 
+"Rand.SenS.CrocItem.1": "a scarf",
+"Rand.SenS.CrocItem.2": "mittens",
+"Rand.SenS.CrocItem.3": "a blanket",
+"Rand.SenS.CrocItem.4": "socks",
+"Rand.SenS.CrocItem.5": "a bear sweater",
+"Rand.SenS.CrocItem.6": "a cat sweater",
+"Rand.SenS.CrocItem.7": "a warm hat",
+
+//Colors
+"Rand.SenS.CrocColor.1": "red",
+"Rand.SenS.CrocColor.2": "black",
+"Rand.SenS.CrocColor.3": "orange",
+"Rand.SenS.CrocColor.4": "purple",
+"Rand.SenS.CrocColor.5": "rainbow",
+
+//Images
+"Rand.SenS.Image.1": "a bear",
+"Rand.SenS.Image.2": "a cat",
+"Rand.SenS.Image.3": "a :3 emoticon",
+"Rand.SenS.Image.4": "a pipe",
+"Rand.SenS.Image.5": "Shane",
+"Rand.SenS.Image.6": "bigfoot",
+"Rand.SenS.Image.7": "a UFO",
+"Rand.SenS.Image.8": "a dinosaur",
+"Rand.SenS.Image.9": "the Old Mariner",
+
+//Animals
+"Rand.SenS.Animal.1": "rock crab",
+"Rand.SenS.Animal.2": "lava crab",
+"Rand.SenS.Animal.3": "pelican",
+"Rand.SenS.Animal.4": "feral cat",
+"Rand.SenS.Animal.5": "lemur",
+
+//Flavor
+"Rand.SenS.Flavor.1": "teriyaki",
+"Rand.SenS.Flavor.2": "barbecue",
+"Rand.SenS.Flavor.3": "sweet and sour",
+"Rand.SenS.Flavor.4": "buttery",
+"Rand.SenS.Flavor.5": "spicy",
+
+//Food Style
+"Rand.SenS.FoodStyle.1": "batter-dipped",
+"Rand.SenS.FoodStyle.2": "lemon pepper",
+"Rand.SenS.FoodStyle.3": "breaded",
+"Rand.SenS.FoodStyle.4": "honey roasted",
+
+//Food
+"Rand.SenS.Food.1": "bug steak",
+"Rand.SenS.Food.2": "slimeballs",
+"Rand.SenS.Food.3": "ghost fish",
+"Rand.SenS.Food.4": "strange bun",
+"Rand.SenS.Food.5": "snails",
+"Rand.SenS.Food.6": "slime cheese",
+"Rand.SenS.Food.7": "durians",
+
+//Sen's spikes
+"Rand.SenS.Spikes.1": "horns",
+"Rand.SenS.Spikes.2": "ears",
+"Rand.SenS.Spikes.3": "hair",
+"Rand.SenS.Spikes.4": "a crown",
+
+//Crocus
+"Rand.SenS.CrocusSymbolism.1": "new beginnings",
+"Rand.SenS.CrocusSymbolism.2": "joy",
+"Rand.SenS.CrocusSymbolism.3": "rebirth",
+"Rand.SenS.CrocusSymbolism.4": "cheerfulness",
+
+//Found Objects
+"Rand.SenS.FoundObjects.1": "a soggy leek",
+"Rand.SenS.FoundObjects.2": "an empty beer bottle",
+"Rand.SenS.FoundObjects.3": "a pair of purple shorts",
+"Rand.SenS.FoundObjects.4": "a pair of broken glasses",
+"Rand.SenS.FoundObjects.5": "a diamond",
+"Rand.SenS.FoundObjects.6": "a field snack",
+"Rand.SenS.FoundObjects.7": "some sneakers with the name \"Alex\" written on the side",
+
+//Found Objects2
+"Rand.SenS.FoundObjects2.1": "some cloth",
+"Rand.SenS.FoundObjects2.2": "some discarded food",
+"Rand.SenS.FoundObjects2.3": "a new book",
+"Rand.SenS.FoundObjects2.4": "a bottle I can use as a vase",
+
+//People
+"Rand.SenS.People.1": "Emily",
+"Rand.SenS.People.2": "Harvey",
+"Rand.SenS.People.3": "Alex",
+"Rand.SenS.People.4": "Sebastian",
+"Rand.SenS.People.5": "Abigail",
+"Rand.SenS.People.6": "Eliott",
+"Rand.SenS.People.7": "Mayor Lewis",
+"Rand.SenS.People.8": "Pam",
+"Rand.SenS.People.9": "Gus",
+"Rand.SenS.People.10": "Jacob",
+"Rand.SenS.People.11": "Rosa",
+"Rand.SenS.People.12": "Aideen",
+
+//Spring Crop
+"Rand.SenS.SpringCrop.1": "strawberry",
+"Rand.SenS.SpringCrop.2": "parsnip",
+"Rand.SenS.SpringCrop.3": "potato",
+"Rand.SenS.SpringCrop.4": "tulip",
+"Rand.SenS.SpringCrop.5": "cauliflower",
+
+//Expressions
+"Rand.SenS.Expression.1": "$s",
+"Rand.SenS.Expression.2": "$l",
+"Rand.SenS.Expression.3": "$u",
+"Rand.SenS.Expression.4": "$a",
+"Rand.SenS.Expression.5": "$h",
+
+    //---Trace---//
+"Rand.TraceV.Book.1": "A Guidebook to Painting Night Skies and Literally Nothing Else",
+"Rand.TraceV.Book.2": "The Secrets of the Void (That Are No Longer Secret Because I Told You About Them)",
+"Rand.TraceV.Book.3": "You and Your Snail: How Properly Care for Your Mollusk",
+"Rand.TraceV.Book.4": "The Moon and Croissants: A Spiritual Link",
+"Rand.TraceV.Book.5": "A Night in the Valley: A Questionably Accurate History of Stardew Valley",
+"Rand.TraceV.Book.6": "Baking with Blackberries: A Cookbook by Trace Veilrose",
+"Rand.TraceV.Book.7": "How to Not Get Horribly Lost in the Mountains: A Guide",
+"Rand.TraceV.Book.8": "Trace's Old Diary. Stay Out!",
+"Rand.TraceV.Book.9": "Stink Fruit: The Tragic Tale of Durians",
+"Rand.TraceV.Book.10": "Night Owls: Nocturnes Living in a Diurnal World", 
+"Rand.TraceV.Book.11": "Arcana Catcher Prunus",
+"Rand.TraceV.Book.12": "Deference Arlington the Complete Saga (Volumes 1 to 14)",
+"Rand.TraceV.Book.13": "Color Coordination for the Unrefined",
+"Rand.TraceV.Book.14": "Shoes Suck: Why You Should Only Wear Sandals",
+"Rand.TraceV.Book.15": "The Rainbow of Rose Colors and Their Meanings",
+"Rand.TraceV.Book.16": "Somewhere Over the Rainbow There is A Snail (And 52 Other Nursery Rhymes)",
+"Rand.TraceV.Book.17": "Music and the Soul: How Melodies Influence the Mind",
+"Rand.TraceV.Book.18": "I Love Pizza: A Guide to Cheesy Goodness Around the World",
+"Rand.TraceV.Book.19": "Defenders of Ja'Hoote (Volumes 1 to 16)",
+"Rand.TraceV.Book.20": "Birds of a Feather: A Journey to Recovery",
+
+"Rand.TraceV.TVShow.1": "The Queen of Sauce",
+"Rand.TraceV.TVShow.2": "The Weather Channel",
+"Rand.TraceV.TVShow.3": "How it's Created",
+"Rand.TraceV.TVShow.4": "Repairing Good",
+"Rand.TraceV.TVShow.5": "The Running Deceased",
+"Rand.TraceV.TVShow.6": "Giant Explosion Hypothesis",
+"Rand.TraceV.TVShow.7": "Mysterium",
+"Rand.TraceV.TVShow.8": "Professor Where",
+"Rand.TraceV.TVShow.9": "Clothbill Roundshorts",
+"Rand.TraceV.TVShow.10": "Nightmare Kitchens",
+
+ /*
+ ██████╗ ██████╗ ██████╗ ███████╗
+██╔════╝██╔═══██╗██╔══██╗██╔════╝
+██║     ██║   ██║██████╔╝█████╗  
+██║     ██║   ██║██╔══██╗██╔══╝  
+╚██████╗╚██████╔╝██║  ██║███████╗
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝*/
 
 //System
 "Core.System.SomethingWentWrong": "Hmm. It seems something has gone wrong... Please tell my creator 7thAxis for me. I am having a existential crisis.$s",
@@ -365,7 +631,7 @@
 "Core.SenS.EarlyHeart.13": "Oh, hello @. I have a question... $6#$b#$y 'Do you think it's wrong to steal?_You should never take what doesn't belong to you._I see... I stole a pie off of the inn's window sill. I overheard the baker was very frustrated. I feel terrible...$s_It depends on the situation._Oh, so there are some circumstances where it's okay? I guess I don't feel too bad about stealing things from the trash, then.$12_It's perfectly okay, steal away._Really? Humans seem to hate it when you steal. It's rather common amongst Shadows, though. It doesn't bother us much unless it threatens our survival.$6'",
 "Core.SenS.EarlyHeart.14": "I saw a little white rabbit earlier!$h#$b#It was one of the cutest things I've ever seen.$l#$e#The little wriggling nose and the puffy tail... Sooo cute.$l#$e#I didn't approach though, I didn't want to scare them off.#$b#That would have been really mean!$8",
 "Core.SenS.EarlyHeart.15": "I often go and visit {{SenKrobusReference}} after 2AM.$l#$b#He's also a Shadow and lives in this town.#$e#Please don't tell anyone about either of us.#$b#I can trust you, right @?$s",
-"Core.SenS.EarlyHeart.16": "I found a tube of minty fresh paste last night while rummaging in the garbage with my buddy!$12#$b#It was delicious!$7#$e#What do you you mean you're not supposed to eat toothpaste? What's that?$6",
+"Core.SenS.EarlyHeart.16": "I found a tube of minty fresh paste last night while rummaging in the garbage with {{SenKrobusReference}}!$12#$b#It was delicious!$7#$e#What do you you mean you're not supposed to eat toothpaste? What's that?$6",
 "Core.SenS.EarlyHeart.17": "I don't think I'll ever get tired of living by the ocean.$l#$b#Sure the rock crabs can get a little obnoxious, but that ain't nothing cracking them open and frying them up won't solve!$h#$e#You should come by for dinner sometime. I make very tasty crab cakes.$h",
 "Core.SenS.EarlyHeart.18": "When I visit my family in the mines, I'm very careful to not tell them about our conversations.#$b#Associating with humans is heavily looked down upon among my people.$s#$e#I know that sounds awful, but I understand why they feel that way.$s#$b#They're afraid of a human getting too close and bringing harm to our people.$s",
 "Core.SenS.EarlyHeart.19": "Oh hello, @! Quick, pick one of my hands.$h#$b#$y 'Which hand will you pick?_Left_Hehe, I made you come crab cakes! Sorry I crushed them in my hand a little.$8 [732]_Right_Here, I found this old rusty thing while cleaning up in my cave. I was wondering if that guy in the museum would want it.$h[111 110 112]_Pet him on the head._ ...!!!$11 [417 577 595]'",
@@ -654,200 +920,6 @@
 "Core.SenS.KrobusCommentary.2": "%revealtasteKrobus16 Oh hello, @! Did you know that Krobus loves horseradishes?$h#$b#In the spring, I like to collect a bunch for him.$h#$b#He tends to gobble them up a little faster than he should.$8",
 "Core.SenS.KrobusCommentary.3": "%revealtasteKrobus265 Did you know that Krobus likes seafoam pudding...?$8#$b#That stuff is kinda icky, but to each their own, I guess.$8",
 "Core.SenS.KrobusCommentary.4": "%revealtasteKrobus773 Did you know that life elixirs don't heal us shadows?#$b#Our bodies are made up of different matter, so they actually have an inverse effect on us.$8#$b#If anything, they are like a poison.$s",
-
-// CUSTOM RANDOM SETS //
-//Articles and Pronouns
-"Core.SenS.Book.AP.1": "A",
-"Core.SenS.Book.AP.2": "The",
-"Core.SenS.Book.AP.3": "Her",
-"Core.SenS.Book.AP.4": "His",
-"Core.SenS.Book.AP.5": "Their",
-"Core.SenS.Book.AP.6": "Your",
-"Core.SenS.Book.AP.7": "You're a",
-//Book Type
-"Core.SenS.Book.Type.1": "A Guidebook to",
-"Core.SenS.Book.Type.2": "The Encyclopedia of",
-"Core.SenS.Book.Type.3": "The Lost Files of",
-"Core.SenS.Book.Type.4": "A History of",
-//Subjects 1 (Plural)
-"Core.SenS.Book.Subj.1": "Mermaids",
-"Core.SenS.Book.Subj.2": "Horses",
-"Core.SenS.Book.Subj.3": "Crochet",
-"Core.SenS.Book.Subj.4": "Seaweed",
-"Core.SenS.Book.Subj.5": "Fairies",
-"Core.SenS.Book.Subj.6": "Dragons",
-"Core.SenS.Book.Subj.7": "Pizza",
-"Core.SenS.Book.Subj.8": "Goblins",
-"Core.SenS.Book.Subj.9": "Rain",
-"Core.SenS.Book.Subj.10": "Light Bulbs",
-"Core.SenS.Book.Subj.11": "Llamas",
-"Core.SenS.Book.Subj.12": "Computer Science",
-"Core.SenS.Book.Subj.13": "Snails",
-"Core.SenS.Book.Subj.14": "World Hunger",
-//Subjects 2 (Mostly Singular)
-"Core.SenS.Book.Subj2.1": "City",
-"Core.SenS.Book.Subj2.2": "Men",
-"Core.SenS.Book.Subj2.3": "Mistress",
-"Core.SenS.Book.Subj2.4": "Monster",
-"Core.SenS.Book.Subj2.5": "Lone Wolf",
-"Core.SenS.Book.Subj2.6": "Trashcan",
-"Core.SenS.Book.Subj2.7": "Cactus",
-//Descriptor 1
-"Core.SenS.Book.Obj.1": "for Fools",
-"Core.SenS.Book.Obj.2": "for Geniuses",
-"Core.SenS.Book.Obj.3": "for the Birthday Boy",
-"Core.SenS.Book.Obj.4": "for the Morally Confused",
-"Core.SenS.Book.Obj.5": "for the Spineless",
-"Core.SenS.Book.Obj.6": "for the Careless",
-//Descriptor 2
-"Core.SenS.Book.Obj2.1": "on the Island",
-"Core.SenS.Book.Obj2.2": "on a Rollercoaster",
-"Core.SenS.Book.Obj2.3": "on My House",
-"Core.SenS.Book.Obj2.4": "on a Railroad. ",
-"Core.SenS.Book.Obj2.5": "on Monday. ",
-"Core.SenS.Book.Obj2.6": "on a Pumpkin. ",
-//Descriptor 3
-"Core.SenS.Book.Obj3.1": "Red",
-"Core.SenS.Book.Obj3.2": "Blue",
-"Core.SenS.Book.Obj3.3": "Cold",
-"Core.SenS.Book.Obj3.4": "Lost",
-"Core.SenS.Book.Obj3.5": "Strange",
-"Core.SenS.Book.Obj3.6": "Adventurous",
-//Descriptor 4
-"Core.SenS.Book.Obj4.1": "Lost",
-"Core.SenS.Book.Obj4.2": "Beloved",
-"Core.SenS.Book.Obj4.3": "Strange",
-"Core.SenS.Book.Obj4.4": "Fickle",
-"Core.SenS.Book.Obj4.5": "Tsundere",
-"Core.SenS.Book.Obj4.6": "I Love My",
-//Descriptor 5
-"Core.SenS.Book.Obj5.1": "Secret Romance",
-"Core.SenS.Book.Obj5.2": "Grand Adventure",
-"Core.SenS.Book.Obj5.3": "Dwarf King",
-"Core.SenS.Book.Obj5.4": "Untold Secret",
-"Core.SenS.Book.Obj5.5": "Mystery of Life",
-//People
-"Core.SenS.Book.People.1": "Sonic",
-"Core.SenS.Book.People.2": "Shane",
-"Core.SenS.Book.People.3": "Lewis",
-"Core.SenS.Book.People.4": "Linus",
-"Core.SenS.Book.People.5": "M. Jasper",
-"Core.SenS.Book.People.6": "Sebastian",
-"Core.SenS.Book.People.7": "M. Rasmodius",
-"Core.SenS.Book.People.8": "Pam",
-"Core.SenS.Book.People.9": "Dobson",
-//Authors
-"Core.SenS.Book.Author.1": "It's by that Elliot guy",
-"Core.SenS.Book.Author.2": "It's by M. Jasper",
-"Core.SenS.Book.Author.3": "It's by Clyric Tourmaline",
-"Core.SenS.Book.Author.4": "It's by M. Rasmodius",
-"Core.SenS.Book.Author.5": "It's by Two-Time Award Winning Author, Rodney O'Brien",
-"Core.SenS.Book.Author.6": "It's by Dusty the Dog",
-"Core.SenS.Book.Author.7": "It's by Dobson Buss",
-"Core.SenS.Book.Author.8": "It's by the Joja Corporation",
-//Authors 2
-"Core.SenS.Book.Author2.1": "The author, Dest T.",
-"Core.SenS.Book.Author2.2": "The author, Ark N.",
-"Core.SenS.Book.Author2.3": "The author, L. Kat",
-"Core.SenS.Book.Author2.4": "The author, PS. Child",
-"Core.SenS.Book.Author2.5": "The author, F. Shifter",
-//Crochet 
-"Core.SenS.CrocItem.1": "a scarf ",
-"Core.SenS.CrocItem.2": "mittens ",
-"Core.SenS.CrocItem.3": "a blanket ",
-"Core.SenS.CrocItem.4": "socks ",
-"Core.SenS.CrocItem.5": "a bear sweater ",
-"Core.SenS.CrocItem.6": "a cat sweater ",
-"Core.SenS.CrocItem.7": "a warm hat ",
-//Colors
-"Core.SenS.CrocColor.1": "red",
-"Core.SenS.CrocColor.2": "black",
-"Core.SenS.CrocColor.3": "orange",
-"Core.SenS.CrocColor.4": "purple",
-"Core.SenS.CrocColor.5": "rainbow",
-//Images
-"Core.SenS.Image.1": "a bear",
-"Core.SenS.Image.2": "a cat",
-"Core.SenS.Image.3": "a :3 emoticon",
-"Core.SenS.Image.4": "a pipe",
-"Core.SenS.Image.5": "Shane",
-"Core.SenS.Image.6": "bigfoot",
-"Core.SenS.Image.7": "a UFO",
-"Core.SenS.Image.8": "a dinosaur",
-"Core.SenS.Image.9": "the Old Mariner",
-//Animals
-"Core.SenS.Animal.1": "rock crab",
-"Core.SenS.Animal.2": "lava crab",
-"Core.SenS.Animal.3": "pelican",
-"Core.SenS.Animal.4": "feral cat",
-"Core.SenS.Animal.5": "lemur",
-//Flavor
-"Core.SenS.Flavor.1": "teriyaki ",
-"Core.SenS.Flavor.2": "barbecue ",
-"Core.SenS.Flavor.3": "sweet and sour ",
-"Core.SenS.Flavor.4": "buttery ",
-"Core.SenS.Flavor.5": "spicy ",
-//Food Style
-"Core.SenS.FoodStyle.1": "batter-dipped",
-"Core.SenS.FoodStyle.2": "lemon pepper",
-"Core.SenS.FoodStyle.3": "breaded",
-"Core.SenS.FoodStyle.4": "honey roasted",
-//Food
-"Core.SenS.Food.1": "bug steak",
-"Core.SenS.Food.2": "slimeballs",
-"Core.SenS.Food.3": "ghost fish",
-"Core.SenS.Food.4": "strange bun",
-"Core.SenS.Food.5": "snails",
-"Core.SenS.Food.6": "slime cheese",
-"Core.SenS.Food.7": "durians",
-//Sen's spikes
-"Core.SenS.Spikes.1": "horns",
-"Core.SenS.Spikes.2": "ears",
-"Core.SenS.Spikes.3": "hair",
-"Core.SenS.Spikes.4": "a crown",
-//Crocus
-"Core.SenS.CrocusSymbolism.1": "new beginnings",
-"Core.SenS.CrocusSymbolism.2": "joy",
-"Core.SenS.CrocusSymbolism.3": "rebirth",
-"Core.SenS.CrocusSymbolism.4": "cheerfulness",
-//Found Objects
-"Core.SenS.FoundObjects.1": "a soggy leek",
-"Core.SenS.FoundObjects.2": "an empty beer bottle",
-"Core.SenS.FoundObjects.3": "a pair of purple shorts",
-"Core.SenS.FoundObjects.4": "a pair of broken glasses",
-"Core.SenS.FoundObjects.5": "a diamond",
-"Core.SenS.FoundObjects.6": "a field snack",
-"Core.SenS.FoundObjects.7": "some sneakers with the name \"Alex\" written on the side",
-//Found Objects2
-"Core.SenS.FoundObjects2.1": "some cloth",
-"Core.SenS.FoundObjects2.2": "some discarded food",
-"Core.SenS.FoundObjects2.3": "a new book",
-"Core.SenS.FoundObjects2.4": "a bottle I can use as a vase",
-//People
-"Core.SenS.People.1": "Emily",
-"Core.SenS.People.2": "Harvey",
-"Core.SenS.People.3": "Alex",
-"Core.SenS.People.4": "Sebastian",
-"Core.SenS.People.5": "Abigail",
-"Core.SenS.People.6": "Eliott",
-"Core.SenS.People.7": "Mayor Lewis",
-"Core.SenS.People.8": "Pam",
-"Core.SenS.People.9": "Gus",
-"Core.SenS.People.10": "Jacob",
-"Core.SenS.People.11": "Rosa",
-"Core.SenS.People.12": "Aideen",
-//Spring Crop
-"Core.SenS.SpringCrop.1": "strawberry",
-"Core.SenS.SpringCrop.2": "parsnip",
-"Core.SenS.SpringCrop.3": "potato",
-"Core.SenS.SpringCrop.4": "tulip",
-"Core.SenS.SpringCrop.5": "cauliflower",
-//Expressions
-"Core.SenS.Expression.1": "$s",
-"Core.SenS.Expression.2": "$l",
-"Core.SenS.Expression.3": "$u",
-"Core.SenS.Expression.4": "$a",
-"Core.SenS.Expression.5": "$h",
 
 //Ebb - Structured differently as he comes out of his shell
 //0-1
@@ -1952,7 +2024,60 @@
 "Maps.SenS.SenRoomBlueFlowers": "These are flowers from Sen's garden back in East Scarp.",
 
 //TRACE
-"Maps.TraceV.TraceVClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
+
+//Bedroom
+"Maps.TraceV.TraceVHNailPolish": "Various bottles of nail polish litter the dresser. They're almost empty!",
+"Maps.TraceV.TraceVHGuitar": "An old, well loved guitar.",
+"Maps.TraceV.TraceVHTelevision": "It seems Trace left the TV on...#Looks like they were watching \"{{TVShow}}\"!",
+"Maps.TraceV.TraceVHRadio.Barbie": "YOU CAN BRUSH MY HAAAAAIIIIIRRR!",
+"Maps.TraceV.TraceVHRadio.NoBarbie": "A soothing string melody eminates from the radio.",
+
+//Art room
+"Maps.TraceV.TraceVHTinyBooks": "You peek in the book pile and find...#\"{{Book5}}\".",
+"Maps.TraceV.TraceVHTinyMoonPainting": "A tiny painting of the moon and a grassy field sit on the surface.",
+"Maps.TraceV.TraceVHMoonPainting1": "A completed painting of a moon overlooking a grassy field.",
+"Maps.TraceV.TraceVHMoonPainting2": "It doesn't seem like Trace branches out in their painting much.",
+"Maps.TraceV.TraceVHMoonPaintingStack": "So, so many paintings of a moon overlooking a grassy field...",
+"Maps.TraceV.TraceVHCamera": "It's a high end Codac ProPix ZA825! Great for taking photos of your hyperfixation!",
+"Maps.TraceV.TraceVHPhotos": "Upon looking up, you see several photos of the moon overlooking a grassy field.",
+"Maps.TraceV.TraceVHBook1": "You peruse the shelf and find a book called...#\"{{Book1}}\".",
+"Maps.TraceV.TraceVHBook2": "You peruse the shelf and find a book called...#\"{{Book2}}\".",
+
+//Hallway
+"Maps.TraceV.TraceVHBook3": "You peruse the shelf and find a book called...#\"{{Book3}}\".",
+"Maps.TraceV.TraceVHBook4": "You peruse the shelf and find a book called...#\"{{Book4}}\".",
+"Maps.TraceV.TraceVHLocationNote": "This will tell you where Trace is on a given day in the future.#Currently they are trapped in a cycle of walking 5 tiles down from their room every day.",
+"Maps.TraceV.TraceVHCouchArmLeft": "This is the left arm of the couch. Cool, am I right?",
+"Maps.TraceV.TraceVHCouchArmRight": "This is the right arm of the couch. Sweet, am I right?",
+"Maps.TraceV.TraceVHSeat": "There appears to be something invisible in the way, preventing you from sitting on the chair.",
+
+//Kitchen
+"Maps.TraceV.TraceVHBlackberryCobbler": "Trace's favorite sweet, the blackberry cobbler!#It seems like it was baked fresh.",
+"Maps.TraceV.TraceVHStove": "The stove is squeaky clean and ready for some cooking!",
+"Maps.TraceV.TraceVHSink": "The sink is shiny. It's shinky.",
+"Maps.TraceV.TraceVHFridge": "You open the fridge and find a painting of a moon overlooking a grassy field.#Why is this in here?",
+"Maps.TraceV.TraceVHCoffeeMaker": "Looks like Trace brewed fresh coffee! It's appears to be the brand \"Doom Desire\".",
+"Maps.TraceV.TraceVHCoffeeCup": "Clutter! In this house? For shame!",
+"Maps.TraceV.TraceVHPipoWater": "Pipo's water bowl is freshly changed and full-up!",
+"Maps.TraceV.TraceVHPipoFood": "Pipo's food bowl is full of crunchies.",
+"Maps.TraceV.TraceVHCenterFlowers": "The flowers gaze upon you with their judgement. They know what you've done.",
+"Maps.TraceV.TraceVHTablecloth": "You find a note tucked under the flower pot.#\"This is my favorite table cloth. Please refrain from wrinkling it. Thanks!\" -Trace",
+"Maps.TraceV.TraceVHElectricalSocket": "Do not put your finger in the electrical socket. Such behavior is ill-advised.",
+
+//Plants
+"Maps.TraceV.TraceVHCatGrass1": "Cat grass for Pipo! It's all over the house, hurray!",
+"Maps.TraceV.TraceVHCatGrass2": "This cat grass seems content.#Or as content as cat grass can be, anyway.",
+"Maps.TraceV.TraceVHPlant1": "This plant seems well cared for and happy. You can almost feel its smile!", // Default basic
+"Maps.TraceV.TraceVHPlant2": "A healthy, happy tropical plant. It practically beams at you!", // Default tropical
+"Maps.TraceV.TraceVHPlant3": "The plant ponders why Trace paints the same thing over and over again...", // Art room corner
+"Maps.TraceV.TraceVHPlant4": "When you look away from the plant, it starts dancing. It stops as soon as you look back.",  // Hallway
+"Maps.TraceV.TraceVHPlant5": "This plant will one-day be inaccessable. Please, cherish it while it lasts.", // Behind bowls
+"Maps.TraceV.TraceVHPlantLeft": "There's a note in the pot...#\"Left plant is guarding the counter! Left plant best guard!\"", // Guards!
+"Maps.TraceV.TraceVHPlantRight": "There's a note in the pot...#\"Right plant is defending the stools! Right plant best defender!\"", // Guards!
+
+//Doors
+"Maps.TraceV.TraceVHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
+
 /*
  ██████╗ ██╗   ██╗███████╗███████╗████████╗███████╗
 ██╔═══██╗██║   ██║██╔════╝██╔════╝╚══██╔══╝██╔════╝
@@ -1972,7 +2097,7 @@
 "Quests.DitR.LavaSnailRoundUp.Title": "Lava Snail Round-Up!",
 "Quests.DitR.LavaSnailRoundUp.Description": "There are many Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
 "Quests.DitR.LavaSnailRoundUp.Task": "Bring 10 Lava Snails to Pipo for Jeremy.",
-"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current M_DitR_LavaSnailQuestActive",
+"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_LavaSnailQuestActive",
 "Quests.DitR.LavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
 
 /*
@@ -2615,5 +2740,6 @@
 
 "Items.SensCrocusSeeds.Title": "Sen's Crocus Seeds",
 "Items.SensCrocusSeeds.Description": "Grows year round. Takes 4 days to produce a purple flower."
+
 
 }

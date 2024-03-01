@@ -59,18 +59,18 @@
                 "{{ModID}}.TriggerActions.LavaSnailRoundUp.DailyAccept.1": {
                     "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.LavaSnailRoundUp.DailyAccept.1",
-                    "Condition": "PLAYER_HAS_MAIL Current M_DitR_AcceptedLavaSnailQuestToday Any",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_AcceptedLavaSnailQuestToday Any",
                     "Actions": [ 
-                        "RemoveMail Current M_DitR_AcceptedLavaSnailQuestToday",
+                        "RemoveMail Current DitR_M_AcceptedLavaSnailQuestToday",
                          "MarkActionApplied Current {{ModId}}.TriggerActions.LavaSnailRoundUp.DailyAccept.2 false"
                          ]
                 },
                 "{{ModID}}.TriggerActions.LavaSnailRoundUp.DailyAccept.2": {
                     "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.LavaSnailRoundUp.DailyAccept.2",
-                    "Condition": "PLAYER_HAS_MAIL Current M_DitR_AcceptedLavaSnailQuestToday Any",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_AcceptedLavaSnailQuestToday Any",
                     "Actions": [ 
-                        "RemoveMail Current M_DitR_AcceptedLavaSnailQuestToday",
+                        "RemoveMail Current DitR_M_AcceptedLavaSnailQuestToday",
                          "MarkActionApplied Current {{ModId}}.TriggerActions.LavaSnailRoundUp.DailyAccept.1 false"
                          ]
                 }
