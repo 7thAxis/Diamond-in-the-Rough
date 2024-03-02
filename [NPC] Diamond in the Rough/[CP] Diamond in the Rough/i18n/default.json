@@ -1964,6 +1964,9 @@
 "Maps.TraceV.TraceHouse": "Trace's House",
 "Maps.JeremyTSnail.JeremyRoom": "Jeremy's Room",
 
+//Fake NPCs
+"Maps.FakeNPCs.TraceVCoffeeMaker": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
+
 //Eve
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
 "Maps.EveT.EveTHFridge": "The fridge is full of fresh vegetables.",
@@ -2058,7 +2061,6 @@
 "Maps.TraceV.TraceVHSink": "The sink is shiny. It's shinky.",
 "Maps.TraceV.TraceVHFridge": "You open the fridge and find a painting of a moon overlooking a grassy field.#Why is this in here?",
 "Maps.TraceV.TraceVHCoffeeMaker": "Looks like Trace brewed coffee recently! It's appears to be the brand \"Doom Desire\".",
-"Maps.TraceV.TraceVHCoffeeMaker.Grabber": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
 "Maps.TraceV.TraceVHCoffeeMaker.Grabber.FollowUp": "%The coffee is gone. Come back tomorrow!",
 "Maps.TraceV.TraceVHCoffeeCup": "Clutter! In this house? For shame!",
 "Maps.TraceV.TraceVHPipoWater": "Pipo's water bowl is freshly changed and full-up!",

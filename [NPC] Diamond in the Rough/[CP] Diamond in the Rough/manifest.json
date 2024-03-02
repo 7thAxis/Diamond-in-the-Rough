@@ -12,6 +12,7 @@
     "DH.MEEP": "2.0.0",
     "DH.MEEP.CloseupInteractions": "",
 	"DH.MEEP.VanillaLetters": "",
+	"DH.MEEP.FakeNPCs": "",
 	"Dependencies": [
 		{
 			"UniqueID": "LemurKat.EastScarpe.CP",
