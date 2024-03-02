@@ -9,7 +9,9 @@
 	"MinimumGameVersion": "1.6",
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"DH.MEEP.ConfigVersion": "2",
-    "DH.MEEP.FeaturesUsed": [ "CloseupInteraction", "FakeNPC", "FarmAnimalSpawning" ],
+    "DH.MEEP": "2.0.0",
+    "DH.MEEP.CloseupInteractions": "",
+	"DH.MEEP.VanillaLetters": "",
 	"Dependencies": [
 		{
 			"UniqueID": "LemurKat.EastScarpe.CP",

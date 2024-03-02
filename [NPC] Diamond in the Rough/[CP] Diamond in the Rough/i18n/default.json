@@ -622,7 +622,7 @@
 "Core.SenS.EarlyHeart.4": "Hm? Oh, hello, @!$h#$b#I'm thinking of going down to the beach tomorrow after dark.$h#$b#Hopefully those dang crabs leave me alone.#$e#I thought I left those varmints behind when I moved out of the mines.$a",
 "Core.SenS.EarlyHeart.5": "Living by the ocean is a dream... The beach is nothing but a rumor where I come from.$l#$b#We have small underground lakes, but they're not the same.$s#$e#They are also full of trash.$a#$e#Please try not to litter, it often winds up in our water supply.$s",
 "Core.SenS.EarlyHeart.6": "%Sen appears to be eating something slimy.#$e# ...Hmm? What am I eating?#$b#Just a healthy part of any Shadow's diet! Here, have some!$h#$e#[766]Huh, why are you looking at me like I have two heads?$6",
-"Core.SenS.EarlyHeart.7": "Sunday... I still don't understand if it's the start of a week or the end of a week in your culture.$6#$b#$y 'Do you know which it is?_It's the start of the week._Are you sure it isn't it part of the weekend? That's what the calendar says.$6_It's the end of the week._That's what I think too. The things I've read in human books are quite contradictory, though. I'm so confused.$8'",
+"Core.SenS.EarlyHeart.7": "$query DAY_OF_WEEK Sat Sun#Sunday... I still don't understand if it's the start of a week or the end of a week in your culture.$6#$b#$y 'Do you know which it is?_It's the start of the week._Are you sure it isn't it part of the weekend? That's what the calendar says.$6_It's the end of the week._That's what I think too. The things I've read in human books are quite contradictory, though. I'm so confused.$8'|Isn't it an abolutely beautiful day, @? Oh I'm so happy, I could just burst!$h#$b#What's got me so happy? Well, I found a {{Object}} last night!$7",
 "Core.SenS.EarlyHeart.8": "So, I tried some human food today. The flavors of your culture's dishes are quite intense.#$e#In the mines, we don't have many options for ingredients.$s#$b#Bugs, slime, cave carrots and - rarely - ghost fish.#$e#Hm? Where did I get the food?#$b#In the dumpster, obviously.$12",
 "Core.SenS.EarlyHeart.9": "Goodness, time feels like it moves so quickly on the surface.$u#$e#It's impossible to know the day down in the mines.#$b#Time sort of blends together in the dark.#$e#That's not a bad thing, though. We have our own means of telling time.#$b#Like when the bugs start buzzing, we know it's time to eat!$7",
 "Core.SenS.EarlyHeart.10": "O-oh! Hello, @. You've startled me. How are you today?$h#$e#$y 'How am I feeling?_Feeling great!_I'm glad to hear it. So am I! I caught the tastiest bug this morning.$h._I've had better days._Oh, I'm sorry to hear that. I hope you find a tasty bug, that'll make your day better! I know it does for me.$s_I'm doing okay._Well that's good. I hope you find yourself a tasty bug, that'll make your day even better!$h'",
@@ -1251,7 +1251,7 @@
 
 "Core.JeremyTS.DailyDialogue.1": "Hello. I am Jeremy T. Snail. I know things about this world best left untold.#$b#Please, don't ask questions. I don't want to break you.",
 
-"Core.JeremyTS.RainyDay.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
+"Core.JeremyTS.Rainy.True.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
 
 "Core.JeremyTS.Spring.Day.1": "sd1",
 "Core.JeremyTS.Spring.Day.12": "sd12", // Day before the Egg Festival
@@ -2026,11 +2026,12 @@
 //TRACE
 
 //Bedroom
-"Maps.TraceV.TraceVHNailPolish": "Various bottles of nail polish litter the dresser. They're almost empty!",
+"Maps.TraceV.TraceVHBed": "You crawl into Trace's bed. It smells like roses.",
+"Maps.TraceV.TraceVHNailPolish": "Various bottles of high quality nail polish litter the dresser.",
 "Maps.TraceV.TraceVHGuitar": "An old, well loved guitar.",
 "Maps.TraceV.TraceVHTelevision": "It seems Trace left the TV on...#Looks like they were watching \"{{TVShow}}\"!",
-"Maps.TraceV.TraceVHRadio.Barbie": "YOU CAN BRUSH MY HAAAAAIIIIIRRR!",
-"Maps.TraceV.TraceVHRadio.NoBarbie": "A soothing string melody eminates from the radio.",
+"Maps.TraceV.TraceVHRadio.Barbie.True": "YOU CAN BRUSH MY HAAAAAIIIIIRRR!", 
+"Maps.TraceV.TraceVHRadio.Barbie.False": "A soothing string melody eminates from the radio.", 
 
 //Art room
 "Maps.TraceV.TraceVHTinyBooks": "You peek in the book pile and find...#\"{{Book5}}\".",
@@ -2056,7 +2057,9 @@
 "Maps.TraceV.TraceVHStove": "The stove is squeaky clean and ready for some cooking!",
 "Maps.TraceV.TraceVHSink": "The sink is shiny. It's shinky.",
 "Maps.TraceV.TraceVHFridge": "You open the fridge and find a painting of a moon overlooking a grassy field.#Why is this in here?",
-"Maps.TraceV.TraceVHCoffeeMaker": "Looks like Trace brewed fresh coffee! It's appears to be the brand \"Doom Desire\".",
+"Maps.TraceV.TraceVHCoffeeMaker": "Looks like Trace brewed coffee recently! It's appears to be the brand \"Doom Desire\".",
+"Maps.TraceV.TraceVHCoffeeMaker.Grabber": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
+"Maps.TraceV.TraceVHCoffeeMaker.Grabber.FollowUp": "%The coffee is gone. Come back tomorrow!",
 "Maps.TraceV.TraceVHCoffeeCup": "Clutter! In this house? For shame!",
 "Maps.TraceV.TraceVHPipoWater": "Pipo's water bowl is freshly changed and full-up!",
 "Maps.TraceV.TraceVHPipoFood": "Pipo's food bowl is full of crunchies.",
@@ -2077,6 +2080,14 @@
 
 //Doors
 "Maps.TraceV.TraceVHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
+/*
+███╗   ███╗ █████╗ ██╗██╗     
+████╗ ████║██╔══██╗██║██║     
+██╔████╔██║███████║██║██║     
+██║╚██╔╝██║██╔══██║██║██║     
+██║ ╚═╝ ██║██║  ██║██║███████╗
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝*/
+"Mail.TraceV.TraceCoffeeNote": "Hey there!^^Breaking into my house, I see? Well, I left some \"Doom Desire\" brand coffee in the machine for ya. Enjoy it!^^Or don't. See if I care. (I would, and I'd cry...)^^Toodles!^^-Trace",
 
 /*
  ██████╗ ██╗   ██╗███████╗███████╗████████╗███████╗
@@ -2086,7 +2097,6 @@
 ╚██████╔╝╚██████╔╝███████╗███████║   ██║   ███████║
  ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝   ╚═╝   ╚══════╝
 */
-
 //Sen's Garden
 "Quests.DitR.AGardenForSen.Title": "A Garden for Sen",
 "Quests.DitR.AGardenForSen.Description": "Sen needs mixed seeds so he can start a garden!",
@@ -2426,8 +2436,8 @@
 ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝╚═╝                   
 */
 //Terms
-"Core.SenS.RelationshipTerm.Partner": "partner",
-"Core.SenS.RelationshipTerm.Friend": "best friend",
+"Core.SenS.RelationshipTerm.True": "partner",
+"Core.SenS.RelationshipTerm.False": "best friend",
 
 // Relationship
 "Relationship.SenS.DanceAccept": "O-oh! You'd like to dance, @?$14#$b#I'm a little nervous, but I think it'd be okay.$14",

@@ -38,9 +38,9 @@
             "MapTiles": [
                 {
                     "Position": { "X": 10, "Y": 4 },
-                    "Layer": "Back",
+                    "Layer": "Buildings",
                     "SetProperties": {
-                        "MEEP_CloseupInteraction_Image": "Mods/{{ModID}}.Images/Drawer_Photo.1",
+                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}.Images/Drawer_Photo.1",
                         "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
                     }
                 }

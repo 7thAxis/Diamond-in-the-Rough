@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/WaffleW",
             "Entries": {
-                "{{WeekDay}}": "{{i18n:Core.WaffleW.{{AnimalBehavior}}.{{Random:{{Range: 1, 20}}}}}}"
+                "{{WeekDay}}": "{{i18n:Core.WaffleW.{{Random:Sound, Action|key=WAB}}.{{Random:{{Range: 1, 20}}}}}}"
             }
         },
         { 

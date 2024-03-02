@@ -117,6 +117,7 @@
         },
         
     //Removes flag that prevents NPCs from talking again on override days
+    
         {
             "LogName": "Overrides Seen Today Flag Removal", 
             "Action": "EditData",
@@ -124,7 +125,7 @@
             "Entries": {
       
                 "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.1": {
-                    "Id": "SnS.TriggerActions.OverrideSeenToday.Removal.1",
+                    "Id": "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.1",
                     "Trigger": "DayStarted",
                     "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\" ",
                     "Actions": [
@@ -133,11 +134,11 @@
                         "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday", "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
                         "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday", "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
                         "RemoveMail Current DitR_M_PipoP_OverrideSeenToday", "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
-                        "MarkActionApplied Current SnS.TriggerActions.OverrideSeenToday.Removal.2 false"
+                        "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal.1 false"
                     ]
                 },
                 "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.2": {
-                    "Id": "SnS.TriggerActions.OverrideSeenToday.Removal.2",
+                    "Id": "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.2",
                     "Trigger": "DayStarted",
                     "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\" ",
                     "Actions": [
@@ -146,7 +147,7 @@
                         "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday", "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
                         "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday", "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
                         "RemoveMail Current DitR_M_PipoP_OverrideSeenToday", "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
-                        "MarkActionApplied Current SnS.TriggerActions.OverrideSeenToday.Removal.1 false"
+                        "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal.2 false"
                     ]
                 }
             }

@@ -3,7 +3,7 @@
 //---------------------------- BLANK LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Data/Events/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/TempActor_TraceCoffeeMaker, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "FromFile": "data/blank.json"
         },
 //---------------------------- TILESHEET LOADS ------------------------------------------//
@@ -91,6 +91,11 @@
             "Action": "Include",
             "FromFile": "data/NPCs/Ebb.json"
         },
+        //TempActors
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/TempActors.json"
+        },
 
     //---------------------------- MEEP FILES ------------------------------------------//
         {
@@ -127,6 +132,30 @@
             "FromFile": "assets/Reshade/{{TargetWithoutPath}}.png",
             "When": 
             { "Reshade Existing Shadows":true }
+        },
+
+   //---------------------------- TRIGGER ACTION DAILY LOOPER ------------------------------------------//
+        {
+            "Action": "EditData",
+                "Target": "Data/TriggerActions",
+                "Entries": {
+                   
+                    "{{ModId}}.TriggerActions.Looper.1": { //Turns listed daily trigger actions back on
+                        "Id": "{{ModId}}_LoopDayStartedTriggers",
+                        "Trigger": "DayEnding",
+                        "Actions": [
+                            //TAs
+                            "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday false",
+                            "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal false",
+                            "MarkActionApplied Current {{ModId}}.TriggerActions.Looper.2 false"
+                        ]
+                    },
+                    "{{ModId}}.TriggerActions.Looper.2": { // Turns looper 1 back on
+                        "Id": "{{ModId}}_LoopLoopDayStartedTriggers",
+                        "Trigger": "DayEnding",
+                        "Actions": [ "MarkActionApplied Current {{ModId}}.TriggerActions.Looper.1 false" ]
+                    }
+                }
         }
 ]
 }

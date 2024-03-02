@@ -1,0 +1,36 @@
+{
+    "Changes": [
+//---------------------------- DISPOSITIONS ------------------------------------------//
+        {
+            "LogName": "TempActor Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "TempActor_TraceCoffeeMaker": {
+                    "DisplayName": "Trace's Coffeemaker",
+                    "SocialTab": "HiddenAlways",
+                    "CanSocialize": "FALSE",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "Hidden",
+                    "Home": [{
+                        "Id": "TraceKitchen",
+                        "Location": "{{ModID}}.Maps.Trace_House_Interior",
+                        "Tile": {
+                            "X": 9,
+                            "Y": 22
+                        },
+                        "Direction": "Up"
+                    }],
+                    "Breather": false
+                }
+            }
+        },
+//---------------------------- SPRITES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Characters/TempActor_TraceCoffeeMaker, Portraits/TempActor_TraceCoffeeMaker",
+            "FromFile": "assets/{{TargetPathOnly}}/TempActors/blank.png"
+        }
+     ]
+}

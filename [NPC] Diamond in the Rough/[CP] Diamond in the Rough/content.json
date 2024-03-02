@@ -107,11 +107,6 @@ CREDITS
             "Value": "{{Query: {{Year}} % 2 = 1}}"
         },
         {
-            "Name": "IsTodayRainy",
-            "Value": "RainyDay",
-            "When": { "Weather": "Rain, Storm" }
-        },
-        {
             "Name": "WeekDayList",
             "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
         },
@@ -125,52 +120,24 @@ CREDITS
         },
         //DIALOGUE SWITCHERS
             /* SenPartnershipRoute - Checks the relationship route for Sen the player is currently on. 
-               SenTermSwitcher - Used in i18n calls to change how Sen references the player based on relationship status
-               SenKrobusReference - Changes how Sen refers to Krobus based on player met status.
-               AnimalBehavior - Changes if pet NPCs "talk" to the player, or do an action. May change how this works later*/
+               SenKrobusReference - Changes how Sen refers to Krobus based on player met status.*/
+        {
+            "Name": "SenPartnershipRoute",
+            "Value": "Platonic"
+        }, 
         {
             "Name": "SenPartnershipRoute", 
             "Value": "Romantic",
             "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": true }
         },
         {
-            "Name": "SenPartnershipRoute",
-            "Value": "Platonic",
-            "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": false }
-        },
-        {
-            "Name": "SenTermSwitcher",
-            "Value": "Partner",
-            "When": { "Relationship:SenS": "Married, Dating, Engaged" }
-        },
-        {
-            "Name": "SenTermSwitcher",
-            "Value": "Friend",
-            "When": { "Relationship:SenS": "Unmet, Friendly, Divorced" }
-        },
-        {
             "Name": "SenKrobusReference",
-            "Value": "{{i18n:Core.SenS.KrobusUnknown}}",
-            "When": { "Relationship:Krobus": "Unmet" }
+            "Value": "{{i18n:Core.SenS.KrobusUnknown}}"
         },
         {
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusKnown}}",
-            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced" }
-        },
-        {
-            "Name": "AnimalBehavior",
-            "Value": "{{Random:Sound, Action}}"
-        },
-        {
-            "Name": "TraceBarbieGirlDay", 
-            "Value": "Barbie",
-            "When": { "HasFlag: |contains=DitR_M_TraceBarbieGirl": true }
-        },
-        {
-            "Name": "TraceBarbieGirlDay",
-            "Value": "NoBarbie",
-            "When": { "HasFlag: |contains=DitR_M_TraceBarbieGirl": false }
+            "When": { "Relationship:Krobus: |contains=Unmet": false }
         },
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 
@@ -183,7 +150,7 @@ CREDITS
         },
         {
             "Name": "RelationshipTokens",
-            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{SenTermSwitcher}}}} |SenKrobusReference={{SenKrobusReference}}"
+            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{Relationship:SenS: |contains=Married, Dating, Engaged}}}} |SenKrobusReference={{SenKrobusReference}}"
         },
         {
             "Name": "TraceRoomTokens",

@@ -83,20 +83,6 @@
                 }
             ]
         },
-//---------------------------- Trace Garbage ------------------------------------------// 
-        {
-            "Action": "EditData",
-            "Target": "Data/GarbageCans",
-            "TargetField": [ "GarbageCans" ],
-            "Entries": {
-                "{{ModId}}.Garbage.TraceCoffee": {
-                    "BaseChance": 1.0,
-                    "Items": [
-                        { "ID": "{{ModId}}.Garbage.TraceCoffee", "ItemID": "(O)395" }
-                    ]
-                }
-            }
-        },
 //---------------------------- CONDITIONAL MAP TILES ------------------------------------------// 
     //Pipo tiles pre-adoption
         {
@@ -139,7 +125,6 @@
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Trace's Bedroom
@@ -156,7 +141,52 @@
             ],
             "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
-
+    //Trace's coffee maker gives you coffee
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "MapTiles": [
+                { "Position": { "X": 8, "Y": 23 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCoffeeMaker" } }
+            ],
+            "When": { "Hearts:TraceV": "{{Range: 0, 3}}" }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "MapTiles": [
+                { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "344" },
+                { "Position": { "X": 8, "Y": 23 }, "Layer": "Buildings", 
+                    "SetProperties": { "Action": "NPCMessage TempActor_TraceCoffeeMaker Strings\\StringsFromMaps:TraceVHCoffeeMakerGrabber/Strings\\StringsFromMaps:TraceVHCoffeeMakerGrabber" } },
+                { "Position": { "X": 7, "Y": 23 }, "Layer": "Buildings",
+                    "SetProperties": { "Action": "MEEP_Letter {{i18n:Mail.TraceV.TraceCoffeeNote}}", "MEEP_Letter_Type": "3" } }
+            ],
+            "When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
+        },
+        {
+            "LogName": "Interacted With Trace's Coffee Maker Today", 
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.GotTraceCoffeeToday.1": {
+                    "Trigger": "DayEnding",
+                    "Id": "{{ModID}}.TriggerActions.GotTraceCoffeeToday.1",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
+                        "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday.2 false"
+                     ]
+                },
+                "{{ModID}}.TriggerActions.GotTraceCoffeeToday.2": {
+                    "Trigger": "DayEnding",
+                    "Id": "{{ModID}}.TriggerActions.GotTraceCoffeeToday.2",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
+                        "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday.1 false"
+                     ]
+                }
+        }
+    },
 //---------------------------- MAP STRINGS ------------------------------------------// 
         {
             "LogName": "Trace Map Strings",
@@ -167,10 +197,11 @@
             //TRACE STRINGS
 
                 //Bedroom
+                "TraceVHBed": "{{i18n:Maps.TraceV.TraceVHBed}}",
                 "TraceVHNailPolish": "{{i18n:Maps.TraceV.TraceVHNailPolish}}",
                 "TraceVHGuitar": "{{i18n:Maps.TraceV.TraceVHGuitar}}",
                 "TraceVHTelevision": "{{i18n:Maps.TraceV.TraceVHTelevision{{TraceRoomTokens}}}}",
-                "TraceVHRadio": "{{i18n:Maps.TraceV.TraceVHRadio.{{TraceBarbieGirlDay}}}}",
+                "TraceVHRadio": "{{i18n:Maps.TraceV.TraceVHRadio.Barbie.{{HasFlag: |contains=DitR_M_TraceBarbieGirl}}}}",
                 
                 //Art room
                 "TraceVHTinyBooks": "{{i18n:Maps.TraceV.TraceVHTinyBooks{{TraceRoomTokens}}}}",
@@ -197,6 +228,7 @@
                 "TraceVHSink": "{{i18n:Maps.TraceV.TraceVHSink}}",
                 "TraceVHFridge": "{{i18n:Maps.TraceV.TraceVHFridge}}",
                 "TraceVHCoffeeMaker": "{{i18n:Maps.TraceV.TraceVHCoffeeMaker}}",
+                "TraceVHCoffeeMakerGrabber": "{{i18n:Maps.TraceV.TraceVHCoffeeMaker.Grabber}}",
                 "TraceVHCoffeeCup": "{{i18n:Maps.TraceV.TraceVHCoffeeCup}}",
                 "TraceVHPipoWater": "{{i18n:Maps.TraceV.TraceVHPipoWater}}",
                 "TraceVHPipoFood": "{{i18n:Maps.TraceV.TraceVHPipoFood}}",

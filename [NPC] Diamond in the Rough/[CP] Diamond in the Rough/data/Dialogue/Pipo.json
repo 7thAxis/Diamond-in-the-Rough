@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/PipoP",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.PipoP.{{AnimalBehavior}}.{{Random:{{Range: 1, 20}}}}}}"
+                "{{WeekDay}}": "{{i18n:Core.PipoP.{{Random:Sound, Action|key=PAB}}.{{Random:{{Range: 1, 20}}}}}}"
             }
         },
         { 
