@@ -5,17 +5,17 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}.Items.LavaSnail": {
-                    "Name": "{{ModID}}.Items.LavaSnail",
-                    "DisplayName": "{{i18n:Items.LavaSnail.Title}}",
-                    "Description": "{{i18n:Items.LavaSnail.Description}}",
+                "{{ModID}}.Items.VoidSnail": {
+                    "Name": "{{ModID}}.Items.VoidSnail",
+                    "DisplayName": "{{i18n:Items.VoidSnail.Title}}",
+                    "Description": "{{i18n:Items.VoidSnail.Description}}",
                     "Type": "Fish",
                     "Category": -4,
                     "Price": 50,
                     "Edibility": -300,
                     "Buff": null,
                     "IsDrink": false,
-                    "ContextTags": [ "color_red", "color_black", "fish_lava_snail", "forage_item" ],
+                    "ContextTags": [ "color_red", "color_black", "fish_void_snail", "forage_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 6
                 }               
@@ -23,20 +23,20 @@
         },
  //---------------------------- FISHING DATA ------------------------------------------//
         {
-            "LogName": "Lava Snail Fishing Data",
+            "LogName": "Void Snail Fishing Data",
             "Action": "EditData",
             "Target": "Data/Fish",
             "Entries": {
-                "{{ModID}}.Items.LavaSnail": "Lava Snail/trap/.15//freshwater/12/24/false"
+                "{{ModID}}.Items.VoidSnail": "Void Snail/trap/.15//freshwater/12/24/false"
             }
         },
  //---------------------------- AQUARIUM DATA ------------------------------------------//
         {
-            "LogName": "Lava Snail Aquarium Data",
+            "LogName": "Void Snail Aquarium Data",
             "Action": "EditData",
             "Target": "Data/AquariumFish",
             "Entries": {
-                "{{ModID}}.Items.LavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
+                "{{ModID}}.Items.VoidSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
             }
         },
  //---------------------------- FISH POND DATA ------------------------------------------//
@@ -44,15 +44,15 @@
             "Action": "EditData",
             "Target": "Data/FishPondData",
             "Entries": {
-            "{{ModID}}.FishPond.LavaSnail": {
-                "ID": "{{ModID}}.FishPond.LavaSnail",
-                "RequiredTags": [ "fish_lava_snail" ], 
+            "{{ModID}}.FishPond.VoidSnail": {
+                "ID": "{{ModID}}.FishPond.VoidSnail",
+                "RequiredTags": [ "fish_void_snail" ], 
                 "Precedence": 0,
                 "SpawnTime": -1,
                 "ProducedItems": [
                 {
                     "RequiredPopulation": 10, 
-                    "Chance": 0.01, "ItemID": "(H){{ModID}}.Hats.LavaSnailBuddy", //Lava Snail Hat
+                    "Chance": 0.01, "ItemID": "(H){{ModID}}.Hats.VoidSnailBuddy", //Void Snail Hat
                     "MinQuantity": 1, "MaxQuantity": 1 
                 },
                 {
@@ -72,7 +72,7 @@
                 },
                 {
                     "RequiredPopulation": 2,
-                    "Chance": 0.1, "ItemID": "(O){{ModID}}.Items.LavaSnail", //...Lava Snail
+                    "Chance": 0.1, "ItemID": "(O){{ModID}}.Items.VoidSnail", //...Void Snail
                     "MinQuantity": 1, "MaxQuantity": 1
                 },
                 {
@@ -87,9 +87,9 @@
                 }
                 ],
                 "PopulationGates": {    
-                "3": [ "(O){{ModID}}.Items.LavaSnail 3", "(O)153 3", "(O)560 3"  ], //Lava Snail, Algae, White Algae
-                "5": [ "(O){{ModID}}.Items.LavaSnail 5", "(O)153 5", "(O)560 5"  ], //Lava Snail, Algae, White Algae
-                "8": [ "(O){{ModID}}.Items.LavaSnail 10", "(O)153 10", "(O)560 10" ] //Lava Snail, Algae, White Algae
+                "3": [ "(O){{ModID}}.Items.VoidSnail 3", "(O)153 3", "(O)560 3"  ], //Void Snail, Algae, White Algae
+                "5": [ "(O){{ModID}}.Items.VoidSnail 5", "(O)153 5", "(O)560 5"  ], //Void Snail, Algae, White Algae
+                "8": [ "(O){{ModID}}.Items.VoidSnail 10", "(O)153 10", "(O)560 10" ] //Void Snail, Algae, White Algae
                 }
             }
         }
@@ -101,8 +101,8 @@
             "TargetField": [ "BusStop", "Forage" ],    
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -113,8 +113,8 @@
             "TargetField": [ "Town", "Forage" ],    
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -125,8 +125,8 @@
             "TargetField": [ "Backwoods", "Forage" ],   
             "When": { "Season: |contains=winter": false },   
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "1.0"
                 }
             }
@@ -137,8 +137,8 @@
             "TargetField": [ "Mountain", "Forage" ],    
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -149,8 +149,8 @@
             "TargetField": [ "Forest", "Forage" ],
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "1.0"
                 }
             }
@@ -161,8 +161,8 @@
             "TargetField": [ "Woods", "Forage" ],   
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "1.0"
                 }
             }
@@ -173,8 +173,8 @@
             "TargetField": [ "EastScarp_Village", "Forage" ],    
             "When": { "Season: |contains=winter": false },  
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -185,8 +185,8 @@
             "TargetField": [ "Custom_ForestWest", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -197,8 +197,8 @@
             "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -209,8 +209,8 @@
             "TargetField": [ "Custom_Garden", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -221,8 +221,8 @@
             "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -233,8 +233,8 @@
             "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -245,8 +245,8 @@
             "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }
@@ -257,8 +257,8 @@
             "TargetField": [ "EastScarp_Orchard", "Forage" ], 
             "When": { "Season: |contains=winter": false }, 
             "Entries": {
-                "(O){{ModID}}.Items.LavaSnail": {
-                    "ItemId": "(O){{ModID}}.Items.LavaSnail",
+                "(O){{ModID}}.Items.VoidSnail": {
+                    "ItemId": "(O){{ModID}}.Items.VoidSnail",
                     "Chance": "0.6"
                 }
             }

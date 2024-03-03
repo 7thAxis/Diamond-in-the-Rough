@@ -1,0 +1,61 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+            "{{ModId}}.Buildings.AnimalTreeHouse": {
+                "Name": "Animal Tree House",
+                "Description": "A strange tree that houses all kinds of animals.",
+                "Texture": "Buildings\\DitR_Animal_Tree_House",
+                "DrawShadow": false,
+                "Size": { "X": 5, "Y": 6 },
+                "FadeWhenBehind": true,
+                "SourceRect": { "X": 0, "Y": 0, "Width": 112, "Height": 112 },
+                "Builder": "Robin",
+                //"BuildCondition": null,
+                "BuildDays": 2,
+                "BuildCost": 25000,
+                "BuildMaterials": [
+                  { "ItemId": "(O)771", "Amount": 300 },
+                  { "ItemId": "(O)388", "Amount": 400 },
+                  { "ItemId": "(O)709", "Amount": 100 }
+                ],
+                "HumanDoor": { "X": 4, "Y": 6 },
+                "AnimalDoor": { "X": 2, "Y": 5, "Width": 2, "Height": 2 },
+                "AnimalDoorOpenSound": "doorCreak",
+                "AnimalDoorCloseSound": "doorCreakReverse",
+                //"IndoorMap": "FC.TropicalAnimalHouseMap",
+                //"IndoorMapType": "StardewValley.AnimalHouse",
+                "MaxOccupants": 12,
+                "ValidOccupantTypes": [ "Barn", "Coop", "DitR_Snail" ],
+                "AllowAnimalPregnancy": true,
+               /* "IndoorItems": [
+                  {
+                    "Id": "Default_FeedHopper",
+                    "ItemId": "(BC)99",
+                    "Tile": { "X": 11, "Y": 3 },
+                    "Indestructible": true
+                  },
+                    {
+                    "Id": "Default_Incubator",
+                    "ItemId": "(BC)101",
+                    "Tile": { "X": 8, "Y": 3 },
+                    "Indestructible": true
+                  }
+                ],*/
+                "DrawLayers": [
+                  {
+                    "Id": "Default_AnimalDoor_Bottom",
+                    "Texture": null,
+                    "SourceRect": { "X": 32, "Y": 112, "Width": 32, "Height": 32 },
+                    "DrawPosition": "32, 80",
+                    "AnimalDoorOffset": { "X": -1000, "Y": -1000 }
+                  }
+                ]
+              }
+            }
+            }
+       
+    ]
+}

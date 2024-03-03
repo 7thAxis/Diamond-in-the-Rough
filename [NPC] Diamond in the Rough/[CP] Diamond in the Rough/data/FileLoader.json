@@ -7,10 +7,23 @@
             "FromFile": "data/blank.json"
         },
 //---------------------------- TILESHEET LOADS ------------------------------------------//
+    //Homes
         {
             "Action": "Load",
-            "Target": "maps/spring_DitRTilesheet, maps/summer_DitRTilesheet, maps/fall_DitRTilesheet, maps/winter_DitRTilesheet, maps/CG_Sen_Ocean, maps/Dark_Mine, maps/Desert_Mine",
-            "FromFile": "assets/Tilesheets/{{TargetWithoutPath}}.png"
+            "Target": "maps/spring_DitR_Tilesheet, maps/summer_DitR_Tilesheet, maps/fall_DitR_Tilesheet, maps/winter_DitR_Tilesheet",
+            "FromFile": "assets/Tilesheets/Homes/{{TargetWithoutPath}}.png"
+        },
+    //Caves
+        {
+            "Action": "Load",
+            "Target": "maps/DitR_Dark_Mine, maps/DitR_Desert_Mine",
+            "FromFile": "assets/Tilesheets/Caves/{{TargetWithoutPath}}.png"
+        },
+    //CGs
+        {
+            "Action": "Load",
+            "Target": "maps/DitR_CG_Sen_Ocean",
+            "FromFile": "assets/Tilesheets/CGs/{{TargetWithoutPath}}.png"
         },
 //---------------------------- ITEM TILESHEETS ------------------------------------------//
         {
@@ -18,6 +31,16 @@
             "Action": "Load",
             "Target": "Mods/{{ModID}}/Aquarium_Fish, Mods/{{ModID}}/Hats",
             "FromFile": "assets/Items/{{TargetWithoutPath}}.png"
+        },
+//---------------------------- BUILDING FILES ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Buildings/DitR_Animal_Tree_House",
+            "FromFile": "assets/Tilesheets/Buildings/{{Season}}_DitR_Animal_Tree_House.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Buildings/Animal_Tree_House.json"
         },
 //---------------------------- GENERAL FILES ------------------------------------------//
         {
@@ -32,12 +55,12 @@
 //---------------------------- QUEST FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Quests/A_Garden_For_Sen.json, data/Quests/Lava_Snail_Round_Up.json"
+            "FromFile": "data/Quests/A_Garden_For_Sen.json, data/Quests/Void_Snail_Round_Up.json"
         },
 //---------------------------- ITEM FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Lava_Snail.json, data/Items/Lava_Snail_Buddy.json"
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Snail.json, data/Items/Void_Snail_Buddy.json"
         },
 //---------------------------- MONSTER FILES ------------------------------------------//
         {
@@ -96,7 +119,12 @@
             "Action": "Include",
             "FromFile": "data/NPCs/TempActors.json"
         },
-
+    //---------------------------- TEMP MAP LOADS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Maps/CG_Sen_Ocean, Maps/Sen_Flashback",
+            "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
+        },
     //---------------------------- MEEP FILES ------------------------------------------//
         {
             "Action": "Load",
@@ -132,30 +160,6 @@
             "FromFile": "assets/Reshade/{{TargetWithoutPath}}.png",
             "When": 
             { "Reshade Existing Shadows":true }
-        },
-
-   //---------------------------- TRIGGER ACTION DAILY LOOPER ------------------------------------------//
-        {
-            "Action": "EditData",
-                "Target": "Data/TriggerActions",
-                "Entries": {
-                   
-                    "{{ModId}}.TriggerActions.Looper.1": { //Turns listed daily trigger actions back on
-                        "Id": "{{ModId}}_LoopDayStartedTriggers",
-                        "Trigger": "DayEnding",
-                        "Actions": [
-                            //TAs
-                            "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday false",
-                            "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal false",
-                            "MarkActionApplied Current {{ModId}}.TriggerActions.Looper.2 false"
-                        ]
-                    },
-                    "{{ModId}}.TriggerActions.Looper.2": { // Turns looper 1 back on
-                        "Id": "{{ModId}}_LoopLoopDayStartedTriggers",
-                        "Trigger": "DayEnding",
-                        "Actions": [ "MarkActionApplied Current {{ModId}}.TriggerActions.Looper.1 false" ]
-                    }
-                }
-        }
+        }       
 ]
 }

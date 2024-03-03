@@ -5,8 +5,8 @@
   <property name="LocationContext" value="Lemurkat_EastScarp"/>
   <property name="SeasonOverride" value="spring"/>
  </properties>
- <tileset firstgid="1" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
-  <image source="spring_DitRTilesheet.png" width="256" height="480"/>
+ <tileset firstgid="1" name="spring_DitR_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
+  <image source="spring_DitR_Tilesheet.png" width="256" height="480"/>
   <tile id="339">
    <animation>
     <frame tileid="339" duration="250"/>

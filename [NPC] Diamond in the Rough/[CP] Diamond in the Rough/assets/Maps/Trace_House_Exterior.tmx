@@ -1869,8 +1869,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="4316" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="176" columns="16">
-  <image source="spring_DitRTilesheet.png" width="256" height="176"/>
+ <tileset firstgid="4316" name="spring_DitR_Tilesheet" tilewidth="16" tileheight="16" tilecount="176" columns="16">
+  <image source="spring_DitR_Tilesheet.png" width="256" height="176"/>
  </tileset>
  <layer id="1" name="Back" width="13" height="16">
   <data encoding="csv">

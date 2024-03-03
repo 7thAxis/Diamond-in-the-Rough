@@ -1,12 +1,6 @@
 {
     "Changes": [
 
-        //CGs and Temp Maps
-        {
-            "Action": "Load",
-            "Target": "Maps/CG_Sen_Ocean, Maps/Sen_Flashback",
-            "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
-        },
         //SEN MAP
         {
             "Action": "EditMap",

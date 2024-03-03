@@ -2035,21 +2035,23 @@
 "Maps.TraceV.TraceVHTelevision": "It seems Trace left the TV on...#Looks like they were watching \"{{TVShow}}\"!",
 "Maps.TraceV.TraceVHRadio.Barbie.True": "YOU CAN BRUSH MY HAAAAAIIIIIRRR!", 
 "Maps.TraceV.TraceVHRadio.Barbie.False": "A soothing string melody eminates from the radio.", 
+"Maps.TraceV.TraceVHMoonFlower.True": "It's the Moon Rose you gave Trace!#It has the name tag \"Little Rosy\".",
+"Maps.TraceV.TraceVHMoonFlower.False": "The flower pot is baren and empty.#It seems Trace is waiting on something special to put in it.",
 
 //Art room
-"Maps.TraceV.TraceVHTinyBooks": "You peek in the book pile and find...#\"{{Book5}}\".",
 "Maps.TraceV.TraceVHTinyMoonPainting": "A tiny painting of the moon and a grassy field sit on the surface.",
 "Maps.TraceV.TraceVHMoonPainting1": "A completed painting of a moon overlooking a grassy field.",
 "Maps.TraceV.TraceVHMoonPainting2": "It doesn't seem like Trace branches out in their painting much.",
 "Maps.TraceV.TraceVHMoonPaintingStack": "So, so many paintings of a moon overlooking a grassy field...",
-"Maps.TraceV.TraceVHCamera": "It's a high end Codac ProPix ZA825! Great for taking photos of your hyperfixation!",
+"Maps.TraceV.TraceVHCamera": "It's a high end Codac ProPix ZA825!#Great for taking photos of your hyperfixation!",
 "Maps.TraceV.TraceVHPhotos": "Upon looking up, you see several photos of the moon overlooking a grassy field.",
-"Maps.TraceV.TraceVHBook1": "You peruse the shelf and find a book called...#\"{{Book1}}\".",
+"Maps.TraceV.TraceVHBook1": "You peruse the shelf and find a book called...#\"{{Book1}}\".#...You also notice a fish shrine above your head?",
 "Maps.TraceV.TraceVHBook2": "You peruse the shelf and find a book called...#\"{{Book2}}\".",
+"Maps.TraceV.TraceVHTinyBooks": "You peek in the book pile and find...#\"{{Book3}}\".",
 
 //Hallway
-"Maps.TraceV.TraceVHBook3": "You peruse the shelf and find a book called...#\"{{Book3}}\".",
-"Maps.TraceV.TraceVHBook4": "You peruse the shelf and find a book called...#\"{{Book4}}\".",
+"Maps.TraceV.TraceVHBook3": "You peruse the shelf and find a book called...#\"{{Book4}}\".",
+"Maps.TraceV.TraceVHBook4": "You peruse the shelf and find a book called...#\"{{Book5}}\".",
 "Maps.TraceV.TraceVHLocationNote": "This will tell you where Trace is on a given day in the future.#Currently they are trapped in a cycle of walking 5 tiles down from their room every day.",
 "Maps.TraceV.TraceVHCouchArmLeft": "This is the left arm of the couch. Cool, am I right?",
 "Maps.TraceV.TraceVHCouchArmRight": "This is the right arm of the couch. Sweet, am I right?",
@@ -2106,11 +2108,11 @@
 "Quests.DitR.AGardenForSen.FollowUp": "...!$7#$b#With both of our seed collecting efforts combined, we should have plenty now.$h#$b#Thank you so much, @. Come visit my home in a few days, alright?$h#$action AddMail Current DitR_M_AGardenForSenComplete received",
 
 //Snail Monsense
-"Quests.DitR.LavaSnailRoundUp.Title": "Lava Snail Round-Up!",
-"Quests.DitR.LavaSnailRoundUp.Description": "There are many Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
-"Quests.DitR.LavaSnailRoundUp.Task": "Bring 10 Lava Snails to Pipo for Jeremy.",
-"Quests.DitR.LavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat LavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_LavaSnailQuestActive",
-"Quests.DitR.LavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
+"Quests.DitR.VoidSnailRoundUp.Title": "Void Snail Round-Up!",
+"Quests.DitR.VoidSnailRoundUp.Description": "There are many Void Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
+"Quests.DitR.VoidSnailRoundUp.Task": "Bring 10 Void Snails to Pipo for Jeremy.",
+"Quests.DitR.VoidSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat VoidSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidSnailQuestActive",
+"Quests.DitR.VoidSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
 
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
@@ -2729,11 +2731,11 @@
 ██║   ██║   ██╔══╝  ██║╚██╔╝██║╚════██║
 ██║   ██║   ███████╗██║ ╚═╝ ██║███████║
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
-"Items.LavaSnail.Title": "Lava Snail",
-"Items.LavaSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
+"Items.VoidSnail.Title": "Void Snail",
+"Items.VoidSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
 
-"Items.LavaSnailBuddy.Title": "Lava Snail Buddy",
-"Items.LavaSnailBuddy.Description": "This little Lava Snail seems quite affectionate for you!",
+"Items.VoidSnailBuddy.Title": "Void Snail Buddy",
+"Items.VoidSnailBuddy.Description": "This little Void Snail seems quite affectionate for you!",
 
 "Items.ValleyLily.Title": "Lily of the Valley",
 "Items.ValleyLily.Description": "A gentle flower that blooms in the spring and summer.",

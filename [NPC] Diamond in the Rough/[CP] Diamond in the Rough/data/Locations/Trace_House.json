@@ -84,6 +84,17 @@
             ]
         },
 //---------------------------- CONDITIONAL MAP TILES ------------------------------------------// 
+
+    //Trace given moon rose
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "MapTiles": [
+                { "Position": { "X": 13, "Y": 12 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "360" }
+            ],
+            "When": { "HasFlag |contains=DitR_M_GaveTraceMoonRose": true }
+        },     
+
     //Pipo tiles pre-adoption
         {
             "Action": "EditMap",
@@ -98,7 +109,6 @@
                 { "Position": { "X": 4, "Y": 8 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 15, "Y": 8 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 17, "Y": 8 }, "Layer": "Front2", "Remove": true },
-                { "Position": { "X": 12, "Y": 3 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 3, "Y": 12 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Front2", "Remove": true }
             ],
@@ -114,7 +124,6 @@
                 { "Position": { "X": 4, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
                 { "Position": { "X": 15, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
                 { "Position": { "X": 17, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
-                { "Position": { "X": 12, "Y": 4 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
                 { "Position": { "X": 3, "Y": 13 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } }
             ],
@@ -129,15 +138,15 @@
 
                 //Trace's Bedroom
                 { "Position": { "X": 13, "Y": 12 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 13, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
-                { "Position": { "X": 13, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
-                { "Position": { "X": 13, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" },
+                { "Position": { "X": 13, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "370" },
+                { "Position": { "X": 13, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "354" },
+                { "Position": { "X": 13, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "338" },
 
                 //Trace's Art Room
                 { "Position": { "X": 6, "Y": 12 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 6, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "370" },
-                { "Position": { "X": 6, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "354" },
-                { "Position": { "X": 6, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "338" }
+                { "Position": { "X": 6, "Y": 12 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "370" },
+                { "Position": { "X": 6, "Y": 11 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "354" },
+                { "Position": { "X": 6, "Y": 10 }, "Layer": "Front", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "338" }
             ],
             "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
@@ -155,7 +164,7 @@
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "MapTiles": [
-                { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitRTilesheet", "SetIndex": "344" }, //Sets the card tile on counter
+                { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "344" }, //Sets the card tile on counter
                 { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "TraceVCoffeeMaker" } }, //Places fake coffeemaker NPC
                 { "Position": { "X": 7, "Y": 23 }, "Layer": "Buildings",
                     "SetProperties": { "Action": "MEEP_Letter {{i18n:Mail.TraceV.TraceCoffeeNote}}", "MEEP_Letter_Type": "3" } } //Loads letter data
@@ -203,6 +212,7 @@
                 "TraceVHGuitar": "{{i18n:Maps.TraceV.TraceVHGuitar}}",
                 "TraceVHTelevision": "{{i18n:Maps.TraceV.TraceVHTelevision{{TraceRoomTokens}}}}",
                 "TraceVHRadio": "{{i18n:Maps.TraceV.TraceVHRadio.Barbie.{{HasFlag: |contains=DitR_M_TraceBarbieGirl}}}}",
+                "TraceVHMoonFlower": "{{i18n:Maps.TraceV.TraceVHMoonFlower.{{HasFlag: |contains=DitR_M_GaveTraceMoonRose}}}}",
                 
                 //Art room
                 "TraceVHTinyBooks": "{{i18n:Maps.TraceV.TraceVHTinyBooks{{TraceRoomTokens}}}}",

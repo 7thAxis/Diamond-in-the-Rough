@@ -18,14 +18,14 @@
             "Action": "EditData",
             "Target": "Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "Entries": {
-                "SnailTest/l DitR_M_LavaSnailQuestActive/l DitR_M_AcceptedLavaSnailQuestToday": "
+                "SnailTest/l DitR_M_VoidSnailQuestActive/l DitR_M_AcceptedVoidSnailQuestToday": "
                 
-                {{ModID}}.Music.JeremyTheme/
+                continue/
                 -1000 -1000/
                 farmer -1000 -1000 2/
                 ignoreCollisions farmer/
                 unskippable/
-                pause 100/quickQuestion Accept snail quest? (This quest is repeatable upon completion.)#YES#NO(break)message \"SNAIL!\"\\addQuest {{ModID}}.Quests.LavaSnailRoundUp\\addMailReceived DitR_M_LavaSnailQuestActive\\addMailReceived DitR_M_AcceptedLavaSnailQuestToday(break)message \"NO SNAIL!\"/
+                pause 100/quickQuestion Accept snail quest? (This quest is repeatable upon completion.)#YES#NO(break)message \"SNAIL!\"\\addQuest {{ModID}}.Quests.VoidSnailRoundUp\\addMailReceived DitR_M_VoidSnailQuestActive\\addMailReceived DitR_M_AcceptedVoidSnailQuestToday(break)message \"NO SNAIL!\"/
                 
                 end"
             }

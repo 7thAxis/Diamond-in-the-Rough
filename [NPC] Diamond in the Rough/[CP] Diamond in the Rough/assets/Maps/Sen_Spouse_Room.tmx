@@ -9,8 +9,8 @@
  <tileset firstgid="4801" name="lumi_towninterior" tilewidth="16" tileheight="16" tilecount="2550" columns="25">
   <image source="lumi_towninterior.png" width="400" height="1632"/>
  </tileset>
- <tileset firstgid="7351" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
-  <image source="spring_DitRTilesheet.png" width="256" height="480"/>
+ <tileset firstgid="7351" name="spring_DitR_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
+  <image source="spring_DitR_Tilesheet.png" width="256" height="480"/>
  </tileset>
  <layer id="1" name="Back" width="6" height="9">
   <data encoding="csv">

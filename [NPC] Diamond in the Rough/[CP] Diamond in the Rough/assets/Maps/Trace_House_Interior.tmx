@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="73">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="27" tilewidth="16" tileheight="16" infinite="0" nextlayerid="16" nextobjectid="74">
  <properties>
   <property name="AmbientLight" value="70 70 70"/>
   <property name="LocationContext" value="Lemurkat_EastScarp"/>
  </properties>
- <tileset firstgid="1" name="spring_DitRTilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
-  <image source="spring_DitRTilesheet.png" width="256" height="480"/>
+ <tileset firstgid="1" name="spring_DitR_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
+  <image source="spring_DitR_Tilesheet.png" width="256" height="480"/>
  </tileset>
  <tileset firstgid="481" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
@@ -375,7 +375,7 @@
     <property name="Action" value="Message &quot;TraceVHPlant2&quot;"/>
    </properties>
   </object>
-  <object id="54" name="TileData" x="177" y="63.3333" width="16" height="16">
+  <object id="54" name="TileData" x="176" y="64" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;TraceVHPlant2&quot;"/>
    </properties>
@@ -455,6 +455,11 @@
     <property name="Action" value="Message &quot;TraceVHSeat&quot;"/>
    </properties>
   </object>
+  <object id="73" name="TileData" x="192" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TraceVHMoonFlower&quot;"/>
+   </properties>
+  </object>
  </objectgroup>
  <layer id="3" name="Front" width="20" height="27">
   <data encoding="csv">
@@ -491,8 +496,8 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,298,0,335,0,2381,2382,0,2147483946,0,0,298,0,0,0,0,0,0,2147483946,0,
-0,0,0,320,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,1869,0,0,0,0,0,0,0,287,321,0,0,336,322,0,0,
+0,0,0,320,0,1737,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,1869,0,0,0,0,0,0,0,360,321,0,0,336,322,0,0,
 0,0,0,0,0,0,0,301,0,0,0,0,0,0,0,0,0,0,0,0,
 0,299,0,0,0,0,0,0,336,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

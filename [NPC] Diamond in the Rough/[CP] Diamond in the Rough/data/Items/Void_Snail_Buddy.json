@@ -2,11 +2,11 @@
     "Changes": [
         //---------------------------- ITEM DATA ------------------------------------------// 
         {
-            "Logname": "Lava Snail Hat",
+            "Logname": "Void Snail Hat",
             "Action": "EditData",
             "Target": "Data/Hats",
             "Entries": {
-                "{{ModID}}.Hats.LavaSnailBuddy": "{{ModID}}.Hats.LavaSnailBuddy/{{i18n:Items.LavaSnailBuddy.Description}}/false/true//{{i18n:Items.LavaSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats"
+                "{{ModID}}.Hats.VoidSnailBuddy": "{{ModID}}.Hats.VoidSnailBuddy/{{i18n:Items.VoidSnailBuddy.Description}}/false/true//{{i18n:Items.VoidSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats"
             }
         }
     ]
