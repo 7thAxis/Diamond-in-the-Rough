@@ -34,11 +34,11 @@
             "MapTiles": [
                 {
                     "Position": { "X": 4, "Y": 6 }, "Layer": "Buildings",
-                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.VoidSnailRoundUp.QuestActive}}" }
+                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
                 },
                 {
                     "Position": { "X": 5, "Y": 6 }, "Layer": "Buildings",
-                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.VoidSnailRoundUp.QuestActive}}" }
+                    "SetProperties": { "Action": "PlayEvent SnailTest true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
                 }
             ]
         },

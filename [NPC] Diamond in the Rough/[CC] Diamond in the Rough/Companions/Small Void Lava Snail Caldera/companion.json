@@ -1,0 +1,19 @@
+{
+    "Name": "SmallVoidLavaSnailCaldera",
+    "Type": "Walking",
+    "EnableFarmerCollision": true,
+    "EnableShadow": false,
+    "SpawnDirection": 1,
+    "SpawnOffsetX": 0,
+    "SpawnOffsetY": 0,
+    "MaxIdleDistance": -1,
+    "MaxDistanceBeforeTeleport": -1,
+    "IdleBehavior": "NOTHING",
+    "FrameSizeWidth": 16,
+    "FrameSizeHeight": 16,
+    "UniformAnimation": {
+        "StartingFrame": 0,
+        "NumberOfFrames": 2,
+        "Duration": 250
+      }
+}

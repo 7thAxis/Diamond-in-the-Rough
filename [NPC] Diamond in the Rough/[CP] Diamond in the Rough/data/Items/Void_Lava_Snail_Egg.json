@@ -1,0 +1,25 @@
+{
+    "Changes": [
+        //---------------------------- ITEM DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.VoidLavaSnailEgg": {
+                    "Name": "{{ModID}}.Items.VoidLavaSnailEgg",
+                    "DisplayName": "{{i18n:Items.VoidLavaSnailEgg.Title}}",
+                    "Description": "{{i18n:Items.VoidLavaSnailEgg.Description}}",
+                    "Type": "Egg",
+                    "Category": -5,
+                    "Price": 400,
+                    "Edibility": -300,
+                    "Buff": null,
+                    "IsDrink": false,
+                    "ContextTags": [ "color_red", "color_black", "egg_item", "large_egg_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 7
+                }               
+            }
+        }
+    ]
+}

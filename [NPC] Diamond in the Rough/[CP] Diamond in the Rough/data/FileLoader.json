@@ -27,10 +27,19 @@
         },
 //---------------------------- ITEM TILESHEETS ------------------------------------------//
         {
-            "LogName": "DitR Aquarium Sprites",
             "Action": "Load",
             "Target": "Mods/{{ModID}}/Aquarium_Fish, Mods/{{ModID}}/Hats",
             "FromFile": "assets/Items/{{TargetWithoutPath}}.png"
+        },
+//---------------------------- FARM ANIMALS ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail",
+            "FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "Include",
+            "FromFile": "data/Animals/Giant_Void_Lava_Snail.json"
         },
 //---------------------------- BUILDING FILES ------------------------------------------//
         {
@@ -50,17 +59,17 @@
 //---------------------------- LOCATION FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Locations/Trace_House.json, data/Locations/Jeremy_Room.json, data/Locations/Sen_Room.json, data/Locations/Eve_House.json"
+            "FromFile": "data/Locations/Trace_House.json, data/Locations/Jeremy_Room.json, data/Locations/Sen_Room.json, data/Locations/Eve_House.json, data/Locations/Caldera_Snails.json"
         },
 //---------------------------- QUEST FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Quests/A_Garden_For_Sen.json, data/Quests/Void_Snail_Round_Up.json"
+            "FromFile": "data/Quests/A_Garden_For_Sen.json, data/Quests/Void_Lava_Snail_Round_Up.json"
         },
 //---------------------------- ITEM FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Snail.json, data/Items/Void_Snail_Buddy.json"
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Buddy.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json"
         },
 //---------------------------- MONSTER FILES ------------------------------------------//
         {
@@ -137,21 +146,21 @@
             "Target": "Characters/Baby, Characters/Baby_dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/The_Baby.png",
             "When": 
-            { "Spouse": "SenS", "Have Shadow Kids":true }
+            { "Spouse": "SenS", "Have Shadow Kids": true }
         },
         {           
             "Action": "Load",
             "Target": "Characters/Toddler_girl, Characters/Toddler_girl_Dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Freya.png",
             "When": 
-            { "Spouse": "SenS", "Have Shadow Kids":true }
+            { "Spouse": "SenS", "Have Shadow Kids": true }
         },
         {           
             "Action": "Load",
             "Target": "Characters/Toddler, Characters/Toddler_Dark",
             "FromFile": "assets/{{TargetPathOnly}}/ShadowKids/Toddler_Loki.png",
             "When": 
-            { "Spouse": "SenS", "Have Shadow Kids":true }
+            { "Spouse": "SenS", "Have Shadow Kids": true }
         },
    //---------------------------- RESHADE FILES ------------------------------------------//
         {           

@@ -1,0 +1,13 @@
+{
+    "Changes": [
+        //---------------------------- ITEM DATA ------------------------------------------// 
+        {
+            "Logname": "Void Lava Snail Hat",
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+                "{{ModID}}.Hats.VoidLavaSnailBuddy": "{{ModID}}.Hats.VoidLavaSnailBuddy/{{i18n:Items.VoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.VoidLavaSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats"
+            }
+        }
+    ]
+}

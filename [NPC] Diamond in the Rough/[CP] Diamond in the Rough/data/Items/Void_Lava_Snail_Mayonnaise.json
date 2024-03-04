@@ -1,0 +1,66 @@
+{
+    "Changes": [
+        //---------------------------- ITEM DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.VoidLavaSnailMayonnaise": {
+                    "Name": "{{ModID}}.Items.VoidLavaSnailMayonnaise",
+                    "DisplayName": "{{i18n:Items.VoidLavaSnailMayonnaise.Title}}",
+                    "Description": "{{i18n:Items.VoidLavaSnailMayonnaise.Description}}",
+                    "Type": "Mayonnaise",
+                    "Category": -26,
+                    "Price": 800,
+                    "Edibility": 1,
+                    "Buff": { "Duration": 100, "CustomAttributes": { "FishingLevel": 2, "Defense": 1 } },
+                    "IsDrink": true,
+                    "ContextTags": [ "color_red", "color_black", "mayo_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 8
+                }               
+            }
+        },
+    //---------------------------- SPACECORE DATA ------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -20, "EatenStaminaRestoredOverride": -20 }
+            }
+        },
+        //---------------------------- MACHINE DATA ------------------------------------------// 
+        {
+            "LogName": "Produce - Snail Mayo Machine",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)24", "OutputRules" ],
+            "Entries": {
+               "{{ModId}}_SnailMayo": {
+                  "Id": "{{ModId}}.SnailMayo",
+                  "Triggers": [
+                     {
+                        "Id": "SnailEggInputMachine",
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O){{ModId}}.Items.VoidLavaSnailEgg",
+                        "RequiredCount": 1
+                     }
+                  ],
+                  "OutputItem": [
+                     {
+                        "Id": "SnailEggOutputMachine",
+                        "ItemId": "(O){{ModId}}.Items.VoidLavaSnailMayonnaise",
+                        "RandomItemId": null,
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "Quality": 2
+                     }
+                  ],
+                  "MinutesUntilReady": 180,
+                  "DaysUntilReady": -1
+               }
+            },
+            "MoveEntries": [ { "Id": "{{ModId}}.SnailMayo", "ToPosition": "Top" } ] //Needed or regular mayo will output!
+         }
+    ]
+}

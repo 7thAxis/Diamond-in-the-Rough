@@ -68,12 +68,7 @@
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": {
-                "{{ModID}}.Items.GoldenValleyLily": { // The object ID
-                    "EatenHealthRestoredOverride": -99,
-                    "EatenStaminaRestoredOverride": -269
-                }
-            }
+            "Entries": { "{{ModID}}.Items.GoldenValleyLily": { "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -269 } }
         },
     //---------------------------- CROP DATA ------------------------------------------//
     {
@@ -110,14 +105,8 @@
             "TargetField": [ "BusStop", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -126,14 +115,8 @@
             "TargetField": [ "Town", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -142,14 +125,8 @@
             "TargetField": [ "Backwoods", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -158,14 +135,8 @@
             "TargetField": [ "Mountain", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "1.0" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.05" }
             }
         },
         {
@@ -174,14 +145,8 @@
             "TargetField": [ "Forest", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -190,14 +155,8 @@
             "TargetField": [ "Woods", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -206,14 +165,8 @@
             "TargetField": [ "EastScarp_Village", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -222,14 +175,8 @@
             "TargetField": [ "Custom_ForestWest", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -238,14 +185,8 @@
             "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -254,14 +195,8 @@
             "TargetField": [ "Custom_Garden", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -270,14 +205,8 @@
             "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -286,14 +215,8 @@
             "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         },
         {
@@ -302,14 +225,8 @@
             "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "1.0"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "1.0" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.05" }
             }
         },
         {
@@ -318,14 +235,8 @@
             "TargetField": [ "EastScarp_Orchard", "Forage" ],
             "When": { "Season": "spring, summer" },
             "Entries": {
-                "(O){{ModID}}.Items.ValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.ValleyLily",
-                    "Chance": "0.8"
-                },
-                "(O){{ModID}}.Items.GoldenValleyLily": {
-                    "ItemId": "(O){{ModID}}.Items.GoldenValleyLily",
-                    "Chance": "0.01"
-                }
+                "(O){{ModID}}.Items.ValleyLily": { "ItemId": "(O){{ModID}}.Items.ValleyLily", "Chance": "0.8" },
+                "(O){{ModID}}.Items.GoldenValleyLily": { "ItemId": "(O){{ModID}}.Items.GoldenValleyLily", "Chance": "0.01" }
             }
         }
     ]

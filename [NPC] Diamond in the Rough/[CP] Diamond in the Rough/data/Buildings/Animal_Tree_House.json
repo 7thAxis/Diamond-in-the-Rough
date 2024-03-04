@@ -13,9 +13,10 @@
                 "FadeWhenBehind": true,
                 "SourceRect": { "X": 0, "Y": 0, "Width": 112, "Height": 112 },
                 "Builder": "Robin",
-                //"BuildCondition": null,
+                "BuildCondition": "PLAYER_HAS_MAIL Current DitR_M_JeremyTSnail_FriendshipMax Any",
                 "BuildDays": 2,
                 "BuildCost": 25000,
+                "BuildMenuDrawOffset": { "X": -50, "Y": 0 },
                 "BuildMaterials": [
                   { "ItemId": "(O)771", "Amount": 300 },
                   { "ItemId": "(O)388", "Amount": 400 },
@@ -25,12 +26,12 @@
                 "AnimalDoor": { "X": 2, "Y": 5, "Width": 2, "Height": 2 },
                 "AnimalDoorOpenSound": "doorCreak",
                 "AnimalDoorCloseSound": "doorCreakReverse",
-                //"IndoorMap": "FC.TropicalAnimalHouseMap",
-                //"IndoorMapType": "StardewValley.AnimalHouse",
+                "IndoorMap": "Barn",
+                "IndoorMapType": "StardewValley.AnimalHouse",
                 "MaxOccupants": 12,
                 "ValidOccupantTypes": [ "Barn", "Coop", "DitR_Snail" ],
                 "AllowAnimalPregnancy": true,
-               /* "IndoorItems": [
+                "IndoorItems": [
                   {
                     "Id": "Default_FeedHopper",
                     "ItemId": "(BC)99",
@@ -40,17 +41,17 @@
                     {
                     "Id": "Default_Incubator",
                     "ItemId": "(BC)101",
-                    "Tile": { "X": 8, "Y": 3 },
+                    "Tile": { "X": 12, "Y": 9 },
                     "Indestructible": true
                   }
-                ],*/
+                ],
                 "DrawLayers": [
                   {
                     "Id": "Default_AnimalDoor_Bottom",
                     "Texture": null,
                     "SourceRect": { "X": 32, "Y": 112, "Width": 32, "Height": 32 },
                     "DrawPosition": "32, 80",
-                    "AnimalDoorOffset": { "X": -1000, "Y": -1000 }
+                    "AnimalDoorOffset": { "X": -2000, "Y": -2000 }
                   }
                 ]
               }

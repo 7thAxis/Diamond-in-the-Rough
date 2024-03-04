@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "LogName": "Void Lava Snail CC Spawn - Caldera",
+            "Action": "EditMap",
+            "Target": "Maps/Caldera",
+            "Update": "OnLocationChange",
+            "MapTiles": [
+                { "Position": { "X": "30", "Y": "31" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
+                { "Position": { "X": "18", "Y": "33" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
+                { "Position": { "X": "15", "Y": "24" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
+                { "Position": { "X": "24", "Y": "18" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } },
+                { "Position": { "X": "36", "Y": "31" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } },
+                { "Position": { "X": "9", "Y": "28" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } }
+            ],
+            "When": 
+            { "Caldera Void Lava Snails": true }
+        },
+        {
+            "LogName": "Void Lava Snail Fishing - Caldera",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Caldera", "Fish" ],    
+
+            "Entries": { 
+                "{{ModID}}.Hats.VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}.Hats.VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.VoidLavaSnailBuddy" },
+                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" }
+                
+             }
+        }
+    ]
+}

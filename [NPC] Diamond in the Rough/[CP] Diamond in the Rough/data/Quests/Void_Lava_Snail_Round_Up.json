@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModID}}.Quests.VoidLavaSnailRoundUp": "ItemDelivery/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Title}}/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Description}}/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Task}}/PipoP (O){{ModID}}.Items.VoidLavaSnail 10/-1/0/-1/false/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.FollowUp}}"
+            }
+        },
+    //TRIGGER ACTIONS
+        {
+            "LogName": "Void Lava Snail Round-up Flags for Phases and Daily completion check",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+
+            "Entries": {
+                //Phase 1
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.1": {
+                    "Trigger": "LocationChanged",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.1",
+                    "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 1",
+                    "Actions": [ "AddMail Current DitR_M_SnailPhase1 received" ]
+                },
+
+                //Phase 2
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.2": {
+                    "Trigger": "LocationChanged",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.2",
+                    "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 3",
+                    "Actions": [ "AddMail Current DitR_M_SnailPhase2 received" ]
+                },
+
+                //Phase 3
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.3": {
+                    "Trigger": "LocationChanged",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.3",
+                    "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 5",
+                    "Actions": [ "AddMail Current DitR_M_SnailPhase3 received" ]
+                },
+
+                //Phase 4
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.4": {
+                    "Trigger": "LocationChanged",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.4",
+                    "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 7",
+                    "Actions": [ "AddMail Current DitR_M_SnailPhase4 received" ]
+                },
+
+                //Phase 5
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.5": {
+                    "Trigger": "LocationChanged",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.5",
+                    "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 10",
+                    "Actions": [ "AddMail Current DitR_M_SnailPhase5 received" ]
+                },
+
+                //DAILY COMPLETION CHECK
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.1": {
+                    "Trigger": "DayStarted",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.1",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidLavaSnailQuestToday Any",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday",
+                         "MarkActionApplied Current {{ModId}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.2 false"
+                         ]
+                },
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.2": {
+                    "Trigger": "DayStarted",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.2",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidLavaSnailQuestToday Any",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday",
+                         "MarkActionApplied Current {{ModId}}.TriggerActions.VoidLavaSnailRoundUp.DailyAccept.1 false"
+                         ]
+                }
+            }
+        }
+    ]
+}

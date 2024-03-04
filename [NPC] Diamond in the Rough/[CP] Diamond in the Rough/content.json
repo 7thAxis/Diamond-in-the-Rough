@@ -64,6 +64,13 @@ CREDITS
             "Description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
             "Section": "Graphics"
         },
+        "Caldera Void Lava Snails": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description": "Spawns visible Void Lava Snails in the Caldera to match in-game lore.",
+            "Section": "Graphics"
+        },
         "Player Pronouns 1": {
             "Default": "They",
             "AllowBlank": false,
@@ -118,7 +125,7 @@ CREDITS
             "Name": "BasicRandomizer", 
             "Value": "{{Random:{{Range: 1, 2}}}}"
         },
-        //DIALOGUE SWITCHERS
+        //SWITCHES
             /* SenPartnershipRoute - Checks the relationship route for Sen the player is currently on. 
                SenKrobusReference - Changes how Sen refers to Krobus based on player met status.*/
         {
@@ -138,6 +145,15 @@ CREDITS
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusKnown}}",
             "When": { "Relationship:Krobus: |contains=Unmet": false }
+        },
+        {
+            "Name": "FishPondSnailEggSpawnable",
+            "Value": "(O)766"
+        },
+        {
+            "Name": "FishPondSnailEggSpawnable",
+            "Value": "(O){{ModID}}.Items.VoidLavaSnailEgg",
+            "When": { "HasFlag": "DitR_M_JeremyTSnail_FriendshipMax" }
         },
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 

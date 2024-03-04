@@ -25,6 +25,8 @@
 "Config.Reshade Existing Shadows.description": "Recolors existing Shadowfolk overworld sprites to match DitR's style.",
 "Config.Alpha Pipo Portrait.name": "Alpha Pipo Portrait",
 "Config.Alpha Pipo Portrait.description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
+"Config.Caldera Void Lava Snail.name": "Caldera Void Lava Snail",
+"Config.Caldera Void Lava Snail.description": "Spawns visible Void Lava Snails in the Caldera to match in-game lore.",
 "Config.Player Pronouns 1.name": "Player Pronouns 1",
 "Config.Player Pronouns 1.description": "Sets the player's desired pronouns. You can enter multiple sets for randomized selection each day separated by ','. (Example: They, She)",
 "Config.Player Pronouns 2.name": "Player Pronouns 2",
@@ -2108,11 +2110,11 @@
 "Quests.DitR.AGardenForSen.FollowUp": "...!$7#$b#With both of our seed collecting efforts combined, we should have plenty now.$h#$b#Thank you so much, @. Come visit my home in a few days, alright?$h#$action AddMail Current DitR_M_AGardenForSenComplete received",
 
 //Snail Monsense
-"Quests.DitR.VoidSnailRoundUp.Title": "Void Snail Round-Up!",
-"Quests.DitR.VoidSnailRoundUp.Description": "There are many Void Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
-"Quests.DitR.VoidSnailRoundUp.Task": "Bring 10 Void Snails to Pipo for Jeremy.",
-"Quests.DitR.VoidSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat VoidSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidSnailQuestActive",
-"Quests.DitR.VoidSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
+"Quests.DitR.VoidLavaSnailRoundUp.Title": "Void Lava Snail Round-Up!",
+"Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
+"Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 10 Void Lava Snails to Pipo for Jeremy.",
+"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat VoidLavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
+"Quests.DitR.VoidLavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
 
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
@@ -2731,11 +2733,17 @@
 ██║   ██║   ██╔══╝  ██║╚██╔╝██║╚════██║
 ██║   ██║   ███████╗██║ ╚═╝ ██║███████║
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
-"Items.VoidSnail.Title": "Void Snail",
-"Items.VoidSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
+"Items.VoidLavaSnail.Title": "Void Lava Snail",
+"Items.VoidLavaSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
 
-"Items.VoidSnailBuddy.Title": "Void Snail Buddy",
-"Items.VoidSnailBuddy.Description": "This little Void Snail seems quite affectionate for you!",
+"Items.VoidLavaSnailBuddy.Title": "Void Lava Snail Buddy",
+"Items.VoidLavaSnailBuddy.Description": "This little seems quite affectionate for you!",
+
+"Items.VoidLavaSnailEgg.Title": "Void Lava Snail Egg",
+"Items.VoidLavaSnailEgg.Description": "Will you turn it into mayonnaise, or nurture it into a strong healthy snail? The choice is yours.",
+
+"Items.VoidLavaSnailMayonnaise.Title": "Void Lava Snail Mayonnaise",
+"Items.VoidLavaSnailMayonnaise.Description": "How could you?",
 
 "Items.ValleyLily.Title": "Lily of the Valley",
 "Items.ValleyLily.Description": "A gentle flower that blooms in the spring and summer.",

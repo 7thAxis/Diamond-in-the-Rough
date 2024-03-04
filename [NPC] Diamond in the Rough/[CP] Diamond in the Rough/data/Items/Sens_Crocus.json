@@ -59,168 +59,98 @@
             "Target": "Data/Locations",
             "TargetField": [ "BusStop", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Town", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Backwoods", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Mountain", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Forest", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Woods", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "EastScarp_Village", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Custom_ForestWest", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true},
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Custom_BlueMoonVineyard", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Custom_Garden", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Custom_ShearwaterBridge", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "Custom_GrandpasShedOutside", "Forage" ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "EastScarp_DeepMountains", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         },
         {
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [ "EastScarp_Orchard", "Forage" ],
             "When":{ "HasSeenEvent: |contains={{ModID}}.Events.SenS.14h": true },
-            "Entries": {
-                "(O){{ModID}}.Items.SensCrocus": {
-                    "ItemId": "(O){{ModID}}.Items.SensCrocus",
-                    "Chance": "0.8"
-                }
-            }
+            "Entries": { "(O){{ModID}}.Items.SensCrocus": { "ItemId": "(O){{ModID}}.Items.SensCrocus", "Chance": "0.8" } }
         }
     ]
 }

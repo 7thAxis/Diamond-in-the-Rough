@@ -1,0 +1,116 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Void Lava Snail - FarmAnimal",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+
+            "Entries": { 
+                "Giant Void Lava Snail": {
+                    "DisplayName": "Giant Void Lava Snail",
+                    "House": "DitR_Snail",
+                    "Gender": "Male",
+                    "PurchasePrice": -1,
+                    "SellPrice": 12000,
+                    "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
+                    "UnlockCondition": null,
+                    "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg" ],
+                    "IncubationTime": -1,
+                    "IncubatorParentSheetOffset": 1,
+                    "BirthText": "blah blah blah",
+                    "DaysToMature": 1,
+                    "DaysToProduce": 0,
+                    "HarvestType": "DropOvernight",
+                    "ProduceItemIds": [
+                      {
+                        "Id": "SnailEgg",
+                        "Condition": null,
+                        "MinimumFriendship": 0,
+                        "ItemId": "{{ModID}}.Items.VoidLavaSnailEgg"
+                      },
+                      {
+                        "Id": "SnailVoidEssence",
+                        "Condition": "RANDOM 0.3",
+                        "MinimumFriendship": 0,
+                        "ItemId": "769"
+                      },
+                      {
+                        "Id": "SnailFireQuartz",
+                        "Condition": "RANDOM 0.2",
+                        "MinimumFriendship": 0,
+                        "ItemId": "82"
+                      }
+                    ],
+                    "ProduceOnMature": true,
+                    "ProfessionForHappinessBoost": 11,
+                    "ProfessionForQualityBoost": 11,
+                    "ProfessionForFasterProduce": 11,
+                    //"Sound": "Duck",
+                    //"BabySound": null,
+                    "Texture": "Animals\\Giant_Void_Lava_Snail",
+                    "BabyTexture": "Animals\\Baby_Giant_Void_Lava_Snail",
+                    "UseFlippedRightForLeft": true,
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
+                    "ShadowWhenBaby": { "Visible": false },
+                    "ShadowWhenBabySwims": { "Visible": false },
+                    "ShadowWhenAdult": { "Visible": false },
+                    "ShadowWhenAdultSwims": { "Visible": false },
+                    "CanSwim": true,
+                    "BabiesFollowAdults": true,
+                    "GrassEatAmount": 0,
+                    "HappinessDrain": 8,
+                    "UpDownPetHitboxTileSize": "1, 1",
+                    "LeftRightPetHitboxTileSize": "1, 1",
+                    "BabyUpDownPetHitboxTileSize": "1, 1",
+                    "BabyLeftRightPetHitboxTileSize": "1, 1",
+                    "StatToIncrementOnProduce": [
+                      {
+                        "RequiredItemId": null,
+                        "RequiredTags": [ "egg_item" ],
+                        "StatName": "VoidLavaSnailEggsLaid"
+                      }
+                    ],
+                    "ShowInSummitCredits": true
+                  }              
+                
+             }
+        }
+
+    ]
+}
+
+/*
+Professions list
+
+0 => "Rancher", 
+        1 => "Tiller", 
+        2 => "Coopmaster", 
+        3 => "Shepherd", 
+        4 => "Artisan", 
+        5 => "Agriculturist", 
+        6 => "Fisher", 
+        7 => "Trapper", 
+        8 => "Angler", 
+        9 => "Pirate", 
+        10 => "Mariner", 
+        11 => "Luremaster", 
+        12 => "Forester", 
+        13 => "Gatherer", 
+        14 => "Lumberjack", 
+        15 => "Tapper", 
+        16 => "Botanist", 
+        17 => "Tracker", 
+        18 => "Miner", 
+        19 => "Geologist", 
+        20 => "Blacksmith", 
+        21 => "Prospector", 
+        22 => "Excavator", 
+        23 => "Gemologist", 
+        24 => "Fighter", 
+        25 => "Scout", 
+        26 => "Brute", 
+        27 => "Defender", 
+        28 => "Acrobat", 
+        _ => "Desperado",  */
