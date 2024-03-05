@@ -69,7 +69,7 @@
 //---------------------------- ITEM FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Buddy.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json"
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json"
         },
 //---------------------------- MONSTER FILES ------------------------------------------//
         {
@@ -131,7 +131,7 @@
     //---------------------------- TEMP MAP LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Maps/CG_Sen_Ocean, Maps/Sen_Flashback",
+            "Target": "Maps/CG_Sen_Ocean, Maps/Sen_Flashback, Maps/Animal_Tree_House",
             "FromFile": "assets/Maps/{{TargetWithoutPath}}.tmx"
         },
     //---------------------------- MEEP FILES ------------------------------------------//

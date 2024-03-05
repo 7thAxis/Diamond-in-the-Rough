@@ -26,6 +26,13 @@
                     "StreamedVorbis": true,
                     "Looped": true
                 },
+                "{{ModID}}.Music.VoidSnailWaltz": {
+                    "ID": "{{ModID}}.Music.VoidSnailWaltz",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Void_Snail_Waltz.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
+                },
                 "{{ModID}}.Music.TraceHouse": {
                 "ID": "{{ModID}}.Music.TraceHouse",
                 "Category": "Music",

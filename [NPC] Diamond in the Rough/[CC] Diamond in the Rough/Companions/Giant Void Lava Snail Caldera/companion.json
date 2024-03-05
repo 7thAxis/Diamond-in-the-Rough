@@ -13,6 +13,14 @@
     "IdleBehavior": "Wander",
     "FrameSizeWidth": 32,
     "FrameSizeHeight": 32,
+    "Sounds": [
+        {
+          "SoundName": "7thAxis.DitR.CP.SFX.SnailCry",
+          "WhenToPlay": "Always",
+          "TimeBetweenSound": 2000,
+          "ChanceOfPlaying": 0.05
+        }
+      ],
     // This plays when the companion travels upwards
     "UpAnimation": {
         "StartingFrame": 8,

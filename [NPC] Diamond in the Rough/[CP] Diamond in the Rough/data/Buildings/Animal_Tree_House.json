@@ -5,8 +5,8 @@
             "Target": "Data/Buildings",
             "Entries": {
             "{{ModId}}.Buildings.AnimalTreeHouse": {
-                "Name": "Animal Tree House",
-                "Description": "A strange tree that houses all kinds of animals.",
+                "Name": "{{i18n:Core.Buildings.AnimalTreeHouse.Title}}",
+                "Description": "{{i18n:Core.Buildings.AnimalTreeHouse.Description}}",
                 "Texture": "Buildings\\DitR_Animal_Tree_House",
                 "DrawShadow": false,
                 "Size": { "X": 5, "Y": 6 },
@@ -15,7 +15,7 @@
                 "Builder": "Robin",
                 "BuildCondition": "PLAYER_HAS_MAIL Current DitR_M_JeremyTSnail_FriendshipMax Any",
                 "BuildDays": 2,
-                "BuildCost": 25000,
+                "BuildCost": 28000,
                 "BuildMenuDrawOffset": { "X": -50, "Y": 0 },
                 "BuildMaterials": [
                   { "ItemId": "(O)771", "Amount": 300 },
@@ -26,7 +26,7 @@
                 "AnimalDoor": { "X": 2, "Y": 5, "Width": 2, "Height": 2 },
                 "AnimalDoorOpenSound": "doorCreak",
                 "AnimalDoorCloseSound": "doorCreakReverse",
-                "IndoorMap": "Barn",
+                "IndoorMap": "Animal_Tree_House",
                 "IndoorMapType": "StardewValley.AnimalHouse",
                 "MaxOccupants": 12,
                 "ValidOccupantTypes": [ "Barn", "Coop", "DitR_Snail" ],
@@ -35,13 +35,13 @@
                   {
                     "Id": "Default_FeedHopper",
                     "ItemId": "(BC)99",
-                    "Tile": { "X": 11, "Y": 3 },
+                    "Tile": { "X": 11, "Y": 8 },
                     "Indestructible": true
                   },
-                    {
+                  {
                     "Id": "Default_Incubator",
                     "ItemId": "(BC)101",
-                    "Tile": { "X": 12, "Y": 9 },
+                    "Tile": { "X": 20, "Y": 8 },
                     "Indestructible": true
                   }
                 ],

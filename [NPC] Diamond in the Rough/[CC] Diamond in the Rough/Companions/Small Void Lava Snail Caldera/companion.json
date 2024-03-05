@@ -11,6 +11,14 @@
     "IdleBehavior": "NOTHING",
     "FrameSizeWidth": 16,
     "FrameSizeHeight": 16,
+    "Sounds": [
+      {
+        "SoundName": "7thAxis.DitR.CP.SFX.SnailCryBaby",
+        "WhenToPlay": "Always",
+        "TimeBetweenSound": 2000,
+        "ChanceOfPlaying": 0.05
+      }
+    ],
     "UniformAnimation": {
         "StartingFrame": 0,
         "NumberOfFrames": 2,

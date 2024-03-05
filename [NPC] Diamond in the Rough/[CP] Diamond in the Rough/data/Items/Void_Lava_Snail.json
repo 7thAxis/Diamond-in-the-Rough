@@ -21,6 +21,15 @@
                 }               
             }
         },
+//---------------------------- HAT VARIANT DATA ------------------------------------------// 
+        {
+            "Logname": "Void Lava Snail Hat",
+            "Action": "EditData",
+            "Target": "Data/Hats",
+            "Entries": {
+                "{{ModID}}.Hats.VoidLavaSnailBuddy": "{{ModID}}.Hats.VoidLavaSnailBuddy/{{i18n:Items.VoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.VoidLavaSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats"
+            }
+        },
  //---------------------------- FISHING DATA ------------------------------------------//
         {
             "LogName": "Void Lava Snail Fishing Data",
@@ -63,7 +72,7 @@
                 {
                     "RequiredPopulation": 8,
                     "Chance": 0.4, "ItemID": "(O)64", //Void essence
-                    "MinQuantity": 1, "MaxQuantity": 2
+                    "MinQuantity": 1, "MaxQuantity": 3
                 },
                 {
                     "RequiredPopulation": 5,

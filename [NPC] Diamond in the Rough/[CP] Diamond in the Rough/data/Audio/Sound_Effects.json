@@ -19,6 +19,22 @@
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
                     "StreamedVorbis": false,
                     "Looped": false
+                },
+
+                "{{ModID}}.SFX.SnailCryBaby": {
+                    "ID": "{{ModID}}.SFX.SnailCryBaby",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry_Baby.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+
+                "{{ModID}}.SFX.SnailCry": {
+                    "ID": "{{ModID}}.SFX.SnailCry",
+                    "Category": "Sound",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry.ogg}}" ],
+                    "StreamedVorbis": false,
+                    "Looped": false
                 }
             }
         }

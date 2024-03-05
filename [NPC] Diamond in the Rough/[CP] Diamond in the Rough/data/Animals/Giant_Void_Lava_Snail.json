@@ -8,7 +8,7 @@
 
             "Entries": { 
                 "Giant Void Lava Snail": {
-                    "DisplayName": "Giant Void Lava Snail",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
                     "House": "DitR_Snail",
                     "Gender": "Male",
                     "PurchasePrice": -1,
@@ -16,10 +16,10 @@
                     "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
                     "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg" ],
-                    "IncubationTime": -1,
+                    "IncubationTime": 4500,
                     "IncubatorParentSheetOffset": 1,
-                    "BirthText": "blah blah blah",
-                    "DaysToMature": 1,
+                    "BirthText": "{{i18n:Core.Animals.GiantVoidLavaSnail.Birth}}",
+                    "DaysToMature": 10,
                     "DaysToProduce": 0,
                     "HarvestType": "DropOvernight",
                     "ProduceItemIds": [
@@ -31,13 +31,13 @@
                       },
                       {
                         "Id": "SnailVoidEssence",
-                        "Condition": "RANDOM 0.3",
+                        "Condition": "RANDOM 0.4",
                         "MinimumFriendship": 0,
                         "ItemId": "769"
                       },
                       {
                         "Id": "SnailFireQuartz",
-                        "Condition": "RANDOM 0.2",
+                        "Condition": "RANDOM 0.3",
                         "MinimumFriendship": 0,
                         "ItemId": "82"
                       }
@@ -46,8 +46,8 @@
                     "ProfessionForHappinessBoost": 11,
                     "ProfessionForQualityBoost": 11,
                     "ProfessionForFasterProduce": 11,
-                    //"Sound": "Duck",
-                    //"BabySound": null,
+                    "Sound": "{{ModID}}.SFX.SnailCry",
+                    "BabySound": "{{ModID}}.SFX.SnailCryBaby",
                     "Texture": "Animals\\Giant_Void_Lava_Snail",
                     "BabyTexture": "Animals\\Baby_Giant_Void_Lava_Snail",
                     "UseFlippedRightForLeft": true,
@@ -59,8 +59,8 @@
                     "ShadowWhenAdultSwims": { "Visible": false },
                     "CanSwim": true,
                     "BabiesFollowAdults": true,
-                    "GrassEatAmount": 0,
-                    "HappinessDrain": 8,
+                    "GrassEatAmount": 4,
+                    "HappinessDrain": 5,
                     "UpDownPetHitboxTileSize": "1, 1",
                     "LeftRightPetHitboxTileSize": "1, 1",
                     "BabyUpDownPetHitboxTileSize": "1, 1",

@@ -20,7 +20,8 @@
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
             "TargetField": "Companion",
             "Entries": {
-                "Companion": { "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" } }
+                "Companion": { "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" }
+                }
             }
         },
 //---------------------------- SPRITES ------------------------------------------//

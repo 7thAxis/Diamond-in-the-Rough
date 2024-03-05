@@ -312,6 +312,14 @@
 //Monster Eradication
 "Core.Monsters.GolemEradication": "Golems",
 
+//Animals
+"Core.Animals.GiantVoidLavaSnail": "Giant Void Lava Snail",
+"Core.Animals.GiantVoidLavaSnail.Birth": "A new baby Void Lava Snail was born!",
+
+//Buildings
+"Core.Buildings.AnimalTreeHouse.Title": "Animal Tree House",
+"Core.Buildings.AnimalTreeHouse.Description": "A strange tree that can house up to 12 animals of any kind. Void Lava Snails will only live here.",
+
 //Names
 "Core.EveT.Name": "Eve",
 "Core.SenS.Name": "Sen",
@@ -1961,15 +1969,18 @@
 ██║ ╚═╝ ██║██║  ██║██║         ███████║   ██║   ██║  ██║██║██║ ╚████║╚██████╔╝███████║
 ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝         ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 */
-//Location names
+ //---------------------------- LOCATION NAMES ------------------------------------------//
 "Maps.EveT.EveHouse": "Eve's House",
 "Maps.TraceV.TraceHouse": "Trace's House",
 "Maps.JeremyTSnail.JeremyRoom": "Jeremy's Room",
 
+ //---------------------------- FAKE NPCS ------------------------------------------//
 //Fake NPCs
 "Maps.FakeNPCs.TraceVCoffeeMaker": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
 
-//Eve
+ //---------------------------- NPC MAP STRINGS ------------------------------------------//
+
+    //----EVE----//
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
 "Maps.EveT.EveTHFridge": "The fridge is full of fresh vegetables.",
 "Maps.EveT.EveTHStove": "The stove is squeaky clean... for now!",
@@ -1988,7 +1999,8 @@
 "Maps.EveT.EveTHGems": "A pile of hoarded green gems from Eve's mining trips.",
 "Maps.EveT.EveTHPipoFood": "A bowl of food left out for the cats of East Scarp.",
 
-//Sen
+    //----SEN----//
+//Bedroom
 "Maps.SenS.SenDDGlobe": "This old globe has pins stuck in certain locations around the world.",
 "Maps.SenS.SenDDBasket": "You inspect the basket, expecting berries...#...but, what you find instead are some strange squishy red globs of goo.",
 "Maps.SenS.SenDDMap": "The map on the wall has a sight seeing spot in the mountain marked in red.",
@@ -2010,6 +2022,8 @@
 "Maps.SenS.SenDDBarrel": "You peek inside the barrel and find a number of handmade holiday costumes.",
 "Maps.SenS.SenDDCrocus": "A single crocus bloom sits in a vase. It gazes upon you with its judgement.",
 "Maps.SenS.SenDDFlowers": "The blooms in this vase are heavily wilted. They'll need to be replaced soon.",
+
+//Garden
 "Maps.SenS.SenDDGardenShrooms": "This bucket is overflowing with mushrooms.#Does Sen eat these?",
 "Maps.SenS.SenDDGardenWater": "This trough is full of crystal clear water.",
 "Maps.SenS.SenDDGardenPumpkin": "How are these pumpkins growing without sunlight?",
@@ -2018,6 +2032,8 @@
 "Maps.SenS.SenDDGardenBerryBasket": "Judging by the color of these berries, it's probably best to resist the temptation to snack.",
 "Maps.SenS.SenDDGardenGrassRocks": "A thick layer of fiber is engulfing this rock.",
 "Maps.SenS.SenDDGardenSecretJunimo": "...Huh?#There's a junimo living inside this pumpkin!",
+
+//Spouse Room
 "Maps.SenS.SenRoomCrocus": "It's a very healthy crocus!#He really loves this flower species.",
 "Maps.SenS.SenRoomBook": "It's one of Sen's many stolen library books.#He'll return it. Probably.",
 "Maps.SenS.SenRoomDeskFlowers": "These flowers are well cared for and healthy.#Sen's become quite the gardener!",
@@ -2028,8 +2044,7 @@
 "Maps.SenS.SenRoomNotes": "You can't read the language on this paper.#You can tell the handwriting is bad, however.",
 "Maps.SenS.SenRoomBlueFlowers": "These are flowers from Sen's garden back in East Scarp.",
 
-//TRACE
-
+    //----TRACE----//
 //Bedroom
 "Maps.TraceV.TraceVHBed": "You crawl into Trace's bed. It smells like roses.",
 "Maps.TraceV.TraceVHNailPolish": "Various bottles of high quality nail polish litter the dresser.",
@@ -2086,6 +2101,34 @@
 
 //Doors
 "Maps.TraceV.TraceVHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
+
+    //----JEREMY----//
+"Maps.JeremyTSnail.JeremyTSRSnailDodo": "Dodo stands tall, guarding the snail manor valiently.#Also, he seems rather... French?",
+"Maps.JeremyTSnail.JeremyTSRSnailPooh": "Pooh is busy coding! In her mind, as there is no computer here.",
+"Maps.JeremyTSnail.JeremyTSRSnailClown": "Clown honks at you. How adorable!",
+"Maps.JeremyTSnail.JeremyTSRSnailClaw": "Claw guards the snail manor, more wholesomely than Dodo the snail.",
+"Maps.JeremyTSnail.JeremyTSRSnailLemur": "Lemur wonders why she became a snail.#She has a Scarp that needs developing!",
+"Maps.JeremyTSnail.JeremyTSRSnailVale": "Valefor gazes at you upside down and considers eating ants.",
+"Maps.JeremyTSnail.JeremyTSRSnailCasey": "You consider crying to Casey. You're not sure why.",
+"Maps.JeremyTSnail.JeremyTSRSnailHecate": "Hecate offers you book suggestions! How kind!",
+"Maps.JeremyTSnail.JeremyTSRSnailJessie": "Jessie questions if you're in need of technical support.",
+"Maps.JeremyTSnail.JeremyTSRSnailChirps": "Chirps slides closer to you, asking if you have any writing that needs proof reading.",
+"Maps.JeremyTSnail.JeremyTSRSnailFlash": "You gaze out into the water. Flash seems busy with something.",
+"Maps.JeremyTSnail.JeremyTSRSnailEnder": "Ender smooches Cove. The perfect OTP.",
+"Maps.JeremyTSnail.JeremyTSRSnailCove": "Cove smooches Ender. The perfect OTP.",
+"Maps.JeremyTSnail.JeremyTSRSnailMads": "This snail is wearing a sign that says \"Hello I am Mad Dog Hashtag Bearfam of Shimano\".",
+"Maps.JeremyTSnail.JeremyTSRSnailBell": "Bell cheers you on! How sweet!",
+"Maps.JeremyTSnail.JeremyTSRSnailNums": "Numi is creating fine art in the water. Don't interupt!#She doesn't mind, though.",
+"Maps.JeremyTSnail.JeremyTSRSnailSaurianne": "Saurianne tells you about sanddollars and dinosaurs.#You feel much more knowledgable!",
+"Maps.JeremyTSnail.JeremyTSRSnailDesty": "Upon close inspection, you find that Desty is wearing a t-shirt that says \"Chaotic Stupid Lesbians With Swords Past Bedtime\".#What a weird band name.",
+"Maps.JeremyTSnail.JeremyTSRSnailBagi": "Bagi offers you snail hugs.",
+"Maps.JeremyTSnail.JeremyTSRSnailPillow": "Pillow is working on robots, you just can't see it.",
+"Maps.JeremyTSnail.JeremyTSRSnailDH": "DH looks at you and says \"MEEP MEEP MEEP!\".",
+"Maps.JeremyTSnail.JeremyTSRSnailNova": "Nova is a bro. A Novabro.",
+"Maps.JeremyTSnail.JeremyTSRSnailGervig": "Gervig is animating on an invisible computer.#Look how smooth those frames are!",
+"Maps.JeremyTSnail.JeremyTSRSnailTiara": "Tiara has pink wool in her mouth. How strange.",
+"Maps.JeremyTSnail.JeremyTSRSnailAxell": "Axell peeks at you from behind the sign, emitting intense goblin energy.",
+
 /*
 ███╗   ███╗ █████╗ ██╗██╗     
 ████╗ ████║██╔══██╗██║██║     

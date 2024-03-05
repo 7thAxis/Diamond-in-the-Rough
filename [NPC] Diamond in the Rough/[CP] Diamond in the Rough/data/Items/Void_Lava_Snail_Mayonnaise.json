@@ -25,18 +25,16 @@
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": {
-                "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -20, "EatenStaminaRestoredOverride": -20 }
-            }
+            "Entries": { "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -20, "EatenStaminaRestoredOverride": -20 } }
         },
-        //---------------------------- MACHINE DATA ------------------------------------------// 
+    //---------------------------- MACHINE DATA ------------------------------------------// 
         {
             "LogName": "Produce - Snail Mayo Machine",
             "Action": "EditData",
             "Target": "Data/Machines",
             "TargetField": [ "(BC)24", "OutputRules" ],
             "Entries": {
-               "{{ModId}}_SnailMayo": {
+               "{{ModId}}.SnailMayo": {
                   "Id": "{{ModId}}.SnailMayo",
                   "Triggers": [
                      {

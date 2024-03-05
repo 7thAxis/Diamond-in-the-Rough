@@ -1,5 +1,6 @@
 {
-    "Changes": [        
+    "Changes": [ 
+//---------------------------- ROOM LOAD ------------------------------------------//        
         {
             "Action": "Load",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
@@ -18,6 +19,7 @@
                 }
             }
         },
+//---------------------------- WARPS ------------------------------------------// 
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
@@ -26,8 +28,8 @@
                 "11 4 {{ModID}}.Maps.Trace_House_Interior 12 22" 
             ]
         },
-
-        //Conditional tiles 
+//---------------------------- CONDITIONAL TILES ------------------------------------------// 
+//QUEST BOARD
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
@@ -44,10 +46,10 @@
         },
 
 //SNAIL PATCHES
+    //FLAGS FALSE
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Single snails around map
@@ -69,11 +71,9 @@
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase1": false }
         },
-
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Single snails around map
@@ -96,11 +96,9 @@
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase2": false }
         },
-
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Water snails
@@ -128,7 +126,6 @@
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Bush snails
@@ -149,7 +146,6 @@
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
             "MapTiles": [
 
                 //Single snails around map
@@ -166,6 +162,113 @@
 
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase5": false }
+        },
+    //FLAGS TRUE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                //Single snails around map
+                { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailLemur" } },
+                { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailMads" } },
+                { "Position": { "X": 6, "Y": 5 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailDodo" } },
+                { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailPillow" } },
+                { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailDH" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase1": true }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 9, "Y": 13 },  "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailChirps" } },
+                { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailPooh" } },
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailClaw" } },
+                { "Position": { "X": 18, "Y": 6 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailBagi" } },
+                { "Position": { "X": 7, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailFlash" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase2": true }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 15, "Y": 15 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailNums" } },
+                { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailNova" } },
+                { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailHecate" } },
+                { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailJessie" } },
+                { "Position": { "X": 8, "Y": 10 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailVale" } },
+                { "Position": { "X": 3, "Y": 5 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailAxell" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase3": true }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 13, "Y": 10 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailBell" } },
+                { "Position": { "X": 15, "Y": 6 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailDesty" } },
+                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailBell" } },
+                { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailCove" } },
+                { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailClown" } },
+                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailSaurianne" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase4": true }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailGervig" } },
+                { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailTiara" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_SnailPhase5": true }
+        },
+
+//---------------------------- MAP STRINGS ------------------------------------------// 
+        {
+            "LogName": "Trace Map Strings",
+            "Action": "EditData",
+            "Target": "strings/StringsFromMaps",
+            "Entries": {
+
+                "JeremyTSRSnailDodo": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailDodo}}",
+                "JeremyTSRSnailPooh": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailPooh}}",
+                "JeremyTSRSnailClown": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailClown}}",
+                "JeremyTSRSnailClaw": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailClaw}}",
+                "JeremyTSRSnailLemur": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailLemur}}",
+                "JeremyTSRSnailVale": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailVale}}",
+                "JeremyTSRSnailCasey": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailCasey}}",
+                "JeremyTSRSnailHecate": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailHecate}}",
+                "JeremyTSRSnailJessie": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailJessie}}",
+                "JeremyTSRSnailChirps": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailChirps}}",
+                "JeremyTSRSnailFlash": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailFlash}}",
+                "JeremyTSRSnailEnder": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailEnder}}",
+                "JeremyTSRSnailCove": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailCove}}",
+                "JeremyTSRSnailMads": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailMads}}",
+                "JeremyTSRSnailBell": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailBell}}",
+                "JeremyTSRSnailNums": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailNums}}",
+                "JeremyTSRSnailSaurianne": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailSaurianne}}",
+                "JeremyTSRSnailDesty": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailDesty}}",
+                "JeremyTSRSnailBagi": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailBagi}}",
+                "JeremyTSRSnailPillow": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailPillow}}",
+                "JeremyTSRSnailDH": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailDH}}",
+                "JeremyTSRSnailNova": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailNova}}",
+                "JeremyTSRSnailGervig": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailGervig}}",
+                "JeremyTSRSnailTiara": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailTiara}}",
+                "JeremyTSRSnailAxell": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailAxell}}"
+
+            }
         }
     ]
 }
