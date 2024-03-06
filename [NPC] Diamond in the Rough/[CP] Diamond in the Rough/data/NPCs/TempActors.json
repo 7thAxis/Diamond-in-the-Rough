@@ -3,13 +3,13 @@
 //---------------------------- DIALOGUE LOADS - MEEP MAP ACTORS ------------------------------------------//
 {
     "Action": "EditData",
-    "Target": "MEEP/FakeNPC/Dialogue/CoffeMakerKun",
+    "Target": "MEEP/FakeNPC/Dialogue/CoffeeMakerKun",
     "Entries": { "DialogueOne": "{{i18n:Maps.FakeNPCs.{{TargetWithoutPath}}}}" }
 },
 //---------------------------- SPRITES  - MEEP MAP ACTORS  ------------------------------------------//
 {
     "Action": "Load",
-    "Target": "Characters/CoffeMakerKun, Portraits/CoffeMakerKun",
+    "Target": "Characters/CoffeeMakerKun, Portraits/CoffeeMakerKun",
     "FromFile": "assets/{{TargetPathOnly}}/TempActors/blank.png"
 }
      ]

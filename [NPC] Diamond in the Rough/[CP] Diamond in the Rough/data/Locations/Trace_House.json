@@ -161,7 +161,7 @@
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "344" }, //Sets the card tile on counter
-                { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "CoffeMakerKun" } }, //Places fake coffeemaker NPC
+                { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "CoffeeMakerKun" } }, //Places fake coffeemaker NPC
                 { "Position": { "X": 7, "Y": 23 }, "Layer": "Buildings",
                     "SetProperties": { "Action": "MEEP_Letter {{i18n:Mail.TraceV.TraceCoffeeNote}}", "MEEP_Letter_Type": "3" } } //Loads letter data
             ],
