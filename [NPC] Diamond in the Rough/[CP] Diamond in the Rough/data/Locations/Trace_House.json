@@ -151,14 +151,14 @@
             "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
     //Trace's coffee maker prior to giving coffee
-        {
+       /* {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 8, "Y": 23 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCoffeeMaker" } }
             ],
             "When": { "Hearts:TraceV": "{{Range: 0, 3}}" }
-        },
+        },*/
     //Trace's coffee maker gives you coffee
         {
             "Action": "EditMap",
@@ -169,9 +169,9 @@
                 { "Position": { "X": 7, "Y": 23 }, "Layer": "Buildings",
                     "SetProperties": { "Action": "MEEP_Letter {{i18n:Mail.TraceV.TraceCoffeeNote}}", "MEEP_Letter_Type": "3" } } //Loads letter data
             ],
-            "When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
+            //"When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
         },
-    //Trace's coffee maker daily check
+    //Removes coffee obtained flag at Day Ending
         {
             "LogName": "Interacted With Trace's Coffee Maker Today", 
             "Action": "EditData",
@@ -195,6 +195,23 @@
                         "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday.1 false"
                      ]
                 }
+                     /*   {
+            "LogName": "Interacted With Trace's Coffee Maker Today", 
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.DitRDailyFlagRemovals": {
+                    "Trigger": "DayEnding",
+                    "Id": "{{ModID}}.TriggerActions.DitRDailyFlagRemovals",
+                    "MarkActionApplied": false,
+                    "Condition": "ANY \"PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidLavaSnailQuestToday\"",
+                    "Actions": [ 
+                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
+                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday"
+                     ]
+                }
+        }
+    },*/
         }
     },
 //---------------------------- MAP STRINGS ------------------------------------------// 
