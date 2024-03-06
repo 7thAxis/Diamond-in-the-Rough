@@ -1976,7 +1976,7 @@
 
  //---------------------------- FAKE NPCS ------------------------------------------//
 //Fake NPCs
-"Maps.FakeNPCs.TraceVCoffeeMaker": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
+"Maps.FakeNPCs.CoffeMakerKun": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
 
  //---------------------------- NPC MAP STRINGS ------------------------------------------//
 

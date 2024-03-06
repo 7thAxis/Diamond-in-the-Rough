@@ -4,9 +4,11 @@
             "LogName": "Dialogue - 0-4",
             "Action": "EditData",
             "Target": "Characters/Dialogue/EveT",
+            "Update": "OnLocationChange",
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 20}}}}}}"
-            }
+            },
+            "When": { "HasFlag |contains=DitR_M_EveT_OverrideSeenToday": false }
         },
         {
             "LogName": "Eve Dialogue Overrides",

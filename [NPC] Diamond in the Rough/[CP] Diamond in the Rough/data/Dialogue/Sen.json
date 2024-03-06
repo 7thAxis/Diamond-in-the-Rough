@@ -4,18 +4,21 @@
             "LogName": "Sen Dialogue - 0-5",
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
+            "Update": "OnLocationChange",
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.EarlyHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
-            }
+            },
+            "When": { "HasFlag |contains=DitR_M_SenS_OverrideSeenToday": false }
         },
         {
             "LogName": "Sen Dialogue - 6-10",
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
+            "Update": "OnLocationChange",
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.LateHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
             },
-            "When": { "Hearts:SenS": "{{Range: 6, 10}}" }
+            "When": { "Hearts:SenS": "{{Range: 6, 10}}", "HasFlag |contains=DitR_M_SenS_OverrideSeenToday": false }
         },
         {
             "LogName": "Sen Dialogue Overrides",

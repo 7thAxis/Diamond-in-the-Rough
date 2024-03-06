@@ -54,7 +54,7 @@
 //---------------------------- GENERAL FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Fixes.json, data/Festivals/Festival_Dialogue.json, data/Dialogue/Townie.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
+            "FromFile": "data/MiscData.json, data/Festivals/Festival_Dialogue.json, data/Dialogue/Townie.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
         },
 //---------------------------- LOCATION FILES ------------------------------------------//
         {

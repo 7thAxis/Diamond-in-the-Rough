@@ -1,6 +1,63 @@
 {
     "Changes": [
 
+        //Removes flags associated with daily repeatables
+        {
+            "LogName": "Bulk Daily Flag Remover", 
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+      
+                "{{ModID}}.TriggerActions.DitRDailyFlagRemovals": {
+                    "Id": "{{ModID}}.TriggerActions.DitRDailyFlagRemovals",
+                    "MarkActionApplied": false,
+                    "Trigger": "DayEnding",
+                    "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any\"
+                    \"PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidLavaSnailQuestToday\"
+                    ",
+
+                    "Actions": [
+                        "RemoveMail Current DitR_M_EveT_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_TraceV_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_ClyricT_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_PipoP_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
+                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
+                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday"
+                    ]
+                }
+            }
+        },
+
+    //Corrects NPC positions in NPC Map Locations
+    {
+        "Action": "EditData",
+        "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+        "Entries": {
+            "WaffleW": { "MarkerCropOffset": 15 },
+            "PipoP":   { "MarkerCropOffset": 15 },
+            "EveT":    { "MarkerCropOffset": 4 },
+            "TraceV":  { "MarkerCropOffset": 4 },
+            "SenS":    { "MarkerCropOffset": 5 }
+        },
+        "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
+    },
+
     //Migrates event seen data from Lurking in the Dark for 1.5.6
         {
             "LogName": "Sen Event Migration from 1.5.6",
@@ -114,57 +171,6 @@
                     "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.14H"]
                 }
             }
-        },
-        
-    //Removes flag that prevents NPCs from talking again on override days
-    
-        {
-            "LogName": "Overrides Seen Today Flag Removal", 
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-      
-                "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.1": {
-                    "Id": "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.1",
-                    "Trigger": "DayStarted",
-                    "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\" ",
-                    "Actions": [
-                        "RemoveMail Current DitR_M_EveT_OverrideSeenToday", "RemoveMail Current DitR_M_TraceV_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_ClyricT_OverrideSeenToday", "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday", "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday", "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_PipoP_OverrideSeenToday", "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
-                        "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal.1 false"
-                    ]
-                },
-                "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.2": {
-                    "Id": "{{ModID}}.TriggerActions.OverrideSeenToday.Removal.2",
-                    "Trigger": "DayStarted",
-                    "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"  \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\" ",
-                    "Actions": [
-                        "RemoveMail Current DitR_M_EveT_OverrideSeenToday", "RemoveMail Current DitR_M_TraceV_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_ClyricT_OverrideSeenToday", "RemoveMail Current DitR_M_SenS_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_SkrellS_OverrideSeenToday", "RemoveMail Current DitR_M_EbbS_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_DiamondS_OverrideSeenToday", "RemoveMail Current DitR_M_WaffleW_OverrideSeenToday",
-                        "RemoveMail Current DitR_M_PipoP_OverrideSeenToday", "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
-                        "MarkActionApplied Current {{ModID}}.TriggerActions.OverrideSeenToday.Removal.2 false"
-                    ]
-                }
-            }
-        },
-
-    //Corrects NPC positions in NPC Map Locations
-        {
-            "Action": "EditData",
-            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
-            "Entries": {
-                "WaffleW": { "MarkerCropOffset": 15 },
-                "PipoP":   { "MarkerCropOffset": 15 },
-                "EveT":    { "MarkerCropOffset": 4 },
-                "TraceV":  { "MarkerCropOffset": 4 },
-                "SenS":    { "MarkerCropOffset": 5 }
-            },
-            "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
         }
     ]
 }

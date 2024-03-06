@@ -41,23 +41,19 @@
             "Target": "Data/TriggerActions",
             "Entries": {
 
-                "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.1": {
+                "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRecieved": {
                     "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.1",
+                    "MarkActionApplied": false,
+                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRecieved",
                     "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05 @addDailyLuck",
-                    "Actions": [ 
-                         "AddMail Current DitR_M_TraceBarbieGirl",
-                         "MarkActionApplied Current {{ModID}}.TriggerActions.TraceBarbieGirlFlag.2 false"
-                         ]
+                    "Actions": [ "AddMail Current DitR_M_TraceBarbieGirl" ]
                 },
-                "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.2": {
+                "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRemoved": {
                     "Trigger": "DayEnding",
-                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirlFlag.2",
+                    "MarkActionApplied": false,
+                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRemoved",
                     "Condition": "PLAYER_HAS_MAIL Current DitR_M_TraceBarbieGirl Any",
-                    "Actions": [ 
-                        "RemoveMail Current DitR_M_TraceBarbieGirl",
-                         "MarkActionApplied Current {{ModID}}.TriggerActions.TraceBarbieGirlFlag.1 false"
-                         ]
+                    "Actions": [  "RemoveMail Current DitR_M_TraceBarbieGirl" ]
                 }
         }
     },
@@ -151,69 +147,27 @@
             "When": { "Hearts:TraceV": "{{Range: 8, 10}}" }
         },
     //Trace's coffee maker prior to giving coffee
-       /* {
+        {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 8, "Y": 23 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCoffeeMaker" } }
             ],
             "When": { "Hearts:TraceV": "{{Range: 0, 3}}" }
-        },*/
+        },
     //Trace's coffee maker gives you coffee
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "344" }, //Sets the card tile on counter
-                { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "TraceVCoffeeMaker" } }, //Places fake coffeemaker NPC
+                { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "CoffeMakerKun" } }, //Places fake coffeemaker NPC
                 { "Position": { "X": 7, "Y": 23 }, "Layer": "Buildings",
                     "SetProperties": { "Action": "MEEP_Letter {{i18n:Mail.TraceV.TraceCoffeeNote}}", "MEEP_Letter_Type": "3" } } //Loads letter data
             ],
-            //"When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
+            "When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
         },
-    //Removes coffee obtained flag at Day Ending
-        {
-            "LogName": "Interacted With Trace's Coffee Maker Today", 
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModID}}.TriggerActions.GotTraceCoffeeToday.1": {
-                    "Trigger": "DayEnding",
-                    "Id": "{{ModID}}.TriggerActions.GotTraceCoffeeToday.1",
-                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any",
-                    "Actions": [ 
-                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
-                        "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday.2 false"
-                     ]
-                },
-                "{{ModID}}.TriggerActions.GotTraceCoffeeToday.2": {
-                    "Trigger": "DayEnding",
-                    "Id": "{{ModID}}.TriggerActions.GotTraceCoffeeToday.2",
-                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any",
-                    "Actions": [ 
-                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
-                        "MarkActionApplied Current {{ModID}}.TriggerActions.GotTraceCoffeeToday.1 false"
-                     ]
-                }
-                     /*   {
-            "LogName": "Interacted With Trace's Coffee Maker Today", 
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModID}}.TriggerActions.DitRDailyFlagRemovals": {
-                    "Trigger": "DayEnding",
-                    "Id": "{{ModID}}.TriggerActions.DitRDailyFlagRemovals",
-                    "MarkActionApplied": false,
-                    "Condition": "ANY \"PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any\" \"PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidLavaSnailQuestToday\"",
-                    "Actions": [ 
-                        "RemoveMail Current DitR_M_GotTraceCoffeeToday",
-                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday"
-                     ]
-                }
-        }
-    },*/
-        }
-    },
+    
 //---------------------------- MAP STRINGS ------------------------------------------// 
         {
             "LogName": "Trace Map Strings",
