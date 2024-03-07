@@ -7,85 +7,85 @@
 			"Entries": {
 				"spring": "
 					0 EastScarp_Village 77 93/
-					610 77 93 pipo_sitleft/
-					1300 77 93 pipo_groom/
-					2000 77 94 pipo_sleep",
+					610 77 93 pipop_sitleft/
+					1300 77 93 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"rain":"
 					0 EastScarp_Village 77 93/
-					610 77 93 pipo_sitleft/
-					1300 77 93 pipo_groom/
-					2000 77 94 pipo_sleep",
+					610 77 93 pipop_sitleft/
+					1300 77 93 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Mon":"
 					0 EastScarp_Village 35 27/
-					610 35 27 pipo_sitleft/
+					610 35 27 pipop_sitleft/
 					800 8 42 1/
-					1000 20 79 pipo_groom/
-					1300 31 110 pipo_groom/
+					1000 20 79 pipop_groom/
+					1300 31 110 pipop_groom/
 					1500 47 75 3/
-					1700 80 80 pipo_sitleft/
-					1900 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					1700 80 80 pipop_sitleft/
+					1900 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Tue":"
 					0 Town 80 57/
-					610 80 57 pipo_sitleft/
+					610 80 57 pipop_sitleft/
 					800 66 63 3/
-					1000 77 68 pipo_sitleft/
-					1300 42 102 pipo_groom/
-					1500 EastScarp_Village 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					1000 77 68 pipop_sitleft/
+					1300 42 102 pipop_groom/
+					1500 EastScarp_Village 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 				"Wed":"
 					0 Town 30 56/
-					610 30 56 pipo_groom/
+					610 30 56 pipop_groom/
 					800 19 90 0/
-					1000 32 89 pipo_sitleft/
-					1300 47 71 pipo_sitleft/
-					1500 EastScarp_Village 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					1000 32 89 pipop_sitleft/
+					1300 47 71 pipop_sitleft/
+					1500 EastScarp_Village 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Thu":"
 					0 EastScarp_Village 24 62/
-					610 24 62 pipo_sitleft/
+					610 24 62 pipop_sitleft/
 					800 21 83 3/
-					1000 43 81 pipo_groom/
-					1300 53 68 pipo_sitleft/
-					1500 65 60 pipo_groom/
+					1000 43 81 pipop_groom/
+					1300 53 68 pipop_sitleft/
+					1500 65 60 pipop_groom/
 					1700 90 87 3/
-					1900 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					1900 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Fri":"
 					0 Town 49 33/
-					610 49 33 pipo_sitleft/
-					800 37 96 pipo_groom/
-					1000 Beach 34 4 pipo_groom/
-					1300 27 34 pipo_sitright/
-					1500 EastScarp_Village 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					610 49 33 pipop_sitleft/
+					800 37 96 pipop_groom/
+					1000 Beach 34 4 pipop_groom/
+					1300 27 34 pipop_sitright/
+					1500 EastScarp_Village 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Sat":"
 					0 EastScarp_Village 23 60/
-					610 23 60 pipo_sitleft/
+					610 23 60 pipop_sitleft/
 					800 28 46 0/
 					1000 19 29 0/
-					1300 16 12 pipo_groom/
-					1500 51 32 pipo_sitright/
-					1700 64 84 pipo_groom/
-					1900 77 94 pipo_groom/
-					2000 77 94 pipo_sleep",
+					1300 16 12 pipop_groom/
+					1500 51 32 pipop_sitright/
+					1700 64 84 pipop_groom/
+					1900 77 94 pipop_groom/
+					2000 77 94 pipop_sleep",
 
 				"Sun":"
 					0 EastScarp_Village 75 118/
-					610 75 118 pipo_sitleft/
-					800 71 91 pipo_groom/
+					610 75 118 pipop_sitleft/
+					800 71 91 pipop_groom/
 					1000 58 109 3/
-					1300 31 110 pipo_groom/
-					1500 43 81 pipo_sitright/
-					1700 79 80 pipo_sitright/
-					1900 77 94 pipo_groom/
-					2000 77 94 pipo_sleep"
+					1300 31 110 pipop_groom/
+					1500 43 81 pipop_sitright/
+					1700 79 80 pipop_sitright/
+					1900 77 94 pipop_groom/
+					2000 77 94 pipop_sleep"
 			}
 		},
         {
@@ -95,14 +95,14 @@
 			"Entries": {
 				"Sat":"
 					0 EastScarp_Village 23 60/
-					610 23 60 pipo_sitleft/
+					610 23 60 pipop_sitleft/
 					800 28 46 0/
 					1000 19 29 0/
-					1300 16 12 pipo_groom/
-					1500 51 32 pipo_sitright/
-					1700 39 109 pipo_groom/
-					2400 77 94 pipo_groom/
-					2500 77 94 pipo_sleep"
+					1300 16 12 pipop_groom/
+					1500 51 32 pipop_sitright/
+					1700 39 109 pipop_groom/
+					2400 77 94 pipop_groom/
+					2500 77 94 pipop_sleep"
 			},
 			"When": {
 				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,

@@ -9,6 +9,52 @@
                 0 {{ModID}}.Maps.Trace_House_Interior 13 7/
                 630 13 14 2",
             }
+		},
+        {
+			"LogName": "Trace Placeholder Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "{{WeekDay}}":"
+                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    610 15 5 tracev_lay/
+                    1200 EastScarp_Village 3 83 1/
+                    1400 35 98  1/
+                    1600 EastScarp_VillageInn 27 8 tracev_jam/
+                    1900 41 30 0/
+                    2100 {{ModID}}.Maps.Trace_House_Interior 7 21 tracev_cook/
+                    2300 16 6 2/
+                    2330 16 6 tracev_giggle/
+                    2340 16 6 2/
+                    2350 16 6 tracev_giggle/
+                    2400 16 6 2/
+                    2500 15 5 tracev_sleep
+                ",
+            },
+            "When": { "TraceScheduleRandomizer": 1 }
+		},
+        {
+			"LogName": "Trace Placeholder Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "{{WeekDay}}":"
+                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    610 15 5 tracev_lay/
+                    1200 7 21 0/
+                    1300 6 22 tracev_cook/
+                    1500 {{ModID}}.Maps.Jeremy_Room 11 13 2/
+                    1700 {{ModID}}.Maps.Trace_House_Interior 7 6 0/
+                    1900 5 5 0/
+                    2100 16 14 0/
+                    2330 16 6 tracev_giggle/
+                    2340 16 6 2/
+                    2350 16 6 tracev_giggle/
+                    2400 16 6 2/
+                    2500 15 5 tracev_sleep
+                ",
+            },
+            "When": { "TraceScheduleRandomizer": 2 } 
 		}
     ]
 }

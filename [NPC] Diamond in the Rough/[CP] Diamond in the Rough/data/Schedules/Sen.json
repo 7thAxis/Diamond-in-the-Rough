@@ -29,7 +29,7 @@
 					1200 28 37 0/
 					1300 25 37 0/
 					1400 29 39 1/
-					1500 EastScarp_Village 31 101 sen_wigglesit/
+					1500 EastScarp_Village 31 101 sens_wigglesit/
 					1900 BusStop -1 23 3",
 
 				"rain2": "
@@ -41,8 +41,8 @@
 					1100 52 64 0/
 					1200 19 90 0/
 					1300 13 87 0/
-					1400 43 77 sen_wigglesit/
-					1700 70 91 sen_wigglesit/
+					1400 43 77 sens_wigglesit/
+					1700 70 91 sens_wigglesit/
 					1900 BusStop -1 23 3"
 			},
 			"When": {
@@ -67,7 +67,7 @@
 					1200 28 37 0/
 					1300 25 37 0/
 					1400 29 39 1/
-					1500 EastScarp_Village 31 101 sen_wigglesit/
+					1500 EastScarp_Village 31 101 sens_wigglesit/
 					1900 BusStop -1 23 3",
 
 				"rain2": "
@@ -92,31 +92,31 @@
 			"Entries": {
 				"spring": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/
+					700 21 22 sens_read/
 					900 28 19 0/
-					1100 23 20 sen_crochet/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Orchard 2 15/
 					1900 EastScarp_OrchardHouse 13 19 0/
-					2100 13 19 sen_read/
-					2300 1 8 sen_wigglesit",
+					2100 13 19 sens_read/
+					2300 1 8 sens_wigglesit",
 
 				"prefestivals": "
 					0 EastScarp_DeepDark 28 19/
 					700 28 22/
-					800 26 17 sen_map/
-					900 23 20 sen_crochet/
+					800 26 17 sens_map/
+					900 23 20 sens_crochet/
 					1200 28 19 0/
 					1230 29 22/1300 19 24 3/
 					1330 28 19 0/
-					1400 28 19 sen_read/
+					1400 28 19 sens_read/
 					1500 28 19 0/
-					1600 21 22 sen_crochet/
+					1600 21 22 sens_crochet/
 					1700 28 19 0/
-					1800 21 22 sen_crochet/
+					1800 21 22 sens_crochet/
 					2000 25 17 0/
-					2300 21 22 sen_crochet",
+					2300 21 22 sens_crochet",
 
 				"winter_13": "
 				0 EastScarp_DeepDark 26 18/
@@ -152,61 +152,61 @@
 			"Entries": {
 				"Mon": "
 					0 Mine 13 8/
-					610 13 8 sen_read/
+					610 13 8 sens_read/
 					900 13 10 3/ 
-					1100 24 4 sen_read/
+					1100 24 4 sens_read/
 					1300 13 10 3/
-					1500 12 5 sen_map/
+					1500 12 5 sens_map/
 					1700 Mountain 79 30 3/
 					1800 93 34 1/
 					1900 31 21 0/
 					2100 45 20 1/
-					2300 67 21 sen_read",
+					2300 67 21 sens_read",
 
 				"Tue": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/900 28 19 0/
-					1100 23 20 sen_crochet/
+					700 21 22 sens_read/900 28 19 0/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Orchard 2 15/
 					1900 EastScarp_OrchardHouse 13 19 0/
-					2100 13 19 sen_read/
-					2300 1 8 sen_wigglesit",
+					2100 13 19 sens_read/
+					2300 1 8 sens_wigglesit",
 
 				"Wed": "
 					0 Town 102 15/
-					610 102 15 sen_read/
-					900 99 9 sen_read/
+					610 102 15 sens_read/
+					900 99 9 sens_read/
 					1100 98 4 3/
-					1300 98 4 sen_read/
-					1500 99 9 sen_map/
+					1300 98 4 sens_read/
+					1500 99 9 sens_map/
 					1700 97 81 0/
 					1900 109 91 3/
 					2100 55 85 1/
-					2300 37 96 sen_crochet",
+					2300 37 96 sens_crochet",
 
 				"Thu": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/
+					700 21 22 sens_read/
 					900 28 19 0/
-					1100 23 20 sen_crochet/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Village 46 20 3/
 					1800 38 14/
 					1900 37 10 1/
 					2000 64 6 0/
-					2100 54 40 sen_wigglesit/
-					2300 47 40 sen_wigglesit",
+					2100 54 40 sens_wigglesit/
+					2300 47 40 sens_wigglesit",
 
 				"Fri": "
 					0 Forest 99 100/
-					610 99 100 sen_crochet/
-					900 93 100 sen_read/
+					610 99 100 sens_crochet/
+					900 93 100 sens_read/
 					1100 116 90/
 					1300 104 74 3/
-					1500 104 73 sen_crochet/
+					1500 104 73 sens_crochet/
 					1700 33 96/
 					1900 58 87/
 					2100 38 61/
@@ -221,19 +221,19 @@
 					1400 8 21 0/
 					1500 30 17/
 					1700 31 19 0/
-					1900 16 16 sen_read/
+					1900 16 16 sens_read/
 					2100 4 27 1/
 					2300 24 22",
 
 				"Sun": "
-					0 EastScarp_OrchardHouse 1 8 sen_wigglesit/
+					0 EastScarp_OrchardHouse 1 8 sens_wigglesit/
 					900 13 19 0/
-					1100 12 21 sen_read/
-					1300 EastScarp_Orchard 35 4 sen_read/
-					1500 12 14 2 sen_read/
-					1900 EastScarp_Village 54 40 sen_wigglesit/
+					1100 12 21 sens_read/
+					1300 EastScarp_Orchard 35 4 sens_read/
+					1500 12 14 2 sens_read/
+					1900 EastScarp_Village 54 40 sens_wigglesit/
 					2100 39 76 0/
-					2300 25 103 sen_wigglesit/
+					2300 25 103 sens_wigglesit/
 					2430 24 62"
 			},
 			"When": {
@@ -249,85 +249,85 @@
 			"Entries": {
 				"Mon": "
 					0 Town 102 15/
-					610 102 15 sen_read/
-					900 99 9 sen_read/
+					610 102 15 sens_read/
+					900 99 9 sens_read/
 					1100 98 4 3/
-					1300 98 4 sen_read/
-					1500 99 9 sen_map/
+					1300 98 4 sens_read/
+					1500 99 9 sens_map/
 					1700 Beach 19 5/
 					1900 46 24/
-					2100 42 34 sen_wigglesit/
-					2300 52 6 sen_wigglesit",
+					2100 42 34 sens_wigglesit/
+					2300 52 6 sens_wigglesit",
 
 				"Tue": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/
+					700 21 22 sens_read/
 					900 28 19 0/
-					1100 23 20 sen_crochet/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Village 61 113/
 					1900 71 120/
-					2100 31 101 sen_wigglesit/
-					2300 21 83 2 sen_read",
+					2100 31 101 sens_wigglesit/
+					2300 21 83 2 sens_read",
 
 				"Wed": "
 					0 Town 41 9/
-					610 41 9 sen_read/
+					610 41 9 sens_read/
 					900 58 9 1/
-					1100 48 13 sen_crochet/
+					1100 48 13 sens_crochet/
 					1300 41 9 3/
-					1500 60 10 sen_crochet/
-					1700 63 15 sen_wigglesit/
-					1900 71 11 sen_wigglesit/
-					2100 78 93 sen_wigglesit/
-					2300 43 77 sen_wigglesit",
+					1500 60 10 sens_crochet/
+					1700 63 15 sens_wigglesit/
+					1900 71 11 sens_wigglesit/
+					2100 78 93 sens_wigglesit/
+					2300 43 77 sens_wigglesit",
 				
 				"Thu": "
 					0 EastScarp_OrchardHouse 1 8/
-					610 1 8 sen_wigglesit/
+					610 1 8 sens_wigglesit/
 					900 13 19 0/
-					1100 12 21 sen_read/
-					1300 EastScarp_Orchard 35 4 sen_read/
+					1100 12 21 sens_read/
+					1300 EastScarp_Orchard 35 4 sens_read/
 					1500 12 26 3/
-					1830 EastScarp_Village 54 40 sen_wigglesit/
+					1830 EastScarp_Village 54 40 sens_wigglesit/
 					1900 39 76 0/
-					2100 25 103 sen_wigglesit/
+					2100 25 103 sens_wigglesit/
 					2300 24 62",
 
 				"Fri": "
 					0 Forest 41 51/
-					610 41 51 sen_read/
+					610 41 51 sens_read/
 					900 45 55/
-					1100 55 50 sen_crochet/
+					1100 55 50 sens_crochet/
 					1300 56 40/
-					1500 79 8 sen_read/
+					1500 79 8 sens_read/
 					1700 65 12 0/
 					1900 42 19/
-					2100 41 10 sen_read/2300 34 25",
+					2100 41 10 sens_read/2300 34 25",
 
 				"Sat": "
 					0 Tunnel 23 7/
-					610 Tunnel 23 7 sen_read/
-					900 10 7 sen_crochet/
+					610 Tunnel 23 7 sens_read/
+					900 10 7 sens_crochet/
 					1100 17 8 0/
-					1300 37 9 sen_read/
+					1300 37 9 sens_read/
 					1500 7 9 3/
 					1700 20 11/
-					1900 10 7 sen_read/
+					1900 10 7 sens_read/
 					2100 23 7/2300 10 7",
 
 				"Sun": "
 					0 Town 102 15/
-					610 102 15 sen_read/
-					900 99 9 sen_read/
+					610 102 15 sens_read/
+					900 99 9 sens_read/
 					1100 98 4 3/
-					1300 98 4 sen_read/
-					1500 99 9 sen_map/
+					1300 98 4 sens_read/
+					1500 99 9 sens_map/
 					1700 Beach 19 5/
 					1900 46 24/
-					2100 42 34 sen_wigglesit/
-					2300 52 6 sen_wigglesit"
+					2100 42 34 sens_wigglesit/
+					2300 52 6 sens_wigglesit"
 			},
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
@@ -349,15 +349,15 @@
 					1100 52 64 0/
 					1200 19 90 0/
 					1300 13 87 0/
-					1400 43 77 sen_wigglesit/
-					1700 70 91 sen_wigglesit/
+					1400 43 77 sens_wigglesit/
+					1700 70 91 sens_wigglesit/
 					1900 27 23/
 					2100 20 62 3/
 					2300 35 79",
 
 					"rain2": "
 					0 EastScarp_DeepDark 26 19/
-					610 26 19 sen_read/
+					610 26 19 sens_read/
 					700 EastScarp_Village 49 21/
 					900 46 20 3/
 					1000 50 19 2/
@@ -368,7 +368,7 @@
 					1500 71 16 3/
 					1600 54 13 0/
 					1700 52 13 0/
-					1900 55 84 sen_wigglesit/
+					1900 55 84 sens_wigglesit/
 					2100 43 114/
 					2300 14 90",
 			},
@@ -385,60 +385,60 @@
 			"Entries": {
 				"Mon": "
 					0 Mine 13 8/
-					610 13 8 sen_read/
+					610 13 8 sens_read/
 					900 13 10 3/
-					1100 24 4 sen_read/
+					1100 24 4 sens_read/
 					1300 13 10 3/
-					1500 12 5 sen_map/
+					1500 12 5 sens_map/
 					1700 Custom_AdventurerSummit 13 20 3/
 					1900 17 28 3/2100 Mountain 65 14 2/
 					2300 42 15 1",
 
 				"Tue": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/900 28 19 0/
-					1100 23 20 sen_crochet/
+					700 21 22 sens_read/900 28 19 0/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Orchard 2 15/
 					1900 EastScarp_OrchardHouse 13 19 0/
-					2100 13 19 sen_read/
-					2300 1 8 sen_wigglesit",
+					2100 13 19 sens_read/
+					2300 1 8 sens_wigglesit",
 
 				"Wed": "
 					0 Town 99 30/
-					610 99 30 sen_read/
-					1100 100 19 sen_read/
-					1300 101 14 sen_crochet/
-					1500 98 4 sen_read/
-					1700 70 11 sen_wigglesit/
-					1900 63 15 sen_wigglesit/
+					610 99 30 sens_read/
+					1100 100 19 sens_read/
+					1300 101 14 sens_crochet/
+					1500 98 4 sens_read/
+					1700 70 11 sens_wigglesit/
+					1900 63 15 sens_wigglesit/
 					2100 39 14 2/
 					2300 26 23 2",
 
 				"Thu": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/
+					700 21 22 sens_read/
 					900 28 19 0/
-					1100 23 20 sen_crochet/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Village 46 20 3/
 					1800 38 14/
 					1900 37 10 1/
 					2000 64 6 0/
-					2100 54 40 sen_wigglesit/
-					2300 47 40 sen_wigglesit",
+					2100 54 40 sens_wigglesit/
+					2300 47 40 sens_wigglesit",
 
 				"Fri": "
 					0 Forest 99 100/
-					610 99 100 sen_read/
-					1100 116 90 sen_crochet/
-					1300 112 81 sen_read/
-					1500 94 64 sen_read/
+					610 99 100 sens_read/
+					1100 116 90 sens_crochet/
+					1300 112 81 sens_read/
+					1500 94 64 sens_read/
 					1700 80 30 2/
-					1900 77 7 sen_read/
-					2100 38 9 sen_wigglesit/
+					1900 77 7 sens_read/
+					2100 38 9 sens_wigglesit/
 					2300 34 25 2",
 
 				"Sat": "
@@ -450,20 +450,20 @@
 					1400 8 21 0/
 					1500 30 17/
 					1700 31 19 0/
-					1900 16 16 sen_read/
+					1900 16 16 sens_read/
 					2100 4 27 1/
 					2300 24 22",
 
 				"Sun": "
 					0 EastScarp_OrchardHouse 1 8
-					610 1 8 sen_wigglesit/
+					610 1 8 sens_wigglesit/
 					900 13 19 0/
-					1100 12 21 sen_read/
-					1300 EastScarp_Orchard 35 4 sen_read/
-					1500 12 14 2 sen_read/
-					1900 EastScarp_Village 54 40 sen_wigglesit/
+					1100 12 21 sens_read/
+					1300 EastScarp_Orchard 35 4 sens_read/
+					1500 12 14 2 sens_read/
+					1900 EastScarp_Village 54 40 sens_wigglesit/
 					2100 39 76 0/
-					2300 25 103 sen_wigglesit/
+					2300 25 103 sens_wigglesit/
 					2430 24 62"
 			},
 			"When": {
@@ -479,56 +479,56 @@
 			"Entries": {
 				"Mon": "
 					0 Town 51 10/
-					610 51 10 sen_read/
-					1100 58 9 sen_crochet/
+					610 51 10 sens_read/
+					1100 58 9 sens_crochet/
 					1300 67 4 2/
-					1500 58 9 sen_read/
+					1500 58 9 sens_read/
 					1700 67 4 2/
-					1900 70 11 sen_wigglesit/
+					1900 70 11 sens_wigglesit/
 					2100 Mountain 20 36 2/
 					2300 25 24 2", 
 
 				"Tue": "
 					0 EastScarp_DeepDark 25 17/
-					700 21 22 sen_read/
+					700 21 22 sens_read/
 					900 28 19 0/
-					1100 23 20 sen_crochet/
+					1100 23 20 sens_crochet/
 					1300 18 17 3/
-					1500 21 21 sen_wigglesit/
+					1500 21 21 sens_wigglesit/
 					1700 EastScarp_Village 61 113/
 					1900 71 120/
-					2100 31 101 sen_wigglesit/
-					2300 21 83 2 sen_read",
+					2100 31 101 sens_wigglesit/
+					2300 21 83 2 sens_read",
 
 				"Wed": "
 					0 Town 99 30/
-					610 99 30 sen_read/
-					1100 100 19 sen_read/
-					1300 101 14 sen_crochet/
-					1500 98 4 sen_read/
+					610 99 30 sens_read/
+					1100 100 19 sens_read/
+					1300 101 14 sens_crochet/
+					1500 98 4 sens_read/
 					1700 89 50 0/
 					1900 90 82 0/
 					2100 55 85 1/
-					2300 43 77 sen_wigglesit",
+					2300 43 77 sens_wigglesit",
 
 				"Thu": "
 					0 EastScarp_OrchardHouse 1 8/
-					610 1 8 sen_wigglesit/
+					610 1 8 sens_wigglesit/
 					900 13 19 0/
-					1100 12 21 sen_read/
-					1300 EastScarp_Orchard 35 4 sen_read/
+					1100 12 21 sens_read/
+					1300 EastScarp_Orchard 35 4 sens_read/
 					1500 12 26 3/
-					1830 EastScarp_Village 54 40 sen_wigglesit/
+					1830 EastScarp_Village 54 40 sens_wigglesit/
 					1900 39 76 0/
-					2100 25 103 sen_wigglesit/2300 24 62",
+					2100 25 103 sens_wigglesit/2300 24 62",
 
 				"Fri": "
 					0 Mine 13 8/
-					610 13 8 sen_read/
+					610 13 8 sens_read/
 					900 13 10 3/
-					1100 24 4 sen_read/
+					1100 24 4 sens_read/
 					1300 13 10 3/
-					1500 12 5 sen_map/
+					1500 12 5 sens_map/
 					1700 Custom_AdventurerSummit 13 20 3/
 					1900 17 28 3/
 					2100 Mountain 65 14 2/
@@ -536,24 +536,24 @@
 
 				"Sat": "
 					0 Forest 99 100/
-					610 99 100 sen_read/
-					1100 116 90 sen_crochet/
-					1300 112 81 sen_read/
-					1500 94 64 sen_read/
+					610 99 100 sens_read/
+					1100 116 90 sens_crochet/
+					1300 112 81 sens_read/
+					1500 94 64 sens_read/
 					1700 80 30 2/
-					1900 77 7 sen_read/
-					2100 38 9 sen_wigglesit/
+					1900 77 7 sens_read/
+					2100 38 9 sens_wigglesit/
 					2300 34 25 2",
 
 				"Sun": "
 					0 Tunnel 23 7/
-					610 Tunnel 23 7 sen_read/
-					900 10 7 sen_crochet/
+					610 Tunnel 23 7 sens_read/
+					900 10 7 sens_crochet/
 					1100 17 8 0/
-					1300 37 9 sen_read/
+					1300 37 9 sens_read/
 					1500 7 9 3/
 					1700 20 11/
-					1900 10 7 sen_read/
+					1900 10 7 sens_read/
 					2100 23 7/
 					2300 10 7"
 			},
@@ -576,12 +576,12 @@
 					1500 28 84 3/
 					1700 6 89 3/
 					1900 52 64 0/
-					2100 43 77 sen_wigglesit/
+					2100 43 77 sens_wigglesit/
 					2300 24 97 2", 
 
 				"rain2": "
 					0 EastScarp_DeepDark 26 19/
-					610 26 19 sen_read/
+					610 26 19 sens_read/
 					700 EastScarp_Village 49 21/
 					900 46 20 3/
 					1000 50 19 2/
@@ -592,7 +592,7 @@
 					1500 71 16 3/
 					1600 54 13 0/
 					1700 52 13 0/
-					1900 55 84 sen_wigglesit/
+					1900 55 84 sens_wigglesit/
 					2100 43 114/
 					2300 14 90",
 			},

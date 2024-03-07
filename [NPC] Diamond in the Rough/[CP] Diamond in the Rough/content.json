@@ -121,6 +121,11 @@ CREDITS
             "Name": "WeekDay",
             "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
         },
+        //SCHEDULE RANDOMIZERS
+        {
+            "Name": "TraceScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 2}}}}"
+        },
         {
             "Name": "BasicRandomizer", 
             "Value": "{{Random:{{Range: 1, 2}}}}"

@@ -436,6 +436,9 @@
 "Core.EveT.Winter.Day.27": "Oh my gosh I am SO excited for the Ember of Resolutions tomorrow.$h#$b#The giant bonfire... I wish I could just grab a stick and light fire to the whole village!$h#$b#...What do you mean that's illegal and arson?$s", // Day before Ember
 "Core.EveT.Winter.Day.28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h",
 
+//Locations
+"Core.EveT.Locations.Bed": "%Better be quiet or you might wake Eve up.#$b#%The repercussions would be disastrous.",
+
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
 "Core.EveT.Slingshot.2": "Ouch...! Dude, cut that the hell out.$a",
@@ -1225,6 +1228,10 @@
 "Core.TraceV.Season.winter.3": "Eh? Why am I wearing flip-flops in the winter?#$b#Pfff.#$b#Pshshs.#$b#Pfpfpfft.#$b#Why aren't YOU wearing flip-flops in the winter?",
 "Core.TraceV.Season.winter.4": "I have a hard time keeping my chin up during the winter.#$b#Somethin' about the bare trees and dull colors gets me down.#$e#But hey, at least it won't last too long.#$b#Spring will be here before I know it.",
 "Core.TraceV.Season.winter.5": "",
+
+//Locations
+"Core.TraceV.Locations.Bed": "%Trace appears to be be napping.#$b#%Waking them up would be quite the feat, so don't bother trying.",
+"Core.TraceV.Locations.InnSunflower": "%Trace is observing the sunflower.#$b#...$s",
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",

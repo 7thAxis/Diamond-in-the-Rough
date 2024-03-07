@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "Dialogue - 0-5",
+            "LogName": "TraceDialogue - 0-5",
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
@@ -9,13 +9,23 @@
             }
         },
         {
-            "LogName": "Dialogue - 6-10",
+            "LogName": "Trace Dialogue - 6-10",
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.TraceV.LateHeart.{{Random:{{Range: 1, 9}}}}}}"
             },
             "When": { "Hearts:TraceV": "{{Range: 6, 10}}" }
+        },
+        {
+            "LogName": "Trace General Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/TraceV",
+            "Entries": 	{ 
+                //Location
+                "{{ModID}}.Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Bed}}",
+                "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.InnSunflower}}"
+            }
         }
         ]
 }

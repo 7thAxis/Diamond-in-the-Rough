@@ -26,6 +26,10 @@
         "Action": "EditData",
         "Target": "Characters/Dialogue/EveT",
         "Entries":{
+
+        //Locations
+        "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Bed}}",
+
         //Specific Days
         "spring_1": "{{i18n:Core.EveT.Spring.Day.1}}",
         "spring_12": "{{i18n:Core.EveT.Spring.Day.12}}",

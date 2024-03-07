@@ -47,7 +47,6 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "WaffleW": "{{i18n:Gifts.WaffleW.Love}}/-14 103 105 119 126 127 169 223 306 307 308 308 579 580 581 582 583 584 585 769 789 807 881/{{i18n:Gifts.WaffleW.Like}}/food_sweet -20 305/{{i18n:Gifts.WaffleW.Dislike}}/-6 -4/{{i18n:Gifts.WaffleW.Hate}}/220 795 768/{{i18n:Gifts.WaffleW.Neutral}}/192/",
                 "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
             }
         },
@@ -74,10 +73,10 @@
             "Action": "EditData",
             "Target": "Data/animationdescriptions",
             "Entries": {
-                "pipo_sleep": "23/16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17/23",
-                "pipo_sitleft": "23/23 23 23 23 23 23 23 24 24 24 24 24 24 24/23",
-                "pipo_sitright": "18/18 18 18 18 18 18 18 19 19 19 19 19 19 19/23",
-                "pipo_groom": "18/18 18 19 19 20 20 21 21 22 22 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18"
+                "pipop_sleep": "23/16 16 16 16 16 16 16 16 16 16 16 16 16 17 17 17 17 17 17/23",
+                "pipop_sitleft": "23/23 23 23 23 23 23 23 24 24 24 24 24 24 24/23",
+                "pipop_sitright": "18/18 18 18 18 18 18 18 19 19 19 19 19 19 19/23",
+                "pipop_groom": "18/18 18 19 19 20 20 21 21 22 22 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/18"
     
             }
         }

@@ -9,89 +9,89 @@
 
 				"rain":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					1100 EastScarp_VillageInn 27 27 waffle_lay/
-					1400 23 12 waffle_sitright/
-					1600 EastScarp_Village 24 62 waffle_sitleft/
-					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					1100 EastScarp_VillageInn 27 27 wafflew_lay/
+					1400 23 12 wafflew_sitright/
+					1600 EastScarp_Village 24 62 wafflew_sitleft/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep",
 
 				"Mon":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/700 6 4 waffle_sitleft/
-					800 EastScarp_Village 76 99 waffle_sitright/
-					1000 61 112 waffle_sitright/
-					1200 79 79 waffle_sitright/
-					1400 23 62 waffle_lay/
-					1600 26 104 waffle_sitleft/
-					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2000 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 76 99 wafflew_sitright/
+					1000 61 112 wafflew_sitright/
+					1200 79 79 wafflew_sitright/
+					1400 23 62 wafflew_lay/
+					1600 26 104 wafflew_sitleft/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2000 7 4 wafflew_sleep",
 
 				"Tue":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 EastScarp_Village 79 79 waffle_lay/
-					1100 ArchaeologyHouse 16 5 waffle_lay/
-					1500 Town 77 84 waffle_sitleft/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 79 79 wafflew_lay/
+					1100 ArchaeologyHouse 16 5 wafflew_lay/
+					1500 Town 77 84 wafflew_sitleft/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep",
 
 				"Wed":"
 					0 Forest 33 25/
-					610 33 25 waffle_sitright/
-					800 67 50 waffle_sitright/
-					1000 AnimalShop 15 17 waffle_lay/
-					1300 Town 25 98 waffle_lay/
-					1500 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep",
+					610 33 25 wafflew_sitright/
+					800 67 50 wafflew_sitright/
+					1000 AnimalShop 15 17 wafflew_lay/
+					1300 Town 25 98 wafflew_lay/
+					1500 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep",
 
 				"Thu":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 Town 74 38 waffle_lay/
-					1400 Town 70 12 waffle_sitright/
-					1600 Mountain 42 14 waffle_sitright/
-					1800 61 11 waffle_sitleft/
-					2000 Mine 15 10 waffle_sitright",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 Town 74 38 wafflew_lay/
+					1400 Town 70 12 wafflew_sitright/
+					1600 Mountain 42 14 wafflew_sitright/
+					1800 61 11 wafflew_sitleft/
+					2000 Mine 15 10 wafflew_sitright",
 
 				"Fri":"
 					0 Mine 18 4/
-					610 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					1300 7 4 waffle_sleep",
+					610 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					1300 7 4 wafflew_sleep",
 
 				"Sat":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 EastScarp_Village 32 100 waffle_sitleft/
-					1100 Blacksmith 5 15 waffle_sitleft/
-					1500 Town 85 103 waffle_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 32 100 wafflew_sitleft/
+					1100 Blacksmith 5 15 wafflew_sitleft/
+					1500 Town 85 103 wafflew_lay/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep",
 
 				"Sun":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					900 SeedShop 13 23 waffle_sitleft/
-					1400 2 19 waffle_sitright/
-					1500 Town 79 58 waffle_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					900 SeedShop 13 23 wafflew_sitleft/
+					1400 2 19 wafflew_sitright/
+					1500 Town 79 58 wafflew_lay/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep",
 
 				"winter_15":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 EastScarp_Village 32 100 waffle_sitleft/
-					1100 Town 87 103 waffle_sitleft/
-					1500 Beach 42 5 waffle_sitleft/
-					1700 11 26 waffle_sitright/
-					1900 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2200 7 4 waffle_sleep",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 32 100 wafflew_sitleft/
+					1100 Town 87 103 wafflew_sitleft/
+					1500 Beach 42 5 wafflew_sitleft/
+					1700 11 26 wafflew_sitright/
+					1900 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2200 7 4 wafflew_sleep",
 
 				"winter_16":"GOTO winter_15",
 				"winter_17":"GOTO winter_15"
@@ -104,23 +104,23 @@
 			"Entries": {
 				"Thu":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 Town 74 38 waffle_lay/
-					1400 Town 69 12 waffle_sitright/
-					1600 Mountain 42 16 waffle_sitright/
-					1800 65 14 waffle_sitleft/
-					2000 Mine 15 10 waffle_sitright",
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 Town 74 38 wafflew_lay/
+					1400 Town 69 12 wafflew_sitright/
+					1600 Mountain 42 16 wafflew_sitright/
+					1800 65 14 wafflew_sitleft/
+					2000 Mine 15 10 wafflew_sitright",
 
 				"Sun":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					900 SeedShop 16 20 waffle_sitleft/
-					1400 6 19 waffle_sitleft/
-					1500 Town 99 61 waffle_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2100 7 4 waffle_sleep"
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					900 SeedShop 16 20 wafflew_sitleft/
+					1400 6 19 wafflew_sitleft/
+					1500 Town 99 61 wafflew_lay/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep"
 			},
 			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
 		},
@@ -131,14 +131,14 @@
 			"Entries": {
 				"Sat":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 waffle_lay/
-					700 6 4 waffle_sitleft/
-					800 EastScarp_Village 32 100 waffle_sitleft/
-					1100 Blacksmith 5 15 waffle_sitleft/
-					1400 Town 85 103 waffle_lay/
-					1530 EastScarp_Village 35 108 waffle_sitright/
-					2300 {{ModID}}.Maps.Eve_House_Interior 6 4 waffle_sitleft/
-					2500 7 4 waffle_sleep"
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 32 100 wafflew_sitleft/
+					1100 Blacksmith 5 15 wafflew_sitleft/
+					1400 Town 85 103 wafflew_lay/
+					1530 EastScarp_Village 35 108 wafflew_sitright/
+					2300 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2500 7 4 wafflew_sleep"
 			},
 			"When": {
 				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,

@@ -78,11 +78,11 @@
             "Action": "EditData",
             "Target": "Data/animationdescriptions",
             "Entries": {
-                "eve_sleep": "16/16/16",
-                "eve_lay": "16/16/16",
-                "eve_sit": "19/19/19",
-                "eve_kickfeet": "17/17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18/18",
-                "eve_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
+                "evet_sleep": "16/16/16",
+                "evet_lay": "16/16/16",
+                "evet_sit": "19/19/19",
+                "evet_kickfeet": "17/17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18/18",
+                "evet_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
             }
         }
     ]
