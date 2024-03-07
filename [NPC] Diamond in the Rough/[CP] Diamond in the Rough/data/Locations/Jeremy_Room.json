@@ -47,6 +47,7 @@
 
 //SNAIL PATCHES
     //FLAGS FALSE
+    //Weird duped tiles are a workaround for animation breakage if I were to put the snails directly on the building layer
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
@@ -54,10 +55,13 @@
 
                 //Single snails around map
                 { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings2", "Remove": true },
 
                 //Tilted snails
                 { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings2", "Remove": true },
 
                 //Sign snail
                 { "Position": { "X": 5, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
@@ -66,6 +70,8 @@
                 //Snail clusters
                 { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 15, "Y": 8 }, "Layer": "Front", "Remove": true },
                 { "Position": { "X": 16, "Y": 8 }, "Layer": "Front", "Remove": true }
             ],
@@ -78,10 +84,13 @@
 
                 //Single snails around map
                 { "Position": { "X": 9, "Y": 13 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 9, "Y": 13 }, "Layer": "Buildings2", "Remove": true },
 
                 //Snail clusters
                 { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 2, "Y": 7 }, "Layer": "Front", "Remove": true },
                 { "Position": { "X": 3, "Y": 7 }, "Layer": "Front", "Remove": true },  
 
@@ -91,7 +100,9 @@
 
                 //Water snails
                 { "Position": { "X": 7, "Y": 15 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings", "Remove": true }
+                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 7, "Y": 15 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings2", "Remove": true }
 
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase2": false }
@@ -104,14 +115,19 @@
                 //Water snails
                 { "Position": { "X": 15, "Y": 16 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 15, "Y": 17 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 15, "Y": 16 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 15, "Y": 17 }, "Layer": "Buildings2", "Remove": true },
 
                 //Tilted snails
                 { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 19, "Y": 8 }, "Layer": "Front", "Remove": true },
 
                 //Snail clusters
                 { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 3, "Y": 13 }, "Layer": "Front", "Remove": true },
                 { "Position": { "X": 4, "Y": 13 }, "Layer": "Front", "Remove": true },  
 
@@ -135,10 +151,14 @@
                 //OTP snails
                 { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
 
                 //Single snails around map
                 { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "Remove": true }
+                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings2", "Remove": true }
 
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase4": false }
@@ -150,6 +170,7 @@
 
                 //Single snails around map
                 { "Position": { "X": 19, "Y": 15 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 19, "Y": 15 }, "Layer": "Buildings2", "Remove": true },
 
                 //Bush snails
                 { "Position": { "X": 18, "Y": 3 }, "Layer": "Buildings3", "Remove": true },
@@ -157,6 +178,8 @@
                 //Snail Clusters
                 { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
+                { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 18, "Y": 13 }, "Layer": "Front", "Remove": true },
                 { "Position": { "X": 19, "Y": 13 }, "Layer": "Front", "Remove": true }
 
@@ -169,7 +192,6 @@
             "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
             "MapTiles": [
 
-                //Single snails around map
                 { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailLemur" } },
                 { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailMads" } },
                 { "Position": { "X": 6, "Y": 5 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailDodo" } },
@@ -215,7 +237,7 @@
 
                 { "Position": { "X": 13, "Y": 10 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailBell" } },
                 { "Position": { "X": 15, "Y": 6 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailDesty" } },
-                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailBell" } },
+                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailEnder" } },
                 { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailCove" } },
                 { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailClown" } },
                 { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailSaurianne" } }
