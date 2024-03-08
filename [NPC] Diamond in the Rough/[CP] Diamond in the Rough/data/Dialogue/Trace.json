@@ -23,8 +23,17 @@
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
                 //Location
-                "{{ModID}}.Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Bed}}",
-                "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.InnSunflower}}"
+                "{{ModID}}.Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Home.Bed}}",
+                "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.Inn.Sunflower}}",
+                "EastScarp_DeepMountains_69_31": "{{i18n:Core.TraceV.Locations.LostInMountains.Pillar}}",
+                "EastScarp_DeepMountains_26_5": "{{i18n:Core.TraceV.Locations.LostInMountains.CliffTop}}",
+                "EastScarp_DeepMountains_51_45": "{{i18n:Core.TraceV.Locations.LostInMountains.GoatPond}}",
+                "EastScarp_DeepMountains_32_39": "{{i18n:Core.TraceV.Locations.LostInMountains.GoatOutlook}}",
+                "EastScarp_DeepMountains_66_2": "{{i18n:Core.TraceV.Locations.LostInMountains.LoopAround}}",
+                "EastScarp_DeepMountains_10_17": "{{i18n:Core.TraceV.Locations.LostInMountains.HectorTower.{{HasMod: |contains=DN.SnS.CP}}}}",
+                "EastScarp_DeepMountains_80_34": "{{i18n:Core.TraceV.Locations.LostInMountains.EvynSign}}",
+                "EastScarp_DeepMountains_107_15": "{{i18n:Core.TraceV.Locations.LostInMountains.Skull}}",
+                "EastScarp_DeepMountains_63_59": "{{i18n:Core.TraceV.Locations.LostInMountains.Freedom}}"
             }
         }
         ]

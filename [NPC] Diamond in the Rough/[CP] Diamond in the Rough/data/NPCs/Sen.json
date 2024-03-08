@@ -182,7 +182,8 @@
                 "IsOutdoors": "true",
                 "Weather": "Sun, Wind, Snow",
                 "Time": "{{Range: 1700, 1930}}",
-                "Query: '{{Season}}' = 'winter' AND {{Day}} IN (15, 16, 17)": false
+                "TodaysDate: |contains=winter 15, winter 16, winter 17": false
+                //"Query: '{{Season}}' = 'winter' AND {{Day}} IN (15, 16, 17)": false
             }
         },
         {

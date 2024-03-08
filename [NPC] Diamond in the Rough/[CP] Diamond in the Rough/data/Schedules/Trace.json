@@ -1,5 +1,16 @@
+// 0 up, 1 right, 2 down, 3 left - face direction
 {
     "Changes": [
+        /*{
+			"LogName": "Trace Placeholder Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "spring":"
+
+                ",
+            }
+		},*/
         {
 			"LogName": "Trace Placeholder Schedule",
 			"Action": "EditData",
@@ -11,7 +22,7 @@
             }
 		},
         {
-			"LogName": "Trace Placeholder Schedule",
+			"LogName": "Trace Visit Inn Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/TraceV",
 			"Entries": {
@@ -34,7 +45,7 @@
             "When": { "TraceScheduleRandomizer": 1 }
 		},
         {
-			"LogName": "Trace Placeholder Schedule",
+			"LogName": "Trace Home All Day Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/TraceV",
 			"Entries": {
@@ -55,8 +66,73 @@
                 ",
             },
             "When": { "TraceScheduleRandomizer": 2 } 
+		},
+        {
+			"LogName": "Trace Gets Fecking Lost In The Deep Mountains Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "{{WeekDay}}":"
+                    0 EastScarp_DeepMountains 63 3/
+                    610 69 31 1/
+                    700 26 5 2/
+                    900 51 45 2/
+                    1000 32 39 1/
+                    1200 66 2 0/
+                    1400 10 17 tracev_jam/
+                    1600 80 34 1/
+                    1900 107 15 0/
+                    2000 63 59 tracev_giggle/
+                    2200 {{ModID}}.Maps.Trace_House_Interior 15 5 tracev_sleep
+                ",
+            },
+            "When": { "TraceScheduleRandomizer": 3 } 
+		},
+        {
+			"LogName": "Trace Wanders the Scarp Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "{{WeekDay}}":"
+                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    610 15 5 tracev_lay/
+                    800 7 21 0/
+                    900 6 22 tracev_cook/
+                    1000 EastScarp_Village 31 64 tracev_sit/
+                    1300 43 129 3/
+                    1500 79 78 tracev_sit/
+                    1700 30 41 tracev_sit/
+                    1900 {{ModID}}.Maps.Trace_House_Interior 7 21 tracev_cook/
+                    2200 7 6 0/
+                    2300 10 13 tracev_sit/
+                    2500 15 5 tracev_sleep
+                ",
+            },
+            "When": { "TraceScheduleRandomizer": 4 } 
+		},
+        {
+			"LogName": "Trace Does Art In Town and Mountain Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/TraceV",
+			"Entries": {
+                "{{WeekDay}}":"
+                    0 Town 43 77/
+                    610 43 77 tracev_sit/
+                    800 46 32 tracev_art/
+                    1100 Mountain 59 10 tracev_art/
+                    1600 {{ModID}}.Maps.Trace_House_Interior 1 7 0/
+                    2100 {{ModID}}.Maps.Jeremy_Room 17 7 0/
+                    2200 11 13 2/
+                    2300 {{ModID}}.Maps.Trace_House_Interior 16 6/
+                    2330 16 6 tracev_giggle/
+                    2340 16 6 2/
+                    2350 16 6 tracev_giggle/
+                    2400 16 6 2/
+                    2500 15 5 tracev_sleep
+                ",
+            },
+            "When": { "TraceScheduleRandomizer": 5 } 
 		}
     ]
 }
 
-// 0 up, 1 right, 2 down, 3 left - face direction

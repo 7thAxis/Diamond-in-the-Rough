@@ -138,21 +138,21 @@
 "Rand.SenS.Book.People.9": "Dobson",
 
 //Authors
-"Rand.SenS.Book.Author.1": "It's by that Elliot guy",
-"Rand.SenS.Book.Author.2": "It's by M. Jasper",
-"Rand.SenS.Book.Author.3": "It's by Clyric Tourmaline",
-"Rand.SenS.Book.Author.4": "It's by M. Rasmodius",
-"Rand.SenS.Book.Author.5": "It's by Two-Time Award Winning Author, Rodney O'Brien",
-"Rand.SenS.Book.Author.6": "It's by Dusty the Dog",
-"Rand.SenS.Book.Author.7": "It's by Dobson Buss",
-"Rand.SenS.Book.Author.8": "It's by the Joja Corporation",
+"Rand.SenS.Book.Author.1": "that Elliot guy",
+"Rand.SenS.Book.Author.2": "M. Jasper",
+"Rand.SenS.Book.Author.3": "Clyric Tourmaline",
+"Rand.SenS.Book.Author.4": "M. Rasmodius",
+"Rand.SenS.Book.Author.5": "Two-Time Award Winning Author, Rodney O'Brien",
+"Rand.SenS.Book.Author.6": "Dusty the Dog",
+"Rand.SenS.Book.Author.7": "Dobson Buss",
+"Rand.SenS.Book.Author.8": "the Joja Corporation",
 
 //Authors 2
-"Rand.SenS.Book.Author2.1": "The author, Dest T.",
-"Rand.SenS.Book.Author2.2": "The author, Ark N.",
-"Rand.SenS.Book.Author2.3": "The author, L. Kat",
-"Rand.SenS.Book.Author2.4": "The author, PS. Child",
-"Rand.SenS.Book.Author2.5": "The author, F. Shifter",
+"Rand.SenS.Book.Author2.1": "Dest T.",
+"Rand.SenS.Book.Author2.2": "T. Nova",
+"Rand.SenS.Book.Author2.3": "L. Kat",
+"Rand.SenS.Book.Author2.4": "PS. Child",
+"Rand.SenS.Book.Author2.5": "F. Shifter",
 
 //Crochet 
 "Rand.SenS.CrocItem.1": "a scarf",
@@ -437,7 +437,7 @@
 "Core.EveT.Winter.Day.28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h",
 
 //Locations
-"Core.EveT.Locations.Bed": "%Better be quiet or you might wake Eve up.#$b#%The repercussions would be disastrous.",
+"Core.EveT.Locations.Home.Bed": "%Better be quiet or you might wake Eve up.#$b#%The repercussions would be disastrous.",
 
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
@@ -672,7 +672,7 @@
 "Core.SenS.EarlyHeart.41": "%revealtasteSenS767 You want to know what my least favorite snack from the mines is?#$b#Bat wings.$a#$e#They're absolutely vile and have no substance whatsoever.$a",
 "Core.SenS.EarlyHeart.42": "I've noticed there's a dwarf living in the mines.$a#$b#I don't particularly care for their kind, but I won't alert my people.#$e#There's no need to incite such violence.$s#$b#The Elemental Wars are long over.",
 "Core.SenS.EarlyHeart.43": "E-Eeekk!!$u#$b#Oh- Sorry, @. Someone almost spotted me earlier and I'm still a bit jumpy.$s#$e#I'm afraid of what will happen if someone finds out about me.$s#$b#You wouldn't tell anyone about me, right @?$s",
-"Core.SenS.EarlyHeart.44": "I picked a book out of the library trash today.$h#$b#It's called {{Subject}} {{Descriptor}}. {{Author}}.#$e#{{ClosingEH44}}",
+"Core.SenS.EarlyHeart.44": "I picked a book out of the library trash today.$h#$b#It's called {{Subject}} {{Descriptor}}. It's by {{Author}}.#$e#{{ClosingEH44}}",
     "Core.SenS.EH.44.1": "I'm... a bit torn on the writing style.$8",
     "Core.SenS.EH.44.2": "It's the best thing I've ever read!$7",
     "Core.SenS.EH.44.3": "I think you should read this.$6",
@@ -682,7 +682,7 @@
     "Core.SenS.EH.46.2": "I saw a bird with a red beak yesterday evening. It was pecking at a wooden log.$h#$b#I wonder what kind of bird it was?$h",
     "Core.SenS.EH.46.3": "I saw a gigantic furry monster in the woods last night! It had beady eyes and wouldn't stop rambling about maple syrup!$u",
 "Core.SenS.EarlyHeart.47": "Ah, @! I have a question for you.$h#$b#Do you know what this is?#$b#$y '%Sen shows you a crude drawing of {{Image}}._Tell him what it is._Oh wow, really? That's amazing! I'll need to read up more on this later.$h_I have no idea._Oh daaarn! Maybe I can sneak into the library after hours to find some more information.$s_Lie to him._Oh wow, really? Gosh @, you know so much about the surface world.$7'",
-"Core.SenS.EarlyHeart.48": "Hello @! I've been reading a new book recently.$h#$b#It's called {{Subject}} {{Descriptor2}}. {{Author}}.#$e#{{ClosingEH48}}",
+"Core.SenS.EarlyHeart.48": "Hello @! I've been reading a new book recently.$h#$b#It's called {{Subject}} {{Descriptor2}}.It's by {{Author}}.#$e#{{ClosingEH48}}",
     "Core.SenS.EH.48.1": "I don't know if I really care for it.$8",
     "Core.SenS.EH.48.2": "I'm really enjoying it. I don't know why anyone would have thrown it away!$7",
     "Core.SenS.EH.48.3": "The writing is a bit... strange.$6",
@@ -776,7 +776,7 @@
     "Core.SenS.SenKillFollowup": "$p 1077032# The fact that you never answered me about harming my people still bothers me. I'm sure you have your reasons, but...$s|Together, I believe that we're going to build a brighter future for both our kinds. Don't you think so too, @?$h",
 "Core.SenS.LateHeart.45": "Oh, @! Quickly, what time is it?$u#$b#$y 'It's %time._Tell him the time._I'm late! I'm late! For a very important date!$u_It's time for you to get a watch!_...Actually, I should fix up the one I found in the trash recently. Seriously though, what time is it?$8'",
 "Core.SenS.LateHeart.46": "The spikes on my head, the spikes on my head.~ What might they be?~$12#$b#Go on, take a guess, @!$h#$e#If you guessed {{Spikes}}, you might be right...$h#$b#...maybe.$12",
-"Core.SenS.LateHeart.47": "I found an old book laying around in the abandoned orchard.#$b#Something called {{Subject}} {{Descriptor}}. {{Author2}}, sure knows a lot about the topic!$h",
+"Core.SenS.LateHeart.47": "I found an old book laying around in the abandoned orchard.#$b#Something called {{Subject}} {{Descriptor}}. The author, {{Author2}}, sure knows a lot about the topic!$h",
 "Core.SenS.LateHeart.48": "You know, sometimes I wonder...#$b#$p 1077012#Why did you once tell me that you didn't like me? It's been bothering me for some time.$6|How did two people of differing species manage to become such great friends?$h",
 "Core.SenS.LateHeart.49": "I think I'll make a big dinner tonight... maybe {{FoodStyle}} {{Food}}?$h#$b#You should drop by and have a bite to eat, if you'll be up around 4AM.$h#$e#Somehow, I doubt you will be.$8",
 "Core.SenS.LateHeart.50": "I went around rummaging in people's trashcans last night.$h#$b#I found {{Object}}.$7#$e#You should come trash picking with me sometime. It's a lot of fun$12#$b#...If you can handle the stench.$12",
@@ -1229,9 +1229,26 @@
 "Core.TraceV.Season.winter.4": "I have a hard time keeping my chin up during the winter.#$b#Somethin' about the bare trees and dull colors gets me down.#$e#But hey, at least it won't last too long.#$b#Spring will be here before I know it.",
 "Core.TraceV.Season.winter.5": "",
 
-//Locations
-"Core.TraceV.Locations.Bed": "%Trace appears to be be napping.#$b#%Waking them up would be quite the feat, so don't bother trying.",
-"Core.TraceV.Locations.InnSunflower": "%Trace is observing the sunflower.#$b#...$s",
+    //----Locations----//
+
+//Home
+"Core.TraceV.Locations.Home.Bed": "%Trace appears to be be napping.#$b#%Waking them up would be quite the feat, so don't bother trying.",
+
+//Inn
+"Core.TraceV.Locations.Inn.Sunflower": "%Trace is observing the sunflower.#$b#...$s",
+
+//Lost In Mountains
+"Core.TraceV.Locations.LostInMountains.Pillar": "Uhg... I seem to have gone and gotten myself lost again.$a#$b#You know how to get the heck outta here, @?$6",
+"Core.TraceV.Locations.LostInMountains.CliffTop": "Woooooo! The view is gorgeous from here.$h#$b#And just listen to that echo!$l#$b#WHOOOOOO!$8#$b#...This is not helping me find my way outta here.$6",
+"Core.TraceV.Locations.LostInMountains.GoatPond": "There sure are a lot of goats around here.#$b#Maybe I should just give up on trying to find my way outta here and live amongst the void beasts.$11",
+"Core.TraceV.Locations.LostInMountains.GoatOutlook": "I look out upon the goats! I AM the goat king!$8#$b#Hahahhaa I'm so freaking lost.$h",
+"Core.TraceV.Locations.LostInMountains.LoopAround": "I think I just went in a huge circle...$a#$b#There wasn't a rock when I entered the mountains, right...?$6",
+"Core.TraceV.Locations.LostInMountains.HectorTower.True": "I'm gonna stand here and and play loud music until SOMEBODY comes out and helps me get outta these mountains.$8#$b#My plan is genius, foolproof even.$9",
+"Core.TraceV.Locations.LostInMountains.HectorTower.False": "I'm so loooost, losty losty loooost~$l#$b#Like my song? It's about how lost I am.$a",
+"Core.TraceV.Locations.LostInMountains.EvynSign": "Jokes on this sign, I can't read!$h#$b#Well, I can... just not well. Do letters get all jumbled up for you too, @?$s#$b#Wait you mean the sign is already basically illegible?$6#$b#Hm... This conversation isn't leading me out of the mountains.$a#$b#Sorry, @. I need to focus.$6",
+"Core.TraceV.Locations.LostInMountains.Skull": "I don't remember dead things when I came into the mountain, nor a threatening cave opening.$u#$b#I should proooobably turn back.$6",
+"Core.TraceV.Locations.LostInMountains.Freedom": "BAHAHAHA!$h#$b#THE EXIT! I'M FREE! I'M FREEEEEE!$8",
+
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",

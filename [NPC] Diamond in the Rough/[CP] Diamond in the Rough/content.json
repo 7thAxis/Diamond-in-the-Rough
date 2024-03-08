@@ -106,12 +106,16 @@ CREDITS
     "DynamicTokens": [    
         //WORLD STATE
             /* IsOddYear - Checks if the year is odd for SVE Spirits Eve festival placement.
-               IsTodayRainy - Checks if it is storming or raining on the current day.
+               TodaysDate - Condenses {{Season}} and {{Day}} into one token
                WeekDay - Checks the current abbreviated week day from WeekDayList contents.
                BasicRandomizer - Basic 50/50 chance used for randomizing various things in the mod.*/
         {
             "Name": "IsOddYear",
             "Value": "{{Query: {{Year}} % 2 = 1}}"
+        },
+        {
+            "Name": "TodaysDate",
+            "Value": "{{Season}} {{Day}}"
         },
         {
             "Name": "WeekDayList",
@@ -124,7 +128,7 @@ CREDITS
         //SCHEDULE RANDOMIZERS
         {
             "Name": "TraceScheduleRandomizer", 
-            "Value": "{{Random:{{Range: 1, 2}}}}"
+            "Value": "{{Random:{{Range: 1, 5}}}}"
         },
         {
             "Name": "BasicRandomizer", 
@@ -171,7 +175,7 @@ CREDITS
         },
         {
             "Name": "RelationshipTokens",
-            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{Relationship:SenS: |contains=Married, Dating, Engaged}}}} |SenKrobusReference={{SenKrobusReference}}"
+            "Value": "|SenRelationshipTerm={{i18n:Core.SenS.RelationshipTerm.{{Relationship:SenS |contains=Married, Dating, Engaged}}}} |SenKrobusReference={{SenKrobusReference}}"
         },
         {
             "Name": "TraceRoomTokens",

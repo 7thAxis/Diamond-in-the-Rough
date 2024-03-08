@@ -28,7 +28,7 @@
         "Entries":{
 
         //Locations
-        "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Bed}}",
+        "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Home.Bed}}",
 
         //Specific Days
         "spring_1": "{{i18n:Core.EveT.Spring.Day.1}}",
