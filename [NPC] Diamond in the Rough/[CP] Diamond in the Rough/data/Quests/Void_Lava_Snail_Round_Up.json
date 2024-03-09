@@ -17,7 +17,7 @@
             "Entries": {
                 //Phase 1
                 "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.1": {
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.1",
                     "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 1",
                     "Actions": [ "AddMail Current DitR_M_SnailPhase1 received" ]
@@ -25,7 +25,7 @@
 
                 //Phase 2
                 "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.2": {
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.2",
                     "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 3",
                     "Actions": [ "AddMail Current DitR_M_SnailPhase2 received" ]
@@ -33,7 +33,7 @@
 
                 //Phase 3
                 "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.3": {
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.3",
                     "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 5",
                     "Actions": [ "AddMail Current DitR_M_SnailPhase3 received" ]
@@ -41,7 +41,7 @@
 
                 //Phase 4
                 "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.4": {
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.4",
                     "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 7",
                     "Actions": [ "AddMail Current DitR_M_SnailPhase4 received" ]
@@ -49,7 +49,7 @@
 
                 //Phase 5
                 "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.5": {
-                    "Trigger": "LocationChanged",
+                    "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.Phase.5",
                     "Condition": "PLAYER_STAT Current VoidLavaSnailQuestCompletions 10",
                     "Actions": [ "AddMail Current DitR_M_SnailPhase5 received" ]

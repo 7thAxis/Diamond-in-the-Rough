@@ -58,119 +58,62 @@
         "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
     },
 
-    //Migrates event seen data from Lurking in the Dark for 1.5.6
-        {
-            "LogName": "Sen Event Migration from 1.5.6",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
+    //Migrates data for Lurking in the Dark for 1.5.6
+    {
+        "LogName": "Sen Event and Flag Migration",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}.TriggerActions.SenEventMigration": {
+                "Id": "{{ModID}}.TriggerActions.SenEventMigration",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+
+                //I know you can put it in one... this is just more readable for me.
                 
-                //0H
-                "{{ModID}}.TriggerActions.SenEventMigration.0H": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.0H",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701000",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.0h"]
-                },
+                    //Events
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701000 {{ModID}}.Events.SenS.0h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701002 {{ModID}}.Events.SenS.2h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701004 {{ModID}}.Events.SenS.4h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701006 {{ModID}}.Events.SenS.6h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010062 {{ModID}}.Events.SenS.6h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 107701008 {{ModID}}.Events.SenS.8h",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010011 {{ModID}}.Events.SenS.10h.P1",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010012 {{ModID}}.Events.SenS.10h.P2",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010013 {{ModID}}.Events.SenS.10h.P3",
+                    "Pathoschild.ContentPatcher_MigrateIds Events 1077010014 {{ModID}}.Events.SenS.14h",
 
-                //2H
-                "{{ModID}}.TriggerActions.SenEventMigration.2H": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.2H",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701002",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.2h"]
-                },
+                    //Mail
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_AGardenForSenComplete DitR_M_AGardenForSenComplete",
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_SeedSilentEvent DitR_M_SenGardenTrigger",
+                    "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_Romantic DitR_M_SenS_Romantic"
+                ],
 
-                //4H
-                "{{ModID}}.TriggerActions.SenEventMigration.4H": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.4H",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701004",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.4h"]
-                },
-
-                //6H
-                "{{ModID}}.TriggerActions.SenEventMigration.6H.P1": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.6H.P1",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701006",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.6h.P1"]
-                },
                 "{{ModID}}.TriggerActions.SenEventMigration.6H.QuestCheck": {
                     "Trigger": "DayStarted",
                     "Id": "{{ModID}}.TriggerActions.SenEventMigration.6H.QuestCheck",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701006, !PLAYER_HAS_SEEN_EVENT Current 1077010062",
-                    "Actions": [ "AddQuest {{ModID}}.Quests.AGardenForSen", "RemoveQuest 10770100" ]
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.6H.GardenQuestCompleteFlag": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.GardenQuestCompleteFlag",
-                    "Condition": "PLAYER_HAS_MAIL Current LitD_M_AGardenForSenComplete Any",
-                    "Actions": ["AddMail Current DitR_M_AGardenForSenComplete received"]
-
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.6H.GardenTriggerFlag": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.GardenTriggerFlag",
-                    "Condition": "PLAYER_HAS_MAIL Current LitD_M_SeedSilentEvent Any",
-                    "Actions": ["AddMail Current DitR_M_SenGardenTrigger received"]
-
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.6H.P2": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.6H.P2",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 1077010062",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.6H.P2"]
-                },
-
-                //8H
-                "{{ModID}}.TriggerActions.SenEventMigration.8H": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.8H",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 107701008",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.8H"]
-                },
-
-                //10H
-                "{{ModID}}.TriggerActions.SenEventMigration.10H.P1": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.10H.P1",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 1077010011",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.10H.P1"]
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.10H.P2": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.10H.P2",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 1077010012",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.10H.P2"]
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.10H.P3": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.10H.P3",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 1077010013",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.10H.P3"]
-                },
-
-                "{{ModID}}.TriggerActions.SenEventMigration.RomanticFlag": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.RomanticFlag",
-                    "Condition": "PLAYER_HAS_MAIL Current LitD_M_Romantic Any",
-                    "Actions": ["AddMail Current DitR_M_SenS_Romantic received"]
-                },
-
-                //14H
-                "{{ModID}}.TriggerActions.SenEventMigration.14H": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.SenEventMigration.14H",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 1077010014",
-                    "Actions": ["MarkEventSeen Current {{ModID}}.Events.SenS.14H"]
+                    "Actions": [ "RemoveQuest 10770100" ]
                 }
             }
         }
-    ]
+    },
+    {
+        "LogName": "Sen Item Migration",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}.TriggerActions.SenItemMigration": {
+                "Id": "{{ModID}}.TriggerActions.SenItemMigration",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Sen's Crocus}} {{ModID}}.Items.SensCrocus",
+                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Sen's Crocus Seeds}} {{ModID}}.Items.SensCrocusSeeds"
+                ]
+            }
+        },
+        "When": { "HasMod": "spacechase0.jsonAssets" }
+    }
+]
 }
