@@ -286,6 +286,7 @@
 "Rand.TraceV.Book.18": "I Love Pizza: A Guide to Cheesy Goodness Around the World",
 "Rand.TraceV.Book.19": "Defenders of Ja'Hoote (Volumes 1 to 16)",
 "Rand.TraceV.Book.20": "Birds of a Feather: A Journey to Recovery",
+"Rand.TraceV.Book.21": "Jamberries",
 
 "Rand.TraceV.TVShow.1": "The Queen of Sauce",
 "Rand.TraceV.TVShow.2": "The Weather Channel",
@@ -1241,7 +1242,7 @@
 
 //Forest
 "Core.TraceV.Locations.Forest.BerryDialogue.1": "%Trace hisses loudly at you.#$b#MY BLACKBERRIES!$a",
-"Core.TraceV.Locations.Forest.BerryDialogue.2": "Hmm hmm hmm~ Berry pickin' time~$l",
+"Core.TraceV.Locations.Forest.BerryDialogue.2": "Quickberry! Quackberry!$h#$b#Pick me a blackberry!$l",
 "Core.TraceV.Locations.Forest.BerryDialogue.3": "Blackberries? Man, they're berry delicious if you ask me.$l",
 "Core.TraceV.Locations.Forest.BerryDialogue.4": "Once upon a time, there was a blackberry.$h#$b#I ate it.$9#$b#The end.$8",
 "Core.TraceV.Locations.Forest.BerryDialogue.5": "If you know what's good for you, you'll step away from my berries.$a",

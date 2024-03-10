@@ -106,7 +106,7 @@
         //Pipo
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/Pipo.json, data/Festivals/Pipo.json"
+            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/Pipo_{{PipoAdoptionStatus}}.json, data/Festivals/Pipo.json"
         },
         //Jeremy
         {

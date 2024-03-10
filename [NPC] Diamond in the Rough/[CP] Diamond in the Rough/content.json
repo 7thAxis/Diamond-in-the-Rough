@@ -125,10 +125,24 @@ CREDITS
             "Name": "WeekDay",
             "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
         },
-        //SCHEDULE RANDOMIZERS
+        //SCHEDULE RANDS AND TWEAKERS
+        {
+            "Name": "PipoAdoptionStatus",
+            "Value": "Stray",
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.EveT.2h.P2": false }
+        },
+        {
+            "Name": "PipoAdoptionStatus",
+            "Value": "Adopted",
+            "When": { "HasSeenEvent: |contains={{ModID}}.Events.EveT.2h.P2": true }
+        },
+        {
+            "Name": "PipoScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 7}}|key=PSR}}"
+        },
         {
             "Name": "TraceScheduleRandomizer", 
-            "Value": "{{Random:{{Range: 1, 5}}}}"
+            "Value": "{{Random:{{Range: 1, 10}}|key=TSR}}"
         },
         {
             "Name": "BasicRandomizer", 
@@ -179,7 +193,7 @@ CREDITS
         },
         {
             "Name": "TraceRoomTokens",
-            "Value": "|Book1={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 20}}|key=TB1}}}} |Book2={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 20}}|key=TB2}}}} |Book3={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 20}}|key=TB3}}}} |Book4={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 20}}|key=TB4}}}} |Book5={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 20}}|key=TB5}}}} |TVShow={{i18n:Rand.TraceV.TVShow.{{Random:{{Range: 1, 10}}|key=TTV}}}}"
+            "Value": "|Book1={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 21}}|key=TB1}}}} |Book2={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 21}}|key=TB2}}}} |Book3={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 21}}|key=TB3}}}} |Book4={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 21}}|key=TB4}}}} |Book5={{i18n:Rand.TraceV.Book.{{Random:{{Range: 1, 21}}|key=TB5}}}} |TVShow={{i18n:Rand.TraceV.TVShow.{{Random:{{Range: 1, 10}}|key=TTV}}}}"
         },
         {
             "Name": "PlayerPNTokens",
