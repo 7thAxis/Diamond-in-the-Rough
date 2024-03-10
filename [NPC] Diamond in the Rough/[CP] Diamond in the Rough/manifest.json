@@ -31,7 +31,7 @@
 		{
 			"UniqueID": "spacechase0.SpaceCore",
 			"MinimumVersion": "1.13.0",
-			"IsRequired": true
+			"IsRequired": false
 		}
 	]
 }

@@ -13,8 +13,8 @@
         {
             "LogName": "Sen Dialogue - 6-10",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
             "Update": "OnLocationChange",
+            "Target": "Characters/Dialogue/SenS",
             "Entries": {
                 "{{WeekDay}}": "{{i18n:Core.SenS.LateHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
             },

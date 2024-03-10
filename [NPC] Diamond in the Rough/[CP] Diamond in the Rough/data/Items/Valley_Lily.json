@@ -43,7 +43,7 @@
                     "Price": 275,
                     "Edibility": 1,
                     "IsDrink": false,
-                    "Buff": { "Duration": 300, "CustomAttributes": { "LuckLevel": 4 } },
+                    "Buffs": [ { "Id": "ValleyLily", "Duration": 300, "CustomAttributes": { "LuckLevel": 4.0 } } ],
                     "ContextTags": [ "color_gold", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 2

@@ -13,7 +13,7 @@
                     "Category": -26,
                     "Price": 800,
                     "Edibility": 1,
-                    "Buff": { "Duration": 100, "CustomAttributes": { "FishingLevel": 2, "Defense": 1 } },
+                    "Buffs": [ { "Id": "SnailMayo", "Duration": 100, "CustomAttributes": { "FishingLevel": 2, "Defense": 1  } } ],
                     "IsDrink": true,
                     "ContextTags": [ "color_red", "color_black", "mayo_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",

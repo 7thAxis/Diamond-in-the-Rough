@@ -1233,12 +1233,39 @@
 
 //Home
 "Core.TraceV.Locations.Home.Bed": "%Trace appears to be be napping.#$b#%Waking them up would be quite the feat, so don't bother trying.",
+"Core.TraceV.Locations.Home.JamOut.Hourglass": "I'm falling through the hourglass.~$h#$b#And I don't think I'll ever make it back.~$8#$b#So I throw stones at walls I'll never climb, victim to the sands of time.~$h#$b#Falling through the hourglass, the hourglass.~$8",
 
 //Inn
 "Core.TraceV.Locations.Inn.Sunflower": "%Trace is observing the sunflower.#$b#...$s",
+"Core.TraceV.Locations.Inn.JamOut.Hourglass": "Time is strange, it's ever flowing, never going back.~$h#$b#It moves but only in one way.~$8#$b#Turn the page, look back at what you wrote.~$h#$b#Do you still feel the same~?$8",
+
+//Forest
+"Core.TraceV.Locations.Forest.BerryDialogue.1": "%Trace hisses loudly at you.#$b#MY BLACKBERRIES!$a",
+"Core.TraceV.Locations.Forest.BerryDialogue.2": "Hmm hmm hmm~ Berry pickin' time~$l",
+"Core.TraceV.Locations.Forest.BerryDialogue.3": "Blackberries? Man, they're berry delicious if you ask me.$l",
+"Core.TraceV.Locations.Forest.BerryDialogue.4": "Once upon a time, there was a blackberry.$h#$b#I ate it.$9#$b#The end.$8",
+"Core.TraceV.Locations.Forest.BerryDialogue.5": "If you know what's good for you, you'll step away from my berries.$a",
+"Core.TraceV.Locations.Forest.BerryDialogue.6": "If you don't find a berry bush, try, try again!$h",
+"Core.TraceV.Locations.Forest.BerryDialogue.7": "Wanna race to see who can find the most blackberries?$h#$b#I'll win for sure!$l",
+"Core.TraceV.Locations.Forest.BerryDialogue.8": "Oh my Yoba! This berry is rotten!$u",
+"Core.TraceV.Locations.Forest.BerryDialogue.9": "Be sure to leave some berries for the wild animals, @.#$b#They needa eat too!$11",
+"Core.TraceV.Locations.Forest.BerryDialogue.10": "I'm lost in a sea of berries. Don't try to save me.$10",
+"Core.TraceV.Locations.Forest.BerryDialogue.11": "I am the berry king! The king of berries!$9#$b#I rule this land, bahahahha!$10",
+"Core.TraceV.Locations.Forest.BerryDialogue.12": "Here's a berry, there's a berry, everywhere a berry berry~!$h",
+"Core.TraceV.Locations.Forest.BerryDialogue.13": "%Trace is deeply invested in berry harvesting. They don't notice you.#$b#%How unfortunate.",
+"Core.TraceV.Locations.Forest.BerryDialogue.14": "If you ever bury a berry, don't.$6#$b#Berries are for eating, not burying!$a",
+"Core.TraceV.Locations.Forest.BerryDialogue.15": "How many berry thoughts can one person have in a day, I wonder?$6#$b#Never enough, I'd say.$8",
+"Core.TraceV.Locations.Forest.BerryDialogue.16": "I know you're supposed to wash your berries before you eat them, but I just can't help myself.$6",
+"Core.TraceV.Locations.Forest.BerryDialogue.17": "I am merry for berries, how about you @?$h",
+"Core.TraceV.Locations.Forest.BerryDialogue.18": "Berries.#$b#Berries.$7#$b#%Trace is having berry thoughts.",
+"Core.TraceV.Locations.Forest.BerryDialogue.19": "I've collected SO many blackberries!$h#$b#SO MANY! IT'S AMAZING!$l",
+"Core.TraceV.Locations.Forest.BerryDialogue.20": "You know what they say, you are what you eat.$l#$b#After I eat all these blackberries, I'm gonna become a berry.$h",
+
+//East Scarp
+"Core.TraceV.Locations.EastScarp.JamOut.Skeleton": "Skin and bones, vulnerable.~$h#$b#Crack my ribs and make me whole.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
 //Lost In Mountains
-"Core.TraceV.Locations.LostInMountains.Pillar": "Uhg... I seem to have gone and gotten myself lost again.$a#$b#You know how to get the heck outta here, @?$6",
+"Core.TraceV.Locations.LostInMountains.Pillar": "Uhg... I seem to have gone and gotten myself lost again.$s#$b#I just wanted to find some blackberries, man.$a#$b#You know how to get the heck outta here, @?$6",
 "Core.TraceV.Locations.LostInMountains.CliffTop": "Woooooo! The view is gorgeous from here.$h#$b#And just listen to that echo!$l#$b#WHOOOOOO!$8#$b#...This is not helping me find my way outta here.$6",
 "Core.TraceV.Locations.LostInMountains.GoatPond": "There sure are a lot of goats around here.#$b#Maybe I should just give up on trying to find my way outta here and live amongst the void beasts.$11",
 "Core.TraceV.Locations.LostInMountains.GoatOutlook": "I look out upon the goats! I AM the goat king!$8#$b#Hahahhaa I'm so freaking lost.$h",
@@ -1247,8 +1274,10 @@
 "Core.TraceV.Locations.LostInMountains.HectorTower.False": "I'm so loooost, losty losty loooost~$l#$b#Like my song? It's about how lost I am.$a",
 "Core.TraceV.Locations.LostInMountains.EvynSign": "Jokes on this sign, I can't read!$h#$b#Well, I can... just not well. Do letters get all jumbled up for you too, @?$s#$b#Wait you mean the sign is already basically illegible?$6#$b#Hm... This conversation isn't leading me out of the mountains.$a#$b#Sorry, @. I need to focus.$6",
 "Core.TraceV.Locations.LostInMountains.Skull": "I don't remember dead things when I came into the mountain, nor a threatening cave opening.$u#$b#I should proooobably turn back.$6",
-"Core.TraceV.Locations.LostInMountains.Freedom": "BAHAHAHA!$h#$b#THE EXIT! I'M FREE! I'M FREEEEEE!$8",
+"Core.TraceV.Locations.LostInMountains.Freedom": "BAHAHAHA!$h#$b#THE EXIT! I'M FREE! I'M FREEEEEE!$8#$b#Ah shoot, I didn't get nearly as many blackberries as I wanted.$6",
 
+//Beach
+"Core.TraceV.Locations.Beach.JamOut.Skeleton": "Fix my head, stitch my soul.~$h#$b#Find out where it all went wrong.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",

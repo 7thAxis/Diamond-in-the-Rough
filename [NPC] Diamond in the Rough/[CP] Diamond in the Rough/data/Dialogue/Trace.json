@@ -22,9 +22,43 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
-                //Location
+            //Location
+
+                //Home
                 "{{ModID}}.Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Home.Bed}}",
-                "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.Inn.Sunflower}}",
+                "{{ModID}}.Maps.Trace_House_Interior_12_6": "{{i18n:Core.TraceV.Locations.Home.JamOut.Hourglass}}",
+
+                //Inn
+                "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.Inn.JamOut.Hourglass}}",
+                "EastScarp_VillageInn_27_8": "{{i18n:Core.TraceV.Locations.Inn.Sunflower}}",
+
+                //Forest
+                "Forest_39_47": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.1}}",
+                "Forest_51_50": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.2}}",
+                "Forest_53_43": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.3}}",
+                "Forest_59_36": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.4}}",
+                "Forest_68_31": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.5}}",
+                "Forest_69_34": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.6}}",
+                "Forest_76_23": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.7}}",
+                "Forest_62_24": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.8}}",
+                "Forest_60_23": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.9}}",
+                "Forest_61_13": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.10}}",
+                "Forest_55_11": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.11}}",
+                "Forest_49_12": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.12}}",
+                "Forest_32_11": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.13}}",
+                "Forest_20_11": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.14}}",
+                "Forest_19_22": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.15}}",
+                "Forest_16_25": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.16}}",
+                "Forest_20_36": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.17}}",
+                "Forest_21_40": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.18}}",
+                "Forest_29_50": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.19}}",
+                "Forest_39_52": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.20}}",
+                
+
+                //East Scarp
+                "EastScarp_Village_20_121": "{{i18n:Core.TraceV.Locations.EastScarp.JamOut.Skeleton}}",
+
+                //DeepMountains
                 "EastScarp_DeepMountains_69_31": "{{i18n:Core.TraceV.Locations.LostInMountains.Pillar}}",
                 "EastScarp_DeepMountains_26_5": "{{i18n:Core.TraceV.Locations.LostInMountains.CliffTop}}",
                 "EastScarp_DeepMountains_51_45": "{{i18n:Core.TraceV.Locations.LostInMountains.GoatPond}}",
@@ -33,7 +67,10 @@
                 "EastScarp_DeepMountains_10_17": "{{i18n:Core.TraceV.Locations.LostInMountains.HectorTower.{{HasMod: |contains=DN.SnS.CP}}}}",
                 "EastScarp_DeepMountains_80_34": "{{i18n:Core.TraceV.Locations.LostInMountains.EvynSign}}",
                 "EastScarp_DeepMountains_107_15": "{{i18n:Core.TraceV.Locations.LostInMountains.Skull}}",
-                "EastScarp_DeepMountains_63_59": "{{i18n:Core.TraceV.Locations.LostInMountains.Freedom}}"
+                "EastScarp_DeepMountains_63_59": "{{i18n:Core.TraceV.Locations.LostInMountains.Freedom}}",
+
+                //Beach
+                "Beach_44_35": "{{i18n:Core.TraceV.Locations.Beach.JamOut.Skeleton}}"
             }
         }
         ]

@@ -108,7 +108,7 @@
                 { "Position": { "X": 3, "Y": 12 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Front2", "Remove": true }
             ],
-            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": false }
+            "When": { "HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2": false }
         },
 
     //Pipo tiles post-adoption
@@ -123,7 +123,7 @@
                 { "Position": { "X": 3, "Y": 13 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } }
             ],
-            "When": { "HasSeenEvent |contains=7thAxis.DitR.CP.Events.EveT.2h.P2": true }
+            "When": { "HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2": true }
         },
 
     //Open doors in Trace's House
