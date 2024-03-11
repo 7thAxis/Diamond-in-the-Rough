@@ -183,7 +183,6 @@
                 "Weather": "Sun, Wind, Snow",
                 "Time": "{{Range: 1700, 1930}}",
                 "TodaysDate: |contains=winter 15, winter 16, winter 17": false
-                //"Query: '{{Season}}' = 'winter' AND {{Day}} IN (15, 16, 17)": false
             }
         },
         {
@@ -192,10 +191,7 @@
             "Target": "Characters/SenS",
             "FromFile": "assets/Characters/Sen/Senbrella.png",
             "Update": "OnLocationChange",
-            "When": {
-                "LocationName": "Farm",
-                "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true
-            }
+            "When": { "LocationName": "Farm", "LivingWithSen": true }
         },
         {
             "LogName": "Misc Cloak Sprites",

@@ -1,6 +1,7 @@
 // 0 up, 1 right, 2 down, 3 left - face direction
 {
     "Changes": [
+ //---------------------------- DEFAULTS ------------------------------------------//
         {
 			"LogName": "Trace Non-Randomized Schedules",
 			"Action": "EditData",
@@ -24,7 +25,7 @@
                     2100 4 23 1/
                     2300 12 6 tracev_jam/
                     2500 15 5 tracev_sleep
-                    ",
+                ",
 
                 "rain":"
                     0 {{ModID}}.Maps.Trace_House_Interior 15 5/
@@ -104,6 +105,8 @@
 				"winter_17": "GOTO winter_15",
             }
 		},
+//---------------------------- RAND SCHEDULES ------------------------------------------//
+//---Schedule 1---//
         {
 			"LogName": "Trace Visit Inn Schedule",
 			"Action": "EditData",
@@ -132,6 +135,7 @@
             },
             "When": { "TraceScheduleRandomizer": 1 }
 		},
+//---Schedule 2---//
         {
 			"LogName": "Trace Home All Day Schedule",
 			"Action": "EditData",
@@ -160,6 +164,7 @@
             },
             "When": { "TraceScheduleRandomizer": 2 } 
 		},
+//---Schedule 3---//
         {
 			"LogName": "Trace Beach Schedule",
 			"Action": "EditData",
@@ -181,6 +186,7 @@
             },
             "When": { "TraceScheduleRandomizer": 3 } 
 		},
+//---Schedule 4---//
         {
 			"LogName": "Trace Wanders the Scarp Schedule",
 			"Action": "EditData",
@@ -203,6 +209,7 @@
             },
             "When": { "TraceScheduleRandomizer": 4 } 
 		},
+//---Schedule 5---//
         {
 			"LogName": "Trace Does Art In Town and Mountain Schedule",
 			"Action": "EditData",
@@ -226,6 +233,7 @@
             },
             "When": { "TraceScheduleRandomizer": 5 } 
 		},
+//---Schedule 6---//
         {
 			"LogName": "Trace Lurks the Forest Schedule",
 			"Action": "EditData",
@@ -252,6 +260,7 @@
             },
             "When": { "TraceScheduleRandomizer": 6 } 
 		},
+//---Schedule 7---//
         {
 			"LogName": "Trace Inn Vibe 2",
 			"Action": "EditData",
@@ -282,6 +291,7 @@
             },
             "When": { "TraceScheduleRandomizer": 7 } 
 		},
+//---Schedule 8---//
         {
 			"LogName": "Trace Art Day",
 			"Action": "EditData",
@@ -314,6 +324,7 @@
             },
             "When": { "TraceScheduleRandomizer": 8 } 
 		},
+//---Schedule 9---//
         {
 			"LogName": "Trace Shop Day",
 			"Action": "EditData",
@@ -342,7 +353,8 @@
             },
             "When": { "TraceScheduleRandomizer": 9, "DayOfWeek |contains=Wednesday": false } 
 		},
-                {
+//---Schedule 10---//
+        {
 			"LogName": "Trace Shop Day",
 			"Action": "EditData",
 			"Target": "Characters/schedules/TraceV",

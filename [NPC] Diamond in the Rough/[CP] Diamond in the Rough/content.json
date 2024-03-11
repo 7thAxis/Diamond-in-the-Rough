@@ -128,8 +128,7 @@ CREDITS
         //SCHEDULE RANDS AND TWEAKERS
         {
             "Name": "PipoAdoptionStatus",
-            "Value": "Stray",
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.EveT.2h.P2": false }
+            "Value": "Stray"
         },
         {
             "Name": "PipoAdoptionStatus",
@@ -143,6 +142,14 @@ CREDITS
         {
             "Name": "TraceScheduleRandomizer", 
             "Value": "{{Random:{{Range: 1, 10}}|key=TSR}}"
+        },
+        {
+            "Name": "SenScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 14}}|key=SSR}}"
+        },
+        {
+            "Name": "EveWaffleScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 6}}|key=EWSR}}"
         },
         {
             "Name": "BasicRandomizer", 
@@ -159,6 +166,15 @@ CREDITS
             "Name": "SenPartnershipRoute", 
             "Value": "Romantic",
             "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": true }
+        },
+        {
+            "Name": "LivingWithSen", 
+            "Value": "false"
+        },
+        {
+            "Name": "LivingWithSen", 
+            "Value": "true",
+            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
         },
         {
             "Name": "SenKrobusReference",

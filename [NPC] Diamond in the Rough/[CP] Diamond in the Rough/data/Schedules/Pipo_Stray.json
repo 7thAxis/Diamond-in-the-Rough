@@ -1,5 +1,6 @@
 {
     "Changes": [
+ //---------------------------- DEFAULTS ------------------------------------------//
 		{
 			"LogName": "Pipo Non-randomized Schedules",
 			"Action": "EditData",
@@ -18,6 +19,8 @@
 					2000 77 94 pipop_sleep",
 			}
 		},
+ //---------------------------- RAND SCHEDULES ------------------------------------------//
+//---Schedule 1---//
 		{
 			"LogName": "Pipo Schedule ES Wander 1",
 			"Action": "EditData",
@@ -37,6 +40,7 @@
             },
             "When": { "PipoScheduleRandomizer": 1 }
 		},
+//---Schedule 2---//
 		{
 			"LogName": "Pipo Schedule Town Wander 1",
 			"Action": "EditData",
@@ -54,6 +58,7 @@
             },
             "When": { "PipoScheduleRandomizer": 2 }
 		},
+//---Schedule 3---//
 		{
 			"LogName": "Pipo Schedule Town Wander 2",
 			"Action": "EditData",
@@ -71,6 +76,7 @@
             },
             "When": { "PipoScheduleRandomizer": 3 }
 		},
+//---Schedule 4---//
 		{
 			"LogName": "Pipo Schedule ES Wander 2",
 			"Action": "EditData",
@@ -90,6 +96,7 @@
             },
             "When": { "PipoScheduleRandomizer": 4 }
 		},
+//---Schedule 5---//
 		{
 			"LogName": "Pipo Schedule Town Wander 3",
 			"Action": "EditData",
@@ -107,6 +114,7 @@
             },
             "When": { "PipoScheduleRandomizer": 5 }
 		},
+//---Schedule 6---//
 		{
 			"LogName": "Pipo Schedule Town Wander 4",
 			"Action": "EditData",
@@ -126,6 +134,7 @@
             },
             "When": { "PipoScheduleRandomizer": 6 }
 		},
+//---Schedule 7---//
 		{
 			"LogName": "Pipo Schedule ES Wander 3",
 			"Action": "EditData",
@@ -145,6 +154,7 @@
             },
             "When": { "PipoScheduleRandomizer": 7 }
 		},
+ //---------------------------- OVERRIDES ------------------------------------------//
         {
 			"LogName": "Pipo Beach Hangout",
 			"Action": "EditData",

@@ -1,11 +1,22 @@
 {
     "Changes": [
-        {
-			"LogName": "Waffle Schedule",
+ //---------------------------- DEFAULTS ------------------------------------------//
+		{
+			"LogName": "Waffle Default Schedules",
 			"Action": "EditData",
 			"Target": "Characters/schedules/WaffleW",
 			"Entries": {
-				"spring": "GOTO Mon",
+				"spring": "					
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 76 99 wafflew_sitright/
+					1000 61 112 wafflew_sitright/
+					1200 79 79 wafflew_sitright/
+					1400 23 62 wafflew_lay/
+					1600 26 104 wafflew_sitleft/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2000 7 4 wafflew_sleep
+				",
 
 				"rain":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
@@ -15,72 +26,10 @@
 					1400 23 12 wafflew_sitright/
 					1600 EastScarp_Village 24 62 wafflew_sitleft/
 					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep",
+					2100 7 4 wafflew_sleep
+				",
 
-				"Mon":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 76 99 wafflew_sitright/
-					1000 61 112 wafflew_sitright/
-					1200 79 79 wafflew_sitright/
-					1400 23 62 wafflew_lay/
-					1600 26 104 wafflew_sitleft/
-					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2000 7 4 wafflew_sleep",
-
-				"Tue":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 79 79 wafflew_lay/
-					1100 ArchaeologyHouse 16 5 wafflew_lay/
-					1500 Town 77 84 wafflew_sitleft/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep",
-
-				"Wed":"
-					0 Forest 33 25/
-					610 33 25 wafflew_sitright/
-					800 67 50 wafflew_sitright/
-					1000 AnimalShop 15 17 wafflew_lay/
-					1300 Town 25 98 wafflew_lay/
-					1500 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep",
-
-				"Thu":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					800 Town 74 38 wafflew_lay/
-					1400 Town 70 12 wafflew_sitright/
-					1600 Mountain 42 14 wafflew_sitright/
-					1800 61 11 wafflew_sitleft/
-					2000 Mine 15 10 wafflew_sitright",
-
-				"Fri":"
-					0 Mine 18 4/
-					610 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					1300 7 4 wafflew_sleep",
-
-				"Sat":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 32 100 wafflew_sitleft/
-					1100 Blacksmith 5 15 wafflew_sitleft/
-					1500 Town 85 103 wafflew_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep",
-
-				"Sun":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					900 SeedShop 13 23 wafflew_sitleft/
-					1400 2 19 wafflew_sitright/
-					1500 Town 79 58 wafflew_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep",
+				"rain2": "GOTO spring",
 
 				"winter_15":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
@@ -91,18 +40,77 @@
 					1500 Beach 42 5 wafflew_sitleft/
 					1700 11 26 wafflew_sitright/
 					1900 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2200 7 4 wafflew_sleep",
+					2200 7 4 wafflew_sleep
+				",
 
 				"winter_16":"GOTO winter_15",
-				"winter_17":"GOTO winter_15"
+				"winter_17":"GOTO winter_15",
+				"spring_12": "GOTO spring",
 			}
 		},
+ //----------------------------RAND SCHEDULES ------------------------------------------//
+//---Schedule 1---//
 		{
-			"LogName": "Waffle SVE Schedule Tweaks",
+			"LogName": "Waffle Library Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/WaffleW",
 			"Entries": {
-				"Thu":"
+				"{{WeekDay}}":"
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 79 79 wafflew_lay/
+					1100 ArchaeologyHouse 16 5 wafflew_lay/
+					1500 Town 77 84 wafflew_sitleft/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 1 }
+		},
+//---Schedule 2---//
+		{
+			"LogName": "Waffle Marnie Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Forest 33 25/
+					610 33 25 wafflew_sitright/
+					800 67 50 wafflew_sitright/
+					1000 AnimalShop 15 17 wafflew_lay/
+					1300 Town 25 98 wafflew_lay/
+					1500 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 2, "DayOfWeek |contains=Monday, Tuesday": false }
+		},
+//---Schedule 3---//
+		{
+			"LogName": "Waffle Mountain Schedule Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 Town 74 38 wafflew_lay/
+					1400 Town 70 12 wafflew_sitright/
+					1600 Mountain 42 14 wafflew_sitright/
+					1800 61 11 wafflew_sitleft/
+					2000 Mine 15 10 wafflew_sitright
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 3 }
+		},
+		{
+			"LogName": "Waffle Mountain Schedule SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
 					610 7 4 wafflew_lay/
 					700 6 4 wafflew_sitleft/
@@ -110,9 +118,55 @@
 					1400 Town 69 12 wafflew_sitright/
 					1600 Mountain 42 16 wafflew_sitright/
 					1800 65 14 wafflew_sitleft/
-					2000 Mine 15 10 wafflew_sitright",
-
-				"Sun":"
+					2000 Mine 15 10 wafflew_sitright
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 3, "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+//---Schedule 4---//
+		{
+			"LogName": "Waffle Clint Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 32 100 wafflew_sitleft/
+					1100 Blacksmith 5 15 wafflew_sitleft/
+					1500 Town 85 103 wafflew_lay/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 4, "DayOfWeek |contains=Friday": false }
+		},
+//---Schedule 5---//
+		{
+			"LogName": "Waffle SeedShop Schedule Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/
+					700 6 4 wafflew_sitleft/
+					900 SeedShop 13 23 wafflew_sitleft/
+					1400 2 19 wafflew_sitright/
+					1500 Town 79 58 wafflew_lay/
+					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2100 7 4 wafflew_sleep
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 5 }
+		},
+		{
+			"LogName": "Waffle SeedShop Schedule SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
 					610 7 4 wafflew_lay/
 					700 6 4 wafflew_sitleft/
@@ -120,10 +174,35 @@
 					1400 6 19 wafflew_sitleft/
 					1500 Town 99 61 wafflew_lay/
 					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep"
+					2100 7 4 wafflew_sleep
+				",
 			},
-			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+			"When": { 
+			"EveWaffleScheduleRandomizer": 5, "DayOfWeek |contains=Wednesday": false,
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
+//---Schedule 6---//
+		{
+			"LogName": "Waffle ES Wander Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/WaffleW",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 76 99 wafflew_sitright/
+					1000 61 112 wafflew_sitright/
+					1200 79 79 wafflew_sitright/
+					1400 23 62 wafflew_lay/
+					1600 26 104 wafflew_sitleft/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2000 7 4 wafflew_sleep
+				",
+			},
+			"When": { "EveWaffleScheduleRandomizer": 6, "DayOfWeek |contains=Friday": false }
+		},
+ //---------------------------- OVERRIDES ------------------------------------------//
 		{
 			"LogName": "Waffle Beach Hangout",
 			"Action": "EditData",
@@ -138,7 +217,8 @@
 					1400 Town 85 103 wafflew_lay/
 					1530 EastScarp_Village 35 108 wafflew_sitright/
 					2300 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2500 7 4 wafflew_sleep"
+					2500 7 4 wafflew_sleep
+				"
 			},
 			"When": {
 				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,

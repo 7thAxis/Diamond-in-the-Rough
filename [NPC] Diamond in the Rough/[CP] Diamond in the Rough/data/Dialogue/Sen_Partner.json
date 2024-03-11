@@ -203,7 +203,7 @@
                 "AcceptBirthdayGift_Liked": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}", //pos Birthday
                 "AcceptBirthdayGift_Neutral": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}" //neutral Birthday
             },
-            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }           
+            "When": { "LivingWithSen": true }           
         },
         {
             "LogName": "Extra Dialogue",
@@ -222,7 +222,7 @@
                 "NewChild_SecondChild2": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
                 "NewChild_Adoption": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}"
             },
-            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }    
+            "When": { "LivingWithSen": true }      
         },
         {
             "LogName": "Have Shadow Kids Dialogue False",
