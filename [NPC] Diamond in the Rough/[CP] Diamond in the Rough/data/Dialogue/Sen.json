@@ -176,7 +176,7 @@
                 "AcceptGift_(O)395": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)253": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)808": "{{i18n:Gifts.SenS.VoidPendant}}",
-                "AcceptGift_(O)789": "{{i18n:Gifts.SenS.PurpleShorts}}",
+                "RejectItem_(O)789": "{{i18n:Gifts.SenS.PurpleShorts}}",
                 "RejectItem_(O)248": "{{i18n:Gifts.SenS.Garlic}}",
                 "RejectItem_(O)772": "{{i18n:Gifts.SenS.Garlic}}",
                 "RejectItem_(O)121": "{{i18n:Gifts.SenS.DwarfHelm}}",

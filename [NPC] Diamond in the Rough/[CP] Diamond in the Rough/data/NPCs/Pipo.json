@@ -57,6 +57,14 @@
             "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png"
         },
         {
+            "LogName": "Pipo's Shorts", 
+            "Action": "EditImage",
+            "Target": "Characters/PipoP",
+            "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo_Shorts.png",
+            "Update": "OnTimeChange",
+            "When": { "HasFlag": "DitR_M_PipoShorts" }
+        },
+        {
             "Action": "Load",
             "Target": "Portraits/PipoP, Portraits/PipoP_Default",
             "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo.png",

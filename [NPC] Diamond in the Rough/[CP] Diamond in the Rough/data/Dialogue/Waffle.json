@@ -61,8 +61,8 @@
             "RejectItem_(O)436": "{{i18n:Gifts.WaffleW.GoatMilk}}",
             "RejectItem_(O)438": "{{i18n:Gifts.WaffleW.GoatMilk}}",
             "RejectItem_(O)768": "{{i18n:Gifts.WaffleW.SolarEssence}}",
+            "RejectItem_(O)789": "{{i18n:Gifts.WaffleW.PurpleShorts}}",
             "AcceptGift_(O)192": "{{i18n:Gifts.WaffleW.Potato}}",
-            "AcceptGift_(O)789": "{{i18n:Gifts.WaffleW.PurpleShorts}}",
 
             "RejectItem_(O)809": "{{i18n:Movies.WaffleW.RejectMovieTicket}}" 
         }

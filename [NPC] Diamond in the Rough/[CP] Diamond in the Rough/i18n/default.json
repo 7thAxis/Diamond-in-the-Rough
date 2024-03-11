@@ -1483,7 +1483,7 @@
 "Gifts.SenS.MandoStickyRice": "Oooh a mango dish! I don't get the chance to try things like this very often.#$b#Thank you so much, @!$h",
 "Gifts.SenS.Sweetener": "Oh...! This is like liquid sugar incarnate!$h#$b#A simply divine taste gifted from nature. Thanks, @!$7",
 "Gifts.SenS.Coffee": "Oh yum, coffee! This will give me tons of energy for my next project.$h#$b#Maybe a little too much, hehe.$8",
-"Gifts.SenS.PurpleShorts": "Oh, a pair of shorts! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure.$h",
+"Gifts.SenS.PurpleShorts": "Oh, a pair of shorts! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure.$h#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)789#$action AddMail Current DitR_M_SenShorts received",
 
 "Gifts.SenS.Crocus.Birthday": "...!!$11#$b#You... you remembered my birthday, and my favorite flower!$7#$b#@, you don't understand. This means the world to me. Thank you so much.$l",
 "Gifts.SenS.Cloth.Birthday": "@, this is amazing! Thank you for the cloth, I've been in dire need of some.$h#$b#Getting it from you on my birthday is even better!$h",
@@ -1535,7 +1535,7 @@
 "Gifts.WaffleW.GoatMilk": "%Waffle is offended by the offering of goat milk.",
 "Gifts.WaffleW.SolarEssence": "%Waffle growls at the solar essence.",
 "Gifts.WaffleW.Potato": "%Waffle expects you to throw the potato like a ball...",
-"Gifts.WaffleW.PurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.",
+"Gifts.WaffleW.PurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.#$b#%She then grows bored and drops them on the ground.",
 
 //Pipo
 "Gifts.PipoP.Like": "Piiiipo pip pipo.",
@@ -1574,7 +1574,7 @@
 "Gifts.PipoP.SpicyEel": "%Pipo nibbles on the eel and then hisses from the spice!",
 "Gifts.PipoP.RedMushroom": "%Pipo knows better than to eat strange red forage.",
 "Gifts.PipoP.WildHorseRadish": "%Pipo knows the dark secrets of the wild horse radish.",
-"Gifts.PipoP.PurpleShorts": "%Pipo sits proudly atop of the purple shorts.",
+"Gifts.PipoP.PurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts.#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)789#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
 
 /*
