@@ -172,6 +172,7 @@
                 "sens_sit": "20/20 20 20/20"
             }
         },
+    //Sprite patches that didn't work in appearance for whatever reason
         {
             "LogName": "Senbrella Overworld", 
             "Action": "EditImage",
@@ -183,6 +184,17 @@
                 "Weather": "Sun, Wind, Snow",
                 "Time": "{{Range: 1700, 1930}}",
                 "TodaysDate: |contains=winter 15, winter 16, winter 17": false
+            }
+        },
+        {
+            "LogName": "Sen Shorts", 
+            "Action": "EditImage",
+            "Target": "Characters/SenS",
+            "FromFile": "assets/Characters/Sen/Sen_Shorts.png",
+            "When": {
+                "HasFlag": "DitR_M_SenShorts",
+                "Query: {{Random: {{Range: 1, 20}}|key=SPS}} = 1": true,
+                "TodaysDate: |contains=winter 13, winter 15, winter 16, winter 17": false
             }
         },
         {
