@@ -64,6 +64,13 @@ CREDITS
             "Description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
             "Section": "Graphics"
         },
+        "Pipo Can Wear Shorts": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description": "Allows Pipo to wear the Lucky Purple Shorts after you gift it to them. Disable if you want them normal again.",
+            "Section": "Graphics"
+        },
         "Caldera Void Lava Snails": {
             "AllowValues": "true, false",
             "Default": true,
