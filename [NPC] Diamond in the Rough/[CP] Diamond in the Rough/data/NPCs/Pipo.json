@@ -62,7 +62,7 @@
             "Target": "Characters/PipoP",
             "FromFile": "assets/{{TargetPathOnly}}/Pipo/Pipo_Shorts.png",
             "Update": "OnTimeChange",
-            "When": { "HasFlag": "DitR_M_PipoShorts", "Pipo Can Wear Shorts": true }
+            "When": { "HasFlag": "DitR_M_PipoShorts" }
         },
         {
             "Action": "Load",

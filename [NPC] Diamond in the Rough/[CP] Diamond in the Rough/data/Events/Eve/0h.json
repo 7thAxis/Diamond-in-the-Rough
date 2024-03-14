@@ -1,4 +1,6 @@
 {
+// 1 right, 2 down, 3 left, 4 up  - advanced move
+// 0 up, 1 right, 2 down, 3 left - face direction
     "Changes": [
         {
             "LogName": "Eve 0 Heart",
@@ -9,7 +11,17 @@
 
                 {{ModID}}.Music.EveTheme/
                 28 59/
-                farmer 23 57 1 EveT 34 57 3 WaffleW 34 58 3/
+                farmer 23 57 1 EveT 34 57 3 WaffleW 34 58 3 Aideen 10 48 3 Rosa 45 69 0 PipoP 20 65 2 TraceV 20 61 2 FC.Nikolai? 19 62 2 FC.Barron? 23 63 2 FC.John? 24 63 2 Nova.Dylan? 33 65 3 Nova.Eli? 25 55 2 RodneyOBrien? 31 63 2 MadDog.HashtagBearFam.Sondra? 34 56 1 MadDog.HashtagBearFam.Sigurd? 35 56 3 Mateo? 21 62 3/
+
+                animate PipoP false true 75 18 18 19 19 20 20 21 21 22 22 19 19 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18 18/
+                animate TraceV false true 75 16 16 17 17 18 18 19 19/
+                animate FC.Barron? false true 75 22 22 22 22 22 22 22 22 22 22 22 22 22 22 21 21 21/
+                animate Nova.Dylan? false true 75 38 38 38 38 38 38 38 38 38 38 38 38 38 38 37 37 37 36 37 36 37 36 37 36 37 36 37 36 37 36 37 36 38 38 38 38 38 38 38 38 37 36 37 36 37 36 37 36 37 36/
+                animate RodneyOBrien? false true 75 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 25 24 24/
+                animate Nova.Eli? false true 75 134 134 134 134 134 134 135 135 135 135 135 135 135 135 136 136 136 136 136 136 136 136 136/
+                showFrame FC.John? 31/
+                showFrame FC.Nikolai? 25/
+
                 addConversationTopic DitR_CT_EveMeet 3/
                 skippable/
                 ignoreCollisions EveT/
@@ -108,10 +120,13 @@
                     playSound {{ModID}}.SFX.WaffleBark/
                     pause 500/
                     advancedMove EveT false -10 0 4 200/
+                    stopAnimation Nova.Eli? 136/
+                    animate Nova.Eli? false false 75 32 33 34 35 35 36 36 37 37 38 39 39 40 41 41 44 45 46 47 51 25 25 25 25 25 25 25/
                     faceDirection farmer 3/
                     speed WaffleW 3/
                     pause 500/
                     advancedMove WaffleW false -10 0 4 200/
+                    warp Nova.Eli? -2000 -2000/
                     pause 500/
                 end/
                 " 
@@ -119,5 +134,3 @@
         }
     ]
 }
-// 1 right, 2 down, 3 left, 4 up  - advanced move
-// 0 up, 1 right, 2 down, 3 left - face direction

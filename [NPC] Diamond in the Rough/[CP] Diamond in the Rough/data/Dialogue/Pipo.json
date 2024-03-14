@@ -78,7 +78,14 @@
             "AcceptGift_(O)16": "{{i18n:Gifts.PipoP.WildHorseRadish}}",
 
             "RejectItem_(O)809": "{{i18n:Movies.PipoP.RejectMovieTicket}}",
-            "RejectItem_(O)789": "{{i18n:Gifts.PipoP.PurpleShorts}}" 
+
+            //Purple Shorts Easter Egg
+            "RejectItem_(O)789": "{{i18n:Gifts.PipoP.PurpleShorts}}", 
+            "RejectItem_(O)686": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Spinner
+            "RejectItem_(O)687": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Dressed Spinner
+            "RejectItem_(O)691": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Barbed Hook
+            "RejectItem_(O)856": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Curiosity Lure
+            "RejectItem_(O)877": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}" //Quality Bobber
         }
     },
     {

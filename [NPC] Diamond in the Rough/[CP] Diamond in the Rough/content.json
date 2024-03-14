@@ -64,13 +64,6 @@ CREDITS
             "Description": "Uses Pipo's original alpha portrait art. For those that want more derp.",
             "Section": "Graphics"
         },
-        "Pipo Can Wear Shorts": {
-            "AllowValues": "true, false",
-            "Default": true,
-            "AllowBlank": false,
-            "Description": "Allows Pipo to wear the Lucky Purple Shorts after you gift it to them. Disable if you want them normal again.",
-            "Section": "Graphics"
-        },
         "Caldera Void Lava Snails": {
             "AllowValues": "true, false",
             "Default": true,
@@ -175,15 +168,6 @@ CREDITS
             "When": { "HasFlag: |contains=DitR_M_SenS_Romantic": true }
         },
         {
-            "Name": "LivingWithSen", 
-            "Value": "false"
-        },
-        {
-            "Name": "LivingWithSen", 
-            "Value": "true",
-            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
-        },
-        {
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusUnknown}}"
         },
@@ -191,6 +175,19 @@ CREDITS
             "Name": "SenKrobusReference",
             "Value": "{{i18n:Core.SenS.KrobusKnown}}",
             "When": { "Relationship:Krobus: |contains=Unmet": false }
+        },
+        {
+            "Name": "LivingWithSen", 
+            "Value": "false"
+        },
+        {
+            "Name": "PipoShorts", 
+            "Value": "{{HasFlag: |contains=DitR_M_PipoShorts}}"
+        },
+        {
+            "Name": "LivingWithSen", 
+            "Value": "true",
+            "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
         },
         {
             "Name": "FishPondSnailEggSpawnable",
