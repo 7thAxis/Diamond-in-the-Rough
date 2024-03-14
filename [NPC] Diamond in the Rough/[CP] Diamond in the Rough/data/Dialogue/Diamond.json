@@ -4,15 +4,10 @@
         {
             "LogName": "Clyric Dialogue Pool",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/ClyricT",
+            "Target": "Characters/Dialogue/DiamondS",
             "Entries": 	{ 
-                "Mon": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Tue": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Wed": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Thu": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Fri": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Sat": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}",
-                "Sun": "{{i18n:Core.ClyricT.Dialogue.{{Random:{{Range: 1, 20}}}}}}"
+                "aaa": "aaa" //quality dialogue
+
             }
         }
         ]

@@ -332,7 +332,7 @@
 "Core.ClyricT.Name": "Clyric",
 "Core.WaffleW.Name": "Waffle",
 "Core.PipoP.Name": "Pipo",
-"Core.CowT.Name": "Cow",
+"Core.CowD.Name": "Cow",
 "Core.JeremyTS.Name": "Jeremy T. Snail",
 
 "Core.SenS.Friend": "friend",
@@ -2029,6 +2029,15 @@
 "Maps.EveT.EveHouse": "Eve's House",
 "Maps.TraceV.TraceHouse": "Trace's House",
 "Maps.JeremyTSnail.JeremyRoom": "Jeremy's Room",
+
+ //---------------------------- NPC Waiting Room Callout Post ------------------------------------------//
+
+"Maps.SenS.WaitingRoom": "How... did I get here?$u#$b#Help, I'm lost! I'm so lost!$9",
+"Maps.SkrellS.WaitingRoom": "You should leave.#$b#Now.$a#$b#This is no place for you.$a",
+"Maps.EbbS.WaitingRoom": "...H-hello? Are you lost?$8",
+"Maps.DiamondS.WaitingRoom": "Hmm hmm hmm~$h#$b#Oh! I haven't seen a new person come through here in ages.$u#$b#Are you real?!$9",
+"Maps.ClyricT.WaitingRoom": "Hey- You're not supposed to be in here!$u#$b#Don't worry, I won't tell anyone that I saw you.$h#$b#...Unless they ask.$s",
+"Maps.CowD.WaitingRoom": "%Cow considers setting the waiting room on fire.#$b#Cow is cooped up and bored!",
 
  //---------------------------- FAKE NPCS ------------------------------------------//
 //Fake NPCs

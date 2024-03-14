@@ -25,7 +25,7 @@
                         {
                             "Id": "Sen Waiting Room",
                             "Location": "EastScarp_TNPCWaitingWarpRoom",
-                            "Tile": { "X": 7, "Y": 7 },
+                            "Tile": { "X": 13, "Y": 9 },
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
                         },

@@ -2,31 +2,31 @@
     "Changes": [
 //---------------------------- DISPOSITIONS ------------------------------------------//
         {
-            "LogName": "Ebb Dispositions",
+            "LogName": "Diamond Dispositions",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "EbbS": {
-                    "DisplayName": "{{i18n:Core.EbbS.Name}}",
-                    "FormerCharacterNames": [ "Ebb" ],
-                    "BirthSeason": "fall",
+                "DiamondS": {
+                    "DisplayName": "{{i18n:Core.DiamondS.Name}}",
+                    "BirthSeason": "spring",
                     "BirthDay": 5,
                     "HomeRegion": "Other",
-                    "Gender": "Undefined",
+                    "Gender": "Female",
                     "Age": "Adult",
-                    "Manner": "Polite",
-                    "SocialAnxiety": "Shy",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Outgoing",
                     "Optimism": "Positive",
                     "CanBeRomanced": false,
-                    "LoveInterest": "Skrell",
+                    "LoveInterest": "Skrell, Eve",
                     "Calendar": "HiddenAlways",
                     "SocialTab": "HiddenAlways",
+                    "ShakePortraits": [ 9 ],
                     "CanGreetNearbyCharacters": false,
                     "ExcludeFromIntroductionsQuest": true,
                     "ExcludeFromPerfectionScore": false,
                     "WinterStarParticipant": false,
-                    "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 60,
+                    "DumpsterDiveFriendshipEffect": 5,
+                    "DumpsterDiveEmote": 56,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -34,20 +34,20 @@
                     "Breather": false,
                     "Home": [
                         {
-                            "Id": "Ebb Waiting Room",
+                            "Id": "Dia Waiting Room",
                             "Location": "EastScarp_TNPCWaitingWarpRoom",
-                            "Tile": { "X": 15, "Y": 9 },
+                            "Tile": { "X": 16, "Y": 9 },
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.TBA"
                         }
                     ]
                 }
             }
-        },        
+        },
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [ "EbbS" ],
+            "TargetField": [ "DiamondS" ],
             "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
@@ -57,14 +57,14 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "EbbS": "{{i18n:Gifts.EbbS.Love}}/5/{{i18n:Gifts.EbbS.Like}}/5/{{i18n:Gifts.EbbS.Dislike}}/-5/{{i18n:Gifts.EbbS.Hate}}/5/{{i18n:Gifts.EbbS.Neutral}}/5/"
+                "DiamondS": "{{i18n:Gifts.DiamondS.Love}}/5/{{i18n:Gifts.DiamondS.Like}}/5/{{i18n:Gifts.DiamondS.Dislike}}/-5/{{i18n:Gifts.DiamondS.Hate}}/5/{{i18n:Gifts.DiamondS.Neutral}}/5/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/EbbS, Portraits/EbbS",
-            "FromFile": "assets/{{TargetPathOnly}}/Ebb/Ebb.png"
+            "Target": "Characters/DiamondS, Portraits/DiamondS",
+            "FromFile": "assets/{{TargetPathOnly}}/Diamond/Diamond.png"
         }
      ]
 }

@@ -6,10 +6,9 @@
             "Target": "Data/Events/EastScarp_Village",
             "Entries": {
                 "{{ModID}}.Events.SenS.8h/e {{ModID}}.Events.SenS.6h.P2/t 2000 2600/w sunny/f SenS 2000/A DitR_CT_GardenCompleted": "
-
                 night_market/
                 71 121/
-                farmer 68 116 2 SenS 72 120 2/
+                farmer 68 116 2 SenS 72 120 2 SkrellS -2000 -2000 2 EbbS -2000 -2000 2/
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
@@ -76,10 +75,6 @@
                 speak SenS \"{{i18n:Events.SenS.Event8.14}}\"/
                 changePortrait SenS Kid/
                 changeSprite SenS Kid/
-                addTemporaryActor Skrell 16 32 -2000 -2000 2 true character/
-                addTemporaryActor Ebb 16 32 -2000 -2000 2 true character/
-                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
-                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 warp SenS -2000 -2000/
                 globalFadeToClear 0.012 true/
                 changeToTemporaryMap Sen_Flashback/
@@ -106,22 +101,22 @@
                     playSound shadowpeep/
                     pause 1500/
                     playSound wand/
-                    warp Skrell 19 12/
+                    warp SkrellS 19 12/
                     pause 300/
-                    faceDirection Skrell 1/
+                    faceDirection SkrellS 1/
                     pause 50/
-                    faceDirection Skrell 3/
+                    faceDirection SkrellS 3/
                     pause 50/
-                    jump Skrell/
+                    jump SkrellS/
                     pause 600/
-                    speed Skrell 6/
-                    advancedMove Skrell false 0 -1 -5 0 0 -1 -4 0 3 200/
+                    speed SkrellS 6/
+                    advancedMove SkrellS false 0 -1 -5 0 0 -1 -4 0 3 200/
                     pause 200/
                     playSound wand/
-                    warp Ebb 19 12/
+                    warp EbbS 19 12/
                     pause 300/
-                    speed Ebb 6/
-                    advancedMove Ebb false 0 -1 -5 0 0 -2 -5 0 3 200/
+                    speed EbbS 6/
+                    advancedMove EbbS false 0 -1 -5 0 0 -2 -5 0 3 200/
                     showFrame SenS 0/
                     pause 500/
                     faceDirection SenS 1/
@@ -164,62 +159,62 @@
 
                     pause 5/
                     warp SenS 5 10/
-                speak Skrell \"{{i18n:Events.SenS.Event8.15}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.15}}\"/
                     jump SenS/
                 speak SenS \"{{i18n:Events.SenS.Event8.16}}\"/
                     move SenS 3 0 1/
-                    faceDirection Ebb 2/
+                    faceDirection EbbS 2/
                 speak SenS \"{{i18n:Events.SenS.Event8.17}}\"/
-                    emote Skrell 12/
-                speak Skrell \"{{i18n:Events.SenS.Event8.18}}\"/
+                    emote SkrellS 12/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.18}}\"/
                     pause 200/
                     shake SenS 400/
                     pause 600/
                 speak SenS \"{{i18n:Events.SenS.Event8.19}}\"/
-                    faceDirection Ebb 1/
-                    shake Ebb 400/
+                    faceDirection EbbS 1/
+                    shake EbbS 400/
                     playSound shadowpeep/
-                    emote Ebb 28/
+                    emote EbbS 28/
                     pause 600/
-                speak Skrell \"{{i18n:Events.SenS.Event8.20}}\"/
-                    faceDirection Ebb 2/
-                speak Skrell \"{{i18n:Events.SenS.Event8.21}}\"/
-                    faceDirection Skrell 2/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.20}}\"/
+                    faceDirection EbbS 2/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.21}}\"/
+                    faceDirection SkrellS 2/
                     pause 300/
-                    speed Skrell 3/
-                    emote Skrell 40/
-                advancedMove Skrell false 0 2 -1 0 2 300/
+                    speed SkrellS 3/
+                    emote SkrellS 40/
+                advancedMove SkrellS false 0 2 -1 0 2 300/
                     pause 300/
-                speak Skrell \"{{i18n:Events.SenS.Event8.22}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.22}}\"/
                     faceDirection SenS 2/
                     jump SenS/
                 speak SenS \"{{i18n:Events.SenS.Event8.23}}\"/
-                    faceDirection Skrell 0/
-                speak Skrell \"{{i18n:Events.SenS.Event8.24}}\"/
+                    faceDirection SkrellS 0/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.24}}\"/
                     emote SenS 28/
                     pause 100/
                 speak SenS \"{{i18n:Events.SenS.Event8.25}}\"/
                     pause 200/
-                    advancedMove Skrell false -1 0 3 100/
+                    advancedMove SkrellS false -1 0 3 100/
                     pause 300/
-                speak Skrell \"{{i18n:Events.SenS.Event8.26}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.26}}\"/
                     jump SenS/
                 speak SenS \"{{i18n:Events.SenS.Event8.27}}\"/
-                    faceDirection Skrell 0/
+                    faceDirection SkrellS 0/
                     playSound shadowpeep/
-                    shake Skrell 400/
-                speak Skrell \"{{i18n:Events.SenS.Event8.28}}\"/
+                    shake SkrellS 400/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.28}}\"/
                     emote SenS 28/
                     pause 400/
-                advancedMove Skrell false 2 0 0 -2 3 100/
+                advancedMove SkrellS false 2 0 0 -2 3 100/
                     pause 300/
                     faceDirection SenS 1/
                     pause 300/
-                speak Skrell \"{{i18n:Events.SenS.Event8.29}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.29}}\"/
                     jump SenS/
                 speak SenS \"{{i18n:Events.SenS.Event8.30}}\"/
                     playMusic junimoKart_whaleMusic/
-                speak Skrell \"{{i18n:Events.SenS.Event8.31}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.31}}\"/
                     emote SenS 16 true/
                     jump SenS/
                     showFrame SenS 4/
@@ -256,22 +251,22 @@
                     faceDirection SenS 1/
                     warp SenS 7 10/
                     pause 100/
-                    faceDirection Ebb 3/
+                    faceDirection EbbS 3/
                     pause 100/
                     shake SenS 400/
                 speak SenS \"{{i18n:Events.SenS.Event8.32}}\"/
-                    shake Skrell 400/
+                    shake SkrellS 400/
                     pause 100/
-                    faceDirection Ebb 1/
+                    faceDirection EbbS 1/
                     pause 100/
-                speak Skrell \"{{i18n:Events.SenS.Event8.33}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.33}}\"/
                     shake SenS 400/
-                    faceDirection Ebb 3/
+                    faceDirection EbbS 3/
                     pause 100/
                 speak SenS \"{{i18n:Events.SenS.Event8.34}}\"/
-                    speed Skrell 4/
-                    advancedMove Skrell false -2 0 3 200/
-                speak Skrell \"{{i18n:Events.SenS.Event8.35}}\"/
+                    speed SkrellS 4/
+                    advancedMove SkrellS false -2 0 3 200/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.35}}\"/
                     shake SenS 400/
                     pause 800/
                     shake SenS 400/
@@ -283,19 +278,19 @@
                     shake SenS 400/
                     emote SenS 28 true/
                     pause 400/
-                    jump Ebb/
+                    jump EbbS/
                     pause 600/
-                    advancedMove Ebb false 0 -1 -1 0 3 200/
+                    advancedMove EbbS false 0 -1 -1 0 3 200/
                     pause 300/
-                    faceDirection Skrell 0/
-                speak Skrell \"{{i18n:Events.SenS.Event8.36}}\"/
+                    faceDirection SkrellS 0/
+                speak SkrellS \"{{i18n:Events.SenS.Event8.36}}\"/
                     pause 500/
                     globalFade 0.012/
                     viewport -1000 -1000/
                     warp SenS 72 120/
                     warp farmer 71 120/
-                    warp Skrell -2000 -2000/
-                    warp Ebb -2000 -2000/
+                    warp SkrellS -2000 -2000/
+                    warp EbbS -2000 -2000/
 
                 faceDirection SenS 2/
                 changePortrait SenS Default/

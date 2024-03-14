@@ -2,31 +2,30 @@
     "Changes": [
 //---------------------------- DISPOSITIONS ------------------------------------------//
         {
-            "LogName": "Ebb Dispositions",
+            "LogName": "Cow Dispositions",
             "Action": "EditData",
             "Target": "Data/Characters",
             "Entries": {
-                "EbbS": {
-                    "DisplayName": "{{i18n:Core.EbbS.Name}}",
-                    "FormerCharacterNames": [ "Ebb" ],
-                    "BirthSeason": "fall",
-                    "BirthDay": 5,
-                    "HomeRegion": "Other",
-                    "Gender": "Undefined",
-                    "Age": "Adult",
-                    "Manner": "Polite",
-                    "SocialAnxiety": "Shy",
+                "CowD": {
+                    "DisplayName": "{{i18n:Core.CowD.Name}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 1,
+                    "HomeRegion": "Other", //Castle Village
+                    "Gender": "Female",
+                    "Age": "Child",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
                     "Optimism": "Positive",
                     "CanBeRomanced": false,
-                    "LoveInterest": "Skrell",
+                    "LoveInterest": "Setting Things On Fire",
                     "Calendar": "HiddenAlways",
                     "SocialTab": "HiddenAlways",
                     "CanGreetNearbyCharacters": false,
                     "ExcludeFromIntroductionsQuest": true,
-                    "ExcludeFromPerfectionScore": false,
+                    "ExcludeFromPerfectionScore": true,
                     "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": 0,
-                    "DumpsterDiveEmote": 60,
+                    "DumpsterDiveEmote": 32,
                     "CanVisitIsland": false,
                     "CanCommentOnPurchasedShopItems": false,
                     "EndSlideShow": "TrailingGroup",
@@ -34,20 +33,20 @@
                     "Breather": false,
                     "Home": [
                         {
-                            "Id": "Ebb Waiting Room",
+                            "Id": "Cow Waiting Room",
                             "Location": "EastScarp_TNPCWaitingWarpRoom",
-                            "Tile": { "X": 15, "Y": 9 },
+                            "Tile": { "X": 6, "Y": 9 },
                             "Direction": "down",
                             "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.TBA"
                         }
                     ]
                 }
             }
-        },        
+        },
         {
             "Action": "EditData",
             "Target": "Data/Characters",
-            "TargetField": [ "EbbS" ],
+            "TargetField": [ "CowD" ],
             "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
@@ -57,14 +56,14 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "EbbS": "{{i18n:Gifts.EbbS.Love}}/5/{{i18n:Gifts.EbbS.Like}}/5/{{i18n:Gifts.EbbS.Dislike}}/-5/{{i18n:Gifts.EbbS.Hate}}/5/{{i18n:Gifts.EbbS.Neutral}}/5/"
+                "CowD": "{{i18n:Gifts.CowD.Love}}/5/{{i18n:Gifts.CowD.Like}}/5/{{i18n:Gifts.CowD.Dislike}}/-5/{{i18n:Gifts.CowD.Hate}}/5/{{i18n:Gifts.CowD.Neutral}}/5/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/EbbS, Portraits/EbbS",
-            "FromFile": "assets/{{TargetPathOnly}}/Ebb/Ebb.png"
+            "Target": "Characters/CowD, Portraits/CowD",
+            "FromFile": "assets/{{TargetPathOnly}}/Cow/Cow.png"
         }
      ]
 }

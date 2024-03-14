@@ -3,7 +3,7 @@
 //---------------------------- BLANK LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Data/Events/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "FromFile": "data/blank.json"
         },
 //---------------------------- TILESHEET LOADS ------------------------------------------//
@@ -54,7 +54,7 @@
 //---------------------------- GENERAL FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/MiscData.json, data/Festivals/Festival_Dialogue.json, data/Dialogue/Townie.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
+            "FromFile": "data/MiscData.json, data/Festivals/Festival_Dialogue.json, data/Dialogue/Townie.json, data/Dialogue/Other.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
         },
 //---------------------------- LOCATION FILES ------------------------------------------//
         {
@@ -122,6 +122,21 @@
         {
             "Action": "Include",
             "FromFile": "data/NPCs/Ebb.json"
+        },
+        //Diamond
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Diamond.json"
+        },
+        //Clyric
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Clyric.json"
+        },
+        //Cow
+        {
+            "Action": "Include",
+            "FromFile": "data/NPCs/Cow.json"
         },
         //TempActors
         {

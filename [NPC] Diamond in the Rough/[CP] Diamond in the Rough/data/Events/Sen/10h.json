@@ -9,15 +9,11 @@
                 
                 desolate/
                 21 37/
-                farmer 23 31 0 SenS 23 37 0/
+                farmer 23 31 0 SenS 23 37 0 SkrellS -2000 -2000 2 EbbS -2000 -2000 2/
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
                 ignoreCollisions farmer/
-                addTemporaryActor Skrell 16 32 -2000 -2000 2 true character/
-                addTemporaryActor Ebb 16 32 -2000 -2000 2 true character/
-                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
-                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 addConversationTopic DitR_CT_MineFlashback 3/
                 skippable/
                 pause 800/
@@ -69,28 +65,28 @@
                     warp farmer -2000 -2000/
                     warp SenS 18 10/
                     faceDirection SenS 0/
-                    warp Skrell 18 7/
-                    warp Ebb 19 7/
+                    warp SkrellS 18 7/
+                    warp EbbS 19 7/
                     globalFadeToClear 0.012 true/
                     changeLocation Mine/
                     viewport 21 9/
                     playMusic Upper_Ambient/
                     pause 1000/
-                    emote Ebb 28/
-                    shake Ebb 1000/
+                    emote EbbS 28/
+                    shake EbbS 1000/
                     playSound shadowpeep/
                     pause 1000/
-                speak Skrell \"{{i18n:Events.SenS.Event10.8}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.8}}\"/
                     emote SenS 28 true/
                     shake SenS 1000/
                 speak SenS \"{{i18n:Events.SenS.Event10.9}}\"/
-                    emote Skrell 12 true/
-                    shake Skrell 1000/
-                speak Skrell \"{{i18n:Events.SenS.Event10.10}}\"/
-                    speed Skrell 3/
-                    advancedMove Skrell false 0 1 2 100/
+                    emote SkrellS 12 true/
+                    shake SkrellS 1000/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.10}}\"/
+                    speed SkrellS 3/
+                    advancedMove SkrellS false 0 1 2 100/
                     pause 350/
-                    emote Ebb 28 true/
+                    emote EbbS 28 true/
 
                         positionOffset SenS 0 4/
                         pause 5/
@@ -131,53 +127,53 @@
                     showFrame SenS 8/
                     pause 5/
                     warp SenS 18 11/
-                speak Skrell \"{{i18n:Events.SenS.Event10.11}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.11}}\"/
                     pause 100/
                     shake SenS 1000/
                     playSound shadowpeep/
                     advancedMove SenS false 0 -1 4 100/
                     pause 350/
-                    emote Skrell 16 true/
+                    emote SkrellS 16 true/
 
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        showFrame Skrell 1/
-                        positionOffset Skrell 0 -4/
+                        showFrame SkrellS 1/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        showFrame Skrell 0/
-                        positionOffset Skrell 0 -4/
+                        showFrame SkrellS 0/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        showFrame Skrell 3/
-                        positionOffset Skrell 0 -4/
+                        showFrame SkrellS 3/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        positionOffset Skrell 0 -4/
+                        positionOffset SkrellS 0 -4/
                         pause 5/
-                        showFrame Skrell 0/
+                        showFrame SkrellS 0/
                         pause 5/
 
-                    warp Skrell 18 7/
+                    warp SkrellS 18 7/
                 speak SenS \"{{i18n:Events.SenS.Event10.12}}\"/
                     pause 200/
                     faceDirection SenS 2/
@@ -188,28 +184,28 @@
                     pause 600/
                 speak SenS \"{{i18n:Events.SenS.Event10.14}}\"/
                     pause 100/
-                    shake Skrell 1000/
+                    shake SkrellS 1000/
                     pause 300/
-                    faceDirection Ebb 3/
-                    emote Ebb 28/
+                    faceDirection EbbS 3/
+                    emote EbbS 28/
                     pause 100/
-                speak Skrell \"{{i18n:Events.SenS.Event10.15}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.15}}\"/
                     pause 100/
                     emote SenS 16 true/
                     jump SenS/
                     playSound shadowpeep/
-                    faceDirection Ebb 2/
+                    faceDirection EbbS 2/
                     faceDirection SenS 0/
                     pause 100/
                 speak SenS \"{{i18n:Events.SenS.Event10.16}}\"/
                     pause 100/
-                    shake Skrell 1000/
+                    shake SkrellS 1000/
                     pause 400/
-                    faceDirection Skrell 3/
+                    faceDirection SkrellS 3/
                     pause 400/
-                    faceDirection Ebb 3/
+                    faceDirection EbbS 3/
                     pause 100/
-                speak Skrell \"{{i18n:Events.SenS.Event10.17}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.17}}\"/
                     pause 1000/
                     shake SenS 5000/
                     pause 700/
@@ -217,12 +213,12 @@
                     playSound shadowpeep/
                     advancedMove SenS false 0 4 2 100/
                     pause 300/
-                    emote Ebb 16 true/
-                    faceDirection Ebb 2/
-                    jump Ebb/
+                    emote EbbS 16 true/
+                    faceDirection EbbS 2/
+                    jump EbbS/
                     pause 500/
-                    speed Ebb 4/
-                    advancedMove Ebb false 0 3 2 100/
+                    speed EbbS 4/
+                    advancedMove EbbS false 0 3 2 100/
                     pause 300/
 
                 warp SenS -2000 -2000/
@@ -232,8 +228,8 @@
                 warp SenS 25 37/
                 faceDirection SenS 3/
                 faceDirection farmer 1/
-                warp Skrell -2000 -2000/
-                warp Ebb -2000 -2000/
+                warp SkrellS -2000 -2000/
+                warp EbbS -2000 -2000/
                 globalFadeToClear 0.012 true/
                 changeLocation EastScarp_DeepDark/
                 viewport 21 37 clamp/
@@ -287,7 +283,7 @@
                 
                 ocean/
                 32 112/
-                farmer 28 106 2 SenS 35 113 1/
+                farmer 28 106 2 SenS 35 113 1 SkrellS 37 113 3 EbbS 36 112 2/
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
@@ -295,21 +291,17 @@
                 addConversationTopic DitR_CT_TheConfrontation 3/
                 skippable/
                 addLantern 737 32 110 3/
-                addTemporaryActor Skrell 16 32 37 113 3 true character/
-                addTemporaryActor Ebb 16 32 36 112 2 true character/
-                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
-                changeName Ebb {{i18n:Core.SenS.Name.Ebb}}/
                 pause 500/
 
                     advancedMove farmer false 0 2 1 0 2 600/
                     pause 600/
                     playSound shadowpeep/
-                    shake Skrell 1000/
-                    emote Skrell 40 true/
+                    shake SkrellS 1000/
+                    emote SkrellS 40 true/
                     pause 1200/
                     playSound shadowpeep/
-                    jump Ebb/
-                    emote Ebb 56 true/
+                    jump EbbS/
+                    emote EbbS 56 true/
                     pause 1000/
                     playSound shadowpeep/
                     emote SenS 32/
@@ -325,32 +317,32 @@
                     emote SenS 16 true/
                     faceDirection SenS 3/
                     pause 10/
-                    emote Ebb 16 true/
-                    faceDirection Ebb 3/
+                    emote EbbS 16 true/
+                    faceDirection EbbS 3/
                     pause 10/
                     playSound shadowpeep/
-                    shake Skrell 1000/
-                    emote Skrell 16/
+                    shake SkrellS 1000/
+                    emote SkrellS 16/
                     pause 400/
                     faceDirection SenS 1/
                     pause 20/
-                    emote Ebb 8 true/
+                    emote EbbS 8 true/
                     pause 300/
-                    faceDirection Ebb 2/
+                    faceDirection EbbS 2/
                     pause 100/
                     emote SenS 32/
-                    emote Skrell 8 true/
-                    shake Skrell 1000/
+                    emote SkrellS 8 true/
+                    shake SkrellS 1000/
                     pause 500/
                     speed SenS 4/
-                    speed Ebb 3/
+                    speed EbbS 3/
                     advancedMove SenS false -7 0 0 -4 1 100/
                     pause 500/
-                    emote Skrell 16 true/
+                    emote SkrellS 16 true/
                     playSound shadowpeep/
-                    jump Skrell/
+                    jump SkrellS/
                     pause 200/
-                    advancedMove Ebb false 0 1 1 100/
+                    advancedMove EbbS false 0 1 1 100/
                     pause 1700/
                     faceDirection farmer 3/
                     emote farmer 32 true/
@@ -395,183 +387,183 @@
                     emote SenS 56 true/
                     jump SenS/
                     pause 200/
-                    advancedMove Ebb false 0 -1 3 100/
+                    advancedMove EbbS false 0 -1 3 100/
                     pause 200/
-                    emote Ebb 8 true/
+                    emote EbbS 8 true/
                     pause 100/
-                    emote Skrell 8 true/
-                    shake Skrell 1000/
+                    emote SkrellS 8 true/
+                    shake SkrellS 1000/
                     pause 1000/
                     speed farmer 3/
                     advancedMove farmer false 0 3 1 0 1 100/
                     pause 1300/
-                    emote Skrell 16 true/
+                    emote SkrellS 16 true/
                     playSound shadowpeep/
-                    jump Skrell/
+                    jump SkrellS/
 
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
 
                     pause 50/
-                    emote Ebb 16 true/
-                    jump Ebb/
+                    emote EbbS 16 true/
+                    jump EbbS/
                     
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
 
-                    warp Skrell 38 113/
-                    warp Ebb 37 112/
+                    warp SkrellS 38 113/
+                    warp EbbS 37 112/
                     pause 500/
                     speed farmer 2/
                     advancedMove farmer false 2 0 0 1 4 0 1 100/
                     pause 2500/
-                    emote Skrell 12 true/
-                    shake Skrell 1000/
+                    emote SkrellS 12 true/
+                    shake SkrellS 1000/
 
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        showFrame Skrell 13/
-                        positionOffset Skrell 4 0/
+                        showFrame SkrellS 13/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        showFrame Skrell 12/
-                        positionOffset Skrell 4 0/
+                        showFrame SkrellS 12/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        showFrame Skrell 15/
-                        positionOffset Skrell 4 0/
+                        showFrame SkrellS 15/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        positionOffset Skrell 4 0/
+                        positionOffset SkrellS 4 0/
                         pause 5/
-                        showFrame Skrell 12/
+                        showFrame SkrellS 12/
                         pause 50/
                         pause 5/
 
-                    warp Skrell 39 113/
+                    warp SkrellS 39 113/
 
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        showFrame Ebb 13/
-                        positionOffset Ebb 4 0/
+                        showFrame EbbS 13/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        showFrame Ebb 12/
-                        positionOffset Ebb 4 0/
+                        showFrame EbbS 12/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        showFrame Ebb 15/
-                        positionOffset Ebb 4 0/
+                        showFrame EbbS 15/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        positionOffset Ebb 4 0/
+                        positionOffset EbbS 4 0/
                         pause 5/
-                        showFrame Ebb 12/
+                        showFrame EbbS 12/
                         pause 5/
                         
-                    warp Ebb 38 112/
+                    warp EbbS 38 112/
                     pause 500/
                     advancedMove farmer false 1 0 1 100/
                     pause 500/
@@ -581,49 +573,49 @@
                     playSound pickUpItem/
                     addObject 38 113 203 1/
                     pause 200/
-                    faceDirection Ebb 2/
-                    emote Skrell 8 true/
+                    faceDirection EbbS 2/
+                    emote SkrellS 8 true/
                     pause 50/
-                    emote Ebb 8/
+                    emote EbbS 8/
                     pause 500/
-                    emote Skrell 40 true/
+                    emote SkrellS 40 true/
                     pause 10/
-                    emote Ebb 16/
+                    emote EbbS 16/
                     pause 500/
                     removeObject 38 113/
-                    emote Ebb 56 true/
-                    animate Ebb false false 150 16 17 18 19 20 21 22 23 24 25 26 27/
+                    emote EbbS 56 true/
+                    animate EbbS false false 150 16 17 18 19 20 21 22 23 24 25 26 27/
                     pause 800/
                     playSound shadowpeep/
-                    showFrame Skrell 16/
+                    showFrame SkrellS 16/
                     pause 2000/
-                    faceDirection Skrell 0/
+                    faceDirection SkrellS 0/
                     pause 200/
-                    emote Skrell 12/
+                    emote SkrellS 12/
                     pause 500/
-                    emote Ebb 56 true/
+                    emote EbbS 56 true/
                     playSound shadowpeep/
-                    jump Ebb/
+                    jump EbbS/
                     pause 100/
-                    speed Ebb 4/
-                    advancedMove Ebb false 0 -1 -4 0 1 100/
+                    speed EbbS 4/
+                    advancedMove EbbS false 0 -1 -4 0 1 100/
                     pause 1500/
-                    emote Ebb 56 true/
-                    faceDirection Ebb 1/
+                    emote EbbS 56 true/
+                    faceDirection EbbS 1/
                     faceDirection farmer 0/
                     pause 200/
-                    speed Skrell 4/
-                    emote Skrell 12 true/
-                    advancedMove Skrell false 0 -2 -3 0 3 100/
+                    speed SkrellS 4/
+                    emote SkrellS 12 true/
+                    advancedMove SkrellS false 0 -2 -3 0 3 100/
                     pause 1500/
-                    emote Ebb 56 true/
-                    jump Ebb/
+                    emote EbbS 56 true/
+                    jump EbbS/
                     pause 1000/
-                    advancedMove Ebb true 0 4 5 0 0 -4 -5 0 3 100/
+                    advancedMove EbbS true 0 4 5 0 0 -4 -5 0 3 100/
                     pause 300/
-                    advancedMove Skrell false -2 0 3 100/
+                    advancedMove SkrellS false -2 0 3 100/
                     pause 500/
-                    advancedMove Skrell true 0 4 5 0 0 -4 -5 0 3 100/
+                    advancedMove SkrellS true 0 4 5 0 0 -4 -5 0 3 100/
                     faceDirection farmer 2/
                     pause 50/
                     animate farmer false true 100 102 103/
@@ -636,7 +628,7 @@
             }
         },
         {
-            "LogName": "Skrell Epilogue",
+            "LogName": "SkrellS Epilogue",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
@@ -644,24 +636,22 @@
 
                 Upper_Ambient/
                 14 24/
-                farmer 8 23 1/
+                farmer 8 23 1 SkrellS 8 19 2/
                 ignoreCollisions farmer/
-                addConversationTopic DitR_CT_SkrellEpilogue 3/
+                addConversationTopic DitR_CT_SkrellSEpilogue 3/
                 skippable/
-                addTemporaryActor Skrell 16 32 8 19 2 true character/
-                changeName Skrell {{i18n:Core.SenS.Name.Skrell}}/
 
                     advancedMove farmer false 6 0 1 100/
                     pause 3200/
                     playSound shadowpeep/
-                    shake Skrell 1000/
+                    shake SkrellS 1000/
                     pause 500/
                     faceDirection farmer 0/
                     emote farmer 8/
                     advancedMove farmer false 0 -4 4 100/
                     pause 500/
 
-                        faceDirection Skrell 1/
+                        faceDirection SkrellS 1/
                         pause 1000/
                         faceDirection farmer 1/
                         pause 500/
@@ -669,40 +659,40 @@
                         
                     pause 500/
                     emote farmer 16/
-                    advancedMove Skrell false 4 0 1 100/
+                    advancedMove SkrellS false 4 0 1 100/
                     pause 1500/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.1}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.1}}\"/
                     pause 100/
                     emote farmer 8/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.2}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.2}}\"/
                     pause 100/
-                    emote Skrell 40/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.3}}\"/
+                    emote SkrellS 40/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.3}}\"/
                     pause 500/
-                    faceDirection Skrell 2/
-                    emote Skrell 40/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.4}}\"/
+                    faceDirection SkrellS 2/
+                    emote SkrellS 40/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.4}}\"/
                     pause 200/
                     emote farmer 16/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.5}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.5}}\"/
                     pause 100/
-                    faceDirection Skrell 1/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.6}}\"/
+                    faceDirection SkrellS 1/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.6}}\"/
                     pause 100/
-                    advancedMove Skrell false -2 0 3 100/
+                    advancedMove SkrellS false -2 0 3 100/
                     pause 1000/
-                    emote Skrell 40/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.7}}\"/
-                    faceDirection Skrell 1/
+                    emote SkrellS 40/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.7}}\"/
+                    faceDirection SkrellS 1/
                 question fork0 \"{{i18n:Events.SenS.Event10.p3.8}}\"/
                     fork SenRomance/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.9}}\"/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.10}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.9}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.10}}\"/
                     pause 100/
-                    emote Skrell 40/
-                    speak Skrell \"{{i18n:Events.SenS.Event10.p3.11}}\"/
+                    emote SkrellS 40/
+                    speak SkrellS \"{{i18n:Events.SenS.Event10.p3.11}}\"/
                     pause 100/
-                    advancedMove Skrell false -6 0 3 100/
+                    advancedMove SkrellS false -6 0 3 100/
                     pause 1000/
                     globalFade 0.012/
                     viewport -1000 -1000/
@@ -711,14 +701,14 @@
 
                 "SenRomance":"
                 resetVariable/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.12}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.12}}\"/
                     addMailReceived DitR_M_SenS_Romantic/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.10}}\"/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.10}}\"/
                     pause 100/
-                    emote Skrell 40/
-                speak Skrell \"{{i18n:Events.SenS.Event10.p3.11}}\"/
+                    emote SkrellS 40/
+                speak SkrellS \"{{i18n:Events.SenS.Event10.p3.11}}\"/
                     pause 100/
-                    advancedMove Skrell false -6 0 3 100/
+                    advancedMove SkrellS false -6 0 3 100/
                     pause 1000/
                     globalFade 0.012/
                     viewport -1000 -1000/
