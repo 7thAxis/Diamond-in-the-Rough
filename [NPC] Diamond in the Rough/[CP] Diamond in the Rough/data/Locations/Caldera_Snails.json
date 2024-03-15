@@ -1,20 +1,53 @@
 {
     "Changes": [
         {
-            "LogName": "Void Lava Snail CC Spawn - Caldera",
-            "Action": "EditMap",
-            "Target": "Maps/Caldera",
-            "Update": "OnLocationChange",
-            "MapTiles": [
-                { "Position": { "X": "30", "Y": "31" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
-                { "Position": { "X": "18", "Y": "33" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
-                { "Position": { "X": "15", "Y": "24" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.GiantVoidLavaSnailCaldera" } },
-                { "Position": { "X": "24", "Y": "18" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } },
-                { "Position": { "X": "36", "Y": "31" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } },
-                { "Position": { "X": "9", "Y": "28" }, "Layer": "Back", "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.SmallVoidLavaSnailCaldera" } }
-            ],
-            "When": 
-            { "Caldera Void Lava Snails": true }
+            "Action": "EditData",
+            "Target": "MEEP/FarmAnimals/SpawnData",
+            "Entries": {
+                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail1": {
+                    "AnimalId": "Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 30, "HomeTileY": 31
+                },
+                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail2": {
+                    "AnimalId": "Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 18, "HomeTileY": 32
+                },
+                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail3": {
+                    "AnimalId": "Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 15, "HomeTileY": 24
+                },
+                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail1": {
+                    "AnimalId": "Baby Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 24, "HomeTileY": 18
+                },
+                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail2": {
+                    "AnimalId": "Baby Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 36, "HomeTileY": 31
+                },
+                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail3": {
+                    "AnimalId": "Baby Giant Void Lava Snail Caldera",
+                    "LocationId": "Caldera",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
+                    "HomeTileX": 9, "HomeTileY": 28
+                }
+            },
+            "When": { "Caldera Void Lava Snails": true }
         },
         {
             "LogName": "Void Lava Snail Fishing - Caldera",

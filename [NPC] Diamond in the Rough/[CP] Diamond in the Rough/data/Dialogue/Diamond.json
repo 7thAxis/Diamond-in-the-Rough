@@ -2,7 +2,7 @@
     "Changes": [
 
         {
-            "LogName": "Clyric Dialogue Pool",
+            "LogName": "Diamond Dialogue Pool",
             "Action": "EditData",
             "Target": "Characters/Dialogue/DiamondS",
             "Entries": 	{ 

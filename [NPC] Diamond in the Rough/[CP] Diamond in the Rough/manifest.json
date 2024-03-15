@@ -9,10 +9,11 @@
 	"MinimumGameVersion": "1.6",
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"DH.MEEP.ConfigVersion": "2",
-    "DH.MEEP": "2.0.0",
+    "DH.MEEP": "2.2.0",
     "DH.MEEP.CloseupInteractions": "",
 	"DH.MEEP.VanillaLetters": "",
 	"DH.MEEP.FakeNPCs": "",
+	"DH.MEEP.FarmAnimalSpawns": "",
 	"Dependencies": [
 		{
 			"UniqueID": "LemurKat.EastScarpe.CP",
@@ -20,12 +21,8 @@
 			"IsRequired": true
 		},
 		{
-			"UniqueID": "PeacefulEnd.CustomCompanions",
-			"IsRequired": true
-		},
-		{
 			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
-			"MinimumVersion": "2.0.2-beta",
+			"MinimumVersion": "2.2.0-beta",
 			"IsRequired": true
 		},
 		{

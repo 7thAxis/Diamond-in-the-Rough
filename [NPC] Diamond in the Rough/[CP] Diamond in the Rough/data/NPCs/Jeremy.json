@@ -2,26 +2,55 @@
     "Changes": [
 //---------------------------- DISPOSITIONS ------------------------------------------//
         {
-            "LogName": "Jeremy Spawn",
-            "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
-            "Update": "OnLocationChange",
-            "MapTiles": [
-                {
-                    "Position": { "X": "5", "Y": "11" },
-                    "Layer": "Back",
-                    "SetProperties": { "CustomCompanions": "Spawn 1 7thAxis.DitR.CC.JeremyTSnail" }
-                }
-            ]
-        },
-        {
-            "LogName": "Jeremy Display Name",
+            "LogName": "Jeremy Dispositions",
             "Action": "EditData",
-            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
-            "TargetField": "Companion",
+            "Target": "Data/Characters",
             "Entries": {
-                "Companion": { "Portrait": { "PortraitDisplayName": "{{i18n:Core.JeremyTS.Name}}" }
+                "JeremyTSnail": {
+                    "DisplayName": "{{i18n:Core.JeremyTS.Name}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 28,
+                    "HomeRegion": "Other",
+                    "Gender": "Undefined",
+                    "Age": "Adult",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Neutral",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": false,
+                    "LoveInterest": "Temmie", //Thanks Tiara
+                    "SocialTab": "UnknownUntilMet",
+                    "CanGreetNearbyCharacters": false,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "DumpsterDiveFriendshipEffect": -5,
+                    "DumpsterDiveEmote": 40,
+                    "CanVisitIsland": false,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "SpawnIfMissing": true,
+                    "Breather": false,
+                    "Size": { "X": 32, "Y": 32 },
+                    "Shadow":{ "Visible": false },
+                    "EmoteOffset": { "X": 30, "Y": 30 },
+                    "Home": [
+                        {
+                            "Location": "{{ModID}}.Maps.Jeremy_Room",
+                            "Tile": { "X": 5, "Y": 11 },
+                            "Direction": "down"
+                        }
+                    ],
+                    "MugShotSourceRect": { "X": 8, "Y": 7, "Width": 16, "Height": 25 }
                 }
+            }
+        },
+//---------------------------- GIFT TASTE ------------------------------------------//
+        {
+            "LogName": "Gift Taste",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love}}/5/{{i18n:Gifts.JeremyTSnail.Like}}/5/{{i18n:Gifts.JeremyTSnail.Dislike}}/-5/{{i18n:Gifts.JeremyTSnail.Hate}}/5/{{i18n:Gifts.JeremyTSnail.Neutral}}/5/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//
@@ -29,6 +58,18 @@
             "Action": "Load",
             "Target": "Characters/JeremyTSnail, Portraits/JeremyTSnail",
             "FromFile": "assets/{{TargetPathOnly}}/Jeremy/Jeremy.png"
+        },
+
+        {
+            "LogName": "Jeremy Animations",
+            "Action": "EditData",
+            "Target": "Data/animationdescriptions",
+            "Entries": {
+                "jeremyTS_rear": "16/16 17 18 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 19 18 17 16/16",
+                "jeremyTS_sleep": "22/22/22",
+                "jeremyTS_peek": "8/8 8 9 9 8 8 9 9 8 8 9 9 8 8 9 9 8 8 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23/9",
+                "jeremyTS_wiggle": "20/20 20 21 21/21"
+            }
         }
      ]
 }

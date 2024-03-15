@@ -1,28 +1,56 @@
 {
     "Changes": [
         {
-            "LogName": "Jeremy Default Dialogue",
+            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
             "Action": "EditData",
-            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
-            "TargetField": "Companion",
-            "Entries": {
-                "Companion": {
-                    "InspectionDialogue": "{{i18n:Core.JeremyTS.PreForestMagic.1|default={{i18n:Core.System.SomethingWentWrong}}}}"
-                }
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.PreForestMagic.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+            }
+        }, 
+        {
+            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
             },
-            "When": { "HasSeenEvent: |contains=112": false }       
+            "When": { "HasSeenEvent: |contains=112": true } 
         },
         {
-            "LogName": "Jeremy Specific Day Dialogue",
+            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
             "Action": "EditData",
-            "Target": "{{PeacefulEnd.CustomCompanions/Companions:7thAxis.DitR.CC.JeremyTSnail}}",
-            "TargetField": "Companion",
-            "Entries": {
-                "Companion": {
-                    "InspectionDialogue":"{{i18n:Core.JeremyTS.{{Season}}.Day.{{Day}}|default={{i18n:Core.JeremyTS.Rainy.{{Weather: |contains=Rain, Storm}}.1|default={{i18n:Core.JeremyTS.DailyDialogue.1|default={{i18n:Core.System.SomethingWentWrong}}}}}}}}"
-                }
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Weather: |contains=Rain, Storm}}.{{Random:{{Range: 1, 1}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
             },
-            "When": { "HasSeenEvent: |contains=112": true }            
+            "When": { "HasSeenEvent: |contains=112": true, "Weather": "Rain, Storm" } 
+        }, 
+        {
+            "LogName": "Jeremy General Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": {
+
+                "spring_1": "{{i18n:Core.JeremyTS.Spring.Day.1}}",
+                "spring_12": "{{i18n:Core.JeremyTS.Spring.Day.12}}",
+                "spring_23": "{{i18n:Core.JeremyTS.Spring.Day.23}}",
+                "spring_28": "{{i18n:Core.JeremyTS.Spring.Day.28}}",
+                "summer_1": "{{i18n:Core.JeremyTS.Summer.Day.1}}",
+                "summer_10": "{{i18n:Core.JeremyTS.Summer.Day.10}}",
+                "summer_27": "{{i18n:Core.JeremyTS.Summer.Day.27}}",
+                "summer_28": "{{i18n:Core.JeremyTS.Summer.Day.28}}",
+                "fall_1": "{{i18n:Core.JeremyTS.Fall.Day.1}}",
+                "fall_15": "{{i18n:Core.JeremyTS.Fall.Day.15}}",
+                "fall_26": "{{i18n:Core.JeremyTS.Fall.Day.26}}",
+                "fall_28": "{{i18n:Core.JeremyTS.Fall.Day.28}}",
+                "winter_1": "{{i18n:Core.JeremyTS.Winter.Day.1}}",
+                "winter_7": "{{i18n:Core.JeremyTS.Winter.Day.7}}",
+                "winter_24": "{{i18n:Core.JeremyTS.Winter.Day.24}}",
+                "winter_28": "{{i18n:Core.JeremyTS.Winter.Day.28}}"
+
+            },
+            "When": { "HasSeenEvent: |contains=112": true }       
         }
     ]
 }

@@ -1,0 +1,36 @@
+{
+    "Changes": [
+        {
+            "LogName": "Jeremy Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JeremyTSnail",
+            "Entries": {
+				"spring": "					
+					0 {{ModID}}.Maps.Jeremy_Room 4 9/
+					610 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
+                    700 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    800 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    900 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1000 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1100 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    1200 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    1300 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
+                    1400 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA8}}/
+                    1500 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA9}}/
+                    1600 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA10}}/
+                    1700 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA11}}/
+                    1800 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA12}}/
+                    1900 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA13}}/
+                    2000 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA14}}/
+                    2100 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA15}}/
+                    2200 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA116}}/
+                    2300 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA17}}/
+                    2400 4 9 jeremyTS_sleep
+				",
+            }
+        }
+
+    ]
+}
+
+// 0 up, 1 right, 2 down, 3 left - face direction

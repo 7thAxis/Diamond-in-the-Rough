@@ -30,6 +30,7 @@
                     "EndSlideShow": "TrailingGroup",
                     "SpawnIfMissing": true,
                     "Breather": false,
+                    "EmoteOffset": { "X": 0, "Y": 50 },
                     "Home": [
                         {
                             "Location": "EastScarp_Village",

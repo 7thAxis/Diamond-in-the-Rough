@@ -73,8 +73,40 @@
                       }
                     ],
                     "ShowInSummitCredits": true
-                  }              
-                
+                  },   
+
+                  "Giant Void Lava Snail Caldera": {
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "House": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
+                    "PurchasePrice": -1,
+                    "SellPrice": 0,
+                    "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
+                    "Sound": "{{ModID}}.SFX.SnailCry",
+                    "Texture": "Animals\\Giant_Void_Lava_Snail_Caldera",
+                    "UseFlippedRightForLeft": true,
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
+                    "ShadowWhenBaby": { "Visible": false },
+                    "ShadowWhenAdult": { "Visible": false },
+                    "ShowInSummitCredits": false
+                    },
+                    
+                    "Baby Giant Void Lava Snail Caldera": {
+                      "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                      "House": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
+                      "PurchasePrice": -1,
+                      "SellPrice": 0,
+                      "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
+                      "Sound": "{{ModID}}.SFX.SnailCry",
+                      "Texture": "Animals\\Baby_Giant_Void_Lava_Snail_Caldera",
+                      "UseFlippedRightForLeft": true,
+                      "SpriteWidth": 32,
+                      "SpriteHeight": 32,
+                      "ShadowWhenBaby": { "Visible": false },
+                      "ShadowWhenAdult": { "Visible": false },
+                      "ShowInSummitCredits": false
+                      } 
+        
              }
         }
 

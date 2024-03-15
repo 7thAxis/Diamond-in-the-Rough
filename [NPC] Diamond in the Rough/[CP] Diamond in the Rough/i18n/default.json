@@ -333,7 +333,7 @@
 "Core.WaffleW.Name": "Waffle",
 "Core.PipoP.Name": "Pipo",
 "Core.CowD.Name": "Cow",
-"Core.JeremyTS.Name": "Jeremy T. Snail",
+"Core.JeremyTS.Name": "Jeremy",
 
 "Core.SenS.Friend": "friend",
 "Core.SenS.Name.Skrell": "Skrell",
@@ -2045,6 +2045,9 @@
 
  //---------------------------- NPC MAP STRINGS ------------------------------------------//
 
+    //----CALDERA----//
+"Maps.CalderaLavaSnail.Pet": "The snail wonders how you reached them...",
+
     //----EVE----//
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
 "Maps.EveT.EveTHFridge": "The fridge is full of fresh vegetables.",
@@ -2219,9 +2222,9 @@
 
 //Snail Monsense
 "Quests.DitR.VoidLavaSnailRoundUp.Title": "Void Lava Snail Round-Up!",
-"Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy's liaison, Pipo the Cat.",
-"Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 10 Void Lava Snails to Pipo for Jeremy.",
-"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Pipo accepts the snails with a nod, praising you for your valiant snail collection efforts. You think.#$action IncrementStat VoidLavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
+"Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy T. Snail.",
+"Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 10 Void Lava Snails to Jeremy T. Snail.",
+"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Jeremy accepts the snails with a grateful nod.#$b#Thank you. I will ensure these younglings cause no futher chaos to the valley.#$action IncrementStat VoidLavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
 "Quests.DitR.VoidLavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
 
 /*

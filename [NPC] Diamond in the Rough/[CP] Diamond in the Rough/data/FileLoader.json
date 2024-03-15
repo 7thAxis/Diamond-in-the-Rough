@@ -3,7 +3,7 @@
 //---------------------------- BLANK LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Data/Events/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Characters/Dialogue/JeremyTSnail, Characters/schedules/JeremyTSnail, Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "FromFile": "data/blank.json"
         },
 //---------------------------- TILESHEET LOADS ------------------------------------------//
@@ -34,7 +34,7 @@
 //---------------------------- FARM ANIMALS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail",
+            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail, Animals/Giant_Void_Lava_Snail_Caldera, Animals/Baby_Giant_Void_Lava_Snail_Caldera",
             "FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
         },
         {
@@ -111,7 +111,7 @@
         //Jeremy
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Events/Jeremy/Quest_Activation.json"
+            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/Jeremy.json, data/Events/Jeremy/Quest_Activation.json"
         },
         //Skrell
         {
