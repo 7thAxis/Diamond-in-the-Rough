@@ -22,13 +22,18 @@
 		},
 		{
 			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
-			"MinimumVersion": "2.2.0-beta",
+			"MinimumVersion": "2.2.5-beta",
 			"IsRequired": true
 		},
 		{
 			"UniqueID": "spacechase0.SpaceCore",
 			"MinimumVersion": "1.13.0",
 			"IsRequired": false
+		},
+		{
+			"UniqueID": "BleakCodex.SpritesInDetail",
+			"IsRequired": true
 		}
+		
 	]
 }

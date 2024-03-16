@@ -97,7 +97,7 @@
                       "PurchasePrice": -1,
                       "SellPrice": 0,
                       "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                      "Sound": "{{ModID}}.SFX.SnailCry",
+                      "Sound": "{{ModID}}.SFX.SnailCryBaby",
                       "Texture": "Animals\\Baby_Giant_Void_Lava_Snail_Caldera",
                       "UseFlippedRightForLeft": true,
                       "SpriteWidth": 32,
