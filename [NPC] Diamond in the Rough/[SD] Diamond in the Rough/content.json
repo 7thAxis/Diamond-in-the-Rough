@@ -1,9 +1,0 @@
-{
-	"Sprites": [
-		{
-			"Target": "Characters/JeremyTSnail",
-			"FromFile": "assets/Jeremy.png",
-			"BreathType" : "None"
-		}
-	]
- }

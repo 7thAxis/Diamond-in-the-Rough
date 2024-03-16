@@ -8,8 +8,8 @@
 				"spring": "					
 					0 {{ModID}}.Maps.Jeremy_Room 4 9/
 					610 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
-                    700 5 12 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
-                    800 16 8 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    700 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    800 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
                     900 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
                     1000 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
                     1100 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/

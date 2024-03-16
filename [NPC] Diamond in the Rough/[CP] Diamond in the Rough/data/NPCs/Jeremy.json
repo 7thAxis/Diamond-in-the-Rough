@@ -32,7 +32,7 @@
                     "Breather": false,
                     "Size": { "X": 32, "Y": 32 },
                     "Shadow":{ "Visible": false },
-                    "EmoteOffset": { "X": 16, "Y": 32 },
+                    "EmoteOffset": { "X": 30, "Y": 30 },
                     "Home": [
                         {
                             "Location": "{{ModID}}.Maps.Jeremy_Room",
@@ -56,13 +56,8 @@
 //---------------------------- SPRITES ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Portraits/JeremyTSnail",
+            "Target": "Portraits/JeremyTSnail, Characters/JeremyTSnail",
             "FromFile": "assets/{{TargetPathOnly}}/Jeremy/Jeremy.png"
-        },
-        {
-            "Action": "Load",
-            "Target": "Characters/JeremyTSnail",
-            "FromFile": "assets/{{TargetPathOnly}}/TempActors/blank.png"
         },
         {
             "LogName": "Jeremy Animations",

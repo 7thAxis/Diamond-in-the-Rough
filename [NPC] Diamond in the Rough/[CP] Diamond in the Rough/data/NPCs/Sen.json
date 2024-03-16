@@ -157,6 +157,11 @@
         },
         {
             "Action": "Load",
+            "Target": "Characters/SenS_Cloak, Portraits/SenS_Cloak",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Cloak.png"
+        },
+        {
+            "Action": "Load",
             "Target": "Characters/SenS_Kid, Portraits/SenS_Kid",
             "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Flashback.png"
         },
