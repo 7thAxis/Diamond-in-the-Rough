@@ -1,0 +1,15 @@
+{
+  "Name": "[NPC] Diamond in the Rough",
+  "Author": "7thAxis",
+  "Version": "1.0.0",
+  "Description": "Diamond in the Rough SMAPI component.",
+  "UniqueID": "7thAxis.DitR.SMAPI",
+  "EntryDll": "Diamond in the Rough.dll",
+  "UpdateKeys": [ "" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": false
+    }
+  ]
+}
