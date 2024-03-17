@@ -83,7 +83,7 @@
                 "fall_9": "GOTO fall_8",
                 "fall_11": "GOTO fall_8",
 
-                "winter_16": "
+                "winter_15": "
                     0 {{ModID}}.Maps.Trace_House_Interior 15 5/
                     610 15 5 tracev_lay/
                     1000 13 5 0/

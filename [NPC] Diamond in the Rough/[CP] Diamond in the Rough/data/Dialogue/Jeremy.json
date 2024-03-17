@@ -9,7 +9,7 @@
             }
         }, 
         {
-            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
+            "LogName": "Jeremy Dialogue Pool Post-Wizard Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
@@ -18,11 +18,11 @@
             "When": { "HasSeenEvent: |contains=112": true } 
         },
         {
-            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
+            "LogName": "Jeremy Dialogue Pool Post Wizard Rainy Day",
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Weather: |contains=Rain, Storm}}.{{Random:{{Range: 1, 1}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Weather: |contains=Rain, Storm}}.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
             },
             "When": { "HasSeenEvent: |contains=112": true, "Weather": "Rain, Storm" } 
         }, 

@@ -136,10 +136,6 @@ CREDITS
             "When": { "HasSeenEvent: |contains={{ModID}}.Events.EveT.2h.P2": true }
         },
         {
-            "Name": "PipoScheduleRandomizer", 
-            "Value": "{{Random:{{Range: 1, 7}}|key=PSR}}"
-        },
-        {
             "Name": "TraceScheduleRandomizer", 
             "Value": "{{Random:{{Range: 1, 10}}|key=TSR}}"
         },
@@ -150,6 +146,14 @@ CREDITS
         {
             "Name": "EveWaffleScheduleRandomizer", 
             "Value": "{{Random:{{Range: 1, 6}}|key=EWSR}}"
+        },
+        {
+            "Name": "PipoScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 7}}|key=PSR}}"
+        },
+        {
+            "Name": "JeremyScheduleRandomizer", 
+            "Value": "{{Random:{{Range: 1, 3}}|key=JSR}}"
         },
         {
             "Name": "BasicRandomizer", 

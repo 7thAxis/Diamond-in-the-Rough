@@ -1,52 +1,135 @@
 {
+    // 0 up, 1 right, 2 down, 3 left - face direction
     "Changes": [
+ //---------------------------- DEFAULTS ------------------------------------------//
         {
-            "LogName": "Jeremy Schedule",
+            "LogName": "Jeremy Default Schedules",
             "Action": "EditData",
             "Target": "Characters/schedules/JeremyTSnail",
             "Entries": {
                 "spring": "
+                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
                     610 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
-                    700 12 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    700 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    800 17 7 0/
+                    900 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    1000 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1100 4 10 1/
+                    1200 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1300 13 12 2/
+                    1400 17 7 0/
+                    1500 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    1600 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    1700 5 9 2/
+                    1800 17 7 0/
+                    1900 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
+                    2000 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA8}}/
+                    2100 18 8 3/
+                    2200 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA9}}/
+                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                ",
+
+                "rain": "
+                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    610 EastScarp_Village 6 92 1/
+                    800 14 97 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
+                    900 19 78 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    1000 22 83 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1100 37 77 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1300 31 99 jeremyTS_wiggle/
+                    1500 14 97 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    1600 {{ModID}}.Maps.Trace_House_Interior 9 13 jeremyTS_lay/
+                    1800 14 7 jeremyTS_lay/
+                    2000  16 20 jeremyTS_rear/
+                    2100 {{ModID}}.Maps.Jeremy_Room 17 7 0/
+                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                "
+            }
+        },
+ //---------------------------- SCHEDULE RANDS ------------------------------------------//
+        {
+            "LogName": "Jeremy House Wander Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JeremyTSnail",
+            "Entries": {
+                "{{WeekDay}}": "
+                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    610 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
+                    700 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
                     800 17 7 0/
                     900 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
                     1000 {{ModID}}.Maps.Trace_House_Interior 9 13 jeremyTS_lay/
                     1300 3 24 3/
-                    1400 7 7 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
-                    1600 EastScarp_Village 13 81 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
-                    1700 18 78 3/
-                    1800 {{ModID}}.Maps.Trace_House_Interior 15 7 jeremyTS_lay/
+                    1400 5 6 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1600 EastScarp_Village 4 86 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1700 7 86 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    1800 {{ModID}}.Maps.Trace_House_Interior 9 13 jeremyTS_lay/
                     2000 {{ModID}}.Maps.Jeremy_Room 17 7 0/
-                    2100 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
-                    2200 7 11 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    2100 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    2200 7 11 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
                     2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
                 "
-				/*"spring": "					
-					0 {{ModID}}.Maps.Jeremy_Room 4 9/
-					610 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
-                    700 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
-                    800 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
-                    900 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
-                    1000 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
-                    1100 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
-                    1200 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
-                    1300 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
-                    1400 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA8}}/
-                    1500 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA9}}/
-                    1600 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA10}}/
-                    1700 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA11}}/
-                    1800 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA12}}/
-                    1900 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA13}}/
-                    2000 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA14}}/
-                    2100 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA15}}/
-                    2200 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA116}}/
-                    2300 4 9 {{Random: 0, 1, 2, 3, jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA17}}/
-                    2400 4 9 jeremyTS_sleep
-				",*/
-            }
+            },
+            "When": { "JeremyScheduleRandomizer": 1 }
+        },
+
+        {
+            "LogName": "Jeremy Room Wander Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JeremyTSnail",
+            "Entries": {
+                "{{WeekDay}}": "
+                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    610 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
+                    700 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    800 17 7 0/
+                    900 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    1000 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1100 4 10 1/
+                    1200 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1300 13 12 2/
+                    1400 17 7 0/
+                    1500 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    1600 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    1700 5 9 2/
+                    1800 17 7 0/
+                    1900 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
+                    2000 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA8}}/
+                    2100 18 8 3/
+                    2200 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA9}}/
+                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                "
+            },
+            "When": { "JeremyScheduleRandomizer": 2 }
+        },
+
+        {
+            "LogName": "Jeremy Room House Wander Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/JeremyTSnail",
+            "Entries": {
+                "{{WeekDay}}": "
+                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    610 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
+                    700 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
+                    800 17 7 0/
+                    900 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
+                    1000 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA3}}/
+                    1100 4 10 1/
+                    1200 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
+                    1300 13 12 2/
+                    1400 {{ModID}}.Maps.Trace_House_Interior 9 13 jeremyTS_lay/
+                    1630 14 7 jeremyTS_lay/
+                    1800 16 20 jeremyTS_rear/
+                    1900 {{ModID}}.Maps.Jeremy_Room 5 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
+                    2000 17 7 0/
+                    2100 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA6}}/
+                    2200 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA7}}/
+                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                "
+            },
+            "When": { "JeremyScheduleRandomizer": 3 }
         }
 
     ]
 }
-
-// 0 up, 1 right, 2 down, 3 left - face direction
