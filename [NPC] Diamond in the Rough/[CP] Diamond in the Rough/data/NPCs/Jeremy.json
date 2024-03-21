@@ -20,8 +20,8 @@
                     "LoveInterest": "Temmie", //Thanks Tiara
                     "SocialTab": "UnknownUntilMet",
                     "CanGreetNearbyCharacters": false,
-                    "ExcludeFromIntroductionsQuest": false,
-                    "ExcludeFromPerfectionScore": false,
+                    "IntroductionsQuest": true,
+                    "PerfectionScore": true,
                     "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": -5,
                     "DumpsterDiveEmote": 40,
@@ -32,7 +32,7 @@
                     "Breather": false,
                     "Size": { "X": 32, "Y": 32 },
                     "Shadow":{ "Visible": false },
-                    "EmoteOffset": { "X": 30, "Y": 30 },
+                    "EmoteOffset": { "X": -35, "Y": 30 },
                     "Home": [
                         {
                             "Location": "{{ModID}}.Maps.Jeremy_Room",
@@ -50,7 +50,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love}}/5/{{i18n:Gifts.JeremyTSnail.Like}}/5/{{i18n:Gifts.JeremyTSnail.Dislike}}/-5/{{i18n:Gifts.JeremyTSnail.Hate}}/5/{{i18n:Gifts.JeremyTSnail.Neutral}}/5/"
+                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love.{{HasSeenEvent: |contains=112}}}}/82 260 340 396 420 456 457 769 829 851 MossSoup RiverJelly {{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.VoidLavaSnailEgg/{{i18n:Gifts.JeremyTSnail.Like.{{HasSeenEvent: |contains=112}}}}/tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss/{{i18n:Gifts.JeremyTSnail.Dislike.{{HasSeenEvent: |contains=112}}}}/-7 -6 279 308 446/{{i18n:Gifts.JeremyTSnail.Hate.{{HasSeenEvent: |contains=112}}}}/-20 729 768 {{ModID}}.Items.VoidLavaSnailMayonnaise/{{i18n:Gifts.JeremyTSnail.Neutral.{{HasSeenEvent: |contains=112}}}}/797/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//

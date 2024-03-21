@@ -37,8 +37,8 @@
                             "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h"
                         }
                     ],
-                    "ExcludeFromIntroductionsQuest": true,
-                    "ExcludeFromPerfectionScore": false,
+                    "IntroductionsQuest": true,
+                    "PerfectionScore": false,
                     "SpouseGiftJealousyFriendshipChange": 0,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,
