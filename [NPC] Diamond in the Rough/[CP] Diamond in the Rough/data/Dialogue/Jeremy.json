@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.PreForestMagic.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.PreForestMagic.{{Random:{{Range: 1, 2}}}}}}#{{SFX.SnailCry}}"
             }
         }, 
         {
@@ -13,7 +13,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 5}}}}}}#{{SFX.SnailCry}}"
             },
             "When": { "HasSeenEvent: |contains=112": true } 
         },
@@ -22,7 +22,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Random:{{Range: 1, 1}}}}}}#$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Random:{{Range: 1, 1}}}}}}#{{SFX.SnailCry}}"
             },
             "When": { "HasSeenEvent: |contains=112": true, "Weather": "Rain, Storm" } 
         }, 
@@ -31,6 +31,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": {
+
+                "DitR_CT_JeremyIntroduction": "{{i18n:Core.JeremyTS.Introduction}}",
 
                 "spring_1": "{{i18n:Core.JeremyTS.Spring.Day.1}}",
                 "spring_12": "{{i18n:Core.JeremyTS.Spring.Day.12}}",
@@ -51,6 +53,29 @@
 
             },
             "When": { "HasSeenEvent: |contains=112": true }       
+        },
+        {
+            "LogName": "Jeremy Void Lava Snail Gifting",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": {
+
+                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.JeremyTS.VoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}|SnailName={{i18n:Rand.JeremyTS.SnailName.{{Random:{{Range: 1, 20}}}}}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.{{Season}}}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1"
+
+            }  
+        },
+        {
+            "LogName": "Jeremy Intro CT Activation",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.JeremyIntroActivation": {
+                    "Trigger": "DayStarted",
+                    "Id": "DitR.TriggerActions.JeremyIntroActivation",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
+                    "Actions": [ "AddConversationTopic DitR_CT_JeremyIntroduction 999" ]
+                }
+            }
         }
     ]
 }

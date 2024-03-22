@@ -25,7 +25,7 @@
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": { "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -20, "EatenStaminaRestoredOverride": -20 } }
+            "Entries": { "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 } }
         },
     //---------------------------- MACHINE DATA ------------------------------------------// 
         {

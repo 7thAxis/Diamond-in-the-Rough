@@ -59,7 +59,6 @@
 
                 //Tilted snails
                 { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings", "Remove": true },
                 { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings2", "Remove": true },
                 { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings2", "Remove": true },
 
@@ -259,11 +258,15 @@
 
 //---------------------------- MAP STRINGS ------------------------------------------// 
         {
-            "LogName": "Trace Map Strings",
+            "LogName": "Jeremy Map Strings",
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
+                //Water and food
+                "JeremyTSRWaterTrough": "{{i18n:Maps.JeremyTSnail.JeremyTSRWaterTrough}}",
+                "JeremyTSRAppleBowl": "{{i18n:Maps.JeremyTSnail.JeremyTSRAppleBowl}}",
 
+                //Snail army
                 "JeremyTSRSnailDodo": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailDodo}}",
                 "JeremyTSRSnailPooh": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailPooh}}",
                 "JeremyTSRSnailClown": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailClown}}",
@@ -294,67 +297,3 @@
         }
     ]
 }
-
-/*
-OG SNAIL LIST
-                //Single snails around map
-                { "Position": { "X": 7, "Y": 8 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 9, "Y": 13 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 14, "Y": 6 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 19, "Y": 15 }, "Layer": "Buildings", "Remove": true },
-
-                //OTP snails
-                { "Position": { "X": 13, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 14, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-
-                //Water snails
-                { "Position": { "X": 7, "Y": 15 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 7, "Y": 16 }, "Layer": "Buildings", "Remove": true },
-
-                { "Position": { "X": 15, "Y": 16 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 15, "Y": 17 }, "Layer": "Buildings", "Remove": true },
-
-                //Bucket Snail
-                { "Position": { "X": 18, "Y": 6 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 18, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
-
-                //Bush snails
-                { "Position": { "X": 8, "Y": 10 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 4, "Y": 4 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 13, "Y": 9 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 15, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 18, "Y": 3 }, "Layer": "Buildings3", "Remove": true },
-
-                //Tilted snails
-                { "Position": { "X": 12, "Y": 11 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 12, "Y": 10 }, "Layer": "Buildings3", "Remove": true },
-
-                { "Position": { "X": 19, "Y": 9 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 19, "Y": 8 }, "Layer": "Front", "Remove": true },
-
-                //Sign Snail
-                { "Position": { "X": 5, "Y": 5 }, "Layer": "Buildings3", "Remove": true },
-                { "Position": { "X": 5, "Y": 4 }, "Layer": "Buildings3", "Remove": true },
-                
-                //Snail Clusters
-                { "Position": { "X": 3, "Y": 8 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 2, "Y": 7 }, "Layer": "Front", "Remove": true },
-                { "Position": { "X": 3, "Y": 7 }, "Layer": "Front", "Remove": true },  
-
-                { "Position": { "X": 3, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 4, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 3, "Y": 13 }, "Layer": "Front", "Remove": true },
-                { "Position": { "X": 4, "Y": 13 }, "Layer": "Front", "Remove": true },  
-
-                { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 19, "Y": 14 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 18, "Y": 13 }, "Layer": "Front", "Remove": true },
-                { "Position": { "X": 19, "Y": 13 }, "Layer": "Front", "Remove": true },  
-
-                { "Position": { "X": 15, "Y": 9 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 16, "Y": 9 }, "Layer": "Buildings", "Remove": true },
-                { "Position": { "X": 15, "Y": 8 }, "Layer": "Front", "Remove": true },
-                { "Position": { "X": 16, "Y": 8 }, "Layer": "Front", "Remove": true }
-*/

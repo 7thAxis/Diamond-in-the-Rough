@@ -17,7 +17,7 @@
                     "SocialAnxiety": "Outgoing",
                     "Optimism": "Negative",
                     "CanBeRomanced": false,
-                    "LoveInterest": null,
+                    "LoveInterest": "V", //Some guy I may add someday...
                     "SocialTab": "UnknownUntilMet",
                     "ShakePortraits": [],
                     "IntroductionsQuest": true,

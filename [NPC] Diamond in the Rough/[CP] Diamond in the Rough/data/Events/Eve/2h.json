@@ -8,7 +8,7 @@
             "Target": "Data/Events/EastScarp_Village",
             "Update": "OnLocationChange",
             "Entries": {
-                "{{ModID}}.Events.EveT.2h/e {{ModID}}.Events.EveT.0h/t 800 1800/w sunny/f EveT 500/A DitR_CT_EveMeet": "
+                "{{ModID}}.Events.EveT.2h.P1/e {{ModID}}.Events.EveT.0h/t 800 1800/w sunny/f EveT 500/A DitR_CT_EveMeet": "
                 
                 playful/
                 79 97/

@@ -21,6 +21,12 @@
                 }               
             }
         },
+//---------------------------- SPACECORE DATA ------------------------------------------//
+    {
+        "Action": "EditData",
+        "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+        "Entries": { "{{ModID}}.Items.VoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" } }
+    },
 //---------------------------- HAT VARIANT DATA ------------------------------------------// 
         {
             "Logname": "Void Lava Snail Hat",

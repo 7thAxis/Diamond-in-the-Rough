@@ -26,7 +26,15 @@ namespace Diamond_in_the_Rough
         }
         public void SaveLoaded(object sender, SaveLoadedEventArgs e)
         {
-             Game1.getCharacterFromName("JeremyTSnail").forceOneTileWide.Set(true);
+            try
+            {
+                var Jem = Game1.getCharacterFromName("JeremyTSnail");
+                if (Jem != null)
+                    Jem.forceOneTileWide.Set(true);
+            }
+            catch
+            {
+            }
         }
     }
 }

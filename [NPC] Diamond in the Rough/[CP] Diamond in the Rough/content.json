@@ -313,6 +313,12 @@ CREDITS
         {
             "Name": "SenOverrideDialogue",
             "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
+        },
+
+        //--COMMAND SHRINKERS--
+        {
+            "Name": "SFX.SnailCry",
+            "Value": "$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
         }
     ],
 //---------------------------- FILE LOADER ------------------------------------------//

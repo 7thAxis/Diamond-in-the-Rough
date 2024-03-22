@@ -199,7 +199,7 @@
                 //Hallway
                 "TraceVHBook3": "{{i18n:Maps.TraceV.TraceVHBook3{{TraceRoomTokens}}}}",
                 "TraceVHBook4": "{{i18n:Maps.TraceV.TraceVHBook4{{TraceRoomTokens}}}}",
-                "TraceVHLocationNote": "{{i18n:Maps.TraceV.TraceVHLocationNote}}",
+                "TraceVHNote": "{{i18n:Maps.TraceV.TraceVHNote}}",
                 "TraceVHCouchArmLeft": "{{i18n:Maps.TraceV.TraceVHCouchArmLeft}}",
                 "TraceVHCouchArmRight": "{{i18n:Maps.TraceV.TraceVHCouchArmRight}}",
                 "TraceVHSeat": "{{i18n:Maps.TraceV.TraceVHSeat}}",
@@ -224,7 +224,7 @@
                 "TraceVHPlant2": "{{i18n:Maps.TraceV.TraceVHPlant2}}", // Default tropical
                 "TraceVHPlant3": "{{i18n:Maps.TraceV.TraceVHPlant3}}", // Art room corner
                 "TraceVHPlant4": "{{i18n:Maps.TraceV.TraceVHPlant4}}", // Hallway
-                "TraceVHPlant5": "{{i18n:Maps.TraceV.TraceVHPlant5}}", // Behind bowls
+                "TraceVHPlant5": "{{i18n:Maps.TraceV.TraceVHPlant5.{{HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2}}}}", // Behind bowls
                 "TraceVHPlantLeft": "{{i18n:Maps.TraceV.TraceVHPlantLeft}}", // Guards!
                 "TraceVHPlantRight": "{{i18n:Maps.TraceV.TraceVHPlantRight}}", // Guards!
 

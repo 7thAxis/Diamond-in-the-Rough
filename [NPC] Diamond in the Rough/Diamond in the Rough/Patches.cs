@@ -50,8 +50,9 @@ namespace Diamond_in_the_Rough
         {
             try
             {
-                if (__instance.Name == "JeremyTSnail")
-                    __instance.forceOneTileWide.Set(true);
+                if (__instance != null)
+                    if (__instance.Name == "JeremyTSnail")
+                        __instance.forceOneTileWide.Set(true);
             }
             catch (Exception ex)
             {

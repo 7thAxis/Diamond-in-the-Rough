@@ -300,6 +300,28 @@
 "Rand.TraceV.TVShow.9": "Clothbill Roundshorts",
 "Rand.TraceV.TVShow.10": "Nightmare Kitchens",
 
+    //---JEREMY---//
+"Rand.JeremyTS.SnailName.1": "Prubbie",
+"Rand.JeremyTS.SnailName.2": "Zitsanie",
+"Rand.JeremyTS.SnailName.3": "Lamu",
+"Rand.JeremyTS.SnailName.4": "Wucku",
+"Rand.JeremyTS.SnailName.5": "Trutchie",
+"Rand.JeremyTS.SnailName.6": "Koni",
+"Rand.JeremyTS.SnailName.7": "Mumbo",
+"Rand.JeremyTS.SnailName.8": "Prinsy",
+"Rand.JeremyTS.SnailName.9": "Tatsi",
+"Rand.JeremyTS.SnailName.10": "Frinono",
+"Rand.JeremyTS.SnailName.11": "...#$b#...Oh \"no)\".$2#$b#If it isn't Pathoschild. Hahaha",
+"Rand.JeremyTS.SnailName.12": "Jatell",
+"Rand.JeremyTS.SnailName.13": "Garta",
+"Rand.JeremyTS.SnailName.14": "Casabell",
+"Rand.JeremyTS.SnailName.15": "Lalnu",
+"Rand.JeremyTS.SnailName.16": "Ninsy",
+"Rand.JeremyTS.SnailName.17": "Frover",
+"Rand.JeremyTS.SnailName.18": "Getch",
+"Rand.JeremyTS.SnailName.19": "Bobo",
+"Rand.JeremyTS.SnailName.20": "Grallers",
+
  /*
  ██████╗ ██████╗ ██████╗ ███████╗
 ██╔════╝██╔═══██╗██╔══██╗██╔════╝
@@ -315,7 +337,7 @@
 "Core.Monsters.GolemEradication": "Golems",
 
 //Animals
-"Core.Animals.GiantVoidLavaSnail": "Giant Void Lava Snail",
+"Core.Animals.GiantVoidLavaSnail": "Void Lava Snail",
 "Core.Animals.GiantVoidLavaSnail.Birth": "A new baby Void Lava Snail was born!",
 
 //Buildings
@@ -1313,10 +1335,18 @@
 //Jeremy
 
 "Core.JeremyTS.PreForestMagic.1": "%Jeremy eyes you with curiosity. There is more to this snail than meets the eye...",
+"Core.JeremyTS.PreForestMagic.2": "%Jeremy stares at you intensely, as if they sense something peculiar about you...#$b#%What a weird snail.",
 
-"Core.JeremyTS.DailyDialogue.1": "Hello. I am Jeremy T. Snail. I know things about this world best left untold.#$b#Please, don't ask questions. I don't want to break you.",
+"Core.JeremyTS.DailyDialogue.1": "Hello. Are you out on an \"adventure\"?$2#$b#You are quite like my bretheren. They fascinated by this world and wish to explore it, one small inch at a time.#$b#If you locate any of my kin, bring them to me. They have little regard for the balance of the ecosystem.$2",
+"Core.JeremyTS.DailyDialogue.2": "%revealtasteJeremyTSnail613 Trace brought me apples for my last meal. I do enjoy myself a good apple...$1#$b#Do humans too enjoy a good apple?$2",
+"Core.JeremyTS.DailyDialogue.3": "I feel little need to travel far from home. I have all the necessities for a comfortable existence.#$b#If only my kin would come to understand this.$2",
+"Core.JeremyTS.DailyDialogue.4": "Many years ago, Trace wandered into the caldera at the summit of Ginger Island's volcano.#$b#As young spry snails seeking adventure, several of my kin and I hitched a ride on their clothing.$1#$b#I do not believe we made the correct choice, but alas, I cannot imagine a life without Trace.$2#$e#...To this day, I do wonder how Trace reached the summit of Mount Kohldur.$2",
+"Core.JeremyTS.DailyDialogue.5": "Many creatures that live within the valley are rather fuzzy.#$b#I find it repulsive.$2#$e#That does indeed include the hair on your head.$3#$b#Utterly repulsive.$2",
+"Core.JeremyTS.DailyDialogue.6": "I know things about this world best left untold.#$b#Please, do not ask questions. I do not wish to break you.$2",
 
 "Core.JeremyTS.Rainy.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
+
+"Core.JeremyTS.Introduction": "Hmm... I sense something odd about you. Something... foresty.#$b#Are you able to hear me, human?$2#$b#...#$b#Based on your expression, I will assume that you can.$1#$b#Hello, I am Jeremy T. Snail, the resident mullosk of Trace's abode.$2#$b#I feel we shall get along quite well.$1",
 
 "Core.JeremyTS.Spring.Day.1": "sd1",
 "Core.JeremyTS.Spring.Day.12": "sd12", // Day before the Egg Festival
@@ -1513,6 +1543,15 @@
 "Gifts.JeremyTSnail.Neutral.False": "%Jeremy stares blankkly at the object you place before them.",
 "Gifts.JeremyTSnail.Dislike.False": "%Jeremy seems perterbed by your gift...",
 "Gifts.JeremyTSnail.Hate.False": "%Jeremy is appalled. Leave their sight.",
+
+"Gifts.JeremyTS.VoidLavaSnail.Remark.True": "Ah, if it isn't little {{SnailName}}...$1#$b#I will make sure they stay out of any further trouble. Thank you.$2#$b#Take this young flora for your troubles.", 
+"Gifts.JeremyTS.VoidLavaSnail.Remark.False": "%Jeremy lets out a long parental sigh, accepting the little wriggling snail.#$b#%As thanks, Jeremy offers you an item.",
+    
+//Do not translate, this is code 
+"Gifts.JeremyTS.VoidLavaSnail.Trade.Spring": "[429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds 429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds (O)MixedFlowerSeeds 885 770 495 (O)MixedFlowerSeeds 885 770 495 251 629 628 (O)MysticTreeSeed 114 347 166]",
+"Gifts.JeremyTS.VoidLavaSnail.Trade.Summer": "[481 487 302 482 453 484 485 486 455 431 480 483 802 833 831 (O)SummerSquashSeeds 481 487 302 482 453 484 485 486 455 431 480 483 802 833 831 (O)SummerSquashSeeds (O)MixedFlowerSeeds 885 770 496 (O)MixedFlowerSeeds 885 770 496 251 69 630 631 835 (O)MysticTreeSeed 114 347 166]",
+"Gifts.JeremyTS.VoidLavaSnail.Trade.Fall": "[487 431 483 299 489 494 491 492 493 488 425 490 (O)BroccoliSeeds 487 431 483 299 489 494 491 492 493 488 425 490 (O)BroccoliSeeds (O)MixedFlowerSeeds 885 770 497 (O)MixedFlowerSeeds 885 770 497 251 633 632 (O)MysticTreeSeed 114 347 166]",
+"Gifts.JeremyTS.VoidLavaSnail.Trade.Winter": "[(O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds MixedFlowerSeeds 885 770 498 MixedFlowerSeeds 885 770 498 251 (O)MixedFlowerSeeds 885 770 498 (O)MixedFlowerSeeds 885 770 498 251 (O)MixedFlowerSeeds 885 770 498 (O)MixedFlowerSeeds 885 770 498 251 (O)MysticTreeSeed 114 347 166]",
 
 //Waffle
 "Gifts.WaffleW.Like": "Boofwoof!",
@@ -2150,7 +2189,7 @@
 //Hallway
 "Maps.TraceV.TraceVHBook3": "You peruse the shelf and find a book called...#\"{{Book4}}\".",
 "Maps.TraceV.TraceVHBook4": "You peruse the shelf and find a book called...#\"{{Book5}}\".",
-"Maps.TraceV.TraceVHLocationNote": "This will tell you where Trace is on a given day in the future.#Currently they are trapped in a cycle of walking 5 tiles down from their room every day.",
+"Maps.TraceV.TraceVHNote": "\"Hi there! Thanks for breaking into my house! I hope you enjoy your stay.\" - Trace",
 "Maps.TraceV.TraceVHCouchArmLeft": "This is the left arm of the couch. Cool, am I right?",
 "Maps.TraceV.TraceVHCouchArmRight": "This is the right arm of the couch. Sweet, am I right?",
 "Maps.TraceV.TraceVHSeat": "There appears to be something invisible in the way, preventing you from sitting on the chair.",
@@ -2176,7 +2215,8 @@
 "Maps.TraceV.TraceVHPlant2": "A healthy, happy tropical plant. It practically beams at you!", // Default tropical
 "Maps.TraceV.TraceVHPlant3": "The plant ponders why Trace paints the same thing over and over again...", // Art room corner
 "Maps.TraceV.TraceVHPlant4": "When you look away from the plant, it starts dancing. It stops as soon as you look back.",  // Hallway
-"Maps.TraceV.TraceVHPlant5": "This plant will one-day be inaccessable. Please, cherish it while it lasts.", // Behind bowls
+"Maps.TraceV.TraceVHPlant5.False": "This plant will one-day be inaccessable. Please, cherish it while it lasts.", // Behind bowls
+"Maps.TraceV.TraceVHPlant5.True": "You find a note in the pot...#$b#\"Plant angry!! Plant know you a cheater!!\"", // Behind bowls
 "Maps.TraceV.TraceVHPlantLeft": "There's a note in the pot...#\"Left plant is guarding the counter! Left plant best guard!\"", // Guards!
 "Maps.TraceV.TraceVHPlantRight": "There's a note in the pot...#\"Right plant is defending the stools! Right plant best defender!\"", // Guards!
 
@@ -2184,6 +2224,9 @@
 "Maps.TraceV.TraceVHClosedDoor": "A minimum of 8 hearts with Trace are required to enter their private rooms. You have {{TraceHearts}}.",
 
     //----JEREMY----//
+"Maps.JeremyTSnail.JeremyTSRWaterTrough": "You peer into the water and see your reflection.#Visions of snails reflect back at you.",
+"Maps.JeremyTSnail.JeremyTSRAppleBowl": "Yum! It's a bowl full of big shiny apples, Jeremy's favorite!",
+ 
 "Maps.JeremyTSnail.JeremyTSRSnailDodo": "Dodo stands tall, guarding the snail manor valiantly.#Also, he seems rather... French?",
 "Maps.JeremyTSnail.JeremyTSRSnailPooh": "Pooh is busy coding! In her mind, as there is no computer here.",
 "Maps.JeremyTSnail.JeremyTSRSnailClown": "Clown honks at you. How adorable!",
@@ -2237,7 +2280,7 @@
 "Quests.DitR.VoidLavaSnailRoundUp.Title": "Void Lava Snail Round-Up!",
 "Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy T. Snail.",
 "Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 10 Void Lava Snails to Jeremy T. Snail.",
-"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Jeremy accepts the snails with a grateful nod.#$b#Thank you. I will ensure these younglings cause no futher chaos to the valley.#$action IncrementStat VoidLavaSnailQuestCompletions 1#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
+"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Jeremy accepts the snails with a grateful nod.#$b#Thank you. I will ensure these younglings cause no futher chaos to the valley.#$action IncrementStat VoidLavaSnailsGiven 10#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
 "Quests.DitR.VoidLavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
 
 /*
@@ -2864,6 +2907,7 @@
 ██║   ██║   ███████╗██║ ╚═╝ ██║███████║
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
 "Items.VoidLavaSnail.Title": "Void Lava Snail",
+"Items.VoidLavaSnail.Category": "Mollusk",
 "Items.VoidLavaSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",
 
 "Items.VoidLavaSnailBuddy.Title": "Void Lava Snail Buddy",

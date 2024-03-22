@@ -357,7 +357,7 @@
   </object>
   <object id="50" name="TileData" x="224" y="336" width="16" height="16">
    <properties>
-    <property name="Action" value="Message &quot;TraceVHLocationNote&quot;"/>
+    <property name="Action" value="Message &quot;TraceVHNote&quot;"/>
    </properties>
   </object>
   <object id="51" name="TileData" x="272" y="320" width="16" height="16">

@@ -10,7 +10,7 @@
                     "DisplayName": "{{i18n:Core.JeremyTS.Name}}",
                     "BirthSeason": "summer",
                     "BirthDay": 28,
-                    "HomeRegion": "Other",
+                    "HomeRegion": "Town",
                     "Gender": "Undefined",
                     "Age": "Adult",
                     "Manner": "Neutral",
@@ -33,14 +33,14 @@
                     "Size": { "X": 32, "Y": 32 },
                     "Shadow":{ "Visible": false },
                     "EmoteOffset": { "X": -35, "Y": 30 },
+                    "MugShotSourceRect": { "X": 8, "Y": 7, "Width": 16, "Height": 25 },
                     "Home": [
                         {
                             "Location": "{{ModID}}.Maps.Jeremy_Room",
                             "Tile": { "X": 5, "Y": 11 },
                             "Direction": "down"
                         }
-                    ],
-                    "MugShotSourceRect": { "X": 8, "Y": 7, "Width": 16, "Height": 25 }
+                    ]
                 }
             }
         },
@@ -50,7 +50,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love.{{HasSeenEvent: |contains=112}}}}/82 260 340 396 420 456 457 769 829 851 MossSoup RiverJelly {{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.VoidLavaSnailEgg/{{i18n:Gifts.JeremyTSnail.Like.{{HasSeenEvent: |contains=112}}}}/tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss/{{i18n:Gifts.JeremyTSnail.Dislike.{{HasSeenEvent: |contains=112}}}}/-7 -6 279 308 446/{{i18n:Gifts.JeremyTSnail.Hate.{{HasSeenEvent: |contains=112}}}}/-20 729 768 {{ModID}}.Items.VoidLavaSnailMayonnaise/{{i18n:Gifts.JeremyTSnail.Neutral.{{HasSeenEvent: |contains=112}}}}/797/"
+                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.VoidLavaSnailEgg/{{i18n:Gifts.JeremyTSnail.Like.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss/{{i18n:Gifts.JeremyTSnail.Dislike.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-7 -6 279 308 446/{{i18n:Gifts.JeremyTSnail.Hate.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-20 729 768 {{ModID}}.Items.VoidLavaSnailMayonnaise/{{i18n:Gifts.JeremyTSnail.Neutral.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/797/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//
