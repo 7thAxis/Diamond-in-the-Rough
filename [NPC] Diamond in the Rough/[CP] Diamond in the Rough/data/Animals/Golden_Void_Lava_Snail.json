@@ -2,20 +2,20 @@
     "Changes": [
 
         {
-            "LogName": "Void Lava Snail - FarmAnimal",
+            "LogName": "Golden Void Lava Snail - FarmAnimal",
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
 
             "Entries": { 
-                "Giant Void Lava Snail": {
+                "Golden Void Lava Snail": {
                     "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
                     "House": "DitR_Snail",
                     "Gender": "Male",
                     "PurchasePrice": -1,
-                    "SellPrice": 12000,
+                    "SellPrice": 50000,
                     "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
-                    "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg" ],
+                    "EggItemIds": [ "{{ModID}}.Items.GoldenVoidLavaSnailEgg" ],
                     "IncubationTime": 4500,
                     "IncubatorParentSheetOffset": 1,
                     "BirthText": "{{i18n:Core.Animals.GiantVoidLavaSnail.Birth}}",
@@ -24,28 +24,22 @@
                     "HarvestType": "DropOvernight",
                     "ProduceItemIds": [
                       {
-                        "Id": "SnailEgg",
+                        "Id": "SnailGold",
                         "Condition": null,
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.VoidLavaSnailEgg"
+                        "ItemId": "384"
                       },
                       {
-                        "Id": "SnailVoidEssence",
+                        "Id": "SnailSolarEssence",
                         "Condition": "RANDOM 0.4",
                         "MinimumFriendship": 0,
-                        "ItemId": "769"
+                        "ItemId": "768"
                       },
                       {
-                        "Id": "SnailFireQuartz",
+                        "Id": "SnailGoldBar",
                         "Condition": "RANDOM 0.3",
                         "MinimumFriendship": 0,
-                        "ItemId": "82"
-                      },
-                      {
-                        "Id": "GoldenSnailEgg",
-                        "Condition": "RANDOM 0.005",
-                        "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.GoldenVoidLavaSnailEgg"
+                        "ItemId": "336"
                       }
                     ],
                     "ProduceOnMature": true,
@@ -54,8 +48,8 @@
                     "ProfessionForFasterProduce": 11,
                     "Sound": "{{ModID}}.SFX.SnailCry",
                     "BabySound": "{{ModID}}.SFX.SnailCryBaby",
-                    "Texture": "Animals\\Giant_Void_Lava_Snail",
-                    "BabyTexture": "Animals\\Baby_Giant_Void_Lava_Snail",
+                    "Texture": "Animals\\Golden_Void_Lava_Snail",
+                    "BabyTexture": "Animals\\Baby_Golden_Void_Lava_Snail",
                     "UseFlippedRightForLeft": true,
                     "SpriteWidth": 32,
                     "SpriteHeight": 32,
@@ -73,40 +67,7 @@
                     "BabyLeftRightPetHitboxTileSize": "1, 1",
                     "StatToIncrementOnProduce": null,
                     "ShowInSummitCredits": true
-                  },   
-
-                  "Giant Void Lava Snail Caldera": {
-                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
-                    "House": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                    "PurchasePrice": -1,
-                    "SellPrice": 0,
-                    "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                    "Sound": "{{ModID}}.SFX.SnailCry",
-                    "Texture": "Animals\\Giant_Void_Lava_Snail_Caldera",
-                    "UseFlippedRightForLeft": true,
-                    "SpriteWidth": 32,
-                    "SpriteHeight": 32,
-                    "ShadowWhenBaby": { "Visible": false },
-                    "ShadowWhenAdult": { "Visible": false },
-                    "ShowInSummitCredits": false
-                    },
-                    
-                    "Baby Giant Void Lava Snail Caldera": {
-                      "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
-                      "House": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                      "PurchasePrice": -1,
-                      "SellPrice": 0,
-                      "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                      "Sound": "{{ModID}}.SFX.SnailCryBaby",
-                      "Texture": "Animals\\Baby_Giant_Void_Lava_Snail_Caldera",
-                      "UseFlippedRightForLeft": true,
-                      "SpriteWidth": 32,
-                      "SpriteHeight": 32,
-                      "ShadowWhenBaby": { "Visible": false },
-                      "ShadowWhenAdult": { "Visible": false },
-                      "ShowInSummitCredits": false
-                      } 
-        
+                  }        
              }
         }
 

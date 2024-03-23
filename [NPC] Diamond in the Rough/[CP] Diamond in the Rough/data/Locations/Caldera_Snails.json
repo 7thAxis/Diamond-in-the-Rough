@@ -56,6 +56,21 @@
             "When": { "Caldera Void Lava Snails": true }
         },
         {
+            "Action": "EditData",
+            "Target": "MEEP/FarmAnimals/SpawnData",
+            "Entries": {
+                "{{ModID}}.FarmAnimalSpawn.GoldenCalderaSnail": {
+                    "AnimalId": "Golden Void Lava Snail",
+                    "LocationId": "Caldera",
+                    "Age": "100",
+                    "DisplayName": "{{i18n:Core.Animals.GiantVoidLavaSnail}}",
+                    "PetMessage": [ "{{i18n:Maps.CalderaGoldenLavaSnail.Pet}}" ],
+                    "HomeTileX": 40, "HomeTileY": 25
+                }
+            },
+            "When": { "Caldera Void Lava Snails": true, "Query: {{Random: {{Range: 1, 20}}|key=CGVLS}} = 1": true }
+        },
+        {
             "LogName": "Void Lava Snail Fishing - Caldera",
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -63,9 +78,23 @@
 
             "Entries": { 
                 "{{ModID}}.Hats.VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}.Hats.VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.VoidLavaSnailBuddy" },
-                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" }
+                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" },
+                "{{ModID}}.Hats.GoldenVoidLavaSnail": {  "Chance": 0.001, "Id": "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" },
+                "{{ModID}}.Items.GoldenVoidLavaSnail": {  "Chance": 0.005, "Id": "{{ModID}}.Items.GoldenVoidLavaSnail", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail" }
                 
              }
+        },
+        {
+            "LogName": "Void Lava Snail Egg Fishing - Caldera",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Caldera", "Fish" ],    
+
+            "Entries": { 
+                "{{ModID}}.Items.VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}.Items.VoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.VoidLavaSnailEgg" },
+                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.003, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
+             },
+             "When": { "HasFlag": "DitR_M_SnailPhase5" }
         }
     ]
 }

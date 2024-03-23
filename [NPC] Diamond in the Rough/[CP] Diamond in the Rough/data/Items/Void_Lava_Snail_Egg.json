@@ -20,6 +20,27 @@
                     "SpriteIndex": 7
                 }               
             }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {
+                    "Name": "{{ModID}}.Items.GoldenVoidLavaSnailEgg",
+                    "DisplayName": "{{i18n:Items.GoldenVoidLavaSnailEgg.Title}}",
+                    "Description": "{{i18n:Items.GoldenVoidLavaSnailEgg.Description}}",
+                    "Type": "Egg",
+                    "Category": -5,
+                    "Price": 5000,
+                    "Edibility": -300,
+                    "Buff": null,
+                    "IsDrink": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "color_gold", "egg_item", "large_egg_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 10
+                }               
+            }
         }
     ]
 }

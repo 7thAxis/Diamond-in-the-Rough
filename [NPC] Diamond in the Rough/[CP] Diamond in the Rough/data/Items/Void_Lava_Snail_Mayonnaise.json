@@ -18,14 +18,32 @@
                     "ContextTags": [ "color_red", "color_black", "mayo_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 8
-                }               
+                },
+                "{{ModID}}.Items.GoldenVoidLavaSnailMayonnaise": {
+                    "Name": "{{ModID}}.Items.GoldenVoidLavaSnailMayonnaise",
+                    "DisplayName": "{{i18n:Items.GoldenVoidLavaSnailMayonnaise.Title}}",
+                    "Description": "{{i18n:Items.GoldenVoidLavaSnailMayonnaise.Description}}",
+                    "Type": "Mayonnaise",
+                    "Category": -26,
+                    "Price": 8000,
+                    "Edibility": 1,
+                    "Buffs": [ { "Id": "GoldenSnailMayo", "Duration": -2, "CustomAttributes": { "FishingLevel": 2, "Defense": 1  } } ],
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "color_gold", "mayo_item" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 11
+                }                              
             }
         },
     //---------------------------- SPACECORE DATA ------------------------------------------//
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": { "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 } }
+            "Entries": { 
+                "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 },
+                "{{ModID}}.Items.GoldenVoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -99 }
+             }
         },
     //---------------------------- MACHINE DATA ------------------------------------------// 
         {
@@ -59,6 +77,38 @@
                }
             },
             "MoveEntries": [ { "Id": "{{ModId}}.SnailMayo", "ToPosition": "Top" } ] //Needed or regular mayo will output!
+         },
+         {
+            "LogName": "Produce - Golden Snail Mayo Machine",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)24", "OutputRules" ],
+            "Entries": {
+               "{{ModId}}.SnailMayo": {
+                  "Id": "{{ModId}}.GoldenSnailMayo",
+                  "Triggers": [
+                     {
+                        "Id": "SnailEggInputMachine",
+                        "Trigger": "ItemPlacedInMachine",
+                        "RequiredItemId": "(O){{ModId}}.Items.GoldenVoidLavaSnailEgg",
+                        "RequiredCount": 1
+                     }
+                  ],
+                  "OutputItem": [
+                     {
+                        "Id": "GoldenSnailEggOutputMachine",
+                        "ItemId": "(O){{ModId}}.Items.GoldenVoidLavaSnailMayonnaise",
+                        "RandomItemId": null,
+                        "MinStack": 1,
+                        "MaxStack": 1,
+                        "Quality": 2
+                     }
+                  ],
+                  "MinutesUntilReady": 180,
+                  "DaysUntilReady": -1
+               }
+            },
+            "MoveEntries": [ { "Id": "{{ModId}}.GoldenSnailMayo", "ToPosition": "Top" } ] //Needed or regular mayo will output!
          }
     ]
 }

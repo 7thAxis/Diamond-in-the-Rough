@@ -34,12 +34,12 @@
 //---------------------------- FARM ANIMALS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail, Animals/Giant_Void_Lava_Snail_Caldera, Animals/Baby_Giant_Void_Lava_Snail_Caldera",
+            "Target": "Animals/Giant_Void_Lava_Snail, Animals/Baby_Giant_Void_Lava_Snail, Animals/Golden_Void_Lava_Snail, Animals/Baby_Golden_Void_Lava_Snail, Animals/Giant_Void_Lava_Snail_Caldera, Animals/Baby_Giant_Void_Lava_Snail_Caldera",
             "FromFile": "assets/Animals/{{TargetWithoutPath}}.png"
         },
         {
             "Action": "Include",
-            "FromFile": "data/Animals/Giant_Void_Lava_Snail.json"
+            "FromFile": "data/Animals/Giant_Void_Lava_Snail.json, data/Animals/Golden_Void_Lava_Snail.json"
         },
 //---------------------------- BUILDING FILES ------------------------------------------//
         {

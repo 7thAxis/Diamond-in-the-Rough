@@ -13,7 +13,7 @@
                 "FadeWhenBehind": true,
                 "SourceRect": { "X": 0, "Y": 0, "Width": 112, "Height": 112 },
                 "Builder": "Robin",
-                "BuildCondition": "PLAYER_HAS_MAIL Current DitR_M_JeremyTSnail_FriendshipMax Any",
+                "BuildCondition": "PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                 "BuildDays": 2,
                 "BuildCost": 28000,
                 "BuildMenuDrawOffset": { "X": -50, "Y": 0 },

@@ -255,6 +255,28 @@
             ],
             "When": { "HasFlag: |contains=DitR_M_SnailPhase5": true }
         },
+    //SHINY SNAIL
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 3, "Y": 10 }, "Layer": "Buildings", "Remove": true },
+                { "Position": { "X": 3, "Y": 10 }, "Layer": "Buildings2", "Remove": true }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_GaveJeremyGoldenSnail": false }
+        },   
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "MapTiles": [
+
+                { "Position": { "X": 3, "Y": 10 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailJeremyJr" } }
+
+            ],
+            "When": { "HasFlag: |contains=DitR_M_GaveJeremyGoldenSnail": true }
+        }, 
 
 //---------------------------- MAP STRINGS ------------------------------------------// 
         {
@@ -291,7 +313,8 @@
                 "JeremyTSRSnailNova": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailNova}}",
                 "JeremyTSRSnailGervig": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailGervig}}",
                 "JeremyTSRSnailTiara": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailTiara}}",
-                "JeremyTSRSnailAxell": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailAxell}}"
+                "JeremyTSRSnailAxell": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailAxell}}",
+                "JeremyTSRSnailJeremyJr": "{{i18n:Maps.JeremyTSnail.JeremyTSRSnailJeremyJr}}"
 
             }
         }

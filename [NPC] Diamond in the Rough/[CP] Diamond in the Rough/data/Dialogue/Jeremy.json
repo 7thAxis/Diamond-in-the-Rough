@@ -60,7 +60,9 @@
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": {
 
-                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.JeremyTS.VoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}|SnailName={{i18n:Rand.JeremyTS.SnailName.{{Random:{{Range: 1, 20}}}}}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.{{Season}}}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1"
+                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.JeremyTS.VoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}|SnailName={{i18n:Rand.JeremyTS.SnailName.{{Random:{{Range: 1, 20}}}}}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.{{Season}}}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1",
+
+                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.RareItem}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received"
 
             }  
         },

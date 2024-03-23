@@ -193,14 +193,19 @@ CREDITS
             "Value": "true",
             "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
         },
-        {
-            "Name": "FishPondSnailEggSpawnable",
-            "Value": "(O)766"
-        },
+
+        //CONDITIONAL ITEM SPAWN - Used for dialogue sub-randomization and manageable randomization translation 
+        { "Name": "FishPondSnailEggSpawnable", "Value": "(O)766" },
         {
             "Name": "FishPondSnailEggSpawnable",
             "Value": "(O){{ModID}}.Items.VoidLavaSnailEgg",
-            "When": { "HasFlag": "DitR_M_JeremyTSnail_FriendshipMax" }
+            "When": { "HasFlag": "DitR_M_SnailPhase5" }
+        },
+        { "Name": "FishPondGoldenSnailEggSpawnable", "Value": "(O)766" },
+        {
+            "Name": "FishPondGoldenSnailEggSpawnable",
+            "Value": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg",
+            "When": { "HasFlag": "DitR_M_SnailPhase5" }
         },
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 
