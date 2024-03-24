@@ -8,7 +8,7 @@
                 "{{ModID}}.Music.EveTheme": {
                     "ID": "{{ModID}}.Music.EveTheme",
                     "Category": "Music",
-                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_The_World_is_Ours.ogg}}" ],
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_The_World_Is_Ours.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
@@ -34,11 +34,11 @@
                     "Looped": true
                 },
                 "{{ModID}}.Music.TraceHouse": {
-                "ID": "{{ModID}}.Music.TraceHouse",
-                "Category": "Music",
-                "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Happy.ogg}}" ],
-                "StreamedVorbis": true,
-                "Looped": true
+                    "ID": "{{ModID}}.Music.TraceHouse",
+                    "Category": "Music",
+                    "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Happy.ogg}}" ],
+                    "StreamedVorbis": true,
+                    "Looped": true
             },
             "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
                     "ID": "{{ModID}}.Music.BarbieGirl",

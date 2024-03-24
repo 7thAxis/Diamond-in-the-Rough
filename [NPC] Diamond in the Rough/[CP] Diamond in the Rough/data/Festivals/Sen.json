@@ -27,7 +27,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 47 38 2",
+                    "Value": "SenS 49 32 2",
                     "Delimiter": "/"
                 },
                 {
@@ -46,7 +46,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 53 21 2",
+                    "Value": "SenS 53 22 2",
                     "Delimiter": "/"
                   },
                      {
@@ -55,7 +55,27 @@
                     "Value": "SenS 41 22 2",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": { "IsOddYear": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11", //luau
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 53 22 2",
+                    "Delimiter": "/"
+                  },
+                     {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "SenS 35 19 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "IsOddYear": false }
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -105,11 +125,24 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 33 15 2",
+                    "Value": "SenS 64 16 3",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": false }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 32 16 2",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": true }
         },
         {
             "Action": "EditData",
@@ -151,10 +184,9 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 57 19 2",
+                    "Value": "SenS 57 42 2",
                     "Delimiter": "/"
                  }
-
             ]
         },
 //----------------WINTER STAR------------------//
@@ -266,11 +298,11 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 32 5 2",
+                    "Value": "SenS 6 22 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
+            "When": { "HasMod: |contains=Fellowclown.SW": true }
         },
 //----------------FIREWORKS FESTIVAL------------------//
         {

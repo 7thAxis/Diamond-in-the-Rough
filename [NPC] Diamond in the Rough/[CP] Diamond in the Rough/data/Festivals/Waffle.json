@@ -27,7 +27,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 49 32 1",
+                    "Value": "WaffleW 56 39 1",
                     "Delimiter": "/"
                 },
                 {
@@ -46,7 +46,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 51 24 1",
+                    "Value": "WaffleW 48 43 3",
                     "Delimiter": "/"
                   },
                      {
@@ -55,7 +55,27 @@
                     "Value": "WaffleW 42 16 3",
                     "Delimiter": "/"
                 }
-            ]
+            ],
+            "When": { "IsOddYear": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11", //luau
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "WaffleW 48 43 3",
+                    "Delimiter": "/"
+                  },
+                     {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "WaffleW 30 14 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "IsOddYear": false }
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -65,7 +85,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 92 15 1",
+                    "Value": "WaffleW 91 43 3",
                     "Delimiter": "/"
                   }
             ]
@@ -104,7 +124,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 27 22 3",
+                    "Value": "WaffleW 22 22 3",
                     "Delimiter": "/"
                  }
             ],
@@ -133,7 +153,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 87 40 3",
+                    "Value": "WaffleW 84 40 3",
                     "Delimiter": "/"
                  }
                 ],
@@ -252,11 +272,11 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "WaffleW 26 22 3",
+                    "Value": "WaffleW 18 22 1",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
+            "When": { "HasMod: |contains=Fellowclown.SW": true }
         },
 //----------------FIREWORKS FESTIVAL------------------//
         {

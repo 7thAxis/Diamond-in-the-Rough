@@ -86,7 +86,7 @@
         //Trace
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json, data/Schedules/Trace.json"
+            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json, data/Schedules/Trace.json,  data/Festivals/Trace.json"
         },
         //Sen
 		{

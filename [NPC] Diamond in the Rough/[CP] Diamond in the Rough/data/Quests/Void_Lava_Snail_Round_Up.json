@@ -8,6 +8,7 @@
                 "{{ModID}}.Quests.VoidLavaSnailRoundUp": "ItemDelivery/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Title}}/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Description}}/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Task}}/JeremyTSnail (O){{ModID}}.Items.VoidLavaSnail 10/-1/0/-1/false/{{i18n:Quests.DitR.VoidLavaSnailRoundUp.FollowUp}}"
             }
         },
+        
     //TRIGGER ACTIONS
         {
             "LogName": "Void Lava Snail Round-up Flags for Phases and Daily completion check",

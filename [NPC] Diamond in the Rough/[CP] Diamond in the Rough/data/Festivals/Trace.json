@@ -8,13 +8,13 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 9 58 2",
+                    "Value": "TraceV 46 80 3",
                     "Delimiter": "/"
                 },
                      {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 28 72 0",
+                    "Value": "TraceV 33 65 2",
                     "Delimiter": "/"
                 }
             ]
@@ -27,13 +27,13 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 56 38 1",
+                    "Value": "TraceV 50 44 1",
                     "Delimiter": "/"
                 },
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 14 33 0",
+                    "Value": "TraceV 13 33 0",
                     "Delimiter": "/"
                 }
             ]
@@ -46,13 +46,13 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 47 43 1",
+                    "Value": "TraceV 33 43 3",
                     "Delimiter": "/"
                   },
                      {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 42 15 3",
+                    "Value": "TraceV 43 15 3",
                     "Delimiter": "/"
                 }
             ],
@@ -65,13 +65,13 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 47 43 1",
+                    "Value": "TraceV 33 43 3",
                     "Delimiter": "/"
                   },
                      {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 30 13 3",
+                    "Value": "TraceV 28 4 2",
                     "Delimiter": "/"
                 }
             ],
@@ -85,7 +85,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 90 43 2",
+                    "Value": "TraceV 93 41 3",
                     "Delimiter": "/"
                   }
             ]
@@ -98,7 +98,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 33 90 2",
+                    "Value": "TraceV 32 89 3",
                     "Delimiter": "/"
                     }
             ]
@@ -111,11 +111,11 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 37 81 2",
+                    "Value": "TraceV 27 13 3",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+            "When": { "IsOddYear": true }
         },
         {
             "Action": "EditData",
@@ -124,11 +124,11 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 21 22 2",
+                    "Value": "TraceV 6 15 3",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+            "When": { "IsOddYear": false }
         },
 //----------------ICE FESTIVAL------------------//
         {
@@ -138,25 +138,11 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 79 9 2",
+                    "Value": "TraceV 56 43 1",
                     "Delimiter": "/"
                  }
 
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8", //ice festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 83 40 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+            ]
         },
 //----------------WINTER STAR------------------//
         {
@@ -166,98 +152,10 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 41 72 2",
+                    "Value": "TraceV 33 90 2",
                     "Delimiter": "/"
                 }
             ]
-        },
-//----------------RSV GATHERING------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall20", //Ridgeside Gathering
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 87 59 2",
-                    "Delimiter": "/"
-                 },    
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 89 41 3",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-        },
-//----------------RSV EMBER OF RESOLUTIONS------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter28", //Ridgeside Ember
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 47 37 2",
-                    "Delimiter": "/"
-                 },      
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 29 46 1",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-        },
-//----------------SURFING FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer5", //Surfing Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 47 22 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-        },
-//----------------FASHION FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring19", //Fashion Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 71 20 2",
-                    "Delimiter": "/"
-                 },     
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "EveT 30 26 1",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=UNA.FF.CP": true }
-        },
-//----------------LOVE FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter13", //Love Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 21 61 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
         },
 //----------------MARKETPAOOLZA------------------//
         {
@@ -267,25 +165,113 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 17 22 3",
+                    "Value": "TraceV 16 21 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Fellowclown.SW": true }
+        }
+//----------------RSV GATHERING------------------//
+      /*  {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20", //Ridgeside Gathering
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 87 59 2",
+                    "Delimiter": "/"
+                 },    
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "TraceV 89 41 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },*/
+//----------------RSV EMBER OF RESOLUTIONS------------------//
+       /* {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28", //Ridgeside Ember
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 47 37 2",
+                    "Delimiter": "/"
+                 },      
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "TraceV 29 46 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },*/
+//----------------SURFING FESTIVAL------------------//
+      /*  {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer5", //Surfing Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 47 22 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=Fellowclown.SW": true }
-        },
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
+        },*/
+//----------------FASHION FESTIVAL------------------//
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring19", //Fashion Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 71 20 2",
+                    "Delimiter": "/"
+                 },     
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "TraceV 30 26 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=UNA.FF.CP": true }
+        },*/
+//----------------LOVE FESTIVAL------------------//
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter13", //Love Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 21 61 2",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
+        },*/
 //----------------FIREWORKS FESTIVAL------------------//
-        {
+        /*{
             "Action": "EditData",
             "Target": "Data/Festivals/summer20", //Fireworks Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "EveT 24 30 1",
+                    "Value": "TraceV 24 30 1",
                     "Delimiter": "/"
                  }
             ],
             "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
-        }
+        }*/
     ]
 }

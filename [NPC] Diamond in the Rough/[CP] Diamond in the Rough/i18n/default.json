@@ -1724,6 +1724,57 @@
 "Festivals.EveT.fall3.2": "I always find at least one neat thing at Marketpalooza.#$b#Last year I bought a beautiful green crystal for my collection.$l",
 "Festivals.EveT.fall3.3": "This event is for charity, yea?#$b#That's so nice. I'm glad the money is going to a good cause.$l",
 
+//Trace
+//Egg Festival
+"Festivals.TraceV.spring13.1": "Let me tell you about the egg, @.#$b#The egg is round, the egg comes in many varieties and the egg can hatch into birds.$7#$b#Or lizards I guess.$6#$b#Cherish the egg, my friend.#$e#Do you wish to know more about the egg?$h#$b#Sorry, I can't share any more egg secrets.$6",
+"Festivals.TraceV.spring13.2": "This event reminds me of the highway egg incident.$h#$b#No, I'm not going to elaborate on that point.#$e#Have a lovely day!$l",
+"Festivals.TraceV.spring13.3": "What do you think the mayor does with the eggs after the event?$h#$b#Does he turn them into egg salad and eat em?$6#$b#Man, he should share.$a",
+
+//Flower Dance
+"Festivals.TraceV.spring24.1": "Woohoo! I'm captain of this ship! No one can stop me me now!$8#$b#Just you try, you'll see what happens.$9",
+"Festivals.TraceV.spring24.2": "Yeeaaah. No one's getting me into a blue suit, sorry.$a#$b#You'll have to take me down kicking and screaming before that happens.$8",
+"Festivals.TraceV.spring24.3": "I like flowers. They're pretty cool. Yeah.#$b# They're like super awesome, man.$h#$b#%Trace's brain appears to be off in another dimension... Please try again later.",
+
+//Luau
+"Festivals.TraceV.summer11.1": "Soup boat soup boat soup boat! All aboard the soup boat!$h#$b#Can I interest you in a boat of soup, @?$h",
+"Festivals.TraceV.summer11.2": "What was I gonna bring to put into the soup again... Hrm, It's a little too late to be worrying about that now.",
+"Festivals.TraceV.summer11.3": "This year I'm putting a full bottle of homemade blackberry sauce into the soup.$h#$b#Though, you probably won't even notice it mixed into the rest of the chaos.$6",
+
+//Moonlight Jellies
+"Festivals.TraceV.summer28.1": "Man why do the jellies only come once a year? They're so shellfish!$a#$b#...Does that pun even work? I don't think jellyfish are shellfish.$6",
+"Festivals.TraceV.summer28.2": "",
+"Festivals.TraceV.summer28.3": "",
+
+//Fair
+"Festivals.TraceV.fall16.1": "",
+"Festivals.TraceV.fall16.2": "",
+"Festivals.TraceV.fall16.3": "",
+
+//Sprits Eve
+"Festivals.TraceV.fall27.1": "Hoooow the heck did I even get here?!$u#$b#How do I manage to do this every year?$6",
+"Festivals.TraceV.fall27.2": "I made a left... then a right... now I'm here. Hrm.$6#$b#Trace, master of getting horribly lost strikes again.$h",
+"Festivals.TraceV.fall27.3": "Sooo I've given up trying to figure out where I am.#$b#I'm just going to wait for the wizard guy to free me.$h#$b#Unfortunately I have zero patience.$6",
+
+//Ice Festival
+"Festivals.TraceV.winter8.1": "",
+"Festivals.TraceV.winter8.2": "",
+"Festivals.TraceV.winter8.3": "",
+
+//Winter Star
+"Festivals.TraceV.winter25.1": "",
+"Festivals.TraceV.winter25.2": "",
+"Festivals.TraceV.winter25.3": "",
+
+//Night Market
+"Festivals.TraceV.NightMarket.1": "Every year I wind up at the Night Market and end up buying a ton of weird knick-knacks I don't need.$6#$b#Hmm...$6#$b#Oh well!$11",
+"Festivals.TraceV.NightMarket.2": "Gonna get anything good from the Night Market, buddy?#h#$b#I heard they've got a pretty neat painting for sale.$l#$3#Might just snatch it up myself, to be honest.$9",
+"Festivals.TraceV.NightMarket.3": "Last year Eve bought a bunch of fireworks from the Night Market.#$b#I think they should probably ban her from doing that before one flies across the Scarp and ends up on my front lawn.$6",
+
+//Marketpalooza
+"Festivals.TraceV.fall3.1": "Wooo! You gonna participate in the raffle, @? I hope you win something good!$h#$b#Wait. I won't wish you anything. That'll curse you to NOT winning.$6",
+"Festivals.TraceV.fall3.2": "I think Eve's dog is digging in the trash.$8#$b#She's I don't think she's noticed and I'm not gonna tell her.$9#$b#Let the dogs play in the garbage!$h#$e#Unless it's my trash. That's my trash.$a",
+"Festivals.TraceV.fall3.3": "And then I said... Raaahhhblahhblahblahblah!#$b#They had no idea what I was talking about, and neither did I.$8#$b#Oh hey, @. Just having a chit chat with Eve, what's up?$h",
+
 //Waffle
 "Festivals.WaffleW.spring13.1": "%Waffle is chewing on an egg.",
 "Festivals.WaffleW.spring13.2": "Bark bark waff!$h",
@@ -1733,12 +1784,12 @@
 "Festivals.WaffleW.spring24.2": "%Waffle rolls around in some flowers.",
 "Festivals.WaffleW.spring24.3": "Arwooo!$h",
 
-"Festivals.WaffleW.summer11.1": "%Waffle digs in the sand looking for unknown treasure.",
+"Festivals.WaffleW.summer11.1": "%Waffle paws at the floorboards looking for unknown treasure.",
 "Festivals.WaffleW.summer11.2": "Waff waff waff!$h",
 "Festivals.WaffleW.summer11.3": "%Waffle chews on a piece of drift wood.",
 
 "Festivals.WaffleW.summer28.1": "Yip yip!$h",
-"Festivals.WaffleW.summer28.2": "%Waffle digs a deep hole in the sand. Watch your step!",
+"Festivals.WaffleW.summer28.2": "%Waffle tries to dig a hole into the floorboards.#$b#%She is unsuccessful...#$e#Bowwow...$s",
 "Festivals.WaffleW.summer28.3": "%Waffle sniffs at your feet.",
 
 "Festivals.WaffleW.fall16.1": "%Waffle has a token in her mouth. She growls when you try to take it.",
@@ -1806,7 +1857,7 @@
 "Festivals.PipoP.spring24.3": "%Pipo chews on a flower stem. Its species is now unrecognizable.",
 
 "Festivals.PipoP.summer11.1": "Miirrupp meow row.",
-"Festivals.PipoP.summer11.2": "%Pipo digs in the sand and the hole immediately fills with water. Horrifying.",
+"Festivals.PipoP.summer11.2": "%Pipo plucks at the carpet, pulling out long threads. What a callous creature.",
 "Festivals.PipoP.summer11.3": "%Pipo aggressively sheds hair to put in the soup.",
 
 "Festivals.PipoP.summer28.1": "Hooowll woowl meowl.",
@@ -1814,7 +1865,7 @@
 "Festivals.PipoP.summer28.3": "%Pipo sniffs at the sand then sneezes.",
 
 "Festivals.PipoP.fall16.1": "Pipo Pip Po Pipo.",
-"Festivals.PipoP.fall16.2": "%Pipo sniffs at the air. There are fish afoot. They must be found.",
+"Festivals.PipoP.fall16.2": "%Pipo sniffs at the air. There are snackies afoot. They must be consumed.",
 "Festivals.PipoP.fall16.3": "%Pipo does not understand the human's obsession with shiny round coins.",
 
 "Festivals.PipoP.fall27.1": "Meow meow mrow meow....",
@@ -1939,9 +1990,9 @@
 "Festivals.SenS.winter13.3": "I think my costume came out 'lovely'.$20#$b#Hahaha... get it? Because it's a romance festival?$20",
 
 //Marketpalooza
-"Festivals.SenS.fall3.1": "There are so many shops... I want to buy but arhg!#$b#I forgot my cloak...$s",
-"Festivals.SenS.fall3.2": "Why on earth did I not wear my cloak...?#$b#People will freak out if I walk up to booths like this.$s",
-"Festivals.SenS.fall3.3": "Grumble... I should have worn my cloak today... Grumble...$17",
+"Festivals.SenS.fall3.1": "Quick Sen... act natural!$17#$b#%The little pumpkin man makes incoherent pumpkin noises...",
+"Festivals.SenS.fall3.2": "Boooo spooooky I'm a talking pumpkin! You're halluuuucinating!$17",
+"Festivals.SenS.fall3.3": "I am just an ordinary pumpkin. Please advert your gaze.$17#$b#There is nothing to see here.$17",
 /*
 ███╗   ███╗ ██████╗ ██╗   ██╗██╗███████╗███████╗
 ████╗ ████║██╔═══██╗██║   ██║██║██╔════╝██╔════╝
