@@ -1,7 +1,7 @@
 {
 	"Name": "Diamond in the Rough",
 	"Author": "7thAxis",
-	"Version": "0.0.1",
+	"Version": "1.0.0-alpha",
 	"Description": "Adds new NPCs to East Scarp!",
 	"UniqueID": "7thAxis.DitR.CP",
 	"UpdateKeys": [""],
@@ -17,12 +17,10 @@
 	"Dependencies": [
 		{
 			"UniqueID": "LemurKat.EastScarpe.CP",
-			"MinimumVersion": "2.4.0-alpha.01",
 			"IsRequired": true
 		},
 		{
 			"UniqueID": "DecidedlyHuman.MappingExtensionsAndExtraProperties",
-			"MinimumVersion": "2.2.5-beta",
 			"IsRequired": true
 		},
 		{

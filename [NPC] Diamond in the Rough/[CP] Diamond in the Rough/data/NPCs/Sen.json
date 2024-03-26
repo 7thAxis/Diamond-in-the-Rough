@@ -38,7 +38,7 @@
                         }
                     ],
                     "IntroductionsQuest": false,
-                    "PerfectionScore": true,
+                    "PerfectionScore": "{{NPCs Required For Perfection}}",
                     "SpouseGiftJealousyFriendshipChange": 0,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,

@@ -24,13 +24,13 @@
                     "DisplayName": "{{i18n:Items.GoldenVoidLavaSnail.Title}}",
                     "Description": "{{i18n:Items.GoldenVoidLavaSnail.Description}}",
                     "Type": "Basic",
-                    "Category": -26,
+                    "Category": -4,
                     "Price": 5000,
                     "Edibility": -300,
                     "Buff": null,
                     "IsDrink": false,
-                    "ExcludeFromShippingCollection": true,
-                    "ContextTags": [ "color_red", "color_gold", "fish_golden_void_lava_snail", "forage_item" ],
+                    "ExcludeFromFishingCollection": true,
+                    "ContextTags": [ "color_black", "color_gold", "fish_golden_void_lava_snail", "forage_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 9
                 }             
@@ -61,7 +61,7 @@
             "Action": "EditData",
             "Target": "Data/Fish",
             "Entries": {
-                "{{ModID}}.Items.VoidLavaSnail": "Void Lava Snail/trap/.15//freshwater/12/24/false",
+                "{{ModID}}.Items.VoidLavaSnail": "Void Lava Snail/trap/{{SnailCrabPotRate}}//freshwater/12/24/false",
                 "{{ModID}}.Items.GoldenVoidLavaSnail": "Void Lava Snail/trap/.005//freshwater/12/24/false"
             }
         },
@@ -146,7 +146,7 @@
             }
         }
     },
- //---------------------------- FORAGE DATA ------------------------------------------//
+  //---------------------------- FORAGE DATA ------------------------------------------//
         {
             "Action": "EditData",
             "Target": "Data/Locations",
@@ -154,7 +154,7 @@
             "When": { "Season: |contains=winter": false }, 
             
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
                 "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
@@ -165,8 +165,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -176,8 +176,8 @@
             "When": { "Season: |contains=winter": false },   
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -187,8 +187,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -198,8 +198,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "1.0", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.01", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateCM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.01" }
          }
         },
         {
@@ -209,8 +209,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "1.0", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.01", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateCM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.01" }
          }
         },
         {
@@ -220,8 +220,8 @@
             "When": { "Season: |contains=winter": false },  
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -231,8 +231,8 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -242,8 +242,8 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -253,8 +253,8 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
             
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -264,8 +264,8 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -275,8 +275,8 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,  "Season: |contains=winter": false },
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -286,8 +286,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
         {
@@ -297,8 +297,8 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "0.6", "Quality": -999 },
-                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005", "Quality": -999 }
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         }
     ]

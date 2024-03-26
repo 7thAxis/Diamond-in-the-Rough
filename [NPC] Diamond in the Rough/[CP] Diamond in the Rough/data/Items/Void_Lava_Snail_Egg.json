@@ -15,6 +15,7 @@
                     "Edibility": -300,
                     "Buff": null,
                     "IsDrink": false,
+                    "ExcludeFromFishingCollection": "{{Items Required For Perfection}}",
                     "ContextTags": [ "color_red", "color_black", "egg_item", "large_egg_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 7

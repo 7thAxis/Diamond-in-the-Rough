@@ -111,7 +111,7 @@
         //Jeremy
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/Jeremy.json, data/Events/Jeremy/Quest_Activation.json"
+            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/Jeremy.json"
         },
         //Skrell
         {

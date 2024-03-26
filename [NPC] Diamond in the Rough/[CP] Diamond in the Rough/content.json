@@ -22,6 +22,7 @@ CREDITS
     "Format": "2.0.0",
 //---------------------------- CONFIGURATION ------------------------------------------//
     "ConfigSchema": {
+    //GAMEPLAY
         "Shadow Stat Changes": {
             "AllowValues": "true, false",
             "Default": true,
@@ -43,11 +44,26 @@ CREDITS
             "Description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to golems. The player does not have to fight Shadowfolk to reach perfection when enabled.",
             "Section": "Gameplay"
         },
+        "Items Required For Perfection": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description": "If checked, DitR's items will be required for perfection. (Some will still not be required due to rarity being locked behind a relationship.)",
+            "Section": "Gameplay"
+        },
+        "NPCs Required For Perfection": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "AllowBlank": false,
+            "Description": "If checked, DitR's NPCs will be required for perfection.",
+            "Section": "Gameplay"
+        },
+    //GRAPHICS
         "Have Shadow Kids": {
             "AllowValues": "true, false",
             "Default": true,
             "AllowBlank": false,
-            "Description": "Determines if you have Shadow children when you are married to Sen and changes dialogue accordingly. (Sen must be set as the primary spouse if Free Love is installed for this to take effect.)",
+            "Description": "Determines if you have Shadow children when you are married to Sen and changes dialogue accordingly. (Sen must be set as the primary spouse if a polyamory mod is installed for this to take effect.)",
             "Section": "Graphics"
         },
         "Reshade Existing Shadows": {
@@ -71,6 +87,7 @@ CREDITS
             "Description": "Spawns visible Void Lava Snails in the Caldera to match in-game lore.",
             "Section": "Graphics"
         },
+    //PRONOUNS
         "Player Pronouns 1": {
             "Default": "They",
             "AllowBlank": false,
@@ -194,19 +211,35 @@ CREDITS
             "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
         },
 
-        //CONDITIONAL ITEM SPAWN - Used for dialogue sub-randomization and manageable randomization translation 
+        //CONDITIONAL ITEM SPAWN AND SPAWN RATES
         { "Name": "FishPondSnailEggSpawnable", "Value": "(O)766" },
-        {
-            "Name": "FishPondSnailEggSpawnable",
-            "Value": "(O){{ModID}}.Items.VoidLavaSnailEgg",
-            "When": { "HasFlag": "DitR_M_SnailPhase5" }
-        },
         { "Name": "FishPondGoldenSnailEggSpawnable", "Value": "(O)766" },
-        {
-            "Name": "FishPondGoldenSnailEggSpawnable",
-            "Value": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg",
-            "When": { "HasFlag": "DitR_M_SnailPhase5" }
-        },
+            {
+                "Name": "FishPondSnailEggSpawnable",
+                "Value": "(O){{ModID}}.Items.VoidLavaSnailEgg",
+                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+            },
+            {
+                "Name": "FishPondGoldenSnailEggSpawnable",
+                "Value": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg",
+                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+            },
+
+        { "Name": "SnailCrabPotRate", "Value": 0.15 },
+        { "Name": "SnailForageRateUM", "Value": 0.6 },
+        { "Name": "SnailForageRateCM", "Value": 1.0 },
+            {
+                "Name": "SnailCrabPotRate", "Value": 0.05,
+                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+            },
+            {
+                "Name": "SnailForageRateUM", "Value": 0.3,
+                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+            },
+            {
+                "Name": "SnailForageRateCM", "Value": 0.6,
+                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+            },
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 
             /* SenRandTokens - All tokens used for the sub-randomization of Sen's dialogue. (book titles, food, crochet items, etc)
@@ -226,7 +259,7 @@ CREDITS
         },
         {
             "Name": "PlayerPNTokens",
-            "Value": "|PPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |PPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |PPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |PPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |PPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}}"
+            "Value": "|CPPN1={{Random: {{Player Pronouns 1}} |key=PlayerPronouns}} |CPPN2={{Random: {{Player Pronouns 2}} |key=PlayerPronouns}} |CPPN3={{Random: {{Player Pronouns 3}} |key=PlayerPronouns}} |CPPN4={{Random: {{Player Pronouns 4}} |key=PlayerPronouns}} |CPPNI={{Random: {{Player Pronoun Identifier}} |key=PlayerPronouns}} |LPPN1={{Random: {{Lowercase: {{Player Pronouns 1}}}} |key=PlayerPronouns}} |LPPN2={{Random: {{Lowercase: {{Player Pronouns 2}}}} |key=PlayerPronouns}} |LPPN3={{Random: {{Lowercase: {{Player Pronouns 3}}}} |key=PlayerPronouns}} |LPPN4={{Random: {{Lowercase: {{Player Pronouns 4}}}} |key=PlayerPronouns}} |LPPNI={{Random: {{Lowercase: {{Player Pronoun Identifier}}}} |key=PlayerPronouns}}"
         },
 
     //Situational Override Dialogue Generator 

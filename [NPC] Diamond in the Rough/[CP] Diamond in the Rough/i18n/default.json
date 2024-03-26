@@ -2332,12 +2332,18 @@
 "Quests.DitR.AGardenForSen.Task": "Bring 30 mixed seeds to Sen.",
 "Quests.DitR.AGardenForSen.FollowUp": "...!$7#$b#With both of our seed collecting efforts combined, we should have plenty now.$h#$b#Thank you so much, @. Come visit my home in a few days, alright?$h#$action AddMail Current DitR_M_AGardenForSenComplete received",
 
-//Snail Monsense
+//Snail Nonsense
 "Quests.DitR.VoidLavaSnailRoundUp.Title": "Void Lava Snail Round-Up!",
 "Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy T. Snail.",
-"Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 10 Void Lava Snails to Jeremy T. Snail.",
-"Quests.DitR.VoidLavaSnailRoundUp.FollowUp": "%Jeremy accepts the snails with a grateful nod.#$b#Thank you. I will ensure these younglings cause no futher chaos to the valley.#$action IncrementStat VoidLavaSnailsGiven 10#$action RemoveMail Current DitR_M_VoidLavaSnailQuestActive",
+"Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 20 Void Lava Snails to a bush in Jeremy's room.",
 "Quests.DitR.VoidLavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
+
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.Title": "The Snail Mail",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.1": "Hello, ^^I hope you are finding yourself well.^^Here is a token of my appreciation for your assistance in wrangling my kin.  ^^   -J.T.S %item object 709 50 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.2": "Hello, ^^Do not question my capability to write.^^Move along and accept my reward for your assistance in bringing my kin home.  ^^   -J.T.S %item object 769 20 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.3": "Hello, ^^My home is starting to become a tad crowded. I suppose that is fine. I quite enjoy the chatter... ^^Anyhow, here is a reward. ^^   -J.T.S %item object 69 1 835 1 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.4": "Hello, ^^I have quite the large family now. Based on the last headcount, it is about 80 snails wide. ^^Now if only they would all behave...^^I have no idea where they found all this gold...^^   -J.T.S %item money 50000 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP.Items.VoidLavaSnailEgg 1 %%",
 
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗

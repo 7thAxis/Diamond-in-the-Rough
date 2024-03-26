@@ -14,6 +14,7 @@
                     "Price": 50,
                     "Edibility": -50,
                     "IsDrink": false,
+                    "ExcludeFromShippingCollection": "{{Items Required For Perfection}}",
                     "Buff": null,
                     "ContextTags": [ "color_white", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
@@ -28,6 +29,7 @@
                     "Category": -74,
                     "Price": 30,
                     "IsDrink": false,
+                    "ExcludeFromShippingCollection": true,
                     "Buff": null,
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 1
@@ -43,6 +45,7 @@
                     "Price": 275,
                     "Edibility": 1,
                     "IsDrink": false,
+                    "ExcludeFromShippingCollection": "{{Items Required For Perfection}}",
                     "Buffs": [ { "Id": "ValleyLily", "Duration": 300, "CustomAttributes": { "LuckLevel": 4.0 } } ],
                     "ContextTags": [ "color_gold", "season_spring", "season_summer", "forage_item", "flower_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
@@ -57,6 +60,7 @@
                     "Category": -74,
                     "Price": 100,
                     "IsDrink": false,
+                    "ExcludeFromShippingCollection": true,
                     "Buff": null,
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 3

@@ -15,6 +15,7 @@
                     "Edibility": 1,
                     "Buffs": [ { "Id": "SnailMayo", "Duration": 100, "CustomAttributes": { "FishingLevel": 2, "Defense": 1  } } ],
                     "IsDrink": true,
+                    "ExcludeFromShippingCollection": "{{Items Required For Perfection}}",
                     "ContextTags": [ "color_red", "color_black", "mayo_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 8
