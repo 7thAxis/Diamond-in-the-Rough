@@ -176,7 +176,7 @@
             "When": { "Season: |contains=winter": false },   
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateCM}}" },
                 "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
@@ -231,7 +231,7 @@
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true },
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateCM}}" },
                 "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },
@@ -286,7 +286,7 @@
             "When": { "Season: |contains=winter": false }, 
 
             "Entries": { 
-                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateUM}}" },
+                "(O){{ModID}}.Items.VoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.VoidLavaSnail", "Chance": "{{SnailForageRateCM}}" },
                 "(O){{ModID}}.Items.GoldenVoidLavaSnail": { "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail", "Chance": "0.005" }
          }
         },

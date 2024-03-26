@@ -20,7 +20,7 @@
                     "SpecialRule": "",
                     "Text": "[DitR.SpecialOrders.VoidLavaSnailRoundUp_Text]",
                     "ItemToRemoveOnEnd": null,
-                    "MailToRemoveOnEnd": "DitR_M_VoidLavaSnailQuestActive",
+                    "MailToRemoveOnEnd": "DitR_M_VoidLavaSnailQuestCurrentlyActive",
                     "RandomizedElements": null,
                     "Objectives": [
                         {
@@ -141,14 +141,14 @@
             "Action": "EditData",
             "Target": "Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "Entries": {
-                "SnailTest/l DitR_M_VoidLavaSnailQuestActive/l DitR_M_AcceptedVoidLavaSnailQuestToday": "
+                "SnailTest/l DitR_M_VoidLavaSnailQuestCurrentlyActive/l DitR_M_AcceptedVoidLavaSnailQuestToday": "
                 
                 continue/
                 -1000 -1000/
                 farmer -1000 -1000 2/
                 ignoreCollisions farmer/
                 unskippable/
-                pause 100/quickQuestion Accept snail quest? (This quest is repeatable upon completion.)#YES#NO(break)message \"SNAIL!\"\\action AddSpecialOrder {{ModID}}.Quests.VoidLavaSnailRoundUp\\addMailReceived DitR_M_VoidLavaSnailQuestActive\\addMailReceived DitR_M_AcceptedVoidLavaSnailQuestToday(break)message \"NO SNAIL!\"/
+                pause 100/quickQuestion Accept snail quest? (This quest is repeatable upon completion.)#YES#NO(break)message \"SNAIL!\"\\action AddSpecialOrder {{ModID}}.Quests.VoidLavaSnailRoundUp\\addMailReceived DitR_M_VoidLavaSnailQuestCurrentlyActive\\addMailReceived DitR_M_AcceptedVoidLavaSnailQuestToday(break)message \"NO SNAIL!\"/
                 
                 end"
             }
