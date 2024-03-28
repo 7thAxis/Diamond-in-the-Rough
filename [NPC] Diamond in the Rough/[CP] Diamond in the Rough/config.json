@@ -1,16 +1,17 @@
 {
   "Shadow Stat Changes": "true",
-  "Pacifist Mode": "true",
-  "Golem Eradication Substitute": "true",
+  "Pacifist Mode": "false",
+  "Golem Eradication Substitute": "false",
   "Items Required For Perfection": "true",
   "NPCs Required For Perfection": "true",
+  "NPC Schedule Type": "Dynamic",
   "Have Shadow Kids": "true",
-  "Reshade Existing Shadows": "true",
+  "Reshade Existing Shadows": "false",
   "Alpha Pipo Portrait": "false",
   "Caldera Void Lava Snails": "true",
-  "Player Pronouns 1": "they",
-  "Player Pronouns 2": "them",
-  "Player Pronouns 3": "theirs",
-  "Player Pronouns 4": "themself",
-  "Player Pronoun Identifier": "are"
+  "Player Pronouns 1": "They",
+  "Player Pronouns 2": "Them",
+  "Player Pronouns 3": "Theirs",
+  "Player Pronouns 4": "Themself",
+  "Player Pronoun Identifier": "Are"
 }

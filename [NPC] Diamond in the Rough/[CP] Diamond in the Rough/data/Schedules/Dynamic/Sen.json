@@ -1,0 +1,599 @@
+{
+	"Changes": [
+ //----------------------------MARRIAGE ------------------------------------------//
+		{
+			"Action": "EditData",
+			"Target": "spacechase0.SpaceCore/NpcExtensionData",
+			"Entries": {
+			  "SenS": {	"IgnoreMarriageSchedule": true }
+			},
+			"When": { "Weather": "Rain, Storm", "BasicRandomizer": "1" }
+		  },
+		  {
+			"LogName": "Marriage Rain Schedule Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"rain": "
+					0 EastScarp_DeepDark 28 37/
+					610 28 37 0/
+					700 25 37 0/
+					800 23 37 0/
+					900 18 37 3/
+					1000 29 39 1/
+					29 42 1/
+					1100 23 38 2/
+					1200 28 37 0/
+					1300 25 37 0/
+					1400 29 39 1/
+					1500 EastScarp_Village 31 101 sens_wigglesit/
+					1900 BusStop -1 23 3",
+
+				"rain2": "
+					0 Town 110 78/
+					610 97 81 0/
+					700 109 91 3/
+					800 55 85 1/
+					1000 47 71 0/
+					1100 52 64 0/
+					1200 19 90 0/
+					1300 13 87 0/
+					1400 43 77 sens_wigglesit/
+					1700 70 91 sens_wigglesit/
+					1900 BusStop -1 23 3"
+			},
+			"When": { "LivingWithSen": true }
+		},
+		  {
+			"LogName": "Marriage Rain Schedule SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"rain2": "
+					0 Town 88 81/
+					610 89 81 1/
+					1100 108 92 0/
+					1300 55 85 1/
+					1500 28 84 3/
+					1700 6 89 3/
+					1900 BusStop -1 23 3"
+			},
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "LivingWithSen": true }
+		},
+ //---------------------------- DEFAULTS ------------------------------------------//
+		  {
+			"LogName": "Sen default schedules",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"spring": "
+					0 EastScarp_DeepDark 25 17/
+					700 21 22 sens_read/
+					900 28 19 0/
+					1100 23 20 sens_crochet/
+					1300 18 17 3/
+					1500 21 21 sens_wigglesit/
+					1700 EastScarp_Village 46 20 3/
+					1800 38 14/
+					1900 37 10 1/
+					2000 64 6 0/
+					2100 54 40 sens_wigglesit/
+					2300 47 40 sens_wigglesit
+				",
+
+				"rain": "
+					0 Town 110 78/
+					610 97 81 0/
+					700 109 91 3/
+					800 55 85 1/
+					1000 47 71 0/
+					1100 52 64 0/
+					1200 19 90 0/
+					1300 13 87 0/
+					1400 43 77 sens_wigglesit/
+					1700 70 91 sens_wigglesit/
+					1900 27 23/
+					2100 20 62 3/
+					2300 35 79",
+
+				"rain2": "
+					0 EastScarp_DeepDark 26 19/
+					610 26 19 sens_read/
+					700 EastScarp_Village 49 21/
+					900 46 20 3/
+					1000 50 19 2/
+					1100 38 5 3/
+					1200 52 13 0/
+					1300 54 13 0/
+					1400 71 17 1/
+					1500 71 16 3/
+					1600 54 13 0/
+					1700 52 13 0/
+					1900 55 84 sens_wigglesit/
+					2100 43 114/
+					2300 14 90",
+
+				"prefestivals": "
+					0 EastScarp_DeepDark 28 19/
+					700 28 22/
+					800 26 17 sens_map/
+					900 23 20 sens_crochet/
+					1200 28 19 0/
+					1230 29 22/1300 19 24 3/
+					1330 28 19 0/
+					1400 28 19 sens_read/
+					1500 28 19 0/
+					1600 21 22 sens_crochet/
+					1700 28 19 0/
+					1800 21 22 sens_crochet/
+					2000 25 17 0/
+					2300 21 22 sens_crochet",
+
+				"winter_13": "
+					0 EastScarp_DeepDark 26 18/
+					610 26 18 2",
+
+				"spring_12": "GOTO prefestivals", //Day before Egg Festival
+				"spring_23": "GOTO prefestivals", //Day before Flower Dance
+				"summer_10": "GOTO prefestivals", //Day before Luau 
+				"summer_27": "GOTO prefestivals", //Day before Moonlight Jellies
+				"fall_15": "GOTO prefestivals", //Day before Fair
+				"fall_26": "GOTO prefestivals", //Day before Spirits Eve
+				"winter_7": "GOTO prefestivals", //Day before Ice Festival
+				"winter_24": "GOTO prefestivals", //Day before Winter Star
+
+				"winter_15": " 
+					0 EastScarp_DeepDark 26 19/
+					610 EastScarp_Village 40 114/
+					900 Town 77 84 3/
+					1400 Town 71 101/
+					1500 Beach 19 4/
+					1700 {{Random:13 39++14 24++42 35 0|inputSeparator=++}}/
+					2330 Town 37 96", //Nightmarket
+
+				"winter_16": "GOTO winter_15",
+				"winter_17": "GOTO winter_15"
+			}
+		},
+		{
+			"LogName": "Sen Rain2 Schedule SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"rain2": "
+					0 EastScarp_DeepDark 26 19/
+					610 26 19 sens_read/
+					700 EastScarp_Village 49 21/
+					900 46 20 3/
+					1000 50 19 2/
+					1100 38 5 3/
+					1200 52 13 0/
+					1300 54 13 0/
+					1400 71 17 1/
+					1500 71 16 3/
+					1600 54 13 0/
+					1700 52 13 0/
+					1900 55 84 sens_wigglesit/
+					2100 43 114/
+					2300 14 90",
+			},
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "LivingWithSen": false }
+		},
+ //---------------------------- RAND SCHEDULES ------------------------------------------//
+//---Schedule 1---//	
+		{
+			"LogName": "Sen Schedule Mine Vanilla",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Mine 13 8/
+					610 13 8 sens_read/
+					900 13 10 3/ 
+					1100 24 4 sens_read/
+					1300 13 10 3/
+					1500 12 5 sens_map/
+					1700 Mountain 79 30 3/
+					1800 93 34 1/
+					1900 31 21 0/
+					2100 45 20 1/
+					2300 67 21 sens_read
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 1, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Mine SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Mine 13 8/
+					610 13 8 sens_read/
+					900 13 10 3/
+					1100 24 4 sens_read/
+					1300 13 10 3/
+					1500 12 5 sens_map/
+					1700 Custom_AdventurerSummit 13 20 3/
+					1900 17 28 3/2100 Mountain 65 14 2/
+					2300 42 15 1
+				",
+			},
+			"When": { 
+				"SenScheduleRandomizer": 1, "LivingWithSen": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			 }
+		},
+//---Schedule 2---//
+		{
+			"LogName": "Sen Schedule DeepDark+Orchard",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 EastScarp_DeepDark 25 17/
+					700 21 22 sens_read/900 28 19 0/
+					1100 23 20 sens_crochet/
+					1300 18 17 3/
+					1500 21 21 sens_wigglesit/
+					1700 EastScarp_Orchard 2 15/
+					1900 EastScarp_OrchardHouse 13 19 0/
+					2100 13 19 sens_read/
+					2300 1 8 sens_wigglesit
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 2, "LivingWithSen": false,
+						"HasSeenEvent |contains=63070010, 57875010": true  }
+		},
+//---Schedule 3---//
+		{
+			"LogName": "Sen Schedule Town Vanilla 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 102 15/
+					610 102 15 sens_read/
+					900 99 9 sens_read/
+					1100 98 4 3/
+					1300 98 4 sens_read/
+					1500 99 9 sens_map/
+					1700 97 81 0/
+					1900 109 91 3/
+					2100 55 85 1/
+					2300 37 96 sens_crochet
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 3, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Town SVE 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 99 30/
+					610 99 30 sens_read/
+					1100 100 19 sens_read/
+					1300 101 14 sens_crochet/
+					1500 98 4 sens_read/
+					1700 70 11 sens_wigglesit/
+					1900 63 15 sens_wigglesit/
+					2100 39 14 2/
+					2300 26 23 2
+					",
+			},
+			"When": { 
+				"SenScheduleRandomizer": 3, "LivingWithSen": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			 }
+		},
+//---Schedule 4---//
+		{
+			"LogName": "Sen Schedule DeepDark+ES Wander 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 EastScarp_DeepDark 25 17/
+					700 21 22 sens_read/
+					900 28 19 0/
+					1100 23 20 sens_crochet/
+					1300 18 17 3/
+					1500 21 21 sens_wigglesit/
+					1700 EastScarp_Village 46 20 3/
+					1800 38 14/
+					1900 37 10 1/
+					2000 64 6 0/
+					2100 54 40 sens_wigglesit/
+					2300 47 40 sens_wigglesit
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 4, "LivingWithSen": false }
+		},
+//---Schedule 5---//
+		{
+			"LogName": "Sen Schedule Forest Vanilla 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Forest 99 100/
+					610 99 100 sens_crochet/
+					900 93 100 sens_read/
+					1100 116 90/
+					1300 104 74 3/
+					1500 104 73 sens_crochet/
+					1700 33 96/
+					1900 58 87/
+					2100 38 61/
+					2300 107 35 0
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 5, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Forest SVE 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Forest 99 100/
+					610 99 100 sens_read/
+					1100 116 90 sens_crochet/
+					1300 112 81 sens_read/
+					1500 94 64 sens_read/
+					1700 80 30 2/
+					1900 77 7 sens_read/
+					2100 38 9 sens_wigglesit/
+					2300 34 25 2
+				",
+			},
+			"When": { 
+				"SenScheduleRandomizer": 5, "LivingWithSen": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+//---Schedule 6---//
+		{
+			"LogName": "Sen Schedule Sewer",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Sewer 32 16/
+					610 32 17/
+					900 31 19 0/
+					1100 17 28/
+					1300 31 19 0/
+					1400 8 21 0/
+					1500 30 17/
+					1700 31 19 0/
+					1900 16 16 sens_read/
+					2100 4 27 1/
+					2300 24 22
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 6, "LivingWithSen": false }
+		},
+//---Schedule 7---//
+		{
+			"LogName": "Sen Schedule Orchard + ES",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 EastScarp_OrchardHouse 1 8 sens_wigglesit/
+					900 13 19 0/
+					1100 12 21 sens_read/
+					1300 EastScarp_Orchard 35 4 sens_read/
+					1500 12 14 2 sens_read/
+					1900 EastScarp_Village 54 40 sens_wigglesit/
+					2100 39 76 0/
+					2300 25 103 sens_wigglesit/
+					2430 24 62
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 7, "LivingWithSen": false,
+						"HasSeenEvent |contains=63070010, 57875010": true  }
+		},
+//---Schedule 8---//
+		{
+			"LogName": "Sen Schedule Town Vanilla 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 102 15/
+					610 102 15 sens_read/
+					900 99 9 sens_read/
+					1100 98 4 3/
+					1300 98 4 sens_read/
+					1500 99 9 sens_map/
+					1700 Beach 19 5/
+					1900 46 24/
+					2100 42 34 sens_wigglesit/
+					2300 52 6 sens_wigglesit
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 8, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Town SVE 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 51 10/
+					610 51 10 sens_read/
+					1100 58 9 sens_crochet/
+					1300 67 4 2/
+					1500 58 9 sens_read/
+					1700 67 4 2/
+					1900 70 11 sens_wigglesit/
+					2100 Mountain 20 36 2/
+					2300 25 24 2
+				",
+			},
+			"When": { 
+				"SenScheduleRandomizer": 8, "LivingWithSen": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+//---Schedule 9---//
+		{
+			"LogName": "Sen Schedule DeepDark+ES Wander 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 EastScarp_DeepDark 25 17/
+					700 21 22 sens_read/
+					900 28 19 0/
+					1100 23 20 sens_crochet/
+					1300 18 17 3/
+					1500 21 21 sens_wigglesit/
+					1700 EastScarp_Village 61 113/
+					1900 71 120/
+					2100 31 101 sens_wigglesit/
+					2300 21 83 2 sens_read
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 9, "LivingWithSen": false }
+		},
+//---Schedule 10---//
+		{
+			"LogName": "Sen Schedule Town Vanilla 3",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 41 9/
+					610 41 9 sens_read/
+					900 58 9 1/
+					1100 48 13 sens_crochet/
+					1300 41 9 3/
+					1500 60 10 sens_crochet/
+					1700 63 15 sens_wigglesit/
+					1900 71 11 sens_wigglesit/
+					2100 78 93 sens_wigglesit/
+					2300 43 77 sens_wigglesit
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 10, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Town SVE 3",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Town 99 30/
+					610 99 30 sens_read/
+					1100 100 19 sens_read/
+					1300 101 14 sens_crochet/
+					1500 98 4 sens_read/
+					1700 89 50 0/
+					1900 90 82 0/
+					2100 55 85 1/
+					2300 43 77 sens_wigglesit
+				",
+			},
+			"When": { 
+				"SenScheduleRandomizer": 10, "LivingWithSen": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+//---Schedule 11---//
+		{
+			"LogName": "Sen Schedule DeepDark+ES Wander 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 EastScarp_DeepDark 25 17/
+					700 21 22 sens_read/
+					900 28 19 0/
+					1100 23 20 sens_crochet/
+					1300 18 17 3/
+					1500 21 21 sens_wigglesit/
+					1700 EastScarp_Village 61 113/
+					1900 71 120/
+					2100 31 101 sens_wigglesit/
+					2300 21 83 2 sens_read
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 11, "LivingWithSen": false }
+		},
+//---Schedule 12---//
+		{
+			"LogName": "Sen Schedule DeepDark+ES Wander 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"{{WeekDay}}":"
+					0 Tunnel 23 7/
+					610 Tunnel 23 7 sens_read/
+					900 10 7 sens_crochet/
+					1100 17 8 0/
+					1300 37 9 sens_read/
+					1500 7 9 3/
+					1700 20 11/
+					1900 10 7 sens_read/
+					2100 23 7/2300 10 7
+				",
+			},
+			"When": {  "SenScheduleRandomizer": 12, "LivingWithSen": false }
+		},
+ //---------------------------- MODDED FESTIVALS ------------------------------------------//
+		{
+			"LogName": "Sen Schedule Ridgeside",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"fall_19": "GOTO prefestivals", //Day before Gathering
+				"winter_27": "GOTO prefestivals" //Day before Ember
+			},
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": true,  "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Surfing Festival",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": { "summer_4": "GOTO prefestivals" },
+			"When": { "HasMod: |contains=spacechase0.SurfingFestival": true, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Fashion Festival",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": { "spring_18": "GOTO prefestivals" },
+			"When": {
+				"HasMod: |contains=UNA.FF.CP": true, "LivingWithSen": false,
+				"HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
+				"HasReadLetter: anyPlayer |contains=FashionShowLetter": true
+			}
+		},
+		{
+			"LogName": "Sen Schedule Love Festival",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": { "winter_12": "GOTO prefestivals" },
+			"When": { "HasMod: |contains=AvalonMFX.LoveFestival": true, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Marketpalooza",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": { "fall_2": "GOTO prefestivals" },
+			"When": { "HasMod: |contains=Fellowclown.Nikolai": true, "LivingWithSen": false }
+		},
+		{
+			"LogName": "Sen Schedule Fireworks Festival",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": { "summer_19": "GOTO prefestivals" },
+			"When": { "HasMod: |contains=violetlizabet.FireworksFestival": true, "LivingWithSen": false }
+		}
+	]
+}

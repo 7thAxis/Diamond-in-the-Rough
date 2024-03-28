@@ -1,0 +1,191 @@
+{
+    "Changes": [
+ //---------------------------- DEFAULTS ------------------------------------------//
+		{
+			"LogName": "Eve Default Schedules",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EveT",
+			"Entries": {
+				"spring": "					
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 77 98 evet_kickfeet/
+					1000 62 112 3/
+					1200 80 78 evet_kickfeet/
+					1400 24 62/
+					1600 25 103 evet_kickfeet/
+					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					1900 3 5 0/
+					2000 12 5 evet_sleep
+				",
+
+				"rain":"
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 11 7 evet_gempolish/
+					1100 EastScarp_VillageInn 28 26 evet_sit/
+					1400 25 11 evet_sit/
+					1600 EastScarp_Village 23 63 evet_kickfeet/
+					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2030 3 5 0/
+					2100 12 5 evet_sleep
+				",
+
+				"rain2": "GOTO spring",
+
+				"winter_15":"
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 31 100 2/
+					1100 Town 86 103 2/
+					1500 Beach 41 5 2/
+					1700 11 25 1/
+					1900 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2100 3 5 0/
+					2200 12 5 evet_sleep
+				",
+
+				"winter_16":"GOTO winter_15",
+				"winter_17":"GOTO winter_15",
+				"spring_12": "GOTO spring",
+			}
+		},
+ //---------------------------- SCHEDULES ------------------------------------------//
+		{
+			"LogName": "Eve Simple Schedules",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EveT",
+			"Entries": {
+				"Mon":"
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 80 78 evet_kickfeet/
+					1100 ArchaeologyHouse 17 5 0/
+					1500 Town 77 83 3/
+					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/2030 3 5 0/
+					2100 12 5 evet_sleep
+				",
+				"Tue": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 80 78 evet_kickfeet/
+					1100 ArchaeologyHouse 17 5 0/
+					1500 Town 77 83 3/
+					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/2030 3 5 0/
+					2100 12 5 evet_sleep
+				",
+				"Wed": "
+					0 Forest 34 25/
+					610 34 25 2/
+					800 68 50 2/
+					1000 AnimalShop 16 17 3/
+					1300 Town 26 98 2/
+					1500 {{ModID}}.Maps.Eve_House_Interior 11 7 evet_gempolish/
+					2000 1 5 0/2030 3 5 0/2100 12 5 evet_sleep
+				",
+				"Thu": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 Town 75 38 2/
+					1400 Town 71 11 evet_kickfeet/
+					1600 Mountain 42 13 1/
+					1800 60 11 2/
+					2000 Mine 16 10 3
+				",
+				"Fri": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					900 SeedShop 12 23 0/
+					1400 3 19 0/
+					1500 Town 80 59 evet_kickfeet/
+					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2030 3 5 0/
+					2100 12 5 evet_sleep
+				",
+				"Sat": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 31 100 2/
+					1100 Blacksmith 4 15 0/
+					1500 Town 86 103 2/
+					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2030 3 5 0/
+					2100 12 5 evet_sleep",
+				"Sun": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 77 98 evet_kickfeet/
+					1000 62 112 3/
+					1200 80 78 evet_kickfeet/
+					1400 24 62/
+					1600 25 103 evet_kickfeet/
+					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					1900 3 5 0/
+					2000 12 5 evet_sleep
+				",
+			},
+		},
+
+		{
+			"LogName": "Eve Mountain Schedule SVE",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EveT",
+			"Entries": {
+				"Thu":"
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 Town 75 38 2/
+					1400 Town 70 11 evet_kickfeet/
+					1600 Mountain 42 15 1/
+					1800 64 14 2/
+					2000 Mine 16 10 3
+				",
+				"Fri": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					900 SeedShop 15 20 0/
+					1400 5 19 0/
+					1500 Town 101 61 evet_kickfeet/
+					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2030 3 5 0/
+					2100 12 5 evet_sleep
+				"
+			},
+			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+		},
+ //---------------------------- OVERRIDES ------------------------------------------//
+        {
+			"LogName": "Eve Beach Hangout",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EveT",
+			"Entries": {
+				"Sat":"
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 31 100 2/
+					1100 Blacksmith 4 15 0/
+					1400 Town 86 103 2/
+					1530 EastScarp_Village 35 107 1/
+					2300 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2430 3 5 0/
+					2500 12 5 eve_sleep
+				"
+			},
+			"When": { "HasMod: |contains=TenebrousNova.EliDylan.CP": true, "Weather": "Sun, Snow, Wind" }
+		}
+    ]
+}
+
+// 0 up, 1 right, 2 down, 3 left - face direction

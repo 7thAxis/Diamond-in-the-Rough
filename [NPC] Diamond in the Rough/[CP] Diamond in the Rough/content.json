@@ -51,7 +51,7 @@ CREDITS
             "AllowValues": "true, false",
             "Default": true,
             "AllowBlank": false,
-            "Description": "If checked, DitR's items will be required for perfection. (Some will still not be required due to rarity being locked behind a relationship.)",
+            "Description": "If checked, DitR's items will be required for perfection. (Some will still not be required due to rarity or relationship gates.)",
             "Section": "Gameplay"
         },
         "NPCs Required For Perfection": {
@@ -59,6 +59,13 @@ CREDITS
             "Default": true,
             "AllowBlank": false,
             "Description": "If checked, DitR's NPCs will be required for perfection.",
+            "Section": "Gameplay"
+        },
+        "NPC Schedule Type": {
+            "AllowValues": "Dynamic, Simplified",
+            "Default": "Dynamic",
+            "AllowBlank": false,
+            "Description": "Whether DitR NPCs will visit different random locations every day (Dynamic) or follow a set schedule (Simplified). (Simplified makes NPCs easier to locate, but has significantly less content.)",
             "Section": "Gameplay"
         },
     //GRAPHICS
