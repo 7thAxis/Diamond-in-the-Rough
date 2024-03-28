@@ -73,10 +73,13 @@
 					1100 23 20 sens_crochet/
 					1300 18 17 3/
 					1500 21 21 sens_wigglesit/
-					1700 EastScarp_Orchard 2 15/
-					1900 EastScarp_OrchardHouse 13 19 0/
-					2100 13 19 sens_read/
-					2300 1 8 sens_wigglesit",
+					1700 EastScarp_Village 46 20 3/
+					1800 38 14/
+					1900 37 10 1/
+					2000 64 6 0/
+					2100 54 40 sens_wigglesit/
+					2300 47 40 sens_wigglesit
+				",
 
 				"rain": "
 					0 Town 110 78/
@@ -239,7 +242,8 @@
 					2300 1 8 sens_wigglesit
 				",
 			},
-			"When": {  "SenScheduleRandomizer": 2, "LivingWithSen": false }
+			"When": {  "SenScheduleRandomizer": 2, "LivingWithSen": false,
+						"Weather |contains=rain, storm, snow": true  }
 		},
 //---Schedule 3---//
 		{
@@ -390,7 +394,8 @@
 					2430 24 62
 				",
 			},
-			"When": {  "SenScheduleRandomizer": 7, "LivingWithSen": false }
+			"When": {  "SenScheduleRandomizer": 7, "LivingWithSen": false,
+						"Weather |contains=rain, storm, snow": true }
 		},
 //---Schedule 8---//
 		{

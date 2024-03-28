@@ -1,0 +1,19 @@
+{
+  "Name": "DitR Forage - Sen's Crocus",
+  "Author": "7thAxis",
+  "Description": "Controls Sen's Crocus Forage",
+    "Version": "1.0.0",
+  "UniqueID": "7thAxis.DitR.FTM.SC",
+   "UpdateKeys": ["Nexus:???"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+   },
+   "Dependencies": [
+		{
+			"UniqueID": "7thAxis.DitR.CP",
+			"IsRequired": true
+		}
+	]
+}

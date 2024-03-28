@@ -128,7 +128,9 @@
                     pause 500/
                     advancedMove WaffleW false -10 0 4 200/
                     warp Nova.Eli? -2000 -2000/
-                    pause 500/
+                    globalFade 0.01 true/
+                    pause 1500/
+                    viewport -1000 -1000/
                 end/
                 " 
             }

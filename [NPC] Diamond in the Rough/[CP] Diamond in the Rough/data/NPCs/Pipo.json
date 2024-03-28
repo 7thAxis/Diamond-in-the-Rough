@@ -30,7 +30,7 @@
                     "EndSlideShow": "TrailingGroup",
                     "SpawnIfMissing": true,
                     "Breather": false,
-                    "EmoteOffset": { "X": 0, "Y": 60 },
+                    "EmoteOffset": { "X": 0, "Y": 45 },
                     "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 },
                     "Home": [
                         {

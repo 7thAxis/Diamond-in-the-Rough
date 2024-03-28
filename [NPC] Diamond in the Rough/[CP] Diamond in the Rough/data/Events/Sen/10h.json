@@ -635,8 +635,8 @@
                 "{{ModID}}.Events.SenS.10h.P3/e {{ModID}}.Events.SenS.10h.P2/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_TheConfrontation": "
 
                 Upper_Ambient/
-                14 24/
-                farmer 8 23 1 SkrellS 8 19 2/
+                24 24/
+                farmer 18 23 1 SkrellS 18 19 2/
                 ignoreCollisions farmer/
                 addConversationTopic DitR_CT_SkrellSEpilogue 3/
                 skippable/

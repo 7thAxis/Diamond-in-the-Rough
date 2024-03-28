@@ -59,7 +59,7 @@
 //---------------------------- LOCATION FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Locations/Trace_House.json, data/Locations/Jeremy_Room.json, data/Locations/Sen_Room.json, data/Locations/Eve_House.json, data/Locations/Caldera_Snails.json"
+            "FromFile": "data/Locations/Trace_House.json, data/Locations/Jeremy_Room.json, data/Locations/Sen_Room.json, data/Locations/Eve_House.json, data/Locations/Caldera_Snails.json, data/Locations/World_Map.json"
         },
 //---------------------------- QUEST FILES ------------------------------------------//
         {

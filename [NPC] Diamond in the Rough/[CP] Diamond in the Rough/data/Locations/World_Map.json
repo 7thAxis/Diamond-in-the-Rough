@@ -1,0 +1,192 @@
+{
+    //---------------------------- NO SVE ------------------------------------------//
+      "Changes": [
+        {
+          "LogName": "NO SVE",
+          "Action": "EditData",
+          "Target": "Data/WorldMap",
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+          },
+          "TargetField": [ "EastScarp", "MapAreas" ],
+          "Entries": {
+            "TraceHouse": {
+              "Id": "TraceHouse",
+              "PixelArea": { "X": 85, "Y": 103, "Width": 11, "Height": 8 },
+              "Tooltips": [
+                {
+                  "Id": "TraceHouse",
+                  "Text": "{{i18n:Maps.TraceV.TraceHouse}}"
+                }
+              ],
+              "WorldPositions": [
+                {
+                  "Id": "TraceHouse",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Trace_House_Interior",
+                  "ExtendedTileArea": null,
+                  "MapPixelArea": { "X": 85, "Y": 103, "Width": 11, "Height": 8 },
+                  "ScrollText": "{{i18n:Maps.TraceV.TraceHouse}}"
+                },
+                {
+                  "Id": "TraceBasement",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Jeremy_Room",
+                  "MapPixelArea": { "X": 85, "Y": 103, "Width": 11, "Height": 8 },
+                  "ScrollText": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}"
+                },
+                {
+                  "ScrollTextZones": [],
+                  "Id": "Default",
+                  "LocationName": "EastScarp_Village",
+                  "ScrollText": null
+                }
+              ]
+            },
+            "EveHouse": {
+              "Id": "EveHouse",
+              "PixelArea": { "X": 190, "Y": 112, "Width": 8, "Height": 7 },
+              "Tooltips": [
+                {
+                  "Id": "EveHouse",
+                  "Text": "{{i18n:Maps.EveT.EveHouse}}"
+                }
+              ],
+              "WorldPositions": [
+                {
+                  "Id": "TraceHouse",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Eve_House_Interior",
+                  "ExtendedTileArea": null,
+                  "MapPixelArea": { "X": 190, "Y": 112, "Width": 8, "Height": 7 },
+                  "ScrollText": "{{i18n:Maps.EveT.EveHouse}}"
+                },
+                {
+                  "ScrollTextZones": [],
+                  "Id": "Default",
+                  "LocationName": "EastScarp_Village",
+                  "ScrollText": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "LogName": "Edit ES World Map NO SVE",
+          "Action": "EditImage",
+          "When": {
+            "Season": "spring, summer, fall, winter",
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+          },
+          "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/WorldMap/ESmap_Eve.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 304, "Height": 222 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 304, "Height": 222 }
+        },
+        {
+          "LogName": "Edit ES World Map NO SVE",
+          "Action": "EditImage",
+          "When": {
+            "Season": "spring, summer, fall, winter",
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+          },
+          "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/WorldMap/ESmap_Trace.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 304, "Height": 222 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 304, "Height": 222 }
+        },
+    //---------------------------- WITH SVE ------------------------------------------//
+        {
+          "LogName": "YES SVE",
+          "Action": "EditData",
+          "Target": "Data/WorldMap",
+          "When": {
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+          },
+          "TargetField": [ "EastScarp", "MapAreas" ],
+          "Entries": {
+            "TraceHouse": {
+              "Id": "TraceHouse",
+              "PixelArea": { "X": 5, "Y": 103, "Width": 11, "Height": 8 },
+              "Tooltips": [
+                {
+                  "Id": "TraceHouse",
+                  "Text": "{{i18n:Maps.TraceV.TraceHouse}}"
+                }
+              ],
+              "WorldPositions": [
+                {
+                  "Id": "TraceHouse",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Trace_House_Interior",
+                  "ExtendedTileArea": null,
+                  "MapPixelArea": { "X": 5, "Y": 103, "Width": 11, "Height": 8 },
+                  "ScrollText": "{{i18n:Maps.TraceV.TraceHouse}}"
+                },
+                {
+                  "Id": "TraceBasement",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Jeremy_Room",
+                  "MapPixelArea": { "X": 5, "Y": 103, "Width": 11, "Height": 8 },
+                  "ScrollText": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}"
+                },
+                {
+                  "ScrollTextZones": [],
+                  "Id": "Default",
+                  "LocationName": "EastScarp_Village",
+                  "ScrollText": null
+                }
+              ]
+            },
+            "EveHouse": {
+              "Id": "EveHouse",
+              "PixelArea": { "X": 110, "Y": 112, "Width": 8, "Height": 7 },
+              "Tooltips": [
+                {
+                  "Id": "EveHouse",
+                  "Text": "{{i18n:Maps.EveT.EveHouse}}"
+                }
+              ],
+              "WorldPositions": [
+                {
+                  "Id": "TraceHouse",
+                  "LocationName": "7thAxis.DitR.CP.Maps.Eve_House_Interior",
+                  "ExtendedTileArea": null,
+                  "MapPixelArea": { "X": 110, "Y": 112, "Width": 8, "Height": 7 },
+                  "ScrollText": "{{i18n:Maps.EveT.EveHouse}}"
+                },
+                {
+                  "ScrollTextZones": [],
+                  "Id": "Default",
+                  "LocationName": "EastScarp_Village",
+                  "ScrollText": null
+                }
+              ]
+            }
+          }
+        },
+        {
+          "LogName": "Edit ES World Map YES SVE",
+          "Action": "EditImage",
+          "When": {
+            // "Season": "spring, summer, fall, winter",
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+          },
+          "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/WorldMap/ESmap_EveSVE.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 222 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 224, "Height": 222 }
+        },
+        {
+          "LogName": "Edit ES World Map YES SVE",
+          "Action": "EditImage",
+          "When": {
+            // "Season": "spring, summer, fall, winter",
+            "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+          },
+          "Target": "Mods/Lemurkat.EastScarp/ESWorldMap",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/WorldMap/ESmap_TraceSVE.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 224, "Height": 222 },
+          "ToArea": { "X": 0, "Y": 0, "Width": 224, "Height": 222 }
+        }
+      ]
+    }

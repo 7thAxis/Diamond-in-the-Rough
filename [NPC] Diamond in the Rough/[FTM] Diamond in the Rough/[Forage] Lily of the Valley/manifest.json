@@ -1,0 +1,19 @@
+{
+  "Name": "DitR Forage - Lily of the Valley",
+  "Author": "7thAxis",
+  "Description": "Controls Lily of the Valley Forage",
+    "Version": "1.0.0",
+  "UniqueID": "7thAxis.DitR.FTM.LotV",
+   "UpdateKeys": ["Nexus:???"],
+  "MinimumApiVersion": "2.5",
+  "ContentPackFor": {
+    "UniqueID": "Esca.FarmTypeManager",
+    "MinimumVersion": "1.4.4"
+  },
+  "Dependencies": [
+		{
+			"UniqueID": "7thAxis.DitR.CP",
+			"IsRequired": true
+		}
+  ]
+}

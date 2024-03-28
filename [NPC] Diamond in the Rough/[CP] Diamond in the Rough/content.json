@@ -4,17 +4,20 @@ If you have any questions about how somethings works, feel free to reach out!
 
 CREDITS
     FellowClown - Created Eve's house and both Jeremy's portraits and overworld sprites. Also an amazing friend!
+    DestyNova - Narrative design help and generally being awesome.
     Chirps/Batty - Beta read and edited my dialogue! Always goofy and fun to hang out with.
     Pooh - Advanced code help, C# to fix Jeremy's path-finding. I've learned so so so so much from her!!
     LemurKat - For being an amazing modmom and giving my babies a home!
     KittyCatCasey - For adding amazing features to SpaceCore that let me do fancy things!
-    TheFrenchDodo - For the secret rendition of Barbie Girl that can play in Trace's room.
+    DecidedlyHuman - For creating MEEP, allowing me to do fancy map things!
+    TheFrenchDodo - For various music in the mod (Void Snail Waltz and Barbie Girl) + tiny houses on the world map.
+    Mad Dog - Did the code for world map edits and generally being an amazing person.
     Concerned Ape - For creating SDV and giving me a creative outlet!
     Zane Little - Eve's theme from FMA. (https://freemusicarchive.org/music/zane-little/a-bag-of-chips/the-world-is-ours/)
 
     Also a special thanks to all my friends offering feedback and creative support:
-        DestyNova, Tenebrous Nova, Mad Dog, Bagi
-        Tiara, JayJayDubs, DecidedlyHuman, Hecate 
+        Tenebrous Nova, JayJayDubs
+        Tiara, Hecate, Bagi
 
     Love you all.<3
 */
@@ -226,20 +229,11 @@ CREDITS
             },
 
         { "Name": "SnailCrabPotRate", "Value": 0.15 },
-        { "Name": "SnailForageRateUM", "Value": 0.6 },
-        { "Name": "SnailForageRateCM", "Value": 1.0 },
             {
                 "Name": "SnailCrabPotRate", "Value": 0.05,
                 "When": { "HasFlag": "DitR_M_SnailPhase5" }
             },
-            {
-                "Name": "SnailForageRateUM", "Value": 0.3,
-                "When": { "HasFlag": "DitR_M_SnailPhase5" }
-            },
-            {
-                "Name": "SnailForageRateCM", "Value": 0.6,
-                "When": { "HasFlag": "DitR_M_SnailPhase5" }
-            },
+        
 
         //PASS-IN TOKENS - Used for dialogue sub-randomization and manageable randomization translation 
             /* SenRandTokens - All tokens used for the sub-randomization of Sen's dialogue. (book titles, food, crochet items, etc)

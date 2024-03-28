@@ -148,6 +148,9 @@
                     pause 200/
                     advancedMove PipoP false 5 0 0 -4 4 200/
                     pause 500/
+                    globalFade 0.01 true/
+                    pause 1500/
+                    viewport -1000 -1000/
                 end/
                 " 
             }
