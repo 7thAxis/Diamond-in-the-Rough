@@ -1,9 +1,9 @@
 {
-  "Name": "DitR Forage - Void Lava Snail",
+  "Name": "Diamond in the Rough - Farm Type Manager",
   "Author": "7thAxis",
-  "Description": "Controls Void Lava Snail Forage",
+  "Description": "Controls forage and other FTM settings for DitR.",
     "Version": "1.0.0",
-  "UniqueID": "7thAxis.DitR.FTM.VLS",
+  "UniqueID": "7thAxis.DitR.FTM",
    "UpdateKeys": ["Nexus:???"],
   "MinimumApiVersion": "2.5",
   "ContentPackFor": {

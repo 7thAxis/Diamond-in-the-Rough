@@ -21,7 +21,7 @@
                     "SocialTab": "UnknownUntilMet",
                     "CanGreetNearbyCharacters": false,
                     "IntroductionsQuest": true,
-                    "PerfectionScore": "{{NPCs Required For Perfection}}",
+                    "PerfectionScore": "{{NPCs Excluded from Perfection}}",
                     "WinterStarParticipant": false,
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 40,

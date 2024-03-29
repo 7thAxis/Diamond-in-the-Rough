@@ -81,12 +81,12 @@
         //Eve
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/{{NPC Schedule Type}}/Eve.json, data/Festivals/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
+            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/{{NPC Schedule Type}}/Eve.json, data/Schedules/Default/Eve.json, data/Festivals/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
         },
         //Trace
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json,  data/Festivals/Trace.json, data/Schedules/{{NPC Schedule Type}}/Trace.json"
+            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json,  data/Festivals/Trace.json, data/Schedules/{{NPC Schedule Type}}/Trace.json, data/Schedules/Default/Trace.json"
         },
         //Sen
 		{
@@ -95,23 +95,23 @@
 		},
         {
 			"Action": "Include",
-			"FromFile": "data/Schedules/{{NPC Schedule Type}}/Sen.json",
+			"FromFile": "data/Schedules/{{NPC Schedule Type}}/Sen.json, data/Schedules/Default/Sen.json",
             "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
 		},
         //Waffle
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Waffle.json, data/Dialogue/Waffle.json, data/Festivals/Waffle.json, data/Schedules/{{NPC Schedule Type}}/Waffle.json"
+            "FromFile": "data/NPCs/Waffle.json, data/Dialogue/Waffle.json, data/Festivals/Waffle.json, data/Schedules/{{NPC Schedule Type}}/Waffle.json, data/Schedules/Default/Waffle.json"
         },
         //Pipo
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Festivals/Pipo.json, data/Schedules/{{NPC Schedule Type}}/Pipo_{{PipoAdoptionStatus}}.json"
+            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Festivals/Pipo.json, data/Schedules/{{NPC Schedule Type}}/Pipo_{{PipoAdoptionStatus}}.json, data/Schedules/Default/Pipo_{{PipoAdoptionStatus}}.json"
         },
         //Jeremy
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/{{NPC Schedule Type}}/Jeremy.json"
+            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/{{NPC Schedule Type}}/Jeremy.json, data/Schedules/Default/Jeremy.json"
         },
         //Skrell
         {

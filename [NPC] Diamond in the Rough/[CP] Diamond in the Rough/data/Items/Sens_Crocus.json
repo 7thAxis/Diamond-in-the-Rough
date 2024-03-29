@@ -14,9 +14,9 @@
                     "Price": 50,
                     "Edibility": 18,
                     "IsDrink": false,
-                    "ExcludeFromPerfectionShipping": true,
+                    "ExcludeFromShippingCollection": true,
                     "Buff": null,
-                    "ContextTags": [ "color_purple", "season_spring", "season_summer", "season_fall", "season_winter", "forage_item", "flower_item" ],
+                    "ContextTags": [ "color_purple", "season_spring", "season_summer", "season_fall", "season_winter", "flower_item", "forage_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 5
                 },
@@ -29,7 +29,7 @@
                     "Category": -74,
                     "Price": 30,
                     "IsDrink": false,
-                    "ExcludeFromPerfectionShipping": true,
+                    "ExcludeFromShippingCollection": true,
                     "Buff": null,
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 4

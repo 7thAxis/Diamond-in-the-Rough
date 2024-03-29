@@ -1,0 +1,47 @@
+{
+    "Changes": [
+		{
+			"LogName": "Pipo Default Schedules",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+				"spring": "
+					0 EastScarp_Village 77 93/
+					610 77 93 pipop_sitleft/
+					1300 77 93 pipop_groom/
+					2000 77 94 pipop_sleep",
+
+				"rain":"
+					0 EastScarp_Village 77 93/
+					610 77 93 pipop_sitleft/
+					1300 77 93 pipop_groom/
+					2000 77 94 pipop_sleep",
+			}
+		},
+ //---------------------------- OVERRIDES ------------------------------------------//
+        {
+			"LogName": "Pipo Beach Hangout",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Priority": "Late",
+			"Entries": {
+				"Sat":"
+					0 EastScarp_Village 23 60/
+					610 23 60 pipop_sitleft/
+					800 28 46 0/
+					1000 19 29 0/
+					1300 16 12 pipop_groom/
+					1500 51 32 pipop_sitright/
+					1700 39 109 pipop_groom/
+					2400 77 94 pipop_groom/
+					2500 77 94 pipop_sleep"
+			},
+			"When": {
+				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
+				"Weather": "Sun, Snow, Wind"
+			}
+		}
+    ]
+}
+
+// 0 up, 1 right, 2 down, 3 left - face direction

@@ -43,7 +43,7 @@
                       },
                       {
                         "Id": "GoldenSnailEgg",
-                        "Condition": "RANDOM 0.005",
+                        "Condition": "RANDOM 0.0005",
                         "MinimumFriendship": 0,
                         "ItemId": "{{ModID}}.Items.GoldenVoidLavaSnailEgg"
                       }

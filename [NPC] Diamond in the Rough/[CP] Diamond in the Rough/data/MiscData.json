@@ -53,7 +53,8 @@
             "PipoP":   { "MarkerCropOffset": 15 },
             "EveT":    { "MarkerCropOffset": 4 },
             "TraceV":  { "MarkerCropOffset": 4 },
-            "SenS":    { "MarkerCropOffset": 5 }
+            "SenS":    { "MarkerCropOffset": 5 },
+            "JeremyTSnail": { "Exclude": true }
         },
         "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
     },

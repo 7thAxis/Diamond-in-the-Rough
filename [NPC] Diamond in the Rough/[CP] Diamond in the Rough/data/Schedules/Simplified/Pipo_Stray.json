@@ -1,32 +1,11 @@
 {
     "Changes": [
- //---------------------------- DEFAULTS ------------------------------------------//
-		{
-			"LogName": "Pipo Non-randomized Schedules",
-			"Action": "EditData",
-			"Target": "Characters/schedules/PipoP",
-			"Entries": {
-				"spring": "
-					0 EastScarp_Village 77 93/
-					610 77 93 pipop_sitleft/
-					1300 77 93 pipop_groom/
-					2000 77 94 pipop_sleep",
-
-				"rain":"
-					0 EastScarp_Village 77 93/
-					610 77 93 pipop_sitleft/
-					1300 77 93 pipop_groom/
-					2000 77 94 pipop_sleep",
-			}
-		},
- //---------------------------- RAND SCHEDULES ------------------------------------------//
-//---Schedule 1---//
 		{
 			"LogName": "Pipo Schedule ES Wander 1",
 			"Action": "EditData",
 			"Target": "Characters/schedules/PipoP",
 			"Entries": {
-                "Mon":"
+                "{{WeekDay}}":"
 					0 EastScarp_Village 35 27/
 					610 35 27 pipop_sitleft/
 					800 8 42 1/
@@ -37,7 +16,15 @@
 					1900 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
                 ",
-				"Tue": "
+            },
+            "When": { "PipoScheduleRandomizer": 1 }
+		},
+		{
+			"LogName": "Pipo Schedule Town Wander 1",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 Town 80 57/
 					610 80 57 pipop_sitleft/
 					800 66 63 3/
@@ -45,8 +32,16 @@
 					1300 42 102 pipop_groom/
 					1500 EastScarp_Village 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-				"Wed": "
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 2 }
+		},
+		{
+			"LogName": "Pipo Schedule Town Wander 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 Town 30 56/
 					610 30 56 pipop_groom/
 					800 19 90 0/
@@ -54,8 +49,16 @@
 					1300 47 71 pipop_sitleft/
 					1500 EastScarp_Village 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-				"Thu": "
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 3 }
+		},
+		{
+			"LogName": "Pipo Schedule ES Wander 2",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 EastScarp_Village 24 62/
 					610 24 62 pipop_sitleft/
 					800 21 83 3/
@@ -65,8 +68,16 @@
 					1700 90 87 3/
 					1900 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-				"Fri": "
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 4 }
+		},
+		{
+			"LogName": "Pipo Schedule Town Wander 3",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 Town 49 33/
 					610 49 33 pipop_sitleft/
 					800 37 96 pipop_groom/
@@ -74,8 +85,16 @@
 					1300 27 34 pipop_sitright/
 					1500 EastScarp_Village 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-				"Sat": "
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 5 }
+		},
+		{
+			"LogName": "Pipo Schedule Town Wander 4",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 EastScarp_Village 23 60/
 					610 23 60 pipop_sitleft/
 					800 28 46 0/
@@ -85,8 +104,16 @@
 					1700 64 84 pipop_groom/
 					1900 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-				"Sun": "
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 6 }
+		},
+		{
+			"LogName": "Pipo Schedule Town Wander 4",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PipoP",
+			"Entries": {
+                "{{WeekDay}}":"
 					0 EastScarp_Village 75 118/
 					610 75 118 pipop_sitleft/
 					800 71 91 pipop_groom/
@@ -96,31 +123,9 @@
 					1700 79 80 pipop_sitright/
 					1900 77 94 pipop_groom/
 					2000 77 94 pipop_sleep
-				",
-            }
-		},
- //---------------------------- OVERRIDES ------------------------------------------//
-        {
-			"LogName": "Pipo Beach Hangout",
-			"Action": "EditData",
-			"Target": "Characters/schedules/PipoP",
-			"Priority": "Late",
-			"Entries": {
-				"Sat":"
-					0 EastScarp_Village 23 60/
-					610 23 60 pipop_sitleft/
-					800 28 46 0/
-					1000 19 29 0/
-					1300 16 12 pipop_groom/
-					1500 51 32 pipop_sitright/
-					1700 39 109 pipop_groom/
-					2400 77 94 pipop_groom/
-					2500 77 94 pipop_sleep"
-			},
-			"When": {
-				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
-				"Weather": "Sun, Snow, Wind"
-			}
+                ",
+            },
+            "When": { "PipoScheduleRandomizer": 7 }
 		}
     ]
 }

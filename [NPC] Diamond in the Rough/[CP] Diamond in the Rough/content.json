@@ -47,18 +47,18 @@ CREDITS
             "Description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to golems. The player does not have to fight Shadowfolk to reach perfection when enabled.",
             "Section": "Gameplay"
         },
-        "Items Required For Perfection": {
+        "Items Excluded From Perfection": {
             "AllowValues": "true, false",
-            "Default": true,
+            "Default": false,
             "AllowBlank": false,
-            "Description": "If checked, DitR's items will be required for perfection. (Some will still not be required due to rarity or relationship gates.)",
+            "Description": "If checked, DitR's items will be excluded from perfection. (Some items will not be required regardless due to rarity or relationship gates.)",
             "Section": "Gameplay"
         },
-        "NPCs Required For Perfection": {
+        "NPCs Excluded from Perfection": {
             "AllowValues": "true, false",
-            "Default": true,
+            "Default": false,
             "AllowBlank": false,
-            "Description": "If checked, DitR's NPCs will be required for perfection.",
+            "Description": "If checked, DitR's NPCs will be excluded from perfection.",
             "Section": "Gameplay"
         },
         "NPC Schedule Type": {

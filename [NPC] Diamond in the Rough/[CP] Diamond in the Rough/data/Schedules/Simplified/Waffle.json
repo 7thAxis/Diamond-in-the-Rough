@@ -1,53 +1,5 @@
 {
     "Changes": [
- //---------------------------- DEFAULTS ------------------------------------------//
-		{
-			"LogName": "Waffle Default Schedules",
-			"Action": "EditData",
-			"Target": "Characters/schedules/WaffleW",
-			"Entries": {
-				"spring": "					
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 76 99 wafflew_sitright/
-					1000 61 112 wafflew_sitright/
-					1200 79 79 wafflew_sitright/
-					1400 23 62 wafflew_lay/
-					1600 26 104 wafflew_sitleft/
-					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2000 7 4 wafflew_sleep
-				",
-
-				"rain":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					1100 EastScarp_VillageInn 27 27 wafflew_lay/
-					1400 23 12 wafflew_sitright/
-					1600 EastScarp_Village 24 62 wafflew_sitleft/
-					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep
-				",
-
-				"rain2": "GOTO spring",
-
-				"winter_15":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 32 100 wafflew_sitleft/
-					1100 Town 87 103 wafflew_sitleft/
-					1500 Beach 42 5 wafflew_sitleft/
-					1700 11 26 wafflew_sitright/
-					1900 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2200 7 4 wafflew_sleep
-				",
-
-				"winter_16":"GOTO winter_15",
-				"winter_17":"GOTO winter_15",
-				"spring_12": "GOTO spring",
-			}
-		},
  //---------------------------- SCHEDULES ------------------------------------------//
 		{
 			"LogName": "Waffle Library Schedule",
@@ -153,29 +105,6 @@
 				",
 			},
 			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
-		},
- //---------------------------- OVERRIDES ------------------------------------------//
-		{
-			"LogName": "Waffle Beach Hangout",
-			"Action": "EditData",
-			"Target": "Characters/schedules/WaffleW",
-			"Entries": {
-				"Sat":"
-					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
-					610 7 4 wafflew_lay/
-					700 6 4 wafflew_sitleft/
-					800 EastScarp_Village 32 100 wafflew_sitleft/
-					1100 Blacksmith 5 15 wafflew_sitleft/
-					1400 Town 85 103 wafflew_lay/
-					1530 EastScarp_Village 35 108 wafflew_sitright/
-					2300 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2500 7 4 wafflew_sleep
-				"
-			},
-			"When": {
-				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,
-				"Weather": "Sun, Snow, Wind"
-			}
 		}
     ]
 }
