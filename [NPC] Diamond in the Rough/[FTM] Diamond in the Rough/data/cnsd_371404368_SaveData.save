@@ -1,0 +1,73 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_BlueMoonVineyard",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "14, 32",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Orchard",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "48, 14",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Orchard",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "32, 1",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "29, 36",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "88, 8",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "44, 28",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

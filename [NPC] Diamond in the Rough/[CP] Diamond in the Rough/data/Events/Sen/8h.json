@@ -12,6 +12,8 @@
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
+                ignoreCollisions SkrellS/
+                ignoreCollisions EbbS/
                 ignoreCollisions farmer/
                 addConversationTopic DitR_CT_FamilyFlashback 3/
                 addLantern 737 70 121 2/

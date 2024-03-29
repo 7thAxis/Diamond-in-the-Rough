@@ -69,32 +69,6 @@
                 }
             },
             "When": { "Caldera Void Lava Snails": true, "Query: {{Random: {{Range: 1, 20}}|key=CGVLS}} = 1": true }
-        },
-        {
-            "LogName": "Void Lava Snail Fishing - Caldera",
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Caldera", "Fish" ],    
-
-            "Entries": { 
-                "{{ModID}}.Hats.VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}.Hats.VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.VoidLavaSnailBuddy" },
-                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" },
-                "{{ModID}}.Hats.GoldenVoidLavaSnail": {  "Chance": 0.0005, "Id": "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" },
-                "{{ModID}}.Items.GoldenVoidLavaSnail": {  "Chance": 0.001, "Id": "{{ModID}}.Items.GoldenVoidLavaSnail", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail" }
-                
-             }
-        },
-        {
-            "LogName": "Void Lava Snail Egg Fishing - Caldera",
-            "Action": "EditData",
-            "Target": "Data/Locations",
-            "TargetField": [ "Caldera", "Fish" ],    
-
-            "Entries": { 
-                "{{ModID}}.Items.VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}.Items.VoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.VoidLavaSnailEgg" },
-                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.0003, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
-             },
-             "When": { "HasFlag": "DitR_M_SnailPhase5" }
         }
     ]
 }

@@ -1,0 +1,106 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_Garden",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "39, 32",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Orchard",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "23, 11",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepMountains",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "43, 58",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_DeepMountains",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "16, 20",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "78, 53",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "EastScarp_Village",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "94, 37",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "22, 101",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "9, 97",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "7thAxis.DitR.CP.Items.ValleyLily",
+      "Tile": "31, 15",
+      "Type": "Forage",
+      "ID": "7thAxis.DitR.CP.Items.ValleyLily",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

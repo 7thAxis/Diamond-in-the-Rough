@@ -80,7 +80,7 @@
             "RejectItem_(O)809": "{{i18n:Movies.PipoP.RejectMovieTicket}}",
 
             //Purple Shorts Easter Egg
-            "RejectItem_(O)789": "{{i18n:Gifts.PipoP.PurpleShorts}}", 
+            "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts}}", 
             "RejectItem_(O)686": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Spinner
             "RejectItem_(O)687": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Dressed Spinner
             "RejectItem_(O)691": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Barbed Hook

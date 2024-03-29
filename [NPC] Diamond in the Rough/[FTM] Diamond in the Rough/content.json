@@ -7,6 +7,67 @@
     "Areas": [
       {
         "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "UniqueAreaID": "DitR - Sewer Shorts Spawn",
+        "MapName": "Sewer",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "16,27;16,27"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "Relationship:SenS |contains=Unmet": "false",
+            "Relationship:Krobus |contains=Unmet": "false"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
           "7thAxis.DitR.CP.Items.SensCrocus"
         ],
         "SummerItemIndex": [
@@ -960,7 +1021,7 @@
         "UniqueAreaID": "DitR.VLS.F",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -1129,7 +1190,7 @@
         "UniqueAreaID": "DitR.VLS.ESDM",
         "MapName": "EastScarp_DeepMountains",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -1294,7 +1355,7 @@
         "UniqueAreaID": "DitR.VLS.SVEFW",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -1734,7 +1795,7 @@
         "UniqueAreaID": "DitR.VLSR.F",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -1903,7 +1964,7 @@
         "UniqueAreaID": "DitR.VLSR.ESDM",
         "MapName": "EastScarp_DeepMountains",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 3,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -2068,7 +2129,7 @@
         "UniqueAreaID": "DitR.VLSR.SVEFW",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
         "IncludeTerrainTypes": [
           "Grass"
         ],

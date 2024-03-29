@@ -13,6 +13,8 @@
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
+                ignoreCollisions SkrellS/
+                ignoreCollisions EbbS/
                 ignoreCollisions farmer/
                 addConversationTopic DitR_CT_MineFlashback 3/
                 skippable/
@@ -287,6 +289,8 @@
                 changePortrait SenS Default/
                 changeSprite SenS Default/
                 ignoreCollisions SenS/
+                ignoreCollisions SkrellS/
+                ignoreCollisions EbbS/
                 ignoreCollisions farmer/
                 addConversationTopic DitR_CT_TheConfrontation 3/
                 skippable/
@@ -638,6 +642,7 @@
                 24 24/
                 farmer 18 23 1 SkrellS 18 19 2/
                 ignoreCollisions farmer/
+                ignoreCollisions SkrellS/
                 addConversationTopic DitR_CT_SkrellSEpilogue 3/
                 skippable/
 

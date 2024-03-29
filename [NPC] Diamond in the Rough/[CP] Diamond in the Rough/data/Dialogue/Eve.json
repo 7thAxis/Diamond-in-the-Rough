@@ -203,7 +203,7 @@
         "RejectItem_(O)812": "{{i18n:Gifts.EveT.AlgaeSoup}}",    
         "RejectItem_(O)729": "{{i18n:Gifts.EveT.Escargot}}",    
         "RejectItem_(O)921": "{{i18n:Gifts.EveT.SquidInkRavioli}}",
-        "RejectItem_(O)789": "{{i18n:Gifts.EveT.PurpleShorts}}",    
+        "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.EveT.UnluckyPurpleShorts}}",    
          
         "RejectItem_(O)809": "{{i18n:Movies.EveT.RejectMovieTicket}}" 
         }

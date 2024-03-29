@@ -68,6 +68,20 @@
                 "{{ModID}}.Items.GoldenVoidLavaSnail": "Void Lava Snail/trap/.005//freshwater/12/24/false"
             }
         },
+        {
+            "LogName": "Void Lava Snail Fishing - Caldera",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Caldera", "Fish" ],    
+
+            "Entries": { 
+                "{{ModID}}.Hats.VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}.Hats.VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.VoidLavaSnailBuddy" },
+                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" },
+                "{{ModID}}.Hats.GoldenVoidLavaSnail": {  "Chance": 0.0005, "Id": "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" },
+                "{{ModID}}.Items.GoldenVoidLavaSnail": {  "Chance": 0.001, "Id": "{{ModID}}.Items.GoldenVoidLavaSnail", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail" }
+                
+             }
+        },
  //---------------------------- AQUARIUM DATA ------------------------------------------//
         {
             "LogName": "Void Lava Snail Aquarium Data",

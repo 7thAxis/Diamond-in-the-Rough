@@ -1,7 +1,7 @@
 {
     "Changes": [
 
-        //SEN MAP
+//---------------------------- ROOM LOADS ------------------------------------------// 
         {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_DeepDark",
@@ -20,13 +20,25 @@
                 "HasConversationTopic: |contains=DitR_CT_GardenWaitTime": false
             }
         },
-        //Sen Spouse Room
+//---------------------------- CONDITIONAL TILES ------------------------------------------// 
         {
-            "Action": "Load",
-            "Target": "Maps/7thAxis_SenS_SpouseRoom",
-            "FromFile": "assets/maps/Sen_Spouse_Room.tmx"
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepDark",
+            "MapTiles": [
+                { "Position": { "X": 24, "Y": 24 }, "Layer": "Buildings", "Remove": true }
+            ],
+            "When": { "HasFlag |contains=DitR_M_SenShorts": false }
         },
-        //Strings
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepDark",
+            "MapTiles": [
+                { "Position": { "X": 24, "Y": 24 }, "Layer": "Buildings", "Remove": true }
+            ],
+            "When": { "HasFlag |contains=DitR_M_SenShorts": true,
+                      "Query: {{Random: {{Range: 1, 20}}|key=SPS}} = 1": false }
+        },
+//---------------------------- MAP STRINGS ------------------------------------------// 
         {
             "LogName": "Sen Map Strings",
             "Action": "EditData",
@@ -34,6 +46,7 @@
             "Entries": {
 
                 //Room
+                "SenDDShorts": "{{i18n:Maps.SenS.SenDDShorts}}",
                 "SenDDGlobe": "{{i18n:Maps.SenS.SenDDGlobe}}",
                 "SenDDBasket": "{{i18n:Maps.SenS.SenDDBasket}}",
                 "SenDDMap": "{{i18n:Maps.SenS.SenDDMap}}",

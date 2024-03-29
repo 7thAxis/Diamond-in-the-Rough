@@ -1441,7 +1441,7 @@
 "Gifts.EveT.AlgaeSoup": "Oh... That's just vile.$a#$b#For the love of Yoba take this back.$a[456]",
 "Gifts.EveT.Escargot": "Who in their right mind would want to eat a snail?!$u#$b#I'm not in my right mind and even I wouldn't eat a snail!$u#$b#How about you eat this?$a[729]",
 "Gifts.EveT.SquidInkRavioli": "This uh... This sure is something.$a#$b#You can keep your weird ravioli, thanks.$a[814]",
-"Gifts.EveT.PurpleShorts": "Eww?? Why the hell do you think I would want these??$u#$b#I suggest you back off, bub.$a#$b#I won't hesitate to put these on you and yank 'em all the way up your ass cheeks.$a",
+"Gifts.EveT.UnluckyPurpleShorts": "Eww?? Why the hell do you think I would want these??$u#$b#I suggest you back off, bub.$a#$b#I won't hesitate to put these on you and yank 'em all the way up your ass cheeks.$a",
 "Gifts.EveT.Trash": "Dude. Seriously?$a",
 
 //Trace
@@ -1522,7 +1522,7 @@
 "Gifts.SenS.MandoStickyRice": "Oooh a mango dish! I don't get the chance to try things like this very often.#$b#Thank you so much, @!$h",
 "Gifts.SenS.Sweetener": "Oh...! This is like liquid sugar incarnate!$h#$b#A simply divine taste gifted from nature. Thanks, @!$7",
 "Gifts.SenS.Coffee": "Oh yum, coffee! This will give me tons of energy for my next project.$h#$b#Maybe a little too much, hehe.$8",
-"Gifts.SenS.PurpleShorts": "Oh, a pair of shorts! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure.$h#$action spacechase0.SpaceCore_PlaySound give_gift#$action RemoveItem (O)789#$action AddMail Current DitR_M_SenShorts received",
+"Gifts.SenS.UnluckyPurpleShorts": "Oh, a pair of weird pants! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure!$h#$action AddMail Current DitR_M_SenShorts received",
 
 "Gifts.SenS.Crocus.Birthday": "...!!$11#$b#You... you remembered my birthday, and my favorite flower!$7#$b#@, you don't understand. This means the world to me. Thank you so much.$l",
 "Gifts.SenS.Cloth.Birthday": "@, this is amazing! Thank you for the cloth, I've been in dire need of some.$h#$b#Getting it from you on my birthday is even better!$h",
@@ -1599,7 +1599,7 @@
 "Gifts.WaffleW.GoatMilk": "%Waffle is offended by the offering of goat milk.",
 "Gifts.WaffleW.SolarEssence": "%Waffle growls at the solar essence.",
 "Gifts.WaffleW.Potato": "%Waffle expects you to throw the potato like a ball...",
-"Gifts.WaffleW.PurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.#$b#%She then grows bored and drops them on the ground.",
+"Gifts.WaffleW.UnluckyPurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.#$b#%She then grows bored and drops them on the ground.",
 
 //Pipo
 "Gifts.PipoP.Like": "Piiiipo pip pipo.",
@@ -1638,8 +1638,8 @@
 "Gifts.PipoP.SpicyEel": "%Pipo nibbles on the eel and then hisses from the spice!",
 "Gifts.PipoP.RedMushroom": "%Pipo knows better than to eat strange red forage.",
 "Gifts.PipoP.WildHorseRadish": "%Pipo knows the dark secrets of the wild horse radish.",
-"Gifts.PipoP.PurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts.#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)789#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
-"Gifts.PipoP.PurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[789]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
+"Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts.#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
+"Gifts.PipoP.PurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
 
 /*
@@ -2184,6 +2184,7 @@
 
     //----SEN----//
 //Bedroom
+"Maps.SenS.SenDDShorts": "Here lie the shorts that you gave Sen.#Lewis shall never see them again...",
 "Maps.SenS.SenDDGlobe": "This old globe has pins stuck in certain locations around the world.",
 "Maps.SenS.SenDDBasket": "You inspect the basket, expecting berries...#...but, what you find instead are some strange squishy red globs of goo.",
 "Maps.SenS.SenDDMap": "The map on the wall has a sight seeing spot in the mountain marked in red.",
@@ -2643,6 +2644,12 @@
 "Townie.Wizard.SkrellEpilogue": "I sense a change in the Shadowfolk of the mines.#$b#I presume you had something to do with it.",
 "Townie.Wizard.SensFlowers": "Hm... A peculiar bloom has begun sprouting in the valley.#$b#I will need to collect a few to study.",
 
+//Unlucky Purple Shorts
+"Townie.Lewis.UnluckyPurpleShorts": "Hello, @! How are-$h#$b#...Where... Where did you find these? They smell rancid...$s#$b#Hush, take this gold and we'll never speak of this again awkward situation again.$u#$action AddMoney 500",
+"Townie.Lewis.PipoShorts": "That... That little black cat is wearing my underwear!$a#$b#I tried to yank them off, but it bit me. The little varmint!$u",
+"Townie.Krobus.UnluckyPurpleShorts.False": "Oh... Those strange human \"pants\" washed up over there some time ago.$u#$b#I'm afraid I have no use for them... but I think Sen may find them interesting.$h",
+"Townie.Krobus.UnluckyPurpleShorts.True": "...",
+
 //Townies and the "bears"
 "Townie.Haley.ShadowPlay": "Uhg ew, there was something digging around in the trash...$u",
 "Townie.Alex.ShadowPlay": "Word on the street is that baby bears were digging in the garbage last night.#$b#Maybe we should get a lid lock...$s",
@@ -2976,6 +2983,11 @@
 ██║   ██║   ██╔══╝  ██║╚██╔╝██║╚════██║
 ██║   ██║   ███████╗██║ ╚═╝ ██║███████║
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
+
+"Items.UnluckyPurpleShorts.Title": "Unlucky Purple Shorts",
+"Items.UnluckyPurpleShorts.Description": "Stinky \"shorts\" you found in the sewer.",
+"Items.UnluckyPurpleShorts.Ungiftable": "%Based on their expression, you're pretty sure this person isn't interested...",
+
 "Items.VoidLavaSnail.Title": "Void Lava Snail",
 "Items.VoidLavaSnail.Category": "Mollusk",
 "Items.VoidLavaSnail.Description": "An invasive species known for its uncanny intelligence. Some fear these snails will one day overthrow mankind.",

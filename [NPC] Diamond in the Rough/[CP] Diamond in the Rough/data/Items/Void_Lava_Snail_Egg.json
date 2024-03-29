@@ -42,6 +42,19 @@
                     "SpriteIndex": 10
                 }               
             }
+        },
+        //---------------------------- FISHING DATA ------------------------------------------// 
+        {
+            "LogName": "Void Lava Snail Egg Fishing - Caldera",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [ "Caldera", "Fish" ],    
+
+            "Entries": { 
+                "{{ModID}}.Items.VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}.Items.VoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.VoidLavaSnailEgg" },
+                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.0003, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
+             },
+             "When": { "HasFlag": "DitR_M_SnailPhase5" }
         }
     ]
 }

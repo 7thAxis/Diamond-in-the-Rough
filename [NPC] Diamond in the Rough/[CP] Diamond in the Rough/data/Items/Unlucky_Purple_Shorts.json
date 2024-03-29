@@ -1,0 +1,68 @@
+{
+    "Changes": [
+        //---------------------------- ITEM DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}.Items.UnluckyPurpleShorts": {
+                    "Name": "{{ModID}}.Items.UnluckyPurpleShorts",
+                    "DisplayName": "{{i18n:Items.UnluckyPurpleShorts.Title}}",
+                    "Description": "{{i18n:Items.UnluckyPurpleShorts.Description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Edibility": -300,
+                    "Buff": null,
+                    "IsDrink": false,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "color_purple" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 12
+                }               
+            }
+        },
+    //---------------------------- SPACECORE DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": { 
+                "{{ModID}}.Items.UnluckyPurpleShorts": { 
+
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false,
+
+                    "GiftableToNpcAllowList": {
+                        "Krobus": true,
+                        "Lewis": true,
+                        "SenS": true,
+                        "PipoP": true,
+                        "WaffleW": true,
+                        "EveT": true
+                    },
+
+                    "GiftedToNotOnAllowListMessage": "{{i18n:Items.UnluckyPurpleShorts.Ungiftable}}"
+                 }
+             }
+        },
+    //---------------------------- GIFT TASTE DATA ------------------------------------------// 
+        {   "LogName": "Hatred Override",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "TextOperations": [
+           {
+                "Operation": "Append",
+                "Target": ["Entries", "Universal_hate"],
+                "Value": "{{ModID}}.Items.UnluckyPurpleShorts",
+                "Delimiter": " "
+            },
+            { 
+                "Operation": "Append",
+                "Target": [ "Fields", "Lewis", 9 ],
+                "Value": "{{ModID}}.Items.UnluckyPurpleShorts",
+                "Delimiter": " "
+            }
+        ]
+    }
+    ]
+}

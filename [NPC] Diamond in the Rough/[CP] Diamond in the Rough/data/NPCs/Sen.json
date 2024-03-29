@@ -147,7 +147,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "SenS": "{{i18n:Gifts.SenS.Love}}/72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 789 874/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873/"
+                "SenS": "{{i18n:Gifts.SenS.Love}}/72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 874 {{ModID}}.Items.UnluckyPurpleShorts/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//
@@ -221,6 +221,12 @@
                 "LocationName": "MovieTheater, Temp, Hospital",
                 "IsOutdoors": "false"
             }
+        },
+//---------------------------- SPOUSE ROOM ------------------------------------------//
+        {
+            "Action": "Load",
+            "Target": "Maps/7thAxis_SenS_SpouseRoom",
+            "FromFile": "assets/maps/Sen_Spouse_Room.tmx"
         }
      ]
 

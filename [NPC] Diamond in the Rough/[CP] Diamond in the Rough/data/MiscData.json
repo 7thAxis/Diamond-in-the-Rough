@@ -49,12 +49,12 @@
         "Action": "EditData",
         "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
         "Entries": {
-            "WaffleW": { "MarkerCropOffset": 15 },
-            "PipoP":   { "MarkerCropOffset": 15 },
+            "WaffleW": { "MarkerCropOffset": 208 },
+            "PipoP":   { "MarkerCropOffset": 240 },
             "EveT":    { "MarkerCropOffset": 4 },
             "TraceV":  { "MarkerCropOffset": 4 },
             "SenS":    { "MarkerCropOffset": 5 },
-            "JeremyTSnail": { "Exclude": true }
+            "JeremyTSnail":    { "MarkerCropOffset": 112 }
         },
         "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
     },
