@@ -8,7 +8,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "TraceV 46 80 3",
+                    "Value": "TraceV 45 80 3",
                     "Delimiter": "/"
                 },
                      {
@@ -52,7 +52,7 @@
                      {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "TraceV 43 15 3",
+                    "Value": "TraceV 43 16 3",
                     "Delimiter": "/"
                 }
             ],

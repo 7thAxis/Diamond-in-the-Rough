@@ -162,6 +162,20 @@
                 }
             }
         }
-    }
+    },
+ //----------------------------GIFT TASTE DATA ------------------------------------------//
+    {
+        "LogName": "Hatred Override",
+        "Action": "EditData",
+        "Target": "Data/NPCGiftTastes",
+        "TextOperations": [
+        { 
+            "Operation": "Append",
+            "Target": [ "Fields", "Vincent", 1 ],
+            "Value": "{{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.GoldenVoidLavaSnail",
+            "Delimiter": " "
+        }
+    ]
+}
 ]
 }

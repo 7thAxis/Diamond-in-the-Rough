@@ -42,7 +42,25 @@
             }
         },
         {
-            "LogName": "Lewis Unlucky Shorts Dialogue",
+            "LogName": "Void Snail Accept Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Vincent",
+            "Entries": {
+                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+            }
+        },
+        {
+            "LogName": "Void Snail Reject Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Jodi",
+            "Entries": {
+                "RejectItem_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "RejectItem_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+            }
+        },
+        {
+            "LogName": "Krobus Unlucky Shorts Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Krobus",
             "Entries": {

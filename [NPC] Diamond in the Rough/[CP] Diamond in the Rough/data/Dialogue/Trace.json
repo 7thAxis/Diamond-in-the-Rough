@@ -53,7 +53,6 @@
                 "Forest_21_40": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.18}}",
                 "Forest_29_50": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.19}}",
                 "Forest_39_52": "{{i18n:Core.TraceV.Locations.Forest.BerryDialogue.20}}",
-                
 
                 //East Scarp
                 "EastScarp_Village_20_121": "{{i18n:Core.TraceV.Locations.EastScarp.JamOut.Skeleton}}",
@@ -70,7 +69,16 @@
                 "EastScarp_DeepMountains_63_59": "{{i18n:Core.TraceV.Locations.LostInMountains.Freedom}}",
 
                 //Beach
-                "Beach_44_35": "{{i18n:Core.TraceV.Locations.Beach.JamOut.Skeleton}}"
+                "Beach_44_35": "{{i18n:Core.TraceV.Locations.Beach.JamOut.Skeleton}}",
+
+            //Conversation Topics
+                "DitR_CT_PipoShorts": "{{i18n:Core.TraceV.PipoShorts}}",
+                
+            //Gifts
+                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
+                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
+                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
+
             }
         }
         ]

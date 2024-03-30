@@ -46,6 +46,14 @@
 				"winter_16":"GOTO winter_15",
 				"winter_17":"GOTO winter_15",
 				"spring_12": "GOTO spring",
+
+				"fall_27": "
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 76 99 wafflew_sitright/
+					1000 EastScarp_VillageInn 27 29 wafflew_sitleft/
+					2000 Town 105 92 wafflew_sitleft/
+	",
 			}
 		},
  //---------------------------- OVERRIDES ------------------------------------------//
@@ -64,7 +72,18 @@
 					1530 EastScarp_Village 35 108 wafflew_sitright/
 					2300 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
 					2500 7 4 wafflew_sleep
-				"
+				",
+
+				"fall_27": "
+					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
+					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
+					800 EastScarp_Village 76 99 wafflew_sitright/
+					1000 61 112 wafflew_sitright/
+					1200 79 79 wafflew_sitright/
+					1400 35 108 wafflew_sitright/
+					1600 EastScarp_VillageInn 27 29 wafflew_sitleft/
+					2000 Town 105 92 wafflew_sitleft/
+		",
 			},
 			"When": {
 				"HasMod: |contains=TenebrousNova.EliDylan.CP": true,

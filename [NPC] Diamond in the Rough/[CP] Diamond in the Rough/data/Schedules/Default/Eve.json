@@ -51,6 +51,16 @@
 				"winter_16":"GOTO winter_15",
 				"winter_17":"GOTO winter_15",
 				"spring_12": "GOTO spring",
+
+				"fall_27": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 77 98 evet_kickfeet/
+					1000 EastScarp_VillageInn 27 28 3/
+					2000 Town 104 92 1/
+		",
+
 			}
 		},
  //---------------------------- OVERRIDES ------------------------------------------//
@@ -70,7 +80,19 @@
 					2300 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
 					2430 3 5 0/
 					2500 12 5 eve_sleep
-				"
+				",
+
+				"fall_27": "
+					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					610 12 5 evet_lay/
+					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					800 EastScarp_Village 77 98 evet_kickfeet/
+					1000 62 112 3/
+					1200 80 78 evet_kickfeet/
+					1400 35 107 1/
+					1600 EastScarp_VillageInn 27 28 3/
+					2000 Town 104 92 1/
+			",
 			},
 			"When": { "HasMod: |contains=TenebrousNova.EliDylan.CP": true, "Weather": "Sun, Snow, Wind" }
 		}

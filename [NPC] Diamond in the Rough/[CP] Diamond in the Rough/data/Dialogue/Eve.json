@@ -29,6 +29,8 @@
 
         //Locations
         "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Home.Bed}}",
+        "EastScarp_Village_35_107": "{{i18n:Core.EveT.Locations.EastScarp.BeachHangout.{{TodaysDate: |contains=fall 27}}}}",
+        "EastScarp_VillageInn_SpiritEve_27_28": "{{i18n:Core.EveT.Locations.Inn.SpiritsEve.{{HasMod: |contains=TenebrousNova.EliDylan.CP}}}}",
 
         //Specific Days
         "spring_1": "{{i18n:Core.EveT.Spring.Day.1}}",

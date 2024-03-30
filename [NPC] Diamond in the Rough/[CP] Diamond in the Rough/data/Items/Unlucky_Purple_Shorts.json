@@ -33,12 +33,9 @@
                     "CanBeShipped": false,
 
                     "GiftableToNpcAllowList": {
-                        "Krobus": true,
-                        "Lewis": true,
-                        "SenS": true,
-                        "PipoP": true,
-                        "WaffleW": true,
-                        "EveT": true
+                        "Krobus": true, "Lewis": true, "SenS": true,
+                        "PipoP": true, "WaffleW": true, "EveT": true,
+                        "TraceV": true, "JeremyTSnail": true
                     },
 
                     "GiftedToNotOnAllowListMessage": "{{i18n:Items.UnluckyPurpleShorts.Ungiftable}}"
@@ -46,10 +43,11 @@
              }
         },
     //---------------------------- GIFT TASTE DATA ------------------------------------------// 
-        {   "LogName": "Hatred Override",
-        "Action": "EditData",
-        "Target": "Data/NPCGiftTastes",
-        "TextOperations": [
+        {
+            "LogName": "Hatred Override",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "TextOperations": [
            {
                 "Operation": "Append",
                 "Target": ["Entries", "Universal_hate"],

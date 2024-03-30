@@ -470,6 +470,10 @@
 
 //Locations
 "Core.EveT.Locations.Home.Bed": "%Better be quiet or you might wake Eve up.#$b#%The repercussions would be disastrous.",
+"Core.EveT.Locations.EastScarp.BeachHangout.True": "Hey... where the heck are Eli and Dylan? Did they forget about our weekly meetup?$s#$b#They totally did, didn't they?$s#$b#They are SO dead.$a",
+"Core.EveT.Locations.EastScarp.BeachHangout.False": "Hey, @! Come to hang out with us?$8#$b$Well take a seat, Eli tells a killer ghost story!$h",
+"Core.EveT.Locations.Inn.SpiritsEve.True": "Boys... If you abandon our weekend ritual - abandon ME - again, you're waking up with a mega bomb under your pillows.$a#$b#Oh hey @, don't mind me. Just harassing the bros for my own stupid screw up.$h",
+"Core.EveT.Locations.Inn.SpiritsEve.False": "Holy cow, Rosa really went all out on the decorations for the party tonight!$8#$b#Serious props, this must have taken ages.$h",
 
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
@@ -1311,6 +1315,9 @@
 //Beach
 "Core.TraceV.Locations.Beach.JamOut.Skeleton": "Fix my head, stitch my soul.~$h#$b#Find out where it all went wrong.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
+//CTs
+"Core.TraceV.DitR_M_PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
+
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",
 "Core.ClyricT.PhoneCall.2": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"Sigh. Next time, could you please take Cow with you?\"#$b#What, did she burn up your paperwork again?#$b#%\"Only for the third time this week.\"#$b#At least it wasn't seven times!#$b#%\"...I suppose. Once a day truly was an unprecedented record.\"#$b#%\"Wait!\"#$b#%\"Don't distract me, Clyric!\"#$b#Lu, I can't bring a dragon to the Valley. She'd burn the place down.",
@@ -1451,6 +1458,10 @@
 "Gifts.TraceV.Dislike": "...Ummm. Thanks, I think?",
 "Gifts.TraceV.Hate": "...You should uh, probably take this back. I ain't interested.",
 
+"Gifts.TraceV.VoidLavaSnail": "Awww, what a cute little baby snail. I'll get send 'em down to Jeremy for a little play date!$11",
+"Gifts.TraceV.GoldenVoidLavaSnail": "Woah... that little snail is so shiny! I think I'll name them... Jeremy Jr. I'm sure they'll get along just dandy with Jeremy Sr.!",
+"Gifts.TraceV.UnluckyPurpleShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#I'm serious buckaroo, I don't want your smelly boxers.$a#$b#Please burn them, or something-$6|WOAH. Okay. That is... one STANKY pair of underpants.$u#$b#I do not want your stanky underpants. I sincerely apologize, @.$6#$action AddMail Current DitR_M_TriedToGiveTraceStinkyPants received",
+
 //Sen
 "Gifts.SenS.Love": "Oh! Thank you, @. This is one of my most favorite things ever!",
 "Gifts.SenS.Like": "Thank you very much, @! I'll make great use of this during my next project.",
@@ -1556,6 +1567,8 @@
 "Gifts.JeremyTS.VoidLavaSnail.Remark.False": "%Jeremy lets out a long parental sigh, accepting the little wriggling snail.#$b#%As thanks, Jeremy offers you an item.",
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.True": "...!$1#$b#My my, now this coloration of my kin is incredibly rare.$1#$b#The mutation also makes one quite vulnerable to disease...$2#$b#Thank you for bringing them to me, I shall keep them safe.$1#$b#Here is a rare seedling for your troubles.", 
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.False": "%...!#$b#%Jeremy scoops up the strange shiny snail protectively. They seem pleased.#$b#As a reward, Jeremy gives you a rare item.",
+
+"Gifts.JeremyTS.UnluckyPurpleShorts": "...$2#$b#%Jeremy silently judges you with mild disgust.",
 
 //Do not translate, this is code 
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Spring": "[429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds 429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds (O)MixedFlowerSeeds 885 770 495 (O)MixedFlowerSeeds 885 770 495 251 629 628 (O)MysticTreeSeed 114 347 166]",
@@ -2644,12 +2657,6 @@
 "Townie.Wizard.SkrellEpilogue": "I sense a change in the Shadowfolk of the mines.#$b#I presume you had something to do with it.",
 "Townie.Wizard.SensFlowers": "Hm... A peculiar bloom has begun sprouting in the valley.#$b#I will need to collect a few to study.",
 
-//Unlucky Purple Shorts
-"Townie.Lewis.UnluckyPurpleShorts": "Hello, @! How are-$h#$b#...Where... Where did you find these? They smell rancid...$s#$b#Hush, take this gold and we'll never speak of this again awkward situation again.$u#$action AddMoney 500",
-"Townie.Lewis.PipoShorts": "That... That little black cat is wearing my underwear!$a#$b#I tried to yank them off, but it bit me. The little varmint!$u",
-"Townie.Krobus.UnluckyPurpleShorts.False": "Oh... Those strange human \"pants\" washed up over there some time ago.$u#$b#I'm afraid I have no use for them... but I think Sen may find them interesting.$h",
-"Townie.Krobus.UnluckyPurpleShorts.True": "...",
-
 //Townies and the "bears"
 "Townie.Haley.ShadowPlay": "Uhg ew, there was something digging around in the trash...$u",
 "Townie.Alex.ShadowPlay": "Word on the street is that baby bears were digging in the garbage last night.#$b#Maybe we should get a lid lock...$s",
@@ -2683,6 +2690,20 @@
 "Townie.GuntherSilvian.ShadowPlay": "Everything we put out to the trash last night is gone...#$b#Why would bears want old magazines?",
 "Townie.MarlonFay.ShadowPlay": "Bears, huh? I reckon this might require an investigation...",
 "Townie.MorrisTod.ShadowPlay": "Bears! Bears in the garbage! I must contact the higher-ups at once.",
+
+//Pipo Purple Shorts Townie CT
+"Townie.Lewis.PipoShorts": "That... That little black cat is wearing my underwear!$a#$b#I tried to yank them off, but it bit me. The little varmint!$u",
+
+//Unlucky Purple Shorts Townie Reponses
+"Townie.Lewis.UnluckyPurpleShorts": "Hello, @! How are-$h#$b#...Where... Where did you find these? They smell rancid...$s#$b#Hush, take this gold and we'll never speak of this again awkward situation again.$u#$action AddMoney 500",
+"Townie.Krobus.UnluckyPurpleShorts.False": "Oh... Those strange human \"pants\" washed up over there some time ago.$u#$b#I'm afraid I have no use for them... but I think Sen may find them interesting.$h",
+"Townie.Krobus.UnluckyPurpleShorts.True": "...",
+
+//Void Lava Snail
+"Townie.Vincent.VoidLavaSnail": "Wooahh... this snail is way bigger than the normal ones!$3#$b#I'm gonna hide it under my bed. Don't tell my mom!$1#$action AddMail Current DitR_M_GaveVincentLavaSnail received#$action AddConversationTopic DitR_CT_GaveVincentLavaSnail 1",
+"Townie.Vincent.GoldenVoidLavaSnail": "Wow, this snail is so sparkly! It's gonna be my new bestest friend.$3#$b#I'm gonna hide it under my bed. Don't tell my mom!$1#$action AddMail Current DitR_M_GaveVincentLavaSnail received#$action AddConversationTopic DitR_CT_GaveVincentLavaSnail 1",
+"Townie.Jodi.VoidLavaSnail": "$query PLAYER_HAS_MAIL Current DitR_M_GaveVincentLavaSnail Any, !PLAYER_HAS_CONVERSATION_TOPIC Current DitR_CT_GaveVincentLavaSnail#Uhm, no thank you...$s#$b#Wait just a moment, I found one of these living under Vincent's bed. Were you the one that gave it to him?$u|Uhm, no thank you...$s#$b#Please take that away before my son sees it. He'll want to keep it.$s",
+"Townie.Jodi.GoldenVoidLavaSnail": "$query PLAYER_HAS_MAIL Current DitR_M_GaveVincentLavaSnail Any, !PLAYER_HAS_CONVERSATION_TOPIC Current DitR_CT_GaveVincentLavaSnail#Uhm, no thank you... I'm not interested in your strange glowing snail.$s#$b#Wait just a moment, I found one of these living under Vincent's bed. Were you the one that gave it to him?$u|Uhm, no thank you... I'm not interested in your strange glowing snail.$s#$b#Please take that away before my son sees it. He'll want to keep it.$s",
 /*
 ██████╗ ███████╗██╗      █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗██╗  ██╗██╗██████╗ 
 ██╔══██╗██╔════╝██║     ██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝██║  ██║██║██╔══██╗
