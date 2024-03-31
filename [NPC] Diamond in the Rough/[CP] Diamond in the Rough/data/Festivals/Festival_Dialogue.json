@@ -28,9 +28,70 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": 	{ 
-                "fall_27": "{{i18n:Festivals.SenS.FestivalOfTheMundane.{{Random:{{Range: 1, 3}}}}}}"
+                "fall_27": "{{i18n:Festivals.{{TargetWithoutPath}}.FestivalOfTheMundane.{{Random:{{Range: 1, 3}}}}}}"
             },
             "When": { "HasMod: |contains=MouseyPounds.ShadowFestival": true }
+        },
+        
+        //MODDED DAY BEFORE
+        {
+            "LogName": "Dialogue - Ridgeside Festival",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "fall_19": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.19}}",
+                "winter_27": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.27}}"
+            },
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },
+        {
+            "LogName": "Dialogue - Surfing Festival",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "summer_4": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.4}}"
+            },
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
+        },
+        {
+            "LogName": "Dialogue - Fashion Festival",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "spring_18": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.18}}"
+            },
+            "When": {
+                "HasMod: |contains=UNA.FF.CP": true,
+                "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
+                "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
+             }
+        },
+        {
+            "LogName": "Dialogue - Love Festival",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "winter_12": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.12}}"
+            },
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
+        },
+        {
+            "LogName": "Dialogue - Marketpalooza",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "fall_2": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.2}}"
+            },
+            "When": { "HasMod: |contains=Fellowclown.SW": true,  "HasFlag|contains=Fellowclown.SW_Marketpalooza.Mail": true }
+        },
+        {
+            "LogName": "Dialogue - Fireworks Festival",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/SenS, Characters/Dialogue/EveT",
+            "Entries": 	{ 
+                "summer_19": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.19}}"
+            },
+            "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
         }
     ]
 }

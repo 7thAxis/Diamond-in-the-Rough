@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.TraceV.EarlyHeart.{{Random:{{Range: 1, 34}}}}}}"
+                "{{WeekDay}}": "{{i18n:Core.TraceV.EarlyHeart.{{Random:{{Range: 1, 43}}}}}}"
             }
         },
         /*{

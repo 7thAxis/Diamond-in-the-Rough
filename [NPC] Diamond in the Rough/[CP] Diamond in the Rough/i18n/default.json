@@ -483,7 +483,7 @@
 "Core.EveT.BouquetRejection.2": "Sorry, no-can-do, buckaroo.$6#$b#I'm afraid my heart was already taken long ago.$l",
 
 //Conversation Topics
-"Core.EveT.Introduction": "Oh hey, you're that new farmer ain't ya?$h#$b#I'm Eve, a completely normal and well adjusted adult.$l#$b#Definitely.#$b#I hope to see you around!$8",
+"Core.EveT.UnlockedFromStartIntroduction": "Oh hey, you're that new farmer ain't ya?$h#$b#I'm Eve, a completely normal and well adjusted adult.$l#$b#Definitely.#$b#I hope to see you around!$8",
 "Core.EveT.SenMet": "Sigh, sometimes I think about an old friend and her kiddo...$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
 "Core.EveT.DreamReveal": "An old friend of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
 "Core.EveT.ShadowPlay": "Bears around town, huh?$6#$b#Something tells me those weren't bears messing around in the trash...$6#$b#Sigh...$s",
@@ -586,7 +586,11 @@
 "Core.WaffleW.Slingshot.1": "Arff..! Arf!$s",
 "Core.WaffleW.Slingshot.2": "Waff woof...!$a",
 "Core.WaffleW.Dumpster": "Woof waff!$h",
-"Core.WaffleW.BouquetRejection": "%...Waffle is a dog. Please don't be a weirdo, thanks.",
+"Core.WaffleW.BouquetRejection.1": "%...Waffle is a dog. Please don't be a weirdo, thanks.",
+"Core.WaffleW.BouquetRejection.2": "%\"Cease this instant or I'm calling the police.\" -7thAxis",
+
+//CTs
+"Core.WaffleW.UnlockedFromStartIntroduction": "Bowwow wow!$h#$b#%Waffle excitedly rounds your feet, then makes herself. What a sweet pup!",
 
 //Pipo
 "Core.PipoP.Sound.1": "Pipo.",
@@ -662,7 +666,11 @@
 "Core.PipoP.Slingshot.1": "Pipoooopopip!",
 "Core.PipoP.Slingshot.2": "Mrowwowwoooww!",
 "Core.PipoP.Dumpster": "%Pipo quietly judges you for your actions.",
-"Core.PipoP.BouquetRejection": "%...Pipo is a cat. Please don't be a weirdo, thanks.",
+"Core.PipoP.BouquetRejection.1": "%...Pipo is a cat. Please don't be a weirdo, thanks.",
+"Core.PipoP.BouquetRejection.2": "%\"Cease this instant or I'm calling the police.\" -7thAxis",
+
+//CTs
+"Core.PipoP.UnlockedFromStartIntroduction": "%Pipo casts you a judgemental side eye. They are unsure what to make of you...",
 
 //Sen
 "Core.SenS.EarlyHeart.1": "O-oh, hello @!$h#$b#Nice day we're having, isn't it?$l#$e#Oh, and please be careful on your adventures.$s",
@@ -892,6 +900,7 @@
 "Core.SenS.Spring.Day.18": "The store near the river really gave me the creeps.$6#$b#When I poked my head in the door, it looked so sterile and ominous.$s#$e#How could anyone be comfortable in a place like that?$s",
 "Core.SenS.Spring.Day.20": "I really need to find some new sewing needles.#$b#The Flower Dance is only a couple days away and my costume is in dire need of repair!$u#$e#Thankfully, the blue-haired lady seems to throw quite a few away.$h",
 "Core.SenS.Spring.Day.23": "Ohhh the Flower Dance sounds so exciting! I really want to try dancing.$h#$b#I made an outfit for it and everything.$l#$e#Unfortunately, I'm too scared to go out in front of anyone.$8#$b#My face will be covered with a hood, but...$s",
+"Core.SenS.Spring.Day.28": "Yuck... I can feel the air starting to heat up. That must mean summer is almost here.$a#$b#How awful! I should just retreat to the mines for the entire season.$a#$e#Uhg, I won't, but it sure is tempting.$s",
 
 //SPECIFIC DAYS - SUMMER
 "Core.SenS.Summer.Day.1": "Goodness gracious, the summer is so brutal.$s#$b#While I was perusing an atlas in the library, I read about the Calico Desert. Apparently it's even hotter there.#$e#My first thought was \"No thank you, I never want to go there!\".$u",
@@ -901,19 +910,20 @@
     "Core.SenS.SDay19.2": "The land on %farm is absolutely beautiful! I snuck a peek last night.$l",
     "Core.SenS.SDay19.3": "I'm thinking of snooping around your farm tonight. I hope you don't mind.$8#$b#The crops growing on your farm look delicious!$l#$e#If any are missing in the morning, I'm sorry in advance.$8",
 "Core.SenS.Summer.Day.27": "I've made a costume of a moonlight jelly for tomorrow.#h#$b#I'm gonna be pretty uncomfy because I'll need to curl up in a ball to fit inside.$8#$e#I hope no one thinks I'm a real jelly and tries to remove my disguise.$u",
+"Core.SenS.Summer.Day.28": "Have you noticed the leaves starting you turn, @? It seems fall is right around the bend!$h#$b#Oooh... I can't wait! I'm going to collect all the prettiest leaves I can possibly find.$7",
 
 //SPECIFIC DAYS - FALL
 "Core.SenS.Fall.Day.1": "Fall... This season is so, so beautiful.$l#$b#The colors are so vibrant, like nothing I've ever seen before.$l#$e#The sun is less intense, and the air is cool, but not freezing.$l#$b#I'll probably be able to go outside more often!$h#$b#Granted I take an umbrella, of course.$h",
-"Core.SenS.Fall.Day.5": "I saw this strange pudgy man who had the neatest bow-tie.$6#$b#I kinda want a bow-tie now, but I'm not sure how exactly I'd wear it.$8#$e#Hmmm.. Usually you clip them on, right? I could clip it to my necklace!$h",
 "Core.SenS.Fall.Day.15": "Oooh, I'm so excited for the Stardew Fair tomorrow!$h#$b#I wish I could play the games, but people would probably be confused why there was a random guy walking around in a pumpkin costume.$8#$e#I guess I'll hang off to the sidelines... as I usually do at these events.$s#$e#Sigh... Do you think humans and Shadows can ever coexist..?$s",
 "Core.SenS.Fall.Day.26": "Aw, heck yeah! Spirit's Eve is the one event I can go to where I don't have to wear a costume.$h#$b#All I gotta do is glue an old jacket zipper to my back and tell everyone I'm wearing a monster costume.#$e#Genius, right?$h",
+"Core.SenS.Fall.Day.28": "I saw this strange pudgy man who had the neatest bow-tie.$6#$b#I kinda want a bow-tie now, but I'm not sure how exactly I'd wear it.$8#$e#Hmmm.. Usually you clip them on, right? I could clip it to my necklace!$h",
 
 //SPECIFIC DAYS - WINTER
 "Core.SenS.Winter.Day.1": "Winter gives me a swirl of mixed emotions...$s#$b#It is very quiet, the trees are bare and the animals are few...$s#$e#Do I feel at peace, or lonely?$6#$b#Maybe a little of both?$6#$e#Oh, sorry for the melancholy ramble!$8#$b#I guess I'm feeling a bit contemplative today.$8",
 "Core.SenS.Winter.Day.7": "I found a festive costume in the garbage some time ago.#$b#I patched it up a little and I'm going to wear it to the Ice Festival.$h#$e#Unfortunately, the costume is a little small on me.$8#$b#I think it's meant to be worn by a human child.$8#$e#But hey, I made it work.$h",
 "Core.SenS.Winter.Day.13": "Hm hm hm~ Hm hm hm~#$b#Oh hello, @! I'm just humming myself little birthday tune.$h#$e#That's one thing us shadows and humans share, celebrating the day we came into the world.$h",
 "Core.SenS.Winter.Day.24": "O-oh, hello @! I'm going to wear my costume from the Ice Festival again tomorrow. $8#$e#I hope I don't get mistaken for a lost child again.$a",
-"Core.SenS.Winter.Day.26": "I kind of want to try a snowball fight sometime. It sounds fun!$7#$b#Potentially painful also, if the snow was too hard!$u#$e#You'd take it easy if we played together, right @?$8",
+"Core.SenS.Winter.Day.28": "I kind of want to try a snowball fight sometime. It sounds fun!$7#$b#Potentially painful also, if the snow was too hard!$u#$e#You'd take it easy if we played together, right @?$8",
 
 //SPECIFIC DAY - DAY BEFORE MOD FESTIVALS
 "Core.SenS.Spring.Day.18.Event": "Oh @! Are you coming to the fashion festival tomorrow?$h#$b#I know I sure am!$7#$e#I'm looking forward to getting inspired by all the amazing designs.$h", //Fashion
@@ -930,7 +940,7 @@
 "Core.SenS.Slingshot.2": "O-ow, @!$9#$b#P-Please stop, you're scaring me!$10",
 
 //CONVERSATION TOPICS
-"Core.SenS.SenMet": "O-oh.. you're the person I met in the mines, aren't you?$u#$b#I-I promise that I come in peace!$u#$e#I hope that we will be able to get along... I came to the surface to learn more about your world.$8",
+"Core.SenS.SenIntroduction": "O-oh.. you're the person I met in the mines, aren't you?$u#$b#I-I promise that I come in peace!$u#$b#I hope that we will be able to get along... I came to the surface to learn more about your world.$8",
 "Core.SenS.DreamReveal": "Humans and Shadowfolk... Do you think we could someday co-exist?#$b#With time, care, and patience I think it's a future we can achieve.$h",
 "Core.SenS.ShadowPlay": "%Sen smells kinda funny.#$b#...What's that look for?$6#$b#Oh! Right, humans find the smell of garbage off putting, don't they?$8",
 "Core.SenS.GardenWaitTime": "I'm so excited for the garden, I'm about to bounce out of my own skin.$7#$b#I can't thank you enough for the help, @!$h",
@@ -1210,15 +1220,17 @@
 "Core.TraceV.EarlyHeart.32": "%revealtasteTrace206 Ya know, I could go for a big cheese pizza right about now.$l#$b#Between you and me, it's one of my guilty pleasures.$11#$e#I have a lot of those, actually.$9",
 "Core.TraceV.EarlyHeart.33": "I had a dream last night about a dude with seven toes.$u#$b#I think I needa stop drinking soda right before bed.$6",
 "Core.TraceV.EarlyHeart.34": "If there's one critter I want to see up close with my own two eyes, it's a hippo.$h#$b#I don't really know why, I just do.#$b#Everyone at the saloon said approaching a hippo is probably a bad idea, though.$6",
-"Core.TraceV.EarlyHeart.35": "",
-"Core.TraceV.EarlyHeart.36": "",
-"Core.TraceV.EarlyHeart.37": "",
-"Core.TraceV.EarlyHeart.38": "",
-"Core.TraceV.EarlyHeart.39": "",
-"Core.TraceV.EarlyHeart.40": "",
-"Core.TraceV.EarlyHeart.41": "",
-"Core.TraceV.EarlyHeart.42": "",
-"Core.TraceV.EarlyHeart.43": "",
+"Core.TraceV.EarlyHeart.35": "You know what you know when you know what you know, you know?$h#$b#What? You're telling me you don't know?$9",
+"Core.TraceV.EarlyHeart.36": "Jeremy's a good snail. Don't underestimate them, they can do calculus!$h#$b#I can't even do calculus...$6#$b#Mathematically outshined by a snail, how did this happen?$6",
+"Core.TraceV.EarlyHeart.37": "Jeremy likes their room at a specific temperature and humidity level.#$b#Their species is pretty hardy, but their growth will stunt if not given the proper environment.$6#$b#That's why the ones you find around the valley are fairly small.$6",
+"Core.TraceV.EarlyHeart.38": "Last night I caught Jeremy red-handed with the fridge open.$h#$b#I guess the scent of fresh baked blackberry cobbler was too irresistible, heh heh heh.$l",
+"Core.TraceV.EarlyHeart.39": "Do you have any hobbies, @? I have way too many. Baking, painting, hiking, guitaring...$h#$b#It's hard to make time for them all in one day!$l#$b#Hey, guitaring is definitely a word. I'll fight you on this.$a",
+"Core.TraceV.EarlyHeart.40": "Shhh... Don't speak, @. I'm trying really hard to remember something.$6#$b#%You smell something burning-#$b#Hey, don't even make the \"Is that what I smell?\" joke.$a",
+"Core.TraceV.EarlyHeart.41": "I love orange juice. Especially with pulp.$h#$b#If you're a pulp hater, you have to leave my life immediately.$a#$b#Sorry, not sorry.$l",
+"Core.TraceV.EarlyHeart.42": "Sometimes you get horribly lost in the wilderness and that's okay.#$b#Just make sure you find your way back to civilization and don't die!$h#$e#Yeah, I know.  Easier said than done.$6#$b#Can confirm from experience.$6",
+"Core.TraceV.EarlyHeart.43": "Eloise is too smart for a kid her age. I suspect there's some cover-up going on and she's actually a bird alien living amongst humanity.$6#$b#At least the bird aliens come in peace.#$e#What? Don't give me the \"what are you even going on about\" face.$a",
+"Core.TraceV.EarlyHeart.44": "",
+"Core.TraceV.EarlyHeart.45": "",
 
 "Core.TraceV.LateHeart.1": "Sometimes, the couch eats your TV remote.$6#$b#There's nothing you can do except sink into the couch after it and pray you don't get eaten by the couch goblins.$a$s#$e#What, you don't know about the couch goblins?$9#$b#Talk about living under a rock, buddy.$8",
 "Core.TraceV.LateHeart.2": "Uhg, you ever have days where your mind races with every single cruddy thing you've done in your life?$s#$b#They're the worst.$s#$e#Oh uh, sorry to dump that on you. I'm sure I'll sleep it off overnight.$s",
@@ -1228,11 +1240,11 @@
 "Core.TraceV.LateHeart.6": "Beware the bear, @.$u#$b#They're out there and they want maple syrup.$a#$e#Keep an eye on your trashcan.$a#$b#They'll do anything to get their grubby little paws on the stuff.$a#$e#No, this ain't a cover-up for anything.$h",
 "Core.TraceV.LateHeart.7": "Tomatoes are vegetables! No one can convince me otherwise.$a#$b#They may be classified as fruits scientifically, but in the culinary world, they're used like veggies!$a#$e#Yeah, I have this debate with random townsfolk on a weekly basis.$6",
 "Core.TraceV.LateHeart.8": "If you ever get lost, remember this.#$b#No matter how obscured the path is, there's always a way back. Never give up.$h#$e#What's that look for?$8[141 151 707]",
-"Core.TraceV.LateHeart.9": "",
-"Core.TraceV.LateHeart.10": "",
-"Core.TraceV.LateHeart.11": "",
-"Core.TraceV.LateHeart.12": "",
-"Core.TraceV.LateHeart.13": "",
+"Core.TraceV.LateHeart.9": "I have a tendency to paint the same thing over and over again. A moon overlooking a grassy field.$h#$b#People ask me why I don't branch out, but the reality is, I just find the subject and color scheme comforting.$l#$b#Plus, when I try to paint other things, folks tend to laugh and ask if it's a joke.$s",
+"Core.TraceV.LateHeart.10": "During my Ferngill vagebond days, I had a fellow wandering buddy I bumped into pretty often. He was the biggest geek you'd ever meet.$10#$b#We'd team up for wandering adventures and chatter from sun down till sun up.$h#$b#One day we parted ways for the last time and i never saw him again. I wonder where he is now...?$s",
+"Core.TraceV.LateHeart.11": "Before moved the valley, I lived a pretty nomadic life style.$h#$b#I wandered from place to place with my guitar, putting on little shows on street corners and collecting tips.$11#$b#I meandered wherever the wind took me. Sometimes I miss those days, but also, I like my bed.$l",
+"Core.TraceV.LateHeart.12": "Ya know I have a lot of books on my shelves, but I have a hard time reading them.$6#$b#The words get all jumbled up and it makes my head hurt. Yet I keep throwing myself at the books...$s#$b#Sigh I had a friend that used to read stuff to me. It was comforting. Wonder what he's up to these days?$s",
+"Core.TraceV.LateHeart.13": "Did you know I once made a cook book? It's called \"Baking with Blackberries and Literally Nothing Else\".$h#$b#I took the photos for it and wrote the lists while a buddy of mine did the paragraphs.$11#$b#He insisted I get all the credit for it, but man, his name should have been on the author line too...$6",
 "Core.TraceV.LateHeart.14": "",
 "Core.TraceV.LateHeart.15": "",
 "Core.TraceV.LateHeart.16": "",
@@ -1316,7 +1328,8 @@
 "Core.TraceV.Locations.Beach.JamOut.Skeleton": "Fix my head, stitch my soul.~$h#$b#Find out where it all went wrong.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
 //CTs
-"Core.TraceV.DitR_M_PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
+"Core.TraceV.UnlockedFromStartIntroduction": "Heyo, I don't think I've ever seen you around before!$h#$b#Name's Trace - hobbiest guitarist, baker and artist extraordinaire!$l#$b#Things you need to know about me? Hm... I've got a pet snail and zero brain to mouth filter.$h#$b#Thought goes through my head? Out it goes!$11#$b#Anyway, hope to see you around buckaroo!$h",
+"Core.TraceV.PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",
@@ -1358,6 +1371,7 @@
 "Core.JeremyTS.DailyDialogue.4": "Many years ago, Trace wandered into the caldera at the summit of Ginger Island's volcano.#$b#As young spry snails seeking adventure, several of my kin and I hitched a ride on their clothing.$1#$b#I do not believe we made the correct choice, but alas, I cannot imagine a life without Trace.$2#$e#...To this day, I do wonder how Trace reached the summit of Mount Kohldur.$2",
 "Core.JeremyTS.DailyDialogue.5": "Many creatures that live within the valley are rather fuzzy.#$b#I find it repulsive.$2#$e#That does indeed include the hair on your head.$3#$b#Utterly repulsive.$2",
 "Core.JeremyTS.DailyDialogue.6": "I know things about this world best left untold.#$b#Please, do not ask questions. I do not wish to break you.$2",
+"Core.JeremyTS.DailyDialogue.7": "I have been made aware that when I directly face a human, I can appear like a long-haired faceless woman in a red dress.$2#$b#Pareidolia is fickle for your kind, is it not? I cannot judge, however.#$b#Everywhere I turn, I see snails.$2#$e#Or, perhaps, I am just seeing snails...$3",
 
 "Core.JeremyTS.Rainy.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
 
@@ -1589,11 +1603,11 @@
 "Gifts.WaffleW.Birthday.Negative": "%Waffle seems dejected by your birthday gift.",
 "Gifts.WaffleW.Birthday.Neutral": "%Waffle accepts your birthday offering.",
 
-"Core.WaffleW.BirthdayGift.Love": "Waff waff waff!$h",
-"Core.WaffleW.BirthdayGift.Like": "%Waffle is so excited that she chews on the gift.",
-"Core.WaffleW.BirthdayGift.Dislike": "%Waffle seems dejected by your birthday gift.",
-"Core.WaffleW.BirthdayGift.Negative": "%Waffle sticks her nose in the air and snubs your gift.",
-"Core.WaffleW.BirthdayGift.Neutral": "Arf arf arf!",
+"Gifts.WaffleW.BirthdayGift.Love": "Waff waff waff!$h",
+"Gifts.WaffleW.BirthdayGift.Like": "%Waffle is so excited that she chews on the gift.",
+"Gifts.WaffleW.BirthdayGift.Dislike": "%Waffle seems dejected by your birthday gift.",
+"Gifts.WaffleW.BirthdayGift.Negative": "%Waffle sticks her nose in the air and snubs your gift.",
+"Gifts.WaffleW.BirthdayGift.Neutral": "Arf arf arf!",
 
 "Gifts.WaffleW.Meat": "%Waffle happily accepts the meat treat and gobbles it up.",
 "Gifts.WaffleW.Trash": "%Waffle plays with the trash.",
@@ -1621,11 +1635,11 @@
 "Gifts.PipoP.Dislike": "%Pipo ignores your offering.",
 "Gifts.PipoP.Hate": "Hissss....",
 
-"Core.PipoP.BirthdayGift.Love": "Pipopopopipo! Mrow wow!",
-"Core.PipoP.BirthdayGift.Like": "Mew mew mew!! Meow row wow!",
-"Core.PipoP.BirthdayGift.Dislike": "%Pipo snubs your gift.",
-"Core.PipoP.BirthdayGift.Negative": "%Pipo growls at your gift.",
-"Core.PipoP.BirthdayGift.Neutral": "Mirruprrrr?",
+"Gifts.PipoP.BirthdayGift.Love": "Pipopopopipo! Mrow wow!",
+"Gifts.PipoP.BirthdayGift.Like": "Mew mew mew!! Meow row wow!",
+"Gifts.PipoP.BirthdayGift.Dislike": "%Pipo snubs your gift.",
+"Gifts.PipoP.BirthdayGift.Negative": "%Pipo growls at your gift.",
+"Gifts.PipoP.BirthdayGift.Neutral": "Mirruprrrr?",
 
 "Gifts.PipoP.Milk": "%Pipo happily laps up the milk you give them.",
 "Gifts.PipoP.Salmon": "%Pipo tries to eat the salmon in one bite. Slow down, it's not going anywhere!",

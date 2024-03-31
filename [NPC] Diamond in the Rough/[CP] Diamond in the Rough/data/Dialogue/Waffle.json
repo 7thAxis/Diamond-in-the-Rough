@@ -13,22 +13,6 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/WaffleW",
             "Entries": {
-        
-            //Dumpster
-            "DumpsterDiveComment": "{{i18n:Core.WaffleW.Dumpster}}",
-
-            //Romance
-            "RejectBouquet_NotDatable": "{{i18n:Core.WaffleW.BouquetRejection}}",
-
-            //Slingshot
-            "HitBySlingshot": "{{i18n:Core.WaffleW.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
-
-            //Birthday
-            "AcceptBirthdayGift_Loved": "{{i18n:Core.WaffleW.BirthdayGift.Love}}", //pos
-            "AcceptBirthdayGift_Liked": "{{i18n:Core.WaffleW.BirthdayGift.Like}}", //pos
-            "AcceptBirthdayGift_Disliked": "{{i18n:Core.WaffleW.BirthdayGift.Dislike}}",
-            "AcceptBirthdayGift_Hated": "{{i18n:Core.WaffleW.BirthdayGift.Negative}}", //neg
-            "AcceptBirthdayGift_Neutral": "{{i18n:Core.WaffleW.BirthdayGift.Neutral}}", //neutral
 
             //Gifts
             "AcceptGift_category_fish": "{{i18n:Gifts.WaffleW.Fish}}",
@@ -66,99 +50,6 @@
 
             "RejectItem_(O)809": "{{i18n:Movies.WaffleW.RejectMovieTicket}}" 
         }
-    },
-    {
-        "LogName": "dumpster comment",
-        "Action": "EditData",
-        "Target": "Data/ExtraDialogue",
-        "Entries": {
-            "Town_DumpsterDiveComment_WaffleW": "{{i18n:Core.WaffleW.Dumpster}}"
-        }
-    },
-    {
-        "LogName": "Dialogue - Specific Days Waffle",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "spring_1": "{{i18n:Core.WaffleW.Spring.Day.1}}",
-            "spring_12": "{{i18n:Core.WaffleW.Spring.Day.12}}",
-            "spring_23": "{{i18n:Core.WaffleW.Spring.Day.23}}",
-            "spring_28": "{{i18n:Core.WaffleW.Spring.Day.28}}",
-
-            "summer_1": "{{i18n:Core.WaffleW.Summer.Day.1}}",
-            "summer_10": "{{i18n:Core.WaffleW.Summer.Day.10}}",
-            "summer_27": "{{i18n:Core.WaffleW.Summer.Day.27}}",
-            "summer_28": "{{i18n:Core.WaffleW.Summer.Day.28}}",
-
-            "fall_1": "{{i18n:Core.WaffleW.Fall.Day.1}}",
-            "fall_15": "{{i18n:Core.WaffleW.Fall.Day.15}}",
-            "fall_26": "{{i18n:Core.WaffleW.Fall.Day.26}}",
-            "fall_28": "{{i18n:Core.WaffleW.Fall.Day.28}}",
-
-            "winter_1": "{{i18n:Core.WaffleW.Winter.Day.1}}",
-            "winter_7": "{{i18n:Core.WaffleW.Winter.Day.7}}",
-            "winter_24": "{{i18n:Core.WaffleW.Winter.Day.24}}",
-            "winter_28": "{{i18n:Core.WaffleW.Winter.Day.28}}"
-        }
-    },
-    {
-        "LogName": "Dialogue - Ridgeside Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "fall_19": "{{i18n:Core.WaffleW.Fall.Day.19}}",
-            "winter_27": "{{i18n:Core.WaffleW.Winter.Day.27}}"
-        },
-        "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-    },
-    {
-        "LogName": "Dialogue - Surfing Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "summer_4": "{{i18n:Core.WaffleW.Summer.Day.4}}"
-        },
-        "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Fashion Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "spring_18": "{{i18n:Core.WaffleW.Spring.Day.18}}"
-        },
-        "When": {
-            "HasMod: |contains=UNA.FF.CP": true,
-            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
-            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
-         }
-    },
-    {
-        "LogName": "Dialogue - Love Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "winter_12": "{{i18n:Core.WaffleW.Winter.Day.12}}"
-        },
-        "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Marketpalooza",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "fall_2": "{{i18n:Core.WaffleW.Fall.Day.2}}"
-        },
-        "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
-    },
-    {
-        "LogName": "Dialogue - Fireworks Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/WaffleW",
-        "Entries": 	{ 
-            "summer_19": "{{i18n:Core.WaffleW.Summer.Day.19}}"
-        },
-        "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }
         ]
 }

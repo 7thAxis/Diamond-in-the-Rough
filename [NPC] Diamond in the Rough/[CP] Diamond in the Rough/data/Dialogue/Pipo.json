@@ -9,26 +9,10 @@
             }
         },
         { 
-            "LogName": "Dialogue",
+            "LogName": "Pipo Static Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/PipoP",
             "Entries":{
-
-            //Dumpster
-            "DumpsterDiveComment": "{{i18n:Core.PipoP.Dumpster}}",
-
-            //Romance
-            "RejectBouquet_NotDatable": "{{i18n:Core.PipoP.BouquetRejection}}",
-
-            //Slingshot
-            "HitBySlingshot": "{{i18n:Core.PipoP.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
-
-            //Birthday
-            "AcceptBirthdayGift_Loved": "{{i18n:Core.PipoP.BirthdayGift.Love}}", //pos
-            "AcceptBirthdayGift_Liked": "{{i18n:Core.PipoP.BirthdayGift.Like}}", //pos
-            "AcceptBirthdayGift_Disliked": "{{i18n:Core.PipoP.BirthdayGift.Dislike}}",
-            "AcceptBirthdayGift_Hated": "{{i18n:Core.PipoP.BirthdayGift.Negative}}", //neg
-            "AcceptBirthdayGift_Neutral": "{{i18n:Core.PipoP.BirthdayGift.Neutral}}", //neutral
 
             //Gifts
             "AcceptGift_category_milk": "{{i18n:Gifts.PipoP.Milk}}", //Milk
@@ -87,91 +71,6 @@
             "RejectItem_(O)856": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Curiosity Lure
             "RejectItem_(O)877": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}" //Quality Bobber
         }
-    },
-    {
-        "LogName": "Dialogue - Specific Days Waffle",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "spring_1": "{{i18n:Core.PipoP.Spring.Day.1}}",
-            "spring_12": "{{i18n:Core.PipoP.Spring.Day.12}}",
-            "spring_23": "{{i18n:Core.PipoP.Spring.Day.23}}",
-            "spring_28": "{{i18n:Core.PipoP.Spring.Day.28}}",
-
-            "summer_1": "{{i18n:Core.PipoP.Summer.Day.1}}",
-            "summer_10": "{{i18n:Core.PipoP.Summer.Day.10}}",
-            "summer_27": "{{i18n:Core.PipoP.Summer.Day.27}}",
-            "summer_28": "{{i18n:Core.PipoP.Summer.Day.28}}",
-
-            "fall_1": "{{i18n:Core.PipoP.Fall.Day.1}}",
-            "fall_15": "{{i18n:Core.PipoP.Fall.Day.15}}",
-            "fall_26": "{{i18n:Core.PipoP.Fall.Day.26}}",
-            "fall_28": "{{i18n:Core.PipoP.Fall.Day.28}}",
-
-            "winter_1": "{{i18n:Core.PipoP.Winter.Day.1}}",
-            "winter_7": "{{i18n:Core.PipoP.Winter.Day.7}}",
-            "winter_24": "{{i18n:Core.PipoP.Winter.Day.24}}",
-            "winter_28": "{{i18n:Core.PipoP.Winter.Day.28}}"
-        }
-    },
-    {
-        "LogName": "Dialogue - Ridgeside Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "fall_19": "{{i18n:Core.PipoP.Fall.Day.19}}",
-            "winter_27": "{{i18n:Core.PipoP.Winter.Day.27}}"
-        },
-        "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-    },
-    {
-        "LogName": "Dialogue - Surfing Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "summer_4": "{{i18n:Core.PipoP.Summer.Day.4}}"
-        },
-        "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Fashion Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "spring_18": "{{i18n:Core.PipoP.Spring.Day.18}}"
-        },
-        "When": {
-            "HasMod: |contains=UNA.FF.CP": true,
-            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
-            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
-         }
-    },
-    {
-        "LogName": "Dialogue - Love Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "winter_12": "{{i18n:Core.PipoP.Winter.Day.12}}"
-        },
-        "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Marketpalooza",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "fall_2": "{{i18n:Core.PipoP.Fall.Day.2}}"
-        },
-        "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
-    },
-    {
-        "LogName": "Dialogue - Fireworks Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/PipoP",
-        "Entries": 	{ 
-            "summer_19": "{{i18n:Core.PipoP.Summer.Day.19}}"
-        },
-        "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }
         ]
 }

@@ -1,0 +1,99 @@
+{
+    "Changes": [
+        {
+            "LogName": "Waiting Room Remark",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD",
+            "Entries": { 
+                "EastScarp_TNPCWaitingWarpRoom": "{{i18n:Maps.{{TargetWithoutPath}}.WaitingRoom}}"
+             }
+        },
+        {
+            "LogName": "Unlocked From Start Responses",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/TraceV, Characters/Dialogue/EveT, Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP",
+            "Entries": { 
+                "DitR_CT_UnlockedFromStartIntroduction": "{{i18n:Core.{{TargetWithoutPath}}.UnlockedFromStartIntroduction}}"
+             }
+        },
+        {
+            "LogName": "Universal Responses", //Move stuff into this as I complete dialogue
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS, Characters/Dialogue/EveT, Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP",
+            "Entries": { 
+
+                //Misc
+                "HitBySlingshot": "{{i18n:Core.{{TargetWithoutPath}}.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
+                "DumpsterDiveComment": "{{i18n:Core.{{TargetWithoutPath}}.Dumpster}}",
+
+                //Specific Days
+                "spring_1": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.1}}",
+                "spring_12": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.12}}",
+                "spring_23": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.23}}",
+                "spring_28": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.28}}",
+                "summer_1": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.1}}",
+                "summer_10": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.10}}",
+                "summer_27": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.27}}",
+                "summer_28": "{{i18n:Core.{{TargetWithoutPath}}.Summer.Day.28}}",
+                "fall_1": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.1}}",
+                "fall_15": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.15}}",
+                "fall_26": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.26}}",
+                "fall_28": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.28}}",
+                "winter_1": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.1}}",
+                "winter_7": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.7}}",
+                "winter_24": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.24}}",
+                "winter_28": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.28}}",
+
+                //Birthday Accept
+                "AcceptBirthdayGift_Loved": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Like}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Negative}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Neutral}}",
+
+                //Not datable
+                "RejectBouquet_NotDatable": "{{i18n:Core.{{TargetWithoutPath}}.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}"
+
+             }
+        },
+
+        {
+            "LogName": "Jeremy Intro CT Activation", 
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.JeremyIntroActivation": {
+                    "Trigger": "DayStarted",
+                    "Id": "DitR.TriggerActions.JeremyIntroActivation",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
+                    "Actions": [ "AddConversationTopic DitR_CT_JeremyIntroduction 999" ]
+                }
+            }
+        },
+        {
+            "LogName": "Sen Intro CT Activation",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.SenIntroActivation": {
+                    "Trigger": "DayStarted",
+                    "Id": "DitR.TriggerActions.SenIntroActivation",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h",
+                    "Actions": [ "AddConversationTopic DitR_CT_SenIntroduction 999" ]
+                }
+            }
+        },
+        {
+            "LogName": "Eve Trace Intro CT Activation",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModID}}.TriggerActions.EveTraceIntroActivation": {
+                    "Trigger": "DayStarted",
+                    "Id": "DitR.TriggerActions.EveTraceIntroActivation",
+                    "Actions": [ "AddConversationTopic DitR_CT_UnlockedFromStartIntroduction 999" ]
+                }
+            }
+        }
+    ]
+}

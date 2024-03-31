@@ -13,7 +13,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 5}}}}}}#{{SFX.SnailCry}}"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 7}}}}}}#{{SFX.SnailCry}}"
             },
             "When": { "HasSeenEvent: |contains=112": true } 
         },
@@ -67,19 +67,6 @@
                 "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.JeremyTS.UnluckyPurpleShorts}}"
 
             }  
-        },
-        {
-            "LogName": "Jeremy Intro CT Activation",
-            "Action": "EditData",
-            "Target": "Data/TriggerActions",
-            "Entries": {
-                "{{ModID}}.TriggerActions.JeremyIntroActivation": {
-                    "Trigger": "DayStarted",
-                    "Id": "DitR.TriggerActions.JeremyIntroActivation",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
-                    "Actions": [ "AddConversationTopic DitR_CT_JeremyIntroduction 999" ]
-                }
-            }
         }
     ]
 }

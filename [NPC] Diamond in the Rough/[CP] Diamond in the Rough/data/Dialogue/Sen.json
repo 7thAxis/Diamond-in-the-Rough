@@ -32,44 +32,18 @@
             "When": { "SenOverrideConditions": "Active" }
         },
         {
-            "LogName": "Dialogue",
+            "LogName": "Dialogue Fixed Dialogue",
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
 
-                // SPECIFIC DAY SPRING
-                "spring_1": "{{i18n:Core.SenS.Spring.Day.1}}",
-                "spring_12": "{{i18n:Core.SenS.Spring.Day.12}}", // Day before the Egg Festival
+                //Misc specific days
                 "spring_20": "{{i18n:Core.SenS.Spring.Day.20}}",
-                "spring_23": "{{i18n:Core.SenS.Spring.Day.23}}", // Day before the Flower Dance
-
-                // SPECIFIC DAY SUMMER
-                "summer_1": "{{i18n:Core.SenS.Summer.Day.1}}",
-                "summer_10": "{{i18n:Core.SenS.Summer.Day.10}}", // Day before the Luau
                 "summer_19": "{{i18n:Core.SenS.Summer.Day.19{{SenRandTokens}}}}",
-                "summer_27": "{{i18n:Core.SenS.Summer.Day.27}}", // Day before the Midnight Jellies
-
-                // SPECIFIC DAY FALL
-                "fall_1": "{{i18n:Core.SenS.Fall.Day.1}}",
-                "fall_5": "{{i18n:Core.SenS.Fall.Day.5}}",
-                "fall_15": "{{i18n:Core.SenS.Fall.Day.15}}", // Day before the Stardew Fair
-                "fall_26": "{{i18n:Core.SenS.Fall.Day.26}}", // Day before Spirit's Eve
-
-                // SPECIFIC DAY WINTER
-                "winter_1": "{{i18n:Core.SenS.Winter.Day.1}}",
-                "winter_7": "{{i18n:Core.SenS.Winter.Day.7}}", // Day before the Ice Festival
                 "winter_13": "{{i18n:Core.SenS.Winter.Day.13}}",
-                "winter_24": "{{i18n:Core.SenS.Winter.Day.24}}", // Day before Winter Star
-                "winter_26": "{{i18n:Core.SenS.Winter.Day.26}}"
-            }
-        },
-        {
-            "LogName": "Dialogue CFD and CTs",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
+
                 //Conversation Topics
-                "DitR_CT_SenMet": "{{i18n:Core.SenS.SenMet}}",
+                "DitR_CT_SenIntroduction": "{{i18n:Core.SenS.SenIntroduction}}",
                 "DitR_CT_DreamReveal": "{{i18n:Core.SenS.DreamReveal}}",
                 "DitR_CT_ShadowPlay": "{{i18n:Core.SenS.ShadowPlay}}",
                 "DitR_CT_GardenWaitTime": "{{i18n:Core.SenS.GardenWaitTime}}",
@@ -105,19 +79,6 @@
                 "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:Movies.SenS.RejectMovieTicket.NotInterested}}",
                 "RejectMovieTicket_Divorced": "{{i18n:Relationship.SenS.Rejection.Divorced}}",
                 "RejectMovieTicket": "{{i18n:Movies.SenS.RejectMovieTicket}}",
-
-                //CFD
-                "DumpsterDiveComment": "{{i18n:Core.SenS.Dumpster}}",
-
-                //Slingshot
-                "HitBySlingshot": "{{i18n:Core.SenS.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
-
-                //Birthday
-                "AcceptBirthdayGift_Loved": "{{i18n:Core.SenS.BirthdayGift.Positive.1}}", //pos
-                "AcceptBirthdayGift_Liked": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}", //pos
-                "AcceptBirthdayGift_Disliked": "{{i18n:Core.SenS.BirthdayGift.Dislike}}",
-                "AcceptBirthdayGift_Hated": "{{i18n:Core.SenS.BirthdayGift.Negative}}", //neg
-                "AcceptBirthdayGift_Neutral": "{{i18n:Core.SenS.BirthdayGift.Neutral}}", //neutral
 
                 //Rejection
                 "RejectGift_Divorced": "{{i18n:Relationship.SenS.Rejection.Divorced}}",
@@ -260,65 +221,6 @@
             "Entries": {
                 "MovieInvite_Spouse_SenS": "{{i18n:Movies.SenS.AcceptMovieTicket}}"
             }
-        },
-        {
-            "LogName": "Dialogue - Ridgeside Festival",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "fall_19": "{{i18n:Core.SenS.Fall.Day.19}}",
-                "winter_27": "{{i18n:Core.SenS.Winter.Day.27}}"
-            },
-            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-        },
-        {
-            "LogName": "Dialogue - Surfing Festival",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "summer_4": "{{i18n:Core.SenS.Summer.Day.4.Event}}"
-            },
-            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-        },
-        {
-            "LogName": "Dialogue - Fashion Festival",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "spring_18": "{{i18n:Core.SenS.Spring.Day.18.Event}}"
-            },
-            "When": {
-                "HasMod: |contains=UNA.FF.CP": true,
-                "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
-                "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
-            }
-        },
-        {
-            "LogName": "Dialogue - Love Festival",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "winter_12": "{{i18n:Core.SenS.Winter.Day.12}}"
-            },
-            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
-        },
-        {
-            "LogName": "Dialogue - Marketpalooza",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "fall_2": "{{i18n:Core.SenS.Fall.Day.2.Event}}"
-            },
-            "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
-        },
-        {
-            "LogName": "Dialogue - Fireworks Festival",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/SenS",
-            "Entries": {
-                "summer_19": "{{i18n:Core.SenS.Summer.Day.19.Event}}"
-            },
-            "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
         }
     ]
 }

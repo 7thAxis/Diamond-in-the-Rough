@@ -31,27 +31,8 @@
         "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Home.Bed}}",
         "EastScarp_Village_35_107": "{{i18n:Core.EveT.Locations.EastScarp.BeachHangout.{{TodaysDate: |contains=fall 27}}}}",
         "EastScarp_VillageInn_SpiritEve_27_28": "{{i18n:Core.EveT.Locations.Inn.SpiritsEve.{{HasMod: |contains=TenebrousNova.EliDylan.CP}}}}",
-
-        //Specific Days
-        "spring_1": "{{i18n:Core.EveT.Spring.Day.1}}",
-        "spring_12": "{{i18n:Core.EveT.Spring.Day.12}}",
-        "spring_23": "{{i18n:Core.EveT.Spring.Day.23}}",
-        "spring_28": "{{i18n:Core.EveT.Spring.Day.28}}",
-        "summer_1": "{{i18n:Core.EveT.Summer.Day.1}}",
-        "summer_10": "{{i18n:Core.EveT.Summer.Day.10}}",
-        "summer_27": "{{i18n:Core.EveT.Summer.Day.27}}",
-        "summer_28": "{{i18n:Core.EveT.Summer.Day.28}}",
-        "fall_1": "{{i18n:Core.EveT.Fall.Day.1}}",
-        "fall_15": "{{i18n:Core.EveT.Fall.Day.15}}",
-        "fall_26": "{{i18n:Core.EveT.Fall.Day.26}}",
-        "fall_28": "{{i18n:Core.EveT.Fall.Day.28}}",
-        "winter_1": "{{i18n:Core.EveT.Winter.Day.1}}",
-        "winter_7": "{{i18n:Core.EveT.Winter.Day.7}}",
-        "winter_24": "{{i18n:Core.EveT.Winter.Day.24}}",
-        "winter_28": "{{i18n:Core.EveT.Winter.Day.28}}",
         
         //Conversation Topics
-        "Introduction": "{{i18n:Core.EveT.Introduction}}",
         "DitR_CT_SenMet": "{{i18n:Core.EveT.SenMet}}",
         "DitR_CT_DreamReveal": "{{i18n:Core.EveT.DreamReveal}}",
         "DitR_CT_ShadowPlay": "{{i18n:Core.EveT.ShadowPlay}}",
@@ -78,23 +59,7 @@
         "LavrilUnlocked": "{{i18n:Core.EveT.LavrilUnlocked}}",
         "LucikielArrives": "{{i18n:Core.EveT.LucikielArrives}}",
         "ReputationIncreased":"{{i18n:Core.EveT.LucikielRepIncrease}}",
-        "JulietGremlin": "{{i18n:Core.EveT.JulietGremlin}}",
-
-        //Dumpster
-        "DumpsterDiveComment": "{{i18n:Core.EveT.Dumpster}}",
-
-        //Romance
-        "RejectBouquet_NotDatable": "{{i18n:Core.EveT.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",        
-
-        //Slingshot
-        "HitBySlingshot": "{{i18n:Core.EveT.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
-
-        //Birthday
-        "AcceptBirthdayGift_Loved": "{{i18n:Core.EveT.BirthdayGift.Love}}", //pos
-        "AcceptBirthdayGift_Liked": "{{i18n:Core.EveT.BirthdayGift.Like}}", //pos
-        "AcceptBirthdayGift_Disliked": "{{i18n:Core.EveT.BirthdayGift.Dislike}}",
-        "AcceptBirthdayGift_Hated": "{{i18n:Core.EveT.BirthdayGift.Negative}}", //neg
-        "AcceptBirthdayGift_Neutral": "{{i18n:Core.EveT.BirthdayGift.Neutral}}", //neutral
+        "JulietGremlin": "{{i18n:Core.EveT.JulietGremlin}}",     
 
         //Gifts
         //Loved
@@ -209,65 +174,6 @@
          
         "RejectItem_(O)809": "{{i18n:Movies.EveT.RejectMovieTicket}}" 
         }
-    },
-    {
-        "LogName": "Dialogue - Ridgeside Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "fall_19": "{{i18n:Core.EveT.Fall.Day.19}}",
-            "winter_27": "{{i18n:Core.EveT.Winter.Day.27}}"
-        },
-        "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-    },
-    {
-        "LogName": "Dialogue - Surfing Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "summer_4": "{{i18n:Core.EveT.Summer.Day.4}}"
-        },
-        "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Fashion Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "spring_18": "{{i18n:Core.EveT.Spring.Day.18}}"
-        },
-        "When": {
-            "HasMod: |contains=UNA.FF.CP": true,
-            "HasSeenEvent: anyPlayer |contains= 1740402, 1740403, 1740404": true,
-            "HasReadLetter: anyPlayer |contains=FashionShowLetter": true
-         }
-    },
-    {
-        "LogName": "Dialogue - Love Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "winter_12": "{{i18n:Core.EveT.Winter.Day.12}}"
-        },
-        "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
-    },
-    {
-        "LogName": "Dialogue - Marketpalooza",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "fall_2": "{{i18n:Core.EveT.Fall.Day.2}}"
-        },
-        "When": { "HasMod: |contains=Fellowclown.Nikolai": true }
-    },
-    {
-        "LogName": "Dialogue - Fireworks Festival",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/EveT",
-        "Entries": 	{ 
-            "summer_19": "{{i18n:Core.EveT.Summer.Day.19}}"
-        },
-        "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
     }
 ]
 }
