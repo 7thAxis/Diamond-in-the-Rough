@@ -8,7 +8,8 @@
                 "TraceV": "{{i18n:Festivals.TraceV.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
                 "SenS": "{{i18n:Festivals.SenS.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
                 "PipoP": "{{i18n:Festivals.PipoP.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
-                "WaffleW": "{{i18n:Festivals.WaffleW.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}"
+                "WaffleW": "{{i18n:Festivals.WaffleW.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}}}",
+                "JeremyTSnail": "{{i18n:Festivals.JeremyTSnail.{{TargetWithoutPath}}.{{Random:{{Range: 1, 3}}}}.{{HasSeenEvent: |contains=112}}|default={{i18n:Festivals.JeremyTSnail.JeremyKnowsYouUsedNoClip.{{HasSeenEvent: |contains=112}}}}}}"
             }
         },
         //NIGHT MARKET

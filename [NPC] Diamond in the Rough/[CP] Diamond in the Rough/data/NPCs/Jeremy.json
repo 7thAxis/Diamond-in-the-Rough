@@ -40,6 +40,13 @@
                             "Tile": { "X": 5, "Y": 11 },
                             "Direction": "down"
                         }
+                    ],
+                    "Appearance": [
+                        {
+                            "ID": "FestivalInWaterJeremy",
+                            "Condition": "IS_EVENT festival_spring13 festival_spring24 festival_summer11 festival_summer28 festival_fall16 festival_winter8 festival_winter25",
+                            "Sprite": "{{InternalAssetKey: Assets/Characters/Jeremy/Jeremy_Water.png}}"
+                        }
                     ]
                 }
             }

@@ -52,7 +52,7 @@
 
             "Entries": { 
                 "{{ModID}}.Items.VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}.Items.VoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.VoidLavaSnailEgg" },
-                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.0003, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
+                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.0004, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
              },
              "When": { "HasFlag": "DitR_M_SnailPhase5" }
         }

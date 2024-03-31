@@ -8,15 +8,19 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 37 96 2",
+                    "Value": "JeremyTSnail 27 104 3",
                     "Delimiter": "/"
                 },
-                     {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 37 96 2",
-                    "Delimiter": "/"
-                }
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
             ]
         },
 //----------------FLOWER DANCE------------------//
@@ -27,15 +31,19 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 49 32 2",
+                    "Value": "JeremyTSnail 65 48 1",
                     "Delimiter": "/"
                 },
                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 21 33 0",
-                    "Delimiter": "/"
-                }
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				}
             ]
         },
 //----------------LUAU------------------//
@@ -46,36 +54,20 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 54 22 2",
+                    "Value": "JeremyTSnail 51 47 3",
                     "Delimiter": "/"
-                  },
-                     {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 41 22 2",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11", //luau
-            "TextOperations": [
+                },
                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 54 22 2",
-                    "Delimiter": "/"
-                  },
-                     {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 35 19 2",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": false }
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				}
+            ]
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -85,9 +77,19 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 46 24 2",
+                    "Value": "JeremyTSnail 91 41 3",
                     "Delimiter": "/"
-                  }
+                },
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
             ]
         },
 //----------------SDV FAIR------------------//
@@ -98,24 +100,20 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 56 52 2",
+                    "Value": "JeremyTSnail 27 104 3",
                     "Delimiter": "/"
-                    }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall16", //fair
-            "TextOperations": [
+                },
                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 49 32 2",
-                    "Delimiter": "/"
-                    }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
+            ]
         },
 //----------------SPIRITS EVE------------------//
         {
@@ -125,56 +123,20 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 64 16 3",
+                    "Value": "JeremyTSnail 27 104 3",
                     "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": false }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
+                },
                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 32 16 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				},                
                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 62 17 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "IsOddYear": true
-			}
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 73 4 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "IsOddYear": false
-			}
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
+            ]
         },
 //----------------ICE FESTIVAL------------------//
         {
@@ -184,10 +146,35 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 57 42 2",
+                    "Value": "JeremyTSnail 49 36 1",
                     "Delimiter": "/"
-                 }
-            ]
+                },
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 79 47 1",
+                    "Delimiter": "/"
+                },
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				}
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": false }
         },
 //----------------WINTER STAR------------------//
         {
@@ -197,136 +184,136 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 47 71 2",
+                    "Value": "JeremyTSnail 27 104 3",
                     "Delimiter": "/"
-                }
+                },
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up_y2", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
+				}
             ]
-        },
-//----------------RSV GATHERING------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall20", //Ridgeside Gathering
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 127 35 2",
-                    "Delimiter": "/"
-                 },    
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 76 49 0",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-        },
-//----------------RSV EMBER OF RESOLUTIONS------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter28", //Ridgeside Ember
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 40 25 2",
-                    "Delimiter": "/"
-                 },      
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 25 47 1",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
-        },
-//----------------SURFING FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer5", //Surfing Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 28 4 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
-        },
-//----------------FASHION FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/spring19", //Fashion Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 63 16 2",
-                    "Delimiter": "/"
-                 },     
-                 {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
-                    "Value": "SenS 47 33 0",
-                    "Delimiter": "/"
-                }
-            ],
-            "When": { "HasMod: |contains=UNA.FF.CP": true }
-        },
-//----------------LOVE FESTIVAL------------------//
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter13", //Love Festival
-            "TextOperations": [
-                {
-                    "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 48 70 2",
-                    "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
-        },
+        }
 //----------------MARKETPAOOLZA------------------//
-        {
+        /*{
             "Action": "EditData",
             "Target": "Data/Festivals/fall3", //Marketpalooza
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 6 22 2",
+                    "Value": "JeremyTSnail 16 21 2",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Fellowclown.SW": true }
+        }*/
+//----------------RSV GATHERING------------------//
+      /*  {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20", //Ridgeside Gathering
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 87 59 2",
+                    "Delimiter": "/"
+                 },    
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "JeremyTSnail 89 41 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },*/
+//----------------RSV EMBER OF RESOLUTIONS------------------//
+       /* {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28", //Ridgeside Ember
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 47 37 2",
+                    "Delimiter": "/"
+                 },      
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "JeremyTSnail 29 46 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },*/
+//----------------SURFING FESTIVAL------------------//
+      /*  {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer5", //Surfing Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 47 22 2",
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=Fellowclown.SW": true }
-        },
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
+        },*/
+//----------------FASHION FESTIVAL------------------//
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring19", //Fashion Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 71 20 2",
+                    "Delimiter": "/"
+                 },     
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "JeremyTSnail 30 26 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=UNA.FF.CP": true }
+        },*/
+//----------------LOVE FESTIVAL------------------//
+        /*{
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter13", //Love Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 21 61 2",
+                    "Delimiter": "/"
+                 }
+            ],
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
+        },*/
 //----------------FIREWORKS FESTIVAL------------------//
-        {
+        /*{
             "Action": "EditData",
             "Target": "Data/Festivals/summer20", //Fireworks Festival
             "TextOperations": [
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "SenS 22 24 2",
+                    "Value": "JeremyTSnail 24 30 1",
                     "Delimiter": "/"
                  }
             ],
             "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
-        },
-//----------------FESTIVAL OF THE MUNDANE------------------//
-		{
-			"LogName": "Sen Schedule Mundane Festival",
-			"Action": "EditData",
-			"Target": "Characters/schedules/SenS",
-			"Entries": {
-				"fall_27": "0 Sewer 6 20/610 6 20 2" //Day of Festival of the Mundane
-			},
-			"When": { "LivingWithSen": true, "HasMod: |contains=MouseyPounds.ShadowFestival": true }
-		}
+        }*/
     ]
 }

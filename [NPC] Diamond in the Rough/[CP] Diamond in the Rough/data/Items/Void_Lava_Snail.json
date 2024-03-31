@@ -146,7 +146,7 @@
                 },
                 {
                     "RequiredPopulation": 1,
-                    "Chance": 0.0003, "ItemID": "{{FishPondGoldenSnailEggSpawnable}}", //Egg or Slime
+                    "Chance": 0.0004, "ItemID": "{{FishPondGoldenSnailEggSpawnable}}", //Egg or Slime
                     "MinQuantity": 1, "MaxQuantity": 1
                 },
                 {

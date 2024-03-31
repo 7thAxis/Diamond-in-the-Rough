@@ -1777,13 +1777,13 @@
 
 //Moonlight Jellies
 "Festivals.TraceV.summer28.1": "Man why do the jellies only come once a year? They're so shellfish!$a#$b#...Does that pun even work? I don't think jellyfish are shellfish.$6",
-"Festivals.TraceV.summer28.2": "",
-"Festivals.TraceV.summer28.3": "",
+"Festivals.TraceV.summer28.2": "Helllooo Jerbear, how are you little guy? My little baby shmoopie poo.$11#$b#Oh hey, @, just hanging out with the coolest snail around while waiting for the jellies to show up!$11#$b#Wanna join us?$11",
+"Festivals.TraceV.summer28.3": "I wonder why the jellies always visit this beach each year? Maybe the sea water tastes good?$6#$b#I for one, disagree if that's the case! All sea water tastes nasty!$a",
 
 //Fair
-"Festivals.TraceV.fall16.1": "",
-"Festivals.TraceV.fall16.2": "",
-"Festivals.TraceV.fall16.3": "",
+"Festivals.TraceV.fall16.1": "I bought a few tokens but I lost 'em all at the spinny wheel thing.#$b#I shouldn't play luck based games, it never works out for me.",
+"Festivals.TraceV.fall16.2": "Did you see the little dude in the pumpkin suit? That's definitely not a pumpkin.$6#$b#Pumpkins don't talk. Unless they're in my dreams.$h#$b#Oh Yoba, am I dreaming right now?!$u#$b#%You hear Eve sigh incredulously off to the side.",
+"Festivals.TraceV.fall16.3": "Waffle stole my tokens, but Eve doesn't believe me.$a#$b#I WAS going to stick them in the back of Mayor Lewis's shirt. I would have gotten away with it too if it weren't for that meddling dog!$a",
 
 //Sprits Eve
 "Festivals.TraceV.fall27.1": "Hoooow the heck did I even get here?!$u#$b#How do I manage to do this every year?$6",
@@ -1791,14 +1791,14 @@
 "Festivals.TraceV.fall27.3": "Sooo I've given up trying to figure out where I am.#$b#I'm just going to wait for the wizard guy to free me.$h#$b#Unfortunately I have zero patience.$6",
 
 //Ice Festival
-"Festivals.TraceV.winter8.1": "",
-"Festivals.TraceV.winter8.2": "",
-"Festivals.TraceV.winter8.3": "",
+"Festivals.TraceV.winter8.1": "Smells a little fishy out here if I do say so myself. Beware the fish stink, @.$a#$b#Come into contact with the fish stink and you'll eventually turn into a fish.$a#$b#Glub glub. Oh Yoba, I'm turning into a fish!$u",
+"Festivals.TraceV.winter8.2": "This little Santa dude is adorable. I'm going to give 'em a big hug.$h#$b#I get the vibe they could crush my bones if they wanted too, though.$6#$b#Please don't crush my bones, small Santa!$u",
+"Festivals.TraceV.winter8.3": "One fish, Two fish, Red fish, Blue fish. Black fish, Blue fish, Old fish, New fish.$h#$b#This one has a little car. This one has a little star.$l#$e#Say! What a lot of fish there are. Yes. Some are red, and some are blue.$h#$b#Some are old and some are new. Some are sad, and some are glad, And some are very, very bad.$6#$e#Why are they sad and glad and bad?$6#$b#I do not know, go ask your dad.$a#$e#Oh sorry, @. I forgot the rest.$6",
 
 //Winter Star
-"Festivals.TraceV.winter25.1": "",
-"Festivals.TraceV.winter25.2": "",
-"Festivals.TraceV.winter25.3": "",
+"Festivals.TraceV.winter25.1": "I think my secret friend forgot about me this year. Huge bummer.$6#$b#Oh well, it's fine...$s",
+"Festivals.TraceV.winter25.2": "Huh? Why am I over here by myself?$s#$b#Heh. I'm fine, don't worry about it, buckaroo.$l",
+"Festivals.TraceV.winter25.3": "Happy Winter Star, @. Enjoying the festivities?$l#$b#I'll probably head out soon. I got stuff I need to do. Important stuff.$6#$b#Ya know, like this and that.$s",
 
 //Night Market
 "Festivals.TraceV.NightMarket.1": "Every year I wind up at the Night Market and end up buying a ton of weird knick-knacks I don't need.$6#$b#Hmm...$6#$b#Oh well!$11",
@@ -2028,6 +2028,17 @@
 "Festivals.SenS.fall3.1": "Quick Sen... act natural!$17#$b#%The little pumpkin man makes incoherent pumpkin noises...",
 "Festivals.SenS.fall3.2": "Boooo spooooky I'm a talking pumpkin! You're halluuuucinating!$17",
 "Festivals.SenS.fall3.3": "I am just an ordinary pumpkin. Please advert your gaze.$17#$b#There is nothing to see here.$17",
+
+//Jeremy
+"Festivals.JeremyTSnail.JeremyKnowsYouUsedNoClip.True": "...Hm. It seems you used nefarious means to reach me.#$b#For shame, @. For shame.$2",
+"Festivals.JeremyTSnail.JeremyKnowsYouUsedNoClip.False": "%Jeremy gives you a knowing gaze. They know how you reached them.#$b#...$2",
+
+"Festivals.JeremyTSnail.Summer28.1.True": "Worry not, I am hardier than most members of my species. A little salt exposure will not bother me.#$b#This event is quite a nice way to celebrate my birthday if I do say so myself.$1",
+"Festivals.JeremyTSnail.Summer28.2.True": "As a young snail back on Ginger Island, I once fell in love with a lunaloo...#$b#Creatures of sea and lava, it was never meant to be.$2#$b#Does part of me hope to see Lunarella tonight...?#$b#Perhaps.$1",
+"Festivals.JeremyTSnail.Summer28.3.True": "Trace has been staring off into space for some time...#$b#Hmm...$2#$b#Nothing out of the ordinary there.$3#$b#Perhaps if I make a squeak and they will give me an apple...$1",
+"Festivals.JeremyTSnail.Summer28.1.False": "%Jeremy seems more energetic than usual. It must be because it's their birthday!",
+"Festivals.JeremyTSnail.Summer28.2.False": "%Jeremy looks forelorn, as if they're thinking about a long lost love.",
+"Festivals.JeremyTSnail.Summer28.3.False": "%Jeremy floats in the water, staring at Trace. They appear to be contemplating something.",
 /*
 ███╗   ███╗ ██████╗ ██╗   ██╗██╗███████╗███████╗
 ████╗ ████║██╔═══██╗██║   ██║██║██╔════╝██╔════╝
