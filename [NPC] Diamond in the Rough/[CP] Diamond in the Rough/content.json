@@ -235,10 +235,21 @@ CREDITS
                 "When": { "HasFlag": "DitR_M_SnailPhase5" }
             },
 
-        { "Name": "SnailCrabPotRate", "Value": 0.15 },
+            { 
+                "Name": "SnailCrabPotRate", "Value": 0.15,
+                "When": { "Season |contains=winter": false }
+            },
+            { 
+                "Name": "SnailCrabPotRate", "Value": 0.20,
+                "When": { "Season |contains=winter": true }
+            },
             {
-                "Name": "SnailCrabPotRate", "Value": 0.05,
-                "When": { "HasFlag": "DitR_M_SnailPhase5" }
+                "Name": "SnailCrabPotRate", "Value": 0.08,
+                "When": { "HasFlag": "DitR_M_SnailPhase5", "Season |contains=winter": false }
+            },
+            {
+                "Name": "SnailCrabPotRate", "Value": 0.13,
+                "When": { "HasFlag": "DitR_M_SnailPhase5", "Season |contains=winter": true }
             },
         
 

@@ -1227,7 +1227,7 @@
 "Core.TraceV.EarlyHeart.39": "Do you have any hobbies, @? I have way too many. Baking, painting, hiking, guitaring...$h#$b#It's hard to make time for them all in one day!$l#$b#Hey, guitaring is definitely a word. I'll fight you on this.$a",
 "Core.TraceV.EarlyHeart.40": "Shhh... Don't speak, @. I'm trying really hard to remember something.$6#$b#%You smell something burning-#$b#Hey, don't even make the \"Is that what I smell?\" joke.$a",
 "Core.TraceV.EarlyHeart.41": "I love orange juice. Especially with pulp.$h#$b#If you're a pulp hater, you have to leave my life immediately.$a#$b#Sorry, not sorry.$l",
-"Core.TraceV.EarlyHeart.42": "Sometimes you get horribly lost in the wilderness and that's okay.#$b#Just make sure you find your way back to civilization and don't die!$h#$e#Yeah, I know.  Easier said than done.$6#$b#Can confirm from experience.$6",
+"Core.TraceV.EarlyHeart.42": "Sometimes you get horribly lost in the wilderness and that's okay.#$b#Just make sure you find your way back to civilization and don't die!$h#$e#Yeah, I know. Easier said than done. Can confirm from experience.$6",
 "Core.TraceV.EarlyHeart.43": "Eloise is too smart for a kid her age. I suspect there's some cover-up going on and she's actually a bird alien living amongst humanity.$6#$b#At least the bird aliens come in peace.#$e#What? Don't give me the \"what are you even going on about\" face.$a",
 "Core.TraceV.EarlyHeart.44": "",
 "Core.TraceV.EarlyHeart.45": "",
@@ -1413,12 +1413,11 @@
 "Gifts.EveT.Dislike": "Err... Thanks I guess?",
 "Gifts.EveT.Hate": "Uhg, why on earth would you think it was a good idea to give me this?",
 
-"Core.EveT.BirthdayGift.Love": "Oh my gosh this is a wonderful birthday gift, @! Thank you!",
-"Core.EveT.BirthdayGift.Like": "Awww you remembered my birthday! Thank you so much, @!",
-"Core.EveT.BirthdayGift.Dislike": "Err... Thanks for the birthday gift. I think. $s",
-"Core.EveT.BirthdayGift.Negative": "Umm... Really, on my birthday you give me this of all things?",
-"Core.EveT.BirthdayGift.Neutral": "Thanks for the birthday gift, @! I really appreciate it.",
-
+"Gifts.EveT.BirthdayGift.Love": "Oh my gosh this is a wonderful birthday gift, @! Thank you!",
+"Gifts.EveT.BirthdayGift.Like": "Awww you remembered my birthday! Thank you so much, @!",
+"Gifts.EveT.BirthdayGift.Dislike": "Err... Thanks for the birthday gift. I think. $s",
+"Gifts.EveT.BirthdayGift.Negative": "Umm... Really, on my birthday you give me this of all things?",
+"Gifts.EveT.BirthdayGift.Neutral": "Thanks for the birthday gift, @! I really appreciate it.",
 
 "Gifts.EveT.Diamond": "Oh...!$h#$b#This reminds me of someone near and dear to my heart. Thank you, @.$h",
 "Gifts.EveT.CactusFruit": "Oh man this stuff is the BEST!$h#$b#Just uh, remember to remove all the spines first.$8",
@@ -1483,13 +1482,11 @@
 "Gifts.SenS.Hate": "Er... no offense, but I don't really want this.",
 "Gifts.SenS.Neutral": "Ah! Thank you, @! I'm sure I'll find a great use for this.",
 
-"Core.SenS.BirthdayGift.Positive.1": "The human custom of giving gifts on one's birthday warms my heart...$l#$b#Thank you, @. I'll always remember this.$h",
-"Core.SenS.BirthdayGift.Positive.1.Relationship": "...!$u#$b#You remembered my birthday! I love this, @.$7#$b#Thank you so much!$h",
-"Core.SenS.BirthdayGift.Positive.2": "...!$u#$b#I don't know how you found out my birthday, but I love this, @.$7#$b#Thank you so much!$h",
-"Core.SenS.BirthdayGift.Dislike": "Oh, um... thank you for the birthday gift, @.$8",
-"Core.SenS.BirthdayGift.Negative": "Er... I appreciate the gesture, but you can keep that.$8",
-"Core.SenS.BirthdayGift.Neutral": "Oh, @! How did you know it was my birthday?$h#$b#Thank you, @. I'm sure I'll find a great use for this.$h",
-"Core.SenS.BirthdayGift.Neutral.Relationship": "Oh, @! You remembered my birthday!$h#$b#Thank you, @. I'm sure I'll find a great use for this.$h",
+"Gifts.SenS.BirthdayGift.Love": "The human custom of giving gifts on one's birthday warms my heart...$l#$b#Thank you, @. I'll always remember this.$h",
+"Gifts.SenS.BirthdayGift.Like": "Oh, @! You remembered my birthday!$h#$b#Thank you, @. I'm sure I'll find a great use for this.$h",
+"Gifts.SenS.BirthdayGift.Dislike": "Oh, um... thank you for the birthday gift, @.$8",
+"Gifts.SenS.BirthdayGift.Negative": "Er... I appreciate the gesture, but you can keep that.$8",
+"Gifts.SenS.BirthdayGift.Neutral": "Thanks for the birthday gift, @! I really appreciate it.",
 
 "Gifts.SenS.Cat.Flowers": "Oh wow, thank you @!$h#$b#I simply love flowers... They brighten up even the gloomiest of days.$l",
 "Gifts.SenS.Cat.Gems": "Oh, how shiny!$7#$b#Thank you so much, @. I'm going to polish this up and put it on display.$h",
@@ -1781,9 +1778,9 @@
 "Festivals.TraceV.summer28.3": "I wonder why the jellies always visit this beach each year? Maybe the sea water tastes good?$6#$b#I for one, disagree if that's the case! All sea water tastes nasty!$a",
 
 //Fair
-"Festivals.TraceV.fall16.1": "I bought a few tokens but I lost 'em all at the spinny wheel thing.#$b#I shouldn't play luck based games, it never works out for me.",
+"Festivals.TraceV.fall16.1": "I bought a few tokens but I lost 'em all at the spinny wheel thing.#$b#I shouldn't play luck based games, it never works out for me.$6",
 "Festivals.TraceV.fall16.2": "Did you see the little dude in the pumpkin suit? That's definitely not a pumpkin.$6#$b#Pumpkins don't talk. Unless they're in my dreams.$h#$b#Oh Yoba, am I dreaming right now?!$u#$b#%You hear Eve sigh incredulously off to the side.",
-"Festivals.TraceV.fall16.3": "Waffle stole my tokens, but Eve doesn't believe me.$a#$b#I WAS going to stick them in the back of Mayor Lewis's shirt. I would have gotten away with it too if it weren't for that meddling dog!$a",
+"Festivals.TraceV.fall16.3": "Waffle stole my tokens but Eve doesn't believe me.$a#$b#I WAS going to stick them down the back of Mayor Lewis's shirt. I would have gotten away with it too if it weren't for that meddling dog!$a",
 
 //Sprits Eve
 "Festivals.TraceV.fall27.1": "Hoooow the heck did I even get here?!$u#$b#How do I manage to do this every year?$6",
@@ -1901,7 +1898,7 @@
 
 "Festivals.PipoP.fall16.1": "Pipo Pip Po Pipo.",
 "Festivals.PipoP.fall16.2": "%Pipo sniffs at the air. There are snackies afoot. They must be consumed.",
-"Festivals.PipoP.fall16.3": "%Pipo does not understand the human's obsession with shiny round coins.",
+"Festivals.PipoP.fall16.3": "%Pipo does not understand the human obsession with shiny round coins.",
 
 "Festivals.PipoP.fall27.1": "Meow meow mrow meow....",
 "Festivals.PipoP.fall27.2": "%Pipo hisses at all of the scary decorations!",
@@ -2388,8 +2385,8 @@
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.Title": "The Snail Mail",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.1": "Hello, ^^I hope you are finding yourself well.^^Here is a token of my appreciation for your assistance in wrangling my kin.  ^^   -J.T.S %item object 709 50 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.2": "Hello, ^^Do not question my capability to write.^^Move along and accept my reward for your assistance in bringing my kin home.  ^^   -J.T.S %item object 769 20 %%",
-"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.3": "Hello, ^^My home is starting to become a tad crowded. I suppose that is fine. I quite enjoy the chatter... ^^Anyhow, here is a reward. ^^   -J.T.S %item object 69 1 835 1 %%",
-"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.4": "Hello, ^^I have quite the large family now. Based on the last headcount, it is about 80 snails wide. ^^Now if only they would all behave...^^I have no idea where they found all this gold...^^   -J.T.S %item money 50000 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.3": "Hello, ^^My home is starting to become a tad crowded. I suppose that is fine. I quite enjoy the chatter... ^^Anyhow, here is a reward. ^^   -J.T.S %item object 633 1 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.4": "Hello, ^^I have quite the large family now. Based on the last headcount, it is about 80 snails wide. ^^Now if only they would all behave...^^I have no idea where they found all this gold...^^   -J.T.S %item money 10000 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP.Items.VoidLavaSnailEgg 1 %%",
 
 /*

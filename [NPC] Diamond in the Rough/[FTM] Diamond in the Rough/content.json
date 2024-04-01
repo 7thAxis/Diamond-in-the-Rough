@@ -850,9 +850,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Farm",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 1,
@@ -905,9 +903,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.BW",
         "MapName": "Backwoods",
         "MinimumSpawnsPerDay": 1,
@@ -960,9 +956,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.M",
         "MapName": "Mountain",
         "MinimumSpawnsPerDay": 1,
@@ -1015,9 +1009,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.F",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 1,
@@ -1070,9 +1062,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Woods",
         "MapName": "Woods",
         "MinimumSpawnsPerDay": 1,
@@ -1125,9 +1115,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESV",
         "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": 1,
@@ -1184,9 +1172,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESDM",
         "MapName": "EastScarp_DeepMountains",
         "MinimumSpawnsPerDay": 1,
@@ -1239,9 +1225,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESO",
         "MapName": "EastScarp_Orchard",
         "MinimumSpawnsPerDay": 1,
@@ -1294,9 +1278,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Town",
         "MapName": "Town",
         "MinimumSpawnsPerDay": 1,
@@ -1349,9 +1331,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEFW",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
@@ -1404,9 +1384,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEBMV",
         "MapName": "Custom_BlueMoonVineyard",
         "MinimumSpawnsPerDay": 1,
@@ -1459,9 +1437,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEG",
         "MapName": "Custom_Garden",
         "MinimumSpawnsPerDay": 1,
@@ -1514,9 +1490,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVESWB",
         "MapName": "Custom_ShearwaterBridge",
         "MinimumSpawnsPerDay": 1,
@@ -1569,9 +1543,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEGSO",
         "MapName": "Custom_GrandpasShedOutside",
         "MinimumSpawnsPerDay": 1,
@@ -1624,9 +1596,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Farm",
         "MapName": "Farm",
         "MinimumSpawnsPerDay": 1,
@@ -1679,9 +1649,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.BW",
         "MapName": "Backwoods",
         "MinimumSpawnsPerDay": 1,
@@ -1734,9 +1702,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.M",
         "MapName": "Mountain",
         "MinimumSpawnsPerDay": 1,
@@ -1789,9 +1755,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.F",
         "MapName": "Forest",
         "MinimumSpawnsPerDay": 1,
@@ -1844,9 +1808,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Woods",
         "MapName": "Woods",
         "MinimumSpawnsPerDay": 1,
@@ -1899,9 +1861,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESV",
         "MapName": "EastScarp_Village",
         "MinimumSpawnsPerDay": 1,
@@ -1958,9 +1918,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESDM",
         "MapName": "EastScarp_DeepMountains",
         "MinimumSpawnsPerDay": 1,
@@ -2013,9 +1971,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESO",
         "MapName": "EastScarp_Orchard",
         "MinimumSpawnsPerDay": 1,
@@ -2068,9 +2024,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Town",
         "MapName": "Town",
         "MinimumSpawnsPerDay": 1,
@@ -2123,9 +2077,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEFW",
         "MapName": "Custom_ForestWest",
         "MinimumSpawnsPerDay": 1,
@@ -2178,9 +2130,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEBMV",
         "MapName": "Custom_BlueMoonVineyard",
         "MinimumSpawnsPerDay": 1,
@@ -2233,9 +2183,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEG",
         "MapName": "Custom_Garden",
         "MinimumSpawnsPerDay": 1,
@@ -2288,9 +2236,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVESWB",
         "MapName": "Custom_ShearwaterBridge",
         "MinimumSpawnsPerDay": 1,
@@ -2343,9 +2289,7 @@
         "FallItemIndex": [
           "7thAxis.DitR.CP.Items.VoidLavaSnail"
         ],
-        "WinterItemIndex": [
-          "7thAxis.DitR.CP.Items.VoidLavaSnail"
-        ],
+        "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEGSO",
         "MapName": "Custom_GrandpasShedOutside",
         "MinimumSpawnsPerDay": 1,

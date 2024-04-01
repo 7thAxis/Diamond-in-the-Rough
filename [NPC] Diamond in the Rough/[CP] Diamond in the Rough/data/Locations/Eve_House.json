@@ -6,7 +6,7 @@
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",
             "FromFile": "assets/Maps/Eve_House_Exterior.tmx",
-            "ToArea": { "X": 75, "Y": 87, "Width": 10, "Height": 10 },
+            "ToArea": { "X": 75, "Y": 87, "Width": 12, "Height": 10 },
             "PatchMode": "Replace"
         },
 

@@ -45,11 +45,11 @@
                 "winter_28": "{{i18n:Core.{{TargetWithoutPath}}.Winter.Day.28}}",
 
                 //Birthday Accept
-                "AcceptBirthdayGift_Loved": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Love}}",
-                "AcceptBirthdayGift_Liked": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Like}}",
-                "AcceptBirthdayGift_Disliked": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Dislike}}",
-                "AcceptBirthdayGift_Hated": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Negative}}",
-                "AcceptBirthdayGift_Neutral": "{{i18n:Core.{{TargetWithoutPath}}.BirthdayGift.Neutral}}",
+                "AcceptBirthdayGift_Loved": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Love}}",
+                "AcceptBirthdayGift_Liked": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Like}}",
+                "AcceptBirthdayGift_Disliked": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Dislike}}",
+                "AcceptBirthdayGift_Hated": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Negative}}",
+                "AcceptBirthdayGift_Neutral": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Neutral}}",
 
                 //Not datable
                 "RejectBouquet_NotDatable": "{{i18n:Core.{{TargetWithoutPath}}.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}"

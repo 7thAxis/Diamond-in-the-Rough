@@ -199,9 +199,7 @@
                 "NoBed_3": "{{i18n:Relationship.SenS.NoBed.4}}",
                 "AcceptGift_(O)808": "{{i18n:Gifts.SenS.VoidPendant.Relationship}}",
                 "AcceptGift_(O)874": "{{i18n:Gifts.SenS.BugSteak.Relationship}}",
-                "AcceptBirthdayGift_(O)769": "{{i18n:Gifts.SenS.VoidPendant.Birthday.Relationship}}",
-                "AcceptBirthdayGift_Liked": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}", //pos Birthday
-                "AcceptBirthdayGift_Neutral": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}" //neutral Birthday
+                "AcceptBirthdayGift_(O)769": "{{i18n:Gifts.SenS.VoidPendant.Birthday.Relationship}}"
             },
             "When": { "LivingWithSen": true }           
         },
