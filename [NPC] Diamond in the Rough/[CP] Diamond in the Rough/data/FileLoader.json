@@ -69,7 +69,7 @@
 //---------------------------- ITEM FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json, data/Items/Unlucky_Purple_Shorts.json"
+            "FromFile": "data/Items/Valley_Lily.json, data/Items/Sens_Crocus.json, data/Items/Void_Lava_Snail.json, data/Items/Void_Lava_Snail_Egg.json, data/Items/Void_Lava_Snail_Mayonnaise.json, data/Items/Unlucky_Purple_Shorts.json, data/Items/Expired_Mega_Bomb.json"
         },
 //---------------------------- MONSTER FILES ------------------------------------------//
         {

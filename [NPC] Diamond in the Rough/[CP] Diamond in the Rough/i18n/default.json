@@ -484,6 +484,9 @@
 
 //Conversation Topics
 "Core.EveT.UnlockedFromStartIntroduction": "Oh hey, you're that new farmer ain't ya?$h#$b#I'm Eve, a completely normal and well adjusted adult.$l#$b#Definitely.#$b#I hope to see you around!$8",
+"Core.EveT.UsedExpiredMegaBomb": "So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#What? Yeah I knew you were in my trash, I have a security camera installed.$6#$b#Stay outta my garbage, ya weirdo.$a",
+"Core.EveT.UsedMultipleExpiredMegaBombs": "Caught you on my security camera again. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a",
+
 "Core.EveT.SenMet": "Sigh, sometimes I think about an old friend and her kiddo...$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
 "Core.EveT.DreamReveal": "An old friend of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
 "Core.EveT.ShadowPlay": "Bears around town, huh?$6#$b#Something tells me those weren't bears messing around in the trash...$6#$b#Sigh...$s",
@@ -511,6 +514,8 @@
 "Core.EveT.LucikielArrives": "So you're telling me there's a demon running around Pelican Town now?$6#$b#...Yeah, that seems par for the course for Stardew Valley.$h",
 "Core.EveT.LucikielRepIncrease": "That demon is really proving himself to be a pretty cool guy! I like him!$h#$b#I don't get why everyone was so afraid of him at first.$8",
 "Core.EveT.JulietGremlin": "Awww I heard that Juliet got a new pup!$h#$b#I hope her and my dog can play together.$l#$b#I think that would be enriching for all of us.$h",
+
+
 
 //Waffle
 "Core.WaffleW.Sound.1": "Arf arf!$a",
@@ -1462,6 +1467,7 @@
 "Gifts.EveT.Escargot": "Who in their right mind would want to eat a snail?!$u#$b#I'm not in my right mind and even I wouldn't eat a snail!$u#$b#How about you eat this?$a[729]",
 "Gifts.EveT.SquidInkRavioli": "This uh... This sure is something.$a#$b#You can keep your weird ravioli, thanks.$a[814]",
 "Gifts.EveT.UnluckyPurpleShorts": "Eww?? Why the hell do you think I would want these??$u#$b#I suggest you back off, bub.$a#$b#I won't hesitate to put these on you and yank 'em all the way up your ass cheeks.$a",
+"Gifts.EveT.ExpiredMegaBomb": "...I threw this away ages ago. What are ya doing rummaging around in my trash?$6#$b#Stop being a weirdo, ya weirdo.$a",
 "Gifts.EveT.Trash": "Dude. Seriously?$a",
 
 //Trace
@@ -3037,6 +3043,11 @@
 ██║   ██║   ██╔══╝  ██║╚██╔╝██║╚════██║
 ██║   ██║   ███████╗██║ ╚═╝ ██║███████║
 ╚═╝   ╚═╝   ╚══════╝╚═╝     ╚═╝╚══════╝*/
+
+"Items.ExpiredMegaBomb.Title": "Expired Mega Bomb",
+"Items.ExpiredMegaBomb.Category": "Bomb",
+"Items.ExpiredMegaBomb.Description": "It kind of smells slightly.",
+"Items.ExpiredMegaBomb.HUDMessage": "What did you think would happen?",
 
 "Items.UnluckyPurpleShorts.Title": "Unlucky Purple Shorts",
 "Items.UnluckyPurpleShorts.Description": "Stinky \"shorts\" you found in the sewer.",

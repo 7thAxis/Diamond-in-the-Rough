@@ -67,15 +67,15 @@
         {
             "Action": "EditData",
             "Target": "Data/GarbageCans",
-            "TargetField": [ "GarbageCans" ],
+            "TargetField": [ "GarbageCans" ], 
             "Entries": {
                
                 "7thAxis.DitR.CP.TrashCan.EveT": {
                     "BaseChance": 1.0,
                     "Items": [
-                        {
+                       {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.Bombs",
-                            "Condition": "RANDOM 0.4 @addDailyLuck",
+                            "Condition": "RANDOM 0.1 @addDailyLuck",
                             "RandomItemId": [ 
                                 "(O)286", "(O)288", "(O)287", //Bombs
                                 "(O)893", "(O)894", "(O)895", //Fireworks
@@ -83,6 +83,13 @@
                             ]
                         },
                         {
+                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.StinkyBomb",
+                            "Condition": "RANDOM 0.4 @addDailyLuck",
+                            "RandomItemId": [ 
+                                "(O){{ModID}}.Items.ExpiredMegaBomb"
+                            ]
+                        },
+                       {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.Trash",
                             "RandomItemId": [ "(O)168", "(O)172" ]
                         }
