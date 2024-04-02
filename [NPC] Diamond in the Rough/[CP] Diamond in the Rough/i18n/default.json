@@ -1318,7 +1318,7 @@
 "Core.TraceV.Locations.LostInMountains.GoatPond": "There sure are a lot of goats around here.#$b#Maybe I should just give up on trying to find my way outta here and live amongst the void beasts.$11",
 "Core.TraceV.Locations.LostInMountains.GoatOutlook": "I look out upon the goats! I AM the goat king!$8#$b#Hahahhaa I'm so freaking lost.$h",
 "Core.TraceV.Locations.LostInMountains.LoopAround": "I think I just went in a huge circle...$a#$b#There wasn't a rock when I entered the mountains, right...?$6",
-"Core.TraceV.Locations.LostInMountains.HectorTower.True": "I'm gonna stand here and and play loud music until SOMEBODY comes out and helps me get outta these mountains.$8#$b#My plan is genius, foolproof even.$9",
+"Core.TraceV.Locations.LostInMountains.HectorTower.True": "I'm gonna stand here and play loud music until SOMEBODY comes out and helps me get outta these mountains.$8#$b#My plan is genius, foolproof even.$9",
 "Core.TraceV.Locations.LostInMountains.HectorTower.False": "I'm so loooost, losty losty loooost~$l#$b#Like my song? It's about how lost I am.$a",
 "Core.TraceV.Locations.LostInMountains.EvynSign": "Jokes on this sign, I can't read!$h#$b#Well, I can... just not well. Do letters get all jumbled up for you too, @?$s#$b#Wait you mean the sign is already basically illegible?$6#$b#Hm... This conversation isn't leading me out of the mountains.$a#$b#Sorry, @. I need to focus.$6",
 "Core.TraceV.Locations.LostInMountains.Skull": "I don't remember dead things when I came into the mountain, nor a threatening cave opening.$u#$b#I should proooobably turn back.$6",
@@ -1577,7 +1577,7 @@
 "Gifts.JeremyTS.VoidLavaSnail.Remark.True": "Ah, if it isn't little {{SnailName}}...$1#$b#I will make sure they stay out of any further trouble. Thank you.$2#$b#Take this young flora for your troubles.", 
 "Gifts.JeremyTS.VoidLavaSnail.Remark.False": "%Jeremy lets out a long parental sigh, accepting the little wriggling snail.#$b#%As thanks, Jeremy offers you an item.",
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.True": "...!$1#$b#My my, now this coloration of my kin is incredibly rare.$1#$b#The mutation also makes one quite vulnerable to disease...$2#$b#Thank you for bringing them to me, I shall keep them safe.$1#$b#Here is a rare seedling for your troubles.", 
-"Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.False": "%...!#$b#%Jeremy scoops up the strange shiny snail protectively. They seem pleased.#$b#As a reward, Jeremy gives you a rare item.",
+"Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.False": "%...!#$b#%Jeremy scoops up the strange shiny snail protectively. They seem pleased.#$b#%As a reward, Jeremy gives you a rare item.",
 
 "Gifts.JeremyTS.UnluckyPurpleShorts": "...$2#$b#%Jeremy silently judges you with mild disgust.",
 

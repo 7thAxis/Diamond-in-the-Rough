@@ -12,7 +12,7 @@
                 
                 playful/
                 79 97/
-                farmer -2000 -2000 1 EveT 80 94 2 WaffleW -2000 -2000 2 PipoP 80 96 0 Mateo? 94 111 2 Beatrice? 71 120 2 Nova.Dylan? 43 129 3 RodneyOBrien? 35 98 1 MadDog.HashtagBearFam.Gudrun? 54 84 2 MadDog.HashtagBearFam.Gunnar? 56 84 2 MadDog.HashtagBearFam.Sondra? 55 84 2/
+                farmer -2000 -2000 1 EveT 79 94 2 WaffleW -2000 -2000 2 PipoP 79 96 0 Mateo? 94 111 2 Beatrice? 71 120 2 Nova.Dylan? 43 129 3 RodneyOBrien? 35 98 1 MadDog.HashtagBearFam.Gudrun? 54 84 2 MadDog.HashtagBearFam.Gunnar? 56 84 2 MadDog.HashtagBearFam.Sondra? 55 84 2/
 
                 animate Nova.Dylan? false true 75 38 38 38 38 38 38 38 38 38 38 38 38 38 38 37 37 37 36 37 36 37 36 37 36 37 36 37 36 37 36 37 36 38 38 38 38 38 38 38 38 37 36 37 36 37 36 37 36 37 36/
                 showFrame MadDog.HashtagBearFam.Gudrun? 16/
@@ -27,16 +27,16 @@
                 ignoreCollisions farmer/
                 pause 700/
 
-                    advancedMove EveT false 0 1 2 200/
+                    advancedMove PipoP false 0 -1 4 200/
                 speak EveT \"{{i18n:Events.EveT.2h.1.PipoShorts.{{PipoShorts}}}}\"/
                     pause 300/
                     playSound {{ModID}}.SFX.PipoMeow/
                     emote PipoP 20 true/
                     jump PipoP/
                     pause 1000/
-                    advancedMove EveT false -2 0 0 -2 4 200/
+                    advancedMove EveT false -2 0 0 -1 4 200/
                     pause 500/
-                    advancedMove PipoP false 0 -2 -2 0 4 200/
+                    advancedMove PipoP false 0 -1 -2 0 4 200/
                     pause 1500/
                     emote EveT 8/
                     faceDirection EveT 2/
@@ -48,7 +48,7 @@
                     pause 800/
                     playSound doorClose/
                     pause 600/
-                    warp WaffleW 80 94/
+                    warp WaffleW 79 94/
                     pause 100/
                     faceDirection PipoP 1/
                     pause 100/
@@ -65,14 +65,14 @@
                     speed WaffleW 3/
                     speed PipoP 3/
                     speed EveT 3/
-                    advancedMove WaffleW false -7 0 0 -5 4 200/
+                    advancedMove WaffleW false -6 0 0 -5 4 200/
                     pause 200/
-                    advancedMove PipoP false -5 0 0 -5 4 200/
+                    advancedMove PipoP false -4 0 0 -7 4 200/
                     pause 800/
                     jump EveT/
                 textAboveHead EveT \"{{i18n:Events.EveT.2h.3}}\"/
                     pause 600/
-                    advancedMove EveT false -5 0 0 -5 4 200/
+                    advancedMove EveT false -4 0 0 -7 4 200/
                     pause 1000/
                     fade/
                     viewport -1000 -1000/

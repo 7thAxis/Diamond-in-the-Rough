@@ -34,7 +34,7 @@
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
-            "AddWarps": [ "6 11 EastScarp_Village 80 94" ],
+            "AddWarps": [ "6 11 EastScarp_Village 79 94" ],
             "MapTiles": [
                 {
                     "Position": { "X": 10, "Y": 4 },
@@ -51,7 +51,7 @@
             "Target": "Maps/EastScarp_Village",
             "MapTiles": [
                 {
-                    "Position": { "X": 80, "Y": 93 },
+                    "Position": { "X": 79, "Y": 93 },
                     "Layer": "Buildings",
                     "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.Eve_House_Interior" }
                 }
