@@ -50,13 +50,13 @@
                     "Appearance": [
                         {
                             "ID": "Birthday",
-                            "Condition": "SEASON_DAY winter 13, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"! PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
+                            "Condition": "SEASON_DAY winter 13, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"!PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
                             "Portrait": "{{InternalAssetKey: assets/Portraits/Sen/Sen_Bow.png}}",
                             "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Bow.png}}"
                         },
                         {
                             "ID": "Night Market",
-                            "Condition": "SEASON_DAY winter 15 winter 16 winter 17, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"! PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
+                            "Condition": "SEASON_DAY winter 15 winter 16 winter 17, ANY \"!PLAYER_NPC_RELATIONSHIP Any SenS Roommate\" \"!PLAYER_NPC_RELATIONSHIP Any SenS Married\"",
                             "Portrait": "{{InternalAssetKey: assets/Portraits/Sen/Sen_Cloak.png}}",
                             "Sprite": "{{InternalAssetKey: assets/Characters/Sen/Sen_Cloak.png}}"
                         },

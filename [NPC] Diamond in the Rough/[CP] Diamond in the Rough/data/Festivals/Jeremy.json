@@ -184,7 +184,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
-                    "Value": "JeremyTSnail 27 104 3",
+                    "Value": "JeremyTSnail 26 104 3",
                     "Delimiter": "/"
                 },
                 {

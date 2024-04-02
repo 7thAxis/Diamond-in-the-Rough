@@ -1,16 +1,16 @@
 {
     "Changes": [
 
-//EXTERIOR
+//---------------------------- EXTERIOR LOAD ------------------------------------------//   
         {
             "Action": "EditMap",
             "Target": "Maps/EastScarp_Village",
             "FromFile": "assets/Maps/Eve_House_Exterior.tmx",
-            "ToArea": { "X": 75, "Y": 87, "Width": 12, "Height": 10 },
+            "ToArea": { "X": 74, "Y": 85, "Width": 13, "Height": 12 },
             "PatchMode": "Replace"
         },
 
-//INTERIOR        
+//---------------------------- INTERIOR LOAD ------------------------------------------//          
         {
 			"Action": "Load",
 			"Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
@@ -30,21 +30,11 @@
 				}
 			}
 		},
-    //Warps
+//---------------------------- WARPS ------------------------------------------//   
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
-            "AddWarps": [ "6 11 EastScarp_Village 79 94" ],
-            "MapTiles": [
-                {
-                    "Position": { "X": 10, "Y": 4 },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}.Images/Drawer_Photo.1",
-                        "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
-                    }
-                }
-            ]
+            "AddWarps": [ "6 11 EastScarp_Village 79 94" ]
         },
         {
             "Action": "EditMap",
@@ -57,13 +47,66 @@
                 }
             ]
         },
+//---------------------------- SPECIAL TILES ------------------------------------------//
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+            "MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 4 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}.Images/Drawer_Photo.1",
+                        "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
+                    }
+                }
+            ]
+        },
+//---------------------------- GARBAGE CAN ------------------------------------------//
+   
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+               
+                "7thAxis.DitR.CP.TrashCan.EveT": {
+                    "BaseChance": 1.0,
+                    "Items": [
+                        {
+                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.Bombs",
+                            "Condition": "RANDOM 0.4 @addDailyLuck",
+                            "RandomItemId": [ 
+                                "(O)286", "(O)288", "(O)287", //Bombs
+                                "(O)893", "(O)894", "(O)895", //Fireworks
+                                "(O)441" //Explosive Ammo
+                            ]
+                        },
+                        {
+                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.Trash",
+                            "RandomItemId": [ "(O)168", "(O)172" ]
+                        }
+                    ],
+                    "CustomFields": {}
+                }
+            }
+        },
+//---------------------------- MAP STRINGS ------------------------------------------//   
         {
             "LogName": "Eve Map Strings",
             "Action": "EditData",
             "Target": "strings/StringsFromMaps",
             "Entries": {
 
-                //EVE STRINGS
+                //Outside
+                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}",
+                "EveTHPlanter1": "{{i18n:Maps.EveT.EveTHPlanter1}}",
+                "EveTHPlanter2": "{{i18n:Maps.EveT.EveTHPlanter2}}",
+                "EveTHPlanter3": "{{i18n:Maps.EveT.EveTHPlanter3}}",
+                "EveTHFirePit": "{{i18n:Maps.EveT.EveTHFirePit}}",
+                "EveTHMailBox": "{{i18n:Maps.EveT.EveTHMailBox|MailPerson={{i18n:Maps.EveT.EveTHMailBox.Ayeisha.{{HasMod: |contains=TheLimeyDragon.Ayeisha}}}}}}",
+
+                //Inside                
                 "EveTHSink": "{{i18n:Maps.EveT.EveTHSink}}",
                 "EveTHFridge": "{{i18n:Maps.EveT.EveTHFridge}}",
                 "EveTHStove": "{{i18n:Maps.EveT.EveTHStove}}",
@@ -78,9 +121,7 @@
                 "EveTHFlower": "{{i18n:Maps.EveT.EveTHFlower}}",
                 "EveTHTable": "{{i18n:Maps.EveT.EveTHTable}}",
                 "EveTHCactus": "{{i18n:Maps.EveT.EveTHCactus}}",
-                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}",
-                "EveTHPipoFood": "{{i18n:Maps.EveT.EveTHPipoFood}}"
-
+                "EveTHGems": "{{i18n:Maps.EveT.EveTHGems}}"
             }
         }
     ]

@@ -1229,7 +1229,7 @@
 "Core.TraceV.EarlyHeart.41": "I love orange juice. Especially with pulp.$h#$b#If you're a pulp hater, you have to leave my life immediately.$a#$b#Sorry, not sorry.$l",
 "Core.TraceV.EarlyHeart.42": "Sometimes you get horribly lost in the wilderness and that's okay.#$b#Just make sure you find your way back to civilization and don't die!$h#$e#Yeah, I know. Easier said than done. Can confirm from experience.$6",
 "Core.TraceV.EarlyHeart.43": "Eloise is too smart for a kid her age. I suspect there's some cover-up going on and she's actually a bird alien living amongst humanity.$6#$b#At least the bird aliens come in peace.#$e#What? Don't give me the \"what are you even going on about\" face.$a",
-"Core.TraceV.EarlyHeart.44": "",
+"Core.TraceV.EarlyHeart.44": "Why do we call it putting gas in a car? It ain't gas, it's oil.$6#$b#Though we do put oil in cars, it' just a different kinda oil...$6#$b#Ya know what? This is way too confusing for me.$h#$e#It ain't like I'm allowed to drive anyway, so it don't really matter!$h",
 "Core.TraceV.EarlyHeart.45": "",
 
 "Core.TraceV.LateHeart.1": "Sometimes, the couch eats your TV remote.$6#$b#There's nothing you can do except sink into the couch after it and pray you don't get eaten by the couch goblins.$a$s#$e#What, you don't know about the couch goblins?$9#$b#Talk about living under a rock, buddy.$8",
@@ -2199,6 +2199,18 @@
 "Maps.CalderaGoldenLavaSnail.Pet": "The magestic golden snail wonders how you reached them...",
 
     //----EVE----//
+//Outside
+"Maps.EveT.EveTHPipoFood": "A fresh bowl of food left out for the cats of East Scarp.",
+"Maps.EveT.EveTHPlanter1": "You find a note wedged in the planter.#\"As you observe the plant you wonder how you got to this point in your life.\"#\"Of the thousands of things you could be doing, you're chosing to stand in a random person's back yard, staring at their plant.\"#\"Are you content with your choice?\"#\"I'm just messing with you. Enjoy your plant staring, ya weirdo.\" - Eve",
+"Maps.EveT.EveTHPlanter2": "There's going to be a planter here but there isn't yet. Sorry. Thanks for clicking!",
+"Maps.EveT.EveTHPlanter3": "Tis a seasonal bush, doing seasonal bush things.#Best not to interupt the seasonal bush things.",
+"Maps.EveT.EveTHFirePit": "This pit is meant for arson. Or roasting marshmallows. One or the other.",
+"Maps.EveT.EveTHMailBox": "You open the mailbox and find a note taped the side: \"This is the abode of Evening Tourmaline.\"#\"If you're not {{MailPerson}} get the hell out of my mailbox.\"",
+"Maps.EveT.EveTHMailBox.Ayeisha.True": "Ayeisha",
+"Maps.EveT.EveTHMailBox.Ayeisha.False": "the mailman",
+
+
+//Inside
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
 "Maps.EveT.EveTHFridge": "The fridge is full of fresh vegetables.",
 "Maps.EveT.EveTHStove": "The stove is squeaky clean... for now!",
@@ -2215,7 +2227,6 @@
 "Maps.EveT.EveTHTable": "The table has chew marks from Waffle on it.",
 "Maps.EveT.EveTHCactus": "Better not touch the cactus. That'll hurt.",
 "Maps.EveT.EveTHGems": "A pile of hoarded green gems from Eve's mining trips.",
-"Maps.EveT.EveTHPipoFood": "A bowl of food left out for the cats of East Scarp.",
 
     //----SEN----//
 //Bedroom
