@@ -47,7 +47,7 @@
         "Target": "spacechase0.SpaceCore/ObjectExtensionData",
         "Entries": { 
             "{{ModID}}.Items.VoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" },
-            "{{ModID}}.Items.GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" }
+            "{{ModID}}.Items.GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}", "CanBeTrashed": false }
          }
     },
 //---------------------------- HAT VARIANT DATA ------------------------------------------// 
