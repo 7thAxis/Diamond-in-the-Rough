@@ -5,7 +5,7 @@
   "Description": "Diamond in the Rough SMAPI component.",
   "UniqueID": "7thAxis.DitR.SMAPI",
   "EntryDll": "Diamond in the Rough.dll",
-  "UpdateKeys": [ "" ],
+  "UpdateKeys": [ "???" ],
   "Dependencies": [
     {
       "UniqueID": "Pathoschild.ContentPatcher",

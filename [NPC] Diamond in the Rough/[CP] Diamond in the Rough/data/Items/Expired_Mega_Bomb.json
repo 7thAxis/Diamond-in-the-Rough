@@ -42,7 +42,7 @@
                 "Actions": [ 
                     "spacechase0.SpaceCore_DamageCurrentFarmer -1", "AddConversationTopic DitR_CT_UsedExpiredMegaBomb 3", 
                     "RemoveItem {{ModID}}.Items.ExpiredMegaBomb 1", "spacechase0.SpaceCore_PlaySound explosion true",
-                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\"", 
+                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\" (O){{ModID}}.Items.ExpiredMegaBomb", 
                     "IncrementStat ExpiredMegaBombsUsed 1"
                 ],
                 "MarkActionApplied": false,

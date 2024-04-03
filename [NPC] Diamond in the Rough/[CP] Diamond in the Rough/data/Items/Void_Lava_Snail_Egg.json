@@ -20,13 +20,24 @@
                     "ContextTags": [ "color_red", "color_black", "egg_item", "large_egg_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 7
-                }               
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
+                },
+                "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg": {
+                    "Name": "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg",
+                    "DisplayName": "{{i18n:Items.VoidLavaSnailEgg.Title}}",
+                    "Description": "{{i18n:Items.QuestRewardVoidLavaSnailEgg.Description}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Edibility": -300,
+                    "Buff": null,
+                    "IsDrink": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [ "color_red", "color_black" ],
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 7
+                },
+
                 "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {
                     "Name": "{{ModID}}.Items.GoldenVoidLavaSnailEgg",
                     "DisplayName": "{{i18n:Items.GoldenVoidLavaSnailEgg.Title}}",
@@ -42,9 +53,27 @@
                     "ContextTags": [ "color_gold", "egg_item", "large_egg_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 10
-                }               
+                }                            
             }
         },
+        //---------------------------- SPACECORE DATA ------------------------------------------// 
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": { 
+                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": { "CanBeTrashed": false },
+                "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg": { 
+
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false,
+
+                    "GiftableToNpcAllowList": { "JeremyTSnail": true },
+
+                    "GiftedToNotOnAllowListMessage": "{{i18n:Items.QuestRewardVoidLavaSnailEgg.Ungiftable}}",
+                    "CategoryTextOverride": "{{i18n:Items.QuestRewardVoidLavaSnailEgg.Category}}"
+                }
+            }
+        },        
         //---------------------------- FISHING DATA ------------------------------------------// 
         {
             "LogName": "Void Lava Snail Egg Fishing - Caldera",

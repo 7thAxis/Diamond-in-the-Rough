@@ -15,7 +15,7 @@
                     "SellPrice": 12000,
                     "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
-                    "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg" ],
+                    "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg", "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg" ],
                     "IncubationTime": 4500,
                     "IncubatorParentSheetOffset": 1,
                     "BirthText": "{{i18n:Core.Animals.GiantVoidLavaSnail.Birth}}",

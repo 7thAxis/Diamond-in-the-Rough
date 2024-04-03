@@ -45,6 +45,11 @@
         {
             "Action": "Load",
             "Target": "Buildings/DitR_Animal_Tree_House",
+            "FromFile": "assets/Tilesheets/Buildings/spring_DitR_Animal_Tree_House.png"
+        },
+        {
+            "Action":"EditImage",
+            "Target":"Buildings/DitR_Animal_Tree_House",
             "FromFile": "assets/Tilesheets/Buildings/{{Season}}_DitR_Animal_Tree_House.png"
         },
         {

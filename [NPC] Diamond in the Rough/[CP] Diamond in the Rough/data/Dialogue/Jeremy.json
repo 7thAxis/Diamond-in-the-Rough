@@ -6,7 +6,8 @@
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.JeremyTS.PreForestMagic.{{Random:{{Range: 1, 2}}}}}}#{{SFX.SnailCry}}"
-            }
+            },
+            "When": { "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": false } 
         }, 
         {
             "LogName": "Jeremy Dialogue Pool Post-Wizard Event",
@@ -15,7 +16,7 @@
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 7}}}}}}#{{SFX.SnailCry}}"
             },
-            "When": { "HasSeenEvent: |contains=112": true } 
+            "When": { "HasSeenEvent: |contains=112": true, "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": false } 
         },
         {
             "LogName": "Jeremy Dialogue Pool Post Wizard Rainy Day",
@@ -24,7 +25,7 @@
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.JeremyTS.Rainy.{{Random:{{Range: 1, 1}}}}}}#{{SFX.SnailCry}}"
             },
-            "When": { "HasSeenEvent: |contains=112": true, "Weather": "Rain, Storm" } 
+            "When": { "HasSeenEvent: |contains=112": true, "Weather": "Rain, Storm", "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": false } 
         }, 
         {
             "LogName": "Jeremy General Dialogue",
@@ -32,7 +33,16 @@
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": {
 
-                "DitR_CT_JeremyIntroduction": "{{i18n:Core.JeremyTS.Introduction}}"
+                "DitR_CT_JeremyIntroduction": "{{i18n:Core.JeremyTS.Introduction}}#{{SFX.SnailCry}}",
+
+                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.JeremyTS.VoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}|SnailName={{i18n:Rand.JeremyTS.SnailName.{{Random:{{Range: 1, 20}}}}}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.{{Season}}}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1",
+
+                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.RareItem}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
+
+                "RejectItem_(O){{ModID}}.Items.QuestRewardVoidLavaSnailEgg": "{{i18n:Gifts.JeremyTS.QuestRewardVoidLavaSnailEgg}}#{{SFX.SnailCry}}",
+
+                "RejectItem_(O){{ModID}}.Items.ExpiredMegaBomb": "{{i18n:Gifts.JeremyTS.ExpiredMegaBomb.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}",
+                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.JeremyTS.UnluckyPurpleShorts}}#{{SFX.SnailCry}}}"
 
                /* "spring_1": "{{i18n:Core.JeremyTS.Spring.Day.1}}",
                 "spring_12": "{{i18n:Core.JeremyTS.Spring.Day.12}}",
@@ -52,22 +62,27 @@
                 "winter_28": "{{i18n:Core.JeremyTS.Winter.Day.28}}"*/
 
             },
-            "When": { "HasSeenEvent: |contains=112": true }       
+            "When": { "HasSeenEvent: |contains=112": true, "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": false }       
         },
         {
-            "LogName": "Jeremy Void Lava Snail Gifting",
+            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
-            "Entries": {
-
-                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.JeremyTS.VoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}|SnailName={{i18n:Rand.JeremyTS.SnailName.{{Random:{{Range: 1, 20}}}}}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.{{Season}}}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1",
-
-                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.RareItem}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
-
-                "RejectItem_(O){{ModID}}.Items.ExpiredMegaBomb": "{{i18n:Gifts.JeremyTS.ExpiredMegaBomb.{{HasSeenEvent: |contains=112}}}}",
-                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.JeremyTS.UnluckyPurpleShorts}}"
-
-            }  
+            "Entries": 	{ 
+                "AcceptGift_(O){{ModId}}.Items.VoidLavaSnailMayonnaiseBetrayal": "{{i18n:Gifts.JeremyTS.VoidLavaSnailMayonnaiseBetrayal}}#{{SFX.SnailCry}}#$action AddMail Current DitR_M_JeremyBetrayed received#$action AddConversationTopic DitR_M_JeremyBetrayed 3#$action AddFriendshipPoints JeremyTSnail -1000",
+                "DitR_M_JeremyBetrayed": "{{i18n:Core.JeremyTS.JeremyBetrayed}}"
+            }
+        },
+        {
+            "LogName": "Jeremy Dialogue Betrayal",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JeremyTSnail",
+            "Entries": 	{ 
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.JeremyBetrayed}}",
+                "DitR_M_JeremyBetrayed": "{{i18n:Core.JeremyTS.JeremyBetrayed}}",
+                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Core.JeremyTS.JeremyBetrayed}}"
+            },
+            "When": { "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": true } 
         }
     ]
 }

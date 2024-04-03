@@ -1382,6 +1382,7 @@
 "Core.JeremyTS.Rainy.1": "It appears to be raining today. When it rains, it pours. That is a peculiar phrase you humans use. Does it not state the obvious?",
 
 "Core.JeremyTS.Introduction": "Hmm... I sense something odd about you. Something... foresty.#$b#Are you able to hear me, human?$2#$b#...#$b#Based on your expression, I will assume that you can.$1#$b#Hello, I am Jeremy T. Snail, the resident mullosk of Trace's abode.$2#$b#I feel we shall get along quite well.$1",
+"Core.JeremyTS.JeremyBetrayed": "...$2",
 
 "Core.JeremyTS.Spring.Day.1": "sd1",
 "Core.JeremyTS.Spring.Day.12": "sd12", // Day before the Egg Festival
@@ -1586,16 +1587,21 @@
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.True": "...!$1#$b#My my, now this coloration of my kin is incredibly rare.$1#$b#The mutation also makes one quite vulnerable to disease...$2#$b#Thank you for bringing them to me, I shall keep them safe.$1#$b#Here is a rare seedling for your troubles.", 
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.False": "%...!#$b#%Jeremy scoops up the strange shiny snail protectively. They seem pleased.#$b#%As a reward, Jeremy gives you a rare item.",
 
-"Gifts.JeremyTS.UnluckyPurpleShorts": "...$2#$b#%Jeremy silently judges you with mild disgust.",
-"Gifts.JeremyTS.ExpiredMegaBomb.True": "...Pray tell, how do explosives \"expire\" like a vegetable?#$b#Absolutely absurd.$2",
-"Gifts.JeremyTS.ExpiredMegaBomb.False": "%Jeremy seems disinterested in the utterly rancid explosive device.",
-
 //Do not translate, this is code 
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Spring": "[429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds 429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds (O)MixedFlowerSeeds 885 770 495 (O)MixedFlowerSeeds 885 770 495 251 629 628 (O)MysticTreeSeed 114 347 166]",
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Summer": "[481 487 302 482 453 484 485 486 455 431 480 483 802 833 831 (O)SummerSquashSeeds 481 487 302 482 453 484 485 486 455 431 480 483 802 833 831 (O)SummerSquashSeeds (O)MixedFlowerSeeds 885 770 496 (O)MixedFlowerSeeds 885 770 496 251 69 630 631 835 (O)MysticTreeSeed 114 347 166]",
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Fall": "[487 431 483 299 489 494 491 492 493 488 425 490 (O)BroccoliSeeds 487 431 483 299 489 494 491 492 493 488 425 490 (O)BroccoliSeeds (O)MixedFlowerSeeds 885 770 497 (O)MixedFlowerSeeds 885 770 497 251 633 632 (O)MysticTreeSeed 114 347 166]",
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Winter": "[(O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds (O)PowdermelonSeeds MixedFlowerSeeds 885 770 498 MixedFlowerSeeds 885 770 498 251 (O)MixedFlowerSeeds 885 770 498 (O)MixedFlowerSeeds 885 770 498 251 (O)MixedFlowerSeeds 885 770 498 (O)MixedFlowerSeeds 885 770 498 251 (O)MysticTreeSeed 114 347 166]",
 "Gifts.JeremyTS.VoidLavaSnail.Trade.RareItem": "[(O)MysticTreeSeed 114 347 166]",
+
+
+"Gifts.JeremyTS.QuestRewardVoidLavaSnailEgg": "Now now, @. No need to return this little one.#$b#I trust them entirely with your care!$1",
+"Gifts.JeremyTS.VoidLavaSnailMayonnaiseBetrayal": "...#$b#...How? How could you?$3#$b#Begone, @. Begone.$2#$b#I do not wish to see you any further right now...$2",
+
+"Gifts.JeremyTS.UnluckyPurpleShorts": "...$2#$b#%Jeremy silently judges you with mild disgust.",
+"Gifts.JeremyTS.ExpiredMegaBomb.True": "...Pray tell, how do explosives \"expire\" like a vegetable?#$b#Absolutely absurd.$2",
+"Gifts.JeremyTS.ExpiredMegaBomb.False": "%Jeremy seems disinterested in the utterly rancid explosive device.",
+
 
 //Waffle
 "Gifts.WaffleW.Like": "Boofwoof!",
@@ -2414,7 +2420,7 @@
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.2": "Hello, ^^Do not question my capability to write.^^Move along and accept my reward for your assistance in bringing my kin home.  ^^   -J.T.S %item object 769 20 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.3": "Hello, ^^My home is starting to become a tad crowded. I suppose that is fine. I quite enjoy the chatter... ^^Anyhow, here is a reward. ^^   -J.T.S %item object 633 1 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.4": "Hello, ^^I have quite the large family now. Based on the last headcount, it is about 80 snails wide. ^^Now if only they would all behave...^^I have no idea where they found all this gold...^^   -J.T.S %item money 10000 %%",
-"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP.Items.VoidLavaSnailEgg 1 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP.Items.QuestRewardVoidLavaSnailEgg 1 %%",
 
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
@@ -2695,7 +2701,7 @@
 "Townie.Dwarf.SensFlowers": "The lurking Shadow seldom comes to this place anymore.#$b#What became of him, I wonder?",
 
 //Wizard
-"Townie.Wizard.SenMet": "I've foreseen that you'd an unlikely ally in the mines. Treat him well.",
+"Townie.Wizard.SenMet": "I've foreseen that you'd meet an unlikely ally in the mines. Treat him well.",
 "Townie.Wizard.DreamReveal": "The Shadow you've befriended is quite peculiar, is he not?",
 "Townie.Wizard.ShadowPlay": "I am sure you know as well as I do that no bears were rummaging in the trash last night.",
 "Townie.Wizard.GardenWaitTime": "With the right magical attributes certain plants can grow in the darkness of the underworld.",
@@ -3073,8 +3079,17 @@
 "Items.VoidLavaSnailEgg.Title": "Void Lava Snail Egg",
 "Items.VoidLavaSnailEgg.Description": "Will you turn it into mayonnaise, or nurture it into a strong healthy snail? The choice is yours.",
 
+"Items.QuestRewardVoidLavaSnailEgg.Description": "A reward from Jeremy! Must be hatched in an Animal Tree House, purchasable from Robin. (Please do not turn into mayonnaise...)",
+"Items.QuestRewardVoidLavaSnailEgg.Category": "Quest Reward",
+"Items.QuestRewardVoidLavaSnailEgg.Ungiftable": "%This egg is from Jeremy! I shouldn't just give it away...",
+
 "Items.VoidLavaSnailMayonnaise.Title": "Void Lava Snail Mayonnaise",
 "Items.VoidLavaSnailMayonnaise.Description": "How could you?",
+
+"Items.VoidLavaSnailMayonnaiseBetrayal.Description": "...May as well show Jeremy what you did. Face the consequences of your actions.",
+"Items.VoidLavaSnailMayonnaiseBetrayal.Category": "Mayonnaise",
+"Items.VoidLavaSnailMayonnaiseBetrayal.Ungiftable": "%Show this to Jeremy instead. Face the consequences of your actions.",
+"Items.VoidLavaSnailMayonnaiseBetrayal.HUDMessage": "Somewhere, Jeremy's heart breaks...",
 
 "Items.GoldenVoidLavaSnail.Title": "Golden Void Lava Snail",
 "Items.GoldenVoidLavaSnail.Description": "Oooh... So shiny!",
