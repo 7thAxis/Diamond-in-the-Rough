@@ -79,8 +79,21 @@
                 }
             ]
         },
-//---------------------------- CONDITIONAL MAP TILES ------------------------------------------// 
-
+//---------------------------- SPECIAL MAP TILES ------------------------------------------// 
+    //Festive lights
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "MapProperties", "Light" ],
+                    "Value": "2 81 1 3 81 1 2 80 1 3 80 1 4 80 1 5 80 1 4 79 1 5 79 1 7 80 1 7 79 1",
+                    "Delimiter": " "
+                }
+            ],
+            "When": { "Season |contains=Winter": true }
+        },
     //Trace given moon rose
         {
             "Action": "EditMap",
@@ -167,7 +180,53 @@
             ],
             "When": { "Hearts:TraceV": "{{Range: 4, 10}}" }
         },
-    
+//---------------------------- GARBAGE CAN ------------------------------------------//
+{
+    "Action": "EditData",
+    "Target": "Data/GarbageCans",
+    "TargetField": [ "GarbageCans" ], 
+    "Entries": {
+       
+        "7thAxis.DitR.CP.TrashCan.TraceV": {
+            "BaseChance": 1.0,
+            "Items": [
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
+                    "Condition": "RANDOM 0.0005 @addDailyLuck",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnail",
+                    "Condition": "RANDOM 0.001 @addDailyLuck",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnail" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailBuddy",
+                    "Condition": "RANDOM 0.01 @addDailyLuck",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(H){{ModID}}.Hats.VoidLavaSnailBuddy" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.Snackies",
+                    "Condition": "RANDOM 0.1 @addDailyLuck",
+                    "RandomItemId": [ "(O)611", "(O)212" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnail",
+                    "Condition": "RANDOM 0.3 @addDailyLuck",
+                    "RandomItemId": [ "(O){{ModID}}.Items.VoidLavaSnail" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.TrashBerry",
+                    "RandomItemId": [ "(O)168", "(O)172", "(O)410" ]
+                }
+            ],
+            "CustomFields": {}
+        }
+    }
+},  
 //---------------------------- MAP STRINGS ------------------------------------------// 
         {
             "LogName": "Trace Map Strings",
@@ -175,7 +234,11 @@
             "Target": "strings/StringsFromMaps",
             "Entries": {
 
-            //TRACE STRINGS
+                //Outside
+                "TraceVHPlanter1": "{{i18n:Maps.TraceV.TraceVHPlanter1}}",
+                "TraceVHPlanter2": "{{i18n:Maps.TraceV.TraceVHPlanter2}}",
+                "TraceVHOwlStatue": "{{i18n:Maps.TraceV.TraceVHOwlStatue}}",
+                "TraceVHMailBox": "{{i18n:Maps.TraceV.TraceVHMailBox|MailPersonT={{i18n:Maps.TraceV.TraceVHMailBox.Ayeisha.{{HasMod: |contains=TheLimeyDragon.Ayeisha}}}}}}",
 
                 //Bedroom
                 "TraceVHBed": "{{i18n:Maps.TraceV.TraceVHBed}}",

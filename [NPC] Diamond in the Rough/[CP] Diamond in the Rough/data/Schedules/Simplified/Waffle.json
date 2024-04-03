@@ -50,10 +50,10 @@
 					610 7 4 wafflew_lay/
 					700 6 4 wafflew_sitleft/
 					900 SeedShop 13 23 wafflew_sitleft/
-					1400 2 19 wafflew_sitright/
-					1500 Town 79 58 wafflew_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep
+					1500 2 19 wafflew_sitright/
+					1600 Town 79 58 wafflew_lay/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2200 7 4 wafflew_sleep
 				",
 				"Sat": "
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/

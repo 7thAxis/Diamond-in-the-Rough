@@ -64,6 +64,7 @@
 
                 "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.{{HasSeenEvent: |contains=112}}}}{{i18n:Gifts.JeremyTS.VoidLavaSnail.Trade.RareItem}}#{{SFX.SnailCry}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
 
+                "RejectItem_(O){{ModID}}.Items.ExpiredMegaBomb": "{{i18n:Gifts.JeremyTS.ExpiredMegaBomb.{{HasSeenEvent: |contains=112}}}}",
                 "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.JeremyTS.UnluckyPurpleShorts}}"
 
             }  

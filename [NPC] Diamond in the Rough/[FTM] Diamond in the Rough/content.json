@@ -111,7 +111,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -166,7 +166,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -221,7 +221,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -276,7 +276,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -331,7 +331,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -390,7 +390,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -445,7 +445,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -500,7 +500,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -555,7 +555,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -610,7 +610,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -665,7 +665,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -720,7 +720,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -775,7 +775,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -830,7 +830,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasSeenEvent": "7thAxis.DitR.CP.Events.SenS.14h"
@@ -883,7 +883,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -891,7 +891,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -907,7 +907,7 @@
         "UniqueAreaID": "DitR.VLS.BW",
         "MapName": "Backwoods",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -936,7 +936,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.6"
+            "RANDOM 0.4"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -944,7 +944,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -989,7 +989,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -997,7 +997,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1042,7 +1042,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.6"
+            "RANDOM 0.4"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1050,7 +1050,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1095,7 +1095,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.6"
+            "RANDOM 0.4"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1103,7 +1103,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1152,7 +1152,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1160,7 +1160,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1205,7 +1205,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.8"
+            "RANDOM 0.6"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1213,7 +1213,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1258,7 +1258,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1266,7 +1266,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1311,7 +1311,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1319,7 +1319,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1364,7 +1364,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.8"
+            "RANDOM 0.6"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1372,7 +1372,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1417,7 +1417,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1425,7 +1425,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1470,7 +1470,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1478,7 +1478,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1523,7 +1523,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1531,7 +1531,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1576,7 +1576,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "false"
@@ -1584,7 +1584,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1629,7 +1629,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1637,7 +1637,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1653,7 +1653,7 @@
         "UniqueAreaID": "DitR.VLSR.BW",
         "MapName": "Backwoods",
         "MinimumSpawnsPerDay": 1,
-        "MaximumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [
           "Grass"
         ],
@@ -1682,7 +1682,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.1"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1690,7 +1690,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1735,7 +1735,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1743,7 +1743,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1788,7 +1788,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.1"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1796,7 +1796,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1841,7 +1841,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.1"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1849,7 +1849,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1898,7 +1898,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1906,7 +1906,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -1951,7 +1951,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.2"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -1959,7 +1959,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2004,7 +2004,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2012,7 +2012,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2057,7 +2057,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2065,7 +2065,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2110,7 +2110,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.3"
+            "RANDOM 0.1"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2118,7 +2118,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2163,7 +2163,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2171,7 +2171,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2216,7 +2216,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2224,7 +2224,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2269,7 +2269,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2277,7 +2277,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [
@@ -2322,7 +2322,7 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [
-            "RANDOM 0.1"
+            "RANDOM 0.05"
           ],
           "CPConditions": {
             "HasFlag: |contains=DitR_M_SnailPhase5": "true"
@@ -2330,7 +2330,7 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": 1
+        "DaysUntilSpawnsExpire": 2
       },
       {
         "SpringItemIndex": [

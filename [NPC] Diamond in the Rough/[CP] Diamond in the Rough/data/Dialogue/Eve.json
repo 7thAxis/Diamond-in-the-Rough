@@ -35,6 +35,7 @@
         //Conversation Topics
         "DitR_CT_UsedExpiredMegaBomb": "{{i18n:Core.EveT.UsedExpiredMegaBomb}}",
         "DitR_CT_UsedMultipleExpiredMegaBombs": "{{i18n:Core.EveT.UsedMultipleExpiredMegaBombs}}",
+        "GunnarHasaBomb": "{{i18n:Core.EveT.GunnarHasaBomb}}",
 
         "DitR_CT_SenMet": "{{i18n:Core.EveT.SenMet}}",
         "DitR_CT_DreamReveal": "{{i18n:Core.EveT.DreamReveal}}",

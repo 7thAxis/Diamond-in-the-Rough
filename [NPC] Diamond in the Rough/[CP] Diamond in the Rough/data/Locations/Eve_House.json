@@ -9,7 +9,6 @@
             "ToArea": { "X": 74, "Y": 85, "Width": 13, "Height": 12 },
             "PatchMode": "Replace"
         },
-
 //---------------------------- INTERIOR LOAD ------------------------------------------//          
         {
 			"Action": "Load",
@@ -48,6 +47,21 @@
             ]
         },
 //---------------------------- SPECIAL TILES ------------------------------------------//
+    //Festive lights
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Village",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "MapProperties", "Light" ],
+                    "Value": "79 92 2 81 92 1 82 92 2",
+                    "Delimiter": " "
+                }
+            ],
+            "When": { "Season |contains=Winter": true }
+        },
+    //MEEP Drawer
         {
             "Action": "EditMap",
             "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
@@ -63,7 +77,6 @@
             ]
         },
 //---------------------------- GARBAGE CAN ------------------------------------------//
-   
         {
             "Action": "EditData",
             "Target": "Data/GarbageCans",
@@ -85,11 +98,9 @@
                         {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.StinkyBomb",
                             "Condition": "RANDOM 0.4 @addDailyLuck",
-                            "RandomItemId": [ 
-                                "(O){{ModID}}.Items.ExpiredMegaBomb"
-                            ]
+                            "RandomItemId": [ "(O){{ModID}}.Items.ExpiredMegaBomb" ]
                         },
-                       {
+                        {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.Trash",
                             "RandomItemId": [ "(O)168", "(O)172" ]
                         }

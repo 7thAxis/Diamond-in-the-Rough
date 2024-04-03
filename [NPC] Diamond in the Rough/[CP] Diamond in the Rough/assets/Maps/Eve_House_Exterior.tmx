@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="13" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="31" nextobjectid="198">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="13" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="32" nextobjectid="198">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
@@ -1507,6 +1507,51 @@
  </tileset>
  <tileset firstgid="1976" name="spring_DitR_Tilesheet" tilewidth="16" tileheight="16" tilecount="480" columns="16">
   <image source="spring_DitR_Tilesheet.png" width="256" height="480"/>
+  <tile id="381">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="382">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="383">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="397">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="398">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="399">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="413">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="414">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="415">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
  </tileset>
  <tileset firstgid="2456" name="spring_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
   <image source="spring_island_tilesheet_1.png" width="512" height="640"/>
@@ -6020,7 +6065,7 @@
 229,176,176,151,176,351,352,355,333,407,4113,3992,4087,
 229,176,152,176,326,329,355,333,382,297,381,0,4087,
 229,176,176,176,276,276,380,381,382,346,295,346,176,
-229,176,176,151,152,276,405,406,407,353,7569,5918,7626,
+229,176,176,151,176,276,405,406,407,353,7569,5918,7626,
 229,176,2147483799,276,276,276,276,276,276,353,7569,5815,5841,
 178,204,276,152,176,276,276,276,276,152,7569,1610618620,7626,
 228,178,180,181,206,202,202,204,2147483799,276,7569,2147489597,7626,
@@ -6086,15 +6131,15 @@
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,387,384,384,385,386,0,384,385,386,387,0,0,
-0,412,64,65,66,149,127,0,0,243,412,105,2147484088,
+0,412,64,65,66,2147485990,127,0,0,243,412,105,2147484088,
 0,437,8888,0,0,0,0,0,0,0,437,130,445,
 0,387,0,0,0,0,0,0,0,0,295,2407,470,
-0,412,0,0,2072,2073,2074,2075,2076,2077,0,2423,495,
+0,412,0,0,2072,2073,2074,2075,2076,2077,1984,2423,495,
 0,437,0,0,2088,2089,2090,2091,2092,2093,0,2439,366,
 0,1956,0,2024,2104,2105,2106,2107,2108,2109,0,2439,0,
 0,0,0,0,2120,2121,2122,2123,2124,2125,0,2439,0,
 0,0,0,0,0,0,0,0,0,0,0,2455,0,
-0,0,0,0,0,0,0,0,0,0,1984,2404,0,
+0,0,0,0,0,0,0,0,0,395,1984,2404,0,
 0,114,115,0,0,0,0,384,385,386,391,4174,0
 </data>
  </layer>
@@ -6122,6 +6167,22 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,2405,2406,0,0,
 0,0,0,0,0,0,0,0,0,0,2422,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="31" name="Buildings4" width="13" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2342,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -6176,7 +6237,7 @@
     <property name="Action" value="Message &quot;EveTHPlanter3&quot;"/>
    </properties>
   </object>
-  <object id="197" name="TileData" x="19.3333" y="95.6667" width="16" height="16">
+  <object id="197" name="TileData" x="16" y="96" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;EveTHMailBox&quot;"/>
    </properties>
@@ -6202,10 +6263,10 @@
  <layer id="9" name="Front" width="13" height="12">
   <data encoding="csv">
 0,362,359,359,360,361,0,359,360,361,362,0,0,
-0,0,39,40,41,124,102,0,0,0,0,0,0,
+0,0,39,40,41,2147485974,102,0,0,0,0,0,0,
 0,0,8856,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,2326,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,1931,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -6232,5 +6293,5 @@
 0,0,0,0,4,5,6,0,51,52,53,0,0
 </data>
  </layer>
- <objectgroup id="12" name="AlwaysFront" visible="0"/>
+ <objectgroup id="12" name="AlwaysFront"/>
 </map>

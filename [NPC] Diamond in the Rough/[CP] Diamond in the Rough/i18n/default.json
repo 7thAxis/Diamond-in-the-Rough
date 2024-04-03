@@ -478,14 +478,15 @@
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
 "Core.EveT.Slingshot.2": "Ouch...! Dude, cut that the hell out.$a",
-"Core.EveT.Dumpster": "Ewww, gross! This town is full of massive weirdos.$s#$b#...Myself included.$6",
+"Core.EveT.Dumpster": "Ewww, gross! This town is full of massive weirdos.$s#$b#...Myself included.$6#$action AddMail Current DitR_M_EveCaughtinTrash received",
 "Core.EveT.BouquetRejection.1": "Eeeeh... Sorry buddy, but the answer's no.$6#$b#I appreciate the gesture and all but I ain't exactly interested.$s",
 "Core.EveT.BouquetRejection.2": "Sorry, no-can-do, buckaroo.$6#$b#I'm afraid my heart was already taken long ago.$l",
 
 //Conversation Topics
 "Core.EveT.UnlockedFromStartIntroduction": "Oh hey, you're that new farmer ain't ya?$h#$b#I'm Eve, a completely normal and well adjusted adult.$l#$b#Definitely.#$b#I hope to see you around!$8",
-"Core.EveT.UsedExpiredMegaBomb": "So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#What? Yeah I knew you were in my trash, I have a security camera installed.$6#$b#Stay outta my garbage, ya weirdo.$a",
-"Core.EveT.UsedMultipleExpiredMegaBombs": "Caught you on my security camera again. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a",
+"Core.EveT.UsedExpiredMegaBomb": "$query PLAYER_HAS_MAIL Current DitR_M_EveCaughtinTrash Any#So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#You found that thing in my trash, didn't you?$a#$b#Stay outta my garbage, ya weirdo.$a|So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#What? Yeah I knew you were in my trash, I have a security camera installed.$6#$b#Stay outta my garbage, ya weirdo.$a#$action RemoveMail DitR_M_EveCaughtinTrash all",
+"Core.EveT.UsedMultipleExpiredMegaBombs": "$query PLAYER_HAS_MAIL Current DitR_M_EveCaughtinTrash Any#Oh Yoba. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a|Caught you on my security camera again. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a#$action RemoveMail DitR_M_EveCaughtinTrash all",
+"Core.EveT.GunnarHasaBomb": "...Did you seriously rummage around in my trash and give Gunnar one of those nasty old mega bombs?$6#$b#Ya know usually I'd call ya a weirdo for dumpster digging, but thanks for enabling the kid. I live for the chaos.$9#$action AddFriendshipPoints EveT 5",
 
 "Core.EveT.SenMet": "Sigh, sometimes I think about an old friend and her kiddo...$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
 "Core.EveT.DreamReveal": "An old friend of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
@@ -1586,6 +1587,8 @@
 "Gifts.JeremyTS.GoldenVoidLavaSnail.Remark.False": "%...!#$b#%Jeremy scoops up the strange shiny snail protectively. They seem pleased.#$b#%As a reward, Jeremy gives you a rare item.",
 
 "Gifts.JeremyTS.UnluckyPurpleShorts": "...$2#$b#%Jeremy silently judges you with mild disgust.",
+"Gifts.JeremyTS.ExpiredMegaBomb.True": "...Pray tell, how do explosives \"expire\" like a vegetable?#$b#Absolutely absurd.$2",
+"Gifts.JeremyTS.ExpiredMegaBomb.False": "%Jeremy seems disinterested in the utterly rancid explosive device.",
 
 //Do not translate, this is code 
 "Gifts.JeremyTS.VoidLavaSnail.Trade.Spring": "[429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds 429 474 433 476 473 477 472 475 478 745 427 273 (O)CarrotSeeds (O)MixedFlowerSeeds 885 770 495 (O)MixedFlowerSeeds 885 770 495 251 629 628 (O)MysticTreeSeed 114 347 166]",
@@ -2208,13 +2211,12 @@
 //Outside
 "Maps.EveT.EveTHPipoFood": "A fresh bowl of food left out for the cats of East Scarp.",
 "Maps.EveT.EveTHPlanter1": "You find a note wedged in the planter.#\"As you observe the plant you wonder how you got to this point in your life.\"#\"Of the thousands of things you could be doing, you're chosing to stand in a random person's back yard, staring at their plant.\"#\"Are you content with your choice?\"#\"I'm just messing with you. Enjoy your plant staring, ya weirdo.\" - Eve",
-"Maps.EveT.EveTHPlanter2": "There's going to be a planter here but there isn't yet. Sorry. Thanks for clicking!",
+"Maps.EveT.EveTHPlanter2": "The plant looks up to you and says: \"I fear this balcony. If it were to fall away I would plummet to my doom...\"#\"The whole reason this balcony exists is to prevent the house from falling off the cliffside.\"#\"Why does Eve risk living here?! She's out of her mind!\"#The plant then remembers it's not supposed to talk and goes back to photosynthesizing.",
 "Maps.EveT.EveTHPlanter3": "Tis a seasonal bush, doing seasonal bush things.#Best not to interupt the seasonal bush things.",
 "Maps.EveT.EveTHFirePit": "This pit is meant for arson. Or roasting marshmallows. One or the other.",
-"Maps.EveT.EveTHMailBox": "You open the mailbox and find a note taped the side: \"This is the abode of Evening Tourmaline.\"#\"If you're not {{MailPerson}} get the hell out of my mailbox.\"",
+"Maps.EveT.EveTHMailBox": "You open the mailbox and find a note taped inside: \"This is the abode of Evening Tourmaline.\"#\"If you're not {{MailPerson}} get the hell out of my mailbox.\"",
 "Maps.EveT.EveTHMailBox.Ayeisha.True": "Ayeisha",
 "Maps.EveT.EveTHMailBox.Ayeisha.False": "the mailman",
-
 
 //Inside
 "Maps.EveT.EveTHSink": "Dog hair is clogging the drain.",
@@ -2281,6 +2283,14 @@
 "Maps.SenS.SenRoomBlueFlowers": "These are flowers from Sen's garden back in East Scarp.",
 
     //----TRACE----//
+//Outside
+"Maps.TraceV.TraceVHPlanter1": "You peek in the planter and find a tiny red and black snail. It waves back at you!",
+"Maps.TraceV.TraceVHPlanter2": "This is a plant. Quite a planty plant if I do say so myself.",
+"Maps.TraceV.TraceVHOwlStatue": "It almost seems like the eyes of the owl statue follow you. Weird...",
+"Maps.TraceV.TraceVHMailBox": "You open the mailbox and find a note taped inside: \"Hellooooo {{MailPersonT}}! This is the home of Trace Veilrose.\"#\"And if you're not {{MailPersonT}}, my mailbox will eat you within the next 30 seconds if you don't close it!\"#\"Bye!\"",
+"Maps.TraceV.TraceVHMailBox.Ayeisha.True": "Ayeisha",
+"Maps.TraceV.TraceVHMailBox.Ayeisha.False": "Mr. Mailman",
+
 //Bedroom
 "Maps.TraceV.TraceVHBed": "You crawl into Trace's bed. It smells like roses.",
 "Maps.TraceV.TraceVHNailPolish": "Various bottles of high quality nail polish litter the dresser.",

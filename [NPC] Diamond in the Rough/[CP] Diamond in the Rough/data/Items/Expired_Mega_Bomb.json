@@ -15,6 +15,7 @@
                     "Edibility": -300,
                     "Buff": null,
                     "IsDrink": false,
+                    "ExcludeFromRandomSale": true,
                     "ExcludeFromShippingCollection": true,
                     "ContextTags": [ "color_orange", "bomb_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
@@ -39,7 +40,7 @@
                 "Id": "DitR.ExpiredMegaBomb.InjurePlayer",
                 "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                 "Actions": [ 
-                    "spacechase0.SpaceCore_DamageCurrentFarmer -1", "AddConversationTopic DitR_CT_UsedExpiredMegaBomb 10", 
+                    "spacechase0.SpaceCore_DamageCurrentFarmer -1", "AddConversationTopic DitR_CT_UsedExpiredMegaBomb 3", 
                     "RemoveItem {{ModID}}.Items.ExpiredMegaBomb 1", "spacechase0.SpaceCore_PlaySound explosion true",
                     "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\"", 
                     "IncrementStat ExpiredMegaBombsUsed 1"
@@ -52,7 +53,7 @@
                 "Trigger": "DayEnding",
                 "Id": "{{ModID}}.TriggerActions.UsedMultipleExpiredMegaBombs",
                 "Condition": "PLAYER_STAT Current ExpiredMegaBombsUsed 5",
-                "Actions": [ "AddConversationTopic DitR_CT_UsedMultipleExpiredMegaBombs 10" ]
+                "Actions": [ "AddConversationTopic DitR_CT_UsedMultipleExpiredMegaBombs 3" ]
             }
             }
           },

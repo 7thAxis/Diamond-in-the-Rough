@@ -111,7 +111,7 @@
 					2100 7 4 wafflew_sleep
 				",
 			},
-			"When": { "EveWaffleScheduleRandomizer": 5 }
+			"When": { "EveWaffleScheduleRandomizer": 5, "DayOfWeek |contains=Wednesday": false }
 		},
 		{
 			"LogName": "Waffle SeedShop Schedule SVE",
@@ -122,11 +122,11 @@
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
 					610 7 4 wafflew_lay/
 					700 6 4 wafflew_sitleft/
-					900 SeedShop 16 20 wafflew_sitleft/
-					1400 6 19 wafflew_sitleft/
-					1500 Town 99 61 wafflew_lay/
-					1700 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
-					2100 7 4 wafflew_sleep
+					900 SeedShop 13 23 wafflew_sitleft/
+					1500 2 19 wafflew_sitright/
+					1600 Town 79 58 wafflew_lay/
+					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/
+					2200 7 4 wafflew_sleep
 				",
 			},
 			"When": { 

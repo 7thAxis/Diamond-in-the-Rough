@@ -113,7 +113,7 @@
 					2100 12 5 evet_sleep
 				",
 			},
-			"When": { "EveWaffleScheduleRandomizer": 5 }
+			"When": { "EveWaffleScheduleRandomizer": 5, "DayOfWeek |contains=Wednesday": false }
 		},
 		{
 			"LogName": "Eve SeedShop Schedule SVE",
@@ -125,11 +125,11 @@
 					610 12 5 evet_lay/
 					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
 					900 SeedShop 15 20 0/
-					1400 5 19 0/
-					1500 Town 101 61 evet_kickfeet/
-					1700 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
-					2030 3 5 0/
-					2100 12 5 evet_sleep
+					1500 5 19 0/
+					1600 Town 101 61 evet_kickfeet/
+					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2130 3 5 0/
+					2200 12 5 evet_sleep
 				",
 			},
 			"When": { 
