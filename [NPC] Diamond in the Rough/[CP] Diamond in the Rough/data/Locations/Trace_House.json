@@ -197,6 +197,12 @@
                     "RandomItemId": [  "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" ]
                 },
                 {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailEgg",
+                    "Condition": "RANDOM 0.0004 @addDailyLuck, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" ]
+                },
+                {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnail",
                     "Condition": "RANDOM 0.001 @addDailyLuck",
                     "IsMegaSuccess": true,
@@ -207,6 +213,12 @@
                     "Condition": "RANDOM 0.01 @addDailyLuck",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(H){{ModID}}.Hats.VoidLavaSnailBuddy" ]
+                },
+                {
+                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailEgg",
+                    "Condition": "RANDOM 0.03 @addDailyLuck, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(O){{ModID}}.Items.VoidLavaSnailEgg" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.Snackies",
