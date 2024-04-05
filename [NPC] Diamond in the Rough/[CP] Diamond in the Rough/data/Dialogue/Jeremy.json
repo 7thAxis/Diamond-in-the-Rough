@@ -65,7 +65,7 @@
             "When": { "HasSeenEvent: |contains=112": true, "HasConversationTopic: |contains=DitR_M_JeremyBetrayed": false }       
         },
         {
-            "LogName": "Jeremy Dialogue Pool Pre-Wizard Event",
+            "LogName": "Jeremy Dialogue without conditions",
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 

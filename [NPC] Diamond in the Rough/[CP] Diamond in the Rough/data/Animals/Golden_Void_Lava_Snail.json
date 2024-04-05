@@ -24,10 +24,10 @@
                     "HarvestType": "DropOvernight",
                     "ProduceItemIds": [
                       {
-                        "Id": "SnailGold",
-                        "Condition": null,
+                        "Id": "SnailGoldBar",
+                        "Condition": "RANDOM 0.1",
                         "MinimumFriendship": 0,
-                        "ItemId": "384"
+                        "ItemId": "336"
                       },
                       {
                         "Id": "SnailSolarEssence",
@@ -36,10 +36,10 @@
                         "ItemId": "768"
                       },
                       {
-                        "Id": "SnailGoldBar",
-                        "Condition": "RANDOM 0.3",
+                        "Id": "SnailGold",
+                        "Condition": null,
                         "MinimumFriendship": 0,
-                        "ItemId": "336"
+                        "ItemId": "384"
                       }
                     ],
                     "ProduceOnMature": true,

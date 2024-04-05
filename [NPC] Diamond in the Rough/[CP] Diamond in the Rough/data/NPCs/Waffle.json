@@ -10,7 +10,7 @@
                     "DisplayName": "{{i18n:Core.WaffleW.Name}}",
                     "BirthSeason": "fall",
                     "BirthDay": 15,
-                    "HomeRegion": "Other",
+                    "HomeRegion": "Town",
                     "Gender": "Female",
                     "Age": "Adult",
                     "Manner": "Neutral",

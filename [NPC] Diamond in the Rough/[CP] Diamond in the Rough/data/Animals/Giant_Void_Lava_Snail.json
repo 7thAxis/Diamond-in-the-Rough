@@ -24,10 +24,16 @@
                     "HarvestType": "DropOvernight",
                     "ProduceItemIds": [
                       {
-                        "Id": "SnailEgg",
-                        "Condition": null,
+                        "Id": "GoldenSnailEgg",
+                        "Condition": "RANDOM 0.0005",
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.VoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}.Items.GoldenVoidLavaSnailEgg"
+                      },
+                      {
+                        "Id": "SnailFireQuartz",
+                        "Condition": "RANDOM 0.1",
+                        "MinimumFriendship": 0,
+                        "ItemId": "82"
                       },
                       {
                         "Id": "SnailVoidEssence",
@@ -36,16 +42,10 @@
                         "ItemId": "769"
                       },
                       {
-                        "Id": "SnailFireQuartz",
-                        "Condition": "RANDOM 0.3",
+                        "Id": "SnailEgg",
+                        "Condition": null,
                         "MinimumFriendship": 0,
-                        "ItemId": "82"
-                      },
-                      {
-                        "Id": "GoldenSnailEgg",
-                        "Condition": "RANDOM 0.0005",
-                        "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.GoldenVoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}.Items.VoidLavaSnailEgg"
                       }
                     ],
                     "ProduceOnMature": true,
