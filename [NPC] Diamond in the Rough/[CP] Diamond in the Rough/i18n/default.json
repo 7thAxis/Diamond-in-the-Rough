@@ -1676,7 +1676,7 @@
 "Gifts.PipoP.Banana": "%You place the banana behind Pipo. They jump and hiss when they notice it, thinking it was a snake.",
 "Gifts.PipoP.SpicyEel": "%Pipo nibbles on the eel and then hisses from the spice!",
 "Gifts.PipoP.RedMushroom": "%Pipo knows better than to eat strange red forage.",
-"Gifts.PipoP.WildHorseRadish": "%Pipo knows the dark secrets of the wild horse radish.",
+"Gifts.PipoP.WildHorseradish": "%Pipo knows the dark secrets of the wild horseradish.",
 "Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts.#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
 "Gifts.PipoP.PurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
