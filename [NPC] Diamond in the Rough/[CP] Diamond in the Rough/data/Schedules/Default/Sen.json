@@ -27,7 +27,7 @@
 					1300 25 37 0/
 					1400 29 39 1/
 					1500 EastScarp_Village 31 101 sens_wigglesit/
-					1900 BusStop bed",
+					1900 bed",
 
 				"rain2": "
 					0 Town 110 78/
@@ -40,7 +40,7 @@
 					1300 13 87 0/
 					1400 43 77 sens_wigglesit/
 					1700 70 91 sens_wigglesit/
-					1900 BusStop bed"
+					1900 bed"
 			},
 			"When": { "LivingWithSen": true }
 		},
@@ -56,7 +56,7 @@
 					1300 55 85 1/
 					1500 28 84 3/
 					1700 6 89 3/
-					1900 BusStop bed"
+					1900 bed"
 			},
 			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "LivingWithSen": true }
 		},

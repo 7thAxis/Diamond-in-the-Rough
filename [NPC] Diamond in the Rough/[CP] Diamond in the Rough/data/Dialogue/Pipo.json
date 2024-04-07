@@ -48,7 +48,7 @@
             "AcceptGift_(O)771": "{{i18n:Gifts.PipoP.Fiber}}",
 
             "RejectItem_category_vegetable": "{{i18n:Gifts.PipoP.Vegetables}}", //Vegetable
-            "RejectItem_category_greens": "{{i18n:Gifts.PipoP.Forage}}", //Forage
+            "AcceptGift_category_greens": "{{i18n:Gifts.PipoP.Forage}}", //Forage
 
             "RejectItem_(O)768": "{{i18n:Gifts.PipoP.SolarEssence}}",
             "RejectItem_(O)248": "{{i18n:Gifts.PipoP.Garlic}}",

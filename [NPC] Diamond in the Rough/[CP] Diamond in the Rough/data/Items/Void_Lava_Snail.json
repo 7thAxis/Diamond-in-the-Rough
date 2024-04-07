@@ -35,7 +35,7 @@
                     "ExcludeFromRandomSale": true,
                     "ExcludeFromFishingCollection": true,
                     "ExcludeFromShippingCollection": true,
-                    "ContextTags": [ "color_black", "color_gold", "fish_golden_void_lava_snail", "forage_item" ],
+                    "ContextTags": [ "color_black", "color_gold", "fish_golden_void_lava_snail", "forage_item", "fish_pond_ignore" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 9
                 }             

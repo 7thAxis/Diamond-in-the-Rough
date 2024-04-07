@@ -68,6 +68,68 @@
       },
       {
         "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "7thAxis.DitR.CP.Items.UnluckyPurpleShorts"
+          }
+        ],
+        "UniqueAreaID": "DitR - Sewer Shorts Spawn Cleaner Sewer",
+        "MapName": "Sewer",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [
+          "16,24;16,24"
+        ],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "Relationship:SenS |contains=Unmet": "false",
+            "Relationship:Krobus |contains=Unmet": "false",
+            "HasMod: |contains=Varagod.CleanerSewer": "true"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": 1
+        },
+        "DaysUntilSpawnsExpire": 0
+      },
+      {
+        "SpringItemIndex": [
           "7thAxis.DitR.CP.Items.SensCrocus"
         ],
         "SummerItemIndex": [

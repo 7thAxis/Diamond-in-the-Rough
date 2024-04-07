@@ -280,7 +280,7 @@
 "Rand.TraceV.Book.3": "You and Your Snail: How Properly Care for Your Mollusk",
 "Rand.TraceV.Book.4": "The Moon and Croissants: A Spiritual Link",
 "Rand.TraceV.Book.5": "A Night in the Valley: A Questionably Accurate History of Stardew Valley",
-"Rand.TraceV.Book.6": "Baking with Blackberries: A Cookbook by Trace Veilrose",
+"Rand.TraceV.Book.6": "Baking with Blackberries and Literally Nothing Else: A Cookbook by Trace Veilrose",
 "Rand.TraceV.Book.7": "How to Not Get Horribly Lost in the Mountains: A Guide",
 "Rand.TraceV.Book.8": "Trace's Old Diary. Stay Out!",
 "Rand.TraceV.Book.9": "Stink Fruit: The Tragic Tale of Durians",
@@ -1250,7 +1250,7 @@
 "Core.TraceV.LateHeart.10": "During my Ferngill vagebond days, I had a fellow wandering buddy I bumped into pretty often. He was the biggest geek you'd ever meet.$10#$b#We'd team up for wandering adventures and chatter from sun down till sun up.$h#$b#One day we parted ways for the last time and i never saw him again. I wonder where he is now...?$s",
 "Core.TraceV.LateHeart.11": "Before moved the valley, I lived a pretty nomadic life style.$h#$b#I wandered from place to place with my guitar, putting on little shows on street corners and collecting tips.$11#$b#I meandered wherever the wind took me. Sometimes I miss those days, but also, I like my bed.$l",
 "Core.TraceV.LateHeart.12": "Ya know I have a lot of books on my shelves, but I have a hard time reading them.$6#$b#The words get all jumbled up and it makes my head hurt. Yet I keep throwing myself at the books...$s#$b#Sigh I had a friend that used to read stuff to me. It was comforting. Wonder what he's up to these days?$s",
-"Core.TraceV.LateHeart.13": "Did you know I once made a cook book? It's called \"Baking with Blackberries and Literally Nothing Else\".$h#$b#I took the photos for it and wrote the lists while a buddy of mine did the paragraphs.$11#$b#He insisted I get all the credit for it, but man, his name should have been on the author line too...$6",
+"Core.TraceV.LateHeart.13": "Did you know I once made a cookbook? It's called \"Baking with Blackberries and Literally Nothing Else\".$h#$b#I took the photos for it and wrote the lists while a buddy of mine did the paragraphs.$11#$b#He insisted I get all the credit for it, but man, his name should have been on the author line too...$6",
 "Core.TraceV.LateHeart.14": "",
 "Core.TraceV.LateHeart.15": "",
 "Core.TraceV.LateHeart.16": "",
@@ -1334,7 +1334,7 @@
 "Core.TraceV.Locations.Beach.JamOut.Skeleton": "Fix my head, stitch my soul.~$h#$b#Find out where it all went wrong.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
 //CTs
-"Core.TraceV.UnlockedFromStartIntroduction": "Heyo, I don't think I've ever seen you around before!$h#$b#Name's Trace - hobbiest guitarist, baker and artist extraordinaire!$l#$b#Things you need to know about me? Hm... I've got a pet snail and zero brain to mouth filter.$h#$b#Thought goes through my head? Out it goes!$11#$b#Anyway, hope to see you around buckaroo!$h",
+"Core.TraceV.UnlockedFromStartIntroduction": "Heyo, I don't think I've ever seen you around before!$h#$b#Name's Trace - hobbyist guitarist, baker and artist extraordinaire!$l#$b#Things you need to know about me? Hm... I've got a pet snail and zero brain to mouth filter.$h#$b#Thought goes through my head? Out it goes!$11#$b#Anyway, hope to see you around buckaroo!$h",
 "Core.TraceV.PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
 
 //Clyric
@@ -1778,8 +1778,8 @@
 "Festivals.TraceV.spring13.3": "What do you think the mayor does with the eggs after the event?$h#$b#Does he turn them into egg salad and eat em?$6#$b#Man, he should share.$a",
 
 //Flower Dance
-"Festivals.TraceV.spring24.1": "Woohoo! I'm captain of this ship! No one can stop me me now!$8#$b#Just you try, you'll see what happens.$9",
-"Festivals.TraceV.spring24.2": "Yeeaaah. No one's getting me into a blue suit, sorry.$a#$b#You'll have to take me down kicking and screaming before that happens.$8",
+"Festivals.TraceV.spring24.1": "Woohoo! I'm captain of this ship! Noone can stop me me now!$8#$b#Just you try, you'll see what happens.$9",
+"Festivals.TraceV.spring24.2": "Yeeaaah. Noone's getting me into a blue suit, sorry.$a#$b#You'll have to take me down kicking and screaming before that happens.$8",
 "Festivals.TraceV.spring24.3": "I like flowers. They're pretty cool. Yeah.#$b# They're like super awesome, man.$h#$b#%Trace's brain appears to be off in another dimension... Please try again later.",
 
 //Luau

@@ -103,7 +103,7 @@
                     2500 15 5 tracev_sleep
                 ",
             },
-            "When": { "TraceScheduleRandomizer": 4 } 
+            "When": { "TraceScheduleRandomizer": 4, "DayOfWeek |contains=Saturday": false } //Prevents Trace from sitting on Oliver. That's just rude.
 		},
 //---Schedule 5---//
         {

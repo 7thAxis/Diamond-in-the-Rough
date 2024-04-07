@@ -25,7 +25,7 @@
                         {
                           "Id": "TraceHouseBarbieGirl",
                           "Track": "{{ModID}}.Music.BarbieGirl",
-                          "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05 @addDailyLuck"
+                          "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05"
                         }
                       ],
                     "MusicDefault": "{{ModID}}.Music.TraceHouse",
@@ -45,7 +45,7 @@
                     "Trigger": "DayStarted",
                     "MarkActionApplied": false,
                     "Id": "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRecieved",
-                    "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05 @addDailyLuck",
+                    "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05",
                     "Actions": [ "AddMail Current DitR_M_TraceBarbieGirl" ]
                 },
                 "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRemoved": {
@@ -192,42 +192,42 @@
             "Items": [
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
-                    "Condition": "RANDOM 0.0005 @addDailyLuck",
+                    "Condition": "RANDOM 0.0005",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailEgg",
-                    "Condition": "RANDOM 0.0004 @addDailyLuck, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
+                    "Condition": "RANDOM 0.0004, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnail",
-                    "Condition": "RANDOM 0.001 @addDailyLuck",
+                    "Condition": "RANDOM 0.001",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnail" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailBuddy",
-                    "Condition": "RANDOM 0.01 @addDailyLuck",
+                    "Condition": "RANDOM 0.01",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(H){{ModID}}.Hats.VoidLavaSnailBuddy" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailEgg",
-                    "Condition": "RANDOM 0.03 @addDailyLuck, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
+                    "Condition": "RANDOM 0.03, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(O){{ModID}}.Items.VoidLavaSnailEgg" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.Snackies",
-                    "Condition": "RANDOM 0.1 @addDailyLuck",
+                    "Condition": "RANDOM 0.1",
                     "RandomItemId": [ "(O)611", "(O)212" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnail",
-                    "Condition": "RANDOM 0.3 @addDailyLuck",
+                    "Condition": "RANDOM 0.3",
                     "RandomItemId": [ "(O){{ModID}}.Items.VoidLavaSnail" ]
                 },
                 {

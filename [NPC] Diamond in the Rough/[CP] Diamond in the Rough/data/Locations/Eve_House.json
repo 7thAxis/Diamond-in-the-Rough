@@ -88,7 +88,7 @@
                     "Items": [
                        {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.Bombs",
-                            "Condition": "RANDOM 0.1 @addDailyLuck",
+                            "Condition": "RANDOM 0.1",
                             "RandomItemId": [ 
                                 "(O)286", "(O)288", "(O)287", //Bombs
                                 "(O)893", "(O)894", "(O)895", //Fireworks
@@ -97,7 +97,7 @@
                         },
                         {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.StinkyBomb",
-                            "Condition": "RANDOM 0.4 @addDailyLuck",
+                            "Condition": "RANDOM 0.4",
                             "RandomItemId": [ "(O){{ModID}}.Items.ExpiredMegaBomb" ]
                         },
                         {
