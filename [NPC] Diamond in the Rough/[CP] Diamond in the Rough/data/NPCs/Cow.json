@@ -8,8 +8,6 @@
             "Entries": {
                 "CowD": {
                     "DisplayName": "{{i18n:Core.CowD.Name}}",
-                    "BirthSeason": "summer",
-                    "BirthDay": 1,
                     "HomeRegion": "Other", //Castle Village
                     "Gender": "Female",
                     "Age": "Child",
@@ -47,7 +45,12 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": [ "CowD" ],
-            "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "summer",
+                "BirthDay": 1
+             },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//

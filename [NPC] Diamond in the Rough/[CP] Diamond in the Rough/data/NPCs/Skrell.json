@@ -9,8 +9,6 @@
                 "SkrellS": {
                     "DisplayName": "{{i18n:Core.SkrellS.Name}}",
                     "FormerCharacterNames": [ "Skrell" ],
-                    "BirthSeason": "summer",
-                    "BirthDay": 5,
                     "HomeRegion": "Other",
                     "Gender": "Male",
                     "Age": "Adult",
@@ -48,7 +46,12 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": [ "SkrellS" ],
-            "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "summer",
+                "BirthDay": 5
+             },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//

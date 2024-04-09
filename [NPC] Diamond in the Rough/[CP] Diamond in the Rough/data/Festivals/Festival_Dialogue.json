@@ -83,7 +83,7 @@
             "Entries": 	{ 
                 "fall_2": "{{i18n:Core.{{TargetWithoutPath}}.Fall.Day.2}}"
             },
-            "When": { "HasMod: |contains=Fellowclown.SW": true,  "HasFlag|contains=Fellowclown.SW_Marketpalooza.Mail": true }
+            "When": { "HasMod: |contains=Fellowclown.PC_Marketpalooza": true,  "HasFlag|contains=Fellowclown.PC_Marketpalooza_Marketpalooza.Mail": true }
         },
         {
             "LogName": "Dialogue - Fireworks Festival",

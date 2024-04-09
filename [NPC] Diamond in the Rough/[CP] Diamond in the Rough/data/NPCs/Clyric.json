@@ -8,8 +8,6 @@
             "Entries": {
                 "ClyricT": {
                     "DisplayName": "{{i18n:Core.ClyricT.Name}}",
-                    "BirthSeason": "spring",
-                    "BirthDay": 12,
                     "HomeRegion": "Other", //Castle Village
                     "Gender": "Female",
                     "Age": "Adult",
@@ -47,7 +45,12 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": [ "ClyricT" ],
-            "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "spring",
+                "BirthDay": 12
+             },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//

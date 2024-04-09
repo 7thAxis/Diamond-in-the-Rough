@@ -8,8 +8,6 @@
             "Entries": {
                 "DiamondS": {
                     "DisplayName": "{{i18n:Core.DiamondS.Name}}",
-                    "BirthSeason": "spring",
-                    "BirthDay": 5,
                     "HomeRegion": "Other",
                     "Gender": "Female",
                     "Age": "Adult",
@@ -48,7 +46,12 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": [ "DiamondS" ],
-            "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "spring",
+                "BirthDay": 5
+         },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//

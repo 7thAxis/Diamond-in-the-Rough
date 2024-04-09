@@ -9,8 +9,6 @@
                 "EbbS": {
                     "DisplayName": "{{i18n:Core.EbbS.Name}}",
                     "FormerCharacterNames": [ "Ebb" ],
-                    "BirthSeason": "fall",
-                    "BirthDay": 5,
                     "HomeRegion": "Other",
                     "Gender": "Undefined",
                     "Age": "Adult",
@@ -48,7 +46,12 @@
             "Action": "EditData",
             "Target": "Data/Characters",
             "TargetField": [ "EbbS" ],
-            "Entries": { "Calendar": "AlwaysShown", "SocialTab": "AlwaysShown" },
+            "Entries": { 
+                "Calendar": "AlwaysShown", 
+                "SocialTab": "AlwaysShown",
+                "BirthSeason": "fall",
+                "BirthDay": 5
+             },
             "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//

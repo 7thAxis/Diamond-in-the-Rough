@@ -6,7 +6,7 @@
             "Target": "Characters/Dialogue/EveT",
             "Update": "OnLocationChange",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 20}}}}}}"
+                "{{WeekDay}}": "{{i18n:Core.EveT.EarlyHeart.{{Random:{{Range: 1, 30}}}}}}"
             },
             "When": { "HasFlag |contains=DitR_M_EveT_OverrideSeenToday": false }
         },

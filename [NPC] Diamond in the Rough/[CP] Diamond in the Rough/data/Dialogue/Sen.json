@@ -165,7 +165,7 @@
                 "AcceptBirthdayGift_(O)608": "{{i18n:Gifts.SenS.PumpkinPie.Birthday}}",
 
                 //Custom Items
-                "AcceptGift_(O){{ModID}}.Items.SensCrocus": "Gifts.SenS.SensCrocus"
+                "AcceptGift_(O){{ModID}}.Items.SensCrocus": "{{i18n:Gifts.SenS.SensCrocus}}"
                 //Json Assets
                 /*"accept_An_autographed_photo": "{{i18n:Gifts.SenS.RodneyAutograph}}",*/
             }

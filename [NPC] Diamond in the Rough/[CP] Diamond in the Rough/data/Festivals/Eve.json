@@ -271,7 +271,7 @@
                     "Delimiter": "/"
                  }
             ],
-            "When": { "HasMod: |contains=Fellowclown.SW": true }
+            "When": { "HasMod: |contains=Fellowclown.PC_Marketpalooza": true }
         },
 //----------------FIREWORKS FESTIVAL------------------//
         {
