@@ -30,7 +30,6 @@
             "Entries": { 
                 "{{ModID}}.Items.UnluckyPurpleShorts": { 
 
-                    "CanBeTrashed": false,
                     "CanBeShipped": false,
 
                     "GiftableToNpcAllowList": {

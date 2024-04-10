@@ -11,7 +11,7 @@
                     "Description": "{{i18n:Items.VoidLavaSnailMayonnaise.Description}}",
                     "Type": "Basic",
                     "Category": -26,
-                    "Price": 800,
+                    "Price": 600,
                     "Edibility": 1,
                     "Buffs": [ { "Id": "SnailMayo", "Duration": 100, "CustomAttributes": { "FishingLevel": 2, "Defense": 1  } } ],
                     "IsDrink": true,
@@ -43,7 +43,7 @@
                     "Description": "{{i18n:Items.GoldenVoidLavaSnailMayonnaise.Description}}",
                     "Type": "Basic",
                     "Category": -26,
-                    "Price": 8000,
+                    "Price": 2500,
                     "Edibility": 1,
                     "Buffs": [ { "Id": "GoldenSnailMayo", "Duration": -2, "CustomAttributes": { "FishingLevel": 2, "Defense": 1  } } ],
                     "IsDrink": true,
@@ -61,7 +61,7 @@
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": { 
                 "{{ModID}}.Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 },
-                "{{ModID}}.Items.GoldenVoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -99, "CanBeTrashed": false },
+                "{{ModID}}.Items.GoldenVoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -99 },
                 "{{ModID}}.Items.VoidLavaSnailMayonnaiseBetrayal": { 
 
                  "CanBeTrashed": false,

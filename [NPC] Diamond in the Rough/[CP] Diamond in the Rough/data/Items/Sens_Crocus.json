@@ -47,7 +47,7 @@
                 "Seasons": [ "spring", "summer", "fall", "winter" ],
                 "DaysInPhase": [ 1, 1, 1, 1 ],                    
                 "HarvestItemId": "{{ModID}}.Items.SensCrocus",
-                "RegrowDays": "0",
+                "RegrowDays": -1,
                 "IsRaised": false,
                 "HarvestMaxIncreasePerFarmingLevel": "0",
                 "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",

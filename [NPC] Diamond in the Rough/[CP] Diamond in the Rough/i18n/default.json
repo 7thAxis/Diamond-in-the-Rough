@@ -1422,6 +1422,14 @@
 ╚██████╔╝██║██║        ██║   ███████║
  ╚═════╝ ╚═╝╚═╝        ╚═╝   ╚══════╝
 */
+//Stardrop Tea
+//--Headcanon it smells/tastes like an NPC's favorite thing.
+"Gifts.EveT.StardropTea": "Huh? Why does this tea smell like gunpowder?$6#$b#Is it gonna explode when I try to drink it?$h#$b#I hope so, that would be sick.$9",
+"Gifts.TraceV.StardropTea": "Woah, why is this stuff like... glowing purple? Is it safe to drink?$6#$b#Eh, whatever. I've drank weirder things. Bottoms up!$8",
+"Gifts.SenS.StardropTea": "Sniff...Sniff...$l#$b#Oh that smells absolutely delightful, @!$7#$b#I'll drink this along with a good book, thank you!$h",
+"Gifts.WaffleW.StardropTea": "%Waffle laps at the tea. Her sheer happiness with this flavor causes her to float up into the sky.#$b#%Goodbye, Waffle!#$b#%Wait, she came back down. All clear!",
+"Gifts.PipoP.StardropTea": "...Since when do cats have any interest in tea? However, it does smell like the blood of my enemies... Hm.#$b#...#$b#...I mean meow.",
+"Gifts.JeremyTSnail.StardropTea": "...!$2#$b#%Jeremy loses their calm demeanor guzzles down the tea like a wild beast.#$b#%They then promptly return to a normal state of peacefulness.",
 
 //Eve
 "Gifts.EveT.Like": "Oh thanks, @! This is great!",

@@ -12,7 +12,7 @@
                     "House": "DitR_Snail",
                     "Gender": "Male",
                     "PurchasePrice": -1,
-                    "SellPrice": 12000,
+                    "SellPrice": 10000,
                     "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
                     "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg", "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg" ],

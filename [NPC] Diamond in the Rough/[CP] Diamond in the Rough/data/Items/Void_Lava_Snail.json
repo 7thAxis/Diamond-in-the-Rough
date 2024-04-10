@@ -28,7 +28,7 @@
                     "Description": "{{i18n:Items.GoldenVoidLavaSnail.Description}}",
                     "Type": "Basic",
                     "Category": -4,
-                    "Price": 5000,
+                    "Price": 1500,
                     "Edibility": -300,
                     "Buff": null,
                     "IsDrink": false,
@@ -47,7 +47,7 @@
         "Target": "spacechase0.SpaceCore/ObjectExtensionData",
         "Entries": { 
             "{{ModID}}.Items.VoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" },
-            "{{ModID}}.Items.GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}", "CanBeTrashed": false }
+            "{{ModID}}.Items.GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" }
          }
     },
 //---------------------------- HAT VARIANT DATA ------------------------------------------// 
@@ -65,10 +65,7 @@
             "LogName": "Void Lava Snail Fishing Data",
             "Action": "EditData",
             "Target": "Data/Fish",
-            "Entries": {
-                "{{ModID}}.Items.VoidLavaSnail": "Void Lava Snail/trap/{{SnailCrabPotRate}}//freshwater/12/24/false",
-                "{{ModID}}.Items.GoldenVoidLavaSnail": "Void Lava Snail/trap/.005//freshwater/12/24/false"
-            }
+            "Entries": { "{{ModID}}.Items.VoidLavaSnail": "Void Lava Snail/trap/{{SnailCrabPotRate}}//freshwater/12/24/false" }
         },
         {
             "LogName": "Void Lava Snail Fishing - Caldera",

@@ -56,6 +56,16 @@
 
              }
         },
+        {
+            "LogName": "Dialogue for All NPCs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS, Characters/Dialogue/EveT, Characters/Dialogue/TraceV, Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP, Characters/Dialogue/JeremyTSnail",
+            "Entries": { 
+
+                //Gifts
+                "AcceptGift_(O)StardropTea": "{{i18n:Gifts.{{TargetWithoutPath}}.StardropTea}}"
+             }
+        },
 
         {
             "LogName": "Jeremy Intro CT Activation", 
