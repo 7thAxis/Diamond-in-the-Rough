@@ -1227,7 +1227,7 @@
 "Core.TraceV.EarlyHeart.23": "Sometimes I have weird dreams 'bout walking down long corridors with doors I gotta open.$6#$b#No rooms or anything. Dimly lit, white walls, floral carpeting.$s#$b#I wonder if that means anything?$6",
 "Core.TraceV.EarlyHeart.24": "Alright hear me out, farmer.$8#$b#What if we walked with our heads and saw the world with our torsos?$9#$b#What's that look for? This is an EXTREMELY important question.$8",
 "Core.TraceV.EarlyHeart.25": "It's been a minute since I last wrote up a new song.#$b#Maybe something about the %adj %noun?$8#$b#Yeah, that'll probably make a smash hit.$11",
-"Core.TraceV.EarlyHeart.26": "I could chug an ENTIRE liter of soda right now.$h$12#$b#I'd probably destroy my stomach lining though, so I won't.$6",
+"Core.TraceV.EarlyHeart.26": "I could chug an ENTIRE liter of soda right now.$h#$b#I'd probably destroy my stomach lining though, so I won't.$6",
 "Core.TraceV.EarlyHeart.27": "My fashion sense may be a little weird, but I love it. I don't care what anyone thinks.$h#$b#When it comes to what makes me happy, the only person who's opinion matters is my own.$l",
 "Core.TraceV.EarlyHeart.28": "If you ever hear rustling in bins at night, it definitely ain't my doing.$h#$b#It's probably just some raccoon or a trash goblin.$l$u#$e#That's the whole truth and I'm sticking to it.$h",
 "Core.TraceV.EarlyHeart.29": "Have you noticed the lack of toilets in this town? It's... really weird.$a#$b#Please tell me you have a toilet.$u#$e#Wait... I don't have a toilet!$u",
@@ -1346,6 +1346,7 @@
 //CTs
 "Core.TraceV.UnlockedFromStartIntroduction": "Heyo, I don't think I've ever seen you around before!$h#$b#Name's Trace - hobbyist guitarist, baker and artist extraordinaire!$l#$b#Things you need to know about me? Hm... I've got a pet snail and zero brain to mouth filter.$h#$b#Thought goes through my head? Out it goes!$11#$b#Anyway, hope to see you around buckaroo!$h",
 "Core.TraceV.PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
+"Core.TraceV.YouAttackedJeremy": "Did you hear that massive explosion by my house, @? What the heck was that?!$u#$b#Eve's usually the one blowing stuff up. Maybe she was up to something again?$6",
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",
@@ -1393,6 +1394,8 @@
 
 "Core.JeremyTS.Introduction": "Hmm... I sense something odd about you. Something... foresty.#$b#Are you able to hear me, human?$2#$b#...#$b#Based on your expression, I will assume that you can.$1#$b#Hello, I am Jeremy T. Snail, the resident mullosk of Trace's abode.$2#$b#I feel we shall get along quite well.$1",
 "Core.JeremyTS.JeremyBetrayed": "...$2",
+"Core.JeremyTS.YouAttackedJeremy.True": "Are you going to attempt your tomfoolery again with me, @?$2#$b#I am not typically a violent mullosk, but I do not take kindly to being attacked.",
+"Core.JeremyTS.YouAttackedJeremy.False": "%Jeremy casts you a glare. They have not forgotten the slingshot incident.",
 
 "Core.JeremyTS.Spring.Day.1": "sd1",
 "Core.JeremyTS.Spring.Day.12": "sd12", // Day before the Egg Festival
@@ -1413,6 +1416,11 @@
 "Core.JeremyTS.Winter.Day.7": "wd7", // Day before the Ice Festival
 "Core.JeremyTS.Winter.Day.24": "wd24", // Day before Winter Star
 "Core.JeremyTS.Winter.Day.28": "wd28",
+
+//CFD
+"Core.JeremyTSnail.Dumpster": "$query HAS_SEEN_EVENT Current 112#Hm. Did you find any of my brethren inside that bin?$2#$b#If so, please bring them to me so I may inform them that such behavior is unsanitary.#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR.CP.SFX.SnailCry|%As you lift the trash can lid, you feel Jeremy's eye stalks burn into your soul.#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR.CP.SFX.SnailCry",
+"Core.JeremyTSnail.Slingshot.1": "$query PLAYER_HAS_MAIL Current DitR_M_AttackedJeremyToday#%The projectile hits Jeremy's shell and bounces off with a thunk.#$b#%Jeremy gathers the power of all their snail friends in the valley and blasts you with a powerful wave of snail magic.#$b#%You are obliterated by the snagic.#$action spacechase0.SpaceCore_PlaySound explosion#$action AddConversationTopic DitR_CT_YouAttackedJeremy 999#$action RemoveMail Current DitR_M_AttackedJeremyToday received all#$action spacechase0.SpaceCore_DamageCurrentFarmer 9999|%The projectile hits Jeremy's shell and bounces off with a thunk.#$b#%They cast you a warning glare to not try that again.#$action AddMail Current DitR_M_AttackedJeremyToday received#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR.CP.SFX.SnailCry",
+"Core.JeremyTSnail.Slingshot.2": "$query PLAYER_HAS_MAIL Current DitR_M_AttackedJeremyToday#%The projectile hits Jeremy's shell and bounces off with a thunk.#$b#%Jeremy harnesses the magic of their snail friends and hovers into the air, hurtling towards you at light speeds.#$b#%You are obliterated by the snagic.#$action spacechase0.SpaceCore_PlaySound explosion#$action AddConversationTopic DitR_CT_YouAttackedJeremy 999#$action RemoveMail Current DitR_M_AttackedJeremyToday received all#$action spacechase0.SpaceCore_DamageCurrentFarmer 9999|%The projectile hits Jeremy's shell and bounces off with a thunk.#$b#%They cast you a warning glare to not try that again.#$action AddMail Current DitR_M_AttackedJeremyToday received#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR.CP.SFX.SnailCry",
 
 /*
  ██████╗ ██╗███████╗████████╗███████╗

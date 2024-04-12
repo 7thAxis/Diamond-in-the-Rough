@@ -22,10 +22,6 @@
             "Target": "Characters/Dialogue/SenS, Characters/Dialogue/EveT, Characters/Dialogue/WaffleW, Characters/Dialogue/PipoP",
             "Entries": { 
 
-                //Misc
-                "HitBySlingshot": "{{i18n:Core.{{TargetWithoutPath}}.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
-                "DumpsterDiveComment": "{{i18n:Core.{{TargetWithoutPath}}.Dumpster}}",
-
                 //Specific Days
                 "spring_1": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.1}}",
                 "spring_12": "{{i18n:Core.{{TargetWithoutPath}}.Spring.Day.12}}",
@@ -49,10 +45,7 @@
                 "AcceptBirthdayGift_Liked": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Like}}",
                 "AcceptBirthdayGift_Disliked": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Dislike}}",
                 "AcceptBirthdayGift_Hated": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Negative}}",
-                "AcceptBirthdayGift_Neutral": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Neutral}}",
-
-                //Not datable
-                "RejectBouquet_NotDatable": "{{i18n:Core.{{TargetWithoutPath}}.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}"
+                "AcceptBirthdayGift_Neutral": "{{i18n:Gifts.{{TargetWithoutPath}}.BirthdayGift.Neutral}}"
 
              }
         },
@@ -63,7 +56,14 @@
             "Entries": { 
 
                 //Gifts
-                "AcceptGift_(O)StardropTea": "{{i18n:Gifts.{{TargetWithoutPath}}.StardropTea}}"
+                "AcceptGift_(O)StardropTea": "{{i18n:Gifts.{{TargetWithoutPath}}.StardropTea}}",
+                
+                //Not datable
+                "RejectBouquet_NotDatable": "{{i18n:Core.{{TargetWithoutPath}}.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",
+
+                //Misc
+                "HitBySlingshot": "{{i18n:Core.{{TargetWithoutPath}}.Slingshot.{{Random:{{Range: 1, 2}}}}}}",
+                "DumpsterDiveComment": "{{i18n:Core.{{TargetWithoutPath}}.Dumpster}}"
              }
         },
 

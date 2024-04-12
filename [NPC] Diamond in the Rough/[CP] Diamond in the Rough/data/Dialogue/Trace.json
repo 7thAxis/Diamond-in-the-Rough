@@ -73,6 +73,7 @@
 
             //Conversation Topics
                 "DitR_CT_PipoShorts": "{{i18n:Core.TraceV.PipoShorts}}",
+                "DitR_CT_YouAttackedJeremy": "{{i18n:Core.TraceV.YouAttackedJeremy}}",
                 
             //Gifts
                 "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",

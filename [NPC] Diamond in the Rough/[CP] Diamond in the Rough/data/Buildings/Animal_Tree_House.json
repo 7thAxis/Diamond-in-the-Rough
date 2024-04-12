@@ -29,7 +29,7 @@
                 "IndoorMap": "Animal_Tree_House",
                 "IndoorMapType": "StardewValley.AnimalHouse",
                 "MaxOccupants": 12,
-                "ValidOccupantTypes": [ "Barn", "Coop", "DitR_Snail" ],
+                "ValidOccupantTypes": [ "Barn", "Coop", "DitR_Snail", "Fellowclown.ClownCore_TropicalHutch" ],
                 "AllowAnimalPregnancy": true,
                 "IndoorItems": [
                   {

@@ -83,7 +83,7 @@
              "Id": "DitR.TriggerActions.ConsumedQuestEggMayonaise",
              "Trigger": "spacechase0.SpaceCore_OnItemEaten",
              "Actions": [  
-               "AddConversationTopic DitR_M_JeremyBetrayed 3", 
+               "AddConversationTopic DitR_CT_JeremyBetrayed 3", 
                "AddFriendshipPoints JeremyTSnail -1000", "AddMail Current DitR_M_JeremyBetrayed received",
                "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.VoidLavaSnailMayonnaiseBetrayal.HUDMessage}}\" (O){{ModID}}.Items.VoidLavaSnail"
               ],

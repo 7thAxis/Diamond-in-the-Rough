@@ -38,7 +38,8 @@
                         "RemoveMail Current DitR_M_PipoP_OverrideSeenToday",
                         "RemoveMail Current DitR_M_CowD_OverrideSeenToday",
                         "RemoveMail Current DitR_M_GotTraceCoffeeToday",
-                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday"
+                        "RemoveMail Current DitR_M_AcceptedVoidLavaSnailQuestToday",
+                        "RemoveMail Current DitR_M_AttackedJeremyToday"
                     ]
                 }
             }

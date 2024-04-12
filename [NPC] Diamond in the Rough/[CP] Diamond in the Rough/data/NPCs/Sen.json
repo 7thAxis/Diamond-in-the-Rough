@@ -131,10 +131,8 @@
         {
             "Action": "EditData",
             "Target": "Data/Objects",
-            "TargetField": [ "808", "ContextTags" ],
-            "Entries": {
-              "#-1": "propose_roommate_sens"
-            },
+            "TargetField": [ "808", "ContextTags" ], //808 = Void Ghost Pendant
+            "Entries": { "#-1": "propose_roommate_sens" },
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}.Events.SenS.10h.P3": true,
                 "HasFlag:currentPlayer |contains=DitR_M_SenS_Romantic": false
