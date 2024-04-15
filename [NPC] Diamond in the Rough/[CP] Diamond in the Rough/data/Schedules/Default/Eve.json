@@ -33,8 +33,6 @@
 					2100 12 5 evet_sleep
 				",
 
-				"rain2": "GOTO spring",
-
 				"winter_15":"
 					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/

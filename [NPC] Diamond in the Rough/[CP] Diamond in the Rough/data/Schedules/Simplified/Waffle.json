@@ -49,7 +49,7 @@
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
 					610 7 4 wafflew_lay/
 					700 6 4 wafflew_sitleft/
-					900 SeedShop 13 23 wafflew_sitleft/
+					900 SeedShop 13 24 wafflew_sitleft/
 					1500 2 19 wafflew_sitright/
 					1600 Town 79 58 wafflew_lay/
 					1800 {{ModID}}.Maps.Eve_House_Interior 6 4 wafflew_sitleft/

@@ -65,11 +65,11 @@
 
             //Purple Shorts Easter Egg
             "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts}}", 
-            "RejectItem_(O)686": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Spinner
-            "RejectItem_(O)687": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Dressed Spinner
-            "RejectItem_(O)691": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Barbed Hook
-            "RejectItem_(O)856": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}", //Curiosity Lure
-            "RejectItem_(O)877": "{{i18n:Gifts.PipoP.PurpleShorts.Revocation}}" //Quality Bobber
+            "RejectItem_(O)686": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Spinner
+            "RejectItem_(O)687": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Dressed Spinner
+            "RejectItem_(O)691": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Barbed Hook
+            "RejectItem_(O)856": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}", //Curiosity Lure
+            "RejectItem_(O)877": "{{i18n:Gifts.PipoP.UnluckyPurpleShorts.Revocation}}" //Quality Bobber
         }
     }
         ]

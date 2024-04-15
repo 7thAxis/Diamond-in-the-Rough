@@ -1206,7 +1206,7 @@
 "Core.TraceV.EarlyHeart.2": "Hey farmer, have you seen those wiggly things on the ground?$h#$b#I pushed the dirt around and found a chicken statue. Weird stuff, huh?$6",
 "Core.TraceV.EarlyHeart.3": "Hey hey hey, good morning farmer!$l#$b#...$h#$b#It is morning, right?$h",
 "Core.TraceV.EarlyHeart.4": "Uhg, shoes suck. Sandals are where it's at.$9#$b#Slip 'em on and off, no tying, your toes can breathe...$l#$e#Only downside is the ease of toe stubbing, I guess.$6",
-"Core.TraceV.EarlyHeart.5": "Ey farmer, are you a cat person or a dog person?$h#$b#...#$b#That's awesome! I'm a cat and snail person myself.$l",
+"Core.TraceV.EarlyHeart.5": "Ey farmer, are you a cat person or a dog person?$h#$b#...#$b#That's awesome! I'm a snail and cat person myself.$l#$e#Though I do also like birds...$6#$b#Hmmm. Maybe I'm too indecisive for my own good.$6",
 "Core.TraceV.EarlyHeart.6": "There is so much wrong with durians.$a#$b#The spikes, the smell, the color...#$b#I sure am glad they ain't native to these parts.$11",
 "Core.TraceV.EarlyHeart.7": "Did you know I once considered shaving my head, farmer?$u#$b#...#$b#Well there's no chance you'd know that, 'cause I would never EVER shave off my luxurious mane.$l",
 "Core.TraceV.EarlyHeart.8": "There's something to be said about giant crops.#$b#They're massive.$h#$e#I hope that was as deeply thought provoking for you as it was for me, farmer.",
@@ -1578,7 +1578,8 @@
 "Gifts.SenS.MandoStickyRice": "Oooh a mango dish! I don't get the chance to try things like this very often.#$b#Thank you so much, @!$h",
 "Gifts.SenS.Sweetener": "Oh...! This is like liquid sugar incarnate!$h#$b#A simply divine taste gifted from nature. Thanks, @!$7",
 "Gifts.SenS.Coffee": "Oh yum, coffee! This will give me tons of energy for my next project.$h#$b#Maybe a little too much, hehe.$8",
-"Gifts.SenS.UnluckyPurpleShorts": "Oh, a pair of weird pants! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure!$h#$action AddMail Current DitR_M_SenShorts received",
+"Gifts.SenS.UnluckyPurpleShorts": "Oh, a pair of weird pants! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure!$h#$b#Oh and if you want them back, bring me something super stinky, okay?$12#$action AddMail Current DitR_M_SenShorts received#$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action spacechase0.SpaceCore_PlaySound give_gift",
+"Gifts.SenS.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_SenShorts Any#Oh, what a delightful fragrance!$h#$b#This smells much better than these weird pants. Here, have them back.$h[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action RemoveItem (O)879 1#$action spacechase0.SpaceCore_PlaySound give_gift#$action RemoveMail Current DitR_M_SenShorts all|Oh, what a delightful fragrance!$h#$b#I'm afraid I don't have anything of proper stink levels to trade back to you.$s#$b#Sorry, @, it just wouldn't be fair to take that!$s",
 
 "Gifts.SenS.Crocus.Birthday": "...!!$11#$b#You... you remembered my birthday, and my favorite flower!$7#$b#@, you don't understand. This means the world to me. Thank you so much.$l",
 "Gifts.SenS.Cloth.Birthday": "@, this is amazing! Thank you for the cloth, I've been in dire need of some.$h#$b#Getting it from you on my birthday is even better!$h",
@@ -1703,8 +1704,8 @@
 "Gifts.PipoP.SpicyEel": "%Pipo nibbles on the eel and then hisses from the spice!",
 "Gifts.PipoP.RedMushroom": "%Pipo knows better than to eat strange red forage.",
 "Gifts.PipoP.WildHorseradish": "%Pipo knows the dark secrets of the wild horseradish.",
-"Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts.#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
-"Gifts.PipoP.PurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
+"Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts. You'll probably need a hook or something if you ever want those back...#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
+"Gifts.PipoP.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
 
 /*

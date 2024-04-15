@@ -29,8 +29,6 @@
 					2100 7 4 wafflew_sleep
 				",
 
-				"rain2": "GOTO spring",
-
 				"winter_15":"
 					0 {{ModID}}.Maps.Eve_House_Interior 7 4/
 					610 7 4 wafflew_lay/
