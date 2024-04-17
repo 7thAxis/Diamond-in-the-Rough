@@ -27,6 +27,7 @@
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Priority": "Early",
             "Entries": { 
                 "{{ModID}}.Items.UnluckyPurpleShorts": { 
 
@@ -42,6 +43,17 @@
                  }
              }
         },
+        //Give to people that want to add a reaction
+        /*
+        {
+            "LogName": "Allow Unlucky Purple Shorts Gifting",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "TargetField": [ "7thAxis.DitR.CP.Items.UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
+            "Entries": { "NPCInternalName": true },
+            "When": { "HasMod": "7thAxis.DitR.CP" }
+        },
+        */
     //---------------------------- GIFT TASTE DATA ------------------------------------------// 
         {
             "LogName": "Hatred Override",

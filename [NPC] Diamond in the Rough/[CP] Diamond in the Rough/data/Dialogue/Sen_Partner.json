@@ -275,41 +275,6 @@
                 "Spouse": "SenS",
                 "Have Shadow Kids":true
             }
-        },
-        {
-			"LogName": "Sen UCR compatibility",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/SenS",
-			"Entries": {
-				"give_flowersA": "{{i18n:Relationship.SenS.BouquetAccept.1}}",
-				"give_flowersB": "{{i18n:Relationship.SenS.BouquetAccept.2}}",
-				"give_pendant": "{{i18n:Relationship.SenS.EngagementAccept}}",
-				"stardrop_gift": "{{i18n:Relationship.SenS.StarDrop.{{SenPartnershipRoute}}}}",
-				"rejectNPCA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
-				"rejectNPCB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
-				"reject_two_heartA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
-				"reject_two_heartB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
-				"reject_four_heartA": "{{i18n:Relationship.SenS.BouquetRejection.1}}",
-				"reject_four_heartB": "{{i18n:Relationship.SenS.BouquetRejection.2}}",
-				"engageA": "{{i18n:Relationshipre.SenS.PendantRejection.1}}",
-				"engageB": "{{i18n:Relationship.SenS.PendantRejection.1}}",
-				"marriedA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
-				"marriedB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
-				"refusal_knownA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
-				"refusal_knownB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
-				"refusal_botherA": "{{i18n:Relationship.SenS.PendantPester.1}}",
-				"refusal_botherB": "{{i18n:Relationship.SenS.PendantPester.2}}",
-				"refusal_no_heartsA": "{{i18n:Relationship.SenS.PendantRejection.1}}",
-				"refusal_no_heartsB": "{{i18n:Relationship.SenS.PendantRejection.2}}",
-				"birthdayLoveA": "{{i18n:Core.SenS.BirthdayGift.Positive.1.Relationship}}",
-				"birthdayLoveB": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}",
-				"birthdayLikeA": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}",
-				"birthdayLikeB": "{{i18n:Core.SenS.BirthdayGift.Positive.2}}",
-				"birthdayDislikeA": "{{i18n:Core.SenS.BirthdayGift.Negative.1}}",
-				"birthdayDislikeB": "{{i18n:Core.SenS.BirthdayGift.Negative.1}}",
-				"birthdayNeutralA": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}",
-				"birthdayNeutralB": "{{i18n:Core.SenS.BirthdayGift.Neutral.Relationship}}"
-			}
-		}
+        }
     ]
 }

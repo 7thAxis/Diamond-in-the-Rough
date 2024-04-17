@@ -37,6 +37,9 @@
             "Target": "Characters/Dialogue/SenS",
             "Entries": {
 
+                //Locations
+                "sapphicsaph_pitv.CommunityCenterPride_64_16": "{{i18n:Core.SenS.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
                 //Misc specific days
                 "spring_20": "{{i18n:Core.SenS.Spring.Day.20}}",
                 "summer_19": "{{i18n:Core.SenS.Summer.Day.19{{SenRandTokens}}}}",
@@ -151,6 +154,10 @@
                 "RejectItem_(O)305": "{{i18n:Gifts.SenS.VoidEgg}}",
                 "RejectItem_(O)767": "{{i18n:Gifts.SenS.BatWing}}",
 
+                "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.SenS.PridePop}}",
+                "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.SenS.GaylacticCookie}}",
+                "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.SenS.TastyAceCookie}}",
+
                 //birthday
                 "AcceptBirthdayGift_(O)418": "{{i18n:Gifts.SenS.Crocus.Birthday}}",
                 "AcceptBirthdayGift_(O)428": "{{i18n:Gifts.SenS.Cloth.Birthday}}",
@@ -191,7 +198,7 @@
                 //Favorite Thing Question
                 "SenFavoriteThing": "{{i18n:Core.SenS.SenFavoriteThing}}",
                 "SenNoFavoriteThing":"{{i18n:Core.SenS.SenNoFavoriteThing}}",
-                "SenFavoriteFollowup": "{{i18n:Core.SenS.SenFavoriteFollowup}}",
+                "SenFavoriteFollowup": "{{i18n:Core.SenS.SenFavoriteFollowup{{SenRandTokens}}}}",
 
                 //Murder Question
                 "SenNoKill": "{{i18n:Core.SenS.SenNoKill}}",

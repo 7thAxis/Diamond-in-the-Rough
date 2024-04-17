@@ -50,8 +50,15 @@
 					610 7 4 wafflew_lay/700 6 4 wafflew_sitleft/
 					800 EastScarp_Village 76 99 wafflew_sitright/
 					1000 EastScarp_VillageInn 27 29 wafflew_sitleft/
-					2000 Town 105 92 wafflew_sitleft/
-	",
+					2000 Town 105 92 wafflew_sitleft
+				",
+
+				"sapphicsaph_pitv.PrideFestival_2": "
+					0 Town 62 34/
+					610 62 34 wafflew_sitleft/
+					900 CommunityCenter 3 8 wafflew_sitleft/
+					1700 {{ModID}}.Maps.Eve_House_Interior 7 4 wafflew_sleep
+				"
 			}
 		},
  //---------------------------- OVERRIDES ------------------------------------------//

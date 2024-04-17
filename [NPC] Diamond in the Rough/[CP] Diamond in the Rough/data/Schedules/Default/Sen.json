@@ -152,7 +152,13 @@
 					2330 Town 37 96", //Nightmarket
 
 				"winter_16": "GOTO winter_15",
-				"winter_17": "GOTO winter_15"
+				"winter_17": "GOTO winter_15",
+
+				"sapphicsaph_pitv.PrideFestival_2": "
+					0 sapphicsaph_pitv.CommunityCenterPride 64 16/
+					610 64 16 2/
+					1800 Town 26 21 sens_wigglesit
+				"
 			}
 		},
 		{

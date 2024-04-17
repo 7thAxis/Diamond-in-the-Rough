@@ -484,6 +484,9 @@
 "Core.EveT.Locations.EastScarp.BeachHangout.False": "Hey, @! Come to hang out with us?$8#$b$Well take a seat, Eli tells a killer ghost story!$h",
 "Core.EveT.Locations.Inn.SpiritsEve.True": "Boys... If you abandon our weekend ritual - abandon ME - again, you're waking up with a mega bomb under your pillows.$a#$b#Oh hey @, don't mind me. Just harassing the bros for my own stupid screw up.$h",
 "Core.EveT.Locations.Inn.SpiritsEve.False": "Holy cow, Rosa really went all out on the decorations for the party tonight!$8#$b#Serious props, this must have taken ages.$h",
+"Core.EveT.Locations.Town.PrideFest": "Patience is a virtue, Trace.$a",
+"Core.EveT.Locations.CommunityCenter.PrideFest.1": "I don't usually talk about it much, but the atmosphere has got me feeling pretty comfy.$h#$b#I'm pretty much only into ladies.$8#$b#Boys have cooties, gross.$a",
+"Core.EveT.Locations.CommunityCenter.PrideFest.2": "I'm sitting here thinking about stuff and I think I've come to the realization that I'm demiromantic.#$b#I've only ever had a single relationship with a girl I was extremely close with. I've never been able to form that spark with anybody else.$s",
 
 //CFD
 "Core.EveT.Slingshot.1": "Oww.. Ow!! What the hell, @?!$u",
@@ -492,11 +495,16 @@
 "Core.EveT.BouquetRejection.1": "Eeeeh... Sorry buddy, but the answer's no.$6#$b#I appreciate the gesture and all but I ain't exactly interested.$s",
 "Core.EveT.BouquetRejection.2": "Sorry, no-can-do, buckaroo.$6#$b#I'm afraid my heart was already taken long ago.$l",
 
-//Conversation Topics
+//CTs
 "Core.EveT.UnlockedFromStartIntroduction": "Oh hey, you're that new farmer ain't ya?$h#$b#I'm Eve, a completely normal and well adjusted adult.$l#$b#Definitely.#$b#I hope to see you around!$8",
 "Core.EveT.UsedExpiredMegaBomb": "$query PLAYER_HAS_MAIL Current DitR_M_EveCaughtinTrash Any#So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#You found that thing in my trash, didn't you?$a#$b#Stay outta my garbage, ya weirdo.$a|So, how did using that bomb you found in my trash go? Pretty anti-climactic, I presume?$h#$b#What? Yeah I knew you were in my trash, I have a security camera installed.$6#$b#Stay outta my garbage, ya weirdo.$a#$action Current RemoveMail DitR_M_EveCaughtinTrash all",
 "Core.EveT.UsedMultipleExpiredMegaBombs": "$query PLAYER_HAS_MAIL Current DitR_M_EveCaughtinTrash Any#Oh Yoba. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a|Caught you on my security camera again. How many stinky old bombs are you gonna dig outta my trash?$a#$b#Did you find them useful?$6#$b#Somehow I highly, highly doubt that.$a#$action RemoveMail DitR_M_EveCaughtinTrash all",
 "Core.EveT.GunnarHasaBomb": "...Did you seriously rummage around in my trash and give Gunnar one of those nasty old mega bombs?$6#$b#Ya know usually I'd call ya a weirdo for dumpster digging, but thanks for enabling the kid. I live for the chaos.$9#$action AddFriendshipPoints EveT 5",
+
+"Core.EveT.WelcomeToPride": "Trace told me they can't walk straight earlier and I was like \"What are you even going on about, should I take you to Harvey's?\".$6#$b#It took me an embarrassingly long time to get the joke.$l",
+"Core.EveT.PrideSeasonStart": "Ready for pride season, @? Get ready for rainbows EVERYWHERE!$h#$b#Down with the binary! Bring the gay agenda upon us!$10#$b#Muahahaha!$11",
+"Core.EveT.PrideSeasonGift": "I got a cookie in the mail this morning.$h#$b#Aaand Waffle promptly stole it off the table.$s#$b#No cookies for me, sigh.$s",
+"Core.EveT.HatMouseTheAlly": "My ma never liked the fact that that I never had an eye for dudes.$s#$b#She was always like \"When are you gonna settle down and get married so I can have some grandbabies\".$a#$b#She's not around anymore so it is what it is, but it still bugs me.$s",
 
 "Core.EveT.SenMet": "Sigh, sometimes I think about an old friend and her kiddo...$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
 "Core.EveT.DreamReveal": "An old friend of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
@@ -605,6 +613,11 @@
 "Core.WaffleW.BouquetRejection.1": "%...Waffle is a dog. Please don't be a weirdo, thanks.",
 "Core.WaffleW.BouquetRejection.2": "%\"Cease this instant or I'm calling the police.\" -7thAxis",
 
+//Locations
+"Core.WaffleW.Locations.Town.PrideFest": "%Waffle eagerly awaits the festivities to start... She knows there are cookies inside that building that must be devoured!",
+"Core.WaffleW.Locations.CommunityCenter.PrideFest.1": "%Waffle is a good girl and she deserves a cookie. She stares at you with cookie obsessed eyes.#$b#%Don't look for too long or you may contract cookie madness.",
+"Core.WaffleW.Locations.CommunityCenter.PrideFest.2": "Bowwow, wow wow wow!$a#$b#%Waffle demands a cookie. Do you dare refuse her request?",
+
 //CTs
 "Core.WaffleW.UnlockedFromStartIntroduction": "Bowwow wow!$h#$b#%Waffle excitedly rounds your feet, then jumps up to your ankles. What a sweet pup!",
 
@@ -684,6 +697,11 @@
 "Core.PipoP.Dumpster": "%Pipo quietly judges you for your actions.",
 "Core.PipoP.BouquetRejection.1": "%...Pipo is a cat. Please don't be a weirdo, thanks.",
 "Core.PipoP.BouquetRejection.2": "%\"Cease this instant or I'm calling the police.\" -7thAxis",
+
+//Locations
+"Core.PipoP.Locations.Town.PrideFest": "%Pipo watches the group of 3 obnoxious fools from afar.#$b#%They wonder how hard would it be to snatch Trace's wallet...",
+"Core.PipoP.Locations.Town.PrideFest.1": "Pipoipi.#$b#...#$b#...You know what? I feel like speaking today.#$b#I am frequently asked \"As a cat, why do you identify as non-binary?\".#$b#To which I must retort \"Meow meow meow.\".#$b#But the truth is, I feel no attachment to your mortal human concept of gender.#$b#I am simply a Pipo.#$b#Bow down to me.",
+"Core.PipoP.Locations.Town.PrideFest.2": "Meowmowmeow.#$b#...#$b#...You know what? I feel like speaking today.#$b#I am frequently asked \"As a cat, why do you identify as non-binary?\".#$b#To which I must retort \"Meow meow meow.\".#$b#But the truth is, I feel no attachment to your mortal human concept of gender.#$b#I am simply a Pipo. Bow down to me.",
 
 //CTs
 "Core.PipoP.UnlockedFromStartIntroduction": "%Pipo casts you a judgemental side eye. They are unsure what to make of you...",
@@ -922,9 +940,9 @@
 "Core.SenS.Summer.Day.1": "Goodness gracious, the summer is so brutal.$s#$b#While I was perusing an atlas in the library, I read about the Calico Desert. Apparently it's even hotter there.#$e#My first thought was \"No thank you, I never want to go there!\".$u",
 "Core.SenS.Summer.Day.10": "My costume tomorrow is going to be sooo uncomfortable.$s#$b#It's actually just a hat and I will be burying my body in the sand.$8#$e#Please, don't take my hat off or draw attention to me.$s#$e#Huh, why am I burying myself in the sand?$6#$b#Because the sun's out, duh.$6#$e#I guess I could stand under a tree, but then I'd be far away from everyone.$s#$e#Huh? Why don't I make a full body costume?$6#$b#You know, you ask a lot of questions, @.$a",
 "Core.SenS.Summer.Day.19": "Oh hello, @!$h#$b#{{SDay19}}",
-    "Core.SenS.SDay19.1": "I hope things on %farm are going swell! It sounds like they are, based on the newspaper I found.$h",
-    "Core.SenS.SDay19.2": "The land on %farm is absolutely beautiful! I snuck a peek last night.$l",
-    "Core.SenS.SDay19.3": "I'm thinking of snooping around your farm tonight. I hope you don't mind.$8#$b#The crops growing on your farm look delicious!$l#$e#If any are missing in the morning, I'm sorry in advance.$8",
+    "Rand.SenS.SDay19.1": "I hope things on %farm are going swell! It sounds like they are, based on the newspaper I found.$h",
+    "Rand.SenS.SDay19.2": "The land on %farm is absolutely beautiful! I snuck a peek last night.$l",
+    "Rand.SenS.SDay19.3": "I'm thinking of snooping around your farm tonight. I hope you don't mind.$8#$b#The crops growing on your farm look delicious!$l#$e#If any are missing in the morning, I'm sorry in advance.$8",
 "Core.SenS.Summer.Day.27": "I've made a costume of a moonlight jelly for tomorrow.#h#$b#I'm gonna be pretty uncomfy because I'll need to curl up in a ball to fit inside.$8#$e#I hope no one thinks I'm a real jelly and tries to remove my disguise.$u",
 "Core.SenS.Summer.Day.28": "Have you noticed the leaves starting you turn, @? It seems fall is right around the bend!$h#$b#Oooh... I can't wait! I'm going to collect all the prettiest leaves I can possibly find.$7",
 
@@ -954,8 +972,14 @@
 "Core.SenS.Dumpster": "Hey! That was my trash can!$u",
 "Core.SenS.Slingshot.1": "@...! Please stop, it hurts!$10",
 "Core.SenS.Slingshot.2": "O-ow, @!$9#$b#P-Please stop, you're scaring me!$10",
+"Core.SenS.BouquetRejection.1": "Oh, that's a very pretty bunch of flowers, @!$h#$b#You should hang onto those, they wouldn't thrive well in my cave...$8",
+"Core.SenS.BouquetRejection.2": "That is so many flowers...!$u#$b#W-wait, are you offering those to me?$11",
 
-//CONVERSATION TOPICS
+//Locations
+"Core.SenS.Locations.CommunityCenter.PrideFest.1": "Hello, @! Enjoying the party?$h#$b#I keep sneaking colorful goodies from the kitchen. They all taste delightful.$7#$b#You know, I keep overhearing chatter about body forms folks find the most attractive.$6#$b#I don't think I quite understand that concept. Perhaps I should read a book on human attraction.$6",
+"Core.SenS.Locations.CommunityCenter.PrideFest.2": "Human gender fascinates me. Among our kind we are all considered \"non-binary\" by human standards.$6#$b#Learning human language was tricky as it introduced me to the foreign concept of gender identity.$8#$b#After much discussion with Krobus I found I resonated the most with masculine pronouns, so here we are!$h",
+
+//CTs
 "Core.SenS.SenIntroduction": "O-oh.. you're the person I met in the mines, aren't you?$u#$b#I-I promise that I come in peace!$u#$b#I hope that we will be able to get along... I came to the surface to learn more about your world.$8",
 "Core.SenS.DreamReveal": "Humans and Shadowfolk... Do you think we could someday co-exist?#$b#With time, care, and patience I think it's a future we can achieve.$h",
 "Core.SenS.ShadowPlay": "%Sen smells kinda funny.#$b#...What's that look for?$6#$b#Oh! Right, humans find the smell of garbage off putting, don't they?$8",
@@ -986,6 +1010,11 @@
 "Core.SenS.LucikielRepIncrease": "It makes me incredibly happy that Lucikiel is adjusting into your society.$h#$b#It gives me hope that perhaps one day, I can as well...$l",
 "Core.SenS.JulietGremlin": "I've noticed a new dog in town! She's so very fluffy and cute.$7#$b#I wonder if she'd let me give her head pats.$h#$e#Animals tend to be a bit apprehensive towards me at first...$8",
 "Core.SenS.SterlingTrash": "During my nightly routine of rummaging in the trash, I found a nasty surprise.$u#$b#I'd... rather not talk about it.$a#$e#It was bad enough that {{SenKrobusReference}} and I decided to stop trash-picking for the night.$8",
+
+"Core.SenS.WelcomeToPride": "Today feels quite colorful, wouldn't you say?$h#$b#I feel like filling in a coloring book and using the brightest colors possible! Care to join me for a coloring session?$7#$b#Sorry if my markers are a tad dried up.$8",
+"Core.SenS.PrideSeasonStart": "Hmhmhm.~ Everyone seems so colorful and bustling today.$h#$b#I should sneak a paper and see what all the hub-bub is about.$h",
+"Core.SenS.PrideSeasonGift": "I found a colorful cookie in a mailbox earlier!$h#$b#I was sooo very tempted to take it, but I didn't want to ruin anyone's day.$8#$b#Now I really want a cookie.$s#$action AddMail Current DitR_M_SenPrideCookie received",
+"Core.SenS.HatMouseTheAlly": "I read that in some parts of the world, folks are mistreated for having identities outside of the social standard.$s#$b#What terrible, closed-minded behavior!$a#$b#All people should be respected for who they are, not packed into a tiny box.$s",
 
 //Krobus Reference
 "Core.SenS.KrobusKnown": "Krobus",
@@ -1343,10 +1372,27 @@
 //Beach
 "Core.TraceV.Locations.Beach.JamOut.Skeleton": "Fix my head, stitch my soul.~$h#$b#Find out where it all went wrong.~$8#$b#Come and breathe the air into my lungs.~$h#$b#I just wanna be your skeleton.~$l",
 
+//PrideFest
+"Core.TraceV.Locations.Town.PrideFest": "Open the building already, I need my Enby Eclair RIGHT NOW!$a#$b#Ya hear me?!$a",
+"Core.TraceV.Locations.CommunityCenter.PrideFest.1": "Events like this really make me feel right at home in the valley.$l#$b#Before moving here I was mistaken for a girl constantly. It sucked big time.$s#$b#Most folks out here take the initiative to actually ask and get to know you. It's really nice, ya know?$l",
+"Core.TraceV.Locations.CommunityCenter.PrideFest.2": "Honestly I knew I was queer as all hell from the time I was a kiddo. I grew up with crushes on girls, guys and everybody in-between.$h#$b#Took me a long time to understand I was non-binary, though.$6#$b#When it clicked, it finally made complete sense why being called a girl made me recoil inside.$s#$b#I like to be pretty, but I ain't a lady. I hope that makes sense.$11",
+
 //CTs
 "Core.TraceV.UnlockedFromStartIntroduction": "Heyo, I don't think I've ever seen you around before!$h#$b#Name's Trace - hobbyist guitarist, baker and artist extraordinaire!$l#$b#Things you need to know about me? Hm... I've got a pet snail and zero brain to mouth filter.$h#$b#Thought goes through my head? Out it goes!$11#$b#Anyway, hope to see you around buckaroo!$h",
 "Core.TraceV.PipoShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#...Why is Pipo running around in the stanky underwear you tried to pawn off on me???$u#$b#Man I thought I was a weirdo, but you sure do take the cake.$6|So uh... Pipo is running around in a pair of boxers.$6#$b#Man, just when I think I've seen it all. Life sure is full of surprises.$6",
 "Core.TraceV.YouAttackedJeremy": "Did you hear that massive explosion by my house, @? What the heck was that?!$u#$b#Eve's usually the one blowing stuff up. Maybe she was up to something again?$6",
+
+"Core.TraceV.WelcomeToPride": "Hey there, @! I'm having such a hard time walking straight today.$8#$b#As if I was ever actually trying.$9",
+"Core.TraceV.PrideSeasonStart": "Hey hey hey, it's the start of pride season!$h#$b#Just so you know, if you ever need a safe space, head down to the Scarp.$l#$b#Most of us are all different flavors of not particularly straight over there.$9",
+"Core.TraceV.PrideSeasonGift": "I got a pretty gay cookie in the mail this morning. Ate that thing up in a heartbeat.$h#$b#It was delicious.$9#$b#Jeremy was pretty mad that I didn't share, poor guy.$6#$b#In my defense they wouldn't have appreciated the gay flavor!$6",
+"Core.TraceV.HatMouseTheAlly": " It's always nice to have allies in the valley. Harvey does yearly check-ups on my surgery scars to make sure they don't get infected or anything.$h#$b#I was a pretty big idiot when I originally got the surgery, didn't take it easy and it wasn't pretty.$6#$b#If you ever get surgery for anything, don't try to climb a mountain a few days later, got it?$a",
+
+//CFD
+"Core.TraceV.Slingshot.1": "Hey, what the hell?! What did I do to deserve that?$a#$b#Stop it, leave me alone!$a",
+"Core.TraceV.Slingshot.2": "Stop that! This is really shitty of you, @.$a#$b#I didn't do nothing to deserve this!$a#$b#...Probably...$s",
+"Core.TraceV.Dumpster": "Find anything good in there?#$b#Last time I checked a can I found an army of ants having a dance party.$h#$b#I lowered the lid, of course. I don't wanna be a tiny ant rave party crasher.$l",
+"Core.TraceV.BouquetRejection.1": "...Huh?$u#$b#Oh uh, wow. I'm flattered.$s#$b#Sorry, @- To be honest with you I'm still recovering from a pretty bad heartbreak.$s#$b#I ain't ready for another relationship yet.$s",
+"Core.TraceV.BouquetRejection.2": "Oh uh... Wow.$u#$b#I feel awful turning you down, but a relationship isn't something I'm ready for at the moment.$s#$b#Maybe someday, but not right now.$11",
 
 //Clyric
 "Core.ClyricT.PhoneCall.1": "%Clyric is chattering on the phone. She doesn't appear to notice you.#$b#%\"I trust you're taking care of yourself?\"#$b#Of course I am, Lu.#$b#%\"So you aren't gallivanting around attempting to solve all of the Valley's problems from the shadows?\"#$b#...Noooo. What ever would give you that idea?#$b#%\"Well you see, I've received correspondence from an 'M. Rasmodius'...\"#$b#...Damnit, Rasmo!",
@@ -1498,6 +1544,10 @@
 "Gifts.EveT.ExpiredMegaBomb": "...I threw this away ages ago. What are ya doing rummaging around in my trash?$6#$b#Stop being a weirdo, ya weirdo.$a",
 "Gifts.EveT.Trash": "Dude. Seriously?$a",
 
+"Gifts.EveT.PridePop": "Hah, this is so cool! No pun intended.$h#$b#How'd they layer the colors like this? Musta been pretty tricky.$l",
+"Gifts.EveT.LesbianLollipop": "Get thee into my mouth, Satan.$11#$b#Just screwing around, thanks @!$h",
+"Gifts.EveT.GaylacticCookie": "Gotta hide this from Waffle, pronto.$s#$b#Any time I find myself in the possession of a cookie, she ends up stealing it.$a",
+
 //Trace
 "Gifts.TraceV.Love": "Oh wow... You really get me! This is fantastic, thanks!",
 "Gifts.TraceV.Like": "Hey, thanks! It means a lot that you thought about me.",
@@ -1509,6 +1559,11 @@
 "Gifts.TraceV.GoldenVoidLavaSnail": "Woah... that little snail is so shiny! I think I'll name them... Jeremy Jr. I'm sure they'll get along just dandy with Jeremy Sr.!",
 "Gifts.TraceV.UnluckyPurpleShorts": "$query PLAYER_HAS_MAIL Current DitR_M_TriedToGiveTraceStinkyPants Any#I'm serious buckaroo, I don't want your smelly boxers.$a#$b#Please burn them, or something-$6|WOAH. Okay. That is... one STANKY pair of underpants.$u#$b#I do not want your stanky underpants. I sincerely apologize, @.$6#$action AddMail Current DitR_M_TriedToGiveTraceStinkyPants received",
 
+"Gifts.TraceV.PridePop": "Oh man, it's so colorful! Taste the rainbow, haha!$h#$b#Thanks, buckaroo.$l",
+"Gifts.TraceV.TransTart": "If its called a Trans Tart, does that mean the tart is transgender?$h#$b#Good for you little buddy.$l#$b#Sorry I have to eat you now.$6",
+"Gifts.TraceV.EnbyEclair": "ENBY ECLAIR ENBY ECLAIR ENBY ECLAIR!$h#$b#Literally the best snack ever behind blackberry cobbler.$l#$b#Ya really do know the way to my heart, @.$h",
+"Gifts.TraceV.BiBerryMuffin": "I always appreciate a muffin that's into both guys and gals.$h#$b#Go go get 'em little guy--$l#$b#Wait, oops. Already ate them.$6",
+ 
 //Sen
 "Gifts.SenS.Love": "Oh! Thank you, @. This is one of my most favorite things ever!",
 "Gifts.SenS.Like": "Thank you very much, @! I'll make great use of this during my next project.",
@@ -1596,6 +1651,10 @@
 "Gifts.SenS.RodneyAutograph": "Oh my gosh, it's an autograph from the two time award winning author Rodney O'Brien!!$7#$e#I found a copy of his book in the trash.$h",
 "Gifts.SenS.SensCrocus": "Oh, that's...!$u#$b#That's one of the flower seeds I threw to the wind, isn't it?$7#$b#I can't believe it worked!$7",
 
+"Gifts.SenS.PridePop": "So. Many. Colors! It's otherworldly!$7#$b#Does it have magical properties? Will i become rainbow colored if I eat this?$h",
+"Gifts.SenS.GaylacticCookie": "$query PLAYER_HAS_MAIL Current DitR_M_SenPrideCookie Any, PLAYER_HEARTS Current SenS 8#...! Did you really remember I wanted one of these cookies, @?$7#$b#Thank you so much, you're the best. Have this shiny stone I found in the garbage.$h[74]#$action Current RemoveMail DitR_M_SenPrideCookie all|Oh!! I really wanted one of these, thank you so much @!$h#$b#%The cookie lasts about 2 seconds, then is gone...#$action Current RemoveMail DitR_M_SenPrideCookie all",
+"Gifts.SenS.TastyAceCookie": "Ace, ace, ace... I believe I read that means you don't find yourself \"physically\" interested in others?$6#$b#I feel that describes me quite well. I could care less what one looks looks like, I much prefer a good chat.$h",
+
 //Jeremy
 "Gifts.JeremyTSnail.Like.True": "Hmm. This is an intriguing find.#$b#I suppose I shall accept this.$2",
 "Gifts.JeremyTSnail.Love.True": "As a mollusk, I have little need for earthly possessions...$2#$b#...However, this does pique my interest. Thank you.$1",
@@ -1667,6 +1726,10 @@
 "Gifts.WaffleW.Potato": "%Waffle expects you to throw the potato like a ball...",
 "Gifts.WaffleW.UnluckyPurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.#$b#%She then grows bored and drops them on the ground.",
 
+"Gifts.WaffleW.PridePop": "%Waffle licks the popsical, then barks at it in astonishment.#$b#%Why is it cold?!",
+"Gifts.WaffleW.BiBerryMuffin": "%Waffle gobbles gown the BiBerry Muffin. It didn't stand a chance.",
+"Gifts.WaffleW.GayCookie": "%You barely have a chance to show Waffle the cookie before it's gone.#$b#%All that's left is crumbs...",
+
 //Pipo
 "Gifts.PipoP.Like": "Piiiipo pip pipo.",
 "Gifts.PipoP.Love": "%Pipo purrs and rubs themself against your gift.",
@@ -1707,6 +1770,8 @@
 "Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts. You'll probably need a hook or something if you ever want those back...#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
 "Gifts.PipoP.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
+
+"Gifts.PipoP.EnbyEclair": "...There is chocolate on this. I do however appreciate the affirmation of my detachment from the human binary.#$b#I mean meow.#$b#%Pipo mlems at the cream filling, avoiding the chocolate topping.",
 
 /*
 ███████╗███████╗███████╗████████╗██╗██╗   ██╗ █████╗ ██╗     ███████╗
@@ -2805,8 +2870,6 @@
 "Relationship.SenS.DanceRejection": "O-oh...?$14#$b#I appreciate the sentiment, but I am far too nervous to put myself out in the middle of a crowd...$14",
 "Relationship.SenS.Divorced": "%Sen looks away from you. He seems depressed.",
 "Relationship.SenS.BreakUp": "...?$u#$b#Y-you want to break our partnership off...?$s#$b#I-I understand. I was foolish for thinking a relationship between a human and a Shadow could ever work.$10",
-"Relationship.SenS.BouquetRejection.1": "Oh, that's a very pretty bunch of flowers, @!$h#$b#You should hang onto those, they wouldn't thrive well in my cave...$8",
-"Relationship.SenS.BouquetRejection.2": "That is so many flowers...!$u#$b#W-wait, are you offering those to me?$11",
 "Relationship.SenS.Rejection.Divorced": "...$s#$b#%Sen turns away from you. He wants to be left alone.",
 "Relationship.SenS.BouquetAccept.1": "Oh, that's a very pretty bunch of flowers, @!$h#$b#W-wait, are you offering those to me?$11#$b#I...I would love to give romance a try with you, @.$l",
 "Relationship.SenS.BouquetAccept.2": "That is so many flowers...!$u#$b#W-wait, are you offering those to me?$11#$b#I-I accept! I would adore being your partner, @.$l",

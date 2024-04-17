@@ -57,8 +57,13 @@
 					800 EastScarp_Village 77 98 evet_kickfeet/
 					1000 EastScarp_VillageInn 27 28 3/
 					2000 Town 104 92 1/
-		",
-
+				",
+				"sapphicsaph_pitv.PrideFestival_2": "
+					0 Town 62 33/
+					610 62 33 3/
+					900 CommunityCenter 2 9 2/
+					1700 {{ModID}}.Maps.Eve_House_Interior 12 5 evet_sleep
+				"
 			}
 		},
  //---------------------------- OVERRIDES ------------------------------------------//

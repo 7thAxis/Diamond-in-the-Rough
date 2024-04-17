@@ -101,7 +101,7 @@
                     "Delimiter": "/"
                   }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "IsOddYear": false }
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP, ichortower.HatMouseLacey": true, "IsOddYear": false }
         },
 //----------------SDV FAIR------------------//
         {

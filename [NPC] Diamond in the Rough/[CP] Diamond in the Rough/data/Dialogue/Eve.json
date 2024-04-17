@@ -31,6 +31,8 @@
         "{{ModID}}.Maps.Eve_House_Interior_12_5": "{{i18n:Core.EveT.Locations.Home.Bed}}",
         "EastScarp_Village_35_107": "{{i18n:Core.EveT.Locations.EastScarp.BeachHangout.{{TodaysDate: |contains=fall 27}}}}",
         "EastScarp_VillageInn_SpiritEve_27_28": "{{i18n:Core.EveT.Locations.Inn.SpiritsEve.{{HasMod: |contains=TenebrousNova.EliDylan.CP}}}}",
+        "sapphicsaph_pitv.CommunityCenterPride_2_9": "{{i18n:Core.EveT.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+        "Town_62_33": "{{i18n:Core.EveT.Locations.Town.PrideFest}}",
         
         //Conversation Topics
         "DitR_CT_UsedExpiredMegaBomb": "{{i18n:Core.EveT.UsedExpiredMegaBomb}}",
@@ -91,6 +93,9 @@
         "AcceptGift_(O)216": "{{i18n:Gifts.EveT.Bread}}",
         "AcceptGift_(O)618": "{{i18n:Gifts.EveT.Bruschetta}}",
         "AcceptGift_(O){{ModID}}.Items.ValleyLily": "{{i18n:Gifts.EveT.ValleyLily}}",
+        "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.EveT.PridePop}}",
+        "AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.EveT.LesbianLollipop}}",
+        "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.EveT.GaylacticCookie}}",
 
         //Liked
         "AcceptGift_category_flowers": "{{i18n:Gifts.EveT.Flowers}}", //Flowers

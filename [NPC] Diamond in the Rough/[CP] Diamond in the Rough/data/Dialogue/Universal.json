@@ -66,6 +66,17 @@
                 "DumpsterDiveComment": "{{i18n:Core.{{TargetWithoutPath}}.Dumpster}}"
              }
         },
+        {
+            "LogName": "Pride Festival CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SenS, Characters/Dialogue/EveT, Characters/Dialogue/TraceV",
+            "Entries": { 
+                "WelcomeToPridePITV": "{{i18n:Core.{{TargetWithoutPath}}.WelcomeToPride}}",
+                "PrideSeasonStartPITV": "{{i18n:Core.{{TargetWithoutPath}}.PrideSeasonStart}}",
+                "PrideSeasonGiftPITV": "{{i18n:Core.{{TargetWithoutPath}}.PrideSeasonGift}}",
+                "HatMouseTheAllyPITV": "{{i18n:Core.{{TargetWithoutPath}}.HatMouseTheAlly}}"
+             }
+        },
 
         {
             "LogName": "Jeremy Intro CT Activation", 

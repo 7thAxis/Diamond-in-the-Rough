@@ -14,6 +14,10 @@
             "Target": "Characters/Dialogue/WaffleW",
             "Entries": {
 
+            //Locations
+            "Town_62_34": "{{i18n:Core.WaffleW.Locations.Town.PrideFest}}",
+            "sapphicsaph_pitv.CommunityCenterPride_3_8": "{{i18n:Core.WaffleW.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
             //Gifts
             "AcceptGift_category_fish": "{{i18n:Gifts.WaffleW.Fish}}",
             "AcceptGift_category_milk": "{{i18n:Gifts.WaffleW.Milk}}",
@@ -40,6 +44,11 @@
             "AcceptGift_(O)881": "{{i18n:Gifts.WaffleW.Bone}}",
             "AcceptGift_(O)769": "{{i18n:Gifts.WaffleW.VoidEssence}}",
             "AcceptGift_(O)305": "{{i18n:Gifts.WaffleW.VoidEgg}}",
+            "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.WaffleW.PridePop}}",
+            "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.WaffleW.BiBerryMuffin}}",
+            "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.WaffleW.GayCookie}}",
+            "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.WaffleW.GayCookie}}",
+
             "RejectItem_(O)220": "{{i18n:Gifts.WaffleW.ChocolateCake}}",
             "RejectItem_(O)795": "{{i18n:Gifts.WaffleW.VoidSalmon}}",
             "RejectItem_(O)436": "{{i18n:Gifts.WaffleW.GoatMilk}}",

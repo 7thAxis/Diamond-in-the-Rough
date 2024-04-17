@@ -103,6 +103,13 @@
                 ",
                 "winter_16": "GOTO winter_15",
 				"winter_17": "GOTO winter_15",
+
+                "sapphicsaph_pitv.PrideFestival_2": "
+                    0 Town 60 33/
+                    610 60 33 1/
+                    900 CommunityCenter 4 10 3/
+                    1700 {{ModID}}.Maps.Trace_House_Interior 15 5 tracev_sleep
+                "
             }
 		}
     ]

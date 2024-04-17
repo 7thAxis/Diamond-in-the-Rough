@@ -71,6 +71,10 @@
                 //Beach
                 "Beach_44_35": "{{i18n:Core.TraceV.Locations.Beach.JamOut.Skeleton}}",
 
+                //Pride
+                "Town_60_33": "{{i18n:Core.TraceV.Locations.Town.PrideFest}}",
+                "sapphicsaph_pitv.CommunityCenterPride_4_10": "{{i18n:Core.TraceV.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
             //Conversation Topics
                 "DitR_CT_PipoShorts": "{{i18n:Core.TraceV.PipoShorts}}",
                 "DitR_CT_YouAttackedJeremy": "{{i18n:Core.TraceV.YouAttackedJeremy}}",
@@ -78,6 +82,10 @@
             //Gifts
                 "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
                 "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
+                "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.TraceV.PridePop}}",
+                "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.TraceV.TransTart}}",
+                "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.TraceV.EnbyEclair}}",
+                "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.TraceV.BiBerryMuffin}}",
                 "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
 
             }

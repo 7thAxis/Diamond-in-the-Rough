@@ -16,6 +16,13 @@
 					610 77 93 pipop_sitleft/
 					1300 77 93 pipop_groom/
 					2000 77 94 pipop_sleep",
+
+				"sapphicsaph_pitv.PrideFestival_2": "
+                    0 Town 48 33/
+                    610 48 33 pipop_sitright/
+                    900 50 21 pipop_sitright/
+                    1700 EastScarp_Village 77 94 pipop_sleep
+                "
 			}
 		},
  //---------------------------- OVERRIDES ------------------------------------------//

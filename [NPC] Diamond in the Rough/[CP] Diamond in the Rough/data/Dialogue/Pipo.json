@@ -14,6 +14,10 @@
             "Target": "Characters/Dialogue/PipoP",
             "Entries":{
 
+            //Locations
+            "Town_48_33": "{{i18n:Core.PipoP.Locations.Town.PrideFest}}",
+            "Town_50_21": "{{i18n:Core.PipoP.Locations.Town.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
+
             //Gifts
             "AcceptGift_category_milk": "{{i18n:Gifts.PipoP.Milk}}", //Milk
             "AcceptGift_(O)139": "{{i18n:Gifts.PipoP.Salmon}}",
@@ -46,6 +50,7 @@
             "AcceptGift_(O)447": "{{i18n:Gifts.PipoP.FishEggs}}",
             "AcceptGift_(O)445": "{{i18n:Gifts.PipoP.FishEggs}}",
             "AcceptGift_(O)771": "{{i18n:Gifts.PipoP.Fiber}}",
+            "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.PipoP.EnbyEclair}}",
 
             "RejectItem_category_vegetable": "{{i18n:Gifts.PipoP.Vegetables}}", //Vegetable
             "AcceptGift_category_greens": "{{i18n:Gifts.PipoP.Forage}}", //Forage
