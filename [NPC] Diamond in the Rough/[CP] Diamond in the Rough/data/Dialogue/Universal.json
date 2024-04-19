@@ -99,7 +99,7 @@
                 "{{ModID}}.TriggerActions.SenIntroActivation": {
                     "Trigger": "DayStarted",
                     "Id": "DitR.TriggerActions.SenIntroActivation",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h, PLAYER_FRIENDSHIP_POINTS Current SenS 0 0",
                     "Actions": [ "AddConversationTopic DitR_CT_SenIntroduction 999" ]
                 }
             }

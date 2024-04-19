@@ -59,6 +59,7 @@
                     "ShadowWhenBabySwims": { "Visible": false },
                     "ShadowWhenAdult": { "Visible": false },
                     "ShadowWhenAdultSwims": { "Visible": false },
+                    "SwimOffset": { "X": 0, "Y": 160 },
                     "CanSwim": true,
                     "BabiesFollowAdults": true,
                     "GrassEatAmount": 4,
