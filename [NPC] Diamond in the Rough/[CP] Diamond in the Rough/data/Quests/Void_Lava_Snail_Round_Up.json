@@ -58,13 +58,25 @@
 
             "Entries": {
                 
-                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheck": {
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckMain": {
                     "Trigger": "DayEnding",
                     "MarkActionApplied": false,
-                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheck",
-                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_VoidLavaSnailQuestCompletedToday Any",
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckMain",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_VoidLavaSnailQuestCompletedToday Any, !PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "Actions": [ 
                     "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
+                    "IncrementStat VoidLavaSnailsGiven 20" 
+                ]
+                },
+                "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckPost": {
+                    "Trigger": "DayEnding",
+                    "MarkActionApplied": false,
+                    "Id": "{{ModID}}.TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckPost",
+                    "Condition": "PLAYER_HAS_MAIL Current DitR_M_VoidLavaSnailQuestCompletedToday Any, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
+                    "Actions": [ 
+                    "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
+                    "{{Random: AddMoney {{TodaysSnailRewardMoney}}++AddItem {{TodaysSnailRewardItem}}|inputSeparator=++|key=SnailQuestReward}}",
+                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Quests.DitR.VoidLavaSnailRoundUp.PostHUDMessage}}\" {{Random: (O)336++(O){{TodaysSnailRewardIcon}}|inputSeparator=++|key=SnailQuestReward}}", 
                     "IncrementStat VoidLavaSnailsGiven 20" 
                 ]
                 },
@@ -129,10 +141,10 @@
             "Target": "Data/TriggerActions",
             "Entries": {
     
-                "{{ModID}}.TriggerActions.PreventSnailQuestAutoPlay": {
+                "{{ModID}}.TriggerActions.PreventEventAutoPlay.VoidLavaSnailRoundUp": {
                     "Trigger": "DayStarted",
-                    "Id": "{{ModID}}.TriggerActions.PreventSnailQuestAutoPlay",
-                    "Actions": [ "MarkEventSeen Current SnailTest" ]
+                    "Id": "{{ModID}}.TriggerActions.PreventEventAutoPlay.VoidLavaSnailRoundUp",
+                    "Actions": [ "MarkEventSeen Current {{ModID}}.Events.JeremyTS.VoidLavaSnailRoundUp" ]
                 }
             }
         },
@@ -141,14 +153,14 @@
             "Action": "EditData",
             "Target": "Data/Events/{{ModID}}.Maps.Jeremy_Room",
             "Entries": {
-                "SnailTest/l DitR_M_VoidLavaSnailQuestCurrentlyActive/l DitR_M_AcceptedVoidLavaSnailQuestToday": "
+                "{{ModID}}.Events.JeremyTS.VoidLavaSnailRoundUp/l DitR_M_VoidLavaSnailQuestCurrentlyActive/l DitR_M_AcceptedVoidLavaSnailQuestToday": "
                 
                 continue/
                 -1000 -1000/
                 farmer -1000 -1000 2/
                 ignoreCollisions farmer/
                 unskippable/
-                pause 100/quickQuestion Accept snail quest? (This quest is repeatable upon completion.)#YES#NO(break)message \"SNAIL!\"\\action AddSpecialOrder {{ModID}}.Quests.VoidLavaSnailRoundUp\\addMailReceived DitR_M_VoidLavaSnailQuestCurrentlyActive\\addMailReceived DitR_M_AcceptedVoidLavaSnailQuestToday(break)message \"NO SNAIL!\"/
+                pause 100/quickQuestion {{i18n:Quests.DitR.VoidLavaSnailRoundUp.Event.Question}}#{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Event.AnswerYes}}#{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Event.Answerno}}(break)message \"{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Event.QuestAccepted}}\"\\action AddSpecialOrder {{ModID}}.Quests.VoidLavaSnailRoundUp\\addMailReceived DitR_M_VoidLavaSnailQuestCurrentlyActive\\addMailReceived DitR_M_AcceptedVoidLavaSnailQuestToday(break)message \"{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Event.QuestDenied}}\"/
                 
                 end"
             }

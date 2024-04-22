@@ -227,7 +227,25 @@ CREDITS
             "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
         },
 
+        //EVENT CONDITIONS
+        { "Name": "MateoEveIntro", "Value": "DitR.PlaceholderData? -9999 -9999 0" },
+        { "Name": "JohnEveIntro", "Value": "DitR.PlaceholderData? -9999 -9999 0" },
+        { "Name": "JohnEveIntroAnimation", "Value": "pause 1/" },
+            { 
+                "Name": "MateoEveIntro", "Value": "Mateo? 21 62 3",
+                "When": { "HasSeenEvent": "SnS.Ch1.Mateo.0" }
+            },
+            { 
+                "Name": "JohnEveIntro", "Value": "FC.John? 24 63 2",
+                "When": { "HasSeenEvent": "Fellowclown.AND_JohnIntroduction" }
+            },
+            { 
+                "Name": "JohnEveIntroAnimation", "Value": "showFrame FC.John? 31/",
+                "When": { "HasSeenEvent": "Fellowclown.AND_JohnIntroduction" }
+            },
+
         //CONDITIONAL ITEM SPAWN AND SPAWN RATES
+        
         { "Name": "FishPondSnailEggSpawnable", "Value": "(O)766" },
         { "Name": "FishPondGoldenSnailEggSpawnable", "Value": "(O)766" },
             {
@@ -256,6 +274,18 @@ CREDITS
             {
                 "Name": "SnailCrabPotRate", "Value": 0.13,
                 "When": { "HasFlag": "DitR_M_SnailPhase5", "Season |contains=winter": true }
+            },
+            {
+                "Name": "TodaysSnailRewardItem", 
+                "Value": "{{Random: (O)EastScarp_Scarp_Warp_Totem 5, (O)TreasureTotem 1, (O)166 1, (O)69 1, (O)251 1, (O)628 1, (O)629 1, (O)630 1, (O)631 1, (O)632 1, (O)633 1, (O)835 1, (O)268 3, (O)MixedFlowerSeeds 10, (O){{ModID}}.Items.VoidLavaSnailEgg 1|key=TSRI}}"
+            },
+            {
+                "Name": "TodaysSnailRewardIcon", 
+                "Value": "{{Random: EastScarp_Scarp_Warp_Totem, TreasureTotem, 166, 69, 251, 628, 629, 630, 631, 632, 633, 835, 268, MixedFlowerSeeds, {{ModID}}.Items.VoidLavaSnailEgg|key=TSRI}}"
+            },
+            {
+                "Name": "TodaysSnailRewardMoney", 
+                "Value": "{{Random: 2000, 2000, 2000, 2000, 3000, 3000, 3000, 4000, 4000, 5000}}"
             },
         
 

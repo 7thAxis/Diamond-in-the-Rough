@@ -1651,7 +1651,7 @@
 "Gifts.SenS.RodneyAutograph": "Oh my gosh, it's an autograph from the two time award winning author Rodney O'Brien!!$7#$e#I found a copy of his book in the trash.$h",
 "Gifts.SenS.SensCrocus": "Oh, that's...!$u#$b#That's one of the flower seeds I threw to the wind, isn't it?$7#$b#I can't believe it worked!$7",
 
-"Gifts.SenS.PridePop": "So. Many. Colors! It's otherworldly!$7#$b#Does it have magical properties? Will i become rainbow colored if I eat this?$h",
+"Gifts.SenS.PridePop": "So. Many. Colors! It's otherworldly!$7#$b#Does it have magical properties? Will I become rainbow colored if I eat this?$h",
 "Gifts.SenS.GaylacticCookie": "$query PLAYER_HAS_MAIL Current DitR_M_SenPrideCookie Any, PLAYER_HEARTS Current SenS 8#...! Did you really remember I wanted one of these cookies, @?$7#$b#Thank you so much, you're the best. Have this shiny stone I found in the garbage.$h[74]#$action Current RemoveMail DitR_M_SenPrideCookie all|Oh!! I really wanted one of these, thank you so much @!$h#$b#%The cookie lasts about 2 seconds, then is gone...#$action Current RemoveMail DitR_M_SenPrideCookie all",
 "Gifts.SenS.TastyAceCookie": "Ace, ace, ace... I believe I read that means you don't find yourself \"physically\" interested in others?$6#$b#I feel that describes me quite well. I could care less what one looks looks like, I much prefer a good chat.$h",
 
@@ -2506,6 +2506,13 @@
 "Quests.DitR.VoidLavaSnailRoundUp.Description": "There are many Void Lava Snails afoot. Bring them to Jeremy T. Snail.",
 "Quests.DitR.VoidLavaSnailRoundUp.Task": "Bring 20 Void Lava Snails to a bush in Jeremy's room.",
 "Quests.DitR.VoidLavaSnailRoundUp.QuestActive": "You've already accepted the quest today or it's still in your journal. Come back later!",
+"Quests.DitR.VoidLavaSnailRoundUp.PostHUDMessage": "A snail reward magically appeared in your pockets overnight...",
+
+"Quests.DitR.VoidLavaSnailRoundUp.Event.Question": "Jeremy needs help collecting Void Lava Snails. Will you assist them? (This quest is repeatable upon completion.)",
+"Quests.DitR.VoidLavaSnailRoundUp.Event.AnswerYes": "I'm happy to assist!",
+"Quests.DitR.VoidLavaSnailRoundUp.Event.AnswerNo": "I refused to involve myself in snail chaos.",
+"Quests.DitR.VoidLavaSnailRoundUp.Event.QuestAccepted": "Jeremy will be elated that you're helping wrangle those troublesome snails!",
+"Quests.DitR.VoidLavaSnailRoundUp.Event.QuestDenied": "How unfortunate. Jeremy will be disappointed.",
 
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.Title": "The Snail Mail",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.1": "Hello, ^^I hope you are finding yourself well.^^Here is a token of my appreciation for your assistance in wrangling my kin.  ^^   -J.T.S %item object 709 50 %%",
@@ -2903,7 +2910,7 @@
 //Spouse Room
 "Relationship.SenS.SpouseRoom.Platonic.1": "Ahh, there's nothing like a good book in the morning, is there?$l#$b#You're welcome to take a gander at anything on my shelf.$h#$e#I'm sure there must be something here you'd be interested in!$h",
 "Relationship.SenS.SpouseRoom.Platonic.2": "I think I'm going to start a new costume project today.$h#$b#I'll definitely need to restock on fabric scraps and threading soon... I've been speeding through my craft supplies.$8",
-"Relationship.SenS.SpouseRoom.Platonic.3": "Living in such a tidy space is... different after living underground for so long.#$b#I'm always taking great care to not make a huge mess$8",
+"Relationship.SenS.SpouseRoom.Platonic.3": "Living in such a tidy space is... different after living underground for so long.#$b#I'm always taking great care to not make a huge mess.$8",
 "Relationship.SenS.SpouseRoom.Platonic.4": "%Sen seems to be distracted.#$e#Oh hello, @! Sorry, I was just thinking about what to do tonight.$h#$b#Perhaps I should visit Skrell and Ebb? Or perhaps hang out with {{SenKrobusReference}}?$6#$e#You're welcome to come too, of course.$h",
 "Relationship.SenS.SpouseRoom.Romantic.1": "Ahh, there's nothing like a good book in the morning, is there?$l#$b#Help yourself to anything on my shelf, starshine.$h#$e#I'm sure there must be something here you'd be interested in.$h#$b#Perhaps one of the romance novels?$l",
 "Relationship.SenS.SpouseRoom.Romantic.2": "I think I'm going to start a new costume project today.$h#$b#Do you mind bringing me some fabric scraps and threading, starshine? I've been speeding through my craft supplies.$8",
@@ -2957,7 +2964,7 @@
 "Relationship.SenS.RainyNight.6.Platonic": "%Sen seems a little under the weather.#$b#$y 'What do you do?_Give him a hug._%Sen returns the hug, comforted by the sentiment._Ask him how he's feeling._Oh... Some days are just... rather hard. Thank you for caring, @.$l",
 "Relationship.SenS.RainyNight.6.Romantic": "%Sen gently takes your hands and lays his head against your chest.#$b#$y 'What do you do?_Hold him close._%Sen remains silent, but he seems comforted by your touch._Ask him how he's feeling._Oh... Some days are just... rather hard. You being by my side makes them easier to bear.$l'",
 "Relationship.SenS.RainyNight.7.Platonic": "%Sen seems to be in deep thought about something.#$b#Hm?#$b#O-oh! Hello, @. Sorry, my mind was wandering...$8#$e#How was your day?$h",
-"Relationship.SenS.RainyNight.7.Romantic": "Sometimes the rain makes me overthink things...#$b#I will live forever, but one day you'll pass on.$s#$b#The thought... it scares me.$#$e#You're my world, @. What am I going to do when you're gone...?$10#$b#...$s#$b#S-sorry, I didn't mean to spiral into existential dread.$8#$e#How was your day, starshine?$h",
+"Relationship.SenS.RainyNight.7.Romantic": "Sometimes the rain makes me overthink things...#$b#I will live forever, but one day you'll pass on.$s#$b#The thought... it scares me.$s#$e#You're my world, @. What am I going to do when you're gone...?$10#$b#...$s#$b#S-sorry, I didn't mean to spiral into existential dread.$8#$e#How was your day, starshine?$h",
 
 //Indoor Day
 "Relationship.SenS.IndoorDay.1.1.Platonic": "I've gone ahead and done the dishes!$h#$b#There was some tough grime on one of them... I had to put in some real elbow grease to get it off.$8#$e#I'm still not entirely used to using human dishware. Us Shadowfolk tend to use stoneware, as it's easier to forge.#$b#Rocks are a dime a dozen in the mines, after all.$h",
@@ -3020,7 +3027,7 @@
 "Relationship.SenS.OneKid.1": "The pitterpatter of small feet around the house is so endearing.$h#$b#$kid1 seems to have a boundless amount of energy! Where does it come from?$h",
 "Relationship.SenS.OneKid.2": "Children are such a handful and destructive too!$u#$b#I caught %kid1 drawing on the walls!$u#$e#I got it all cleaned up though, so don't worry.$8",
 "Relationship.SenS.OneKid.3": "I do wonder how this living arrangement will impact %kid1 growing up...$6#$b#When will we inform the little one that this life must be kept a secret?$s#$e#How does one even begin to breach that subject with a child?$s#$b#There is still plently of time before that's necessary, but...$s#$e#%Sen shakes his head.#$b#I'm worrying about this too much. Things are going to work out in the end, I'm sure of it.$h",
-"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger$u#$b#Children are truely something else.$8",
+"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger!$u#$b#Children are truely something else.$8",
 "Relationship.SenS.OneKid.5": "%kid1 has far too much energy. It's hard to keep up with the destructive warpath of flying toys and crayons.$u#$b#Maybe I should make myself a suit of armor.$8",
 
 //Two Kid
