@@ -142,18 +142,31 @@ CREDITS
                TodaysDate - Condenses {{Season}} and {{Day}} into one token
                WeekDay - Checks the current abbreviated week day from WeekDayList contents.
                BasicRandomizer - Basic 50/50 chance used for randomizing various things in the mod.*/
-        {
-            "Name": "TodaysDate",
-            "Value": "{{Season}} {{Day}}"
-        },
-        {
-            "Name": "WeekDayList",
-            "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
-        },
-        {
-            "Name": "WeekDay",
-            "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
-        },
+
+        { "Name": "YearCheck",  "Value": 2 },
+        { "Name": "FestivalYearCheck", "Value": "" },
+            {
+                "Name": "YearCheck", 
+                "Value": 1,
+                "When": { "Year": 1 }
+            },
+            {
+                "Name": "FestivalYearCheck",
+                "Value": "_y2",
+                "When": { "Query: {{Year}} % 2 = 1": false } //Odd year false
+            },
+            {
+                "Name": "TodaysDate",
+                "Value": "{{Season}} {{Day}}"
+            },
+            {
+                "Name": "WeekDayList",
+                "Value": "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+            },
+            {
+                "Name": "WeekDay",
+                "Value": "{{WeekDayList |valueAt={{Query: {{Day}}%7}}}}"
+            },
         //SCHEDULE RANDS AND TWEAKERS
         {
             "Name": "PipoAdoptionStatus",
@@ -224,9 +237,9 @@ CREDITS
         },
 
         //EVENT CONDITIONS
-        { "Name": "MateoEveIntro", "Value": "DitR.PlaceholderData? -9999 -9999 0" },
-        { "Name": "JohnEveIntro", "Value": "DitR.PlaceholderData? -9999 -9999 0" },
-        { "Name": "JohnEveIntroAnimation", "Value": "pause 1/" },
+        { "Name": "MateoEveIntro", "Value": "" },
+        { "Name": "JohnEveIntro", "Value": "" },
+        { "Name": "JohnEveIntroAnimation", "Value": "" },
             { 
                 "Name": "MateoEveIntro", "Value": "Mateo? 21 62 3",
                 "When": { "HasSeenEvent": "SnS.Ch1.Mateo.0" }

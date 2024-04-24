@@ -1,0 +1,26 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/winter25",
+            "TextOperations": [
+                    {
+                        "Operation": "Append",
+                        "Target": [ "Fields", "set-up{{FestivalYearCheck}}", 5],
+                        "Value": "/animate JeremyTSnail false true 1000 5 4"
+                    }
+                ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13, Data/Festivals/summer11 ",
+            "TextOperations": [
+                    {
+                        "Operation": "Append",
+                        "Target": [ "Fields", "set-up{{FestivalYearCheck}}", 5],
+                        "Value": "/animate JeremyTSnail false true 1000 13 12"
+                    }
+                ]
+        }
+    ]
+}

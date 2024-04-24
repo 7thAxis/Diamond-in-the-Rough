@@ -1,0 +1,138 @@
+{
+    "Changes": [
+//---------------------------------SDV FAIR-------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 33 90 2/TraceV 32 89 3/WaffleW 34 90 3/JeremyTSnail 24 104 3",
+                    "Delimiter": "/"
+                }
+                
+            ]
+        },
+
+//----------------SVE CHECK------------------// 
+    //SVE false
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+            //----------------SEN------------------//
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 56 52 2",
+                    "Delimiter": "/"
+                },
+
+            //----------------PIPO------------------//
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "PipoP 29 37 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 34 33 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+        },
+        
+    //SVE true
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16", //fair
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 49 32 2/PipoP 30 25 1",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+        },
+        
+//---------------------------------SPIRITS EVE-------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+            //----------------JEREMY------------------//   
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "JeremyTSnail 24 104 3",
+                    "Delimiter": "/"
+                }
+
+            ]
+        },
+//----------------SVE CHECK------------------// 
+    //SVE false
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 21 22 2/WaffleW 22 22 3",
+                    "Delimiter": "/"
+                },  
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 32 16 2/TraceV 27 13 3/PipoP 35 63 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "SenS 64 16 3/TraceV 6 15 3/PipoP 31 68 1",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+        },
+        
+    //SVE true
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27", //spirits eve
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 37 81 2/WaffleW 38 81 3",
+                    "Delimiter": "/"
+                },
+
+            //----------------SEN------------------//   
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 62 17 2/TraceV 27 13 3/PipoP 32 64 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "SenS 73 4 2/TraceV 6 15 3/PipoP 35 63 2",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+        }
+    ]
+}

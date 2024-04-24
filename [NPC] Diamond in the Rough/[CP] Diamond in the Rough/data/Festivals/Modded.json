@@ -1,0 +1,144 @@
+{
+    "Changes": [
+
+//----------------RSV GATHERING------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall20",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 127 35 2/EveT 87 59 2/WaffleW 88 59 3/PipoP 75 48 3",
+                    "Delimiter": "/"
+                 },    
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "SenS 76 49 0/EveT 89 41 3/WaffleW 89 42 3/PipoP 61 36 1",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },
+
+//----------------RSV EMBER OF RESOLUTIONS------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter28", //Ridgeside Ember
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 40 25 2/EveT 47 37 2/WaffleW 48 37 3/PipoP 32 28 3",
+                    "Delimiter": "/"
+                },      
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "SenS 25 47 1/EveT 29 46 1/WaffleW 29 47 1/PipoP 37 30 3",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+        },
+        
+//----------------SURFING FESTIVAL------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer5", //Surfing Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 28 4 2/EveT 47 22 2/WaffleW 48 22 3/PipoP 35 4 3",
+                    "Delimiter": "/"
+                 }
+    
+            ],
+            "When": { "HasMod: |contains=spacechase0.SurfingFestival": true }
+        },
+
+//----------------FASHION FESTIVAL------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring19", //Fashion Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 63 16 2/EveT 71 20 2/WaffleW 72 20 3/PipoP 71 23 3",
+                    "Delimiter": "/"
+                 },     
+                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "SenS 47 33 0/EveT 30 26 1/WaffleW 30 27 1/PipoP 30 20 1",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=UNA.FF.CP": true }
+        },
+
+//----------------LOVE FESTIVAL------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter13", //Love Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 48 70 2/EveT 21 61 2/WaffleW 22 61 3/PipoP 29 60 1",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=AvalonMFX.LoveFestival": true }
+        },
+//----------------MARKETPAOOLZA------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall3", //Marketpalooza
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 6 22 2/EveT 17 22 3/TraceV 16 21 2/WaffleW 18 22 1/PipoP 14 38 0",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=Fellowclown.PC_Marketpalooza": true }
+        },
+//----------------FIREWORKS FESTIVAL------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer20", //Fireworks Festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 22 24 2/EveT 24 30 1/WaffleW 24 31 1/PipoP 43 22 3",
+                    "Delimiter": "/"
+                }
+                
+            ],
+            "When": { "HasMod: |contains=violetlizabet.FireworksFestival": true }
+        },
+        
+//----------------FESTIVAL OF THE MUNDANE------------------//
+
+		{
+			"LogName": "Sen Schedule Mundane Festival",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SenS",
+			"Entries": {
+				"fall_27": "0 Sewer 6 20/610 6 20 2" //Day of Festival of the Mundane
+			},
+			"When": { "LivingWithSen": true, "HasMod: |contains=MouseyPounds.ShadowFestival": true }
+		}
+    ]
+}

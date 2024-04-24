@@ -10,7 +10,7 @@
             },
             "When": {
                 "DayOfWeek |contains=Friday": false,
-                "Relationship:SenS": "Married, Dating, Engaged, Friendly, Divorced",
+                "Relationship:SenS |contains=Unmet": false,
                 "Query: {{Random: {{Range: 1, 20}}|key=KSD}} = 1": true
              }
         },

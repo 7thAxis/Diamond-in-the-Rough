@@ -41,9 +41,9 @@
                 "sapphicsaph_pitv.CommunityCenterPride_64_16": "{{i18n:Core.SenS.Locations.CommunityCenter.PrideFest.{{Random:{{Range: 1, 2}}}}}}",
 
                 //Misc specific days
-                "spring_20": "{{i18n:Core.SenS.Spring.Day.20}}",
-                "summer_19": "{{i18n:Core.SenS.Summer.Day.19{{SenRandTokens}}}}",
-                "winter_13": "{{i18n:Core.SenS.Winter.Day.13}}",
+                "spring_20_{{YearCheck}}": "{{i18n:Core.SenS.Spring.Day.20}}",
+                "summer_19_{{YearCheck}}": "{{i18n:Core.SenS.Summer.Day.19{{SenRandTokens}}}}",
+                "winter_13_{{YearCheck}}": "{{i18n:Core.SenS.Winter.Day.13}}",
 
                 //Conversation Topics
                 "DitR_CT_SenIntroduction": "{{i18n:Core.SenS.SenIntroduction}}",
@@ -216,7 +216,7 @@
                 //Conversation Topics, remove reference to Junimos
                 "cc_Boulder": "{{i18n:Core.SenS.ccBoulder.Joja}}",
                 "cc_Greenhouse": "{{i18n:Core.SenS.ccGreenhouse.Joja}}",
-                "spring_18": "{{i18n:Core.SenS.Spring.Day.18}}"
+                "spring_18_{{YearCheck}}": "{{i18n:Core.SenS.Spring.Day.18}}"
             },
             "When": {
                 "HasFlag: |contains=jojaMember": true

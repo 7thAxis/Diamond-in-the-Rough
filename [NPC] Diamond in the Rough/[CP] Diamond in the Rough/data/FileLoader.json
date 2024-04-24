@@ -59,7 +59,12 @@
 //---------------------------- GENERAL FILES ------------------------------------------//
         {
             "Action": "Include",
-            "FromFile": "data/MiscData.json, data/Festivals/Festival_Dialogue.json, data/Dialogue/Townie.json, data/Dialogue/Universal.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
+            "FromFile": "data/MiscData.json, data/Dialogue/Townie.json, data/Dialogue/Universal.json, data/Audio/Music.json, data/Audio/Sound_Effects.json"
+        },
+//---------------------------- FESTIVAL FILES ------------------------------------------//
+        {
+            "Action": "Include",
+            "FromFile": "data/Festivals/Festival_Dialogue.json, data/Festivals/Extra_Data.json, data/Festivals/Modded.json, data/Festivals/Spring.json, data/Festivals/Summer.json, data/Festivals/Fall.json, data/Festivals/Winter.json"
         },
 //---------------------------- LOCATION FILES ------------------------------------------//
         {
@@ -86,17 +91,17 @@
         //Eve
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/{{NPC Schedule Type}}/Eve.json, data/Schedules/Default/Eve.json, data/Festivals/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
+            "FromFile": "data/NPCs/Eve.json, data/Dialogue/Eve.json, data/Schedules/{{NPC Schedule Type}}/Eve.json, data/Schedules/Default/Eve.json, data/Events/Eve/0h.json, data/Events/Eve/2h.json"
         },
         //Trace
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json,  data/Festivals/Trace.json, data/Schedules/{{NPC Schedule Type}}/Trace.json, data/Schedules/Default/Trace.json"
+            "FromFile": "data/NPCs/Trace.json, data/Dialogue/Trace.json, data/Schedules/{{NPC Schedule Type}}/Trace.json, data/Schedules/Default/Trace.json"
         },
         //Sen
 		{
 			"Action": "Include",
-			"FromFile": "data/NPCs/Sen.json, data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Festivals/Sen.json, data/Movies/Sen.json, data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/React_To_Death.json"
+			"FromFile": "data/NPCs/Sen.json, data/Dialogue/Sen.json, data/Dialogue/Sen_Partner.json, data/Movies/Sen.json, data/Events/Sen/0h.json, data/Events/Sen/2h.json,data/Events/Sen/4h.json, data/Events/Sen/6h.json,data/Events/Sen/8h.json, data/Events/Sen/10h.json, data/Events/Sen/14h.json, data/Events/Sen/React_To_Death.json"
 		},
         {
 			"Action": "Include",
@@ -106,17 +111,17 @@
         //Waffle
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Waffle.json, data/Dialogue/Waffle.json, data/Festivals/Waffle.json, data/Schedules/{{NPC Schedule Type}}/Waffle.json, data/Schedules/Default/Waffle.json"
+            "FromFile": "data/NPCs/Waffle.json, data/Dialogue/Waffle.json, data/Schedules/{{NPC Schedule Type}}/Waffle.json, data/Schedules/Default/Waffle.json"
         },
         //Pipo
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Festivals/Pipo.json, data/Schedules/{{NPC Schedule Type}}/Pipo_{{PipoAdoptionStatus}}.json, data/Schedules/Default/Pipo_{{PipoAdoptionStatus}}.json"
+            "FromFile": "data/NPCs/Pipo.json, data/Dialogue/Pipo.json, data/Schedules/{{NPC Schedule Type}}/Pipo_{{PipoAdoptionStatus}}.json, data/Schedules/Default/Pipo_{{PipoAdoptionStatus}}.json"
         },
         //Jeremy
         {
             "Action": "Include",
-            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/{{NPC Schedule Type}}/Jeremy.json, data/Schedules/Default/Jeremy.json, data/Festivals/Jeremy.json"
+            "FromFile": "data/NPCs/Jeremy.json, data/Dialogue/Jeremy.json, data/Schedules/{{NPC Schedule Type}}/Jeremy.json, data/Schedules/Default/Jeremy.json"
         },
         //Skrell
         {

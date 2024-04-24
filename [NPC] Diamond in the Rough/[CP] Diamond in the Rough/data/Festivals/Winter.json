@@ -1,0 +1,84 @@
+{
+    "Changes": [
+//---------------------------------ICE FESTIVAL-------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 57 42 2/TraceV 56 43 1/PipoP 68 30 1",
+                    "Delimiter": "/"
+                }
+            
+            ]
+        },
+//----------------SVE CHECK------------------//
+    //SVE true
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 79 9 2/WaffleW 80 9 3",
+                    "Delimiter": "/"
+                }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
+        },
+        
+    //SVE false
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8", //ice festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 83 40 2/WaffleW 84 40 3/JeremyTSnail 79 47 1",
+                    "Delimiter": "/"
+                },
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up{{FestivalYearCheck}}", 5],
+					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				}
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
+        },
+
+//---------------------------------WINTER STAR-------------------------------------//
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25", //feast of the winter star
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 47 71 2/EveT 41 72 2/TraceV 33 90 2/WaffleW 42 72 3/JeremyTSnail 24 104 3",
+                    "Delimiter": "/"
+                },
+
+            //----------------PIPO------------------// 
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "PipoP 34 70 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 27 68 1",
+                    "Delimiter": "/"
+                }
+
+            ]
+        }
+    ]
+}

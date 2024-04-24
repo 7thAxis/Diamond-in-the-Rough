@@ -1,0 +1,86 @@
+{
+    "Changes": [
+//------------------------------------LUAU------------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11", //luau
+            "TextOperations": [ 
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 54 22 2/EveT 47 43 1/TraceV 33 43 3/WaffleW 48 43 3/PipoP 44 42 3/JeremyTSnail 51 47 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "SenS 41 22 2/EveT 42 15 3/TraceV 43 16 3/WaffleW 42 16 3/PipoP 43 13 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "SenS 35 19 2/EveT 30 13 3/TraceV 28 4 2/WaffleW 30 14 3/PipoP 21 14 0",
+                    "Delimiter": "/"
+                }
+                           
+            ]
+        },
+//---------------------------------MOONLIGHT JELLIES-------------------------------------//
+
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28", //moonlight jelly
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "EveT 90 43 2/TraceV 93 41 3/WaffleW 91 43 3/PipoP 89 24 1/JeremyTSnail 91 41 3",
+                    "Delimiter": "/"
+                }
+
+            ]
+        },
+
+//----------------SVE CHECK------------------//   
+    //SVE true
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28", 
+            "TextOperations": [
+            //----------------SEN------------------//   
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 46 24 2",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP, ichortower.HatMouseLacey": false }
+        },
+        
+    //SVE false
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+            //----------------SEN------------------//   
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "SenS 46 24 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "SenS 46 25 2",
+                    "Delimiter": "/"
+                }
+
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP, ichortower.HatMouseLacey": true }
+        }
+    ]
+}

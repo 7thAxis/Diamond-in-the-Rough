@@ -1,0 +1,58 @@
+{
+    "Changes": [
+//---------------------------------EGG FESTIVAL-------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13", //egg festival
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 37 96 2/EveT 9 58 2/TraceV 45 80 3/WaffleW 10 58 3/PipoP 48 70 3/JeremyTSnail 24 104 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 37 96 2/EveT 28 72 0/WaffleW 29 72 0/PipoP 27 60 3",
+                    "Delimiter": "/"
+                },
+
+            //----------------TRACE------------------//   
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "TraceV 33 65 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "TraceV 26 65 2",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+
+//---------------------------------FLOWER FESTIVAL-------------------------------------//
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24", //flower dance
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 49 32 2/EveT 56 38 1/TraceV 50 44 1/WaffleW 56 39 1/PipoP 57 43 3/JeremyTSnail 65 48 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters{{FestivalYearCheck}}" ],
+                    "Value": "SenS 21 33 0/EveT 14 33 0/TraceV 13 33 0/WaffleW 15 33 0/PipoP 5 36 1",
+                    "Delimiter": "/"
+                }
+
+            ]
+        }
+    ]
+}
