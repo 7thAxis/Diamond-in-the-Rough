@@ -11,9 +11,21 @@
                     "Value": "TraceV 45 80 3",
                     "Delimiter": "/"
                 },
-                     {
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "TraceV 33 65 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "TraceV 45 80 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "TraceV 33 65 2",
                     "Delimiter": "/"
                 }
@@ -35,6 +47,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "TraceV 13 33 0",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "TraceV 50 44 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "TraceV 13 33 0",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -48,34 +72,26 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "TraceV 33 43 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "TraceV 43 16 3",
                     "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11", //luau
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "TraceV 33 43 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "TraceV 28 4 2",
                     "Delimiter": "/"
                 }
-            ],
-            "When": { "IsOddYear": false }
+            ]
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -87,7 +103,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "TraceV 93 41 3",
                     "Delimiter": "/"
-                  }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "TraceV 93 41 3",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SDV FAIR------------------//
@@ -100,7 +122,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "TraceV 32 89 3",
                     "Delimiter": "/"
-                    }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "TraceV 32 89 3",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SPIRITS EVE------------------//
@@ -113,22 +141,14 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "TraceV 27 13 3",
                     "Delimiter": "/"
-                 }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "TraceV 6 15 3",
                     "Delimiter": "/"
-                 }
-            ],
-            "When": { "IsOddYear": false }
+                }
+            ]
         },
 //----------------ICE FESTIVAL------------------//
         {
@@ -140,8 +160,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "TraceV 56 43 1",
                     "Delimiter": "/"
-                 }
-
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "TraceV 56 43 1",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------WINTER STAR------------------//
@@ -152,6 +177,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "TraceV 33 90 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "TraceV 33 90 2",
                     "Delimiter": "/"
                 }

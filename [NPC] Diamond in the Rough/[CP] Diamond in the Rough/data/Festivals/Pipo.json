@@ -16,6 +16,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "PipoP 27 60 3",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 48 70 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "PipoP 27 60 3",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -35,6 +47,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "PipoP 5 36 1",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 57 43 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "PipoP 5 36 1",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -48,34 +72,26 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 44 42 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "PipoP 43 13 3",
                     "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11", //luau
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacter_y2" ],
                     "Value": "PipoP 44 42 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "PipoP 21 14 0",
                     "Delimiter": "/"
                 }
-            ],
-            "When": { "IsOddYear": false }
+            ]
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -87,7 +103,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 89 24 1",
                     "Delimiter": "/"
-                  }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 89 24 1",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SDV FAIR------------------//
@@ -100,22 +122,15 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 29 37 3",
                     "Delimiter": "/"
-                    }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,  "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall16", //fair
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "PipoP 34 33 3",
                     "Delimiter": "/"
-                    }
+                }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,  "IsOddYear": false }
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
         {
             "Action": "EditData",
@@ -126,7 +141,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 30 25 1",
                     "Delimiter": "/"
-                    }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 30 25 1",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
@@ -140,23 +161,17 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 35 63 2",
                     "Delimiter": "/"
-                 }
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,  "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "PipoP 31 68 1",
                     "Delimiter": "/"
-                 }
+                }
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,  "IsOddYear": false }
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
+
         {
             "Action": "EditData",
             "Target": "Data/Festivals/fall27", //spirits eve
@@ -166,28 +181,15 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 32 64 1",
                     "Delimiter": "/"
-                 }
-            ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "IsOddYear": false
-			}
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/fall27", //spirits eve
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "PipoP 35 63 2",
                     "Delimiter": "/"
-                 }
+                }
             ],
-            "When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "IsOddYear": true
-			}
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
 //----------------ICE FESTIVAL------------------//
         {
@@ -199,8 +201,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 68 30 1",
                     "Delimiter": "/"
-                 }
-
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "PipoP 68 30 1",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------WINTER STAR------------------//
@@ -213,22 +220,14 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "PipoP 34 70 1",
                     "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": false }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter25", //feast of the winter star
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "PipoP 27 68 1",
                     "Delimiter": "/"
                 }
-            ],
-            "When": { "IsOddYear": true }
+            ]
         },
 //----------------RSV GATHERING------------------//
         {

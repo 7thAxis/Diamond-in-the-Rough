@@ -16,6 +16,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "EveT 28 72 0",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 9 58 2",
+                    "Delimiter": "/"
+                },
+                     {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "EveT 28 72 0",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -35,6 +47,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "EveT 14 33 0",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 56 38 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "EveT 14 33 0",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -48,34 +72,26 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 47 43 1",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "EveT 42 15 3",
                     "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11", //luau
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "EveT 47 43 1",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "EveT 30 13 3",
                     "Delimiter": "/"
                 }
-            ],
-            "When": { "IsOddYear": false }
+            ]
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -87,7 +103,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 90 43 2",
                     "Delimiter": "/"
-                  }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 90 43 2",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SDV FAIR------------------//
@@ -100,7 +122,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 33 90 2",
                     "Delimiter": "/"
-                    }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 33 90 2",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SPIRITS EVE------------------//
@@ -113,7 +141,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 37 81 2",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 37 81 2",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
@@ -126,7 +160,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 21 22 2",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 21 22 2",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
@@ -140,7 +180,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 79 9 2",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 79 9 2",
+                    "Delimiter": "/"
+                }
 
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
@@ -154,7 +200,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "EveT 83 40 2",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "EveT 83 40 2",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
@@ -166,6 +218,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "EveT 41 72 2",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "EveT 41 72 2",
                     "Delimiter": "/"
                 }

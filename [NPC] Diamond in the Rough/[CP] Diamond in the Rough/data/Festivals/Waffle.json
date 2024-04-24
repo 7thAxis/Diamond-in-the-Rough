@@ -11,9 +11,21 @@
                     "Value": "WaffleW 10 58 3",
                     "Delimiter": "/"
                 },
-                     {
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Value": "WaffleW 29 72 0",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 10 58 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "WaffleW 29 72 0",
                     "Delimiter": "/"
                 }
@@ -35,6 +47,18 @@
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "WaffleW 15 33 0",
                     "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 56 39 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
+                    "Value": "WaffleW 15 33 0",
+                    "Delimiter": "/"
                 }
             ]
         },
@@ -48,34 +72,26 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 48 43 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
                     "Target": [ "Entries", "MainEvent_additionalCharacters" ],
                     "Value": "WaffleW 42 16 3",
                     "Delimiter": "/"
-                }
-            ],
-            "When": { "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/summer11", //luau
-            "TextOperations": [
+                },
                 {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "WaffleW 48 43 3",
                     "Delimiter": "/"
-                  },
-                     {
+                },
+                {
                     "Operation": "Append",
-                    "Target": [ "Entries", "MainEvent_additionalCharacters" ],
+                    "Target": [ "Entries", "MainEvent_additionalCharacters_y2" ],
                     "Value": "WaffleW 30 14 3",
                     "Delimiter": "/"
                 }
-            ],
-            "When": { "IsOddYear": false }
+            ]
         },
 //----------------MOONLIGHT JELLY------------------//
         {
@@ -87,7 +103,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 91 43 3",
                     "Delimiter": "/"
-                  }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 91 43 3",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SDV FAIR------------------//
@@ -100,7 +122,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 34 90 3",
                     "Delimiter": "/"
-                    }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 34 90 3",
+                    "Delimiter": "/"
+                }
             ]
         },
 //----------------SPIRITS EVE------------------//
@@ -113,7 +141,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 38 81 3",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 38 81 3",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
@@ -126,7 +160,13 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 22 22 3",
                     "Delimiter": "/"
-                 }
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 22 22 3",
+                    "Delimiter": "/"
+                }
             ],
             "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
@@ -140,11 +180,15 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 80 9 3",
                     "Delimiter": "/"
-                 }
-                ],
-                "When": {
-                    "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 80 9 3",
+                    "Delimiter": "/"
                 }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true }
         },
         {
             "Action": "EditData",
@@ -155,11 +199,15 @@
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
                     "Value": "WaffleW 84 40 3",
                     "Delimiter": "/"
-                 }
-                ],
-                "When": {
-                    "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "WaffleW 84 40 3",
+                    "Delimiter": "/"
                 }
+            ],
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
 //----------------WINTER STAR------------------//
         {
@@ -169,6 +217,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "WaffleW 42 72 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "WaffleW 42 72 3",
                     "Delimiter": "/"
                 }

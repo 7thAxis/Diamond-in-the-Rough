@@ -12,6 +12,12 @@
                     "Delimiter": "/"
                 },
                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "JeremyTSnail 27 104 3",
+                    "Delimiter": "/"
+                },
+                {
 					"Operation": "Append",
 					"Target": [ "Fields", "set-up", 5],
 					"Value": "/animate JeremyTSnail false true 1000 5 4"
@@ -31,6 +37,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 65 48 1",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "JeremyTSnail 65 48 1",
                     "Delimiter": "/"
                 },
@@ -58,6 +70,12 @@
                     "Delimiter": "/"
                 },
                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharactersy_2" ],
+                    "Value": "JeremyTSnail 51 47 3",
+                    "Delimiter": "/"
+                },
+                {
 					"Operation": "Append",
 					"Target": [ "Fields", "set-up", 5],
 					"Value": "/animate JeremyTSnail false true 1000 13 12"
@@ -77,6 +95,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 91 41 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "JeremyTSnail 91 41 3",
                     "Delimiter": "/"
                 },
@@ -104,6 +128,12 @@
                     "Delimiter": "/"
                 },
                 {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
+                    "Value": "JeremyTSnail 27 104 3",
+                    "Delimiter": "/"
+                },
+                {
 					"Operation": "Append",
 					"Target": [ "Fields", "set-up", 5],
 					"Value": "/animate JeremyTSnail false true 1000 5 4"
@@ -123,6 +153,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 27 104 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "JeremyTSnail 27 104 3",
                     "Delimiter": "/"
                 },
@@ -150,20 +186,8 @@
                     "Delimiter": "/"
                 },
                 {
-					"Operation": "Append",
-					"Target": [ "Fields", "set-up", 5],
-					"Value": "/animate JeremyTSnail false true 1000 5 4"
-				}
-            ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Festivals/winter8", //ice festival
-            "TextOperations": [
-                {
                     "Operation": "Append",
-                    "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "JeremyTSnail 79 47 1",
                     "Delimiter": "/"
                 },
@@ -171,10 +195,14 @@
 					"Operation": "Append",
 					"Target": [ "Fields", "set-up_y2", 5],
 					"Value": "/animate JeremyTSnail false true 1000 13 12"
+				},
+                {
+					"Operation": "Append",
+					"Target": [ "Fields", "set-up", 5],
+					"Value": "/animate JeremyTSnail false true 1000 5 4"
 				}
-
             ],
-            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, "IsOddYear": false }
+            "When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false }
         },
 //----------------WINTER STAR------------------//
         {
@@ -184,6 +212,12 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters" ],
+                    "Value": "JeremyTSnail 24 104 3",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [ "Entries", "Set-Up_additionalCharacters_y2" ],
                     "Value": "JeremyTSnail 24 104 3",
                     "Delimiter": "/"
                 },

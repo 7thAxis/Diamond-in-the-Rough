@@ -138,14 +138,10 @@ CREDITS
  //---------------------------- DYNAMIC TOKENS ------------------------------------------//
     "DynamicTokens": [    
         //WORLD STATE
-            /* IsOddYear - Checks if the year is odd for SVE Spirits Eve festival placement.
+            /* 
                TodaysDate - Condenses {{Season}} and {{Day}} into one token
                WeekDay - Checks the current abbreviated week day from WeekDayList contents.
                BasicRandomizer - Basic 50/50 chance used for randomizing various things in the mod.*/
-        {
-            "Name": "IsOddYear",
-            "Value": "{{Query: {{Year}} % 2 = 1}}"
-        },
         {
             "Name": "TodaysDate",
             "Value": "{{Season}} {{Day}}"
