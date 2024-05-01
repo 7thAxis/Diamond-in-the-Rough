@@ -226,7 +226,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/SenS",
 			"Entries": { "fall_2": "GOTO prefestivals" },
-			"When": { "HasMod: |contains=Fellowclown.Nikolai": true, "LivingWithSen": false }
+			"When": { "HasMod: |contains=Fellowclown.PC": true,  "HasFlag|contains=Fellowclown.PC_Marketpalooza.Mail": true, "LivingWithSen": false }
 		},
 		{
 			"LogName": "Sen Schedule Fireworks Festival",

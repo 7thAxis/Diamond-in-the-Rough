@@ -101,21 +101,36 @@
         }
     },
     {
-        "LogName": "Sen Item Migration",
+        "LogName": "Sen Item Migration JA",
         "Action": "EditData",
         "Target": "Data/TriggerActions",
         "Entries": {
-            "{{ModID}}.TriggerActions.SenItemMigration": {
-                "Id": "{{ModID}}.TriggerActions.SenItemMigration",
+            "{{ModID}}.TriggerActions.SenItemMigrationJA": {
+                "Id": "{{ModID}}.TriggerActions.SenItemMigrationJA",
                 "Trigger": "DayStarted",
                 "HostOnly": true,
                 "Actions": [
-                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Sen's Crocus}} {{ModID}}.Items.SensCrocus",
-                    "Pathoschild.ContentPatcher_MigrateIds Items {{spacechase0.jsonAssets/ObjectId: Sen's Crocus Seeds}} {{ModID}}.Items.SensCrocusSeeds"
+                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{spacechase0.jsonAssets/ObjectId: Sen's Crocus}} (O){{ModID}}_Items_SensCrocus",
+                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{spacechase0.jsonAssets/ObjectId: Sen's Crocus Seeds}} (O){{ModID}}_Items_SensCrocusSeeds"
                 ]
             }
         },
-        "When": { "HasMod": "spacechase0.jsonAssets" }
+        "When": { "HasMod: |contains=spacechase0.jsonAssets": true }
+    },
+    {
+        "LogName": "Lookup Anything ID Change Item Migration", //This seems to be broken but it's set up correctly so I'll leave it in, I suppose...
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}.TriggerActions.ItemIdChangeMigration": {
+                "Id": "{{ModID}}.TriggerActions.ItemIdChangeMigration",
+                "Trigger": "DayStarted",
+                "HostOnly": true,
+                "Actions": [
+                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{ModID}}.Items.ExpiredMegaBomb (O){{ModID}}_Items_ExpiredMegaBomb (O){{ModID}}.Items.SensCrocus (O){{ModID}}_Items_SensCrocus (O){{ModID}}.Items.SensCrocusSeeds (O){{ModID}}_Items_SensCrocusSeeds (O){{ModID}}.Items.UnluckyPurpleShorts (O){{ModID}}_Items_UnluckyPurpleShorts (O){{ModID}}.Items.ValleyLily (O){{ModID}}_Items_ValleyLily (O){{ModID}}.Items.ValleyLilySeeds (O){{ModID}}_Items_ValleyLilySeeds (O){{ModID}}.Items.GoldenValleyLily (O){{ModID}}_Items_GoldenValleyLily (O){{ModID}}.Items.GoldenValleyLilySeeds (O){{ModID}}_Items_GoldenValleyLilySeeds (O){{ModID}}.Items.VoidLavaSnailEgg (O){{ModID}}_Items_VoidLavaSnailEgg (O){{ModID}}.Items.QuestRewardVoidLavaSnailEgg (O){{ModID}}_Items_QuestRewardVoidLavaSnailEgg (O){{ModID}}.Items.GoldenVoidLavaSnailEgg (O){{ModID}}_Items_GoldenVoidLavaSnailEgg (O){{ModID}}.Items.VoidLavaSnailMayonnaise (O){{ModID}}_Items_VoidLavaSnailMayonnaise (O){{ModID}}.Items.VoidLavaSnailMayonnaiseBetrayal (O){{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal (O){{ModID}}.Items.GoldenVoidLavaSnailMayonnaise (O){{ModID}}_Items_GoldenVoidLavaSnailMayonnaise (O){{ModID}}.Items.VoidLavaSnail (O){{ModID}}_Items_VoidLavaSnail (O){{ModID}}.Items.GoldenVoidLavaSnail (O){{ModID}}_Items_GoldenVoidLavaSnail (H){{ModID}}.Hats.VoidLavaSnailBuddy (H){{ModID}}_Hats_VoidLavaSnailBuddy (H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy (H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy"
+                ]
+            }
+        }
     }
 ]
 }

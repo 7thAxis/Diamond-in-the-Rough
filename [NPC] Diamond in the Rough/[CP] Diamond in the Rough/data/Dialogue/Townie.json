@@ -37,7 +37,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "AcceptGift_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Townie.Lewis.UnluckyPurpleShorts}}",
+                "AcceptGift_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Townie.Lewis.UnluckyPurpleShorts}}",
                 "DitR_CT_PipoShorts": "{{i18n:Townie.Lewis.PipoShorts}}"
             }
         },
@@ -46,8 +46,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
-                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+                "AcceptGift_(O){{ModID}}_Items_VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "AcceptGift_(O){{ModID}}_Items_GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
             }
         },
         {
@@ -55,8 +55,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "RejectItem_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
-                "RejectItem_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
+                "RejectItem_(O){{ModID}}_Items_VoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}",
+                "RejectItem_(O){{ModID}}_Items_GoldenVoidLavaSnail": "{{i18n:Townie.{{TargetWithoutPath}}.VoidLavaSnail}}"
             }
         },
         {
@@ -64,7 +64,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Krobus",
             "Entries": {
-                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Townie.Krobus.UnluckyPurpleShorts.{{DayOfWeek |contains=Friday}}}}"
+                "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Townie.Krobus.UnluckyPurpleShorts.{{DayOfWeek |contains=Friday}}}}"
             }
         },
         {

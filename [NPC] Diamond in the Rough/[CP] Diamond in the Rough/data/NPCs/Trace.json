@@ -46,7 +46,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "TraceV": "{{i18n:Gifts.TraceV.Love}}/64 206 212 242 305 308 348 376 410 445 447 577 578 595 611 649 721 730 733 769 795 872 {{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.GoldenVoidLavaSnail sapphicsaph_pitv.PridePop sapphicsaph_pitv.TransTart sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.BiBerryMuffin/{{i18n:Gifts.TraceV.Like}}/-80 -6 -5 -4 -2 119 139 167 198 209 213 214 227 228 259 272 395 488 618 618 638 709 732 812/{{i18n:Gifts.TraceV.Dislike}}/148 225 226/{{i18n:Gifts.TraceV.Hate}}/103 126 127 129 131 265 346 457 637 729 827 828 921/{{i18n:Gifts.TraceV.Neutral}}/-20 771/"
+                "TraceV": "{{i18n:Gifts.TraceV.Love}}/64 206 212 242 305 308 348 376 410 445 447 578 595 611 649 721 730 733 769 795 {{ModID}}_Items_VoidLavaSnail {{ModID}}_Items_GoldenVoidLavaSnail sapphicsaph_pitv.PridePop sapphicsaph_pitv.TransTart sapphicsaph_pitv.EnbyEclair sapphicsaph_pitv.BiBerryMuffin/{{i18n:Gifts.TraceV.Like}}/-80 -6 -5 -4 -2 119 139 167 198 209 213 214 227 228 259 272 395 488 618 638 709 732 812/{{i18n:Gifts.TraceV.Dislike}}/148 225 226/{{i18n:Gifts.TraceV.Hate}}/-20 -14 103 126 127 129 131 265 346 457 637 729 768 827 828 921/{{i18n:Gifts.TraceV.Neutral}}/771/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//

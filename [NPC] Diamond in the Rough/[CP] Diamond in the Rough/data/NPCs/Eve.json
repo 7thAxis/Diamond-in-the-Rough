@@ -50,7 +50,7 @@
                         },
                         {
                             "ID": "Spirits Eve",
-                            "Condition": "EVENT_ID festival_fall27",
+                            "Condition": "IS_EVENT festival_fall27",
                             "Sprite": "{{InternalAssetKey: Assets/Characters/Eve/Eve_SpiritsEve.png}}",
                             "Precedence": -10
                         }

@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}.Items.UnluckyPurpleShorts": {
-                    "Name": "{{ModID}}.Items.UnluckyPurpleShorts",
+                "{{ModID}}_Items_UnluckyPurpleShorts": {
+                    "Name": "{{ModID}}_Items_UnluckyPurpleShorts",
                     "DisplayName": "{{i18n:Items.UnluckyPurpleShorts.Title}}",
                     "Description": "{{i18n:Items.UnluckyPurpleShorts.Description}}",
                     "Type": "Basic",
@@ -29,7 +29,7 @@
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Priority": "Early",
             "Entries": { 
-                "{{ModID}}.Items.UnluckyPurpleShorts": { 
+                "{{ModID}}_Items_UnluckyPurpleShorts": { 
 
                     "CanBeShipped": false,
 
@@ -49,7 +49,7 @@
             "LogName": "Allow Unlucky Purple Shorts Gifting",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "TargetField": [ "7thAxis.DitR.CP.Items.UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
+            "TargetField": [ "7thAxis.DitR.CP_Items_UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
             "Entries": { "NPCInternalName": true },
             "When": { "HasMod": "7thAxis.DitR.CP" }
         },
@@ -63,13 +63,13 @@
            {
                 "Operation": "Append",
                 "Target": ["Entries", "Universal_hate"],
-                "Value": "{{ModID}}.Items.UnluckyPurpleShorts",
+                "Value": "{{ModID}}_Items_UnluckyPurpleShorts",
                 "Delimiter": " "
             },
             { 
                 "Operation": "Append",
                 "Target": [ "Fields", "Lewis", 9 ],
-                "Value": "{{ModID}}.Items.UnluckyPurpleShorts",
+                "Value": "{{ModID}}_Items_UnluckyPurpleShorts",
                 "Delimiter": " "
             }
         ]

@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}.Items.ValleyLily": {
-                    "Name": "{{ModID}}.Items.ValleyLily",
+                "{{ModID}}_Items_ValleyLily": {
+                    "Name": "{{ModID}}_Items_ValleyLily",
                     "DisplayName": "{{i18n:Items.ValleyLily.Title}}",
                     "Description": "{{i18n:Items.ValleyLily.Description}}",
                     "Type": "Flower",
@@ -21,8 +21,8 @@
                     "SpriteIndex": 0
                 },
 
-                "{{ModID}}.Items.ValleyLilySeeds": {
-                    "Name": "{{ModID}}.Items.ValleyLilySeeds",
+                "{{ModID}}_Items_ValleyLilySeeds": {
+                    "Name": "{{ModID}}_Items_ValleyLilySeeds",
                     "DisplayName": "{{i18n:Items.ValleyLilySeeds.Title}}",
                     "Description": "{{i18n:Items.ValleyLilySeeds.Description}}",
                     "Type": "Seeds",
@@ -37,8 +37,8 @@
                 },
 
                 //GOLDEN VALLEY LILY
-                "{{ModID}}.Items.GoldenValleyLily": {
-                    "Name": "{{ModID}}.Items.GoldenValleyLily",
+                "{{ModID}}_Items_GoldenValleyLily": {
+                    "Name": "{{ModID}}_Items_GoldenValleyLily",
                     "DisplayName": "{{i18n:Items.GoldenValleyLily.Title}}",
                     "Description": "{{i18n:Items.GoldenValleyLily.Description}}",
                     "Type": "Flower",
@@ -54,8 +54,8 @@
                     "SpriteIndex": 2
                 },
 
-                "{{ModID}}.Items.GoldenValleyLilySeeds": {
-                    "Name": "{{ModID}}.Items.GoldenValleyLilySeeds",
+                "{{ModID}}_Items_GoldenValleyLilySeeds": {
+                    "Name": "{{ModID}}_Items_GoldenValleyLilySeeds",
                     "DisplayName": "{{i18n:Items.GoldenValleyLilySeeds.Title}}",
                     "Description": "{{i18n:Items.GoldenValleyLilySeeds.Description}}",
                     "Type": "Seeds",
@@ -75,17 +75,17 @@
         {
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": { "{{ModID}}.Items.GoldenValleyLily": { "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -269 } }
+            "Entries": { "{{ModID}}_Items_GoldenValleyLily": { "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -269 } }
         },
     //---------------------------- CROP DATA ------------------------------------------//
     {
         "Action": "EditData",
         "Target": "Data/Crops",
         "Entries": {
-            "{{ModID}}.Items.ValleyLilySeeds": {
+            "{{ModID}}_Items_ValleyLilySeeds": {
                 "Seasons": [ "spring", "summer" ],
                 "DaysInPhase": [ 1, 1, 1, 1 ],
-                "HarvestItemId": "{{ModID}}.Items.ValleyLily",
+                "HarvestItemId": "{{ModID}}_Items_ValleyLily",
                 "RegrowDays": -1,
                 "IsRaised": false,
                 "HarvestMaxIncreasePerFarmingLevel": "0",
@@ -93,10 +93,10 @@
                 "SpriteIndex": 0
             },
 
-            "{{ModID}}.Items.GoldenValleyLilySeeds": {
+            "{{ModID}}_Items_GoldenValleyLilySeeds": {
                 "Seasons": [ "spring", "summer" ],
                 "DaysInPhase": [ 1, 4, 4, 4 ], 
-                "HarvestItemId": "{{ModID}}.Items.GoldenValleyLily",
+                "HarvestItemId": "{{ModID}}_Items_GoldenValleyLily",
                 "RegrowDays": -1,
                 "IsRaised": false,
                 "HarvestMaxIncreasePerFarmingLevel": "0",

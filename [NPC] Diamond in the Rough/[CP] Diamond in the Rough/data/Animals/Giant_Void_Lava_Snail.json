@@ -15,7 +15,7 @@
                     "SellPrice": 10000,
                     "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
-                    "EggItemIds": [ "{{ModID}}.Items.VoidLavaSnailEgg", "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg" ],
+                    "EggItemIds": [ "{{ModID}}_Items_VoidLavaSnailEgg", "{{ModID}}_Items_QuestRewardVoidLavaSnailEgg" ],
                     "IncubationTime": 4500,
                     "IncubatorParentSheetOffset": 1,
                     "BirthText": "{{i18n:Core.Animals.GiantVoidLavaSnail.Birth}}",
@@ -27,7 +27,7 @@
                         "Id": "GoldenSnailEgg",
                         "Condition": "RANDOM 0.0005",
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.GoldenVoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}_Items_GoldenVoidLavaSnailEgg"
                       },
                       {
                         "Id": "SnailFireQuartz",
@@ -45,7 +45,7 @@
                         "Id": "SnailEgg",
                         "Condition": null,
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}.Items.VoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}_Items_VoidLavaSnailEgg"
                       }
                     ],
                     "ProduceOnMature": true,

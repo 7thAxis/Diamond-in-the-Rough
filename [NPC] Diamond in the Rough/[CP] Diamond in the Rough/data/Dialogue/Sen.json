@@ -140,7 +140,7 @@
                 "AcceptGift_(O)395": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)253": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)808": "{{i18n:Gifts.SenS.VoidPendant}}",
-                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.SenS.UnluckyPurpleShorts}}",
+                "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Gifts.SenS.UnluckyPurpleShorts}}",
                 "RejectItem_(O)879": "{{i18n:Gifts.SenS.UnluckyPurpleShorts.Revocation}}",
                 "RejectItem_(O)248": "{{i18n:Gifts.SenS.Garlic}}",
                 "RejectItem_(O)772": "{{i18n:Gifts.SenS.Garlic}}",
@@ -154,9 +154,38 @@
                 "RejectItem_(O)305": "{{i18n:Gifts.SenS.VoidEgg}}",
                 "RejectItem_(O)767": "{{i18n:Gifts.SenS.BatWing}}",
 
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Void_Cake": "{{i18n:Gifts.SenS.VoidCake}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Pumpkin_Bread": "{{i18n:Gifts.SenS.PumpkinBread}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Black_Cherry_Flan": "{{i18n:Gifts.SenS.BlackCherryFlan}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Spooky_Sushi": "{{i18n:Gifts.SenS.FishDish}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Pumpkin_Latte": "{{i18n:Gifts.SenS.PumpkinLatte}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Void_Caviar_Toast": "{{i18n:Gifts.SenS.VoidCaviarToast}}",
+                "AcceptGift_(O)DuchessIvy.ShadowRecipes_Crystal_Float": "{{i18n:Gifts.SenS.CrystalFloat}}",
+                "RejectItem_((O)DuchessIvy.ShadowRecipes_Savory_Squid_Stew": "{{i18n:Gifts.SenS.ContainsGarlic}}",
+                "RejectItem_((O)DuchessIvy.ShadowRecipes_Braised_Midnight_Carp": "{{i18n:Gifts.SenS.ContainsGarlic}}",
+
+                "AcceptGift_(O)stinkyvicki_BoiledStonefish": "{{i18n:Gifts.SenS.FishDish}}",
+                "AcceptGift_(O)stinkyvicki_CaveGrubDumplings": "{{i18n:Gifts.SenS.CaveGrubDumplings}}",
+                "AcceptGift_(O)stinkyvicki_RoastedBug": "{{i18n:Gifts.SenS.RoastedBug}}",
+                "AcceptGift_(O)stinkyvicki_SlimeEggSouffle": "{{i18n:Gifts.SenS.SlimeEggSouffle}}",
+                "AcceptGift_(O)stinkyvicki_SlimeJellySandwich": "{{i18n:Gifts.SenS.SlimeJellySandwich}}",
+                "AcceptGift_(O)stinkyvicki_SlimeTorte": "{{i18n:Gifts.SenS.SlimeTorte}}",
+                "AcceptGift_(O)stinkyvicki_Slimeade": "{{i18n:Gifts.SenS.Slimeade}}",
+                "RejectItem_(O)stinkyvicki_ExorcismSorbet": "{{i18n:Gifts.SenS.ContainsVoidEssence}}",
+                "RejectItem_(O)stinkyvicki_MonsterMedleyStew": "{{i18n:Gifts.SenS.ContainsVoidEssence}}",
+                "RejectItem_(O)stinkyvicki_ShadowCoffee": "{{i18n:Gifts.SenS.ContainsVoidEssence}}",
+                "RejectItem_(O)stinkyvicki_CaveBatTempura": "{{i18n:Gifts.SenS.ContainsBatWings}}",
+                "RejectItem_(O)stinkyvicki_CheesyBatCasserole": "{{i18n:Gifts.SenS.ContainsBatWings}}",
+                "RejectItem_(O)stinkyvicki_RockCrabHotpot": "{{i18n:Gifts.SenS.ContainsGarlic}}",
+                "RejectItem_(O)stinkyvicki_PrehistoricOmelet": "{{i18n:Gifts.SenS.ContainsGarlic}}",
+
                 "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.SenS.PridePop}}",
                 "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.SenS.GaylacticCookie}}",
                 "AcceptGift_(O)sapphicsaph_pitv.TastyAceCookie": "{{i18n:Gifts.SenS.TastyAceCookie}}",
+
+                "AcceptGift_(O)Fellowclown.AND_Button": "{{i18n:Gifts.SenS.Button}}",
+
+                "AcceptGift_(O)WWWA.GenuineAutograph": "{{i18n:Gifts.SenS.RodneyAutograph}}",
 
                 //birthday
                 "AcceptBirthdayGift_(O)418": "{{i18n:Gifts.SenS.Crocus.Birthday}}",
@@ -173,7 +202,7 @@
                 "AcceptBirthdayGift_(O)608": "{{i18n:Gifts.SenS.PumpkinPie.Birthday}}",
 
                 //Custom Items
-                "AcceptGift_(O){{ModID}}.Items.SensCrocus": "{{i18n:Gifts.SenS.SensCrocus}}"
+                "AcceptGift_(O){{ModID}}_Items_SensCrocus": "{{i18n:Gifts.SenS.SensCrocus}}"
                 //Json Assets
                 /*"accept_An_autographed_photo": "{{i18n:Gifts.SenS.RodneyAutograph}}",*/
             }

@@ -80,13 +80,88 @@
                 "DitR_CT_YouAttackedJeremy": "{{i18n:Core.TraceV.YouAttackedJeremy}}",
                 
             //Gifts
-                "AcceptGift_(O){{ModID}}.Items.VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
-                "AcceptGift_(O){{ModID}}.Items.GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
+
+                //Category response
+                "AcceptGift_category_gem" : "{{i18n:Gifts.TraceV.Cat.Gem}}",
+                "AcceptGift_category_milk" : "{{i18n:Gifts.TraceV.Cat.Milk}}",
+                "AcceptGift_category_egg" : "{{i18n:Gifts.TraceV.Cat.Egg}}",
+                "AcceptGift_category_fish" : "{{i18n:Gifts.TraceV.Cat.Fish}}",
+                "AcceptGift_category_flowers" : "{{i18n:Gifts.TraceV.Cat.Flowers}}",
+                "AcceptGift_category_junk" : "{{i18n:Gifts.TraceV.Cat.Trash}}",
+                "RejectItem_category_meat" : "{{i18n:Gifts.TraceV.Cat.Meat}}",
+
+                //Love
+                "AcceptGift_(O)64" : "{{i18n:Gifts.TraceV.Ruby}}",
+                "AcceptGift_(O)578" : "{{i18n:Gifts.TraceV.StarShards}}",
+                "AcceptGift_(O)348" : "{{i18n:Gifts.TraceV.Wine}}",
+                "AcceptGift_(O)376" : "{{i18n:Gifts.TraceV.Poppy}}",
+                "AcceptGift_(O)410" : "{{i18n:Gifts.TraceV.Blackberry}}",
+                "AcceptGift_(O)445" : "{{i18n:Gifts.TraceV.Caviar}}",
+                "AcceptGift_(O)447" : "{{i18n:Gifts.TraceV.AgedRoe}}",
+                "AcceptGift_(O)206" : "{{i18n:Gifts.TraceV.Pizza}}",
+                "AcceptGift_(O)212" : "{{i18n:Gifts.TraceV.SalmonDinner}}",
+                "AcceptGift_(O)242" : "{{i18n:Gifts.TraceV.DishOTheSea}}",
+                "AcceptGift_(O)611" : "{{i18n:Gifts.TraceV.BlackberryCobbler}}",
+                "AcceptGift_(O)649" : "{{i18n:Gifts.TraceV.FiddleheadRisotto}}",
+                "AcceptGift_(O)730" : "{{i18n:Gifts.TraceV.LobsterBisque}}",
+                "AcceptGift_(O)733" : "{{i18n:Gifts.TraceV.ShrimpCocktail}}",
+                "AcceptGift_(O)721" : "{{i18n:Gifts.TraceV.Snail}}",
+                "AcceptGift_(O)769" : "{{i18n:Gifts.TraceV.VoidEssence}}",
+                "AcceptGift_(O)795" : "{{i18n:Gifts.TraceV.VoidSalmon}}",
+                "AcceptGift_(O)305" : "{{i18n:Gifts.TraceV.VoidEgg}}",
+                "AcceptGift_(O)308" : "{{i18n:Gifts.TraceV.VoidMayo}}",
+                "AcceptGift_(O)595" : "{{i18n:Gifts.TraceV.FairyRose}}",
+
+                //Like
+                "AcceptGift_(O)119" : "{{i18n:Gifts.TraceV.BoneFlute}}",
+                "AcceptGift_(O)709" : "{{i18n:Gifts.TraceV.Hardwood}}",
+                "AcceptGift_(O)488" : "{{i18n:Gifts.TraceV.EggplantSeeds}}",
+                "AcceptGift_(O)139" : "{{i18n:Gifts.TraceV.Salmon}}",
+                "AcceptGift_(O)167" : "{{i18n:Gifts.TraceV.JojaCola}}",
+                "AcceptGift_(O)198" : "{{i18n:Gifts.TraceV.BakedFish}}",
+                "AcceptGift_(O)209" : "{{i18n:Gifts.TraceV.CarpSurprise}}",
+                "AcceptGift_(O)213" : "{{i18n:Gifts.TraceV.FishTaco}}",
+                "AcceptGift_(O)214" : "{{i18n:Gifts.TraceV.CrispyBass}}",
+                "AcceptGift_(O)227" : "{{i18n:Gifts.TraceV.Sashimi}}",
+                "AcceptGift_(O)228" : "{{i18n:Gifts.TraceV.MakiRoll}}",
+                "AcceptGift_(O)618" : "{{i18n:Gifts.TraceV.Bruschetta}}",
+                "AcceptGift_(O)732" : "{{i18n:Gifts.TraceV.CrabCakes}}",
+                "AcceptGift_(O)395" : "{{i18n:Gifts.TraceV.Coffee}}",
+                "AcceptGift_(O)259" : "{{i18n:Gifts.TraceV.FiddleheadFern}}",
+                "AcceptGift_(O)272" : "{{i18n:Gifts.TraceV.Eggplant}}",
+                "AcceptGift_(O)812" : "{{i18n:Gifts.TraceV.Roe}}",
+
+                //Dislike
+                "RejectItem_(O)148" : "{{i18n:Gifts.TraceV.Eel}}",
+                "RejectItem_(O)225" : "{{i18n:Gifts.TraceV.FriedEel}}",
+                "RejectItem_(O)226" : "{{i18n:Gifts.TraceV.SpicyEel}}",
+
+                //Hate
+                "RejectItem_(O)103" : "{{i18n:Gifts.TraceV.FreakyDoll}}",
+                "RejectItem_(O)126" : "{{i18n:Gifts.TraceV.FreakyDoll}}",
+                "RejectItem_(O)127" : "{{i18n:Gifts.TraceV.FreakyDoll}}",
+                "AcceptGift_(O)129" : "{{i18n:Gifts.TraceV.Anchovy}}",
+                "AcceptGift_(O)131" : "{{i18n:Gifts.TraceV.Sardine}}",
+                "AcceptGift_(O)265" : "{{i18n:Gifts.TraceV.SeafoamPudding}}",
+                "RejectItem_(O)346" : "{{i18n:Gifts.TraceV.Beer}}",
+                "AcceptGift_(O)457" : "{{i18n:Gifts.TraceV.PaleBroth}}",
+                "RejectItem_(O)637" : "{{i18n:Gifts.TraceV.Pomegranate}}",
+                "AcceptGift_(O)729" : "{{i18n:Gifts.TraceV.Escargot}}",
+                "RejectItem_(O)827" : "{{i18n:Gifts.TraceV.MummifiedCritter}}",
+                "RejectItem_(O)828" : "{{i18n:Gifts.TraceV.MummifiedCritter}}",
+                "AcceptGift_(O)921" : "{{i18n:Gifts.TraceV.SquidInkRavioli}}",
+                "AcceptGift_(O)768" : "{{i18n:Gifts.TraceV.SolarEssence}}",
+
+                //Neutral
+                "AcceptGift_(O)771" : "{{i18n:Gifts.TraceV.Fiber}}",
+
+                "AcceptGift_(O){{ModID}}_Items_VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
+                "AcceptGift_(O){{ModID}}_Items_GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
                 "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.TraceV.PridePop}}",
                 "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.TraceV.TransTart}}",
                 "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.TraceV.EnbyEclair}}",
                 "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.TraceV.BiBerryMuffin}}",
-                "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
+                "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
 
             }
         }

@@ -92,7 +92,7 @@
         "AcceptGift_(O)903": "{{i18n:Gifts.EveT.GingerAle}}",
         "AcceptGift_(O)216": "{{i18n:Gifts.EveT.Bread}}",
         "AcceptGift_(O)618": "{{i18n:Gifts.EveT.Bruschetta}}",
-        "AcceptGift_(O){{ModID}}.Items.ValleyLily": "{{i18n:Gifts.EveT.ValleyLily}}",
+        "AcceptGift_(O){{ModID}}_Items_ValleyLily": "{{i18n:Gifts.EveT.ValleyLily}}",
         "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.EveT.PridePop}}",
         "AcceptGift_(O)sapphicsaph_pitv.LesbianLollipop": "{{i18n:Gifts.EveT.LesbianLollipop}}",
         "AcceptGift_(O)sapphicsaph_pitv.GaylacticCookie": "{{i18n:Gifts.EveT.GaylacticCookie}}",
@@ -179,8 +179,8 @@
         "RejectItem_(O)812": "{{i18n:Gifts.EveT.AlgaeSoup}}",    
         "RejectItem_(O)729": "{{i18n:Gifts.EveT.Escargot}}",    
         "RejectItem_(O)921": "{{i18n:Gifts.EveT.SquidInkRavioli}}",
-        "RejectItem_(O){{ModID}}.Items.UnluckyPurpleShorts": "{{i18n:Gifts.EveT.UnluckyPurpleShorts}}",    
-        "AcceptGift_(O){{ModID}}.Items.ExpiredMegaBomb": "{{i18n:Gifts.EveT.ExpiredMegaBomb}}",
+        "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Gifts.EveT.UnluckyPurpleShorts}}",    
+        "AcceptGift_(O){{ModID}}_Items_ExpiredMegaBomb": "{{i18n:Gifts.EveT.ExpiredMegaBomb}}",
          
         "RejectItem_(O)809": "{{i18n:Movies.EveT.RejectMovieTicket}}" 
         }

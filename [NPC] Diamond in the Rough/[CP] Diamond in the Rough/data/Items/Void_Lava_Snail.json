@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}.Items.VoidLavaSnail": {
-                    "Name": "{{ModID}}.Items.VoidLavaSnail",
+                "{{ModID}}_Items_VoidLavaSnail": {
+                    "Name": "{{ModID}}_Items_VoidLavaSnail",
                     "DisplayName": "{{i18n:Items.VoidLavaSnail.Title}}",
                     "Description": "{{i18n:Items.VoidLavaSnail.Description}}",
                     "Type": "Basic",
@@ -22,8 +22,8 @@
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 6
                 },
-                "{{ModID}}.Items.GoldenVoidLavaSnail": {
-                    "Name": "{{ModID}}.Items.GoldenVoidLavaSnail",
+                "{{ModID}}_Items_GoldenVoidLavaSnail": {
+                    "Name": "{{ModID}}_Items_GoldenVoidLavaSnail",
                     "DisplayName": "{{i18n:Items.GoldenVoidLavaSnail.Title}}",
                     "Description": "{{i18n:Items.GoldenVoidLavaSnail.Description}}",
                     "Type": "Basic",
@@ -46,8 +46,8 @@
         "Action": "EditData",
         "Target": "spacechase0.SpaceCore/ObjectExtensionData",
         "Entries": { 
-            "{{ModID}}.Items.VoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" },
-            "{{ModID}}.Items.GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" }
+            "{{ModID}}_Items_VoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" },
+            "{{ModID}}_Items_GoldenVoidLavaSnail": { "CategoryTextOverride": "{{i18n:Items.VoidLavaSnail.Category}}" }
          }
     },
 //---------------------------- HAT VARIANT DATA ------------------------------------------// 
@@ -56,8 +56,8 @@
             "Action": "EditData",
             "Target": "Data/Hats",
             "Entries": {
-                "{{ModID}}.Hats.VoidLavaSnailBuddy": "{{ModID}}.Hats.VoidLavaSnailBuddy/{{i18n:Items.VoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.VoidLavaSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats",
-                "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy": "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy/{{i18n:Items.GoldenVoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.GoldenVoidLavaSnailBuddy.Title}}/1/Mods\\{{ModID}}\\Hats"
+                "{{ModID}}_Hats_VoidLavaSnailBuddy": "{{ModID}}_Hats_VoidLavaSnailBuddy/{{i18n:Items.VoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.VoidLavaSnailBuddy.Title}}/0/Mods\\{{ModID}}\\Hats",
+                "{{ModID}}_Hats_GoldenVoidLavaSnailBuddy": "{{ModID}}_Hats_GoldenVoidLavaSnailBuddy/{{i18n:Items.GoldenVoidLavaSnailBuddy.Description}}/false/true//{{i18n:Items.GoldenVoidLavaSnailBuddy.Title}}/1/Mods\\{{ModID}}\\Hats"
             }
         },
  //---------------------------- FISHING DATA ------------------------------------------//
@@ -65,7 +65,7 @@
             "LogName": "Void Lava Snail Fishing Data",
             "Action": "EditData",
             "Target": "Data/Fish",
-            "Entries": { "{{ModID}}.Items.VoidLavaSnail": "Void Lava Snail/trap/{{SnailCrabPotRate}}//freshwater/12/24/false" }
+            "Entries": { "{{ModID}}_Items_VoidLavaSnail": "Void Lava Snail/trap/{{SnailCrabPotRate}}//freshwater/12/24/false" }
         },
         {
             "LogName": "Void Lava Snail Fishing - Caldera",
@@ -74,10 +74,10 @@
             "TargetField": [ "Caldera", "Fish" ],    
 
             "Entries": { 
-                "{{ModID}}.Hats.VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}.Hats.VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.VoidLavaSnailBuddy" },
-                "{{ModID}}.Items.VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}.Items.VoidLavaSnail", "ItemId": "(O){{ModID}}.Items.VoidLavaSnail" },
-                "{{ModID}}.Hats.GoldenVoidLavaSnail": {  "Chance": 0.0005, "Id": "{{ModID}}.Hats.GoldenVoidLavaSnailBuddy", "ItemId": "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" },
-                "{{ModID}}.Items.GoldenVoidLavaSnail": {  "Chance": 0.001, "Id": "{{ModID}}.Items.GoldenVoidLavaSnail", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnail" }
+                "{{ModID}}_Hats_VoidLavaSnail": {  "Chance": 0.01, "Id": "{{ModID}}_Hats_VoidLavaSnailBuddy", "ItemId": "(H){{ModID}}_Hats_VoidLavaSnailBuddy" },
+                "{{ModID}}_Items_VoidLavaSnail": {  "Chance": 0.3, "Id": "{{ModID}}_Items_VoidLavaSnail", "ItemId": "(O){{ModID}}_Items_VoidLavaSnail" },
+                "{{ModID}}_Hats_GoldenVoidLavaSnail": {  "Chance": 0.0005, "Id": "{{ModID}}_Hats_GoldenVoidLavaSnailBuddy", "ItemId": "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy" },
+                "{{ModID}}_Items_GoldenVoidLavaSnail": {  "Chance": 0.001, "Id": "{{ModID}}_Items_GoldenVoidLavaSnail", "ItemId": "(O){{ModID}}_Items_GoldenVoidLavaSnail" }
                 
              }
         },
@@ -87,8 +87,8 @@
             "Action": "EditData",
             "Target": "Data/AquariumFish",
             "Entries": {
-                "{{ModID}}.Items.VoidLavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8",
-                "{{ModID}}.Items.GoldenVoidLavaSnail": "0/crawl/2/2 3/2 3/2 3/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
+                "{{ModID}}_Items_VoidLavaSnail": "0/crawl/0/0 1/0 1/0 1/Mods\\{{ModID}}\\Aquarium_Fish/16 8",
+                "{{ModID}}_Items_GoldenVoidLavaSnail": "0/crawl/2/2 3/2 3/2 3/Mods\\{{ModID}}\\Aquarium_Fish/16 8"
             }
         },
  //---------------------------- FISH POND DATA ------------------------------------------//
@@ -105,12 +105,12 @@
 
                 {
                     "RequiredPopulation": 10, 
-                    "Chance": 0.001, "ItemID": "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy", //Void Lava Snail Hat
+                    "Chance": 0.001, "ItemID": "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy", //Void Lava Snail Hat
                     "MinQuantity": 1, "MaxQuantity": 1 
                 },
                 {
                     "RequiredPopulation": 10, 
-                    "Chance": 0.01, "ItemID": "(H){{ModID}}.Hats.VoidLavaSnailBuddy", //Void Lava Snail Hat
+                    "Chance": 0.01, "ItemID": "(H){{ModID}}_Hats_VoidLavaSnailBuddy", //Void Lava Snail Hat
                     "MinQuantity": 1, "MaxQuantity": 1 
                 },
                 {
@@ -130,12 +130,12 @@
                 },
                 {
                     "RequiredPopulation": 2,
-                    "Chance": 0.1, "ItemID": "(O){{ModID}}.Items.VoidLavaSnail", //...Void Lava Snail
+                    "Chance": 0.1, "ItemID": "(O){{ModID}}_Items_VoidLavaSnail", //...Void Lava Snail
                     "MinQuantity": 1, "MaxQuantity": 1
                 },
                 {
                     "RequiredPopulation": 2,
-                    "Chance": 0.0005, "ItemID": "(O){{ModID}}.Items.GoldenVoidLavaSnail",
+                    "Chance": 0.0005, "ItemID": "(O){{ModID}}_Items_GoldenVoidLavaSnail",
                     "MinQuantity": 1, "MaxQuantity": 1
                 },
                 {
@@ -155,9 +155,9 @@
                 }
             ],
                 "PopulationGates": {    
-                "3": [ "(O){{ModID}}.Items.VoidLavaSnail 3", "(O)153 3", "(O)560 3" ], //Void Lava Snail, Algae, White Algae
-                "5": [ "(O){{ModID}}.Items.VoidLavaSnail 5", "(O)153 5", "(O)560 5" ], //Void Lava Snail, Algae, White Algae
-                "8": [ "(O){{ModID}}.Items.VoidLavaSnail 10", "(O)153 10", "(O)560 10" ] //Void Lava Snail, Algae, White Algae
+                "3": [ "(O){{ModID}}_Items_VoidLavaSnail 3", "(O)153 3", "(O)560 3" ], //Void Lava Snail, Algae, White Algae
+                "5": [ "(O){{ModID}}_Items_VoidLavaSnail 5", "(O)153 5", "(O)560 5" ], //Void Lava Snail, Algae, White Algae
+                "8": [ "(O){{ModID}}_Items_VoidLavaSnail 10", "(O)153 10", "(O)560 10" ] //Void Lava Snail, Algae, White Algae
                 }
             }
         }
@@ -171,7 +171,7 @@
         { 
             "Operation": "Append",
             "Target": [ "Fields", "Vincent", 1 ],
-            "Value": "{{ModID}}.Items.VoidLavaSnail {{ModID}}.Items.GoldenVoidLavaSnail",
+            "Value": "{{ModID}}_Items_VoidLavaSnail {{ModID}}_Items_GoldenVoidLavaSnail",
             "Delimiter": " "
         }
     ]

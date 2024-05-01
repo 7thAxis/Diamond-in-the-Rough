@@ -1428,7 +1428,7 @@
 "Core.JeremyTS.PreForestMagic.1": "%Jeremy eyes you with curiosity. There is more to this snail than meets the eye...",
 "Core.JeremyTS.PreForestMagic.2": "%Jeremy stares at you intensely, as if they sense something peculiar about you...#$b#%What a weird snail.",
 
-"Core.JeremyTS.DailyDialogue.1": "Hello. Are you out on an \"adventure\"?$2#$b#You are quite like my bretheren. They fascinated by this world and wish to explore it, one small inch at a time.#$b#If you locate any of my kin, bring them to me. They have little regard for the balance of the ecosystem.$2",
+"Core.JeremyTS.DailyDialogue.1": "Hello. Are you out on an \"adventure\"?$2#$b#You are quite like my bretheren. They are fascinated by this world and wish to explore it, one small inch at a time.#$b#If you locate any of my kin, bring them to me. They have little regard for the balance of the ecosystem.$2",
 "Core.JeremyTS.DailyDialogue.2": "%revealtasteJeremyTSnail613 Trace brought me apples for my last meal. I do enjoy myself a good apple...$1#$b#Do humans too enjoy a good apple?$2",
 "Core.JeremyTS.DailyDialogue.3": "I feel little need to travel far from home. I have all the necessities for a comfortable existence.#$b#If only my kin would come to understand this.$2",
 "Core.JeremyTS.DailyDialogue.4": "Many years ago, Trace wandered into the caldera at the summit of Ginger Island's volcano.#$b#As young spry snails seeking adventure, several of my kin and I hitched a ride on their clothing.$1#$b#I do not believe we made the correct choice, but alas, I cannot imagine a life without Trace.$2#$e#...To this day, I do wonder how Trace reached the summit of Mount Kohldur.$2",
@@ -1485,7 +1485,7 @@
 "Gifts.PipoP.StardropTea": "...Since when do cats have any interest in tea? However, it does smell like the blood of my enemies... Hm.#$b#...#$b#...I mean meow.",
 "Gifts.JeremyTSnail.StardropTea": "...!$2#$b#%Jeremy loses their calm demeanor guzzles down the tea like a wild beast.#$b#%They then promptly return to a normal state of peacefulness.",
 
-//Eve
+    //----EVE----//
 "Gifts.EveT.Like": "Oh thanks, @! This is great!",
 "Gifts.EveT.Love": "Oh my gosh thank you, @! I adore this!",
 "Gifts.EveT.Neutral": "Thanks for the gift, @!",
@@ -1548,12 +1548,85 @@
 "Gifts.EveT.LesbianLollipop": "Get thee into my mouth, Satan.$11#$b#Just screwing around, thanks @!$h",
 "Gifts.EveT.GaylacticCookie": "Gotta hide this from Waffle, pronto.$s#$b#Any time I find myself in the possession of a cookie, she ends up stealing it.$a",
 
-//Trace
-"Gifts.TraceV.Love": "Oh wow... You really get me! This is fantastic, thanks!",
-"Gifts.TraceV.Like": "Hey, thanks! It means a lot that you thought about me.",
-"Gifts.TraceV.Neutral": "Oh, thanks! I'm gonna hang onto this.",
-"Gifts.TraceV.Dislike": "...Ummm. Thanks, I think?",
-"Gifts.TraceV.Hate": "...You should uh, probably take this back. I ain't interested.",
+    //----TRACE----//
+"Gifts.TraceV.Love": "Oh wow... You really get me! This is fantastic, thanks!$l",
+"Gifts.TraceV.Like": "Hey, thanks! It means a lot that you thought about me.$l",
+"Gifts.TraceV.Neutral": "Oh, thanks! I'm gonna hang onto this.$h",
+"Gifts.TraceV.Dislike": "...Ummm. Thanks, I think?$6",
+"Gifts.TraceV.Hate": "...You should uh, probably take this back. I ain't interested.$s",
+
+//Category
+"Gifts.TraceV.Cat.Gem": "Oh man, this sure is shiny! I'm gonna add it to my shiny rock collection.$h#$b#Non-shiny rocks are banned from the shiny rock collection.$a",
+"Gifts.TraceV.Cat.Milk": "Oh, thanks for the milk, @! Saves me a trip to the store, I was running pretty low.$l",
+"Gifts.TraceV.Cat.Egg": "Oh egg... how I love and hate you so.$s#$b#You're the reason I'm banned from operating vehicles, but I also need you for baking purposes.$6#$b#But don't worry yourself about my internal egg turmoil, @. I appreciate your egg bestowal.$7",
+"Gifts.TraceV.Cat.Fish": "Heeeereeeee fishy fishy fishy.$h#$b#Come to me so I can turn you into a fine dining delicacy.$9",
+"Gifts.TraceV.Cat.Flowers": "...! I LOVE flowers. This was really really sweet of you to give me.$l#$b#I'm gonna press it in one of my books so I never gotta throw it away.$11",
+"Gifts.TraceV.Cat.Trash": "...$s#$b#%Trace turns away, seeming dejected.",
+"Gifts.TraceV.Cat.Meat": "Uhhhh... I appreciate it, really I do, but I'm pescitarian.$6#$b#I don't want this to go to waste, so you should probably give it to someone else.$h",
+
+//Love
+"Gifts.TraceV.Ruby": "Me and this rock? We're basically twins. I can't tell either of us apart. Can you?$h#$b#Shh, don't answer. You'll make Rubert insecure.$6",
+"Gifts.TraceV.StarShards": "Oooo, sparkly! It twinkles like stars. And you know who else is a star?$h#$b#You, @. Keep shining on, buckaroo.$l",
+"Gifts.TraceV.Wine": "Oh sweet, this stuff looks top notch.$l#$b#To be honest I don't drink too often, but I'll be sure to crack it open on a special occasion.$h",
+"Gifts.TraceV.Poppy": "Aww, hello little poppy. What a cutie.$l#$b#A lot of people don't like the poppy around here and I don't really get it.$6#$b#Oh well, I like you little guy.$l",
+"Gifts.TraceV.Blackberry": "IT'S... A... BLACKBERRY! Mine mine mine mine mine!$9#$b#I will have all the berries in the valley. Fear me, for I am the berry overlord!$8",
+"Gifts.TraceV.Snail": "Aww... Lookit the little snail. They're so cuuute.$l#$b#Oh man, I better be careful. Jeremy's gonna get super jealous...$6",
+"Gifts.TraceV.VoidEssence": "...$s#$b#%Trace would silently roll the void essence in their palm, the energetic orb's aura flaring to life in the form of a small erratic flame. As quickly as it came, the flame would fizzle out in a poof of black smoke.#$b#...$a",
+"Gifts.TraceV.VoidSalmon": "Salmon of the darkness, you are my friend. You understand me.$11#$b#I will never, ever eat you.$8#$b#...Probably.$9",
+"Gifts.TraceV.VoidEgg": "Egg of darkness my old friend, I've come to talk with you again...$6#$b#%Trace looks off into the distance, fondly remembering their old car - a red and black MICRO Kooper that perished in the highway egg incident of 20xx.#$b#Never trust an egg, @. Never trust an egg.$a",
+"Gifts.TraceV.VoidMayo": "Serves that egg right. Now lemmie see that so I can spread it on some toast.$h",
+"Gifts.TraceV.FairyRose": "$query PLAYER_STAT Current RosesGiftedtoTrace 5#Heh... You know, no one's given me this many roses since...$s#$b#Eh, you know what? It doesn't matter.$l#$b#Thank you, @. I sincerely mean it.$10|...!$u#$b#O-oh, thank you! Roses are my favorite flower...$l#$b#I uh, may not be very serious often but I am right now. Thank you, sincerely, @.$11#$action IncrementStat RosesGiftedtoTrace 1",
+
+//Like
+"Gifts.TraceV.BoneFlute": "Heh... Bone flute. Heh heh heh.$9#$b#No Trace, be mature. You can do it, I believe in you.$6",
+"Gifts.TraceV.Hardwood": "Hardwood. Snirk. Teeheehehehehe....$9#$b#No Trace, you're better than this! Stop giggling!$6",
+"Gifts.TraceV.EggplantSeeds": "I'm trying. So hard. Not. To. Make. A. Comment.$9#$b#I'm gonna die, @. I'm just gonna die.$6",
+"Gifts.TraceV.Salmon": "Yesss the best fish to make the best dish! Come to papa, fishy fishy.$h#$b#You're getting baked tonight!$8",
+"Gifts.TraceV.JojaCola": "Don't tell anybody I think this, but this stuff is the bomb.$6#$b#I know it's absolutely horrible for you but I can't stay away, I keep coming back for more.$h#$b#Alas, no one can know about my forbidden toxic love with JojaCola. It seems I will be forever trapped in this cycle.$6",
+"Gifts.TraceV.FiddleheadFern": "EEee thank you, @! These ferns make the absolute best garnishes to pretty up even the blandest looking dishes.$h#$b#Hrm... am I pushing unfair beauty standards on my Fiddlehead Rissoto?$6",
+"Gifts.TraceV.Eggplant": "I like eggplants.$h",
+"Gifts.TraceV.Roe": "Fish eggs. That's all there is to say. Thank you, @.$h",
+
+//Dislike
+"Gifts.TraceV.Eel": "Ew... Yuck, naaaasty! Get that slimy wriggler away from me.$u#$b#Eels ain't my jam, sorry.$a",
+
+//Hate
+"Gifts.TraceV.FreakyDoll": "I absolutely implore you to keep that cursed object, thank you.$u",
+"Gifts.TraceV.Anchovy": "Yuck...$a#$b#I mean, uh, thanks. I loooove anchovies. They're the best.$6#$b#Okay Trace, as soon as they turn around find a cat to give it too...$6",
+"Gifts.TraceV.Sardine": "Yuck...$a#$b#I mean, uh, thanks. I loooove sardines. They're the best.$6#$b#Okay Trace, as soon as they turn around find a cat to give it too...$6",
+"Gifts.TraceV.Beer": "Ew... Stinky bread water, you can keep that.$6#$b#Ain't interested, not one bit.$6",
+"Gifts.TraceV.Pomegranate": "Woah now! I appreciate the gesture, but I'm highly allergic to pomegranates!$h#$b#I'd blow up like a balloon with one single bite.$6#$b#You should give it to Elliott, I'm sure he'd appreciate it.$l",
+"Gifts.TraceV.Escargot": "Gasp...! A snail had to DIE for this! How could you?$a#$b#I can't even look at you, @. This is the ultimate betrayal. What would Jeremy think?$a",
+"Gifts.TraceV.MummifiedCritter": "Oh... I'm gonna hurl... Ew ew ew ew...$u#$b#Please go put that thing to rest that before you unleash some kinda curse on us both.$a",
+"Gifts.TraceV.SolarEssence": "...?$u#$b#%With wide-eyed curiosity, Trace would take the solar essence into their cupped palms. On contact, they'd let out a sharp hiss and bounce the orb around in their palms before chucking it back over to the farmer.#$b#O-ow...! Uh. Y-You can keep that, yeah.$a[768]",
+
+//The Great Cooking Nonsense
+"Gifts.TraceV.Caviar": "Woohoo, fish eggs! Don't knock 'em till you try 'em, they're delicious!$h",
+"Gifts.TraceV.AgedRoe": "Woohoo, ANCIENT fish eggs! Don't knock 'em till you try 'em, they're a delicacy!$11",
+"Gifts.TraceV.Pizza": "...$a#$b#%Trace takes the pizza with shifty eyes.#$b#Tell no one of our transaction. If the valley discovered I sold out to greasy fast food, it'd be over for me.$a#$action AddMoney 500",
+"Gifts.TraceV.SalmonDinner": "Salmon dinner! The peak of perfection in pescitarian dining. There is no better meal, it is the undisputed king.$8#$b#In my humble opinion, at least. Which is the correct opinion.$9",
+"Gifts.TraceV.DishOTheSea": "",
+"Gifts.TraceV.BlackberryCobbler": "Did... did you make this cobbler for me, @?$l#$b#You're too kind to my blackberry loving soul, @. Thank you so much.$11",
+"Gifts.TraceV.FiddleheadRisotto": "Fiddlehead Risotto! Okay I simply LOVE this dish.$l#$b#Many folks call it bland, but I say their tastes aren't refined enough to appreciate the flavor.$h",
+"Gifts.TraceV.LobsterBisque": "Ahh lobster bisque, the perfect combination of cream and the sea.$l#$b#This particular bowl is deliscious, thanks for treating me!$11",
+"Gifts.TraceV.ShrimpCocktail": "Okay, @, You're just spoiling me right now! I love me some little shrimpies!$l#$b#*munchmunch*$11#$b#Okay I definitely can't eat all of these, you should have one too.$h[720]",
+"Gifts.TraceV.BakedFish": "Okay, this looks absolutely SCRUMPTIOUS!$h#$b#Did you make this? The herb arangement is superb.$l",
+"Gifts.TraceV.CarpSurprise": "Hrm... It's um, a little greasy.$6#$b#B-But it isn't bad at all! If it's fish, I'll eat it!$l#$b#Why is the carp surprised, anyway? Because it's getting eaten?$6",
+"Gifts.TraceV.FishTaco": "Alright, we love ourselves a good fish taco in this house.$h#$b#Though, I am questioning the addition of red cabbage, quite the odd choice.$6",
+"Gifts.TraceV.CrispyBass": "Oh yoba, the breading on this bass is absolutely divine!$11#$b#Did you make this? You should be proud of yourself.$l",
+"Gifts.TraceV.Sashimi": "Can't go wrong with a good 'ol plate of sashimi.$h#$b#Though it does become tricky to figure out what fish it was to begin with...$6",
+"Gifts.TraceV.MakiRoll": "GIMMIE THOSE MAKI ROLLS!$h#$b#Please and thank you, of course.$l#$b#Sorry, Maki rolls are just awesome.$h",
+"Gifts.TraceV.Bruschetta": "Oh bruschetta, my beloved. Perfectly roasted tomatos on a delicious bread, toasted to perfection with a glaze of oil.$l#$b#Yum yum yum.~$11",
+"Gifts.TraceV.CrabCakes": "I'm not usually a fan of fried food. Not lying, definitely, but crab cakes are an exception to that rule.$h#$b#These are so crispy on the outside and soft on the inside. Absolute perfection.$l",
+"Gifts.TraceV.Coffee": "Oooo, nothing like a good cup of coffee to get you up and running!$h#$b#Or stuck awake all night watching TV and accomplishing nothing productive.$6",
+"Gifts.TraceV.SeafoamPudding": "Oh yoba it's so salty... Like consuming a tiny ocean$6#$b#I'll uh, definitely finish this for sure.",
+"Gifts.TraceV.PaleBroth": "This is um... that is certainly something you can eat, ain't it?$6#$b#Jeremy likes this stuff, I'll pawn it off on them...$6#$b#Uh! You didn't hear that.$h",
+"Gifts.TraceV.SquidInkRavioli": "Oh yoba... not the the squid ink ravioli. Anything but the squid ink ravioli.$a#$b#Sorry, it's not you, @. Squid ink ravioli and I have a jaded past.$6",
+"Gifts.TraceV.FriedEel": "Ewww... gross, slimy wriggler but FRIED!$u#$b#Nasty, you can eat that but I ain't touching it with a 10 foot pole!$a",
+"Gifts.TraceV.SpicyEel": "Ewww... yuck, SPICY slimy wriggler.$u#$b#Nasty, you can eat that but I ain't touching it with a 10 foot pole!$a",
+
+//Neutral
+"Gifts.TraceV.Fiber": "So it's you again, fiber. Got anything to say to me, you pile-of-grass punk?$a",
 
 "Gifts.TraceV.VoidLavaSnail": "Awww, what a cute little baby snail. I'll get send 'em down to Jeremy for a little play date!$11",
 "Gifts.TraceV.GoldenVoidLavaSnail": "Woah... that little snail is so shiny! I think I'll name them... Jeremy Jr. I'm sure they'll get along just dandy with Jeremy Sr.!",
@@ -1564,7 +1637,7 @@
 "Gifts.TraceV.EnbyEclair": "ENBY ECLAIR ENBY ECLAIR ENBY ECLAIR!$h#$b#Literally the best snack ever behind blackberry cobbler.$l#$b#Ya really do know the way to my heart, @.$h",
 "Gifts.TraceV.BiBerryMuffin": "I always appreciate a muffin that's into both guys and gals.$h#$b#Go go get 'em little guy--$l#$b#Wait, oops. Already ate them.$6",
  
-//Sen
+    //----SEN----//
 "Gifts.SenS.Love": "Oh! Thank you, @. This is one of my most favorite things ever!",
 "Gifts.SenS.Like": "Thank you very much, @! I'll make great use of this during my next project.",
 "Gifts.SenS.Dislike": "Err... thank you very much?",
@@ -1630,11 +1703,11 @@
 "Gifts.SenS.PoppyseedMuffin": "Yay a muffin! I don't get to have these often.$h#$b#I love their texture!$7",
 "Gifts.SenS.MapleBar": "It's so sticky! How do I eat this without making a mess of my fur?$u#$b#Oh who cares, bottoms up!$7",
 "Gifts.SenS.BananaPudding": "Mmmm is this made with bananas?$7#$b#It has a lovely smell and I bet an even lovelier taste.$l",
-"Gifts.SenS.MandoStickyRice": "Oooh a mango dish! I don't get the chance to try things like this very often.#$b#Thank you so much, @!$h",
+"Gifts.SenS.MangoStickyRice": "Oooh a mango dish! I don't get the chance to try things like this very often.#$b#Thank you so much, @!$h",
 "Gifts.SenS.Sweetener": "Oh...! This is like liquid sugar incarnate!$h#$b#A simply divine taste gifted from nature. Thanks, @!$7",
 "Gifts.SenS.Coffee": "Oh yum, coffee! This will give me tons of energy for my next project.$h#$b#Maybe a little too much, hehe.$8",
-"Gifts.SenS.UnluckyPurpleShorts": "Oh, a pair of weird pants! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure!$h#$b#Oh and if you want them back, bring me something super stinky, okay?$12#$action AddMail Current DitR_M_SenShorts received#$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action spacechase0.SpaceCore_PlaySound give_gift",
-"Gifts.SenS.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_SenShorts Any#Oh, what a delightful fragrance!$h#$b#This smells much better than these weird pants. Here, have them back.$h[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action RemoveItem (O)879 1#$action spacechase0.SpaceCore_PlaySound give_gift#$action RemoveMail Current DitR_M_SenShorts all|Oh, what a delightful fragrance!$h#$b#I'm afraid I don't have anything of proper stink levels to trade back to you.$s#$b#Sorry, @, it just wouldn't be fair to take that!$s",
+"Gifts.SenS.UnluckyPurpleShorts": "Oh, a pair of weird pants! Thanks @, these are great.$h#$b#I'm going to incorperate them into my next costume for sure!$h#$b#Oh and if you want them back, bring me something super stinky, okay?$12#$action AddMail Current DitR_M_SenShorts received#$action RemoveItem (O)7thAxis.DitR.CP_Items_UnluckyPurpleShorts#$action spacechase0.SpaceCore_PlaySound give_gift",
+"Gifts.SenS.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_SenShorts Any#Oh, what a delightful fragrance!$h#$b#This smells much better than these weird pants. Here, have them back.$h[(O)7thAxis.DitR.CP_Items_UnluckyPurpleShorts]#$action RemoveItem (O)879 1#$action spacechase0.SpaceCore_PlaySound give_gift#$action RemoveMail Current DitR_M_SenShorts all|Oh, what a delightful fragrance!$h#$b#I'm afraid I don't have anything of proper stink levels to trade back to you.$s#$b#Sorry, @, it just wouldn't be fair to take that!$s",
 
 "Gifts.SenS.Crocus.Birthday": "...!!$11#$b#You... you remembered my birthday, and my favorite flower!$7#$b#@, you don't understand. This means the world to me. Thank you so much.$l",
 "Gifts.SenS.Cloth.Birthday": "@, this is amazing! Thank you for the cloth, I've been in dire need of some.$h#$b#Getting it from you on my birthday is even better!$h",
@@ -1648,6 +1721,27 @@
 "Gifts.SenS.Cake.Birthday": "Oh! Did you bake this for my birthday?$h#$b#How thoughtful of you! Humans have such lovely customs.$h",
 "Gifts.SenS.PumpkinPie.Birthday": "Oh! Did you bake this for my birthday?$h#$b#I absolutely adore pumpkin pie... Thank you so much, @!$h",
 
+"Gifts.SenS.VoidCake": "Oh, this cake looks simply delightful!",
+"Gifts.SenS.PumpkinBread": "Sniff...sniff... Is that pumpkin flavored bread?$h#$b#Hand it right over, thank you very much!$7#$b#I mean, thank you, @.$8",
+"Gifts.SenS.PumpkinLatte": "...! Gimmie gimmie gimmie!!$7#$b#%Sen takes the latte and chugs it down in the blink of an eye.#$b#Thanks, @! That was delicious.$h",
+"Gifts.SenS.CrystalFloat": "Is this made with soda? Oooh, I don't have that too often.$h#$b#The cans in the trash are usually empty.$s#$b#As they say, bottoms up!$7",
+"Gifts.SenS.BlackCherryFlan": "Berry cherry, merry blackberry. Delicious all the way through!#$b#Thank you for the snack, @!$h",
+"Gifts.SenS.VoidCaviarToast": "Fish eggs on toast... That doesn't sound appealing, but not the grossest thing I've ever eaten either.$6#$b#I'll give it a try!$h",
+
+"Gifts.SenS.CaveGrubDumplings": "Oh, hello dinner for tonight!$h#$b#They're still even wiggling, even better!$7",
+"Gifts.SenS.RoastedBug": "Oooh, I love roasted bug! This was a staple around my family's dinner table.$h#$b#Or dinner rock, rather.$8",
+"Gifts.SenS.SlimeEggSouffle": "Oh, fork that slimy goodness over right now!$7#$b#If it's made of slime, it has to do its time. In my belly.$12",
+"Gifts.SenS.SlimeJellySandwich": "Slime Jelly SANDWICH! A perfect cullinary innovation.$7#$b#Cuisine can't get any better than this.$l",
+"Gifts.SenS.SlimeTorte": "Slime... cake... the combination is too good to be true!$7#$b#Fork it over right now!$h#$b#I'm serious, I need a fork right now!!$u",
+"Gifts.SenS.Slimeade": "Nothing beats a nice fresh glass of slimeaid, wouldn't you say?$7#$b#It's extra goopy going down that other drinks, just how I like it!$h",
+
+"Gifts.SenS.FishDish": "Fishy dishes usually don't excite me too much, but I'll gobble this up since it game from you. Thanks, @!$h",
+"Gifts.SenS.ContainsGarlic": "Sniff...sniff...#$b#I can detect a hint of garlic in this. Blegh. I'll have to pass,sorry @.$8",
+"Gifts.SenS.ContainsBatWings": "%Sen inspects the dish with curioisity.#$b#%Upon seeing the bat wings poking out, his face contorts in disgust and he quietly slides the dish back into your hands.",
+"Gifts.SenS.ContainsVoidEssence": "Urgh... Is there um, void essence in this?$s#$b#That's um... I um... No thank you.$s",
+
+"Gifts.SenS.Button": "Oooh, what an adorable little button!$h#$b#It'll find a cozy home in one of my upcoming costumes for sure. Thank you, @!$l",
+
 "Gifts.SenS.RodneyAutograph": "Oh my gosh, it's an autograph from the two time award winning author Rodney O'Brien!!$7#$e#I found a copy of his book in the trash.$h",
 "Gifts.SenS.SensCrocus": "Oh, that's...!$u#$b#That's one of the flower seeds I threw to the wind, isn't it?$7#$b#I can't believe it worked!$7",
 
@@ -1655,7 +1749,7 @@
 "Gifts.SenS.GaylacticCookie": "$query PLAYER_HAS_MAIL Current DitR_M_SenPrideCookie Any, PLAYER_HEARTS Current SenS 8#...! Did you really remember I wanted one of these cookies, @?$7#$b#Thank you so much, you're the best. Have this shiny stone I found in the garbage.$h[74]#$action Current RemoveMail DitR_M_SenPrideCookie all|Oh!! I really wanted one of these, thank you so much @!$h#$b#%The cookie lasts about 2 seconds, then is gone...#$action Current RemoveMail DitR_M_SenPrideCookie all",
 "Gifts.SenS.TastyAceCookie": "Ace, ace, ace... I believe I read that means you don't find yourself \"physically\" interested in others?$6#$b#I feel that describes me quite well. I could care less what one looks looks like, I much prefer a good chat.$h",
 
-//Jeremy
+    //----JEREMY----//
 "Gifts.JeremyTSnail.Like.True": "Hmm. This is an intriguing find.#$b#I suppose I shall accept this.$2",
 "Gifts.JeremyTSnail.Love.True": "As a mollusk, I have little need for earthly possessions...$2#$b#...However, this does pique my interest. Thank you.$1",
 "Gifts.JeremyTSnail.Neutral.True": "...Hmm. What use am I supposed to make of this?#$b#You are aware that I am a snail, correct?$2",
@@ -1689,48 +1783,43 @@
 "Gifts.JeremyTS.ExpiredMegaBomb.False": "%Jeremy seems disinterested in the utterly rancid explosive device.",
 
 
-//Waffle
+    //----WAFFLE----//
 "Gifts.WaffleW.Like": "Boofwoof!",
-"Gifts.WaffleW.Love": "%Waffle is so excited that she chews on the gift.",
+"Gifts.WaffleW.Love": "%Unable to contain her excitement, Waffle begins chewing on the gift.",
 "Gifts.WaffleW.Neutral": "%Waffle accepts your offering.",
 "Gifts.WaffleW.Dislike": "Arf..?$s",
 "Gifts.WaffleW.Hate": "Arwooo...$s",
 
-"Gifts.WaffleW.Birthday.Positive.1": "Waff waff waff!$h",
-"Gifts.WaffleW.Birthday.Positive.2": "%Waffle is so excited that she chews on the gift.",
-"Gifts.WaffleW.Birthday.Negative": "%Waffle seems dejected by your birthday gift.",
-"Gifts.WaffleW.Birthday.Neutral": "%Waffle accepts your birthday offering.",
-
-"Gifts.WaffleW.BirthdayGift.Love": "Waff waff waff!$h",
-"Gifts.WaffleW.BirthdayGift.Like": "%Waffle is so excited that she chews on the gift.",
-"Gifts.WaffleW.BirthdayGift.Dislike": "%Waffle seems dejected by your birthday gift.",
-"Gifts.WaffleW.BirthdayGift.Negative": "%Waffle sticks her nose in the air and snubs your gift.",
+"Gifts.WaffleW.BirthdayGift.Love": "Waff waff waff!$l",
+"Gifts.WaffleW.BirthdayGift.Like": "%Unable to contain her excitement, Waffle begins chewing on the birthday gift.",
+"Gifts.WaffleW.BirthdayGift.Dislike": "%Waffle turns away from you, dejected by your birthday offering.",
+"Gifts.WaffleW.BirthdayGift.Negative": "%Waffle sticks her nose in the air and snubs your gift. You should know better!",
 "Gifts.WaffleW.BirthdayGift.Neutral": "Arf arf arf!",
 
 "Gifts.WaffleW.Meat": "%Waffle happily accepts the meat treat and gobbles it up.",
-"Gifts.WaffleW.Trash": "%Waffle plays with the trash.",
-"Gifts.WaffleW.Milk": "%Waffle growls at the milk. It's gross.",
-"Gifts.WaffleW.Fish": "%Waffle growls at the fish. They're gross.",
-"Gifts.WaffleW.Doll": "Waffle takes the doll and shakes it.",
-"Gifts.WaffleW.ChewingStick": "%Waffle chews on the chewing stick.",
-"Gifts.WaffleW.Bone": "%Waffle takes the bone and gnaws on it.",
-"Gifts.WaffleW.Driftwood": "%Waffle takes the driftwood and gnaws on it.",
-"Gifts.WaffleW.Cookie": "%Waffle inhales the cookie.",
+"Gifts.WaffleW.Trash": "%Waffle starts playing with the trash, much to the dismay of Eve.",
+"Gifts.WaffleW.Milk": "%Waffle growls at the milk. Vile substance.",
+"Gifts.WaffleW.Fish": "%Waffle growls at the fish. Disgusting.",
+"Gifts.WaffleW.Doll": "Waffle takes the doll and shakes it violently.",
+"Gifts.WaffleW.ChewingStick": "%Waffle chews on the chewing stick made for chewing that has already been pre-chewed.",
+"Gifts.WaffleW.Bone": "%Waffle happily accepts the bone and gnaws on it.",
+"Gifts.WaffleW.Driftwood": "%Waffle takes the driftwood and prances off with it, the stick far too large for her mouth.",
+"Gifts.WaffleW.Cookie": "%Waffle inhales the cookie like a small dog-sized vacuum cleaner.",
 "Gifts.WaffleW.Mayonnaise": "%Waffle inhales the mayonnaise. Delicious.",
 "Gifts.WaffleW.VoidEssence": "%Waffle eats the void essence. Is that healthy?",
-"Gifts.WaffleW.VoidEgg": "%Waffle holds the void egg in her mouth.",
-"Gifts.WaffleW.ChocolateCake": "%Waffle snubs the chocolate cake. That's poison!",
+"Gifts.WaffleW.VoidEgg": "%Waffle holds the void egg in her mouth. The egg must be protected.",
+"Gifts.WaffleW.ChocolateCake": "%Waffle snubs the chocolate cake. Fowl poison!",
 "Gifts.WaffleW.VoidSalmon": "%Waffle growls at her arch nemesis. Void salmon.",
-"Gifts.WaffleW.GoatMilk": "%Waffle is offended by the offering of goat milk.",
+"Gifts.WaffleW.GoatMilk": "%Waffle is deeply offended by the offering of goat milk.",
 "Gifts.WaffleW.SolarEssence": "%Waffle growls at the solar essence.",
-"Gifts.WaffleW.Potato": "%Waffle expects you to throw the potato like a ball...",
+"Gifts.WaffleW.Potato": "%Waffle loops up and you and wags her tail as if she expects you to throw the potato... It's a ball, isn't it?",
 "Gifts.WaffleW.UnluckyPurpleShorts": "%Waffle grabs the purple shorts from you and begins whipping them around like a wild animal.#$b#%She then grows bored and drops them on the ground.",
 
 "Gifts.WaffleW.PridePop": "%Waffle licks the popsical, then barks at it in astonishment.#$b#%Why is it cold?!",
 "Gifts.WaffleW.BiBerryMuffin": "%Waffle gobbles gown the BiBerry Muffin. It didn't stand a chance.",
 "Gifts.WaffleW.GayCookie": "%You barely have a chance to show Waffle the cookie before it's gone.#$b#%All that's left is crumbs...",
 
-//Pipo
+    //----PIPO----//
 "Gifts.PipoP.Like": "Piiiipo pip pipo.",
 "Gifts.PipoP.Love": "%Pipo purrs and rubs themself against your gift.",
 "Gifts.PipoP.Neutral": "Meow meow?",
@@ -1752,7 +1841,7 @@
 "Gifts.PipoP.PurpleMushroom": "%Pipo bites the mushroom and then sees stars.",
 "Gifts.PipoP.Bread": "%Pipo bites onto the bread and drags it away.",
 "Gifts.PipoP.Dandelion": "%Pipo bites the flower off of the dandelion. Tasty.",
-"Gifts.PipoP.Meat": "%Pipo growls like a feral wild animal as they scarf down the meat.",
+"Gifts.PipoP.Meat": "%Pipo growls like a feral wild animal as they scarf down the flesh.",
 "Gifts.PipoP.Fish": "%Pipo growls like a feral wild animal as they scarf down the fish.",
 "Gifts.PipoP.Egg": "%Pipo paws at the egg. When it rolls away, they give chace.",
 "Gifts.PipoP.FishMeal": "%Pipo accepts the fancy fish dish like the prince they are.",
@@ -1767,8 +1856,8 @@
 "Gifts.PipoP.SpicyEel": "%Pipo nibbles on the eel and then hisses from the spice!",
 "Gifts.PipoP.RedMushroom": "%Pipo knows better than to eat strange red forage.",
 "Gifts.PipoP.WildHorseradish": "%Pipo knows the dark secrets of the wild horseradish.",
-"Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts. You'll probably need a hook or something if you ever want those back...#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
-"Gifts.PipoP.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP.Items.UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
+"Gifts.PipoP.UnluckyPurpleShorts": "...You have certainly made a life choice. I mean meow.#$b#%Pipo accepts the shorts. You'll probably need a hook or something if you ever want those back...#$action spacechase0.SpaceCore_PlaySound give_gift##$action RemoveItem (O)7thAxis.DitR.CP_Items_UnluckyPurpleShorts#$action AddMail Current DitR_M_PipoShorts received#$action AddConversationTopic DitR_CT_PipoShorts 3",
+"Gifts.PipoP.UnluckyPurpleShorts.Revocation": "$query PLAYER_HAS_MAIL Current DitR_M_PipoShorts Any#%You hook onto the purple shorts, stealing them back!#$b#Order has been restored to the land. I mean Meow.[(O)7thAxis.DitR.CP_Items_UnluckyPurpleShorts]#$action spacechase0.SpaceCore_PlaySound pickUpItem#$action RemoveMail Current DitR_M_PipoShorts all#$action RemoveConversationTopic DitR_CT_PipoShorts|%You show the tackle to Pipo. They are unimpressed.",
 "Gifts.PipoP.Trash": "%Pipo bats at the trash curiously, then begins to play with it.",
 
 "Gifts.PipoP.EnbyEclair": "...There is chocolate on this. I do however appreciate the affirmation of my detachment from the human binary.#$b#I mean meow.#$b#%Pipo mlems at the cream filling, avoiding the chocolate topping.",
@@ -2519,7 +2608,7 @@
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.2": "Hello, ^^Do not question my capability to write.^^Move along and accept my reward for your assistance in bringing my kin home.  ^^   -J.T.S %item object 769 20 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.3": "Hello, ^^My home is starting to become a tad crowded. I suppose that is fine. I quite enjoy the chatter... ^^Anyhow, here is a reward. ^^   -J.T.S %item object 633 1 %%",
 "Quests.DitR.VoidLavaSnailRoundUp.SnailMail.4": "Hello, ^^I have quite the large family now. Based on the last headcount, it is about 80 snails wide. ^^Now if only they would all behave...^^I have no idea where they found all this gold...^^   -J.T.S %item money 10000 %%",
-"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP.Items.QuestRewardVoidLavaSnailEgg 1 %%",
+"Quests.DitR.VoidLavaSnailRoundUp.SnailMail.5": "Hello, ^^One hundred snails. Absolutely astonishing. ^^Accept this egg. I trust you to take it and nurture it with care.^^You will need to construct a special building, just so you are aware...^   -J.T.S %item object (O)7thAxis.DitR.CP_Items_QuestRewardVoidLavaSnailEgg 1 %%",
 
 /*
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
@@ -3024,10 +3113,10 @@
 "Relationship.SenS.Outdoor.6.Romantic": "I'm going to head inside shortly, but... Isn't the sun beautiful, bringing light to this world?$h#$b#Some days I wish I could walk out and bask directly in it, but I know that's a terrible idea.$8#$e#Luckily I have you, my starshine. A soft ray of light that shall never bring me harm.$l",
 
 //One Kid
-"Relationship.SenS.OneKid.1": "The pitterpatter of small feet around the house is so endearing.$h#$b#$kid1 seems to have a boundless amount of energy! Where does it come from?$h",
+"Relationship.SenS.OneKid.1": "The pitterpatter of small feet around the house is so endearing.$h#$b#%kid1 seems to have a boundless amount of energy! Where does it come from?$h",
 "Relationship.SenS.OneKid.2": "Children are such a handful and destructive too!$u#$b#I caught %kid1 drawing on the walls!$u#$e#I got it all cleaned up though, so don't worry.$8",
 "Relationship.SenS.OneKid.3": "I do wonder how this living arrangement will impact %kid1 growing up...$6#$b#When will we inform the little one that this life must be kept a secret?$s#$e#How does one even begin to breach that subject with a child?$s#$b#There is still plently of time before that's necessary, but...$s#$e#%Sen shakes his head.#$b#I'm worrying about this too much. Things are going to work out in the end, I'm sure of it.$h",
-"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger!$u#$b#Children are truely something else.$8",
+"Relationship.SenS.OneKid.4": "I tried to feed %kid1 earlier and nearly lost a finger!$u#$b#Children are truly something else.$8",
 "Relationship.SenS.OneKid.5": "%kid1 has far too much energy. It's hard to keep up with the destructive warpath of flying toys and crayons.$u#$b#Maybe I should make myself a suit of armor.$8",
 
 //Two Kid

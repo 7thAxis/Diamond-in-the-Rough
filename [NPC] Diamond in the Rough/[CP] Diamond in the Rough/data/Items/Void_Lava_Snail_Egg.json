@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}.Items.VoidLavaSnailEgg": {
-                    "Name": "{{ModID}}.Items.VoidLavaSnailEgg",
+                "{{ModID}}_Items_VoidLavaSnailEgg": {
+                    "Name": "{{ModID}}_Items_VoidLavaSnailEgg",
                     "DisplayName": "{{i18n:Items.VoidLavaSnailEgg.Title}}",
                     "Description": "{{i18n:Items.VoidLavaSnailEgg.Description}}",
                     "Type": "Basic",
@@ -21,8 +21,8 @@
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 7
                 },
-                "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg": {
-                    "Name": "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg",
+                "{{ModID}}_Items_QuestRewardVoidLavaSnailEgg": {
+                    "Name": "{{ModID}}_Items_QuestRewardVoidLavaSnailEgg",
                     "DisplayName": "{{i18n:Items.VoidLavaSnailEgg.Title}}",
                     "Description": "{{i18n:Items.QuestRewardVoidLavaSnailEgg.Description}}",
                     "Type": "Basic",
@@ -38,8 +38,8 @@
                     "SpriteIndex": 7
                 },
 
-                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {
-                    "Name": "{{ModID}}.Items.GoldenVoidLavaSnailEgg",
+                "{{ModID}}_Items_GoldenVoidLavaSnailEgg": {
+                    "Name": "{{ModID}}_Items_GoldenVoidLavaSnailEgg",
                     "DisplayName": "{{i18n:Items.GoldenVoidLavaSnailEgg.Title}}",
                     "Description": "{{i18n:Items.GoldenVoidLavaSnailEgg.Description}}",
                     "Type": "Basic",
@@ -61,7 +61,7 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": { 
-                "{{ModID}}.Items.QuestRewardVoidLavaSnailEgg": { 
+                "{{ModID}}_Items_QuestRewardVoidLavaSnailEgg": { 
 
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
@@ -81,8 +81,8 @@
             "TargetField": [ "Caldera", "Fish" ],    
 
             "Entries": { 
-                "{{ModID}}.Items.VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}.Items.VoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.VoidLavaSnailEgg" },
-                "{{ModID}}.Items.GoldenVoidLavaSnailEgg": {  "Chance": 0.0004, "Id": "{{ModID}}.Items.GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" } 
+                "{{ModID}}_Items_VoidLavaSnailEgg": {  "Chance": 0.03, "Id": "{{ModID}}_Items_VoidLavaSnailEgg", "ItemId": "(O){{ModID}}_Items_VoidLavaSnailEgg" },
+                "{{ModID}}_Items_GoldenVoidLavaSnailEgg": {  "Chance": 0.0004, "Id": "{{ModID}}_Items_GoldenVoidLavaSnailEgg", "ItemId": "(O){{ModID}}_Items_GoldenVoidLavaSnailEgg" } 
              },
              "When": { "HasFlag": "DitR_M_SnailPhase5" }
         }

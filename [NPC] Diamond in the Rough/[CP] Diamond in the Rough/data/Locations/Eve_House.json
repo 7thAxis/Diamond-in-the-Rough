@@ -98,7 +98,7 @@
                         {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.StinkyBomb",
                             "Condition": "RANDOM 0.4",
-                            "RandomItemId": [ "(O){{ModID}}.Items.ExpiredMegaBomb" ]
+                            "RandomItemId": [ "(O){{ModID}}_Items_ExpiredMegaBomb" ]
                         },
                         {
                             "Id": "7thAxis.DitR.CP.TrashCan.EveT.Trash",

@@ -194,31 +194,31 @@
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
                     "Condition": "RANDOM 0.0005",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(H){{ModID}}.Hats.GoldenVoidLavaSnailBuddy" ]
+                    "RandomItemId": [  "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailEgg",
                     "Condition": "RANDOM 0.0004, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnailEgg" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items_GoldenVoidLavaSnailEgg" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnail",
                     "Condition": "RANDOM 0.001",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}.Items.GoldenVoidLavaSnail" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items_GoldenVoidLavaSnail" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailBuddy",
                     "Condition": "RANDOM 0.01",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(H){{ModID}}.Hats.VoidLavaSnailBuddy" ]
+                    "RandomItemId": [  "(H){{ModID}}_Hats_VoidLavaSnailBuddy" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailEgg",
                     "Condition": "RANDOM 0.03, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}.Items.VoidLavaSnailEgg" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items_VoidLavaSnailEgg" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.Snackies",
@@ -228,7 +228,7 @@
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnail",
                     "Condition": "RANDOM 0.3",
-                    "RandomItemId": [ "(O){{ModID}}.Items.VoidLavaSnail" ]
+                    "RandomItemId": [ "(O){{ModID}}_Items_VoidLavaSnail" ]
                 },
                 {
                     "Id": "7thAxis.DitR.CP.TrashCan.TraceV.TrashBerry",
