@@ -25,8 +25,8 @@
             //Location
 
                 //Home
-                "{{ModID}}.Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Home.Bed}}",
-                "{{ModID}}.Maps.Trace_House_Interior_12_6": "{{i18n:Core.TraceV.Locations.Home.JamOut.Hourglass}}",
+                "{{ModID}}_Maps.Trace_House_Interior_15_5": "{{i18n:Core.TraceV.Locations.Home.Bed}}",
+                "{{ModID}}_Maps.Trace_House_Interior_12_6": "{{i18n:Core.TraceV.Locations.Home.JamOut.Hourglass}}",
 
                 //Inn
                 "EastScarp_VillageInn_41_30": "{{i18n:Core.TraceV.Locations.Inn.JamOut.Hourglass}}",
@@ -155,13 +155,13 @@
                 //Neutral
                 "AcceptGift_(O)771" : "{{i18n:Gifts.TraceV.Fiber}}",
 
-                "AcceptGift_(O){{ModID}}_Items_VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
-                "AcceptGift_(O){{ModID}}_Items_GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
+                "AcceptGift_(O){{ModID}}_Items.VoidLavaSnail": "{{i18n:Gifts.TraceV.VoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1",
+                "AcceptGift_(O){{ModID}}_Items.GoldenVoidLavaSnail": "{{i18n:Gifts.TraceV.GoldenVoidLavaSnail}}#$action IncrementStat VoidLavaSnailsGiven 1#$action AddMail Current DitR_M_GaveJeremyGoldenSnail received",
                 "AcceptGift_(O)sapphicsaph_pitv.PridePop": "{{i18n:Gifts.TraceV.PridePop}}",
                 "AcceptGift_(O)sapphicsaph_pitv.TransTart": "{{i18n:Gifts.TraceV.TransTart}}",
                 "AcceptGift_(O)sapphicsaph_pitv.EnbyEclair": "{{i18n:Gifts.TraceV.EnbyEclair}}",
                 "AcceptGift_(O)sapphicsaph_pitv.BiBerryMuffin": "{{i18n:Gifts.TraceV.BiBerryMuffin}}",
-                "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
+                "RejectItem_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Gifts.TraceV.UnluckyPurpleShorts}}"
 
             }
         }

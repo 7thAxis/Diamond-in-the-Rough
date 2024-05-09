@@ -22,14 +22,14 @@
               "WorldPositions": [
                 {
                   "Id": "TraceHouse",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Trace_House_Interior",
+                  "LocationName": "7thAxis.DitR_Maps.Trace_House_Interior",
                   "ExtendedTileArea": null,
                   "MapPixelArea": { "X": 85, "Y": 103, "Width": 11, "Height": 8 },
                   "ScrollText": "{{i18n:Maps.TraceV.TraceHouse}}"
                 },
                 {
                   "Id": "TraceBasement",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Jeremy_Room",
+                  "LocationName": "7thAxis.DitR_Maps.Jeremy_Room",
                   "MapPixelArea": { "X": 85, "Y": 103, "Width": 11, "Height": 8 },
                   "ScrollText": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}"
                 },
@@ -53,7 +53,7 @@
               "WorldPositions": [
                 {
                   "Id": "TraceHouse",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Eve_House_Interior",
+                  "LocationName": "7thAxis.DitR_Maps.Eve_House_Interior",
                   "ExtendedTileArea": null,
                   "MapPixelArea": { "X": 190, "Y": 112, "Width": 8, "Height": 7 },
                   "ScrollText": "{{i18n:Maps.EveT.EveHouse}}"
@@ -116,14 +116,14 @@
               "WorldPositions": [
                 {
                   "Id": "TraceHouse",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Trace_House_Interior",
+                  "LocationName": "7thAxis.DitR_Maps.Trace_House_Interior",
                   "ExtendedTileArea": null,
                   "MapPixelArea": { "X": 5, "Y": 103, "Width": 11, "Height": 8 },
                   "ScrollText": "{{i18n:Maps.TraceV.TraceHouse}}"
                 },
                 {
                   "Id": "TraceBasement",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Jeremy_Room",
+                  "LocationName": "7thAxis.DitR_Maps.Jeremy_Room",
                   "MapPixelArea": { "X": 5, "Y": 103, "Width": 11, "Height": 8 },
                   "ScrollText": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}"
                 },
@@ -147,7 +147,7 @@
               "WorldPositions": [
                 {
                   "Id": "TraceHouse",
-                  "LocationName": "7thAxis.DitR.CP.Maps.Eve_House_Interior",
+                  "LocationName": "7thAxis.DitR_Maps.Eve_House_Interior",
                   "ExtendedTileArea": null,
                   "MapPixelArea": { "X": 110, "Y": 112, "Width": 8, "Height": 7 },
                   "ScrollText": "{{i18n:Maps.EveT.EveHouse}}"

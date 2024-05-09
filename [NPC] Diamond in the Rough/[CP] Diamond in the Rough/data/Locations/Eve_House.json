@@ -12,7 +12,7 @@
 //---------------------------- INTERIOR LOAD ------------------------------------------//          
         {
 			"Action": "Load",
-			"Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+			"Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
 			"FromFile": "assets/Maps/Eve_House_Interior.tmx"
 		},
         {
@@ -20,11 +20,11 @@
 			"Action": "EditData",
 			"Target": "Data/Locations",
 			"Entries": {
-				"{{ModID}}.Maps.Eve_House_Interior": {
+				"{{ModID}}_Maps.Eve_House_Interior": {
                     "MusicIsTownTheme": true,
 					"DisplayName": "{{i18n:Maps.EveT.EveHouse}}",
 					"DefaultArrivalTile": { "X": 6, "Y": 10 },
-					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Eve_House_Interior" },
+					"CreateOnLoad": { "MapPath": "Maps/{{ModID}}_Maps.Eve_House_Interior" },
 					"FormerLocationNames": [ "7thAxis.LotV.Eve_House_Interior" ]
 				}
 			}
@@ -32,7 +32,7 @@
 //---------------------------- WARPS ------------------------------------------//   
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
             "AddWarps": [ "6 11 EastScarp_Village 79 94" ]
         },
         {
@@ -42,7 +42,7 @@
                 {
                     "Position": { "X": 79, "Y": 93 },
                     "Layer": "Buildings",
-                    "SetProperties": { "Action": "Warp 6 9 {{ModID}}.Maps.Eve_House_Interior" }
+                    "SetProperties": { "Action": "Warp 6 9 {{ModID}}_Maps.Eve_House_Interior" }
                 }
             ]
         },
@@ -64,13 +64,13 @@
     //MEEP Drawer
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Eve_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Eve_House_Interior",
             "MapTiles": [
                 {
                     "Position": { "X": 10, "Y": 4 },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}.Images/Drawer_Photo.1",
+                        "Action": "MEEP_CloseupInteraction_Image Mods/{{ModID}}_Images/Drawer_Photo.1",
                         "MEEP_CloseupInteraction_Text": "{{i18n:Maps.EveT.EveTHDrawer}}"
                     }
                 }
@@ -83,11 +83,11 @@
             "TargetField": [ "GarbageCans" ], 
             "Entries": {
                
-                "7thAxis.DitR.CP.TrashCan.EveT": {
+                "7thAxis.DitR_TrashCan.EveT": {
                     "BaseChance": 1.0,
                     "Items": [
                        {
-                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.Bombs",
+                            "Id": "7thAxis.DitR_TrashCan.EveT.Bombs",
                             "Condition": "RANDOM 0.1",
                             "RandomItemId": [ 
                                 "(O)286", "(O)288", "(O)287", //Bombs
@@ -96,12 +96,12 @@
                             ]
                         },
                         {
-                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.StinkyBomb",
+                            "Id": "7thAxis.DitR_TrashCan.EveT.StinkyBomb",
                             "Condition": "RANDOM 0.4",
-                            "RandomItemId": [ "(O){{ModID}}_Items_ExpiredMegaBomb" ]
+                            "RandomItemId": [ "(O){{ModID}}_Items.ExpiredMegaBomb" ]
                         },
                         {
-                            "Id": "7thAxis.DitR.CP.TrashCan.EveT.Trash",
+                            "Id": "7thAxis.DitR_TrashCan.EveT.Trash",
                             "RandomItemId": [ "(O)168", "(O)172" ]
                         }
                     ],

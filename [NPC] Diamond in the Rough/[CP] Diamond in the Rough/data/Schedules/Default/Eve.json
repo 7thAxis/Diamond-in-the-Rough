@@ -7,41 +7,41 @@
 			"Target": "Characters/schedules/EveT",
 			"Entries": {
 				"spring": "					
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 EastScarp_Village 77 98 evet_kickfeet/
 					1000 62 112 3/
 					1200 80 78 evet_kickfeet/
 					1400 24 62/
 					1600 25 103 evet_kickfeet/
-					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					1800 {{ModID}}_Maps.Eve_House_Interior 1 5 0/
 					1900 3 5 0/
 					2000 12 5 evet_sleep
 				",
 
 				"rain":"
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 11 7 evet_gempolish/
 					1100 EastScarp_VillageInn 28 26 evet_sit/
 					1400 25 11 evet_sit/
 					1600 EastScarp_Village 23 63 evet_kickfeet/
-					1800 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					1800 {{ModID}}_Maps.Eve_House_Interior 1 5 0/
 					2030 3 5 0/
 					2100 12 5 evet_sleep
 				",
 
 				"winter_15":"
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 EastScarp_Village 31 100 2/
 					1100 Town 86 103 2/
 					1500 Beach 41 5 2/
 					1700 11 25 1/
-					1900 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					1900 {{ModID}}_Maps.Eve_House_Interior 1 5 0/
 					2100 3 5 0/
 					2200 12 5 evet_sleep
 				",
@@ -51,9 +51,9 @@
 				"spring_12": "GOTO spring",
 
 				"fall_27": "
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 EastScarp_Village 77 98 evet_kickfeet/
 					1000 EastScarp_VillageInn 27 28 3/
 					2000 Town 104 92 1/
@@ -62,7 +62,7 @@
 					0 Town 62 33/
 					610 62 33 3/
 					900 CommunityCenter 2 9 2/
-					1700 {{ModID}}.Maps.Eve_House_Interior 12 5 evet_sleep
+					1700 {{ModID}}_Maps.Eve_House_Interior 12 5 evet_sleep
 				"
 			}
 		},
@@ -73,22 +73,22 @@
 			"Target": "Characters/schedules/EveT",
 			"Entries": {
 				"Sat":"
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 EastScarp_Village 31 100 2/
 					1100 Blacksmith 4 15 0/
 					1400 Town 86 103 2/
 					1530 EastScarp_Village 35 107 1/
-					2300 {{ModID}}.Maps.Eve_House_Interior 1 5 0/
+					2300 {{ModID}}_Maps.Eve_House_Interior 1 5 0/
 					2430 3 5 0/
 					2500 12 5 eve_sleep
 				",
 
 				"fall_27": "
-					0 {{ModID}}.Maps.Eve_House_Interior 12 5/
+					0 {{ModID}}_Maps.Eve_House_Interior 12 5/
 					610 12 5 evet_lay/
-					700 {{ModID}}.Maps.Eve_House_Interior 3 5 0/
+					700 {{ModID}}_Maps.Eve_House_Interior 3 5 0/
 					800 EastScarp_Village 77 98 evet_kickfeet/
 					1000 62 112 3/
 					1200 80 78 evet_kickfeet/

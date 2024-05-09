@@ -83,7 +83,7 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}.TriggerActions.JeremyIntroActivation": {
+                "{{ModID}}_TriggerActions.JeremyIntroActivation": {
                     "Trigger": "DayStarted",
                     "Id": "DitR.TriggerActions.JeremyIntroActivation",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current 112",
@@ -96,10 +96,10 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}.TriggerActions.SenIntroActivation": {
+                "{{ModID}}_TriggerActions.SenIntroActivation": {
                     "Trigger": "DayStarted",
                     "Id": "DitR.TriggerActions.SenIntroActivation",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.SenS.0h, PLAYER_FRIENDSHIP_POINTS Current SenS 0 0",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.SenS.0h, PLAYER_FRIENDSHIP_POINTS Current SenS 0 0",
                     "Actions": [ "AddConversationTopic DitR_CT_SenIntroduction 999" ]
                 }
             }
@@ -109,7 +109,7 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModID}}.TriggerActions.EveTraceIntroActivation": {
+                "{{ModID}}_TriggerActions.EveTraceIntroActivation": {
                     "Trigger": "DayStarted",
                     "Id": "DitR.TriggerActions.EveTraceIntroActivation",
                     "Actions": [ "AddConversationTopic DitR_CT_UnlockedFromStartIntroduction 999" ]

@@ -5,43 +5,43 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.Music.EveTheme": {
-                    "ID": "{{ModID}}.Music.EveTheme",
+                "{{ModID}}_Music.EveTheme": {
+                    "ID": "{{ModID}}_Music.EveTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_The_World_Is_Ours.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-                "{{ModID}}.Music.SkrellTheme": {
-                    "ID": "{{ModID}}.Music.SkrellTheme",
+                "{{ModID}}_Music.SkrellTheme": {
+                    "ID": "{{ModID}}_Music.SkrellTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/ZaneLittle_Sinister_Abode.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-                "{{ModID}}.Music.JeremyTheme": {
-                    "ID": "{{ModID}}.Music.JeremyTheme",
+                "{{ModID}}_Music.JeremyTheme": {
+                    "ID": "{{ModID}}_Music.JeremyTheme",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Weird_Science.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-                "{{ModID}}.Music.VoidSnailWaltz": {
-                    "ID": "{{ModID}}.Music.VoidSnailWaltz",
+                "{{ModID}}_Music.VoidSnailWaltz": {
+                    "ID": "{{ModID}}_Music.VoidSnailWaltz",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Void_Snail_Waltz.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
                 },
-                "{{ModID}}.Music.TraceHouse": {
-                    "ID": "{{ModID}}.Music.TraceHouse",
+                "{{ModID}}_Music.TraceHouse": {
+                    "ID": "{{ModID}}_Music.TraceHouse",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/AlexMcCulloch_Happy.ogg}}" ],
                     "StreamedVorbis": true,
                     "Looped": true
             },
-            "{{ModID}}.Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
-                    "ID": "{{ModID}}.Music.BarbieGirl",
+            "{{ModID}}_Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
+                    "ID": "{{ModID}}_Music.BarbieGirl",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Barbie_Girl.ogg}}" ],
                     "StreamedVorbis": true,

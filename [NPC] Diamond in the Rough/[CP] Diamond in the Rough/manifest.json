@@ -1,9 +1,9 @@
 {
 	"Name": "Diamond in the Rough",
 	"Author": "7thAxis",
-	"Version": "1.0.19-alpha",
+	"Version": "1.0.20-alpha",
 	"Description": "Adds new NPCs to East Scarp!",
-	"UniqueID": "7thAxis.DitR.CP",
+	"UniqueID": "7thAxis.DitR",
 	"UpdateKeys": ["???"],
 	"MinimumApiVersion": "2.11.0",
 	"MinimumGameVersion": "1.6",

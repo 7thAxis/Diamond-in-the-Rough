@@ -12,7 +12,7 @@
   },
   "Dependencies": [
 		{
-			"UniqueID": "7thAxis.DitR.CP",
+			"UniqueID": "7thAxis.DitR",
 			"IsRequired": true
 		}
   ]

@@ -36,7 +36,7 @@
                             "Location": "EastScarp_TNPCWaitingWarpRoom",
                             "Tile": { "X": 15, "Y": 9 },
                             "Direction": "down",
-                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}.Events.TBA"
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.TBA"
                         }
                     ]
                 }
@@ -52,7 +52,7 @@
                 "BirthSeason": "fall",
                 "BirthDay": 5
              },
-            "When": { "HasSeenEvent": "{{ModID}}.Events.TBA" }
+            "When": { "HasSeenEvent": "{{ModID}}_Events.TBA" }
         },
 //---------------------------- GIFT TASTE ------------------------------------------//
         {

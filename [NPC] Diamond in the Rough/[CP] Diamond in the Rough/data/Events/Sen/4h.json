@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Town",
             "Entries": {
-                "{{ModID}}.Events.SenS.4h/e {{ModID}}.Events.SenS.2h/t 2000 2600/w sunny/d Fri/f SenS 1000/A DitR_CT_DreamReveal": "
+                "{{ModID}}_Events.SenS.4h/e {{ModID}}_Events.SenS.2h/t 2000 2600/w sunny/d Fri/f SenS 1000/A DitR_CT_DreamReveal": "
                 
                 breezy/
                 26 98/

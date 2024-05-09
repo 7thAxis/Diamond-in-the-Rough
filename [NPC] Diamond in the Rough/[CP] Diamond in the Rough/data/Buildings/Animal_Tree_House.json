@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "Data/Buildings",
             "Entries": {
-            "{{ModId}}.Buildings.AnimalTreeHouse": {
+            "{{ModID}}_Buildings.AnimalTreeHouse": {
                 "Name": "{{i18n:Core.Buildings.AnimalTreeHouse.Title}}",
                 "Description": "{{i18n:Core.Buildings.AnimalTreeHouse.Description}}",
                 "Texture": "Buildings\\DitR_Animal_Tree_House",

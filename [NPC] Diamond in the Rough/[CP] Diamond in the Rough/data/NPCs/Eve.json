@@ -32,7 +32,7 @@
                     "Breather": true,
                     "Home": [
                         {
-                            "Location": "{{ModID}}.Maps.Eve_House_Interior",
+                            "Location": "{{ModID}}_Maps.Eve_House_Interior",
                             "Tile": { "X": 12, "Y": 5 },
                             "Direction": "down"
                         }

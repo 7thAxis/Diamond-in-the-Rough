@@ -48,7 +48,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795 {{ModID}}_Items_UnluckyPurpleShorts sapphicsaph_pitv.EnbyEclair/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
+                "PipoP": "{{i18n:Gifts.PipoP.Love}}/-6 22 130 139 212 216 219 442 444 618 727 728 769 795 {{ModID}}_Items.UnluckyPurpleShorts sapphicsaph_pitv.EnbyEclair/{{i18n:Gifts.PipoP.Like}}/-14 -5 -4 198 203 213 214 225 227 228 445 447 732 733 771 812/{{i18n:Gifts.PipoP.Dislike}}/-75 -81/{{i18n:Gifts.PipoP.Hate}}/220 226 248 420 768 772 904/{{i18n:Gifts.PipoP.Neutral}}/-20 16 789/"
             }
         },
 //---------------------------- SPRITES ------------------------------------------//

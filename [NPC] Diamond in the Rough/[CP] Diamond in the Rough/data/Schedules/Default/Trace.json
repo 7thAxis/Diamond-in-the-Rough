@@ -8,7 +8,7 @@
 			"Target": "Characters/schedules/TraceV",
 			"Entries": {
                 "spring":"
-                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    0 {{ModID}}_Maps.Trace_House_Interior 15 5/
                     610 15 5 tracev_lay/
                     1000 13 5 0/
                     1030 17 7 1/
@@ -17,9 +17,9 @@
                     1140 16 6 2/
                     1200 7 21 0/
                     1300 6 22 tracev_cook/
-                    1400 {{ModID}}.Maps.Jeremy_Room 17 7 0/
+                    1400 {{ModID}}_Maps.Jeremy_Room 17 7 0/
                     1500 11 13 2/
-                    1600 {{ModID}}.Maps.Trace_House_Interior 10 13 tracev_sit/
+                    1600 {{ModID}}_Maps.Trace_House_Interior 10 13 tracev_sit/
                     1800 5 6 tracev_art/
                     2000 1 7 0/
                     2100 4 23 1/
@@ -28,7 +28,7 @@
                 ",
 
                 "rain":"
-                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    0 {{ModID}}_Maps.Trace_House_Interior 15 5/
                     610 15 5 tracev_lay/
                     1000 13 5 0/
                     1030 17 7 1/
@@ -39,7 +39,7 @@
                     1300 6 22 tracev_cook/
                     1400 EastScarp_Village 50 128 tracev_sit/
                     1700 31 101 tracev_sit/
-                    2000 {{ModID}}.Maps.Trace_House_Interior 10 13 tracev_sit/
+                    2000 {{ModID}}_Maps.Trace_House_Interior 10 13 tracev_sit/
                     2200 7 21 tracev_cook/
                     2300 5 6 tracev_art/
                     2500 15 5 tracev_sleep
@@ -60,7 +60,7 @@
                     1400 {{Random: 19 22, 16 25}} 0/
                     1500 {{Random: 20 36, 21 40}} 0/
                     1600 {{Random: 29 50, 39 52}} 0/
-                    1700 {{ModID}}.Maps.Trace_House_Interior 8 21 0/
+                    1700 {{ModID}}_Maps.Trace_House_Interior 8 21 0/
                     2200 7 21 0/
                     2230 6 22 tracev_cook/
                     2330 6 21 0/
@@ -78,13 +78,13 @@
                     1600 80 34 1/
                     1900 107 15 0/
                     2000 63 59 tracev_giggle/
-                    2200 {{ModID}}.Maps.Trace_House_Interior 15 5 tracev_sleep
+                    2200 {{ModID}}_Maps.Trace_House_Interior 15 5 tracev_sleep
                 ",
                 "fall_9": "GOTO fall_8",
                 "fall_11": "GOTO fall_8",
 
                 "winter_15": "
-                    0 {{ModID}}.Maps.Trace_House_Interior 15 5/
+                    0 {{ModID}}_Maps.Trace_House_Interior 15 5/
                     610 15 5 tracev_lay/
                     1000 13 5 0/
                     1030 16 6 2/
@@ -93,7 +93,7 @@
                     1110 Town 84 102 3/
                     1500 Beach 40 6 1/
                     1700 13 26 3/
-                    1900 {{ModID}}.Maps.Trace_House_Interior 6 22 tracev_cook/
+                    1900 {{ModID}}_Maps.Trace_House_Interior 6 22 tracev_cook/
                     2300 16 6 2/
                     2330 16 6 tracev_giggle/
                     2340 16 6 2/
@@ -108,7 +108,7 @@
                     0 Town 60 33/
                     610 60 33 1/
                     900 CommunityCenter 4 10 3/
-                    1700 {{ModID}}.Maps.Trace_House_Interior 15 5 tracev_sleep
+                    1700 {{ModID}}_Maps.Trace_House_Interior 15 5 tracev_sleep
                 "
             }
 		}

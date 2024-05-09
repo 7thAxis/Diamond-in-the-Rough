@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}_Items_SensCrocus": {
-                    "Name": "{{ModID}}_Items_SensCrocus",
+                "{{ModID}}_Items.SensCrocus": {
+                    "Name": "{{ModID}}_Items.SensCrocus",
                     "DisplayName": "{{i18n:Items.SensCrocus.Title}}",
                     "Description": "{{i18n:Items.SensCrocus.Description}}",
                     "Type": "Flower",
@@ -22,8 +22,8 @@
                     "SpriteIndex": 5
                 },
 
-                "{{ModID}}_Items_SensCrocusSeeds": {
-                    "Name": "{{ModID}}_Items_SensCrocusSeeds",
+                "{{ModID}}_Items.SensCrocusSeeds": {
+                    "Name": "{{ModID}}_Items.SensCrocusSeeds",
                     "DisplayName": "{{i18n:Items.SensCrocusSeeds.Title}}",
                     "Description": "{{i18n:Items.SensCrocusSeeds.Description}}",
                     "Type": "Seeds",
@@ -43,10 +43,10 @@
         "Action": "EditData",
         "Target": "Data/Crops",
         "Entries": {
-            "{{ModID}}_Items_SensCrocusSeeds": {
+            "{{ModID}}_Items.SensCrocusSeeds": {
                 "Seasons": [ "spring", "summer", "fall", "winter" ],
                 "DaysInPhase": [ 1, 1, 1, 1 ],                    
-                "HarvestItemId": "{{ModID}}_Items_SensCrocus",
+                "HarvestItemId": "{{ModID}}_Items.SensCrocus",
                 "RegrowDays": -1,
                 "IsRaised": false,
                 "HarvestMaxIncreasePerFarmingLevel": "0",

@@ -7,9 +7,9 @@
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_Village",
             "Entries": {
-                "{{ModID}}.Events.EveT.0h/t 800 1800/w sunny/j 5": "
+                "{{ModID}}_Events.EveT.0h/t 800 1800/w sunny/j 5": "
 
-                {{ModID}}.Music.EveTheme/
+                {{ModID}}_Music.EveTheme/
                 28 59/
                 farmer 23 57 1 EveT 34 57 3 WaffleW 34 58 3 Aideen 28 60 2 Rosa 45 69 0 PipoP 20 65 2 TraceV 20 61 2 FC.Nikolai? 19 62 2 FC.Barron? 23 63 2 {{JohnEveIntro}} Nova.Dylan? 33 65 3 Nova.Eli? 25 55 2 RodneyOBrien? 31 63 2 MadDog.HashtagBearFam.Sondra? 34 56 1 MadDog.HashtagBearFam.Sigurd? 35 56 3 {{MateoEveIntro}} ToriLK 19 67 1 Nora? 20 67 3 Juliet? 44 68 2/
 
@@ -33,13 +33,13 @@
                     advancedMove WaffleW false -3 0 3 200/
                     advancedMove farmer false 3 0 1 200/
                     pause 2300/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     jump WaffleW/
                     speed WaffleW 3/
                     pause 500/
                     advancedMove WaffleW false -2 0 0 -1 -2 0 3 200/
                     pause 1800/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     emote WaffleW 56 true/
                     jump WaffleW/
                     pause 300/
@@ -52,7 +52,7 @@
                     faceDirection WaffleW 1/
                     pause 100/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 500/
                     advancedMove WaffleW false 1 0 0 1 1 0 3 200/
                     pause 500/
@@ -62,7 +62,7 @@
                     pause 200/
                     emote WaffleW 56 true/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 1500/
                     faceDirection EveT 3/
                     pause 300/
@@ -85,7 +85,7 @@
                     pause 100/
                     faceDirection WaffleW 0/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 1000/
                     advancedMove EveT false -1 0 0 1 -4 0 1 200/
                     pause 1000/
@@ -95,7 +95,7 @@
                     faceDirection farmer 2/
                     pause 1000/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 1500/
                     speed WaffleW 3/
                     emote WaffleW 56 true/
@@ -111,14 +111,14 @@
                     pause 500/
                     emote WaffleW 56 true/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 500/
                 speak EveT \"{{i18n:Events.EveT.0h.13}}\"/
                     pause 300/
                     faceDirection WaffleW 3/
                     pause 100/
                     jump WaffleW/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     pause 500/
                     advancedMove EveT false -10 0 4 200/
                     stopAnimation Nova.Eli? 136/

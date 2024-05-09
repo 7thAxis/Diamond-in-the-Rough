@@ -140,7 +140,7 @@
                 "AcceptGift_(O)395": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)253": "{{i18n:Gifts.SenS.Coffee}}",
                 "AcceptGift_(O)808": "{{i18n:Gifts.SenS.VoidPendant}}",
-                "RejectItem_(O){{ModID}}_Items_UnluckyPurpleShorts": "{{i18n:Gifts.SenS.UnluckyPurpleShorts}}",
+                "RejectItem_(O){{ModID}}_Items.UnluckyPurpleShorts": "{{i18n:Gifts.SenS.UnluckyPurpleShorts}}",
                 "RejectItem_(O)879": "{{i18n:Gifts.SenS.UnluckyPurpleShorts.Revocation}}",
                 "RejectItem_(O)248": "{{i18n:Gifts.SenS.Garlic}}",
                 "RejectItem_(O)772": "{{i18n:Gifts.SenS.Garlic}}",
@@ -202,7 +202,7 @@
                 "AcceptBirthdayGift_(O)608": "{{i18n:Gifts.SenS.PumpkinPie.Birthday}}",
 
                 //Custom Items
-                "AcceptGift_(O){{ModID}}_Items_SensCrocus": "{{i18n:Gifts.SenS.SensCrocus}}"
+                "AcceptGift_(O){{ModID}}_Items.SensCrocus": "{{i18n:Gifts.SenS.SensCrocus}}"
                 //Json Assets
                 /*"accept_An_autographed_photo": "{{i18n:Gifts.SenS.RodneyAutograph}}",*/
             }

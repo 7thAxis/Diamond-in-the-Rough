@@ -8,7 +8,7 @@
             "Target": "Data/Events/EastScarp_Village",
             "Update": "OnLocationChange",
             "Entries": {
-                "{{ModID}}.Events.EveT.2h.P1/e {{ModID}}.Events.EveT.0h/t 800 1800/w sunny/f EveT 500/A DitR_CT_EveMeet": "
+                "{{ModID}}_Events.EveT.2h.P1/e {{ModID}}_Events.EveT.0h/t 800 1800/w sunny/f EveT 500/A DitR_CT_EveMeet": "
                 
                 playful/
                 79 97/
@@ -30,7 +30,7 @@
                     advancedMove PipoP false 0 -1 4 200/
                 speak EveT \"{{i18n:Events.EveT.2h.1.PipoShorts.{{PipoShorts}}}}\"/
                     pause 300/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     emote PipoP 20 true/
                     jump PipoP/
                     pause 1000/
@@ -43,7 +43,7 @@
                     pause 300/
                 speak EveT \"{{i18n:Events.EveT.2h.2.PipoShorts.{{PipoShorts}}}}\"/
                     pause 300/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     jump PipoP/
                     pause 800/
                     playSound doorClose/
@@ -54,12 +54,12 @@
                     pause 100/
                     faceDirection WaffleW 3/
                     pause 100/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     emote WaffleW 16 true/
                     jump WaffleW/
                     pause 600/
                     emote PipoP 16 true/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     jump PipoP/
                     pause 300/
                     speed WaffleW 3/
@@ -89,11 +89,11 @@
                     viewport 61 113/
                     pause 1500/
                     emote WaffleW 56 true/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     jump WaffleW/
                     pause 600/
                     emote PipoP 56 true/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     jump PipoP/
                     pause 400/
                     faceDirection farmer 1/
@@ -103,11 +103,11 @@
                     pause 100/
                     faceDirection PipoP 0/
                     emote WaffleW 56 true/
-                    playSound {{ModID}}.SFX.WaffleBark/
+                    playSound {{ModID}}_SFX.WaffleBark/
                     jump WaffleW/
                     pause 200/
                     emote PipoP 56 true/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     jump PipoP/
                     pause 300/
                 speak EveT \"{{i18n:Events.EveT.2h.5}}\"/
@@ -126,7 +126,7 @@
                     faceDirection WaffleW 3/
                     advancedMove PipoP false -2 0 3 200/
                     pause 1000/
-                    playSound {{ModID}}.SFX.PipoMeow/
+                    playSound {{ModID}}_SFX.PipoMeow/
                     emote PipoP 56 true/
                     jump PipoP/
                     pause 1000/

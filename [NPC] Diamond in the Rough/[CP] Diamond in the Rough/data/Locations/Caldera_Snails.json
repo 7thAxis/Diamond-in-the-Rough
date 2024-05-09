@@ -4,7 +4,7 @@
             "Action": "EditData",
             "Target": "MEEP/FarmAnimals/SpawnData",
             "Entries": {
-                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail1": {
+                "{{ModID}}_FarmAnimalSpawn.LargeCalderaSnail1": {
                     "AnimalId": "Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "100",
@@ -12,7 +12,7 @@
                     "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
                     "HomeTileX": 30, "HomeTileY": 31
                 },
-                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail2": {
+                "{{ModID}}_FarmAnimalSpawn.LargeCalderaSnail2": {
                     "AnimalId": "Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "0",
@@ -20,7 +20,7 @@
                     "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
                     "HomeTileX": 18, "HomeTileY": 32
                 },
-                "{{ModID}}.FarmAnimalSpawn.LargeCalderaSnail3": {
+                "{{ModID}}_FarmAnimalSpawn.LargeCalderaSnail3": {
                     "AnimalId": "Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "0",
@@ -28,7 +28,7 @@
                     "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
                     "HomeTileX": 15, "HomeTileY": 24
                 },
-                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail1": {
+                "{{ModID}}_FarmAnimalSpawn.SmallCalderaSnail1": {
                     "AnimalId": "Baby Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "100",
@@ -36,7 +36,7 @@
                     "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
                     "HomeTileX": 24, "HomeTileY": 18
                 },
-                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail2": {
+                "{{ModID}}_FarmAnimalSpawn.SmallCalderaSnail2": {
                     "AnimalId": "Baby Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "0",
@@ -44,7 +44,7 @@
                     "PetMessage": [ "{{i18n:Maps.CalderaLavaSnail.Pet}}" ],
                     "HomeTileX": 36, "HomeTileY": 31
                 },
-                "{{ModID}}.FarmAnimalSpawn.SmallCalderaSnail3": {
+                "{{ModID}}_FarmAnimalSpawn.SmallCalderaSnail3": {
                     "AnimalId": "Baby Giant Void Lava Snail Caldera",
                     "LocationId": "Caldera",
                     "Age": "0",
@@ -59,7 +59,7 @@
             "Action": "EditData",
             "Target": "MEEP/FarmAnimals/SpawnData",
             "Entries": {
-                "{{ModID}}.FarmAnimalSpawn.GoldenCalderaSnail": {
+                "{{ModID}}_FarmAnimalSpawn.GoldenCalderaSnail": {
                     "AnimalId": "Golden Void Lava Snail",
                     "LocationId": "Caldera",
                     "Age": "100",

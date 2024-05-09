@@ -1956,7 +1956,7 @@
  <objectgroup id="4" name="Buildings">
   <object id="229" name="TileData" x="48" y="208" width="16" height="16">
    <properties>
-    <property name="Action" value="Garbage 7thAxis.DitR.CP.TrashCan.TraceV"/>
+    <property name="Action" value="Garbage 7thAxis.DitR_TrashCan.TraceV"/>
    </properties>
   </object>
   <object id="230" name="TileData" x="144" y="160" width="16" height="16">

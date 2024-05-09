@@ -12,7 +12,7 @@
 //---------------------------- INTERIOR LOAD ------------------------------------------// 
         {
             "Action": "Load",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "FromFile": "assets/Maps/Trace_House_Interior.tmx"
         },
         {
@@ -20,18 +20,18 @@
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
-                "{{ModID}}.Maps.Trace_House_Interior": {
+                "{{ModID}}_Maps.Trace_House_Interior": {
                     "Music": [
                         {
                           "Id": "TraceHouseBarbieGirl",
-                          "Track": "{{ModID}}.Music.BarbieGirl",
+                          "Track": "{{ModID}}_Music.BarbieGirl",
                           "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05"
                         }
                       ],
-                    "MusicDefault": "{{ModID}}.Music.TraceHouse",
+                    "MusicDefault": "{{ModID}}_Music.TraceHouse",
                     "DisplayName": "{{i18n:Maps.TraceV.TraceHouse}}",
                     "DefaultArrivalTile": { "X": 16, "Y": 23 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Trace_House_Interior" }
+                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_Maps.Trace_House_Interior" }
                 }
             }
         },
@@ -41,17 +41,17 @@
             "Target": "Data/TriggerActions",
             "Entries": {
 
-                "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRecieved": {
+                "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRecieved": {
                     "Trigger": "DayStarted",
                     "MarkActionApplied": false,
-                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRecieved",
+                    "Id": "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRecieved",
                     "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05",
                     "Actions": [ "AddMail Current DitR_M_TraceBarbieGirl" ]
                 },
-                "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRemoved": {
+                "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRemoved": {
                     "Trigger": "DayEnding",
                     "MarkActionApplied": false,
-                    "Id": "{{ModID}}.TriggerActions.TraceBarbieGirl.FlagRemoved",
+                    "Id": "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRemoved",
                     "Condition": "PLAYER_HAS_MAIL Current DitR_M_TraceBarbieGirl Any",
                     "Actions": [  "RemoveMail Current DitR_M_TraceBarbieGirl" ]
                 }
@@ -60,12 +60,12 @@
 //---------------------------- WARPS ------------------------------------------// 
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "AddWarps": [ 
                 "15 24 EastScarp_Village 6 83",
                 "16 24 EastScarp_Village 6 83",
-                "11 24 {{ModID}}.Maps.Jeremy_Room 10 6",
-                "12 24 {{ModID}}.Maps.Jeremy_Room 11 6"
+                "11 24 {{ModID}}_Maps.Jeremy_Room 10 6",
+                "12 24 {{ModID}}_Maps.Jeremy_Room 11 6"
             ]
         },
         {
@@ -75,7 +75,7 @@
                 {
                     "Position": { "X": 6, "Y": 82 },
                     "Layer": "Buildings",
-                    "SetProperties": { "Action": "Warp 16 23 {{ModID}}.Maps.Trace_House_Interior" }
+                    "SetProperties": { "Action": "Warp 16 23 {{ModID}}_Maps.Trace_House_Interior" }
                 }
             ]
         },
@@ -97,7 +97,7 @@
     //Trace given moon rose
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 13, "Y": 12 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "360" }
             ],
@@ -107,7 +107,7 @@
     //Pipo tiles pre-adoption
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 2, "Y": 20 }, "Layer": "Buildings", "Remove": true }, //Food
                 { "Position": { "X": 1, "Y": 21 }, "Layer": "Buildings", "Remove": true }, //Water
@@ -121,13 +121,13 @@
                 { "Position": { "X": 3, "Y": 12 }, "Layer": "Front2", "Remove": true },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Front2", "Remove": true }
             ],
-            "When": { "HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2": false }
+            "When": { "HasSeenEvent |contains={{ModID}}_Events.EveT.2h.P2": false }
         },
 
     //Pipo tiles post-adoption
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 2, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } },
                 { "Position": { "X": 4, "Y": 8 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
@@ -136,13 +136,13 @@
                 { "Position": { "X": 3, "Y": 13 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass2" } },
                 { "Position": { "X": 13, "Y": 21 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCatGrass1" } }
             ],
-            "When": { "HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2": true }
+            "When": { "HasSeenEvent |contains={{ModID}}_Events.EveT.2h.P2": true }
         },
 
     //Open doors in Trace's House
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
 
                 //Trace's Bedroom
@@ -162,7 +162,7 @@
     //Trace's coffee maker prior to giving coffee
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 8, "Y": 23 }, "Layer": "Buildings", "SetProperties": { "Action": "Message TraceVHCoffeeMaker" } }
             ],
@@ -171,7 +171,7 @@
     //Trace's coffee maker gives you coffee
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Trace_House_Interior",
+            "Target": "Maps/{{ModID}}_Maps.Trace_House_Interior",
             "MapTiles": [
                 { "Position": { "X": 7, "Y": 22 }, "Layer": "Front2", "SetTileSheet": "spring_DitR_Tilesheet", "SetIndex": "344" }, //Sets the card tile on counter
                 { "Position": { "X": 8, "Y": 23 }, "Layer": "Back",  "SetProperties": { "MEEP_FakeNPC": "CoffeeMakerKun" } }, //Places fake coffeemaker NPC
@@ -187,51 +187,51 @@
     "TargetField": [ "GarbageCans" ], 
     "Entries": {
        
-        "7thAxis.DitR.CP.TrashCan.TraceV": {
+        "7thAxis.DitR_TrashCan.TraceV": {
             "BaseChance": 1.0,
             "Items": [
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
                     "Condition": "RANDOM 0.0005",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnailEgg",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnailEgg",
                     "Condition": "RANDOM 0.0004, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}_Items_GoldenVoidLavaSnailEgg" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items.GoldenVoidLavaSnailEgg" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.GoldenVoidLavaSnail",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnail",
                     "Condition": "RANDOM 0.001",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}_Items_GoldenVoidLavaSnail" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items.GoldenVoidLavaSnail" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailBuddy",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.VoidLavaSnailBuddy",
                     "Condition": "RANDOM 0.01",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(H){{ModID}}_Hats_VoidLavaSnailBuddy" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnailEgg",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.VoidLavaSnailEgg",
                     "Condition": "RANDOM 0.03, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
-                    "RandomItemId": [  "(O){{ModID}}_Items_VoidLavaSnailEgg" ]
+                    "RandomItemId": [  "(O){{ModID}}_Items.VoidLavaSnailEgg" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.Snackies",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.Snackies",
                     "Condition": "RANDOM 0.1",
                     "RandomItemId": [ "(O)611", "(O)212" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.VoidLavaSnail",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.VoidLavaSnail",
                     "Condition": "RANDOM 0.3",
-                    "RandomItemId": [ "(O){{ModID}}_Items_VoidLavaSnail" ]
+                    "RandomItemId": [ "(O){{ModID}}_Items.VoidLavaSnail" ]
                 },
                 {
-                    "Id": "7thAxis.DitR.CP.TrashCan.TraceV.TrashBerry",
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.TrashBerry",
                     "RandomItemId": [ "(O)168", "(O)172", "(O)410" ]
                 }
             ],
@@ -299,7 +299,7 @@
                 "TraceVHPlant2": "{{i18n:Maps.TraceV.TraceVHPlant2}}", // Default tropical
                 "TraceVHPlant3": "{{i18n:Maps.TraceV.TraceVHPlant3}}", // Art room corner
                 "TraceVHPlant4": "{{i18n:Maps.TraceV.TraceVHPlant4}}", // Hallway
-                "TraceVHPlant5": "{{i18n:Maps.TraceV.TraceVHPlant5.{{HasSeenEvent |contains={{ModID}}.Events.EveT.2h.P2}}}}", // Behind bowls
+                "TraceVHPlant5": "{{i18n:Maps.TraceV.TraceVHPlant5.{{HasSeenEvent |contains={{ModID}}_Events.EveT.2h.P2}}}}", // Behind bowls
                 "TraceVHPlantLeft": "{{i18n:Maps.TraceV.TraceVHPlantLeft}}", // Guards!
                 "TraceVHPlantRight": "{{i18n:Maps.TraceV.TraceVHPlantRight}}", // Guards!
 

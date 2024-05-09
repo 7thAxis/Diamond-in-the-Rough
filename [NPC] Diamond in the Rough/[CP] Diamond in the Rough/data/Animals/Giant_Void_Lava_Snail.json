@@ -13,9 +13,9 @@
                     "Gender": "Male",
                     "PurchasePrice": -1,
                     "SellPrice": 10000,
-                    "RequiredBuilding": "{{ModID}}.Buildings.AnimalTreeHouse",
+                    "RequiredBuilding": "{{ModID}}_Buildings.AnimalTreeHouse",
                     "UnlockCondition": null,
-                    "EggItemIds": [ "{{ModID}}_Items_VoidLavaSnailEgg", "{{ModID}}_Items_QuestRewardVoidLavaSnailEgg" ],
+                    "EggItemIds": [ "{{ModID}}_Items.VoidLavaSnailEgg", "{{ModID}}_Items.QuestRewardVoidLavaSnailEgg" ],
                     "IncubationTime": 4500,
                     "IncubatorParentSheetOffset": 1,
                     "BirthText": "{{i18n:Core.Animals.GiantVoidLavaSnail.Birth}}",
@@ -27,7 +27,7 @@
                         "Id": "GoldenSnailEgg",
                         "Condition": "RANDOM 0.0005",
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}_Items_GoldenVoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}_Items.GoldenVoidLavaSnailEgg"
                       },
                       {
                         "Id": "SnailFireQuartz",
@@ -45,15 +45,15 @@
                         "Id": "SnailEgg",
                         "Condition": null,
                         "MinimumFriendship": 0,
-                        "ItemId": "{{ModID}}_Items_VoidLavaSnailEgg"
+                        "ItemId": "{{ModID}}_Items.VoidLavaSnailEgg"
                       }
                     ],
                     "ProduceOnMature": true,
                     "ProfessionForHappinessBoost": 11,
                     "ProfessionForQualityBoost": 11,
                     "ProfessionForFasterProduce": 11,
-                    "Sound": "{{ModID}}.SFX.SnailCry",
-                    "BabySound": "{{ModID}}.SFX.SnailCryBaby",
+                    "Sound": "{{ModID}}_SFX.SnailCry",
+                    "BabySound": "{{ModID}}_SFX.SnailCryBaby",
                     "Texture": "Animals\\Giant_Void_Lava_Snail",
                     "BabyTexture": "Animals\\Baby_Giant_Void_Lava_Snail",
                     "UseDoubleUniqueAnimationFrames": false,
@@ -84,7 +84,7 @@
                     "PurchasePrice": -1,
                     "SellPrice": 0,
                     "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                    "Sound": "{{ModID}}.SFX.SnailCry",
+                    "Sound": "{{ModID}}_SFX.SnailCry",
                     "Texture": "Animals\\Giant_Void_Lava_Snail_Caldera",
                     "UseFlippedRightForLeft": true,
                     "SpriteWidth": 32,
@@ -100,7 +100,7 @@
                       "PurchasePrice": -1,
                       "SellPrice": 0,
                       "RequiredBuilding": "ILLEGAL! NO CALDERA SNAIL FOR YOU!",
-                      "Sound": "{{ModID}}.SFX.SnailCryBaby",
+                      "Sound": "{{ModID}}_SFX.SnailCryBaby",
                       "Texture": "Animals\\Baby_Giant_Void_Lava_Snail_Caldera",
                       "UseFlippedRightForLeft": true,
                       "SpriteWidth": 32,

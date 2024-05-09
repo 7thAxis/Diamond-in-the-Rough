@@ -175,7 +175,7 @@ CREDITS
         {
             "Name": "PipoAdoptionStatus",
             "Value": "Adopted",
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.EveT.2h.P2": true }
+            "When": { "HasSeenEvent: |contains={{ModID}}_Events.EveT.2h.P2": true }
         },
         {
             "Name": "TraceScheduleRandomizer", 
@@ -259,12 +259,12 @@ CREDITS
         { "Name": "FishPondGoldenSnailEggSpawnable", "Value": "(O)766" },
             {
                 "Name": "FishPondSnailEggSpawnable",
-                "Value": "(O){{ModID}}_Items_VoidLavaSnailEgg",
+                "Value": "(O){{ModID}}_Items.VoidLavaSnailEgg",
                 "When": { "HasFlag": "DitR_M_SnailPhase5" }
             },
             {
                 "Name": "FishPondGoldenSnailEggSpawnable",
-                "Value": "(O){{ModID}}_Items_GoldenVoidLavaSnailEgg",
+                "Value": "(O){{ModID}}_Items.GoldenVoidLavaSnailEgg",
                 "When": { "HasFlag": "DitR_M_SnailPhase5" }
             },
 
@@ -286,11 +286,11 @@ CREDITS
             },
             {
                 "Name": "TodaysSnailRewardItem", 
-                "Value": "{{Random: (O)EastScarp_Scarp_Warp_Totem 5, (O)TreasureTotem 1, (O)166 1, (O)69 1, (O)251 1, (O)628 1, (O)629 1, (O)630 1, (O)631 1, (O)632 1, (O)633 1, (O)835 1, (O)268 3, (O)MixedFlowerSeeds 10, (O){{ModID}}_Items_VoidLavaSnailEgg 1|key=TSRI}}"
+                "Value": "{{Random: (O)EastScarp_Scarp_Warp_Totem 5, (O)TreasureTotem 1, (O)166 1, (O)69 1, (O)251 1, (O)628 1, (O)629 1, (O)630 1, (O)631 1, (O)632 1, (O)633 1, (O)835 1, (O)268 3, (O)MixedFlowerSeeds 10, (O){{ModID}}_Items.VoidLavaSnailEgg 1|key=TSRI}}"
             },
             {
                 "Name": "TodaysSnailRewardIcon", 
-                "Value": "{{Random: EastScarp_Scarp_Warp_Totem, TreasureTotem, 166, 69, 251, 628, 629, 630, 631, 632, 633, 835, 268, MixedFlowerSeeds, {{ModID}}_Items_VoidLavaSnailEgg|key=TSRI}}"
+                "Value": "{{Random: EastScarp_Scarp_Warp_Totem, TreasureTotem, 166, 69, 251, 628, 629, 630, 631, 632, 633, 835, 268, MixedFlowerSeeds, {{ModID}}_Items.VoidLavaSnailEgg|key=TSRI}}"
             },
             {
                 "Name": "TodaysSnailRewardMoney", 
@@ -398,7 +398,7 @@ CREDITS
         {
             "Name": "SSRD",
             "Value": "{{i18n:Core.SenS.RelationshipOverride.{{Random:{{Range: 1, 10}}|key={{Time}}}}{{RelationshipTokens}}}}++",
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true, "Hearts:SenS": "{{Range: 8, 10}}", "SenOverrideConditions": "Active" }
+            "When": { "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": true, "Hearts:SenS": "{{Range: 8, 10}}", "SenOverrideConditions": "Active" }
         },    
         {
             "Name": "SSKD",
@@ -413,7 +413,7 @@ CREDITS
         //--COMMAND SHRINKERS--
         {
             "Name": "SFX.SnailCry",
-            "Value": "$action spacechase0.SpaceCore_PlaySound {{ModID}}.SFX.SnailCry"
+            "Value": "$action spacechase0.SpaceCore_PlaySound {{ModID}}_SFX.SnailCry"
         }
     ],
 //---------------------------- FILE LOADER ------------------------------------------//

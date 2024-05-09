@@ -36,7 +36,7 @@
                     "MugShotSourceRect": { "X": 8, "Y": 7, "Width": 16, "Height": 25 },
                     "Home": [
                         {
-                            "Location": "{{ModID}}.Maps.Jeremy_Room",
+                            "Location": "{{ModID}}_Maps.Jeremy_Room",
                             "Tile": { "X": 5, "Y": 11 },
                             "Direction": "down"
                         }
@@ -57,7 +57,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items_VoidLavaSnail {{ModID}}_Items_VoidLavaSnailEgg {{ModID}}_Items_GoldenVoidLavaSnail {{ModID}}_Items_GoldenVoidLavaSnailEgg/{{i18n:Gifts.JeremyTSnail.Like.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss/{{i18n:Gifts.JeremyTSnail.Dislike.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-7 -6 279 308 446/{{i18n:Gifts.JeremyTSnail.Hate.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-20 729 768 {{ModID}}_Items_VoidLavaSnailMayonnaise {{ModID}}_Items_GoldenVoidLavaSnailMayonnaise/{{i18n:Gifts.JeremyTSnail.Neutral.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/797/"
+                "JeremyTSnail": "{{i18n:Gifts.JeremyTSnail.Love.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items.VoidLavaSnail {{ModID}}_Items.VoidLavaSnailEgg {{ModID}}_Items.GoldenVoidLavaSnail {{ModID}}_Items.GoldenVoidLavaSnailEgg/{{i18n:Gifts.JeremyTSnail.Like.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss/{{i18n:Gifts.JeremyTSnail.Dislike.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-7 -6 279 308 446/{{i18n:Gifts.JeremyTSnail.Hate.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/-20 729 768 {{ModID}}_Items.VoidLavaSnailMayonnaise {{ModID}}_Items.GoldenVoidLavaSnailMayonnaise/{{i18n:Gifts.JeremyTSnail.Neutral.{{HasSeenEvent: |contains=112}}}}#{{SFX.SnailCry}}/797/"
             }
         },
         {
@@ -65,7 +65,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "JeremyTSnail": "{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items_VoidLavaSnail {{ModID}}_Items_VoidLavaSnailEgg {{ModID}}_Items_GoldenVoidLavaSnail {{ModID}}_Items_GoldenVoidLavaSnailEgg -20 729 768 {{ModID}}_Items_VoidLavaSnailMayonnaise {{ModID}}_Items_GoldenVoidLavaSnailMayonnaise tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss -7 -6 279 308 446 797/{{i18n:Core.JeremyTS.JeremyBetrayed}}//"
+                "JeremyTSnail": "{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items.VoidLavaSnail {{ModID}}_Items.VoidLavaSnailEgg {{ModID}}_Items.GoldenVoidLavaSnail {{ModID}}_Items.GoldenVoidLavaSnailEgg -20 729 768 {{ModID}}_Items.VoidLavaSnailMayonnaise {{ModID}}_Items.GoldenVoidLavaSnailMayonnaise tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss -7 -6 279 308 446 797/{{i18n:Core.JeremyTS.JeremyBetrayed}}//"
             },
             "When": { "HasConversationTopic: |contains=DitR_CT_JeremyBetrayed": true } 
         },

@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModID}}_Items_VoidLavaSnailMayonnaise": {
-                    "Name": "{{ModID}}_Items_VoidLavaSnailMayonnaise",
+                "{{ModID}}_Items.VoidLavaSnailMayonnaise": {
+                    "Name": "{{ModID}}_Items.VoidLavaSnailMayonnaise",
                     "DisplayName": "{{i18n:Items.VoidLavaSnailMayonnaise.Title}}",
                     "Description": "{{i18n:Items.VoidLavaSnailMayonnaise.Description}}",
                     "Type": "Basic",
@@ -21,8 +21,8 @@
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 8
                 },
-                "{{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal": {
-                  "Name": "{{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal",
+                "{{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal": {
+                  "Name": "{{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal",
                   "DisplayName": "{{i18n:Items.VoidLavaSnailMayonnaise.Title}}",
                   "Description": "{{i18n:Items.VoidLavaSnailMayonnaiseBetrayal.Description}}",
                   "Type": "Basic",
@@ -37,8 +37,8 @@
                   "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                   "SpriteIndex": 8
               },
-                "{{ModID}}_Items_GoldenVoidLavaSnailMayonnaise": {
-                    "Name": "{{ModID}}_Items_GoldenVoidLavaSnailMayonnaise",
+                "{{ModID}}_Items.GoldenVoidLavaSnailMayonnaise": {
+                    "Name": "{{ModID}}_Items.GoldenVoidLavaSnailMayonnaise",
                     "DisplayName": "{{i18n:Items.GoldenVoidLavaSnailMayonnaise.Title}}",
                     "Description": "{{i18n:Items.GoldenVoidLavaSnailMayonnaise.Description}}",
                     "Type": "Basic",
@@ -60,9 +60,9 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": { 
-                "{{ModID}}_Items_VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 },
-                "{{ModID}}_Items_GoldenVoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -99 },
-                "{{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal": { 
+                "{{ModID}}_Items.VoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -50, "EatenStaminaRestoredOverride": -50 },
+                "{{ModID}}_Items.GoldenVoidLavaSnailMayonnaise": {  "EatenHealthRestoredOverride": -99, "EatenStaminaRestoredOverride": -99 },
+                "{{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal": { 
 
                  "CanBeTrashed": false,
                  "CanBeShipped": false,
@@ -79,16 +79,16 @@
          "Action": "EditData",
          "Target": "Data/TriggerActions",
          "Entries": {
-           "{{ModID}}.TriggerActions.ConsumedQuestEggMayonaise": {
+           "{{ModID}}_TriggerActions.ConsumedQuestEggMayonaise": {
              "Id": "DitR.TriggerActions.ConsumedQuestEggMayonaise",
              "Trigger": "spacechase0.SpaceCore_OnItemEaten",
              "Actions": [  
                "AddConversationTopic DitR_CT_JeremyBetrayed 3", 
                "AddFriendshipPoints JeremyTSnail -1000", "AddMail Current DitR_M_JeremyBetrayed received",
-               "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.VoidLavaSnailMayonnaiseBetrayal.HUDMessage}}\" (O){{ModID}}_Items_VoidLavaSnail"
+               "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.VoidLavaSnailMayonnaiseBetrayal.HUDMessage}}\" (O){{ModID}}_Items.VoidLavaSnail"
               ],
              "MarkActionApplied": false,
-             "Condition": "ITEM_ID Input (O){{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal"
+             "Condition": "ITEM_ID Input (O){{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal"
            }
          }
        },
@@ -99,20 +99,20 @@
             "Target": "Data/Machines",
             "TargetField": [ "(BC)24", "OutputRules" ],
             "Entries": {
-               "{{ModId}}.SnailMayo": {
-                  "Id": "{{ModId}}.SnailMayo",
+               "{{ModID}}_SnailMayo": {
+                  "Id": "{{ModID}}_SnailMayo",
                   "Triggers": [
                      {
                         "Id": "SnailEggInputMachine",
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredItemId": "(O){{ModID}}_Items_VoidLavaSnailEgg",
+                        "RequiredItemId": "(O){{ModID}}_Items.VoidLavaSnailEgg",
                         "RequiredCount": 1
                      }
                   ],
                   "OutputItem": [
                      {
                         "Id": "SnailEggOutputMachine",
-                        "ItemId": "(O){{ModID}}_Items_VoidLavaSnailMayonnaise",
+                        "ItemId": "(O){{ModID}}_Items.VoidLavaSnailMayonnaise",
                         "RandomItemId": null,
                         "MinStack": 1,
                         "MaxStack": 1,
@@ -123,20 +123,20 @@
                   "DaysUntilReady": -1
                },
 
-               "{{ModId}}.SnailMayoBetrayal": {
-                  "Id": "{{ModId}}.SnailMayoBetrayal",
+               "{{ModID}}_SnailMayoBetrayal": {
+                  "Id": "{{ModID}}_SnailMayoBetrayal",
                   "Triggers": [
                      {
                         "Id": "SnailEggInputMachineBetrayal",
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredItemId": "(O){{ModID}}_Items_QuestRewardVoidLavaSnailEgg",
+                        "RequiredItemId": "(O){{ModID}}_Items.QuestRewardVoidLavaSnailEgg",
                         "RequiredCount": 1
                      }
                   ],
                   "OutputItem": [
                      {
                         "Id": "SnailEggOutputMachineBetrayal",
-                        "ItemId": "(O){{ModID}}_Items_VoidLavaSnailMayonnaiseBetrayal",
+                        "ItemId": "(O){{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal",
                         "RandomItemId": null,
                         "MinStack": 1,
                         "MaxStack": 1,
@@ -147,20 +147,20 @@
                   "DaysUntilReady": -1
                },
 
-               "{{ModId}}.GoldenSnailMayo": {
-                  "Id": "{{ModId}}.GoldenSnailMayo",
+               "{{ModID}}_GoldenSnailMayo": {
+                  "Id": "{{ModID}}_GoldenSnailMayo",
                   "Triggers": [
                      {
                         "Id": "GoldenSnailEggInputMachine",
                         "Trigger": "ItemPlacedInMachine",
-                        "RequiredItemId": "(O){{ModID}}_Items_GoldenVoidLavaSnailEgg",
+                        "RequiredItemId": "(O){{ModID}}_Items.GoldenVoidLavaSnailEgg",
                         "RequiredCount": 1
                      }
                   ],
                   "OutputItem": [
                      {
                         "Id": "GoldenSnailEggOutputMachine",
-                        "ItemId": "(O){{ModID}}_Items_GoldenVoidLavaSnailMayonnaise",
+                        "ItemId": "(O){{ModID}}_Items.GoldenVoidLavaSnailMayonnaise",
                         "RandomItemId": null,
                         "MinStack": 1,
                         "MaxStack": 1,
@@ -172,9 +172,9 @@
                }
             },
             "MoveEntries": [ 
-               { "Id": "{{ModId}}.SnailMayo", "ToPosition": "Top" }, 
-               { "Id": "{{ModId}}.SnailMayoBetrayal", "ToPosition": "Top" }, 
-               { "Id": "{{ModId}}.GoldenSnailMayo", "ToPosition": "Top" } ] //Needed or regular mayo will output!
+               { "Id": "{{ModID}}_SnailMayo", "ToPosition": "Top" }, 
+               { "Id": "{{ModID}}_SnailMayoBetrayal", "ToPosition": "Top" }, 
+               { "Id": "{{ModID}}_GoldenSnailMayo", "ToPosition": "Top" } ] //Needed or regular mayo will output!
          }
     ]
 }

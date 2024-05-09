@@ -34,7 +34,7 @@
                     "MugShotSourceRect": { "X": 0, "Y": 9, "Width": 16, "Height": 24 },
                     "Home": [
                         {
-                            "Location": "{{ModID}}.Maps.Eve_House_Interior",
+                            "Location": "{{ModID}}_Maps.Eve_House_Interior",
                             "Tile": { "X": 7, "Y": 4 },
                             "Direction": "down"
                         }

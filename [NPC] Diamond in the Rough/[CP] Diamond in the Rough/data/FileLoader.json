@@ -3,7 +3,7 @@
 //---------------------------- BLANK LOADS ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Characters/Dialogue/JeremyTSnail, Characters/schedules/JeremyTSnail, Data/Events/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Characters/Dialogue/EveT, Characters/schedules/EveT, Characters/Dialogue/TraceV, Characters/schedules/TraceV, Characters/Dialogue/WaffleW, Characters/schedules/WaffleW, Characters/Dialogue/PipoP, Characters/schedules/PipoP, Characters/Dialogue/SenS, Characters/schedules/SenS, Characters/Dialogue/MarriageDialogueSenS, Characters/Dialogue/MarriageDialogueSenSRoommate, Characters/Dialogue/SkrellS, Characters/Dialogue/EbbS, Characters/Dialogue/DiamondS, Characters/Dialogue/ClyricT, Characters/Dialogue/CowD, Characters/Dialogue/JeremyTSnail, Characters/schedules/JeremyTSnail, Data/Events/{{ModID}}_Maps.Jeremy_Room",
             "FromFile": "data/blank.json"
         },
 //---------------------------- TILESHEET LOADS ------------------------------------------//
@@ -106,7 +106,7 @@
         {
 			"Action": "Include",
 			"FromFile": "data/Schedules/{{NPC Schedule Type}}/Sen.json, data/Schedules/Default/Sen.json",
-            "When": { "HasSeenEvent: |contains={{ModID}}.Events.SenS.0h": true }
+            "When": { "HasSeenEvent: |contains={{ModID}}_Events.SenS.0h": true }
 		},
         //Waffle
         {
@@ -162,7 +162,7 @@
     //---------------------------- MEEP FILES ------------------------------------------//
         {
             "Action": "Load",
-            "Target": "Mods/{{ModID}}.Images/Drawer_Photo.1, Mods/{{ModID}}.Images/Drawer_Photo.2",
+            "Target": "Mods/{{ModID}}_Images/Drawer_Photo.1, Mods/{{ModID}}_Images/Drawer_Photo.2",
             "FromFile": "assets/Images/{{TargetWithoutPath}}.png"
         },
     //---------------------------- SHADOW BABY FILES ------------------------------------------//

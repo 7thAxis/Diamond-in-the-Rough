@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_Village",
             "Entries": {
-                "{{ModID}}.Events.SenS.2h/e {{ModID}}.Events.SenS.0h/t 2000 2600/w sunny/f SenS 500/A DitR_CT_SenMet": "
+                "{{ModID}}_Events.SenS.2h/e {{ModID}}_Events.SenS.0h/t 2000 2600/w sunny/f SenS 500/A DitR_CT_SenMet": "
                 
                 ocean/
                 22 118/

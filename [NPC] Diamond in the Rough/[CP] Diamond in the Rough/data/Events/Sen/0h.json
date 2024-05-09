@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Mine",
             "Entries": {
-                "{{ModID}}.Events.SenS.0h/e 100162": "
+                "{{ModID}}_Events.SenS.0h/e 100162": "
 
                 Upper_Ambient/
                 21 9/

@@ -5,32 +5,32 @@
             "Action": "EditData",
             "Target": "Data/AudioChanges",
             "Entries": {
-                "{{ModID}}.SFX.WaffleBark": {
-                    "ID": "{{ModID}}.SFX.WaffleBark",
+                "{{ModID}}_SFX.WaffleBark": {
+                    "ID": "{{ModID}}_SFX.WaffleBark",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Dog_Bark_3.ogg}}" ],
                     "StreamedVorbis": false,
                     "Looped": false
                 },
 
-                "{{ModID}}.SFX.PipoMeow": {
-                    "ID": "{{ModID}}.SFX.PipoMeow",
+                "{{ModID}}_SFX.PipoMeow": {
+                    "ID": "{{ModID}}_SFX.PipoMeow",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Cat_Meow.ogg}}" ],
                     "StreamedVorbis": false,
                     "Looped": false
                 },
 
-                "{{ModID}}.SFX.SnailCryBaby": {
-                    "ID": "{{ModID}}.SFX.SnailCryBaby",
+                "{{ModID}}_SFX.SnailCryBaby": {
+                    "ID": "{{ModID}}_SFX.SnailCryBaby",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry_Baby.ogg}}" ],
                     "StreamedVorbis": false,
                     "Looped": false
                 },
 
-                "{{ModID}}.SFX.SnailCry": {
-                    "ID": "{{ModID}}.SFX.SnailCry",
+                "{{ModID}}_SFX.SnailCry": {
+                    "ID": "{{ModID}}_SFX.SnailCry",
                     "Category": "Sound",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/SFX/Snail_Cry.ogg}}" ],
                     "StreamedVorbis": false,

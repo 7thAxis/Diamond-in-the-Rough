@@ -34,7 +34,7 @@
               }
             },
             "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true,
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": true,
                 "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
                 "Pacifist Mode": false,
                 "Shadow Stat Changes":true
@@ -65,7 +65,7 @@
               }
             },
             "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": false,
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": false,
                 "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
                 "Pacifist Mode": true,
                 "Shadow Stat Changes":true
@@ -103,7 +103,7 @@
               }
             },
             "When": {
-                "HasSeenEvent: |contains={{ModID}}.Events.SenS.10h.P3": true,
+                "HasSeenEvent: |contains={{ModID}}_Events.SenS.10h.P3": true,
                 "HasSeenEvent: |contains=1090508": false, //SVE shadow peace event
                 "Pacifist Mode": true,
                 "Shadow Stat Changes":true

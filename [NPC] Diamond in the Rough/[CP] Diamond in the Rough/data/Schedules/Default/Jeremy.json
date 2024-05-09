@@ -8,7 +8,7 @@
             "Target": "Characters/schedules/JeremyTSnail",
             "Entries": {
                 "spring": "
-                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    0 5 9 {{ModID}}_Maps.Jeremy_Room/
                     610 5 9 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
                     700 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA1}}/
                     800 17 7 0/
@@ -26,11 +26,11 @@
                     2000 4 10 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA8}}/
                     2100 18 8 3/
                     2200 13 12 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA9}}/
-                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                    2300 {{ModID}}_Maps.Jeremy_Room 5 9 jeremyTS_sleep
                 ",
 
                 "rain": "
-                    0 5 9 {{ModID}}.Maps.Jeremy_Room/
+                    0 5 9 {{ModID}}_Maps.Jeremy_Room/
                     610 EastScarp_Village 6 92 1/
                     800 14 97 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA0}}/
                     900 19 78 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA2}}/
@@ -38,11 +38,11 @@
                     1100 37 77 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA4}}/
                     1300 31 99 jeremyTS_wiggle/
                     1500 14 97 {{Random: jeremyTS_peek, jeremyTS_rear, jeremyTS_wiggle|key=JTSA5}}/
-                    1600 {{ModID}}.Maps.Trace_House_Interior 9 13 jeremyTS_lay/
+                    1600 {{ModID}}_Maps.Trace_House_Interior 9 13 jeremyTS_lay/
                     1800 14 7 jeremyTS_lay/
                     2000  16 20 jeremyTS_rear/
-                    2100 {{ModID}}.Maps.Jeremy_Room 17 7 0/
-                    2300 {{ModID}}.Maps.Jeremy_Room 5 9 jeremyTS_sleep
+                    2100 {{ModID}}_Maps.Jeremy_Room 17 7 0/
+                    2300 {{ModID}}_Maps.Jeremy_Room 5 9 jeremyTS_sleep
                 "
             }
         }

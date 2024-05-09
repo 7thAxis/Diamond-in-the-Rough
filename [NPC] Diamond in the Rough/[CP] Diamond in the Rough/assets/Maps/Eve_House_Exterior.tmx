@@ -6219,7 +6219,7 @@
   </object>
   <object id="192" name="TileData" x="32" y="48" width="16" height="16">
    <properties>
-    <property name="Action" value="Garbage 7thAxis.DitR.CP.TrashCan.EveT"/>
+    <property name="Action" value="Garbage 7thAxis.DitR_TrashCan.EveT"/>
    </properties>
   </object>
   <object id="194" name="TileData" x="128" y="128" width="16" height="16">

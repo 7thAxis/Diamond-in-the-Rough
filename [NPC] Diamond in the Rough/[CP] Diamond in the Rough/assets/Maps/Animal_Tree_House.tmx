@@ -4,7 +4,7 @@
   <property name="AmbientLight" value="110 110 110"/>
   <property name="AutoFeed" value="T"/>
   <property name="Light" value="11 10 4 16 9 4 23 10 4 8 17 4 16 18 4 13 13 4 23 17 4 22 13 4 9 13 4 25 19 1"/>
-  <property name="Music" value="7thAxis.DitR.CP.Music.VoidSnailWaltz"/>
+  <property name="Music" value="7thAxis.DitR_Music.VoidSnailWaltz"/>
   <property name="ProduceArea" value="9 11 17 7"/>
   <property name="Warp" value="15 21 Farm 11 14 16 21 Farm 11 14 17 21 Farm 11 14 18 21 Farm 11 14"/>
   <property name="forceLoadPathLayerLights" value="T"/>
@@ -83,7 +83,7 @@
  <objectgroup id="12" name="Back">
   <object id="309" name="TileData" x="400" y="304" width="16" height="16">
    <properties>
-    <property name="TouchAction" value="MagicWarp 7thAxis.DitR.CP.Maps.Jeremy_Room 17 11"/>
+    <property name="TouchAction" value="MagicWarp 7thAxis.DitR_Maps.Jeremy_Room 17 11"/>
    </properties>
   </object>
  </objectgroup>

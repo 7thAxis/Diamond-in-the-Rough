@@ -5,7 +5,7 @@
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_DeepDark",
             "Entries": {
-                "{{ModID}}.Events.SenS.10h.P1/e {{ModID}}.Events.SenS.8h/f SenS 2500/A DitR_CT_FamilyFlashback": "
+                "{{ModID}}_Events.SenS.10h.P1/e {{ModID}}_Events.SenS.8h/f SenS 2500/A DitR_CT_FamilyFlashback": "
                 
                 desolate/
                 21 37/
@@ -281,7 +281,7 @@
             "Action": "EditData",
             "Target": "Data/Events/EastScarp_Village",
             "Entries": {
-                "{{ModID}}.Events.SenS.10h.P2/e {{ModID}}.Events.SenS.10h.P1/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_MineFlashback": "
+                "{{ModID}}_Events.SenS.10h.P2/e {{ModID}}_Events.SenS.10h.P1/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_MineFlashback": "
                 
                 ocean/
                 32 112/
@@ -636,7 +636,7 @@
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
-                "{{ModID}}.Events.SenS.10h.P3/e {{ModID}}.Events.SenS.10h.P2/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_TheConfrontation": "
+                "{{ModID}}_Events.SenS.10h.P3/e {{ModID}}_Events.SenS.10h.P2/t 2000 2600/w sunny/f SenS 2500/A DitR_CT_TheConfrontation": "
 
                 Upper_Ambient/
                 24 24/

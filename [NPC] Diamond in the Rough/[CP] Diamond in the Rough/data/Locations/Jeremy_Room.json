@@ -3,7 +3,7 @@
 //---------------------------- ROOM LOAD ------------------------------------------//        
         {
             "Action": "Load",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "FromFile": "assets/Maps/Jeremy_Room.tmx"
         },
         {
@@ -11,36 +11,36 @@
             "Action": "EditData",
             "Target": "Data/Locations",
             "Entries": {
-                "{{ModID}}.Maps.Jeremy_Room": {
-                    "MusicDefault": "{{ModID}}.Music.JeremyTheme",
+                "{{ModID}}_Maps.Jeremy_Room": {
+                    "MusicDefault": "{{ModID}}_Music.JeremyTheme",
                     "DisplayName": "{{i18n:Maps.JeremyTSnail.JeremyRoom}}",
                     "DefaultArrivalTile": { "X": 10, "Y": 6 },
-                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}.Maps.Jeremy_Room" }
+                    "CreateOnLoad": { "MapPath": "Maps/{{ModID}}_Maps.Jeremy_Room" }
                 }
             }
         },
 //---------------------------- WARPS ------------------------------------------// 
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "AddWarps": [ 
-                "10 4 {{ModID}}.Maps.Trace_House_Interior 11 22",
-                "11 4 {{ModID}}.Maps.Trace_House_Interior 12 22" 
+                "10 4 {{ModID}}_Maps.Trace_House_Interior 11 22",
+                "11 4 {{ModID}}_Maps.Trace_House_Interior 12 22" 
             ]
         },
 //---------------------------- CONDITIONAL TILES ------------------------------------------// 
 //QUEST BOARD
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
                 {
                     "Position": { "X": 4, "Y": 6 }, "Layer": "Buildings",
-                    "SetProperties": { "Action": "PlayEvent {{ModID}}.Events.JeremyTS.VoidLavaSnailRoundUp true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
+                    "SetProperties": { "Action": "PlayEvent {{ModID}}_Events.JeremyTS.VoidLavaSnailRoundUp true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
                 },
                 {
                     "Position": { "X": 5, "Y": 6 }, "Layer": "Buildings",
-                    "SetProperties": { "Action": "PlayEvent {{ModID}}.Events.JeremyTS.VoidLavaSnailRoundUp true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
+                    "SetProperties": { "Action": "PlayEvent {{ModID}}_Events.JeremyTS.VoidLavaSnailRoundUp true false Dialogue {{i18n:Quests.DitR.VoidLavaSnailRoundUp.QuestActive}}" }
                 }
             ]
         },
@@ -50,7 +50,7 @@
     //Weird duped tiles are a workaround for animation breakage if I were to put the snails directly on the building layer
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 //Single snails around map
@@ -78,7 +78,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 //Single snails around map
@@ -108,7 +108,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 //Water snails
@@ -140,7 +140,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 //Bush snails
@@ -164,7 +164,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 //Single snails around map
@@ -188,7 +188,7 @@
     //FLAGS TRUE
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 2, "Y": 11 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailLemur" } },
@@ -202,7 +202,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 9, "Y": 13 },  "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailChirps" } },
@@ -216,7 +216,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 15, "Y": 15 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailNums" } },
@@ -231,7 +231,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 13, "Y": 10 }, "Layer": "Buildings",  "SetProperties": { "Action": "Message JeremyTSRSnailBell" } },
@@ -246,7 +246,7 @@
         },
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 18, "Y": 14 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailGervig" } },
@@ -258,7 +258,7 @@
     //SHINY SNAIL
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 3, "Y": 10 }, "Layer": "Buildings", "Remove": true },
@@ -269,7 +269,7 @@
         },   
         {
             "Action": "EditMap",
-            "Target": "Maps/{{ModID}}.Maps.Jeremy_Room",
+            "Target": "Maps/{{ModID}}_Maps.Jeremy_Room",
             "MapTiles": [
 
                 { "Position": { "X": 3, "Y": 10 }, "Layer": "Buildings", "SetProperties": { "Action": "Message JeremyTSRSnailJeremyJr" } }
