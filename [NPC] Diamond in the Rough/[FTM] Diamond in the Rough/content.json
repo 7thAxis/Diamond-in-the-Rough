@@ -9,25 +9,25 @@
         "SpringItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "SummerItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "FallItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "WinterItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "UniqueAreaID": "DitR - Sewer Shorts Spawn",
@@ -70,25 +70,25 @@
         "SpringItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "SummerItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "FallItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "WinterItemIndex": [
           {
             "Category": "Object",
-            "Name": "7thAxis.DitR.CP_Items.UnluckyPurpleShorts"
+            "Name": "7thAxis.DitR_Items.UnluckyPurpleShorts"
           }
         ],
         "UniqueAreaID": "DitR - Sewer Shorts Spawn Cleaner Sewer",
@@ -130,16 +130,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.Farm",
         "MapName": "Farm",
@@ -185,16 +185,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.BW",
         "MapName": "Backwoods",
@@ -240,16 +240,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.M",
         "MapName": "Mountain",
@@ -295,16 +295,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.F",
         "MapName": "Forest",
@@ -350,16 +350,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.Woods",
         "MapName": "Woods",
@@ -405,16 +405,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.ESV",
         "MapName": "EastScarp_Village",
@@ -464,16 +464,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.ESDM",
         "MapName": "EastScarp_DeepMountains",
@@ -519,16 +519,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.ESO",
         "MapName": "EastScarp_Orchard",
@@ -574,16 +574,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.Town",
         "MapName": "Town",
@@ -629,16 +629,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.SVEFW",
         "MapName": "Custom_ForestWest",
@@ -684,16 +684,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.SVEBMV",
         "MapName": "Custom_BlueMoonVineyard",
@@ -739,16 +739,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.SVEG",
         "MapName": "Custom_Garden",
@@ -794,16 +794,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.SVESWB",
         "MapName": "Custom_ShearwaterBridge",
@@ -849,16 +849,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.SensCrocus"
+          "7thAxis.DitR_Items.SensCrocus"
         ],
         "UniqueAreaID": "DitR.SC.SVEGSO",
         "MapName": "Custom_GrandpasShedOutside",
@@ -904,13 +904,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Farm",
@@ -957,13 +957,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.BW",
@@ -1010,13 +1010,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.M",
@@ -1063,13 +1063,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.F",
@@ -1116,13 +1116,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Woods",
@@ -1169,13 +1169,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESV",
@@ -1226,13 +1226,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESDM",
@@ -1279,13 +1279,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.ESO",
@@ -1332,13 +1332,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.Town",
@@ -1385,13 +1385,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEFW",
@@ -1438,13 +1438,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEBMV",
@@ -1491,13 +1491,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEG",
@@ -1544,13 +1544,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVESWB",
@@ -1597,13 +1597,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLS.SVEGSO",
@@ -1650,13 +1650,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Farm",
@@ -1703,13 +1703,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.BW",
@@ -1756,13 +1756,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.M",
@@ -1809,13 +1809,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.F",
@@ -1862,13 +1862,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Woods",
@@ -1915,13 +1915,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESV",
@@ -1972,13 +1972,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESDM",
@@ -2025,13 +2025,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.ESO",
@@ -2078,13 +2078,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.Town",
@@ -2131,13 +2131,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEFW",
@@ -2184,13 +2184,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEBMV",
@@ -2237,13 +2237,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEG",
@@ -2290,13 +2290,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVESWB",
@@ -2343,13 +2343,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.VoidLavaSnail"
+          "7thAxis.DitR_Items.VoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.VLSR.SVEGSO",
@@ -2396,13 +2396,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.Farm",
@@ -2447,13 +2447,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.BW",
@@ -2498,13 +2498,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.M",
@@ -2549,13 +2549,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.F",
@@ -2600,13 +2600,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.Woods",
@@ -2651,13 +2651,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.ESV",
@@ -2706,13 +2706,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.ESDM",
@@ -2757,13 +2757,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.ESO",
@@ -2808,13 +2808,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.Town",
@@ -2859,13 +2859,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.SVEFW",
@@ -2910,13 +2910,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.SVEBMV",
@@ -2961,13 +2961,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.SVEG",
@@ -3012,13 +3012,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.SVESWB",
@@ -3063,13 +3063,13 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenVoidLavaSnail"
+          "7thAxis.DitR_Items.GoldenVoidLavaSnail"
         ],
         "WinterItemIndex": [],
         "UniqueAreaID": "DitR.GVLS.SVEGSO",
@@ -3114,10 +3114,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3163,10 +3163,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3212,10 +3212,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3261,10 +3261,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3310,10 +3310,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3359,10 +3359,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3412,10 +3412,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3461,10 +3461,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3510,10 +3510,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3559,10 +3559,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3608,10 +3608,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3657,10 +3657,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3706,10 +3706,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3755,10 +3755,10 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.ValleyLily"
+          "7thAxis.DitR_Items.ValleyLily"
         ],
         "FallItemIndex": [],
         "WinterItemIndex": null,
@@ -3804,16 +3804,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.Farm",
         "MapName": "Farm",
@@ -3857,16 +3857,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.BW",
         "MapName": "Backwoods",
@@ -3910,16 +3910,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.M",
         "MapName": "Mountain",
@@ -3963,16 +3963,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.F",
         "MapName": "Forest",
@@ -4016,16 +4016,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.Woods",
         "MapName": "Woods",
@@ -4069,16 +4069,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.ESV",
         "MapName": "EastScarp_Village",
@@ -4126,16 +4126,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.ESDM",
         "MapName": "EastScarp_DeepMountains",
@@ -4179,16 +4179,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.ESO",
         "MapName": "EastScarp_Orchard",
@@ -4232,16 +4232,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.Town",
         "MapName": "Town",
@@ -4285,16 +4285,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.SVEFW",
         "MapName": "Custom_ForestWest",
@@ -4338,16 +4338,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.SVEBMV",
         "MapName": "Custom_BlueMoonVineyard",
@@ -4391,16 +4391,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.SVEG",
         "MapName": "Custom_Garden",
@@ -4444,16 +4444,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.SVESWB",
         "MapName": "Custom_ShearwaterBridge",
@@ -4497,16 +4497,16 @@
       },
       {
         "SpringItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "SummerItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "FallItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "WinterItemIndex": [
-          "7thAxis.DitR.CP_Items.GoldenValleyLily"
+          "7thAxis.DitR_Items.GoldenValleyLily"
         ],
         "UniqueAreaID": "DitR.GVL.SVEGSO",
         "MapName": "Custom_GrandpasShedOutside",

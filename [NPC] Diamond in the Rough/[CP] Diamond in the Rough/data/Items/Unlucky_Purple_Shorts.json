@@ -49,7 +49,7 @@
             "LogName": "Allow Unlucky Purple Shorts Gifting",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "TargetField": [ "7thAxis.DitR.CP_Items.UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
+            "TargetField": [ "7thAxis.DitR_Items.UnluckyPurpleShorts", "GiftableToNpcAllowList" ],    
             "Entries": { "NPCInternalName": true },
             "When": { "HasMod": "7thAxis.DitR.CP" }
         },
