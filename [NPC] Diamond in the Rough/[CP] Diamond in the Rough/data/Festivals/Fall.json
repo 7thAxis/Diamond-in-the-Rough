@@ -85,7 +85,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
-                    "Value": "EveT 21 22 2/WaffleW 22 22 3",
+                    "Value": "EveT 22 10 2/WaffleW 23 10 3",
                     "Delimiter": "/"
                 },  
                 {

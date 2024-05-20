@@ -169,10 +169,10 @@
             "Target": "Data/animationdescriptions",
             "Entries": {
                 "sens_read": "16/16 17 18 19 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/16",
-                "sens_wigglesit": "20/20 21 21 22 22 23 23 20/20",
-                "sens_map": "24/24 24 24 24 24 24 25 26 25 26 25 24 24 24 24 24 24 24 24 24/24",
+                "sens_wigglesit": "20/20 21 21 22 22 23 23 20/20//laying_down",
+                "sens_map": "24/24 24 24 24 24 24 25 26 25 26 25 24 24 24 24 24 24 24 24 24/24//laying_down",
                 "sens_crochet": "29/29 30 30 30 30 30 29 29 29 29 29/29",
-                "sens_sit": "20/20 20 20/20"
+                "sens_sit": "20/20 20 20/20//laying_down"
             }
         },
     //Sprite patches that didn't work in appearance for whatever reason

@@ -14,7 +14,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/JeremyTSnail",
             "Entries": 	{ 
-                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 7}}}}}}#{{SFX.SnailCry}}"
+                "{{WeekDay}}": "{{i18n:Core.JeremyTS.DailyDialogue.{{Random:{{Range: 1, 10}}}}}}#{{SFX.SnailCry}}"
             },
             "When": { "HasSeenEvent: |contains=112": true, "HasConversationTopic: |contains=DitR_CT_JeremyBetrayed": false } 
         },

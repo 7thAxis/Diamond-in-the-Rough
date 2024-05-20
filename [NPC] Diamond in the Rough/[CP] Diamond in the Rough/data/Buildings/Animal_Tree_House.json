@@ -9,7 +9,7 @@
                 "Description": "{{i18n:Core.Buildings.AnimalTreeHouse.Description}}",
                 "Texture": "Buildings\\DitR_Animal_Tree_House",
                 "DrawShadow": false,
-                "Size": { "X": 5, "Y": 6 },
+                "Size": { "X": 6, "Y": 6 },
                 "FadeWhenBehind": true,
                 "SourceRect": { "X": 0, "Y": 0, "Width": 112, "Height": 112 },
                 "Builder": "Robin",

@@ -78,10 +78,10 @@
             "Action": "EditData",
             "Target": "Data/animationdescriptions",
             "Entries": {
-                "evet_sleep": "16/16/16",
-                "evet_lay": "16/16/16",
-                "evet_sit": "19/19/19",
-                "evet_kickfeet": "17/17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18/18",
+                "evet_sleep": "16/16/16//laying_down",
+                "evet_lay": "16/16/16//laying_down",
+                "evet_sit": "19/19/19//laying_down",
+                "evet_kickfeet": "17/17 17 17 17 18 18 18 18 19 19 19 19 18 18 18 18/18//laying_down",
                 "evet_gempolish": "20/20 20 20 20 20 21 21 21 21/21"
             }
         }

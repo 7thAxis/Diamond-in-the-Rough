@@ -60,7 +60,7 @@
                 {
                     "Operation": "Append",
                     "Target": [ "Entries", "Set-Up_additionalCharacters{{FestivalYearCheck}}" ],
-                    "Value": "SenS 47 71 2/EveT 41 72 2/TraceV 33 90 2/WaffleW 42 72 3/JeremyTSnail 24 104 3",
+                    "Value": "SenS 47 71 2/EveT 47 80 2/TraceV 33 90 2/WaffleW 48 80 3/JeremyTSnail 24 104 3",
                     "Delimiter": "/"
                 },
 

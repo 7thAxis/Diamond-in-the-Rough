@@ -60,9 +60,9 @@
             "Action": "EditData",
             "Target": "Data/animationdescriptions",
             "Entries": {
-                "tracev_sleep": "28/28/28",
-                "tracev_lay": "28/28/28", 
-                "tracev_sit": "29/29/29", 
+                "tracev_sleep": "28/28/28//laying_down",
+                "tracev_lay": "28/28/28//laying_down", 
+                "tracev_sit": "29/29/29//laying_down", 
                 "tracev_jam": "16/16 16 17 17 18 18 19 19/19",
                 "tracev_cook": "24/24 25 26 27/27",
                 "tracev_art": "20/20 20 21 21 22 22 23 23/23",
