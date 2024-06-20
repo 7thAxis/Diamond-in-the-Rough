@@ -138,7 +138,7 @@
 			"Entries": {
 				"fall_27": "0 Sewer 6 20/610 6 20 2" //Day of Festival of the Mundane
 			},
-			"When": { "LivingWithSen": true, "HasMod: |contains=MouseyPounds.ShadowFestival": true }
+			"When": { "LivingWithSen": false, "HasMod: |contains=MouseyPounds.ShadowFestival": true }
 		}
     ]
 }

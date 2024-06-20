@@ -50,12 +50,18 @@
 			"Target": "Characters/schedules/SenS",
 			"Entries": {
 				"rain2": "
-					0 Town 88 81/
-					610 89 81 1/
-					1100 108 92 0/
-					1300 55 85 1/
-					1500 28 84 3/
-					1700 6 89 3/
+					0 EastScarp_DeepDark 28 37/
+					610 28 37 0/
+					700 25 37 0/
+					800 23 37 0/
+					900 18 37 3/
+					1000 29 39 1/
+					29 42 1/
+					1100 23 38 2/
+					1200 28 37 0/
+					1300 25 37 0/
+					1400 29 39 1/
+					1500 EastScarp_Village 31 101 sens_wigglesit/
 					1900 bed"
 			},
 			"When": { "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true, "LivingWithSen": true }
@@ -82,21 +88,6 @@
 				",
 
 				"rain": "
-					0 Town 110 78/
-					610 97 81 0/
-					700 109 91 3/
-					800 55 85 1/
-					1000 47 71 0/
-					1100 52 64 0/
-					1200 19 90 0/
-					1300 13 87 0/
-					1400 43 77 sens_wigglesit/
-					1700 70 91 sens_wigglesit/
-					1900 27 23/
-					2100 20 62 3/
-					2300 35 79",
-
-				"rain2": "
 					0 EastScarp_DeepDark 26 19/
 					610 26 19 sens_read/
 					700 EastScarp_Village 49 21/
@@ -112,6 +103,21 @@
 					1900 55 84 sens_wigglesit/
 					2100 43 114/
 					2300 14 90",
+
+				"rain2": "
+					0 Town 110 78/
+					610 97 81 0/
+					700 109 91 3/
+					800 55 85 1/
+					1000 47 71 0/
+					1100 52 64 0/
+					1200 19 90 0/
+					1300 13 87 0/
+					1400 43 77 sens_wigglesit/
+					1700 70 91 sens_wigglesit/
+					1900 27 23/
+					2100 20 62 3/
+					2300 35 79",
 
 				"prefestivals": "
 					0 EastScarp_DeepDark 28 19/
