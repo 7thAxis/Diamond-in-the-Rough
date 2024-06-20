@@ -165,7 +165,8 @@
 					610 64 16 2/
 					1800 Town 26 21 sens_wigglesit
 				"
-			}
+			},
+			"When": { "LivingWithSen": false }
 		},
 		{
 			"LogName": "Sen Rain2 Schedule SVE",
