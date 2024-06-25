@@ -40,7 +40,7 @@
                     "StreamedVorbis": true,
                     "Looped": true
             },
-            "{{ModID}}_Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
+                "{{ModID}}_Music.BarbieGirl": { //YOU CAN BRUSH MY HAAAAIIIIRRR
                     "ID": "{{ModID}}_Music.BarbieGirl",
                     "Category": "Music",
                     "FilePaths": [ "{{AbsoluteFilePath: assets/Audio/Music/TheFrenchDodo_Barbie_Girl.ogg}}" ],

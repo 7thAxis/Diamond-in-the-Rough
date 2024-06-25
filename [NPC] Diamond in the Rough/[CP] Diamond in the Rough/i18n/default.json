@@ -430,53 +430,53 @@
 "Core.EveT.BOESComment.2": "BAT B",
 "Core.EveT.BOESComment.3": "BAT C",
 
-"Core.EveT.Season.spring.1": "I love this time of year.$h#$b#The birds are singing, the flowers are blooming...$l#$b#Can't get enough of it!$h",
+"Core.EveT.Season.spring.1": "This time of the year is the best.$h#$b#The birds are singing, the flowers are blooming...$l#$b#Can't get enough of it!$h",
 "Core.EveT.Season.spring.2": "AaAaachooo!$u#$b#Uh, sorry - the pollen in the air is getting to me.$s",
 "Core.EveT.Season.spring.3": "Have you found any sweet peas around?#$b#Aren't they just delightful little wild flowers?$l",
-"Core.EveT.Season.spring.4": "Careful crunching into spring onions, bud.#$b#I heard they tend to have a lot of bugs crawling on 'em. Gross.$6",
-"Core.EveT.Season.spring.5": "This is the best time of year for a picnic!$h#$b#I think I'll grab Waffle, get some supplies and lounge out in the woods for a bit.$l",
+"Core.EveT.Season.spring.4": "Careful crunching into spring onions willy-nilly, bud.#$b#I heard they tend to have ton of bugs crawling inside 'em. Nasty.$6",
+"Core.EveT.Season.spring.5": "Ain't this time of year great for a picnic?$h#$b#I think I'm gonna grab Waffle, get some make some sandwiches and lounge out in the woods for a bit.$l",
 "Core.EveT.Season.summer.1": "Good golly is this heat blistering.$a#$b#Be sure to dress lightly, don't wanna hear ya passed out of heat stroke or nothin.$s",
-"Core.EveT.Season.summer.2": "This season is the prime time to head out on the beach to chill.$h#$b#Wanna go for a swim or build a sand castle with me?$h",
+"Core.EveT.Season.summer.2": "Summer's the prime time to head out on the beach to chill.$h#$b#...Well, not chill. You get what I mean.$6",
 "Core.EveT.Season.summer.3": "Uhg, the bugs this time of year are sooo freaking obnoxious$a#$b#I should pick up some repellant from Pierre's.$a",
-"Core.EveT.Season.summer.4": "I'd say I wished for rain but have you ever noticed that rain makes the summer air worse?$s#$b#It only increases the humidity, uhg.$a",
-"Core.EveT.Season.summer.5": "Can't say I really enjoy this time of year. It's too stinking hot to do anything.$s#$b#How do you work through this?$6",
+"Core.EveT.Season.summer.4": "I'd say I wished for rain but it only ever seems to make the summer air worse,$s#$b#Stupid humidity, uhg.$a",
+"Core.EveT.Season.summer.5": "Can't say I really enjoy this time of year. It's too stinking hot to accomplish anything.$s#$b#Honestly, you must have unrivaled willpower to work through this heat.$6",
 "Core.EveT.Season.fall.1": "This was a good friend of mine's favorite season...$s#$b#Sigh...$s#$e#Oh don't worry, I'm alright.$s",
-"Core.EveT.Season.fall.2": "Heehee, it's pumpkin season! I love carving them this time of year.$h#$b#It's easy for me 'cause I always carve out a bomb shape.$l",
+"Core.EveT.Season.fall.2": "Heh, it's pumpkin season! Carving 'em is one of my favorite fall pass-times.$h#$b#It's easy for me 'cause I always carve out a bomb shape.$l",
 "Core.EveT.Season.fall.3": "Have you ever had a pumpkin spice latte?#$b#I'm not the biggest fan of coffee, but that stuff's to die for.$h",
 "Core.EveT.Season.fall.4": "I'm tempted to rake up some leaves and jump in, but that's a safe haven for spiders.$s#$b#I hate spiders with a passion.$a",
-"Core.EveT.Season.fall.5": "Do you feel the air cooling down too?#$b#Seems like winter's not far off!$l",
-"Core.EveT.Season.winter.1": "Burrr... I wish I had a thick fur coat like Waffle sometimes.$s#$b#I'm freezing my butt off over here!$s",
-"Core.EveT.Season.winter.2": "Do you like the winter?#$b#It must be nice to not have to tend to crops every single day, huh?$h",
+"Core.EveT.Season.fall.5": "Do you feel the air cooling down too?#$b#Seems like winter's not far off!$l#$b#Just a frozen wonderland, as far as the eye can see...$s",
+"Core.EveT.Season.winter.1": "Pretty cold outside, ain't it?$s#$b#Stay bundled up, I wouldn't want you see you turn into a farmer popsicle.$h",
+"Core.EveT.Season.winter.2": "Do you like the winter?$s#$b#It must be nice to not have to tend to crops every single day, huh?$h",
 "Core.EveT.Season.winter.3": "I think I might build a snowman later. I haven't made one of those in ages.#$b#Takes me back to the good 'ol days of being a kiddo.$l",
-"Core.EveT.Season.winter.4": "Uhg, shoveling snow out of my doorway is such a pain.$a#$b#I gotta imagine it's way worse for you, though.$6",
-"Core.EveT.Season.winter.5": "I hope you got a good pair of snow boots on ya, the snow has got to be a foot deep!$s",
+"Core.EveT.Season.winter.4": "Uhg, shoveling snow out of my doorway is such a pain.$a#$b#With all that land, I gotta imagine it's way worse for you though.$6",
+"Core.EveT.Season.winter.5": "It almost feels like time stands still in the winter...$s#$b#Nothing grows and it's eerily silent... Sigh, is it time for spring yet?$s",
 
-"Core.EveT.Spring.Day.1": "Goodbye snow, hello flower blossoms and honey bees!$h#$b#Spring is hands down the best season of the year.$l",
+"Core.EveT.Spring.Day.1": "Goodbye frozen wasteland, hello flower blossoms and honey bees!$h#$b#There's no better season than spring, hands down!$l",
 "Core.EveT.Spring.Day.12": "Ready for the Egg Festival tomorrow, @?#$b#I fully anticipate Abigail is gonna win the egg hunt AGAIN.$6#$e#Like dang girl, give the kids a chance.$8", // Day before the Egg Festival
-"Core.EveT.Spring.Day.18": "You planning on attending the Fashion Festival tomorrow, @?#$b#I'm hoping I'll find a new pretty pink gown to add to my wardrobe.$l", // Day before Fashion Festival
-"Core.EveT.Spring.Day.23": "Tomorrow's the Flower Dance!$h#$b#It's by far my favorite event of the year, but you'll never catch me dancing.#$b#No way, no how. I'd totally embarrass myself.$h", // Day before the Flower Dance
-"Core.EveT.Spring.Day.28": "Seems like spring is almost up, huh?#$b#I can already feel the heat hazing in.$s#$e#Not looking forward to it. I can't staaaand the summer.$s",
+"Core.EveT.Spring.Day.18": "You planning on attending the Fashion Festival tomorrow, @?#$b#I'll be on the hunt for some new pink shawls to add to my wardrobe.$l", // Day before Fashion Festival
+"Core.EveT.Spring.Day.23": "Tomorrow's the Flower Dance!$h#$b#It's by far my favorite event of the year, but you'll never catch me dancing.#$b#No way, no how. I'd totally embarrass myself.$6", // Day before the Flower Dance
+"Core.EveT.Spring.Day.28": "Seems like spring is almost up, huh?#$b#I can already feel the heat hazing in.$s#$e#I for one am certainly not looking forward to the mosquito plague.$a",
 
-"Core.EveT.Summer.Day.1": "Uhg, summer's here.$a#$b#Now I love me the comfy glow of a campfire, but I can't stand the humidity one bit.$s",
-"Core.EveT.Summer.Day.4": "Planning on hitting up the Surfing Festival tomorrow, @?#$b#I've never surfed before, but I'm down to give it a try.$h", // Day before Surfing Festival
+"Core.EveT.Summer.Day.1": "Uhg, summer's here.$a#$b#Now I love me the comfy glow of a campfire, but the humidity can move right on outta here.$s",
+"Core.EveT.Summer.Day.4": "Planning on hitting up the Surfing Festival tomorrow, @?#$b#I've never surfed before, but I'm down to make a fool of myself giving it a try.$h", // Day before Surfing Festival
 "Core.EveT.Summer.Day.10": "Have you picked out something to put in the soup tomorrow?#$b#I'm planning on tossing in a cherry bomb.$9#$e#May Yoba help the soul that gets that ladle full.", // Day before the Luau
 "Core.EveT.Summer.Day.19": "Heh heh heh.$9#$b#The Fireworks Festival is my favorite festival of the year, even more than the Flower Dance.$h#$e#Why?#$b#'Cause of the explosives, of course.$9", // Day before Fireworks Festival
-"Core.EveT.Summer.Day.27": "Gonna go see the Moonlight Jellies tomorrow night, @?#$b#It's always such a pretty event. Haven't missed it once since coming back to the Valley.$h", // Day before Moonlight Jellies
-"Core.EveT.Summer.Day.28": "Thank goodness summer is almost out of here.$l#$b#Dang season has overstayed its welcome, thank you very much.$a", 
+"Core.EveT.Summer.Day.27": "Gonna go see the Moonlight Jellies tomorrow night, @?#$b#No matter how many times I've seen the little guys, they've never ceased to be awe-inspiring. Haven't missed it once since coming back to the Valley.$h", // Day before Moonlight Jellies
+"Core.EveT.Summer.Day.28": "Thank goodness summer is about to kick the bucket.$l#$b#Dang season has overstayed its welcome, thank you very much.$a", 
 
-"Core.EveT.Fall.Day.1": "Fall oh fall, my second most favorite season of the year.$h#$b#A great time to kick back with a nice pumpkin spice latte and watch the leaves drift by.$l", 
-"Core.EveT.Fall.Day.2": "You gonna hit up Marketpalooza tomorrow, @?#$b#I'm looking forwards to some sweet deals.$8#$e#Maybe I'll find a baker's dozen of cherry bombs for cheap!$8", // Day before Marketpalooza
-"Core.EveT.Fall.Day.15": "I'm looking forward to the fair tomorrow! I love the balloon popping game and am quite good at it if I do say so myself.", // Day before the Stardew Fair
+"Core.EveT.Fall.Day.1": "Fall oh fall, my second most favorite season of the year.$h#$b#Time to kick back with a nice pumpkin spice latte and watch the leaves drift by.$l", 
+"Core.EveT.Fall.Day.2": "You gonna hit up Marketpalooza tomorrow, @?#$b#I'm looking forward to some sweet deals.$8#$e#Maybe I'll find a baker's dozen of cherry bombs for cheap!$8", // Day before Marketpalooza
+"Core.EveT.Fall.Day.15": "Going to the fair tomorrow, farmer? I'm quite good at the slingshot game if I do say so myself.$h#$b#My high score is 400. I bet ya can't beat it.$9", // Day before the Stardew Fair
 "Core.EveT.Fall.Day.19": "You going to the Ridgeside Gathering tomorrow?#$b#That event is always so chaotic.$6#$e#I'm not interested in the gender wars, but they do sell cool stuff some years.$h",  // Day before Gathering
-"Core.EveT.Fall.Day.26": "Boo!$8#$b#Did I scare you, @?$h#$b#Yeah nah, didn't think so.#$e#Keep your eye out though, I might get ya during Spirits Eve.$h", // Day before Spirit's Eve
-"Core.EveT.Fall.Day.28": "Aw man, fall is just about on the way out and winter is around the bend.$s#$b#Winter sucks - plowing snow, getting your feed stuck, the bitter cold and all that.$s",
+"Core.EveT.Fall.Day.26": "Boo!$8#$b#Did I scare you, @?$h#$b#Yeah nah, didn't think so. But you better watch out on Spirit's Eve.$9", // Day before Spirit's Eve
+"Core.EveT.Fall.Day.28": "Aw man, fall's on the way out and winter is around the bend.$s#$b#Winter sucks - plowing snow, getting your feet stuck, the barrenness and all that.$s",
 
 "Core.EveT.Winter.Day.1": "Welp, winter's here.$a#$b#Ain't that just dandy.$a", 
-"Core.EveT.Winter.Day.7": "Tomorrow's the Ice Festival... If I wasn't so invested in the town, I'd sit this one out.$s#$b#I can't stand the smell of fish.$s", // Day before the Ice Festival
-"Core.EveT.Winter.Day.12": "Hehehe, tomorrow's the Love Festival.$h#$b#Do you think you'll get a letter from anybody, @?$l#$b#I'm used to not getting anything.$s", // Day before Love Festival
-"Core.EveT.Winter.Day.24": "Who'd you get for your secret friend for Winter Star, @?#$b#Wait... You're probably not supposed to tell me that, never mind.$6", // Day before Winter Star
-"Core.EveT.Winter.Day.27": "Oh my gosh I am SO excited for the Ember of Resolutions tomorrow.$h#$b#The giant bonfire... I wish I could just grab a stick and light fire to the whole village!$h#$b#...What do you mean that's illegal and arson?$s", // Day before Ember
-"Core.EveT.Winter.Day.28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h",
+"Core.EveT.Winter.Day.7": "Tomorrow's the Ice Festival... If I wasn't invested in the town, I'd sit this one out.$s#$b#I can't stand the smell of fish.$s", // Day before the Ice Festival
+"Core.EveT.Winter.Day.12": "Giving letters at the Love Festival... heh.$7#$b#Takes me back to the stupid gushy stuff Dia...-$7#$b#Uh... Sorry, I need to go.$s", // Day before Love Festival
+"Core.EveT.Winter.Day.24": "Who'd you get for your secret friend for Winter Star, @?#$b#Wait... You're probably not supposed to tell me that, forget I asked.$6", // Day before Winter Star
+"Core.EveT.Winter.Day.27": "Oh my gosh I am SO excited for the Ember of Resolutions tomorrow.$h#$b#The giant bonfire... I wish I could just grab a stick and light fire to the whole town!$h#$b#...What do you mean arson is a felony?$s", // Day before Ember
+"Core.EveT.Winter.Day.28": "Oh thank Yoba, spring is right around the corner.$h#$b#If I got my foot stuck in the snow one more time I was gonna scream.#$e#The whole town would have thought I lost my mind.$h#$e#I mean I already have, but that's besides the point.",
 
 //Locations
 "Core.EveT.Locations.Home.Bed": "%Better be quiet or you might wake Eve up.#$b#%The repercussions would be disastrous.",
@@ -506,33 +506,33 @@
 "Core.EveT.PrideSeasonGift": "I got a cookie in the mail this morning.$h#$b#Aaand Waffle promptly stole it off the table.$s#$b#No cookies for me, sigh.$s",
 "Core.EveT.HatMouseTheAlly": "My ma never liked the fact that that I never had an eye for dudes.$s#$b#She was always like \"When are you gonna settle down and get married so I can have some grandbabies\".$a#$b#She's not around anymore so it is what it is, but it still bugs me.$s",
 
-"Core.EveT.SenMet": "Sigh, sometimes I think about an old friend and her kiddo...$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
-"Core.EveT.DreamReveal": "An old friend of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
+"Core.EveT.SenMet": "Sigh, sometimes I think about an old... friend and her kiddo.$s#$b#His mother is no longer around and wasn't old enough to remember her.$s#$e#I wonder how he's doing these days?$s",
+"Core.EveT.DreamReveal": "An old... buddy of mine had a love for our world and all the living creatures that inhabit it.#$b#Her outlook on life was beautiful. I miss her every day.$s",
 "Core.EveT.ShadowPlay": "Bears around town, huh?$6#$b#Something tells me those weren't bears messing around in the trash...$6#$b#Sigh...$s",
-"Core.EveT.GardenWaitTime": "I once knew a guy who had an obsession with learning about every plant in existence.#$b#I wonder if he still studies that stuff?$s",
-"Core.EveT.GardenCompleted": "There was this guy that I once helped create a massive beautiful garden for.#$b#I had never seen someone so happy.$h#$b#I wonder how he's doing these days?$s",
-"Core.EveT.FamilyFlashback": "Sigh... Sometimes I really miss my family.$s#$b#My parents aren't around anymore and I lost my found family as well.$s#$e#Experiencing that kind of loss repeatedly makes it hard to get close to people.$s",
-"Core.EveT.MineFlashback": "I love exploring the mines, but man I will never go deeper than the frost caverns.#$b#There are beings that lurk below that would tear me limb from limb.$s",
-"Core.EveT.TheConfrontation": "I had a friend that absolutely loved strange buns, but his partner would always snatch them out from under his nose.#$b#It was such a funny spectacle to watch.$h#$e#I wonder how those two are doing now?$s",
-"Core.EveT.SkrellEpilogue": "I saw someone skirting around in the darkness last night...$6#$b#...It kind of looked like...$6#$b#No, it couldn't have been. He'd never venture back into the valley.$s",
-"Core.EveT.SenSFlowers": "There's gorgeous crocuses popping up all over the Valley!$h#$b#I wanna collect some and make a bouquet!$l",
+"Core.EveT.GardenWaitTime": "I once knew this grumpy 'ol guy who had an obsession with learning about every plant in existence.#$b#I used to bring him field guides and the like.$l#$b#I wonder if he still studies that stuff?$s",
+"Core.EveT.GardenCompleted": "There was this super grumpy dude that I once helped put together a small garden for.#$b#Took everything in him to say thank you, the ungrateful devil!$l#$b#I wonder how he's holding up these days?$s",
+"Core.EveT.FamilyFlashback": "Heh... does life ever feel like tredging through a blizzard to you?$s#$b#Forcing yourself forward while everyone and everything is just outta reach, sinking deeper down towards the permafrost...$s#$b#Uh, sorry. Didn't mean to get weird there, I've got no idea what came over me.$s",
+"Core.EveT.MineFlashback": "I love exploring the mines, but man I chicken out once I reach the frost caverns.$s#$b#There are beings that lurk below that would tear me limb from limb.$s",
+"Core.EveT.TheConfrontation": "I had two 'ol buds who LOVED strange buns. You couldn't leave one out them going to war.$h#$b#It was always hysterical to watch.$l#$b#I wonder what those weirdos are up to now.$s",
+"Core.EveT.SkrellEpilogue": "I saw someone skirting around in the darkness last night...$6#$b#...It kind of looked like...$6#$b#Nah, it couldn't have been. He'd never venture back into the valley.$s",
+"Core.EveT.SenSFlowers": "Have you seen the crocuses popping up all over the valley?$h#$b#I've never seen anything quite like 'em. I wonder where they came from?$l",
 "Core.EveT.JojaBegin": "I heard you got the Joja Membership, is it a any good?#$b#To be honest I hate going in that place. It feels so sterile.$6",
-"Core.EveT.ccBegin": "Oh! I heard you're going to help out in repairing the community center!#$b#I can't wait to see it bustling again. It used to be the most lively place in town!$h",
-"Core.EveT.ccBus": "Heck yeah the bus is up and running again.#$b#That means I can start stocking up on cactus fruit again!$h#$e#Those things are delicious.$h",
-"Core.EveT.ccBridge": "I saw the bridge has been fixed up.#$b#Nice, I can head to the quarry and blow stuff up again.$9",
+"Core.EveT.ccBegin": "Hey! I heard through the grape vine that you'll be helping out with the community center, huh?#$b#I can't wait to see it bustling again. It used to be the most lively place in town!$h#$b#...Not that I'm old enough to remember that, no-siree.$6",
+"Core.EveT.ccBus": "Let's gooo the bus is up and running again!$h#$b#I can finally start stocking up on cactus fruit again. I LOVE cactus fruit.$l",
+"Core.EveT.ccBridge": "Did you see that the bridge got fixed up?#$b#Nice, I can head to the quarry and blow stuff up again.$9",
 "Core.EveT.ccBoulder": "Uhg, someone blew up the boulder blocking the river and nobody invited me to help!$s#$b#Boooo!$s",
-"Core.EveT.ccGreenhouse": "I heard that the greenhouse on your farm is all fixed up.#$b#Now you can use it to grow cactus fruit exclusively for me.$h#$b#Thanks!$l",
-"Core.EveT.ccMinecart": "I saw the minecarts are up and running again.#$b#I'm honestly convinced they're haunted.$6",
-"Core.EveT.ccComplete": "I'm so happy the community center is up and running again!$h#$b#That place is a nostalgic place from my childhood.$l#$b#Thanks so much for your hard work, @.$h",
-"Core.EveT.MovieTheater": "What the hell, a movie theater appeared in town over night?$6#$b#Oh well, that ain't the weirdest thing I've seen happen in this town.$l",
-"Core.EveT.JasperGone2": "P...Professor Jasper went where?!$u#$b#Oh my gosh someone needs to go after him, he's going to get himself killed!$u#$b#Trust me, I know!$s",
-"Core.EveT.JasperHomeA": "Uhg... I'm so glad Jasper didn't get killed, but he's in horrible shape... Poor guy.$s#$b#The people who lurk deep underground have a deep rooted hatred for humans. He's lucky to still be alive.$s#$e#How do I know what's down there?$6#$b#I mean there's a reason I don't go mining in the depths anymore.$s",
-"Core.EveT.KeahiStink": "Bleck...! What the heck is that horrible smell?!$6#$b#@, is that you?$6",
-"Core.EveT.PumpkinSpice": "Pumpkin spice madness is taking over the town...#$b#Take cover before it takes hold of you too, @!$8",
+"Core.EveT.ccGreenhouse": "Is it true that you got your greenhouse repaired?#$b#Sweet, now you can use it to grow cactus fruit exclusively for me.$h#$b#Thanks!$l",
+"Core.EveT.ccMinecart": "I saw the minecarts are up and running again.#$b#I'm mildly convinced they're haunted.$6",
+"Core.EveT.ccComplete": "Hey - you did a great job with the community center, @.#$b#That old place is pretty nostalgic for me, so uh, thanks.$7",
+"Core.EveT.MovieTheater": "How in the name of Yoba's green earth did a movie theater appear in town over night?$6#$b#Eh, whatever. It ain't the weirdest thing I've seen happen in this town.$l",
+"Core.EveT.JasperGone2": "P...Professor Jasper went where?!$u#$b#Oh my Yoba someone needs to go after him, he's going to get himself killed!$u#$b#Trust me, he does NOT what to encounter what's down there.$s",
+"Core.EveT.JasperHomeA": "Uhg... I'm so glad Jasper didn't get killed, but he's in horrible shape... Poor guy.$s#$b#The folks who lurk deep underground have a deep rooted hatred for humans. He's lucky to still be alive.$s#$e#Eh, how do I know what's down there?$6#$b#I mean... there's a reason I don't go down there anymore.$s",
+"Core.EveT.KeahiStink": "Oh what the... um. Farmer, buddy, pal...$u#$b#You smell like you got sprayed by a skunk. Do you need some tomato sauce?$s",
+"Core.EveT.PumpkinSpice": "Bahahha! Pumpkin spice madness is taking over the town!$10#$b#It's too late for me... Take cover before it takes hold of you too, @.$11",
 "Core.EveT.LavrilUnlocked": "I've noticed there's a new little girl wandering around town.$6#$b#She seems so sweet, but does she not have a family...?$s",
-"Core.EveT.LucikielArrives": "So you're telling me there's a demon running around Pelican Town now?$6#$b#...Yeah, that seems par for the course for Stardew Valley.$h",
+"Core.EveT.LucikielArrives": "So you're telling me there's a demon running around Pelican Town now?$6#$b#...Yeah, that seems par for the course for this Valley.$h",
 "Core.EveT.LucikielRepIncrease": "That demon is really proving himself to be a pretty cool guy! I like him!$h#$b#I don't get why everyone was so afraid of him at first.$8",
-"Core.EveT.JulietGremlin": "Awww I heard that Juliet got a new pup!$h#$b#I hope her and my dog can play together.$l#$b#I think that would be enriching for all of us.$h",
+"Core.EveT.JulietGremlin": "Awww I heard that Juliet got a new pup!$h#$b#If I wasn't a social mess, I would totally hit her up for a doggy playdate.$h",
 
 
 
@@ -1489,42 +1489,42 @@
 "Gifts.JeremyTSnail.StardropTea": "...!$2#$b#%Jeremy loses their calm demeanor guzzles down the tea like a wild beast.#$b#%They then promptly return to a normal state of peacefulness.",
 
     //----EVE----//
-"Gifts.EveT.Like": "Oh thanks, @! This is great!",
-"Gifts.EveT.Love": "Oh my gosh thank you, @! I adore this!",
-"Gifts.EveT.Neutral": "Thanks for the gift, @!",
+"Gifts.EveT.Like": "Oh woah, this is nice! Thanks, @!",
+"Gifts.EveT.Love": "Oh my yoba, I LOVE this! Thanks so much, @!",
+"Gifts.EveT.Neutral": "Hey thanks for thinking about me, @!",
 "Gifts.EveT.Dislike": "Err... Thanks I guess?",
 "Gifts.EveT.Hate": "Uhg, why on earth would you think it was a good idea to give me this?",
 
-"Gifts.EveT.BirthdayGift.Love": "Oh my gosh this is a wonderful birthday gift, @! Thank you!",
+"Gifts.EveT.BirthdayGift.Love": "Huh, you remembered my birthday? Oh Yoba, I totally forgot it was today!$h#$b#This is a wonderful gift, @! Thank you!$l",
 "Gifts.EveT.BirthdayGift.Like": "Awww you remembered my birthday! Thank you so much, @!",
-"Gifts.EveT.BirthdayGift.Dislike": "Err... Thanks for the birthday gift. I think. $s",
-"Gifts.EveT.BirthdayGift.Negative": "Umm... Really, on my birthday you give me this of all things?",
-"Gifts.EveT.BirthdayGift.Neutral": "Thanks for the birthday gift, @! I really appreciate it.",
+"Gifts.EveT.BirthdayGift.Dislike": "Err... Thanks for remembering my birthday. I appreciate it.$s",
+"Gifts.EveT.BirthdayGift.Negative": "Umm... Really, you give me this of all things on my birthday?",
+"Gifts.EveT.BirthdayGift.Neutral": "Thanks for remembering my birthday, @. I really appreciate it.",
 
-"Gifts.EveT.Diamond": "Oh...!$h#$b#This reminds me of someone near and dear to my heart. Thank you, @.$h",
-"Gifts.EveT.CactusFruit": "Oh man this stuff is the BEST!$h#$b#Just uh, remember to remove all the spines first.$8",
-"Gifts.EveT.Doll": "Hey this will make an awesome toy for Waffle!$h#$b#Here girl, I've hot a prize for ya!$l",
-"Gifts.EveT.ElvishJewelry": "Oh, elvish jewelry! I've got a collection of this kinda stuff at home.$h#$b#Do you believe in elves, @?$h",
+"Gifts.EveT.Diamond": "Oh...!$h#$b#This... This reminds me of someone very special to me... Thank you, @.$7",
+"Gifts.EveT.CactusFruit": "Oh man cactus fruit is the BEST!$h#$b#Just uh, remember to remove all the spines first.$8",
+"Gifts.EveT.Doll": "Hey this will make an awesome toy for Waffle!$h#$b#Here girly, I've got a prize for ya!$l",
+"Gifts.EveT.ElvishJewelry": "Oh, elvish jewelry! I've got a little collection of this kinda stuff back at home.$h#$b#I always wondered what the engravings on the side mean...$6",
 "Gifts.EveT.OrnamentalFan": "An ornamental fan! This is so cool!#$b#Get it, 'cause it's supposed to cool you down in the heat?$8#$b#Don't worry, I'll show myself the door.$7",
 "Gifts.EveT.ArtifactTrove": "You're giving me an artifact trove??? This is awesome!$h#$b#I'm gonna have this cracked open next time I'm at Clint's.$8",
 "Gifts.EveT.ExplosiveAmmo": "Fufufu.$9#$b#You know me well, @. A real friend knows the way to a girl's heart is through explosives.$9",
 "Gifts.EveT.CherryBomb": "Huhuhu.$9#$b#Might be the smallest bomb of the bunch, but it can still wreak havoc.$9",
 "Gifts.EveT.Bomb": "Fufufu.$9#$b#I can't wait to make this go boom in the mines.$9",
 "Gifts.EveT.MegaBomb": "Oh hell yeah, the ultimate havoc wreaker - the mega bomb!$h#$b#Let's see if the mines survive my next trip, shall we.$9",
-"Gifts.EveT.HealthItem": "Thanks for this, @!$h#$b#I'll add it to my mining first aid kit.",
-"Gifts.EveT.SweetPea": "Aww I love sweet peas.$l#$b#You're sweet for giving me this. Thanks, @!$l",
-"Gifts.EveT.OceanStone": "Ohh, this is my favorite kind of stone!$h#$b#There's a legend that say these are art pieces made by mermaids.#$b#Cool, right?$8",
-"Gifts.EveT.Fairy": "This has such a mystical aura...#$b#Do you believe in fairies, @?$l",
-"Gifts.EveT.GreenTea": "Mmm... Nothing beats a fresh cup of green tea to settle the nerves.$l#$b#Thanks, I needed this!$h",
-"Gifts.EveT.GingerAle": "Thanks, @! Ginger Ale is the best.$h#$b#Especially when you've got an upset stomach.$h",
+"Gifts.EveT.HealthItem": "Heh, thanks for this, @. It'll come in handy the next time duggies start biting my ankles.$h",
+"Gifts.EveT.SweetPea": "Aww I love sweet peas.$l#$b#You're a sweet pea for giving me this. Thanks, @!$l",
+"Gifts.EveT.OceanStone": "Hey, this is my favorite kind of stone!$h#$b#There's a legend that say these are art pieces made by mermaids.#$b#Neat, right?$8",
+"Gifts.EveT.Fairy": "This has such a mystical aura...#$b#Do you believe in fairies, @? I swear I saw one when I was a little kid, but nobody but my sister believed me.$s",
+"Gifts.EveT.GreenTea": "Oh thank Yoba, I needed this.#$b#Nothing beats a good cup of green tea to settle the nerves.$l",
+"Gifts.EveT.GingerAle": "Oh thanks, I love ginger ale!$h#$b#I know folks say that it curing upset stomach is a myth, but it always works for me.$6#$b#Maybe it's the placebo effect?$6",
 "Gifts.EveT.Bread": "Num num num. I love bread.$l",
 "Gifts.EveT.Bruschetta": "Num num num. I REALLY love bread.$l",
-"Gifts.EveT.ValleyLily": "Oh! This is my favorite flower!$h#$b#Valley lilies seem so soft and delicate, but they're actually poisonous.#$b#Don't underestimate flowers!$h",
+"Gifts.EveT.ValleyLily": "Oh! This is my favorite flower!$h#$b#Valley lilies look soft and delicate, but they're actually quite poisonous.#$b#Don't brew any tea outta this little fella!$l",
 
 "Gifts.EveT.Flowers": "Aww you got me a flower, @? That's so thoughtful of you.$h#$b#Thanks for thinking about me!$l",
 "Gifts.EveT.RareDisc": "Ah... This is...$s#$b#Oh sorry I don't mean to be rude. I really like this, thank you!$h",
 "Gifts.EveT.GreenGem": "Ooh a green gem! Shiny shiny, pretty pretty.$h#$b#This is going right into my collection.$l",
-"Gifts.EveT.DwarfItem": "Woah, is this a dwarvish artifact? That's so cool.$8#$b#I know people don't think they exist but come on.#$b#When you have proof like this how can you deny it?$h",
+"Gifts.EveT.DwarfItem": "Woah, is this a dwarvish artifact? That's so cool.$8#$b#I know people don't think they exist but come on, the proof is literally in the pudding.$h",
 "Gifts.EveT.Artifact": "Heck yeah, this artifact is super cool!$h#$b#Gonna add it to my little collection of ancient knickknacks.$h",
 "Gifts.EveT.Fossil": "Woah... Fossils are kinda like pictures of the past, aren't they?#$b#Not every day you get to hold one in your hands.$8",
 
@@ -1537,11 +1537,11 @@
 "Gifts.EveT.Coffee": "Hrm... I don't really like coffee that much, but I'll accept it just this once.$6",
 
 "Gifts.EveT.Egg": "Woah woah, don't give me this!$u#$b#I'm DEATHLY allergic to eggs!$u",
-"Gifts.EveT.Bone": "Ehhgg... I really REALLY hate bones.$s#$b#Waffle would love this, though...$l",
+"Gifts.EveT.Bone": "Ehhgg... I really REALLY hate bones.$s#$b#Waffle would love this, though.$l",
 "Gifts.EveT.Mayonnaise": "Sorry bud, mayo is egg based and I'm allergic.$s#$b#If you can find a plant based mayo I'd love you forever, though.$h",
 "Gifts.EveT.FishEggs": "Ohh... Eww, I'm gonna hurl.$u#$b#Fish and eggs TOGETHER? Yuck yuck yuck!$u",
 "Gifts.EveT.AlgaeSoup": "Oh... That's just vile.$a#$b#For the love of Yoba take this back.$a[456]",
-"Gifts.EveT.Escargot": "Who in their right mind would want to eat a snail?!$u#$b#I'm not in my right mind and even I wouldn't eat a snail!$u#$b#How about you eat this?$a[729]",
+"Gifts.EveT.Escargot": "Who in their right mind would want to eat a snail?!$u#$b#I'm not in my right mind and even I wouldn't eat a snail!$u[729]",
 "Gifts.EveT.SquidInkRavioli": "This uh... This sure is something.$a#$b#You can keep your weird ravioli, thanks.$a[814]",
 "Gifts.EveT.UnluckyPurpleShorts": "Eww?? Why the hell do you think I would want these??$u#$b#I suggest you back off, bub.$a#$b#I won't hesitate to put these on you and yank 'em all the way up your ass cheeks.$a",
 "Gifts.EveT.ExpiredMegaBomb": "...I threw this away ages ago. What are ya doing rummaging around in my trash?$6#$b#Stop being a weirdo, ya weirdo.$a",
@@ -1877,48 +1877,48 @@
 //Eve
 
 //Egg Festival
-"Festivals.EveT.spring13.1": "Having a good time, @?#$b#I have to keep Waffle away from the food tables or she'll gobble everything up.$h",
-"Festivals.EveT.spring13.2": "This event is cool and all but I'm actually deathly allergic to eggs.$s#$b#I'll appreciate them from afar.$h",
-"Festivals.EveT.spring13.3": "I wonder who will win the egg hunt this year?$h#$b#I'm rooting for you, curb-stomp Abigail's winning streak into the ground!$l",
+"Festivals.EveT.spring13.1": "Siiigh, I forgot to bring dog treats with me.$a#$b#Now I gotta keep my eyes glued on Waffle so she doesn't gobble everything up.$6",
+"Festivals.EveT.spring13.2": "I probably shouldn't come to this event when I'm deathly allergic to eggs.$6#$b#Eh, I'll appreciate them from afar.$h",
+"Festivals.EveT.spring13.3": "Who's gonna win the egg hunt this year, I wonder?$h#$b#I'm rooting for you. Curb-stomp Abigail's winning streak into the ground!$9",
 
 //Flower Dance
-"Festivals.EveT.spring24.1": "Do you like to dance, @?#$b#I'm not big on it myself but to each their own!$h",
-"Festivals.EveT.spring24.2": "Pierre's got a pretty wide variety of seasonal plants to buy.#$b#Be sure to check 'em out, they're all so pretty!$h",
-"Festivals.EveT.spring24.3": "Don't mind me, I'm not big on crowds.#$b#I'll head over when the dance starts.$h",
+"Festivals.EveT.spring24.1": "Every year I gotta hold Waffle back from chasing after the dancers.#$b#She thinks it's a big game and wants to play too.$7",
+"Festivals.EveT.spring24.2": "Rock the boat, don't rock the boat, baby...$h#$b#Uh! You didn't hear any of that, capeesh?$u#$b#Go eat flowers or... or... something!$s",
+"Festivals.EveT.spring24.3": "I'm not a huge fan of crowds, so I'mma just hang out on the boat over here.#$b#Waffle and I will head over when the dance starts.$h",
 
 //Luau
-"Festivals.EveT.summer11.1": "What did you bring to put in the soup, @?#$b#I brought a bomb.$9",
-"Festivals.EveT.summer11.2": "Waffle loves beach events 'cause she gets to dig in the sand.#$b#Watch out for holes!$h",
-"Festivals.EveT.summer11.3": "I'm gonna sit out on eating the soup.$s#$b#If anyone put in something egg-based I'll end up in Harvey's clinic.$s",
+"Festivals.EveT.summer11.1": "What did you bring to put in the soup, @?#$b#I brought a cherry.$h#$b#A cherry bomb, that is.$9",
+"Festivals.EveT.summer11.2": "Watch your step on the beach, @!#$b#I wasn't able to stop Waffle from digging a dozen holes on the way over to the boat.$7",
+"Festivals.EveT.summer11.3": "Like every year, I'm gonna sit out on eating the soup.$s#$b#If anyone put in something egg-based I'll end up in Harvey's clinic. Again.$s",
 
 //Moonlight Jellies
 "Festivals.EveT.summer28.1": "Sometimes I wish I was a jellyfish, drifting through the sea without a care in the world.$l",
 "Festivals.EveT.summer28.2": "Did you know there is a species of jellyfish that can live forever?$8#$b#It's called the Turritopsis dohrnii.#$e#When it gets old it reverts back to an earlier stage of its life cycle.#$b#Fascinating, right?$h",
-"Festivals.EveT.summer28.3": "Every year I have to keep Waffle from running in after the jellies.#$b#She's such a little trouble maker!$h",
+"Festivals.EveT.summer28.3": "Every year I have to keep Waffle from diving in after the jellies.#$b#They aren't balls, girl! It's not play time!$l",
 
 //Fair
-"Festivals.EveT.fall16.1": "Gonna play some games, @?#$b#Get in line, I call dibs on the balloon pop game!$8",
-"Festivals.EveT.fall16.2": "I try to stay away from the fishing tent.#$b#Dang place smells awful!$s",
-"Festivals.EveT.fall16.3": "Waffle is a chronic kleptomaniac.#$b#I keep catching her with tokens and I don't know where she's getting them.$6",
+"Festivals.EveT.fall16.1": "You better not be heading to the slingshot game, farmer! I call dibs!$h#$b#I need to beat my high score of 400.$9",
+"Festivals.EveT.fall16.2": "The fishing tent smells awful. You won't catch me playing that game. Not now, not ever.",
+"Festivals.EveT.fall16.3": "I swear, Waffle is a chronic kleptomaniac.#$b#I keep catching her with tokens and I don't know where she's getting them.$6",
 
 //Sprits Eve
-"Festivals.EveT.fall27.1": "Waffle isn't the biggest fan of Spirit's Eve.$12#$b#I'll probably take her home early, the poor thing.$12",
+"Festivals.EveT.fall27.1": "Waffle tends to get scared of all the costumes... She doesn't understand that they're just people inside.$12#$b#I'll probably take her home early, girl.$12",
 "Festivals.EveT.fall27.2": "Hello, my name's Eve and I'm full of Spirit!$12#$b#Damn am I clever.$12",
 "Festivals.EveT.fall27.3": "Like my costume, @? I made it myself.$12#$b#You can call me Doctor Eve-Ill, muhahaha.$12",
 
 //Ice Festival
-"Festivals.EveT.winter8.1": "Ewww the event hasn't even started and I can already smell all the fish...$s",
-"Festivals.EveT.winter8.2": "I bet Waffle would beat everyone here at the fishing contest.#$b#Nobody would stand a chance!$l",
-"Festivals.EveT.winter8.3": "Good luck during the contest!#$b#Just don't come anywhere near me afterwards. Stinky stinky fish.$s",
+"Festivals.EveT.winter8.1": "Bleehhg... the event hasn't even started and I can already smell all the fish.$s#$b#Yoba save my nose.",
+"Festivals.EveT.winter8.2": "Waffle would floor you all in the fishing contest, without a doubt.$h#$b#Nobody would stand a chance! You'd all be too distracted by her cuteness.$9",
+"Festivals.EveT.winter8.3": "Hey farmer, good luck during the contest!#$b#Just don't come anywhere near me afterwards. You can keep the fish stank to yourself.$h",
 
 //Winter Star
-"Festivals.EveT.winter25.1": "Did you get something for your secret friend this year, @?#$b#I hope so, otherwise they'll be totally bumbed out!$h",
-"Festivals.EveT.winter25.2": "Hm hm hm, hm hm hm~$l#$b#%Eve doesn't notice you. She's too busy humming festive songs.",
-"Festivals.EveT.winter25.3": "Were you a good person this year, @?#$b#I wouldn't wanna see you end up with a big 'ol lump of coal.$8",
+"Festivals.EveT.winter25.1": "It's pretty silly, but the whole secret friend thing makes me anxious.$s#$b#Hoping I got a gift they'll like, talking to someone I usually don't...$s#$b#Oh Yoba even worse, what if my secret friend forgets about me?$u",
+"Festivals.EveT.winter25.2": "Hm hm hm, hm hm hm~$l#$b#%You go unnoticed by Eve. It seems she's too engroased in her festive songs.",
+"Festivals.EveT.winter25.3": "I hope you were a good person this year, farmer.#$b#It would be a terrible shame if you ended up with a big 'ol lump of coal, huh?[382]$9",
 
-"Festivals.EveT.NightMarket.1": "You gonna pick up anything from the Night Market?#$b#They've got all sorts of exotic goods for sale.$h",
-"Festivals.EveT.NightMarket.2": "Does the Night Market have a somber feeling to you too?#$b#Like I dunno, something just seems... sad about it.$s",
-"Festivals.EveT.NightMarket.3": "Last year I got a fancy hat at the Night Market.#$b#Better check out all their deals before they sell outta stuff!$8",
+"Festivals.EveT.NightMarket.1": "I love the Night Market, you never know what weird stuff you're gonna find.$8#$b#Last year I got a pile of giant green candy canes.$h#$b#I assure you it was a good use of my gold.$l",
+"Festivals.EveT.NightMarket.2": "Does the Night Market have a somber feeling to you too?$6#$b#Like I dunno, something just seems... gloomy about it.$s#$b#Eh, maybe it's just in my head.$s",
+"Festivals.EveT.NightMarket.3": "I wonder what the sea-faring lives of the Night Market folks are like. Always on the move, meeting all kinds of people...$6#$b#Sounds exciting, but a life like that would probably be too much for me.",
 
 //Fireworks Festival
 "Festivals.EveT.summer20.1": "Fufufu...$9#$b#I'm gonna purchase ALL the explosives tonight. Watch out, Stardew Valley. There's gonna be two fireworks shows tonight.$9",
@@ -1927,33 +1927,33 @@
 
 //Ridgeside Gathering
 "Festivals.EveT.fall20.1": "Did you find anything cool at the booths, @?$h#$b#It's kinda hectic over there so I'm over here catching a breather.",
-"Festivals.EveT.fall20.2": "I'm excited to the concert!$8#$b#Sam, Abigail and Seb always come up with the best tunes. They'll be famous someday!$h",
-"Festivals.EveT.fall20.3": "Golly is Ridgeside a huge village, I keep getting absolutely lost!#$b#I'm gonna stay in one place till people start leaving, then follow them out.$h",
+"Festivals.EveT.fall20.2": "Looking forward to the concert?$8#$b#Sam, Abigail and Seb are musical geniuses when you get 'em together. They'll be famous someday, I tell ya!$h",
+"Festivals.EveT.fall20.3": "Ridgeside is HUGE, ya call this a village? I keep getting utterly lost.$s#$b#I'm gonna stay in one place till people start leaving, then I'll follow them out.$h",
 
 //Ember of Resolutions
-"Festivals.EveT.winter28.1": "What's your new years resolution, @?#$b#Mine's gonna be to get out there and socialize more.$8",
-"Festivals.EveT.winter28.2": "You got a new years resolution, @?#$b#Mine is gonna be to try and forgive myself for past mistakes.$s",
-"Festivals.EveT.winter28.3": "Ridgeside events always have so many people, it's a bit overwhelming.#$b#But it's nice to see so many people in good spirits!$h",
+"Festivals.EveT.winter28.1": "Well, looks like I've got the same resoluton as every year... Perhaps this year I'll actually manage to get out of my shell.$7",
+"Festivals.EveT.winter28.2": "Do you got a new years resolution, @?#$b#Don't worry if you don't manage to accomplish it before the year's up. Some goals are a long-term process.$7",
+"Festivals.EveT.winter28.3": "There are so...many...people... It's uh, a little overwhelming.$s#$b#At least everybody's in good spirits.$7",
 
 //Surfing Festival
-"Festivals.EveT.summer5.1": "I've never surfed before but I kind of want to give it a shot.#$b#It couldn't be that hard, right?$6",
-"Festivals.EveT.summer5.2": "How to people keep their balance on surf boards?$6#$b#I'd probably fall of the moment I stepped onto one.",
-"Festivals.EveT.summer5.3": "Waffle keeps trying to get onto surfboards.#$b#I think she wants to learn to surf!$h",
+"Festivals.EveT.summer5.1": "I'm going to learn to surf this year, even if I have no sense of balance what-so-ever!$h#$b#No one watch me make a fool of myself, please...$s",
+"Festivals.EveT.summer5.2": "There was one surfboard over there that Waffle wouldn't stop sniffing.$6#$b#Eh, there must be another dog around here or something.",
+"Festivals.EveT.summer5.3": "Waffle keeps trying to climb up on the surfboards, silly girl.$h#$b#Ya know, a dog trying to learn to surf sounds like a good premise for a movie...$6#$b#Ya think anyone would take me up on my my pitch?$h",
 
 //Fashion Festival
-"Festivals.EveT.spring19.1": "Having a good time, @?#$b#There's all sorts of fashionable goodies to check out here.$h",
-"Festivals.EveT.spring19.2": "I'm totally pumped for the fashion show!$h#$b#I love seeing people proudly express themselves.$h",
-"Festivals.EveT.spring19.3": "There are so many booths... which one do I go to first!#$b# I wanna buy a little bit of everything.$h",
+"Festivals.EveT.spring19.1": "Okay Eve do NOT buy every pink thing you see at the booths.#$b#Exert self control, I believe in you!$h",
+"Festivals.EveT.spring19.2": "I'm really looking forward to the fashion show.$l#$b#Nothing more inspiring than the freedom of self-expression!$h",
+"Festivals.EveT.spring19.3": "There are so many booths, it's overloading my brain...$s#$b#Waffle go forth and choose one for me!$h",
 
 //Love Festival
-"Festivals.EveT.winter13.1": "I wonder if I'll get a love letter this year.#$b#Probably not, I don't talk to a lot of people...$s",
-"Festivals.EveT.winter13.2": "Seeing all the couples at this festival is super cute.#$b#I'm happy for everyone who's found the love of their life.$l",
+"Festivals.EveT.winter13.1": "The feeling of love in the air... Sigh, takes me back to better times. Happier times.$s",
+"Festivals.EveT.winter13.2": "Sigh... She would have loved this event...$s#$b#O-oh, I didn't see you there, farmer. How's it uh, hanging?$h",
 "Festivals.EveT.winter13.3": "I wonder if anyone would notice if I ran off with one of these heart balloons... Hmmm...$6",
 
 //Marketpalooza
-"Festivals.EveT.fall3.1": "Planning on buying some neat stuff, @?#$b#Better hurry before things sell out!$h",
-"Festivals.EveT.fall3.2": "I always find at least one neat thing at Marketpalooza.#$b#Last year I bought a beautiful green crystal for my collection.$l",
-"Festivals.EveT.fall3.3": "This event is for charity, yea?#$b#That's so nice. I'm glad the money is going to a good cause.$l",
+"Festivals.EveT.fall3.1": "Huh? Oh Yoba, Trace has been talking last ten minutes and I totally spaced out.$u#$bPlease don't ask me any questions...$s",
+"Festivals.EveT.fall3.2": "I want to win the raffle soooo badly.$h#$b#Trace and I definitely did not sneak around and to get a peek at some of the prizes. No way.$9",
+"Festivals.EveT.fall3.3": "(Marketpalooza... man that's such a fun word.)$h#$b#(Market-pal-oooooozaaaaa.)$l#$b#(Ah shoot what did Trace just say?)$u",
 
 //Trace
 //Egg Festival
