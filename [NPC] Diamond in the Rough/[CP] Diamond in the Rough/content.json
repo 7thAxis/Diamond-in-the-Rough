@@ -60,11 +60,11 @@ CREDITS
             "Description": "If checked, DitR's items will be excluded from perfection. (Some items will not be required regardless due to rarity or relationship gates.)",
             "Section": "Gameplay"
         },
-        "NPCs Excluded from Perfection": {
+        "NPCs Included in Perfection": {
             "AllowValues": "true, false",
-            "Default": false,
+            "Default": true,
             "AllowBlank": false,
-            "Description": "If checked, DitR's NPCs will be excluded from perfection.",
+            "Description": "If checked, DitR's NPCs will be included in the perfection calculation.",
             "Section": "Gameplay"
         },
         "NPC Schedule Type": {

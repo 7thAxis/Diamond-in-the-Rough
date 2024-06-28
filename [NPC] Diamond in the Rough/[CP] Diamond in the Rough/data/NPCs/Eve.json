@@ -22,7 +22,7 @@
                     "SocialTab": "UnknownUntilMet",
                     "ShakePortraits": [ 3, 11 ],
                     "IntroductionsQuest": true,
-                    "PerfectionScore": "{{NPCs Excluded from Perfection}}",
+                    "PerfectionScore": "{{NPCs Included in Perfection}}",
                     "DumpsterDiveFriendshipEffect": 0,
                     "DumpsterDiveEmote": 16,
                     "CanVisitIsland": false,
