@@ -1,6 +1,27 @@
 {
     "Changes": [   
     //---------------------------- ITEM DATA ------------------------------------------//  
+            {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_Items.SensCrocus": {
+                    "Name": "{{ModID}}_Items.SensCrocus",
+                    "DisplayName": "{{i18n:Items.SensCrocus.Title}}",
+                    "Description": "{{i18n:Items.SensCrocus.EarlyDescription}}",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "ExcludeFromRandomSale": true,
+                    "ExcludeFromShippingCollection": true,
+                    "Buff": null,
+                    "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
+                    "SpriteIndex": 5
+                }
+            }
+        },
         {
             "Action": "EditData",
             "Target": "Data/Objects",

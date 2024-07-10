@@ -60,6 +60,25 @@
         "When": { "HasMod: |contains=Bouhm.NPCMapLocations": true }
     },
 
+    //Quest Fixer, fixes a potential update soft lock
+    {
+        "LogName": "Quest Fixer",
+        "Action": "EditData",
+        "Target": "Data/TriggerActions",
+        "Entries": {
+            "{{ModID}}_TriggerActions.QuestFixer": {
+                "Id": "{{ModID}}_TriggerActions.QuestFixer",
+                "Trigger": "DayStarted",
+                "Actions": [ 
+                    "AddQuest {{ModID}}_Quests.AGardenForSen",
+                    "RemoveQuest 10770100",
+                    "RemoveQuest 7thAxis.DitR.CP.Quests.AGardenForSen"
+                 ]
+            }
+        },
+        "When": { "HasActiveQuest: |contains=10770100, 7thAxis.DitR.CP.Quests.AGardenForSen": true }
+    },
+
     //Migrates data for Lurking in the Dark for 1.5.6
     {
         "LogName": "Sen Event and Flag Migration",
@@ -90,16 +109,12 @@
                     "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_AGardenForSenComplete DitR_M_AGardenForSenComplete",
                     "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_SeedSilentEvent DitR_M_SenGardenTrigger",
                     "Pathoschild.ContentPatcher_MigrateIds Mail LitD_M_Romantic DitR_M_SenS_Romantic"
-                ],
-
-                "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck": {
-                    "Trigger": "DayStarted",
-                    "Id": "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck",
-                    "Actions": [ "RemoveQuest 10770100" ]
-                }
+                ]
             }
         }
     },
+
+    //Migrates event data from pre 1.0.19-a DitR
     {
         "LogName": "ID change event conversation",
         "Action": "EditData",
@@ -110,8 +125,6 @@
                 "Trigger": "DayStarted",
                 "HostOnly": true,
                 "Actions": [
-
-                //I know you can put it in one... this is just more readable for me.   
                 
                     //Events
                     "Pathoschild.ContentPatcher_MigrateIds Events 7thAxis.DitR.CP.Events.SenS.0h {{ModID}}_Events.SenS.0h",
@@ -135,43 +148,8 @@
                 "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck.2": {
                     "Trigger": "DayStarted",
                     "Id": "{{ModID}}_TriggerActions.SenEventMigration.6H.QuestCheck.2",
-                    "Actions": [ 
-                        "RemoveQuest 7thAxis.DitR.CP.Quests.AGardenForSen",
-                        "RemoveSpecialOrder 7thAxis.DitR.CP.Quests.VoidLavaSnailRoundUp"
-                     ]
+                    "Actions": [ "RemoveSpecialOrder 7thAxis.DitR.CP.Quests.VoidLavaSnailRoundUp" ]
                 }
-            }
-        }
-    },
-    {
-        "LogName": "Sen Item Migration JA",
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-            "{{ModID}}_TriggerActions.SenItemMigrationJA": {
-                "Id": "{{ModID}}_TriggerActions.SenItemMigrationJA",
-                "Trigger": "DayStarted",
-                "HostOnly": true,
-                "Actions": [
-                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{spacechase0.jsonAssets/ObjectId: Sen's Crocus}} (O){{ModID}}_Items.SensCrocus",
-                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{spacechase0.jsonAssets/ObjectId: Sen's Crocus Seeds}} (O){{ModID}}_Items.SensCrocusSeeds"
-                ]
-            }
-        },
-        "When": { "HasMod: |contains=spacechase0.jsonAssets": true }
-    },
-    {
-        "LogName": "Lookup Anything ID Change Item Migration", //This seems to be broken but it's set up correctly so I'll leave it in, I suppose...
-        "Action": "EditData",
-        "Target": "Data/TriggerActions",
-        "Entries": {
-            "{{ModID}}_TriggerActions.ItemIdChangeMigration": {
-                "Id": "{{ModID}}_TriggerActions.ItemIdChangeMigration",
-                "Trigger": "DayStarted",
-                "HostOnly": true,
-                "Actions": [
-                    "Pathoschild.ContentPatcher_MigrateIds Items (O){{ModID}}_Items.ExpiredMegaBomb (O){{ModID}}_Items.ExpiredMegaBomb (O){{ModID}}_Items.SensCrocus (O){{ModID}}_Items.SensCrocus (O){{ModID}}_Items.SensCrocusSeeds (O){{ModID}}_Items.SensCrocusSeeds (O){{ModID}}_Items.UnluckyPurpleShorts (O){{ModID}}_Items.UnluckyPurpleShorts (O){{ModID}}_Items.ValleyLily (O){{ModID}}_Items.ValleyLily (O){{ModID}}_Items.ValleyLilySeeds (O){{ModID}}_Items.ValleyLilySeeds (O){{ModID}}_Items.GoldenValleyLily (O){{ModID}}_Items.GoldenValleyLily (O){{ModID}}_Items.GoldenValleyLilySeeds (O){{ModID}}_Items.GoldenValleyLilySeeds (O){{ModID}}_Items.VoidLavaSnailEgg (O){{ModID}}_Items.VoidLavaSnailEgg (O){{ModID}}_Items.QuestRewardVoidLavaSnailEgg (O){{ModID}}_Items.QuestRewardVoidLavaSnailEgg (O){{ModID}}_Items.GoldenVoidLavaSnailEgg (O){{ModID}}_Items.GoldenVoidLavaSnailEgg (O){{ModID}}_Items.VoidLavaSnailMayonnaise (O){{ModID}}_Items.VoidLavaSnailMayonnaise (O){{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal (O){{ModID}}_Items.VoidLavaSnailMayonnaiseBetrayal (O){{ModID}}_Items.GoldenVoidLavaSnailMayonnaise (O){{ModID}}_Items.GoldenVoidLavaSnailMayonnaise (O){{ModID}}_Items.VoidLavaSnail (O){{ModID}}_Items.VoidLavaSnail (O){{ModID}}_Items.GoldenVoidLavaSnail (O){{ModID}}_Items.GoldenVoidLavaSnail (H){{ModID}}_Hats.VoidLavaSnailBuddy (H){{ModID}}_Hats_VoidLavaSnailBuddy (H){{ModID}}_Hats.GoldenVoidLavaSnailBuddy (H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy"
-                ]
             }
         }
     }

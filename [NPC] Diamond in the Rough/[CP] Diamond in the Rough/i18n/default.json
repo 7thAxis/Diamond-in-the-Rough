@@ -3313,6 +3313,7 @@
 
 "Items.SensCrocus.Title": "Sen's Crocus",
 "Items.SensCrocus.Description": "A flower born from the seeds Sen threw to the wind.",
+"Items.SensCrocus.EarlyDescription": "This item has no functionality unless you have seen Sen's 14h event. It is only loaded for mod compatibility.",
 
 "Items.SensCrocusSeeds.Title": "Sen's Crocus Seeds",
 "Items.SensCrocusSeeds.Description": "Grows year round. Takes 4 days to produce a purple flower."
