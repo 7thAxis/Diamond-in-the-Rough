@@ -15,7 +15,7 @@
                     "Edibility": 18,
                     "IsDrink": false,
                     "ExcludeFromRandomSale": true,
-                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromShippingCollection": "{{Items Excluded From Perfection}}",
                     "Buff": null,
                     "ContextTags": [ "color_purple", "season_spring", "season_summer", "season_fall", "season_winter", "flower_item", "forage_item" ],
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
@@ -36,7 +36,8 @@
                     "Texture": "{{InternalAssetKey: assets/Items/Objects.png}}",
                     "SpriteIndex": 4
                 }
-            }
+            },
+            "When": { "HasSeenEvent: |contains={{ModID}}_Events.SenS.14h": true } 
         },
     //---------------------------- CROP DATA ------------------------------------------//
     {
@@ -53,7 +54,8 @@
                 "Texture": "{{InternalAssetKey: assets/Items/Crops.png}}",
                 "SpriteIndex": 2
             }
-        }
+        },
+        "When": { "HasSeenEvent: |contains={{ModID}}_Events.SenS.14h": true } 
     }
     ]
 }

@@ -409,7 +409,35 @@ CREDITS
             "Name": "SenOverrideDialogue",
             "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
         },
+        //--TRACE OVERRIDE DIALOGUE GENERATION--
 
+            { "Name": "TraceOverrideDialogue", "Value": "" }, 
+            { "Name": "TraceOverrideConditions", "Value": "Inactive" },
+            { "Name": "TVSD", "Value": "Empty" }, //Empty keeps TraceOverrideDialogue from screaming abt being empty on disabled days
+
+        {
+            "Name": "TraceOverrideDayNumber",
+            "Value": "{{Random: {{Range: 1, 10}}|key=TTDO}}"
+        },
+        {
+            "Name": "TraceOverrideDay",
+            "Value": "{{Query: {{TraceOverrideDayNumber}} = 1 }}"
+        },
+        {
+            "Name": "TraceOverrideConditions",
+            "Value": "Active",
+            "When": { "TraceOverrideDay": true , "HasFlag: |contains=DitR_M_TraceV_OverrideSeenToday": false }
+        },        
+        {
+            "Name": "TVSD",
+            "Value": "{{i18n:Core.TraceV.Season.{{season}}.{{Random:{{Range: 1, 5}}|key={{Time}}}}}}",
+            "When": { "TraceOverrideConditions": "Active" }
+        },          
+        {
+            "Name": "TraceOverrideDialogue", //Note to self: TVSD++ is a placeholder
+            "Value": "{{Random:{{TVSD}}++{{TVSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}",
+            "When": { "TraceOverrideConditions": "Active" }
+        },
         //--COMMAND SHRINKERS--
         {
             "Name": "SFX.SnailCry",

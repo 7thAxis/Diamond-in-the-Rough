@@ -123,9 +123,7 @@
         {
             "Action": "EditData", //Note to self: Remember schedule will only run in testing if 0h is seen
             "Target": "Data/Characters",
-            "TargetField": [
-                "SenS"
-            ],
+            "TargetField": [ "SenS" ],
             "Entries": {
                 "CanBeRomanced": true
             },
@@ -136,12 +134,9 @@
         {
             "Action": "EditData",
             "Target": "Data/Objects",
-            "TargetField": [
-                "808",
-                "ContextTags"
-            ], //808 = Void Ghost Pendant
+            "TargetField": [ "808", "ContextTags" ], //808 = Void Ghost Pendant
             "Entries": {
-                "#-1": "propose_roommate_sens"
+                "propose_roommate_sens": "propose_roommate_sens"
             },
             "When": {
                 "HasSeenEvent:currentPlayer |contains={{ModID}}_Events.SenS.10h.P3": true,

@@ -110,7 +110,7 @@
 
                 "Outdoor_SenS": "{{i18n:Relationship.SenS.Outdoor.1}}",
                 "Outdoor_0": "{{i18n:Relationship.SenS.Outdoor.2}}",
-                "Outdoor_1": "{{i18n:Relationship.SenS.Outdoor.3}}{{i18n:Relationship.SenS.Outdoor.3.Bird.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "Outdoor_1": "{{i18n:Relationship.SenS.Outdoor.3}}{{i18n:Relationship.SenS.Outdoor.3.Bird.{{Random:{{Range: 1, 4}}}}}}",
                 "Outdoor_2": "{{i18n:Relationship.SenS.Outdoor.4}}",
                 "Outdoor_3": "{{i18n:Relationship.SenS.Outdoor.5.{{SenPartnershipRoute}}}}",
                 "Outdoor_4": "{{i18n:Relationship.SenS.Outdoor.6.{{SenPartnershipRoute}}}}",
@@ -124,7 +124,7 @@
                 "TwoKids_0": "{{i18n:Relationship.SenS.TwoKid.1}}",
                 "TwoKids_1": "{{i18n:Relationship.SenS.TwoKid.2}}",
                 "TwoKids_2": "{{i18n:Relationship.SenS.TwoKid.3}}",
-                "TwoKids_3": "{{i18n:Relationship.SenS.TwoKid.4}}{{i18n:Relationship.SenS.TwoKidAction.{{Random:1++2++3++4|inputSeparator=++}}}}",
+                "TwoKids_3": "{{i18n:Relationship.SenS.TwoKid.4}}{{i18n:Relationship.SenS.TwoKidAction.{{Random:{{Range: 1, 4}}}}}}",
                 "TwoKids_4": "{{i18n:Relationship.SenS.TwoKid.5.{{SenPartnershipRoute}}}}",
 
                 //AFFECTION DIALOGUE
@@ -215,10 +215,10 @@
                 "SummitEvent_Dialogue2_Spouse": "{{i18n:Relationship.SenS.SummitEvent.4}}",
                 "SummitEvent_Dialogue3_SenS": "{{i18n:Relationship.SenS.SummitEvent.5}}",
 
-                "NewChild_FirstChild": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
-                "NewChild_SecondChild1": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
-                "NewChild_SecondChild2": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}",
-                "NewChild_Adoption": "{{i18n:Relationship.SenS.NewChild.{{Random:1++2|inputSeparator=++}}}}"
+                "NewChild_FirstChild": "{{i18n:Relationship.SenS.NewChild.{{Random:{{Range: 1, 2}}}}}}",
+                "NewChild_SecondChild1": "{{i18n:Relationship.SenS.NewChild.{{Random:{{Range: 1, 2}}}}}}",
+                "NewChild_SecondChild2": "{{i18n:Relationship.SenS.NewChild.{{Random:{{Range: 1, 2}}}}}}",
+                "NewChild_Adoption": "{{i18n:Relationship.SenS.NewChild.{{Random:{{Range: 1, 2}}}}}}"
             },
             "When": { "LivingWithSen": true }      
         },
