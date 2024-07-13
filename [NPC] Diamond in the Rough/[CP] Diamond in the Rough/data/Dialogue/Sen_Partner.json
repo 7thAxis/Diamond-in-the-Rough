@@ -9,6 +9,15 @@
             }
         },
         {
+			"LogName": "Sen Engagement 3 Day Wait Dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"SenS0": "{{i18n:Relationship.SenS.Engaged.3DayWait.{{SenPartnershipRoute}}.1}}",
+				"SenS1": "{{i18n:Relationship.SenS.Engaged.3DayWait.{{SenPartnershipRoute}}.2}}"
+			}
+		},
+        {
             "LogName": "Sen Romance Main Dialogue Keys",
             "Action": "EditData",
             "Target": "Characters/Dialogue/SenS",

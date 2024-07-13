@@ -2884,7 +2884,7 @@
 "Townie.Krobus.TheConfrontation": "You've met with Skrell? Did he... attack you?$s#$b#...$u#$b#No? You must be a very special human.$h",
 "Townie.Krobus.SkrellEpilogue": "Skrell recently visited me to ask what my life on the surface is like.$u#$b#Sen's curiosity must have finally rubbed off on him.$7",
 "Townie.Krobus.SensFlowers": "Sweet little flowers are appearing all over the valley. Where'd they come from?$u",
-"Townie.Krobus.TriedToMarryButKrobus": "Unfortunately, you can't have a partner while living with a roommate. Consider installing Free Love!",
+"Townie.Krobus.TriedToMarryButKrobus": "Unfortunately, you can't have a partner while living with a roommate.",
 
 //Dwarf
 "Townie.Dwarf.SenMet": "A Shadow has been lurking around here... Be wary, they are hostile people.",
@@ -2987,6 +2987,11 @@
 "Relationship.SenS.PendantPester.1": "Er... you're being very aggressive about this, @.$8#$b#I assure you that I think you should keep that.$8",
 "Relationship.SenS.PendantPester.2": "U-um... I'm not sure how to say this but...$8#$b#No thank you, @.$8",
 "Relationship.SenS.EngagementAccept": "...!?$$11#$b#Oh... @! I-I accept...$11#$b#I never could have imagined that you'd want to spend your life with me...$l#$b#Oh!$u#$b#People are going to be so confused at the ceremony... I'll be sure to wear my cloak.$8",
+
+"Relationship.SenS.Engaged.3DayWait.Romantic.1": "Marriage between a human and a Shadow... Has this ever even happened before?$l#$b#I think we're going to make history, @.$7",
+"Relationship.SenS.Engaged.3DayWait.Romantic.2": "My, what a change of pace living side by side will be.$l#$b#I'll try to keep things tidy. As I'm sure you're aware, I've never lived in a house before.$8",
+"Relationship.SenS.Engaged.3DayWait.Platonic.1": "Ah... I can't believe we're going to be living together soon!$h#$b#I've never spent more than a few moments in a building, let alone lived in a house before.$6#$b#I'll be sure to keep things tidy!$h",
+"Relationship.SenS.Engaged.3DayWait.Platonic.2": "I'm so excited for us to live together, @.$h#$b#I love our chats, but now we'll be able to talk all day every day!$l#$b#Aren't you excited? Because I'm so excited.$7",
 
 //Important Stuff
 "Relationship.SenS.Engaged.Platonic": "...?!$u#$b#I-I... @, are you sure about this? Living with me will be quite complicated for us both.$u#$b#There is so much we will have to hide from others.$s#$b#...#$b#Y-you are sure...?$7#$b#Well, that settles that, then. I'll pack my things and move in within three days!$h",
