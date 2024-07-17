@@ -28,7 +28,11 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": { 
-                "{{ModID}}_Items.ExpiredMegaBomb": { "UseForTriggerAction": true,  "CategoryTextOverride": "{{i18n:Items.ExpiredMegaBomb.Category}}" }
+                "{{ModID}}_Items.ExpiredMegaBomb": { 
+                    "UseForTriggerAction": true,
+                    "ConsumeForTriggerAction": true,
+                    "CategoryTextOverride": "{{i18n:Items.ExpiredMegaBomb.Category}}"
+                 }
              }
         },
         {
@@ -41,9 +45,8 @@
                 "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                 "Actions": [ 
                     "spacechase0.SpaceCore_DamageCurrentFarmer -1", "AddConversationTopic DitR_CT_UsedExpiredMegaBomb 3", 
-                    "RemoveItem {{ModID}}_Items.ExpiredMegaBomb 1", "spacechase0.SpaceCore_PlaySound explosion true",
-                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\" (O){{ModID}}_Items.ExpiredMegaBomb", 
-                    "IncrementStat ExpiredMegaBombsUsed 1"
+                    "spacechase0.SpaceCore_PlaySound explosion true", "IncrementStat ExpiredMegaBombsUsed 1",
+                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Items.ExpiredMegaBomb.HUDMessage}}\" (O){{ModID}}_Items.ExpiredMegaBomb" 
                 ],
                 "MarkActionApplied": false,
                 "Condition": "ITEM_ID Input (O){{ModID}}_Items.ExpiredMegaBomb"
