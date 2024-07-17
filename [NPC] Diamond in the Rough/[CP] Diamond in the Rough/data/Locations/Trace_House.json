@@ -41,12 +41,12 @@
             "Target": "Data/TriggerActions",
             "Entries": {
 
-                "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRecieved": {
+                "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagReceived": {
                     "Trigger": "DayStarted",
                     "MarkActionApplied": false,
-                    "Id": "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRecieved",
+                    "Id": "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagReceived",
                     "Condition": "SYNCED_RANDOM day TraceBarbieGirl 0.05",
-                    "Actions": [ "AddMail Current DitR_M_TraceBarbieGirl" ]
+                    "Actions": [ "AddMail Current DitR_M_TraceBarbieGirl received" ]
                 },
                 "{{ModID}}_TriggerActions.TraceBarbieGirl.FlagRemoved": {
                     "Trigger": "DayEnding",
