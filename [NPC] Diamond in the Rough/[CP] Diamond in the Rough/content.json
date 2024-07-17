@@ -50,7 +50,7 @@ CREDITS
             "AllowValues": "true, false",
             "Default": false,
             "AllowBlank": false,
-            "Description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to golems. The player does not have to fight Shadowfolk to reach perfection when enabled.",
+            "Description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to Golems. The player does not have to fight Shadowfolk to reach perfection when enabled. Golem monster list consists of Stone Golems, Wilderness Golems, Iridium Golems, Metal Heads and Dwarvish Sentries.",
             "Section": "Gameplay"
         },
         "Items Excluded From Perfection": {

@@ -19,7 +19,7 @@
 "Config.Pacifist Mode.name": "Pacifist Mode",
 "Config.Pacifist Mode.description": "Shadows will be invincible to player attacks. Players still take damage until a certain point in the story. (Shadow Stat Changes must be set to true for this to take effect.)",
 "Config.Golem Eradication Substitute.name": "Golem Eradication Substitute",
-"Config.Golem Eradication Substitute.description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to golems. The player does not have to fight Shadowfolk to reach perfection when enabled.",
+"Config.Golem Eradication Substitute.description": "Changes the Void Spirit eradication goal in the Adventurer's Guild to Golems. The player does not have to fight Shadowfolk to reach perfection when enabled. Golem monster list consists of Stone Golems, Wilderness Golems, Iridium Golems, Metal Heads and Dwarvish Sentries.",
 "Config.Items Excluded From Perfection.name": "Items Excluded From Perfection",
 "Config.Items Excluded From Perfection.description": "If checked, DitR's items will be excluded from perfection. (Some items will not be required regardless due to rarity or relationship gates.)",
 "Config.NPCs Included in Perfection.name": "NPCs Included in Perfection",
