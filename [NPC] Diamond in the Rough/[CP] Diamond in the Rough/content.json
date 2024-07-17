@@ -227,13 +227,13 @@ CREDITS
             "Value": "false"
         },
         {
-            "Name": "PipoShorts", 
-            "Value": "{{HasFlag: |contains=DitR_M_PipoShorts}}"
-        },
-        {
             "Name": "LivingWithSen", 
             "Value": "true",
             "When": { "Query: '{{spouse}}' = 'SenS' OR '{{roommate}}' = 'SenS'": true }
+        },
+        {
+            "Name": "PipoShorts", 
+            "Value": "{{HasFlag: |contains=DitR_M_PipoShorts}}"
         },
 
         //EVENT CONDITIONS

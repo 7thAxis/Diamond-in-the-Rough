@@ -61,6 +61,7 @@
         {
             "Action": "EditData",
             "Target": "Strings/StringsFromCSFiles",
+            "Priority": "Late + 1",
             "Entries": {
                 "Utility.cs.5367": "{{i18n:Relationship.SenS.MarriageEvent.1}}", //Wedding speech M
                 "Utility.cs.5369": "{{i18n:Relationship.SenS.MarriageEvent.1}}", //Wedding speech F
