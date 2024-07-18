@@ -363,7 +363,7 @@
 "Core.WaffleW.Name": "Waffle",
 "Core.PipoP.Name": "Pipo",
 "Core.CowD.Name": "Cow",
-"Core.JeremyTS.Name": "Jeremy",
+"Core.JeremyTSnail.Name": "Jeremy",
 
 "Core.SenS.Friend": "friend",
 "Core.SenS.Name.Skrell": "Skrell",
@@ -1269,7 +1269,7 @@
 "Core.TraceV.EarlyHeart.26": "I could chug an ENTIRE liter of soda right now.$h#$b#I'd probably destroy my stomach lining though, so I won't.$6",
 "Core.TraceV.EarlyHeart.27": "My fashion sense may be a little weird, but I love it. I don't care what anyone thinks.$h#$b#When it comes to what makes me happy, the only person who's opinion matters is my own.$l",
 "Core.TraceV.EarlyHeart.28": "If you ever hear rustling in bins at night, it definitely ain't my doing.$h#$b#It's probably just some raccoon or a trash goblin.$l$u#$e#That's the whole truth and I'm sticking to it.$h",
-"Core.TraceV.EarlyHeart.29": "Have you noticed the lack of toilets in this town? It's... really weird.$a#$b#Please tell me you have a toilet.$u#$e#Wait... I don't have a toilet!$u",
+"Core.TraceV.EarlyHeart.29": "Have you noticed the lack of toilets in this town? It's... really weird.$a#$b#Please tell me you have a toilet.$u#$e#Wait... I don't even have a toilet!$u",
 "Core.TraceV.EarlyHeart.30": "Sometimes I get lost trying to find my way back to the Scarp. Last time I ended up in the mountains.#$b#When I saw some weird goats, I figured it was time to call Rosa.$6",
 "Core.TraceV.EarlyHeart.31": "Is it East 'Scarp' or East 'Scarpe'? I've seen conflicting answers.$6#$b#Eh, I'll go pester Rosa about it later.$l",
 "Core.TraceV.EarlyHeart.32": "%revealtasteTrace206 Ya know, I could go for a big cheese pizza right about now.$l#$b#Between you and me, it's one of my guilty pleasures.$11#$e#I have a lot of those, actually.$9",
@@ -1409,60 +1409,60 @@
 
 //Jeremy
 
-"Core.JeremyTS.PreForestMagic.1": "%Jeremy eyes you with curiosity. There is more to this snail than meets the eye...",
-"Core.JeremyTS.PreForestMagic.2": "%Jeremy stares at you intensely, as if they sense something peculiar about you...#$b#%What a weird snail.",
+"Core.JeremyTSnail.PreForestMagic.1": "%Jeremy eyes you with curiosity. There is more to this snail than meets the eye...",
+"Core.JeremyTSnail.PreForestMagic.2": "%Jeremy stares at you intensely, as if they sense something peculiar about you...#$b#%What a weird snail.",
 
-"Core.JeremyTS.DailyDialogue.1": "Hello. Are you out on an \"adventure\"?$2#$b#You are quite like my brethren. They are fascinated by this world and wish to explore it, one small inch at a time.#$b#If you locate any of my kin, bring them to me. They have little regard for the balance of the ecosystem.$2",
-"Core.JeremyTS.DailyDialogue.2": "%revealtasteJeremyTSnail613 Trace brought me apples for my last meal. I do enjoy myself a good apple...$1#$b#Do humans too enjoy a good apple?$2",
-"Core.JeremyTS.DailyDialogue.3": "I feel little need to travel far from home. I have all the necessities for a comfortable existence.#$b#If only my kin would come to understand this.$2",
-"Core.JeremyTS.DailyDialogue.4": "Many years ago, Trace wandered into the caldera at the summit of Ginger Island's volcano.#$b#As young spry snails seeking adventure, several of my kin and I hitched a ride on their clothing.$1#$b#I do not believe we made the correct choice, but alas, I cannot imagine a life without Trace.$2#$e#...To this day, I do wonder how Trace reached the summit of Mount Kohldur.$2",
-"Core.JeremyTS.DailyDialogue.5": "Many creatures that live within the valley are rather fuzzy.#$b#I find it repulsive.$2#$e#That does indeed include the hair on your head.$3#$b#Utterly repulsive.$2",
-"Core.JeremyTS.DailyDialogue.6": "I know things about this world best left untold.#$b#Please, do not ask questions. I do not wish to break you.$2",
-"Core.JeremyTS.DailyDialogue.7": "I have been made aware that when I directly face a human, I can appear like a long-haired faceless woman in a red dress.$2#$b#Pareidolia is fickle for your kind, is it not? I cannot judge, however.#$b#Everywhere I turn, I see snails.$2#$e#Or, perhaps, I am just seeing snails...$3",
-"Core.JeremyTS.DailyDialogue.8": "It is said that long ago my kind were known as the \"Solar Lava Snails\".#$b#Our shells gleamed under the Ginger Island sun like gold and our membranes were as bright as the beach sand...$1#$b#However one day, a deep saddness consumed the our volcanic home. Ever so slowly, we evolved into the void snails you see today.$2#$e#Hm? Do I wish I was a solar snail?#$b#Haha, certainly not. The void is part of who I am.$1#$b#Besides, those fools were also said to be incredibly vain.$2",
-"Core.JeremyTS.DailyDialogue.9": "Apples... apples...$2#$b#Hm. Apples...#$b#It seems I have a one track mind today.$2#$e#Do you happen to have any apples, human?$1",
-"Core.JeremyTS.DailyDialogue.10": "As a mullosk, you might think I would not enjoy the couch. However, you would be entirely incorrect.$2#$b#The couch belongs to me and I will not share it.$3#$b#Unless you are Trace and intend on giving me scratches behind the eye stalks...$1",
-"Core.JeremyTS.DailyDialogue.11": "Trace and I have been companions for a very long time.#$b#They too are able to understand my ancient snail tongue, though we do not typically communicate through words.$1#$b#My glare for them to move over on the couch is communiation enough.$2",
-"Core.JeremyTS.DailyDialogue.12": "Golden walnuts... they are a delicacy back at in my homeland.#$b#We were frequently at war with those dastardly parrots. They wanted our walnuts, but we would not give in.$2#$b#Alas, it is a conflict that we lost time and time again.$3#$e#It may come as a shock to you that us snails are not as aerodynamic as birds.$2",
-"Core.JeremyTS.DailyDialogue.13": "I am apalled by the concept of \"escargot\".$2#$b#Humans eating snails? Preposterous.$3#$b#Not even our smaller cousins deserve such a fate.$2",
-"Core.JeremyTS.DailyDialogue.14": "Many species of snail lack the capability to hear, but the Void Lava Snail is different.#$b#Similar to frogs, we have tympanums behind our eye stalks. These membranes allow us to process sound waves.#$b#This is fortunate, as I do enjoy watching the television.$1",
-"Core.JeremyTS.DailyDialogue.15": "I recently became aware of the human concept of \"taxes\" through the television.#$b#I do not believe Trace has ever done their taxes...$2#$e#Ensure that you are an upstanding citizen and complete your taxes, human.",
-"Core.JeremyTS.DailyDialogue.16": "The woman who lives to the north of us houses slimes in her basement.#$b#Those rotten piles of goo believe they can produce more slime than I?$3#$b#I simply won't stand for it. I will increase slime production ten fold.$2",
-"Core.JeremyTS.DailyDialogue.17": "There are days in which I must resist the urge to go into the various gardens around town and eat their decaying foliage.$2#$b#It is certainly delicious, but I must leave such delicacies for the native wildlife of this valley.",
-"Core.JeremyTS.DailyDialogue.18": "The older a member of my species is, the more tolerant we become to salt exposure.#$b#It is still not a particularly pleasant experience, however, so you will not see my kind sailing the high seas...$2",
-"Core.JeremyTS.DailyDialogue.19": "Trace's friend, Eve... Her dog is rather strange, no?$2#$b#Hm. Perhaps it is all in my ganglia.",
-"Core.JeremyTS.DailyDialogue.20": "I'm sure you have heard of the world's foundational magical elements: Air, water, fire and earth...#$b#And perhaps some of the others, such as solar and void...$1#$b#But you humans always leave out the most important element.$2#$b#Snail.$3#$e#It's mildly infuriating, but I understand.$2#$b#Humans simply cannot understand the sheer magnitude that is snail magic.",
+"Core.JeremyTSnail.DailyDialogue.1": "Hello. Are you out on an \"adventure\"?$2#$b#You are quite like my brethren. They are fascinated by this world and wish to explore it, one small inch at a time.#$b#If you locate any of my kin, bring them to me. They have little regard for the balance of the ecosystem.$2",
+"Core.JeremyTSnail.DailyDialogue.2": "%revealtasteJeremyTSnail613 Trace brought me apples for my last meal. I do enjoy myself a good apple...$1#$b#Do humans too enjoy a good apple?$2",
+"Core.JeremyTSnail.DailyDialogue.3": "I feel little need to travel far from home. I have all the necessities for a comfortable existence.#$b#If only my kin would come to understand this.$2",
+"Core.JeremyTSnail.DailyDialogue.4": "Many years ago, Trace wandered into the caldera at the summit of Ginger Island's volcano.#$b#As young spry snails seeking adventure, several of my kin and I hitched a ride on their clothing.$1#$b#I do not believe we made the correct choice, but alas, I cannot imagine a life without Trace.$2#$e#...To this day, I do wonder how Trace reached the summit of Mount Kohldur.$2",
+"Core.JeremyTSnail.DailyDialogue.5": "Many creatures that live within the valley are rather fuzzy.#$b#I find it repulsive.$2#$e#That does indeed include the hair on your head.$3#$b#Utterly repulsive.$2",
+"Core.JeremyTSnail.DailyDialogue.6": "I know things about this world best left untold.#$b#Please, do not ask questions. I do not wish to break you.$2",
+"Core.JeremyTSnail.DailyDialogue.7": "I have been made aware that when I directly face a human, I can appear like a long-haired faceless woman in a red dress.$2#$b#Pareidolia is fickle for your kind, is it not? I cannot judge, however.#$b#Everywhere I turn, I see snails.$2#$e#Or, perhaps, I am just seeing snails...$3",
+"Core.JeremyTSnail.DailyDialogue.8": "It is said that long ago my kind were known as the \"Solar Lava Snails\".#$b#Our shells gleamed under the Ginger Island sun like gold and our membranes were as bright as the beach sand...$1#$b#However one day, a deep saddness consumed the our volcanic home. Ever so slowly, we evolved into the void snails you see today.$2#$e#Hm? Do I wish I was a solar snail?#$b#Haha, certainly not. The void is part of who I am.$1#$b#Besides, those fools were also said to be incredibly vain.$2",
+"Core.JeremyTSnail.DailyDialogue.9": "Apples... apples...$2#$b#Hm. Apples...#$b#It seems I have a one track mind today.$2#$e#Do you happen to have any apples, human?$1",
+"Core.JeremyTSnail.DailyDialogue.10": "As a mullosk, you might think I would not enjoy the couch. However, you would be entirely incorrect.$2#$b#The couch belongs to me and I will not share it.$3#$b#Unless you are Trace and intend on giving me scratches behind the eye stalks...$1",
+"Core.JeremyTSnail.DailyDialogue.11": "Trace and I have been companions for a very long time.#$b#They too are able to understand my ancient snail tongue, though we do not typically communicate through words.$1#$b#My glare for them to move over on the couch is communiation enough.$2",
+"Core.JeremyTSnail.DailyDialogue.12": "Golden walnuts... they are a delicacy back at in my homeland.#$b#We were frequently at war with those dastardly parrots. They wanted our walnuts, but we would not give in.$2#$b#Alas, it is a conflict that we lost time and time again.$3#$e#It may come as a shock to you that us snails are not as aerodynamic as birds.$2",
+"Core.JeremyTSnail.DailyDialogue.13": "I am apalled by the concept of \"escargot\".$2#$b#Humans eating snails? Preposterous.$3#$b#Not even our smaller cousins deserve such a fate.$2",
+"Core.JeremyTSnail.DailyDialogue.14": "Many species of snail lack the capability to hear, but the Void Lava Snail is different.#$b#Similar to frogs, we have tympanums behind our eye stalks. These membranes allow us to process sound waves.#$b#This is fortunate, as I do enjoy watching the television.$1",
+"Core.JeremyTSnail.DailyDialogue.15": "I recently became aware of the human concept of \"taxes\" through the television.#$b#I do not believe Trace has ever done their taxes...$2#$e#Ensure that you are an upstanding citizen and complete your taxes, human.",
+"Core.JeremyTSnail.DailyDialogue.16": "The woman who lives to the north of us houses slimes in her basement.#$b#Those rotten piles of goo believe they can produce more slime than I?$3#$b#I simply won't stand for it. I will increase slime production ten fold.$2",
+"Core.JeremyTSnail.DailyDialogue.17": "There are days in which I must resist the urge to go into the various gardens around town and eat their decaying foliage.$2#$b#It is certainly delicious, but I must leave such delicacies for the native wildlife of this valley.",
+"Core.JeremyTSnail.DailyDialogue.18": "The older a member of my species is, the more tolerant we become to salt exposure.#$b#It is still not a particularly pleasant experience, however, so you will not see my kind sailing the high seas...$2",
+"Core.JeremyTSnail.DailyDialogue.19": "Trace's friend, Eve... Her dog is rather strange, no?$2#$b#Hm. Perhaps it is all in my ganglia.",
+"Core.JeremyTSnail.DailyDialogue.20": "I'm sure you have heard of the world's foundational magical elements: Air, water, fire and earth...#$b#And perhaps some of the others, such as solar and void...$1#$b#But you humans always leave out the most important element.$2#$b#Snail.$3#$e#It's mildly infuriating, but I understand.$2#$b#Humans simply cannot understand the sheer magnitude that is snail magic.",
 
-"Core.JeremyTS.Rainy.1": "It appears that it is raining today. When it rains, it pours.#$b#That is a peculiar phrase you humans use. Does it not state the obvious?$2",
-"Core.JeremyTS.Rainy.2": "I have a preference for rainy days such as this.#$b#It is the perfect opportunity to revitalize my mucous membranes.$1",
-"Core.JeremyTS.Rainy.3": "It seems the increased humidity is causing me to produce excess levels of mucus.$2#$b#Worry not, I am more than happy to share with you, human.$1 [557]",
-"Core.JeremyTS.Rainy.4": "Sitting in a rain puddle could be considered a \"spa day\", for my kind.#$b#Why do humans place cucumbers on their eyes for relaxation?$2#$b#That is quite the waste of a delectable treat...$2",
-"Core.JeremyTS.Rainy.5": "I'll enlighten you with arcane knowledge, human. It is snails that control the rain.#$b#Ha. Do not believe everything an old snail tells you.$1#$b#My elders bestowed upon me the same knowledge, but one day I learned the truth.$2#$b#They merely harnessed the power of the rain totem.#$e#A scandal among the snails, it was!$2#$b#Our beliefs, a lie.#$b#Expectations destroyed by reality...$3#$e#My apologies, human. I require a moment.$2",
+"Core.JeremyTSnail.Rainy.1": "It appears that it is raining today. When it rains, it pours.#$b#That is a peculiar phrase you humans use. Does it not state the obvious?$2",
+"Core.JeremyTSnail.Rainy.2": "I have a preference for rainy days such as this.#$b#It is the perfect opportunity to revitalize my mucous membranes.$1",
+"Core.JeremyTSnail.Rainy.3": "It seems the increased humidity is causing me to produce excess levels of mucus.$2#$b#Worry not, I am more than happy to share with you, human.$1 [557]",
+"Core.JeremyTSnail.Rainy.4": "Sitting in a rain puddle could be considered a \"spa day\", for my kind.#$b#Why do humans place cucumbers on their eyes for relaxation?$2#$b#That is quite the waste of a delectable treat...$2",
+"Core.JeremyTSnail.Rainy.5": "I'll enlighten you with arcane knowledge, human. It is snails that control the rain.#$b#Ha. Do not believe everything an old snail tells you.$1#$b#My elders bestowed upon me the same knowledge, but one day I learned the truth.$2#$b#They merely harnessed the power of the rain totem.#$e#A scandal among the snails, it was!$2#$b#Our beliefs, a lie.#$b#Expectations destroyed by reality...$3#$e#My apologies, human. I require a moment.$2",
 
-"Core.JeremyTS.Introduction": "Hmm... I sense something odd about you. Something... foresty.#$b#Are you able to hear me, human?$2#$b#...#$b#Based on your expression, I will assume that you can.$1#$b#Hello, I am Jeremy T. Snail, the resident mullosk of Trace's abode.$2#$b#I feel we shall get along quite well.$1",
-"Core.JeremyTS.JeremyBetrayed": "...$2",
-"Core.JeremyTS.YouAttackedJeremy.True": "Are you going to attempt your tomfoolery again with me, @?$2#$b#I am not typically a violent mullosk, but I do not take kindly to being attacked.",
-"Core.JeremyTS.YouAttackedJeremy.False": "%Jeremy casts you a glare. They have not forgotten the slingshot incident.",
+"Core.JeremyTSnail.Introduction": "Hmm... I sense something odd about you. Something... foresty.#$b#Are you able to hear me, human?$2#$b#...#$b#Based on your expression, I will assume that you can.$1#$b#Hello, I am Jeremy T. Snail, the resident mullosk of Trace's abode.$2#$b#I feel we shall get along quite well.$1",
+"Core.JeremyTSnail.JeremyBetrayed": "...$2",
+"Core.JeremyTSnail.YouAttackedJeremy.True": "Are you going to attempt your tomfoolery again with me, @?$2#$b#I am not typically a violent mullosk, but I do not take kindly to being attacked.",
+"Core.JeremyTSnail.YouAttackedJeremy.False": "%Jeremy casts you a glare. They have not forgotten the slingshot incident.",
 
-"Core.JeremyTS.Spring.Day.1": "Spring has arrived, it seems.#$b#Keep your eyes peeled for any troublesome snails. They will be back at their antics soon.$2",
-"Core.JeremyTS.Spring.Day.12": "Tomorrow you will be partaking in a celebration about... eggs?$2#$b#Humans are certainly unique creatures, aren't they.", // Day before the Egg Festival
-"Core.JeremyTS.Spring.Day.23": "Tomorrow brings the \"flower dance\", no?#$b#I musn't eat the flowers... But they are so colorful, so... delicious looking.$2#$b#No! I am a disciplined snail. I will refrain from such urges.$3", // Day before the Flower Dance
-"Core.JeremyTS.Spring.Day.28": "The summer heat is upon the horizon.#$b#I am looking forward to it, summer is a lovely season. It reminds me of my homeland.$1",
+"Core.JeremyTSnail.Spring.Day.1": "Spring has arrived, it seems.#$b#Keep your eyes peeled for any troublesome snails. They will be back at their antics soon.$2",
+"Core.JeremyTSnail.Spring.Day.12": "Tomorrow you will be partaking in a celebration about... eggs?$2#$b#Humans are certainly unique creatures, aren't they.", // Day before the Egg Festival
+"Core.JeremyTSnail.Spring.Day.23": "Tomorrow brings the \"flower dance\", no?#$b#I musn't eat the flowers... But they are so colorful, so... delicious looking.$2#$b#No! I am a disciplined snail. I will refrain from such urges.$3", // Day before the Flower Dance
+"Core.JeremyTSnail.Spring.Day.28": "The summer heat is upon the horizon.#$b#I am looking forward to it, summer is a lovely season. It reminds me of my homeland.$1",
 
-"Core.JeremyTS.Summer.Day.1": "Summer has arrived.#$b#Will you endlessly bemoan how hot it is, or become one with the summer sun?$2",
-"Core.JeremyTS.Summer.Day.10": "Ah yes, tomorrow is the event where you humans throw random foods into a large bowl and call it a \"soup\"?$2#$b#I must admit I am curious about the erratic flavor it must create...#1", // Day before the Luau
-"Core.JeremyTS.Summer.Day.27": "The lunaloo come out tomorrow, do they not?#$b#Ah, memories, sweet memories...$2", // Day before Moonlight Jellies
-"Core.JeremyTS.Summer.Day.28": "Summer shall be turning to fall tomorrow, bringing about fresh, delicious decay.$1#$b#I will only consume what is in our yard.$2#$b#I will not encroach on the sustenance that the various detritivorous creatures of the valley require.$1", 
+"Core.JeremyTSnail.Summer.Day.1": "Summer has arrived.#$b#Will you endlessly bemoan how hot it is, or become one with the summer sun?$2",
+"Core.JeremyTSnail.Summer.Day.10": "Ah yes, tomorrow is the event where you humans throw random foods into a large bowl and call it a \"soup\"?$2#$b#I must admit I am curious about the erratic flavor it must create...#1", // Day before the Luau
+"Core.JeremyTSnail.Summer.Day.27": "The lunaloo come out tomorrow, do they not?#$b#Ah, memories, sweet memories...$2", // Day before Moonlight Jellies
+"Core.JeremyTSnail.Summer.Day.28": "Summer shall be turning to fall tomorrow, bringing about fresh, delicious decay.$1#$b#I will only consume what is in our yard.$2#$b#I will not encroach on the sustenance that the various detritivorous creatures of the valley require.$1", 
 
-"Core.JeremyTS.Fall.Day.1": "Fall has arrived in the valley, it seems.#$b#Are you prepared to harvest apples for me? There will be consequences if I do not recieve my apples this season.$2#$b#I jest, I jest.$1", 
-"Core.JeremyTS.Fall.Day.15": "Trace is quite excited about that \"fair\" that will be taking place tomorrow.#$b#I am feeling snail happiness for them.$1", // Day before the Stardew Fair
-"Core.JeremyTS.Fall.Day.26": "Tomorrow is the event where you humans make fools of yourselves by dressing up in strange outfits, no?#$b#Hopefully Trace does not get lost in a strange place this year...$2", // Day before Spirit's Eve
-"Core.JeremyTS.Fall.Day.28": "Tomorrow brings winter... Such a season is the antithesis to my homeland.$2#$b#You will not find many of my kind out and about. They shall all be hiding in the watery depths.",
+"Core.JeremyTSnail.Fall.Day.1": "Fall has arrived in the valley, it seems.#$b#Are you prepared to harvest apples for me? There will be consequences if I do not recieve my apples this season.$2#$b#I jest, I jest.$1", 
+"Core.JeremyTSnail.Fall.Day.15": "Trace is quite excited about that \"fair\" that will be taking place tomorrow.#$b#I am feeling snail happiness for them.$1", // Day before the Stardew Fair
+"Core.JeremyTSnail.Fall.Day.26": "Tomorrow is the event where you humans make fools of yourselves by dressing up in strange outfits, no?#$b#Hopefully Trace does not get lost in a strange place this year...$2", // Day before Spirit's Eve
+"Core.JeremyTSnail.Fall.Day.28": "Tomorrow brings winter... Such a season is the antithesis to my homeland.$2#$b#You will not find many of my kind out and about. They shall all be hiding in the watery depths.",
 
-"Core.JeremyTS.Winter.Day.1": "Winter has come... If you wish to find any of my brethren, you shall only find luck in trapping them in the waters.#$b#Bring them to me if found, my room is far more pleasant than the cold ponds.$2", 
-"Core.JeremyTS.Winter.Day.7": "Are you prepared for that strange fishing event of yours?#$b#I cannot phathom why humans would fill a pond with fish merely to remove everything within hours.$2#$b#Strange beasts you are.$3", // Day before the Ice Festival
-"Core.JeremyTS.Winter.Day.24": "Trace has been downcast these last several days. They never do well during the \"Winter Star\" season.#$b#They were hurt quite deeply by someone they held dear. It has stuck with them for years.$2", // Day before Winter Star
-"Core.JeremyTS.Winter.Day.28": "Tomorrow my kind shall resurface from the watery depths of the valley.#$b#Sigh.$2#$b#If you see them, bring them to me.",
+"Core.JeremyTSnail.Winter.Day.1": "Winter has come... If you wish to find any of my brethren, you shall only find luck in trapping them in the waters.#$b#Bring them to me if found, my room is far more pleasant than the cold ponds.$2", 
+"Core.JeremyTSnail.Winter.Day.7": "Are you prepared for that strange fishing event of yours?#$b#I cannot phathom why humans would fill a pond with fish merely to remove everything within hours.$2#$b#Strange beasts you are.$3", // Day before the Ice Festival
+"Core.JeremyTSnail.Winter.Day.24": "Trace has been downcast these last several days. They never do well during the \"Winter Star\" season.#$b#They were hurt quite deeply by someone they held dear. It has stuck with them for years.$2", // Day before Winter Star
+"Core.JeremyTSnail.Winter.Day.28": "Tomorrow my kind shall resurface from the watery depths of the valley.#$b#Sigh.$2#$b#If you see them, bring them to me.",
 
 //CFD
 "Core.JeremyTSnail.Dumpster": "$query HAS_SEEN_EVENT Current 112#Hm. Did you find any of my brethren inside that bin?$2#$b#If so, please bring them to me so I may inform them that such behavior is unsanitary.#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR_SFX.SnailCry|%As you lift the trash can lid, you feel Jeremy's eye stalks burn into your soul.#$action spacechase0.SpaceCore_PlaySound 7thAxis.DitR_SFX.SnailCry",

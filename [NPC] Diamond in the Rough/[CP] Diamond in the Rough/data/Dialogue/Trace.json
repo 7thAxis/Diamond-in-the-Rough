@@ -6,7 +6,8 @@
             "Target": "Characters/Dialogue/TraceV",
             "Entries": 	{ 
                 "{{WeekDay}}": "{{i18n:Core.TraceV.EarlyHeart.{{Random:{{Range: 1, 45}}}}}}"
-            }
+            },
+            "When": { "HasFlag |contains=DitR_M_TraceV_OverrideSeenToday": false }
         },
         /*{
             "LogName": "Trace Dialogue - 6-10",

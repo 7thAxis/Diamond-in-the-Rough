@@ -7,7 +7,7 @@
             "Target": "Data/Characters",
             "Entries": {
                 "JeremyTSnail": {
-                    "DisplayName": "{{i18n:Core.JeremyTS.Name}}",
+                    "DisplayName": "{{i18n:Core.JeremyTSnail.Name}}",
                     "BirthSeason": "summer",
                     "BirthDay": 28,
                     "HomeRegion": "Town",
@@ -65,7 +65,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "JeremyTSnail": "{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}//{{i18n:Core.JeremyTS.JeremyBetrayed}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items.VoidLavaSnail {{ModID}}_Items.VoidLavaSnailEgg {{ModID}}_Items.GoldenVoidLavaSnail {{ModID}}_Items.GoldenVoidLavaSnailEgg -20 729 768 {{ModID}}_Items.VoidLavaSnailMayonnaise {{ModID}}_Items.GoldenVoidLavaSnailMayonnaise tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss -7 -6 279 308 446 797/{{i18n:Core.JeremyTS.JeremyBetrayed}}//"
+                "JeremyTSnail": "{{i18n:Core.JeremyTSnail.JeremyBetrayed}}//{{i18n:Core.JeremyTSnail.JeremyBetrayed}}//{{i18n:Core.JeremyTSnail.JeremyBetrayed}}//{{i18n:Core.JeremyTSnail.JeremyBetrayed}}/82 260 340 396 420 456 457 613 769 829 851 MossSoup RiverJelly {{ModID}}_Items.VoidLavaSnail {{ModID}}_Items.VoidLavaSnailEgg {{ModID}}_Items.GoldenVoidLavaSnail {{ModID}}_Items.GoldenVoidLavaSnailEgg -20 729 768 {{ModID}}_Items.VoidLavaSnailMayonnaise {{ModID}}_Items.GoldenVoidLavaSnailMayonnaise tree_seed_item syrup_item -81 -80 -79 -75 -74 74 153 157 257 281 373 404 422 Moss -7 -6 279 308 446 797/{{i18n:Core.JeremyTSnail.JeremyBetrayed}}//"
             },
             "When": { "HasConversationTopic: |contains=DitR_CT_JeremyBetrayed": true } 
         },
