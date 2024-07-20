@@ -145,7 +145,7 @@
                 "{{ModID}}_TriggerActions.SenGardenTrigger": {
                     "Trigger": "DayEnding",
                     "Id": "DitR.TriggerActions.SenGardenTrigger",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.SenS.6h.P1, PLAYER_HAS_MAIL Current DitR_M_AGardenForSenComplete Received",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModID}}_Events.SenS.6h.P1, PLAYER_HAS_MAIL Current DitR_M_AGardenForSenComplete Received, !PLAYER_HAS_MAIL Current DitR_M_SenGardenTrigger Received",
                     "Actions": [
                         "AddConversationTopic DitR_CT_GardenWaitTime 3",
                         "AddMail Current DitR_M_SenGardenTrigger"

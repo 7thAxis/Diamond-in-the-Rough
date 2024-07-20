@@ -55,8 +55,8 @@
                     "Condition": "PLAYER_HAS_MAIL Current DitR_M_TraceBarbieGirl Any",
                     "Actions": [  "RemoveMail Current DitR_M_TraceBarbieGirl" ]
                 }
-        }
-    },
+            }
+        },
 //---------------------------- WARPS ------------------------------------------// 
         {
             "Action": "EditMap",

@@ -12,20 +12,6 @@
                     "Id": "{{ModID}}_TriggerActions.DitRDailyFlagRemovals",
                     "MarkActionApplied": false,
                     "Trigger": "DayEnding",
-                    "Condition": "Any \"PLAYER_HAS_MAIL Current DitR_M_EveT_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_TraceV_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_ClyricT_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_SenS_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_SkrellS_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_EbbS_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_DiamondS_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_WaffleW_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_PipoP_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_CowD_OverrideSeenToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any\"
-                    \"PLAYER_HAS_MAIL Current DitR_M_AcceptedVoidSnailQuestToday\"
-                    ",
-
                     "Actions": [
                         "RemoveMail Current DitR_M_EveT_OverrideSeenToday",
                         "RemoveMail Current DitR_M_TraceV_OverrideSeenToday",
@@ -84,6 +70,7 @@
         "LogName": "Sen Event and Flag Migration",
         "Action": "EditData",
         "Target": "Data/TriggerActions",
+        "Priority": "Early",
         "Entries": {
             "{{ModID}}_TriggerActions.SenEventMigration": {
                 "Id": "{{ModID}}_TriggerActions.SenEventMigration",
