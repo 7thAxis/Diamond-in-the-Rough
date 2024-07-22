@@ -407,7 +407,8 @@ CREDITS
         },
         {
             "Name": "SenOverrideDialogue",
-            "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}"
+            "Value": "{{Random:{{SSRD}} {{SSKD}} {{SSSD}}|key={{Query:{{Time}}+10}}|inputSeparator=++}}",
+            "When": { "SenOverrideConditions": "Active" }
         },
         //--TRACE OVERRIDE DIALOGUE GENERATION--
 
