@@ -327,7 +327,7 @@
 		},
 //---Schedule 11---//
 		{
-			"LogName": "Sen Schedule DeepDark+ES Wander 2",
+			"LogName": "Sen Schedule DeepDark+ES Wander 3",
 			"Action": "EditData",
 			"Target": "Characters/schedules/SenS",
 			"Entries": {
@@ -348,7 +348,7 @@
 		},
 //---Schedule 12---//
 		{
-			"LogName": "Sen Schedule DeepDark+ES Wander 2",
+			"LogName": "Sen Schedule Tunnel",
 			"Action": "EditData",
 			"Target": "Characters/schedules/SenS",
 			"Entries": {
