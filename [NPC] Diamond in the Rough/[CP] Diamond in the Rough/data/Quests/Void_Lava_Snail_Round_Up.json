@@ -62,22 +62,24 @@
                     "Trigger": "DayEnding",
                     "MarkActionApplied": false,
                     "Id": "{{ModID}}_TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckMain",
+                    "HostOnly": true,
                     "Condition": "PLAYER_HAS_MAIL Current DitR_M_VoidLavaSnailQuestCompletedToday Any, !PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "Actions": [ 
-                    "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
-                    "IncrementStat VoidLavaSnailsGiven 20" 
+                        "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
+                        "IncrementStat VoidLavaSnailsGiven 20" 
                 ]
                 },
                 "{{ModID}}_TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckPost": {
                     "Trigger": "DayEnding",
                     "MarkActionApplied": false,
+                    "HostOnly": true,
                     "Id": "{{ModID}}_TriggerActions.VoidLavaSnailRoundUp.CompletedTodayCheckPost",
                     "Condition": "PLAYER_HAS_MAIL Current DitR_M_VoidLavaSnailQuestCompletedToday Any, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "Actions": [ 
-                    "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
-                    "{{Random: AddMoney {{TodaysSnailRewardMoney}}++AddItem {{TodaysSnailRewardItem}}|inputSeparator=++|key=SnailQuestReward}}",
-                    "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Quests.DitR.VoidLavaSnailRoundUp.PostHUDMessage}}\" {{Random: (O)336++(O){{TodaysSnailRewardIcon}}|inputSeparator=++|key=SnailQuestReward}}", 
-                    "IncrementStat VoidLavaSnailsGiven 20" 
+                        "RemoveMail Current DitR_M_VoidLavaSnailQuestCompletedToday", 
+                        "{{Random: AddMoney {{TodaysSnailRewardMoney}}++AddItem {{TodaysSnailRewardItem}}|inputSeparator=++|key=SnailQuestReward}}",
+                        "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:Quests.DitR.VoidLavaSnailRoundUp.PostHUDMessage}}\" {{Random: (O)336++(O){{TodaysSnailRewardIcon}}|inputSeparator=++|key=SnailQuestReward}}", 
+                        "IncrementStat VoidLavaSnailsGiven 20" 
                 ]
                 },
 
