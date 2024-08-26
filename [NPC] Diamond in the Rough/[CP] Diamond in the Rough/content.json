@@ -2,10 +2,10 @@
 Welcome to the Content.json of Diamond in the Rough! Here you'll find the technical set-up stuff for my mod. 
 If you have any questions about how somethings works, feel free to reach out!
 
-CREDITS
+CREDITS - in  no particular order
     FellowClown - Created Eve's house and both Jeremy's portraits and overworld sprites. Also an amazing friend!
     DestyNova - Narrative design help and generally being awesome.
-    Chirps/Batty - Beta read and edited my dialogue! Always goofy and fun to hang out with.
+    Chirps/Batty - Beta read and edited early dialogue.
     Pooh - Advanced code help, C# to fix Jeremy's path-finding. I've learned so so so so much from her!!
     LemurKat - For being an amazing modmom and giving my babies a home!
     Tenebrous Nova - For a line of Eve dialogue on Spirits Eve in the inn! Too funny not to add.
@@ -16,14 +16,19 @@ CREDITS
     EnderTedi - For also enabling the Expired Mega Bomb along with Mads.
     Concerned Ape - For creating SDV and giving me a creative outlet!
     Flashshifter - For allowing the use of SVE's tilesheets. (Namely the ladder in Eve's house.)
-    Zane Little - Eve's theme from FMA. 
-        *(https://freemusicarchive.org/music/zane-little/a-bag-of-chips/the-world-is-ours/)
-    AlexMcCulloch - Jeremy's theme and Trace's House Theme from OGA. 
-        *(https://opengameart.org/content/weird-science)
-        *(https://opengameart.org/content/happy)
 
-    Also a special thanks to all my friends offering feedback and creative support:
-         JayJayDubs, Tiara, Hecate, Bagi
+MUSIC AND SFX CREDITS - Full credits with links + license info can be found in Assets/Audio/Audio_Credits.txt
+    Zane Little - Eve's theme and Skrell's theme
+    Alex McCulloch - Jeremy's theme, Ebb's Theme and Trace's House Theme
+    Komiku - Tracks currently unused but will be used
+    jorickhoofd - Waffle's bark
+    TRNGLE - Pipo's Meow
+
+Also a special thanks to all my friends offering feedback and creative support:
+    JayJayDubs
+    Tiara
+    Hecate
+    Bagi
 
     Love you all.<3
 */
