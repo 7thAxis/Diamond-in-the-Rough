@@ -632,7 +632,7 @@
             }
         },
         {
-            "LogName": "SkrellS Epilogue",
+            "LogName": "Skrell Epilogue",
             "Action": "EditData",
             "Target": "Data/Events/BusStop",
             "Entries": {
