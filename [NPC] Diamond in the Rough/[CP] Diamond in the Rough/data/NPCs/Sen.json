@@ -149,7 +149,7 @@
             "Action": "EditData",
             "Target": "Data/NPCGiftTastes",
             "Entries": {
-                "SenS": "{{i18n:Gifts.SenS.Love}}/book_item 72 108 124 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 874 {{ModID}}_Items.SensCrocus {{ModID}}_Items.UnluckyPurpleShorts sapphicsaph_pitv.PridePop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.TastyAceCookie stinkyvicki_CaveGrubDumplings stinkyvicki_RoastedBug stinkyvicki_SlimeEggSouffle stinkyvicki_SlimeJellySandwich stinkyvicki_SlimeTorte stinkyvicki_Slimeade DuchessIvy.ShadowRecipes_Void_Cake DuchessIvy.ShadowRecipes_Pumpkin_Bread DuchessIvy.ShadowRecipes_Black_Cherry_Flan DuchessIvy.ShadowRecipes_Pumpkin_Latte DuchessIvy.ShadowRecipes_Crystal_Float WWWA.GenuineAutograph Fellowclown.AND_Button/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905 WWWA.AutographedPhoto/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769 stinkyvicki_CaveBatTempura stinkyvicki_CheesyBatCasserole stinkyvicki_ExorcismSorbet stinkyvicki_MonsterMedleyStew stinkyvicki_PrehistoricOmelet stinkyvicki_RockCrabHotpot stinkyvicki_ShadowCoffee DuchessIvy.ShadowRecipes_Savory_Squid_Stew DuchessIvy.ShadowRecipes_Braised_Midnight_Carp/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873 stinkyvicki_BoiledStonefish DuchessIvy.ShadowRecipes_Spooky_Sushi DuchessIvy.ShadowRecipes_Void_Caviar_Toast/"
+                "SenS": "{{i18n:Gifts.SenS.Love}}/book_item 72 108 124 196 220 221 233 236 243 253 276 279 337 395 418 428 565 575 608 612 874 {{ModID}}_Items.SensCrocus {{ModID}}_Items.UnluckyPurpleShorts sapphicsaph_pitv.PridePop sapphicsaph_pitv.GaylacticCookie sapphicsaph_pitv.TastyAceCookie stinkyvicki_CaveGrubDumplings stinkyvicki_RoastedBug stinkyvicki_SlimeEggSouffle stinkyvicki_SlimeJellySandwich stinkyvicki_SlimeTorte stinkyvicki_Slimeade DuchessIvy.ShadowRecipes_Void_Cake DuchessIvy.ShadowRecipes_Pumpkin_Bread DuchessIvy.ShadowRecipes_Black_Cherry_Flan DuchessIvy.ShadowRecipes_Pumpkin_Latte DuchessIvy.ShadowRecipes_Crystal_Float WWWA.GenuineAutograph Fellowclown.AND_Button/{{i18n:Gifts.SenS.Like}}/food_sweet -80 74 156 203 208 211 223 234 238 245 308 340 376 440 444 478 604 610 611 651 721 724 731 766 773 795 814 904 905 WWWA.AutographedPhoto/{{i18n:Gifts.SenS.Dislike}}/-4 78 305 767/{{i18n:Gifts.SenS.Hate}}/96 97 98 99 121 122 248 554 772 769 stinkyvicki_CaveBatTempura stinkyvicki_CheesyBatCasserole stinkyvicki_ExorcismSorbet stinkyvicki_MonsterMedleyStew stinkyvicki_PrehistoricOmelet stinkyvicki_RockCrabHotpot stinkyvicki_ShadowCoffee DuchessIvy.ShadowRecipes_Savory_Squid_Stew DuchessIvy.ShadowRecipes_Braised_Midnight_Carp/{{i18n:Gifts.SenS.Neutral}}/-79 -75 -26 -20 -7 446 459 613 634 635 637 638 636 724 797 808 873 stinkyvicki_BoiledStonefish DuchessIvy.ShadowRecipes_Spooky_Sushi DuchessIvy.ShadowRecipes_Void_Caviar_Toast/"
             }
         },
         //---------------------------- SPRITES ------------------------------------------//
@@ -229,7 +229,7 @@
             }
         },
         {
-            "LogName": "Night Market Sprites", //Could possibly move to appearance, need to try again with immutable
+            "LogName": "Night Market Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
             "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Cloak.png",
@@ -239,7 +239,7 @@
             }
         },
         {
-            "LogName": "Birthday Sprites", //Could possibly move to appearance, need to try again with immutable
+            "LogName": "Birthday Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
             "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Bow.png",
@@ -249,7 +249,7 @@
             }
         },
         {
-            "LogName": "Festival of the Mundane Sprites", //Could possibly move to appearance, need to try again with immutable
+            "LogName": "Festival of the Mundane Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
             "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Bow.png",

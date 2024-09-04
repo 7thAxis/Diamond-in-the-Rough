@@ -91,7 +91,7 @@
                 "AcceptGift_category_gem": "{{i18n:Gifts.SenS.Cat.Gems}}",
                 "AcceptGift_category_junk": "{{i18n:Gifts.SenS.Cat.Trash}}",
 
-                //Specific Gift Response
+                //Specific Gift Response 
                 "AcceptGift_(O)418": "{{i18n:Gifts.SenS.Crocus}}",
                 "AcceptGift_(O)203": "{{i18n:Gifts.SenS.StrangeBun}}",
                 "AcceptGift_(O)308": "{{i18n:Gifts.SenS.VoidMayo}}",
@@ -114,6 +114,7 @@
                 "AcceptGift_(O)78": "{{i18n:Gifts.SenS.CaveCarrot}}",
                 "AcceptGift_(O)74": "{{i18n:Gifts.SenS.PrismaticShard}}",
                 "AcceptGift_(O)279": "{{i18n:Gifts.SenS.MagicRockCandy}}",
+                "AcceptGift_(O)196": "{{i18n:Gifts.SenS.Salad}}",
                 "AcceptGift_(O)236": "{{i18n:Gifts.SenS.PumpkinSoup}}",
                 "AcceptGift_(O)233": "{{i18n:Gifts.SenS.IceCream}}",
                 "AcceptGift_(O)221": "{{i18n:Gifts.SenS.Cake}}",
