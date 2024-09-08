@@ -232,7 +232,7 @@
             "LogName": "Night Market Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
-            "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Cloak.png",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Cloak.png",
             "When": {
                 "TodaysDate: |contains=winter 15, winter 16, winter 17": true,
                 "LivingWithSen": false
@@ -242,7 +242,7 @@
             "LogName": "Birthday Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
-            "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Bow.png",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Bow.png",
             "When": {
                 "TodaysDate: |contains=winter 13": true,
                 "LivingWithSen": false
@@ -252,7 +252,7 @@
             "LogName": "Festival of the Mundane Sprites", //Could possibly move to appearance, need to try again with immutable check
             "Action": "EditImage",
             "Target": "Portraits/SenS, Characters/SenS",
-            "FromFile": "assets/Images/{{TargetPathOnly}}/Sen_Bow.png",
+            "FromFile": "assets/{{TargetPathOnly}}/Sen/Sen_Bow.png",
             "When": {
                 "LocationName": "Sewer",
                 "TodaysDate: |contains=fall 27": true,

@@ -191,16 +191,16 @@
             "BaseChance": 1.0,
             "Items": [
                 {
-                    "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
-                    "Condition": "RANDOM 0.0005",
-                    "IsMegaSuccess": true,
-                    "RandomItemId": [  "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy" ]
-                },
-                {
                     "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnailEgg",
                     "Condition": "RANDOM 0.0004, PLAYER_HAS_MAIL Current DitR_M_SnailPhase5 Any",
                     "IsMegaSuccess": true,
                     "RandomItemId": [  "(O){{ModID}}_Items.GoldenVoidLavaSnailEgg" ]
+                },
+                {
+                    "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnailBuddy",
+                    "Condition": "RANDOM 0.0005",
+                    "IsMegaSuccess": true,
+                    "RandomItemId": [  "(H){{ModID}}_Hats_GoldenVoidLavaSnailBuddy" ]
                 },
                 {
                     "Id": "7thAxis.DitR_TrashCan.TraceV.GoldenVoidLavaSnail",
