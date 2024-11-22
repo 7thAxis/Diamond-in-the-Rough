@@ -49,8 +49,6 @@
                 "DitR.SpecialOrders.VoidLavaSnailRoundUp_Objective_1_Text": "{{i18n:Quests.DitR.VoidLavaSnailRoundUp.Task}}"
             }
         },
-        
-    //TRIGGER ACTIONS
         {
             "LogName": "Void Lava Snail Round-up flags for phases and daily completion check",
             "Action": "EditData",

@@ -36,7 +36,7 @@
 
                 //Bouquet
                 "RejectBouquet_Divorced": "{{i18n:Relationship.SenS.Rejection.Divorced}}",
-                "RejectBouquet": "{{i18n:Relationship.SenS.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",
+                "RejectBouquet": "{{i18n:Core.SenS.BouquetRejection.{{Random:{{Range: 1, 2}}}}}}",
                 "AcceptBouquet": "{{i18n:Relationship.SenS.BouquetAccept.{{Random:{{Range: 1, 2}}}}}}",
 
                 //Reject Pendant

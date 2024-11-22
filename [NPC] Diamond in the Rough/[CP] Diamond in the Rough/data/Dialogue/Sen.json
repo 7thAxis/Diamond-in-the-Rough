@@ -6,6 +6,7 @@
             "Target": "Characters/Dialogue/SenS",
             "Update": "OnLocationChange",
             "Entries": {
+                //"{{WeekDay}}": "{{i18n:System.TestingKey |Nick={{Sen Player Nickname}}}}"
                 "{{WeekDay}}": "{{i18n:Core.SenS.EarlyHeart.{{Random:{{Range: 1, 60}}}}{{SenRandTokens}}{{RelationshipTokens}}}}"
             },
             "When": { "HasFlag |contains=DitR_M_SenS_OverrideSeenToday": false }

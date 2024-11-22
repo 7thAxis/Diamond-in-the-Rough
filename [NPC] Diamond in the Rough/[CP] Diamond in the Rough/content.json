@@ -108,7 +108,7 @@ Also a special thanks to all my friends offering feedback and creative support:
             "Description": "Spawns visible Void Lava Snails in the Caldera to match in-game lore.",
             "Section": "Graphics"
         },
-    //PRONOUNS
+    //PRONOUNS AND IDENTIFIERS 
         "Player Pronouns 1": {
             "Default": "They",
             "AllowBlank": false,
@@ -138,7 +138,12 @@ Also a special thanks to all my friends offering feedback and creative support:
             "AllowBlank": false,
             "Description": "Would usually be \"is\" or \"are\", depending on context. (She IS so cool! VS. They ARE so cool!) You can enter multiple sets for randomized selection each day separated by ','. (Example: are, is)",
             "Section": "Pronouns"
-        }             
+        },
+        "Sen Player Nickname": {
+            "Default": "Starshine",
+            "AllowBlank": false,
+            "Description": "Sen's romantic nickname for the player."
+        }       
     },
  //---------------------------- DYNAMIC TOKENS ------------------------------------------//
     "DynamicTokens": [    
@@ -341,12 +346,8 @@ Also a special thanks to all my friends offering feedback and creative support:
             { "Name": "ETHasBOES", "Value": "" }, 
 
         {
-            "Name": "EveOverrideDayNumber",
-            "Value": "{{Random: {{Range: 1, 10}}|key=ETDO}}"
-        },
-        {
             "Name": "EveOverrideDay",
-            "Value": "{{Query: {{EveOverrideDayNumber}} = 1 }}"
+            "Value": "{{Query: {{Random: {{Range: 1, 10}}|key=ETDO}} = 1 }}"
         },
         {
             "Name": "EveOverrideConditions",
@@ -381,14 +382,9 @@ Also a special thanks to all my friends offering feedback and creative support:
             { "Name": "SSSD", "Value": "Empty" }, //Empty keeps SenOverrideDialogue from screaming abt being empty on disabled days
             { "Name": "SSRD",  "Value": "" },
             { "Name": "SSKD", "Value": "" },
-
-        {
-            "Name": "SenOverrideDayNumber",
-            "Value": "{{Random: {{Range: 1, 10}}|key=SSDO}}"
-        },
         {
             "Name": "SenOverrideDay",
-            "Value": "{{Query: {{SenOverrideDayNumber}} = 1 }}"
+            "Value": "{{Query: {{Random: {{Range: 1, 10}}|key=SSDO}} = 1 }}"
         },
         {
             "Name": "SenOverrideConditions",
@@ -408,7 +404,7 @@ Also a special thanks to all my friends offering feedback and creative support:
         {
             "Name": "SSKD",
             "Value": "{{i18n:Core.SenS.KrobusCommentary.{{Random:{{Range: 1, 4}}|key={{Time}}}}}}++",
-            "When": { "Relationship:Krobus": "Married, Dating, Engaged, Friendly, Divorced", "SenOverrideConditions": "Active"  }
+            "When": { "Relationship:Krobus: |contains=Unmet": false, "SenOverrideConditions": "Active"  }
         },
         {
             "Name": "SenOverrideDialogue",
@@ -422,12 +418,8 @@ Also a special thanks to all my friends offering feedback and creative support:
             { "Name": "TVSD", "Value": "Empty" }, //Empty keeps TraceOverrideDialogue from screaming abt being empty on disabled days
 
         {
-            "Name": "TraceOverrideDayNumber",
-            "Value": "{{Random: {{Range: 1, 10}}|key=TTDO}}"
-        },
-        {
             "Name": "TraceOverrideDay",
-            "Value": "{{Query: {{TraceOverrideDayNumber}} = 1 }}"
+            "Value": "{{Query: {{Random: {{Range: 1, 10}}|key=TTDO}} = 1 }}"
         },
         {
             "Name": "TraceOverrideConditions",

@@ -10,7 +10,11 @@
 ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║
 ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝
  ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝  */
+
 //Configs
+
+"Config.TestingKey": "This is where I put weird dialogue stuff I'm testing.",
+
 "Config.section.Gameplay.name": "Gameplay",
 "Config.section.Graphics.name": "Graphics",
 "Config.section.Pronouns.name": "Pronouns",
@@ -1159,7 +1163,7 @@
 "Core.EbbS.LateHeart.2": "I was really surprised to find out that Krobus was still alive.$u#$b#One day he just up and vanished during a scuffle in the mines.$s#$e#I am happy he and Sen are such good friends now.$7",
 "Core.EbbS.LateHeart.3": "Humans are odd creatures...$6#$b#Why does your kind drink white fluid that comes from 'cows'?9#$e#I guess eating bugs is similarly strange in the eyes of your kind.$8",
 "Core.EbbS.LateHeart.4": "One of my favorite pass times is to collect pretty gems.#$b#I have a massive collection of diamonds and rubies.$h#$e#Would you like to see sometime, human friend?$7",
-"Core.EbbS.LateHeart.5": "I wonder what is under the  helmets of metal heads.$u#$b#It is a question that has plagued Shadowfolk for centuries.#$e#Maybe it is best we never find out. The mystery is part of the fun.$h",
+"Core.EbbS.LateHeart.5": "I wonder what is under the helmets of metal heads.$u#$b#It is a question that has plagued Shadowfolk for centuries.#$e#Maybe it is best we never find out. The mystery is part of the fun.$h",
 "Core.EbbS.LateHeart.6": "We don't have a concept of 'seasons' in the mines.#$b#The environment seldom changes.#$b#Which is good for us because our bodies prefer a specific level of humidity that the caverns provide year-round.$h",
 "Core.EbbS.LateHeart.7": "Skrell and I have been close since our youth.$l#$b#We have been through thick and thin together!$7#$e#He might be a big grouch, but I would not give up our bond for the world.$l",
 "Core.EbbS.LateHeart.8": "Sen has been telling me about his 'trash picking' hobby.#$b#I do not see the appeal of going through human waste products, but I am glad he's happy.$h#$e#I just hope he doesn't make himself sick...$s",
@@ -1259,7 +1263,7 @@
 "Core.TraceV.EarlyHeart.16": "I'm not allowed to drive vehicles anymore.#$b#Not after... the highway egg incident.$6#$b#No, I ain't elaborating.$a",
 "Core.TraceV.EarlyHeart.17": "Did you hear the news about the %adj %noun in %place?$u#$e#You haven't!? How?$u#$b#Have you been sleeping under a rock? You should really keep up with the news, farmer!$6",
 "Core.TraceV.EarlyHeart.18": "Never do cartwheels under a full moon.#$b#I'm telling you, it's bad luck.$6#$e#Where'd I get that idea from?$h#$b#Personal experience, trust me.$a",
-"Core.TraceV.EarlyHeart.19": "I'll need flour, oat milk, bananas...$ll#$e#Oh hey, @. Didn't see you there!$l#$b#Don't mind me, just working on a shopping list. I'm are gonna make some banana bread.$11",
+"Core.TraceV.EarlyHeart.19": "I'll need flour, oat milk, bananas...$ll#$e#Oh hey, @. Didn't see you there!$l#$b#Don't mind me, just working on a shopping list. I'm gonna make some banana bread.$11",
 "Core.TraceV.EarlyHeart.20": "Howzit going, farmer?$h#$b#Any wacky stuff like crop circles or cow abductions happen on your farm lately?$8",
 "Core.TraceV.EarlyHeart.21": "I needa retune my guitar. It's starting to sound a bit funky.$6#$e#I wonder if that Sam kid would be down to play together sometime?$l",
 "Core.TraceV.EarlyHeart.22": "Hmm... What color to paint my nails today...#$b#Black, red, black and red swirled, black with glitter, red with glitter...$11#$b#Man, farmer. There are way too many complicated choices to make in life.$l",
@@ -1268,7 +1272,7 @@
 "Core.TraceV.EarlyHeart.25": "It's been a minute since I last wrote up a new song.#$b#Maybe something about the %adj %noun?$8#$b#Yeah, that'll probably make a smash hit.$11",
 "Core.TraceV.EarlyHeart.26": "I could chug an ENTIRE liter of soda right now.$h#$b#I'd probably destroy my stomach lining though, so I won't.$6",
 "Core.TraceV.EarlyHeart.27": "My fashion sense may be a little weird, but I love it. I don't care what anyone thinks.$h#$b#When it comes to what makes me happy, the only person who's opinion matters is my own.$l",
-"Core.TraceV.EarlyHeart.28": "If you ever hear rustling in bins at night, it definitely ain't my doing.$h#$b#It's probably just some raccoon or a trash goblin.$l$u#$e#That's the whole truth and I'm sticking to it.$h",
+"Core.TraceV.EarlyHeart.28": "If you ever hear rustling in bins at night, it definitely ain't my doing.$h#$b#It's probably just some raccoon or a trash goblin.$u#$e#That's the whole truth and I'm sticking to it.$h",
 "Core.TraceV.EarlyHeart.29": "Have you noticed the lack of toilets in this town? It's... really weird.$a#$b#Please tell me you have a toilet.$u#$e#Wait... I don't even have a toilet!$u",
 "Core.TraceV.EarlyHeart.30": "Sometimes I get lost trying to find my way back to the Scarp. Last time I ended up in the mountains.#$b#When I saw some weird goats, I figured it was time to call Rosa.$6",
 "Core.TraceV.EarlyHeart.31": "Is it East 'Scarp' or East 'Scarpe'? I've seen conflicting answers.$6#$b#Eh, I'll go pester Rosa about it later.$l",
@@ -2397,7 +2401,7 @@
 
  //---------------------------- FAKE NPCS ------------------------------------------//
 //Fake NPCs
-"Maps.FakeNPCs.CoffeeMakerKun": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You advert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
+"Maps.FakeNPCs.CoffeeMakerKun": "$query !PLAYER_HAS_MAIL Current DitR_M_GotTraceCoffeeToday Any#$action AddMail Current DitR_M_GotTraceCoffeeToday received#$b#%Looks like Trace brewed coffee recently! It's appears to be \"Doom Desire\" brand.#$y 'Grab a cup?_Grab that coffee!_%You grab a fresh hot cup of \"Doom Desire\" brand coffee![(O)395 (O)395 (O)253]_No coffee for me today._%You avert your gaze from the \"Doom Desire\" brand coffee. It's just too strong. Distraught, the coffee gets up and walks away.'|%The \"Doom Desire\" brand coffee is gone. Come back tomorrow!",
 
  //---------------------------- NPC MAP STRINGS ------------------------------------------//
 
@@ -2539,7 +2543,7 @@
 "Maps.TraceV.TraceVHPlant2": "A healthy, happy tropical plant. It practically beams at you!", // Default tropical
 "Maps.TraceV.TraceVHPlant3": "The plant ponders why Trace paints the same thing over and over again...", // Art room corner
 "Maps.TraceV.TraceVHPlant4": "When you look away from the plant, it starts dancing. It stops as soon as you look back.",  // Hallway
-"Maps.TraceV.TraceVHPlant5.False": "This plant will one-day be inaccessable. Please, cherish it while it lasts.", // Behind bowls
+"Maps.TraceV.TraceVHPlant5.False": "This plant will one day be inaccessible. Please, cherish it while it lasts.", // Behind bowls
 "Maps.TraceV.TraceVHPlant5.True": "You find a note in the pot...#$b#\"Plant angry!! Plant know you a cheater!!\"", // Behind bowls
 "Maps.TraceV.TraceVHPlantLeft": "There's a note in the pot...#\"Left plant is guarding the counter! Left plant best guard!\"", // Guards!
 "Maps.TraceV.TraceVHPlantRight": "There's a note in the pot...#\"Right plant is defending the stools! Right plant best defender!\"", // Guards!
@@ -3023,7 +3027,7 @@
 "Relationship.SenS.SpouseRoom.Romantic.4": "Oh hello, starshine! Would you like to do something together today?$h#$b#Maybe we could take a walk, watch a \"television movie\" or cook a nice meal?$h#$e#I'm all ears for suggestions. Anything we do together would be just lovely.$l",
 
 //Fun Leave
-"Relationship.SenS.FunLeave.Platonic.1": "I'm going for a little walk. Care you join me?$h#$e#I always welcome the company.$l",
+"Relationship.SenS.FunLeave.Platonic.1": "I'm going for a little walk. Care you join me?$h#$b#I always welcome the company.$l",
 "Relationship.SenS.FunLeave.Platonic.2": "It can be a tad tricky sneaking by folks in town.$2#$b#Perhaps I should start wearing my cloak more often...$8",
 "Relationship.SenS.FunLeave.Platonic.3": "Time for a little outdoors adventure!$h#$b#Don't worry, I'll try not to stay out too late.$l",
 "Relationship.SenS.FunLeave.Platonic.4": "Off I go, out into the great outdoors!$h#$b#I'll be sure not to snack on any crops I pass.$12",
@@ -3165,7 +3169,7 @@
 "Relationship.SenS.Positive.8.Platonic": "Do you know how much I cherish you as my best friend?$h#$b#More that the world itself!$h#$e#Never stop being you, @.$h",
 "Relationship.SenS.Positive.8.Romantic": "I call you my starshine because you are the light that brightens my night sky...$l#$b#Never stop glowing, my love.$l",
 "Relationship.SenS.Positive.9.Platonic": "You want to know what makes you so amazing?$h#$b#You never give up, even in the face of adversity!$h#$e#I feel like that's a trait we both share.$h",
-"Relationship.SenS.Positive.9.Romantic": "My starshine, my sweet starshine.You are my world, my everything.$l#$b#I don't know what I would do without you.$l#$e#Let's not think about that last part!$8",
+"Relationship.SenS.Positive.9.Romantic": "My starshine, my sweet starshine. You are my world, my everything.$l#$b#I don't know what I would do without you.$l#$e#Let's not think about that last part!$8",
 "Relationship.SenS.Positive.10.Platonic": "Hello @! Would you like to hang out and do something today?$h#$b#I found a boardgame in the trash we can play.$h#$e#It's missing a few pieces but I think we can make it work.$8",
 "Relationship.SenS.Positive.10.Romantic": "Hello my starshine.~ Would you like to spend some time together today?$l#$b#We can cuddle on the couch and watch romantic comedies on the 'TV'.$h#$b#While you were working on the farm I watched one about a bear in love with a bottle of maple syrup.$h",
 
